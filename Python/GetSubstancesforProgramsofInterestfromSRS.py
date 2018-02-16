@@ -20,7 +20,12 @@ fieldstokeep = ['epaName', 'systematicName', 'currentCasNumber', 'internalTracki
                 'substanceType']
 alllistsdf = pd.DataFrame(columns=fieldstokeep)
 alllistsdf['program_acronym'] = None
+alllistsdf['srs_link'] = None
 #also add in a field to identify the df
+
+
+#SRS  substance URL
+srs_url = 'https://iaspub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId='
 
 #Loop through, return the list, convert to df, select fields of interest, identify list, write to existing df
 for p in programlists:
@@ -28,8 +33,9 @@ for p in programlists:
     programlistjson = requests.get(url).json()
     programlistdf = pd.DataFrame(programlistjson)
     # See first ten
-    #programlistdf.head(10)
+    programlistdf.head(10)
     programlistdf = programlistdf[fieldstokeep]
+    programlistdf['srs_link'] = srs_url + programlistdf['subsKey']
     programlistdf.loc[:,'program_acronym'] = p
     alllistsdf = pd.concat([alllistsdf,programlistdf],ignore_index=True)
 
