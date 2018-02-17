@@ -1,7 +1,8 @@
 #Assemble pieces to generate the elementary flow list
 
 import pandas as pd
-import GenerateUUID
+import iomb.util
+
 #Import by flow type
 #chemicals = pd.read_csv('Data/Chemicals.csv')
 ##minerals = pd.read_csv('Data/Minerals.csv')
@@ -17,7 +18,7 @@ flows['uuid'] = None
 #Loop through flows generating UUID for each
 flowids = []
 for index,row in flows.iterrows():
-        flowid  = GenerateUUID.fromFlowableContextUnit(row['flowable'], row['context'], row['unit'])
+        flowid = iomb.util.make_uuid(row['flowable'], row['context'], row['unit'])
         print(flowid)
         flowids.append(flowid)
 flows['uuid'] = flowids
