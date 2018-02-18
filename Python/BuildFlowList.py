@@ -2,6 +2,7 @@
 
 import pandas as pd
 import iomb.util
+#import GenerateUUID  ## Alternative to dependency on IOMB
 
 #Import by flow type
 #chemicals = pd.read_csv('Data/Chemicals.csv')
@@ -19,9 +20,13 @@ flows['uuid'] = None
 flowids = []
 for index,row in flows.iterrows():
         flowid = iomb.util.make_uuid(row['flowable'], row['context'], row['unit'])
+        #flowid = GenerateUUID.fromFlowableContextUnit(row['flowable'], row['context'], row['unit'])
         print(flowid)
         flowids.append(flowid)
 flows['uuid'] = flowids
 
+
+#TO DOs
+#Implement standaridize list fields
 
 
