@@ -31,10 +31,14 @@ for index,row in flows.iterrows():
         flowids.append(flowid)
 flows['uuid'] = flowids
 
+#Merge with contexts to get context UUID here?
+Context = pd.read_pickle('./output/Context')
+#flowswithcontext = pd.merge(flows,Context,left_on=['Flow Directionality, Flow Compartment'],right_on=['Directionality, Compartment'])
+
 
 #TO DOs
 #Implement standaridize list fields
-#Generate a compartment list and save to pickle
+#Add all data links
 
 #Save it to csv
 flows.to_csv('./output/ElementaryFlows.csv',index=False)
