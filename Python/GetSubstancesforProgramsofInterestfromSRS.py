@@ -40,6 +40,14 @@ for p in programlists:
     alllistsdf = pd.concat([alllistsdf,programlistdf],ignore_index=True)
 
 
-#Write final list to csv
+#Filter out non-chemicals
+alllistsdf = alllistsdf[alllistsdf['substanceType']=='Chemical Substance']
+
+#TO DO
+#Check this list against LCI-primer output for these sources (where applicable) to see if this is complete
+#Need to determine compartments for flows
+
+#Write final list to pickle and csv
+pd.to_pickle(alllistsdf,'./output/SubstancesfromSRSbyProgram')
 alllistsdf.to_csv('SubstancesfromSRSbyProgram.csv', index=False)
 
