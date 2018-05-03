@@ -1,0 +1,7 @@
+﻿Directionality,Compartment
+Resource,Air
+Resource,Ground
+Resource,Water
+Emission,Air
+Emission,Ground
+Emission,Water
