@@ -1,9 +1,0 @@
-,,,,Flow Descriptors,,,Flow Property,,Flow context,,Flow identifier,,,,,Flow General Information,,,
-No,Type,Substance,Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Flow directionality,Flow compartment,"UUID, Flowable ","UUID, Flow directionality","UUID, Flow compartment","UUID, Flow Property","UUID, Flow Unit",Description,Version,Last updated,Vocabulary Link
-1,Energy,,Solar,,,,Energy,MJ,Resource,Air,,,,,,,,,
-2,Energy,,Wind,,,,Energy,MJ,Resource,Air,,,,,,,,,
-3,Energy,,Geothermal,,,,Energy,MJ,Resource,Ground,,,,,,,,,
-4,Energy,,Hydro,,,,Energy,MJ,Resource,Water,,,,,,,,,
-5,Energy,,Electromagnetic radiation,,,,Energy,MJ,Resource,Air,,,,,,,,,
-6,Energy,,"Hydro, wave",,,,Energy,MJ,Resource,Water,,,,,,,,,
-7,Energy,,"Hydro, tidal",,,,Energy,MJ,Resource,Water,,,,,,,,,
