@@ -1,4 +1,4 @@
-Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
+﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
 Solar,,,,Energy,MJ,resource,air,,
 Wind,,,,Energy,MJ,resource,air,,
 Geothermal,,,,Energy,MJ,resource,ground,,

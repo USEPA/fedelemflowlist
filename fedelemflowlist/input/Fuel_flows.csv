@@ -1,4 +1,4 @@
-Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
+﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
 Crude oil,,,,Mass,kg,resource,ground,,
 Anthracite,,,,Mass,kg,resource,ground,,
 Lignite,,,,Mass,kg,resource,ground,,
@@ -12,4 +12,4 @@ Tight gas,,,,Mass,kg,resource,air,,
 Shale gas,,,,Mass,kg,resource,air,,
 Coalbed methane,,,,Mass,kg,resource,air,,
 Bituminous,,,,Mass,kg,resource,ground,,
-Natrual gas,,,,Mass,kg,resource,air,,
+Natural gas,,,,Mass,kg,resource,air,,
