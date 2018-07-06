@@ -48,7 +48,7 @@ from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 write_flow_list_to_jsonld(flowswithcontextandunitdata)
 
 #Save it to csv
-flowswithcontextandunitdata.to_csv(outputpath + list_version_no + '.csv',index=False)
+flowswithcontextandunitdata.to_csv(outputpath + 'FedElemFlowList_' + list_version_no + '.csv',index=False)
 
 #Save to pickle
 #pd.to_pickle(flows,'./output/ElementaryFlowList')

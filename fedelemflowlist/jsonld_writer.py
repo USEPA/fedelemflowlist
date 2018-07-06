@@ -9,7 +9,7 @@ import time
 from fedelemflowlist.globals import outputpath,list_version_no
 
 def write_flow_list_to_jsonld(elemflowlist):
-    zip_file = outputpath + 'Flows_' + list_version_no + '_json-ld.zip'
+    zip_file = outputpath + 'FedElemFlowList_' + list_version_no + '_json-ld.zip'
     pack = zipf.ZipFile(zip_file, mode='a', compression=zipf.ZIP_DEFLATED)
     #loop through rows, writing each elementary flow to the pack
     for index, row in elemflowlist.iterrows():
