@@ -1,0 +1,22 @@
+Flowable,CAS No,Formula,Synonyms,Flow quality,Unit,Directionality,Compartment,External reference,Preferred,Flow UUID,Context UUID,Unit UUID,Quality UUID
+Solar,,,,Energy,MJ,resource,air,,,e632a990-ba59-353b-a38f-3fa70355ee81,e7b7e67a-d040-3cc3-8047-d7f7f4599214,52765a6c-3896-43c2-b2f4-c679acf13efe,f6811440-ee37-11de-8a39-0800200c9a66
+Wind,,,,Energy,MJ,resource,air,,,61553753-44ea-3dcc-ade2-d2d098c0c0fe,e7b7e67a-d040-3cc3-8047-d7f7f4599214,52765a6c-3896-43c2-b2f4-c679acf13efe,f6811440-ee37-11de-8a39-0800200c9a66
+Electromagnetic radiation,,,,Energy,MJ,resource,air,,,3cdde574-9159-3c43-821d-fcdfd0e1a1c4,e7b7e67a-d040-3cc3-8047-d7f7f4599214,52765a6c-3896-43c2-b2f4-c679acf13efe,f6811440-ee37-11de-8a39-0800200c9a66
+Tight gas,,,,Mass,kg,resource,air,,,1c1e3d33-6bde-37fe-944d-68b0eb8d626d,e7b7e67a-d040-3cc3-8047-d7f7f4599214,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Shale gas,,,,Mass,kg,resource,air,,,5ceaf810-7d40-32d5-9bdb-1fca1013933b,e7b7e67a-d040-3cc3-8047-d7f7f4599214,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Coalbed methane,,,,Mass,kg,resource,air,,,9c3efe79-9e3d-3b1e-a1b4-aaa047966d2c,e7b7e67a-d040-3cc3-8047-d7f7f4599214,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Natural gas,,,,Mass,kg,resource,air,,,89e387db-3169-393d-8f56-f196b73ca993,e7b7e67a-d040-3cc3-8047-d7f7f4599214,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Geothermal,,,,Energy,MJ,resource,ground,,,cd81ec46-aa73-3888-85cc-509fc32e3905,2d0430aa-7d05-3447-b37e-f0365e6428f0,52765a6c-3896-43c2-b2f4-c679acf13efe,f6811440-ee37-11de-8a39-0800200c9a66
+Crude oil,,,,Mass,kg,resource,ground,,,fa9f8d7e-405f-3b5e-820c-fb5dfe37aae8,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Anthracite,,,,Mass,kg,resource,ground,,,3faec501-7c11-3dda-995a-3b99da90f431,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Lignite,,,,Mass,kg,resource,ground,,,724e898b-646b-3240-a055-e665f9191c4e,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Uranium,,,,Mass,kg,resource,ground,,,4f2c5df5-ae6a-3bbb-96b4-6f7106c97a4d,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Peat,,,,Mass,kg,resource,ground,,,e7b3f602-d893-3d8c-9ae2-fc6887672c97,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Oil sand,,,,Mass,kg,resource,ground,,,455c8f72-7809-3163-8cf7-d0e15960662c,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Oil shale,,,,Mass,kg,resource,ground,,,13a73358-cd57-3deb-ae19-d61265dd2ec6,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Soft wood,,,,Mass,kg,resource,ground,,,f7ced338-0c7f-3887-b3bb-e117f7193893,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Hard wood,,,,Mass,kg,resource,ground,,,49c1c380-a510-30e6-b8b8-290ec6b0f04d,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Bituminous,,,,Mass,kg,resource,ground,,,52c0bfd5-f26d-3003-a639-397e8231a815,2d0430aa-7d05-3447-b37e-f0365e6428f0,20aadc24-a391-41cf-b340-3e4529f44bde,93a60a56-a3c8-11da-a746-0800200b9a66
+Hydro,,,,Energy,MJ,resource,water,,,839ee084-9389-3f9d-8f67-2fad076498e6,853f1552-f4a6-3dfc-98a9-34ff867b77b3,52765a6c-3896-43c2-b2f4-c679acf13efe,f6811440-ee37-11de-8a39-0800200c9a66
+"Hydro, wave",,,,Energy,MJ,resource,water,,,e800c6a2-7384-3b50-a1ac-f78d0503cb0e,853f1552-f4a6-3dfc-98a9-34ff867b77b3,52765a6c-3896-43c2-b2f4-c679acf13efe,f6811440-ee37-11de-8a39-0800200c9a66
+"Hydro, tidal",,,,Energy,MJ,resource,water,,,594434de-7923-364a-9484-fd7f3725741c,853f1552-f4a6-3dfc-98a9-34ff867b77b3,52765a6c-3896-43c2-b2f4-c679acf13efe,f6811440-ee37-11de-8a39-0800200c9a66
