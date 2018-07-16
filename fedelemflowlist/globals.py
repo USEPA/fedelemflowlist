@@ -7,4 +7,4 @@ context_fields = ['Directionality','Compartment']
 
 list_version_no = '0.1a' #a = alpha, b = beta
 
-flow_types = ['Energy','Fuel']
+flow_types = {'Energy':'resource','Fuel':'resource','Chemical':'emission'}

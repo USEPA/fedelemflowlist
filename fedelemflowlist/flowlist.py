@@ -7,7 +7,7 @@ from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_ty
 #Later can loop through by defined type
 
 flows = pd.DataFrame()
-for t in flow_types:
+for t in list(flow_types.keys()):
       input_flows_for_type = pd.read_csv(inputpath + t + '_flows.csv',header=0)
       flows = pd.concat([flows,input_flows_for_type])
 
