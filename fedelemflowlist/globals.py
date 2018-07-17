@@ -5,6 +5,8 @@ outputpath = 'fedelemflowlist/output/'
 
 context_fields = ['Directionality','Compartment']
 
-list_version_no = '0.1a' #a = alpha, b = beta
+list_version_no = '0.1' #a = alpha, b = beta
 
-flow_types = {'Energy':'resource','Fuel':'resource','Chemical':'emission'}
+flow_types = {'Energy':'resource','Fuel':'resource'}
+
+              #,'Chemical':'emission'}
