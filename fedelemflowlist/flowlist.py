@@ -8,6 +8,8 @@ for t in list(flow_types.keys()):
       input_flows_for_type = pd.read_csv(inputpath + t + '_flows.csv',header=0)
       flows = pd.concat([flows,input_flows_for_type])
 
+flows = flows.fillna(value="")
+
 from fedelemflowlist.uuid_generators import generate_flow_uuid
 #Loop through flows generating UUID for each
 flowids = []
