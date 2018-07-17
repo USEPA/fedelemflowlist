@@ -2,7 +2,6 @@
 #For now this does not pack olca unit groups and flows properties, but just links to the relevant flow properties in the current olca data
 
 import json
-import logging as log
 import zipfile as zipf
 import pandas as pd
 import os
@@ -67,13 +66,14 @@ def write_flow_list_to_jsonld(elemflowlist,contexts):
 def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
     unit = flow['Unit']
     if unit is None:
-        log.error('unknown unit %s in flow %s')
+        print('unknown unit %s in flow %s')
     f = {
         "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
         "@type": "Flow",
         "@id": flow['Flow UUID'],
         "name": flow['Flowable'],
         "cas": flow['CAS No'],
+        "formula": flow['Formula'],
         "version": list_version_no,
         #Need to  determine time
         #"lastChange": time.time()
@@ -85,31 +85,36 @@ def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
         "flowProperties": [{
             "@type": "FlowPropertyFactor",
             "referenceFlowProperty": True,
-            "conversionFactor": 1.0,
             "flowProperty": {
                 "@type": "FlowProperty",
                 "name": flow['Flow quality'],
-                "@id": flow["Quality UUID"]}
-            }]}
+                "@id": flow["Quality UUID"]},
+            "conversionFactor": 1.0
+            }]
+    }
     dump(f, 'flows', pack)
 
 def write_compartment_categories(category,pack):
     #loop through contexts to create context for compartments
     c = {
-        "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
-        "@type": "Category",
-        "@id": category['Compartment UUID'],
-        "name": category["Compartment"],
-        "modelType": "FLOW"
-     }
+            "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
+            "@type": "Category",
+            "@id": category['Compartment UUID'],
+            "name": category["Compartment"],
+            "modelType": "FLOW"
+        }
     if category["Directionality"]=="resource":
-        c["category"] =  {"@type": "Category",
-                          "@id": resource_flow_category["@id"],
-                           "name": resource_flow_category["name"]}
+        c["category"] = {
+            "@type": "Category",
+            "@id": resource_flow_category["@id"],
+            "name": resource_flow_category["name"]
+        }
     elif category["Directionality"]=="emission":
-        c["category"] = {"@type": "Category",
-                         "@id": emission_flow_category["@id"],
-                         "name": emission_flow_category["name"]}
+        c["category"] = {
+            "@type": "Category",
+            "@id": emission_flow_category["@id"],
+            "name": emission_flow_category["name"]
+        }
     dump(c,'categories',pack)
 
 def write_directionality_categories(pack):
