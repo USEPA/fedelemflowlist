@@ -1,11 +1,8 @@
 #Assemble pieces to generate the elementary flow list
 import pandas as pd
-import iomb.util
 from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields
 
 #Import by flow type
-#Later can loop through by defined type
-
 flows = pd.DataFrame()
 for t in list(flow_types.keys()):
       input_flows_for_type = pd.read_csv(inputpath + t + '_flows.csv',header=0)
@@ -28,7 +25,7 @@ contextids=[]
 for index,row in contexts.iterrows():
         contextid = generate_context_uuid(row[context_fields[0]], row[context_fields[1]])
         contextids.append(contextid)
-contexts['Context UUID'] = contextids
+contexts['Compartment UUID'] = contextids
 
 #Merge back in with flow list
 flowswithcontext = pd.merge(flows,contexts,on=context_fields)
