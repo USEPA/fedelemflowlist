@@ -42,9 +42,9 @@ emission_flow_category = {"@context":"http://greendelta.github.io/olca-schema/co
                           "@type":"Category",
                           "@id":"c2433915-9ca3-3933-a64d-68d67e3e3281",
                           "name":"emission",
-                          "category": {"@type": "Category",
-                                       "@id": "f318fa60-bae9-361f-ad5a-5066a0e2a9d1",
-                                       "name": "Elementary flows"},
+                          "category":{"@type": "Category",
+                                      "@id": "f318fa60-bae9-361f-ad5a-5066a0e2a9d1",
+                                      "name": "Elementary flows"},
                           "modelType":"FLOW"}
 
 def write_flow_list_to_jsonld(elemflowlist,contexts):
@@ -68,21 +68,21 @@ def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
     if unit is None:
         print('unknown unit %s in flow %s')
     f = {
-        "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
-        "@type": "Flow",
-        "@id": flow['Flow UUID'],
-        "name": flow['Flowable'],
-        "cas": flow['CAS No'],
-        "formula": flow['Formula'],
-        "version": list_version_no,
+        "@context":"http://greendelta.github.io/olca-schema/context.jsonld",
+        "@type":"Flow",
+        "@id":flow['Flow UUID'],
+        "name":flow['Flowable'],
+        "cas":flow['CAS No'],
+        "formula":flow['Formula'],
+        "version":list_version_no,
         #Need to  determine time
         #"lastChange": time.time()
         #Category
-        "category:": {"@type":"Category",
-                      "@id": flow["Compartment UUID"],
-                      "name": flow["Compartment"]},
-        "flowType": "ELEMENTARY_FLOW",
-        "flowProperties": [{
+        "category:":{"@type":"Category",
+                     "@id": flow["Compartment UUID"],
+                     "name": flow["Compartment"]},
+        "flowType":"ELEMENTARY_FLOW",
+        "flowProperties":[{
             "@type": "FlowPropertyFactor",
             "referenceFlowProperty": True,
             "flowProperty": {
@@ -97,23 +97,23 @@ def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
 def write_compartment_categories(category,pack):
     #loop through contexts to create context for compartments
     c = {
-            "@context": "http://greendelta.github.io/olca-schema/context.jsonld",
-            "@type": "Category",
-            "@id": category['Compartment UUID'],
-            "name": category["Compartment"],
-            "modelType": "FLOW"
+            "@context":"http://greendelta.github.io/olca-schema/context.jsonld",
+            "@type":"Category",
+            "@id":category['Compartment UUID'],
+            "name":category["Compartment"],
+            "modelType":"FLOW"
         }
     if category["Directionality"]=="resource":
-        c["category"] = {
-            "@type": "Category",
-            "@id": resource_flow_category["@id"],
-            "name": resource_flow_category["name"]
+        c["category"] ={
+            "@type":"Category",
+            "@id":resource_flow_category["@id"],
+            "name":resource_flow_category["name"]
         }
     elif category["Directionality"]=="emission":
-        c["category"] = {
-            "@type": "Category",
-            "@id": emission_flow_category["@id"],
-            "name": emission_flow_category["name"]
+        c["category"] ={
+            "@type":"Category",
+            "@id":emission_flow_category["@id"],
+            "name":emission_flow_category["name"]
         }
     dump(c,'categories',pack)
 
