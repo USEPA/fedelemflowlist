@@ -78,7 +78,7 @@ def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
         #Need to  determine time
         #"lastChange": time.time()
         #Category
-        "category:":{"@type":"Category",
+        "category":{"@type":"Category",
                      "@id": flow["Compartment UUID"],
                      "name": flow["Compartment"]},
         "flowType":"ELEMENTARY_FLOW",
