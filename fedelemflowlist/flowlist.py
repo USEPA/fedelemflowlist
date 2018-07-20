@@ -1,7 +1,7 @@
 #Assemble pieces to generate the elementary flow list
 import pandas as pd
 from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields
-from fedelemflowlist.uuid_generators import generate_context_uuid
+from fedelemflowlist.uuid_generators import generate_flow_uuid,generate_context_uuid
 from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 
 #Import by flow type
@@ -14,11 +14,16 @@ for t in flow_types:
       flows = pd.concat([flows,input_flows_for_type])
 flows = flows.fillna(value="")
 
-from fedelemflowlist.uuid_generators import generate_flow_uuid
+#Make directionality lowercase for now if not:
+def convert_to_lower(x):
+    x = str(x)
+    x = str.lower(x)
+    return x
+flows["Directionality"] = [convert_to_lower(x) for x in flows["Directionality"]]
+
 #Loop through flows generating UUID for each
 flowids = []
 for index,row in flows.iterrows():
-        #flowid = iomb.util.make_uuid(row['Flowable'],row['Flow directionality'], row['Flow compartment'], row['Unit'])
         flowid = generate_flow_uuid(row['Flowable'],row[context_fields[0]], row[context_fields[1]], row['Unit'])
         flowids.append(flowid)
 flows['Flow UUID'] = flowids
