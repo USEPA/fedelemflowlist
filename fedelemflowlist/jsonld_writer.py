@@ -67,6 +67,13 @@ def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
     unit = flow['Unit']
     if unit is None:
         print('unknown unit %s in flow %s')
+    description = "From 'FedElemFlowList_" + list_version_no + "."
+    if flow['Preferred']==1:
+        description = description + " Preferred flow."
+    else:
+        description = description + " Not a preferred flow."
+    if flow['External reference']!="":
+        description = description + " Reference: " + flow['External reference']
     f = {
         "@context":"http://greendelta.github.io/olca-schema/context.jsonld",
         "@type":"Flow",
@@ -75,6 +82,7 @@ def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
         "cas":flow['CAS No'],
         "formula":flow['Formula'],
         "version":list_version_no,
+        "description":description,
         #Need to  determine time
         #"lastChange": time.time()
         #Category
