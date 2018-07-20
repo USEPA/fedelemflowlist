@@ -1,13 +1,17 @@
 #Assemble pieces to generate the elementary flow list
 import pandas as pd
 from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields
+from fedelemflowlist.uuid_generators import generate_context_uuid
+from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 
 #Import by flow type
 flows = pd.DataFrame()
-for t in list(flow_types.keys()):
-      input_flows_for_type = pd.read_csv(inputpath + t + '_flows.csv',header=0)
+flow_types = list(flow_types.keys())
+for t in flow_types:
+      input_flows_for_type = pd.read_csv(inputpath + t + '.csv',header=0)
+      #Drop if its missing the flow name
+      input_flows_for_type = input_flows_for_type.dropna(axis=0,how='all')
       flows = pd.concat([flows,input_flows_for_type])
-
 flows = flows.fillna(value="")
 
 from fedelemflowlist.uuid_generators import generate_flow_uuid
@@ -22,7 +26,6 @@ flows['Flow UUID'] = flowids
 #Get all unique compartment combinations to create contexts
 contexts = flows[context_fields]
 contexts = contexts.drop_duplicates()
-from fedelemflowlist.uuid_generators import generate_context_uuid
 contextids=[]
 for index,row in contexts.iterrows():
         contextid = generate_context_uuid(row[context_fields[0]], row[context_fields[1]])
@@ -43,13 +46,10 @@ flowswithcontextandunitdata = pd.merge(flowswithcontext,unit_meta,left_on=['Flow
 flowswithcontextandunitdata = flowswithcontextandunitdata.drop(columns='Quality')
 
 #Write it to json-ld
-from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
-write_flow_list_to_jsonld(flowswithcontextandunitdata)
+write_flow_list_to_jsonld(flowswithcontextandunitdata,contexts)
 
-#Save it to csv
+#Write it to csv
 flowswithcontextandunitdata.to_csv(outputpath + 'FedElemFlowList_' + list_version_no + '.csv',index=False)
 
-#Save to pickle
-#pd.to_pickle(flows,'./output/ElementaryFlowList')
 
 
