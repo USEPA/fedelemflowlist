@@ -5,6 +5,7 @@ try: modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/')
 except NameError: modulepath = 'fedelemflowlist/'
 
 output_dir = modulepath + 'output/'
+flowmapping_dir = modulepath + 'flowmapping/'
 
 #Returns the most recent flows list as a dataframe by default
 def get_flowlist(version=None,format='df'):
@@ -33,5 +34,18 @@ def identify_most_recent_list(list_type='any'):
    #temp
    return str(flowlists[0])
 
+#Return a dataframe of the mapping file specific to the version of the list being used
+#If a soruce list is provided, it tries to filter the dataframe to return only the desired mappings
+def get_flowmapping(version=None,source_list=None):
+    if version is None:
+        list = identify_most_recent_list()
+    else:
+        list = 'FedElemFlowList_' + version
+    mapping_file = flowmapping_dir + list + '_mapping.csv'
 
+    try: flowmapping =  pd.read_csv(mapping_file,header=0)
+    except FileNotFoundError: print("No mapping file found for list " + list)
 
+    if source_list is not None:
+        flowmapping = flowmapping[flowmapping['Source'].isin(source_list)]
+    return flowmapping
