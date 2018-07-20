@@ -1,8 +1,0 @@
-﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
-Solar,,,,Energy,MJ,resource,air,,
-Wind,,,,Energy,MJ,resource,air,,
-Geothermal,,,,Energy,MJ,resource,ground,,
-Hydro,,,,Energy,MJ,resource,water,,
-Electromagnetic radiation,,,,Energy,MJ,resource,air,,
-"Hydro, wave",,,,Energy,MJ,resource,water,,
-"Hydro, tidal",,,,Energy,MJ,resource,water,,
