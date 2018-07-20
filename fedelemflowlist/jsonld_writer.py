@@ -67,7 +67,7 @@ def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
     unit = flow['Unit']
     if unit is None:
         print('unknown unit %s in flow %s')
-    description = "From 'FedElemFlowList_" + list_version_no + "."
+    description = "From FedElemFlowList_" + list_version_no + "."
     if flow['Preferred']==1:
         description = description + " Preferred flow."
     else:
