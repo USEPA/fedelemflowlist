@@ -5,7 +5,6 @@ import json
 import zipfile as zipf
 import pandas as pd
 import os
-import time
 
 from fedelemflowlist.globals import outputpath,list_version_no
 
@@ -55,7 +54,7 @@ def write_flow_list_to_jsonld(elemflowlist,contexts):
     pack = zipf.ZipFile(zip_file, mode='a', compression=zipf.ZIP_DEFLATED)
     #loop through rows, writing each elementary flow to the pack
     for index, row in elemflowlist.iterrows():
-        write_elemetary_flows(row,pack)
+        write_elementary_flows(row,pack)
     for index, row in contexts.iterrows():
         write_compartment_categories(row,pack)
     write_directionality_categories(pack)
@@ -63,11 +62,11 @@ def write_flow_list_to_jsonld(elemflowlist,contexts):
     pack.writestr('context.json', contexts_json)
     pack.close()
 
-def write_elemetary_flows(flow: pd.Series, pack: zipf.ZipFile):
+def write_elementary_flows(flow: pd.Series, pack: zipf.ZipFile):
     unit = flow['Unit']
     if unit is None:
         print('unknown unit %s in flow %s')
-    description = "From FedElemFlowList_" + list_version_no + "."
+    description = "From FedElemFlowList_" + list_version_no + ". Flow Class: " + flow['Class'] + "."
     if flow['Preferred']==1:
         description = description + " Preferred flow."
     else:
