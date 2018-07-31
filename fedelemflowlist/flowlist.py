@@ -11,6 +11,8 @@ for t in flow_types:
       input_flows_for_type = pd.read_csv(inputpath + t + '.csv',header=0)
       #Drop if its missing the flow name
       input_flows_for_type = input_flows_for_type.dropna(axis=0,how='all')
+      # Add Flow Class to columns
+      input_flows_for_type['Class'] = t
       flows = pd.concat([flows,input_flows_for_type])
 flows = flows.fillna(value="")
 
