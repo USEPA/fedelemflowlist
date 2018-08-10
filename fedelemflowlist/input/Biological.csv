@@ -1,4 +1,4 @@
-﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
+Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
 Biomass,,,,Mass,kg,Resource,ground,,0
 Cellulose,9004-34-6,,,Mass,kg,Resource,ground,https://iaspub.epa.gov/sor_internet/registry/substreg/searchandretrieve/advancedsearch/externalSearch.do?p_type=CASNO&p_value=9004-34-6,0
 Hardwood,,,,Mass,kg,Resource,ground,,1
