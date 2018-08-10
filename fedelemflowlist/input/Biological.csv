@@ -1,4 +1,4 @@
-Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
+﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
 Biomass,,,,Mass,kg,Resource,ground,,0
 Cellulose,9004-34-6,,,Mass,kg,Resource,ground,https://iaspub.epa.gov/sor_internet/registry/substreg/searchandretrieve/advancedsearch/externalSearch.do?p_type=CASNO&p_value=9004-34-6,0
 Hardwood,,,,Mass,kg,Resource,ground,,1
@@ -6,3 +6,8 @@ Softwood,,,,Mass,kg,Resource,ground,,1
 Wood,,,,Mass,kg,Resource,ground,,0
 Lignin,9005-53-2,,,Mass,kg,Resource,ground,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=37416,1
 Hemicellulose,9034-32-6,,,Mass,kg,Resource,ground,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36889,1
+Bacillus subtilis,,,,Mass,kg,Emission,ground,,1
+Bacillus thuringiensis var. aizawai,,,,Mass,kg,Emission,ground,,1
+Bacillus thuringiensis var. israeliensis,,,,Mass,kg,Emission,ground,,1
+Bacillus thuringiensis var. kurstaki,,,,Mass,kg,Emission,ground,,1
+Entomopathogenic virus,,,,Mass,kg,Emission,ground,,1
