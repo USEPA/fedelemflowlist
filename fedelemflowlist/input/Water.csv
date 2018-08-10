@@ -1,35 +1,35 @@
 Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
-Water,7732185,H2O,,Mass,kg,resource,,,0
-Water,7732186,H2O,,Mass,kg,emission,,,0
-Water,7732187,H2O,,Mass,kg,resource,air,,0
-Water,7732188,H2O,,Mass,kg,resource,water,,0
-Water,7732189,H2O,,Mass,kg,resource,ground,,0
-Water,7732190,H2O,,Mass,kg,emission,air,,0
-Water,7732191,H2O,,Mass,kg,emission,water,,0
-Water,7732192,H2O,,Mass,kg,emission,ground,,0
-"Water, fresh",7732193,H2O,,Mass,kg,emission,,,0
-"Water, slightly saline",7732194,H2O,,Mass,kg,emission,,,0
-"Water, moderately saline",7732195,H2O,,Mass,kg,emission,,,0
-"Water, very saline",7732196,H2O,,Mass,kg,emission,,,0
-"Water, fresh",7732198,H2O,,Mass,kg,resource,,,0
-"Water, slightly saline",7732199,H2O,,Mass,kg,resource,,,0
-"Water, moderately saline",7732200,H2O,,Mass,kg,resource,,,0
-"Water, very saline",7732201,H2O,,Mass,kg,resource,,,0
-"Water, fresh",7732203,H2O,,Mass,kg,emission,air,,1
-"Water, slightly saline",7732204,H2O,,Mass,kg,emission,water,,1
-"Water, moderately saline",7732205,H2O,,Mass,kg,emission,water,,1
-"Water, very saline",7732206,H2O,,Mass,kg,emission,water,,1
-"Water, fresh",7732208,H2O,,Mass,kg,emission,water,,1
-"Water, fresh",7732209,H2O,,Mass,kg,emission,ground,,1
-"Water, slightly saline",7732210,H2O,,Mass,kg,emission,ground,,1
-"Water, moderately saline",7732211,H2O,,Mass,kg,emission,ground,,1
-"Water, very saline",7732212,H2O,,Mass,kg,emission,ground,,1
-"Water, fresh",7732214,H2O,,Mass,kg,resource,water,,1
-"Water, slightly saline",7732215,H2O,,Mass,kg,resource,water,,1
-"Water, moderately saline",7732216,H2O,,Mass,kg,resource,water,,1
-"Water, very saline",7732217,H2O,,Mass,kg,resource,water,,1
-"Water, fresh",7732219,H2O,,Mass,kg,resource,ground,,1
-"Water, slightly saline",7732220,H2O,,Mass,kg,resource,ground,,1
-"Water, moderately saline",7732221,H2O,,Mass,kg,resource,ground,,1
-"Water, very saline",7732222,H2O,,Mass,kg,resource,ground,,1
-"Water, fresh",7732224,H2O,,Mass,kg,resource,air,,1
+Water,7732185,H2O,,Mass,kg,Resource,,,0
+Water,7732186,H2O,,Mass,kg,Emission,,,0
+Water,7732187,H2O,,Mass,kg,Resource,air,,0
+Water,7732188,H2O,,Mass,kg,Resource,water,,0
+Water,7732189,H2O,,Mass,kg,Resource,ground,,0
+Water,7732190,H2O,,Mass,kg,Emission,air,,0
+Water,7732191,H2O,,Mass,kg,Emission,water,,0
+Water,7732192,H2O,,Mass,kg,Emission,ground,,0
+"Water, fresh",7732193,H2O,,Mass,kg,Emission,,,0
+"Water, slightly saline",7732194,H2O,,Mass,kg,Emission,,,0
+"Water, moderately saline",7732195,H2O,,Mass,kg,Emission,,,0
+"Water, very saline",7732196,H2O,,Mass,kg,Emission,,,0
+"Water, fresh",7732198,H2O,,Mass,kg,Resource,,,0
+"Water, slightly saline",7732199,H2O,,Mass,kg,Resource,,,0
+"Water, moderately saline",7732200,H2O,,Mass,kg,Resource,,,0
+"Water, very saline",7732201,H2O,,Mass,kg,Resource,,,0
+"Water, fresh",7732203,H2O,,Mass,kg,Emission,air,,1
+"Water, slightly saline",7732204,H2O,,Mass,kg,Emission,water,,1
+"Water, moderately saline",7732205,H2O,,Mass,kg,Emission,water,,1
+"Water, very saline",7732206,H2O,,Mass,kg,Emission,water,,1
+"Water, fresh",7732208,H2O,,Mass,kg,Emission,water,,1
+"Water, fresh",7732209,H2O,,Mass,kg,Emission,ground,,1
+"Water, slightly saline",7732210,H2O,,Mass,kg,Emission,ground,,1
+"Water, moderately saline",7732211,H2O,,Mass,kg,Emission,ground,,1
+"Water, very saline",7732212,H2O,,Mass,kg,Emission,ground,,1
+"Water, fresh",7732214,H2O,,Mass,kg,Resource,water,,1
+"Water, slightly saline",7732215,H2O,,Mass,kg,Resource,water,,1
+"Water, moderately saline",7732216,H2O,,Mass,kg,Resource,water,,1
+"Water, very saline",7732217,H2O,,Mass,kg,Resource,water,,1
+"Water, fresh",7732219,H2O,,Mass,kg,Resource,ground,,1
+"Water, slightly saline",7732220,H2O,,Mass,kg,Resource,ground,,1
+"Water, moderately saline",7732221,H2O,,Mass,kg,Resource,ground,,1
+"Water, very saline",7732222,H2O,,Mass,kg,Resource,ground,,1
+"Water, fresh",7732224,H2O,,Mass,kg,Resource,air,,1
