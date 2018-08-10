@@ -1,24 +1,24 @@
 Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
-Temperate or sub-polar needleleaf forest,,,,Area*time,m2*a,resource,ground,,1
-Sub-polar taiga needleleaf forest,,,,Area*time,m2*a,resource,ground,,1
-Tropical or sub-tropical broadleaf evergreen forest,,,,Area*time,m2*a,resource,ground,,1
-Tropical or sub-tropical broadleaf deciduous forest,,,,Area*time,m2*a,resource,ground,,1
-Temperate or sub-polar broadleaf deciduous forest,,,,Area*time,m2*a,resource,ground,,1
-Mixed forest,,,,Area*time,m2*a,resource,ground,,1
-Tropical or sub-tropical shurbland,,,,Area*time,m2*a,resource,ground,,1
-Temperate or sub-polar shrubland,,,,Area*time,m2*a,resource,ground,,1
-Tropical or sub-tropical grassland,,,,Area*time,m2*a,resource,ground,,1
-Temperate or sub-polar grassland,,,,Area*time,m2*a,resource,ground,,1
-Snow and ice,,,,Area*time,m2*a,resource,ground,,1
-Urban and built-up,,,,Area*time,m2*a,resource,ground,,1
-Barren lands,,,,Area*time,m2*a,resource,ground,,1
-Cropland,,,,Area*time,m2*a,resource,ground,,1
-Wetland,,,,Area*time,m2*a,resource,ground,,1
-Sub-polar or polar barren-lichen-moss,,,,Area*time,m2*a,resource,ground,,1
-Sub-polar or polar grassland-lichen-moss,,,,Area*time,m2*a,resource,ground,,1
-Sub-polar or polar shrubland-lichen-moss,,,,Area*time,m2*a,resource,ground,,1
-Water,,,,Area*time,m2*a,resource,water,,1
-Land,,,,Area*time,m2*a,resource,ground,,0
-Forest,,,,Area*time,m2*a,resource,ground,,0
-Grassland,,,,Area*time,m2*a,resource,ground,,0
-Shrubland,,,,Area*time,m2*a,resource,ground,,0
+Temperate or sub-polar needleleaf forest,,,,Area*time,m2*a,Resource,ground,,1
+Sub-polar taiga needleleaf forest,,,,Area*time,m2*a,Resource,ground,,1
+Tropical or sub-tropical broadleaf evergreen forest,,,,Area*time,m2*a,Resource,ground,,1
+Tropical or sub-tropical broadleaf deciduous forest,,,,Area*time,m2*a,Resource,ground,,1
+Temperate or sub-polar broadleaf deciduous forest,,,,Area*time,m2*a,Resource,ground,,1
+Mixed forest,,,,Area*time,m2*a,Resource,ground,,1
+Tropical or sub-tropical shurbland,,,,Area*time,m2*a,Resource,ground,,1
+Temperate or sub-polar shrubland,,,,Area*time,m2*a,Resource,ground,,1
+Tropical or sub-tropical grassland,,,,Area*time,m2*a,Resource,ground,,1
+Temperate or sub-polar grassland,,,,Area*time,m2*a,Resource,ground,,1
+Snow and ice,,,,Area*time,m2*a,Resource,ground,,1
+Urban and built-up,,,,Area*time,m2*a,Resource,ground,,1
+Barren lands,,,,Area*time,m2*a,Resource,ground,,1
+Cropland,,,,Area*time,m2*a,Resource,ground,,1
+Wetland,,,,Area*time,m2*a,Resource,ground,,1
+Sub-polar or polar barren-lichen-moss,,,,Area*time,m2*a,Resource,ground,,1
+Sub-polar or polar grassland-lichen-moss,,,,Area*time,m2*a,Resource,ground,,1
+Sub-polar or polar shrubland-lichen-moss,,,,Area*time,m2*a,Resource,ground,,1
+Water,,,,Area*time,m2*a,Resource,water,,1
+Land,,,,Area*time,m2*a,Resource,ground,,0
+Forest,,,,Area*time,m2*a,Resource,ground,,0
+Grassland,,,,Area*time,m2*a,Resource,ground,,0
+Shrubland,,,,Area*time,m2*a,Resource,ground,,0
