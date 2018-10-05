@@ -6,7 +6,7 @@ from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 
 #Import by flow type
 flows = pd.DataFrame()
-flow_types = list(flow_types.keys())
+#flow_types = list(flow_types.keys())
 for t in flow_types:
       input_flows_for_type = pd.read_csv(inputpath + t + '.csv',header=0)
       #Drop if its missing the flow name
@@ -60,3 +60,4 @@ flowswithcontextandunitdata.to_csv(outputpath + 'FedElemFlowList_' + list_versio
 
 
 
+len(flowswithcontextandunitdata)
