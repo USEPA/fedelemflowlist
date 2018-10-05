@@ -5,6 +5,9 @@ outputpath = 'fedelemflowlist/output/'
 flowmappingpath = 'fedelemflowlist/flowmapping'
 context_fields = ['Directionality','Compartment']
 
-list_version_no = '0.1' #Must be numeric
+#list_version_no = '0.1' #Must be numeric
+#flow_types = {'Energy':'resource', 'Fuel':'resource', 'Land':'resource', 'Chemicals':'emission', 'Groups':'emission'}
 
-flow_types = {'Energy':'resource', 'Fuel':'resource', 'Land':'resource', 'Chemicals':'emission', 'Groups':'emission'}
+list_version_no = '0.2' #Must be numeric
+flow_types = ['Biological','Chemicals','Energy', 'Fuel', 'Geological','Groups','Land','Water']
+
