@@ -1,33 +1,28 @@
-﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred,
-BOD,,,,Mass,kg,Emission,,,,
-BOD,,,,Mass,kg,Emission,air,,x,
-BOD,,,,Mass,kg,Emission,water,,x,
-BOD,,,,Mass,kg,Emission,ground,,x,
-BOD 5,,,,Mass,kg,Emission,air,,x,
-BOD 5,,,,Mass,kg,Emission,water,,x,
-"Carbon, organic",,,,Mass,kg,Emission,air,,x,
-"Carbon, organic",,,,Mass,kg,Emission,ground,,x,
-"Carbon, organic",,,,Mass,kg,Emission,water,,x,
-"Carbon, organic bound",,,,Mass,kg,Emission,ground,,x,
-"Carbon, organic bound",,,,Mass,kg,Emission,water,,x,
-COD,,,,Mass,kg,Emission,,,,
-COD,,,,Mass,kg,Emission,air,,x,
-COD,,,,Mass,kg,Emission,ground,,x,
-COD,,,,Mass,kg,Emission,water,,x,
-DOC,,,,Mass,kg,Emission,water,,x,
-"Nitrogen, organic bound",,,,Mass,kg,Emission,air,,x,
-"Nitrogen, organic bound",,,,Mass,kg,Emission,water,,x,
-"Nitrogen, atmospheric",,,,Mass,kg,Emission,air,,x,
-"Nitrogen, total",,,,Mass,kg,Emission,air,,x,
-"Nitrogen, total",,,,Mass,kg,Emission,water,,x,
-Noise,,,,Mass,kg,Emission,,,,
-"Phosphorus, total",,,,Mass,kg,Emission,ground,,x,
-"Phosphorus, total",,,,Mass,kg,Emission,water,,x,
-TOC,,,,Mass,kg,Emission,air,,x,
-TOC,,,,Mass,kg,Emission,ground,,x,
-TOC,,,,Mass,kg,Emission,water,,x,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
-,,,,,,,,,,
+﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
+BOD,,,,Mass,kg,Emission,,,
+BOD,,,,Mass,kg,Emission,air,,1
+BOD,,,,Mass,kg,Emission,water,,1
+BOD,,,,Mass,kg,Emission,ground,,1
+BOD 5,,,,Mass,kg,Emission,air,,1
+BOD 5,,,,Mass,kg,Emission,water,,1
+"Carbon, organic",,,,Mass,kg,Emission,air,,1
+"Carbon, organic",,,,Mass,kg,Emission,ground,,1
+"Carbon, organic",,,,Mass,kg,Emission,water,,1
+"Carbon, organic bound",,,,Mass,kg,Emission,ground,,1
+"Carbon, organic bound",,,,Mass,kg,Emission,water,,1
+COD,,,,Mass,kg,Emission,,,
+COD,,,,Mass,kg,Emission,air,,1
+COD,,,,Mass,kg,Emission,ground,,1
+COD,,,,Mass,kg,Emission,water,,1
+DOC,,,,Mass,kg,Emission,water,,1
+"Nitrogen, organic bound",,,,Mass,kg,Emission,air,,1
+"Nitrogen, organic bound",,,,Mass,kg,Emission,water,,1
+"Nitrogen, atmospheric",,,,Mass,kg,Emission,air,,1
+"Nitrogen, total",,,,Mass,kg,Emission,air,,1
+"Nitrogen, total",,,,Mass,kg,Emission,water,,1
+Noise,,,,Mass,kg,Emission,,,
+"Phosphorus, total",,,,Mass,kg,Emission,ground,,1
+"Phosphorus, total",,,,Mass,kg,Emission,water,,1
+TOC,,,,Mass,kg,Emission,air,,1
+TOC,,,,Mass,kg,Emission,ground,,1
+TOC,,,,Mass,kg,Emission,water,,1
