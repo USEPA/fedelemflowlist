@@ -1,5 +1,5 @@
 ﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,Compartment,External reference,Preferred
-BOD,,,,Mass,kg,Emission,,,
+BOD,,,,Mass,kg,Emission,,,0
 BOD,,,,Mass,kg,Emission,air,,1
 BOD,,,,Mass,kg,Emission,water,,1
 BOD,,,,Mass,kg,Emission,ground,,1
@@ -10,7 +10,7 @@ BOD 5,,,,Mass,kg,Emission,water,,1
 "Carbon, organic",,,,Mass,kg,Emission,water,,1
 "Carbon, organic bound",,,,Mass,kg,Emission,ground,,1
 "Carbon, organic bound",,,,Mass,kg,Emission,water,,1
-COD,,,,Mass,kg,Emission,,,
+COD,,,,Mass,kg,Emission,,,0
 COD,,,,Mass,kg,Emission,air,,1
 COD,,,,Mass,kg,Emission,ground,,1
 COD,,,,Mass,kg,Emission,water,,1
@@ -20,7 +20,7 @@ DOC,,,,Mass,kg,Emission,water,,1
 "Nitrogen, atmospheric",,,,Mass,kg,Emission,air,,1
 "Nitrogen, total",,,,Mass,kg,Emission,air,,1
 "Nitrogen, total",,,,Mass,kg,Emission,water,,1
-Noise,,,,Mass,kg,Emission,,,
+Noise,,,,Mass,kg,Emission,,,0
 "Phosphorus, total",,,,Mass,kg,Emission,ground,,1
 "Phosphorus, total",,,,Mass,kg,Emission,water,,1
 TOC,,,,Mass,kg,Emission,air,,1
