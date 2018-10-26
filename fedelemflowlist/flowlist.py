@@ -31,7 +31,8 @@ for index,row in flows.iterrows():
 flows['Flow UUID'] = flowids
 
 #Get all unique compartment combinations to create contexts
-contexts = flows[context_fields]
+fields_for_generating_context_uuid = ['Class']+context_fields
+contexts = flows[fields_for_generating_context_uuid]
 contexts = contexts.drop_duplicates()
 contextids=[]
 for index,row in contexts.iterrows():
