@@ -36,7 +36,9 @@ contexts = flows[fields_for_generating_context_uuid]
 contexts = contexts.drop_duplicates()
 contextids=[]
 for index,row in contexts.iterrows():
-        contextid = generate_context_uuid(row[context_fields[0]], row[context_fields[1]])
+        contextid = generate_context_uuid(row[fields_for_generating_context_uuid[0]],
+                                          row[fields_for_generating_context_uuid[1]],
+                                          row[fields_for_generating_context_uuid[2]])
         contextids.append(contextid)
 contexts['Compartment UUID'] = contextids
 
