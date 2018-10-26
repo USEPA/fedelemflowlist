@@ -9,5 +9,5 @@ context_fields = ['Directionality','Compartment']
 #flow_types = {'Energy':'resource', 'Fuel':'resource', 'Land':'resource', 'Chemicals':'emission', 'Groups':'emission'}
 
 list_version_no = '0.2' #Must be numeric
-flow_types = ['Biological','Chemicals','Energy', 'Fuel', 'Geological','Groups','Land','Water']
+flow_types = ['Biological','Chemicals','Energy', 'Fuel', 'Geological','Groups','Land','Water','Other']
 
