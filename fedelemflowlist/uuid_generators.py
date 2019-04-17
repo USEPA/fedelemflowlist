@@ -8,9 +8,19 @@ def generate_flow_uuid(flowable,directionality,compartment,unit):
     flowid = str(uuid.uuid3(uuid.NAMESPACE_OID,flow))
     return flowid
 
-def generate_context_uuid(flow_class,directionality,compartment):
-    context = flow_class + directionality + compartment
+def generate_context_uuid(*args: str):
+    context = as_path(*args)
     contextid = str(uuid.uuid3(uuid.NAMESPACE_OID,context))
     return contextid
 
+def make_uuid(*args: str) -> str:
+    path = as_path(*args)
+    return str(uuid.uuid3(uuid.NAMESPACE_OID, path))
 
+def as_path(*args: str) -> str:
+    strings = []
+    for arg in args:
+        if arg is None:
+            continue
+        strings.append(str(arg).strip().lower())
+    return "/".join(strings)
