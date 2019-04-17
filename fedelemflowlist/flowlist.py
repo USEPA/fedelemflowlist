@@ -4,7 +4,7 @@ from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_ty
 from fedelemflowlist.uuid_generators import generate_flow_uuid,generate_context_uuid
 from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 
-#Import by flow type
+#Import flowables by flow class with their units
 flows = pd.DataFrame()
 #flow_types = list(flow_types.keys())
 for t in flow_types:
@@ -22,6 +22,15 @@ def convert_to_lower(x):
     x = str.lower(x)
     return x
 flows["Directionality"] = [convert_to_lower(x) for x in flows["Directionality"]]
+
+#Get compartments relevant for that flow
+
+#Loop through flowables, creating flows for each compartment relevant for that flow type, using major
+
+
+
+
+
 
 #Loop through flows generating UUID for each
 flowids = []
