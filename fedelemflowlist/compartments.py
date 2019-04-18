@@ -1,5 +1,5 @@
 import pandas as pd
-from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields
+from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields, as_path
 
 compartments_all = pd.read_excel(inputpath+'Compartments.xlsx',sheet_name='Compartments',na_values='N/A') #
 compartments_all.head(50)
@@ -19,11 +19,18 @@ for index,row in compartments_all.iterrows():
 
 #Used this clean list with no NAs, generate UUIDs
 from fedelemflowlist.uuid_generators import generate_context_uuid
-compartment_uuids = list()
+context_uuids = list()
+context_paths = list()
 for r in rows_as_list:
     #Pass the uuid function the list as a series of string arguments
+    compartment_path = as_path(*r)
+    context_paths.append(compartment_path)
     compartment_uuid = generate_context_uuid(*r)
-    compartment_uuids.append(compartment_uuid)
+    context_uuids.append(compartment_uuid)
+
+d = {'context':context_paths,'uuid':context_uuids}
+compartment_paths_uuids = pd.DataFrame(data=d)
+
 
 rows_as_list_with_nans = rows_as_list
 
