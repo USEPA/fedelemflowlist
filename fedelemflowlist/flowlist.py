@@ -1,6 +1,6 @@
 #Assemble pieces to generate the elementary flow list
 import pandas as pd
-from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields
+from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields,convert_to_lower,as_path
 from fedelemflowlist.uuid_generators import generate_flow_uuid,generate_context_uuid
 from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 
@@ -16,17 +16,54 @@ for t in flow_types:
       flows = pd.concat([flows,input_flows_for_type])
 flows = flows.fillna(value="")
 
+media = ['air','water','ground','biotic']
+
+media_root_lookup  = {}
+for m in media:
+    media_root_lookup[m] = m + '_root'
+
 #Make directionality lowercase for now if not:
-def convert_to_lower(x):
-    x = str(x)
-    x = str.lower(x)
-    return x
 flows["Directionality"] = [convert_to_lower(x) for x in flows["Directionality"]]
 
 #Get compartments relevant for that flow
 
-#Loop through flowables, creating flows for each compartment relevant for that flow type, using major
 
+from fedelemflowlist.compartments import compartment_paths_uuids
+
+#resources =  flows[flows["Directionality"]=='resource']
+
+
+flow_field_to_keep = flows.columns[0:6]
+
+flows_contexts = pd.DataFrame()
+for index,row in flows.iterrows():
+    for k,v in media_root_lookup.items():
+    #get rows where
+        if row[k]==1:
+             context = as_path(row["Directionality"],k)
+             row[v] = str.lower(row[v])
+             context_pieces = [context,row[v]]
+             contexts_df = compartment_paths_uuids[
+                 compartment_paths_uuids['context'].str.contains(context_pieces[0]) & compartment_paths_uuids[
+                     'context'].str.contains(context_pieces[1])]
+
+             contexts_df['Flowable'] = row.loc['Flowable']
+             flowable_media_contexts = pd.merge(flows[flow_field_to_keep],contexts_df)
+             flows_contexts = flows_contexts.append(flowable_media_contexts)
+
+
+
+
+#keywords = ['emission/air','troposphere']
+#
+
+
+
+
+
+
+
+#Loop through flowables, creating flows for each compartment relevant for that flow type, using major
 
 
 
