@@ -43,10 +43,13 @@ for index,row in flows.iterrows():
              context = as_path(row["Directionality"],k)
              row[v] = str.lower(row[v])
              context_pieces = [context,row[v]]
+             #if _exclude_children option is given, use that to change the selection
+             #contexts_df = compartment_paths_uuids[
+             #    (compartment_paths_uuids['context'].str.contains(context_pieces[0]) & compartment_paths_uuids['context'].str.endswith(context_pieces[1]) ]
+             #else
              contexts_df = compartment_paths_uuids[
                  compartment_paths_uuids['context'].str.contains(context_pieces[0]) & compartment_paths_uuids[
                      'context'].str.contains(context_pieces[1])]
-
              contexts_df['Flowable'] = row.loc['Flowable']
              flowable_media_contexts = pd.merge(flows[flow_field_to_keep],contexts_df)
              flows_contexts = flows_contexts.append(flowable_media_contexts)
