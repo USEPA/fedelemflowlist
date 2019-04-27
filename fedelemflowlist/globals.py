@@ -10,7 +10,7 @@ context_fields = ['Directionality','Compartment']
 
 list_version_no = '0.3e' #Must be numeric
 #flow_types = ['Biological','Chemicals','Energy', 'Fuel', 'Geological','Groups','Land','Water','Other']
-flow_types = ['Energy']
+flow_classes = ['Energy']
 
 def convert_to_lower(x):
     x = str(x)
