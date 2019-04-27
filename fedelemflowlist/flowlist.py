@@ -1,19 +1,23 @@
 #Assemble pieces to generate the elementary flow list
 import pandas as pd
-from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_types,context_fields,convert_to_lower,as_path
+from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_classes,context_fields,convert_to_lower,as_path
 from fedelemflowlist.uuid_generators import generate_flow_uuid,generate_context_uuid
 from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
+
+import logging as log
+log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
+                stream=sys.stdout)
 
 #Import flowables by flow class with their units
 flows = pd.DataFrame()
 #flow_types = list(flow_types.keys())
-for t in flow_types:
-      input_flows_for_type = pd.read_csv(inputpath + t + '.csv',header=0)
+for t in flow_classes:
+      input_flows_for_class = pd.read_csv(inputpath + t + '.csv', header=0)
       #Drop if its missing the flow name
-      input_flows_for_type = input_flows_for_type.dropna(axis=0,how='all')
+      input_flows_for_class = input_flows_for_class.dropna(axis=0, how='all')
       # Add Flow Class to columns
-      input_flows_for_type['Class'] = t
-      flows = pd.concat([flows,input_flows_for_type])
+      input_flows_for_class['Class'] = t
+      flows = pd.concat([flows, input_flows_for_class])
 flows = flows.fillna(value="")
 
 media = ['air','water','ground','biotic']
@@ -28,10 +32,23 @@ flows["Directionality"] = [convert_to_lower(x) for x in flows["Directionality"]]
 #Get compartments relevant for that flow
 
 
-from fedelemflowlist.compartments import compartment_paths_uuids
+from fedelemflowlist.contexts import context_path_uuid,max_compartment_classes,compartment_classes
 
 #resources =  flows[flows["Directionality"]=='resource']
 
+#Read in flowable context membership
+FlowableContextMembership = pd.read_excel(inputpath + 'FlowableContextMembership.xlsx', sheet_name='Membership') #
+#Create a dictionary describing what context classes go with each flow class
+
+if list(FlowableContextMembership.columns[1:]) != compartment_classes:
+    log.debug('ERROR: FlowableContextMembership compartment class columns must match Context compartment class columns')
+
+compartment_classes_in_flow_class = {}
+for index,row in FlowableContextMembership.iterrows():
+    flow_class_pattern = [compartment_classes[x-1] for x in range(1, max_compartment_classes+1) if row[x] != 0]
+    compartment_classes_in_flow_class[row['FlowClass']]=flow_class_pattern
+
+compartment_classes_in_flow_class['Chemical']
 
 flow_field_to_keep = flows.columns[0:6]
 
@@ -47,8 +64,8 @@ for index,row in flows.iterrows():
              #contexts_df = compartment_paths_uuids[
              #    (compartment_paths_uuids['context'].str.contains(context_pieces[0]) & compartment_paths_uuids['context'].str.endswith(context_pieces[1]) ]
              #else
-             contexts_df = compartment_paths_uuids[
-                 compartment_paths_uuids['context'].str.contains(context_pieces[0]) & compartment_paths_uuids[
+             contexts_df = context_path_uuid[
+                 context_path_uuid['context'].str.contains(context_pieces[0]) & context_path_uuid[
                      'context'].str.contains(context_pieces[1])]
              contexts_df['Flowable'] = row.loc['Flowable']
              flowable_media_contexts = pd.merge(flows[flow_field_to_keep],contexts_df)
