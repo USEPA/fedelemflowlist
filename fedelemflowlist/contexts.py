@@ -1,6 +1,11 @@
 import pandas as pd
 from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_classes,context_fields, as_path
 
+primary_context_classes = ['Directionality', 'Environmental Media']
+secondary_context_classes =  [ 'Vertical Strata', 'Land Use', 'Human-Dominated', 'Terrestrial', 'Aquatic Feature',
+                               'Indoor', 'Population Density', 'Release Height']
+
+
 contexts = pd.read_excel(inputpath + 'Contexts.xlsx', sheet_name='Contexts', na_values='N/A') #
 contexts.head(50)
 
@@ -27,6 +32,7 @@ contexts = contexts.drop_duplicates()
 context_patterns = []
 for index,row in contexts.iterrows():
     pattern = [compartment_classes[x] for x in range(0, max_compartment_classes) if str(row[x]) != 'nan']
+    pattern = ','.join(pattern)
     context_patterns.append(pattern)
 
 
@@ -48,25 +54,27 @@ for r in context_list_na_removed:
     compartment_uuid = generate_context_uuid(*r)
     context_uuids.append(compartment_uuid)
 
-d = {'context':context_paths,'uuid':context_uuids}
+d = {'Context':context_paths,'Context_UUID':context_uuids,'Pattern':context_patterns}
 context_path_uuid = pd.DataFrame(data=d)
 
 
+context_path_uuid.to_csv('work/context_path_uuid_1May.csv',index=False)
 
-rows_as_list_with_nans = context_list_na_removed
 
-#Add NAs now to end to make lists equal length
-for r in rows_as_list_with_nans:
-    for i in range(0, max_compartment_classes - len(r)):
-        r.append(None)
-
-compartments = pd.DataFrame(rows_as_list_with_nans,columns=compartment_levels)
-
-compartments = compartments.sort_values(by=compartment_levels)
-
-compartments.to_csv('work/compartments_16April.csv',index=False)
-
-#Are they unique
-len(compartments)
-len(compartments.drop_duplicates())
+# rows_as_list_with_nans = context_list_na_removed
+#
+# #Add NAs now to end to make lists equal length
+# for r in rows_as_list_with_nans:
+#     for i in range(0, max_compartment_classes - len(r)):
+#         r.append(None)
+#
+# compartments = pd.DataFrame(rows_as_list_with_nans,columns=compartment_levels)
+#
+# compartments = compartments.sort_values(by=compartment_levels)
+#
+# compartments.to_csv('work/contexts_16April.csv',index=False)
+#
+# #Are they unique
+# len(compartments)
+# len(compartments.drop_duplicates())
 
