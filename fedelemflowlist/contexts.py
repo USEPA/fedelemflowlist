@@ -1,5 +1,5 @@
 import pandas as pd
-from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_classes,context_fields, as_path
+from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_classes,context_fields, as_path, log
 
 primary_context_classes = ['Directionality', 'Environmental Media']
 secondary_context_classes =  [ 'Vertical Strata', 'Land Use', 'Human-Dominated', 'Terrestrial', 'Aquatic Feature',
@@ -13,7 +13,12 @@ contexts.head(50)
 max_compartment_classes = len(contexts.columns)
 compartment_levels = ['c_' + str(c) for c in range(0, max_compartment_classes)]
 
-compartment_classes = list(contexts.columns)
+compartment_classes = primary_context_classes + secondary_context_classes
+
+if (compartment_classes != list(contexts.columns)):
+    log.debug('ERROR: Compartment class list does not match column headers in Contexts sheet')
+
+
 
 #Create dictionary of context levels
 context_levels = {}
@@ -54,7 +59,7 @@ for r in context_list_na_removed:
     compartment_uuid = generate_context_uuid(*r)
     context_uuids.append(compartment_uuid)
 
-d = {'Context':context_paths,'Context_UUID':context_uuids,'Pattern':context_patterns}
+d = {'Context':context_paths,'Context UUID':context_uuids,'Pattern':context_patterns}
 context_path_uuid = pd.DataFrame(data=d)
 
 
