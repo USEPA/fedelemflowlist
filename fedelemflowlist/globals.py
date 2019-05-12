@@ -1,10 +1,13 @@
 #Set global variables for flow list creation
 import sys
+import os
 
-inputpath = 'fedelemflowlist/input/'
-outputpath = 'fedelemflowlist/output/'
-flowmappingpath = 'fedelemflowlist/flowmapping'
-context_fields = ['Directionality','Compartment']
+try: modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
+except NameError: modulepath = 'fedelemflowlist/'
+
+outputpath = modulepath + 'output/'
+inputpath = modulepath + 'input/'
+flowmappingpath = modulepath + 'flowmapping/'
 
 import logging as log
 log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
@@ -15,7 +18,7 @@ log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
 
 list_version_no = '0.3e' #Must be numeric
 #flow_classes = ['Biological','Chemicals','Energy', 'Fuel', 'Geological','Groups','Land','Water','Other']
-flow_classes = ['Biological','Energy','Land']
+flow_classes = ['Chemicals']
 
 def convert_to_lower(x):
     x = str(x)
