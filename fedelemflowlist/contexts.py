@@ -1,10 +1,5 @@
 import pandas as pd
-from fedelemflowlist.globals import inputpath,outputpath,list_version_no,flow_classes,context_fields, as_path, log
-
-primary_context_classes = ['Directionality', 'Environmental Media']
-secondary_context_classes =  [ 'Vertical Strata', 'Land Use', 'Human-Dominated', 'Terrestrial', 'Aquatic Feature',
-                               'Indoor', 'Population Density', 'Release Height']
-
+from fedelemflowlist.globals import inputpath, as_path, log,flow_list_specs
 
 contexts = pd.read_excel(inputpath + 'Contexts.xlsx', sheet_name='Contexts', na_values='N/A') #
 contexts.head(50)
@@ -13,7 +8,7 @@ contexts.head(50)
 max_compartment_classes = len(contexts.columns)
 compartment_levels = ['c_' + str(c) for c in range(0, max_compartment_classes)]
 
-compartment_classes = primary_context_classes + secondary_context_classes
+compartment_classes = flow_list_specs['primary_context_classes'] + flow_list_specs['secondary_context_classes']
 
 if (compartment_classes != list(contexts.columns)):
     log.debug('ERROR: Compartment class list does not match column headers in Contexts sheet')

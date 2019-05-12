@@ -1,16 +1,17 @@
 # Assemble pieces to generate the elementary flow list
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, outputpath, list_version_no, flow_classes, as_path
-from fedelemflowlist.contexts import context_path_uuid, primary_context_classes, secondary_context_classes
+from fedelemflowlist.globals import log, inputpath, outputpath, as_path,flow_list_specs
+from fedelemflowlist.contexts import context_path_uuid
 from fedelemflowlist.uuid_generators import make_uuid
-from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
+#from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 
 # Import flowables by flow class with their units, as well as primary flow class membership
 flowables = pd.DataFrame()
 flowables_w_primary_contexts = pd.DataFrame()
 primary_contexts = pd.DataFrame()
 
-for t in flow_classes:
+# Loop through
+for t in flow_list_specs["flow_classes"]:
     # Handle flowables first
     flowables_for_class = pd.read_excel(inputpath + t + '.xlsx', sheet_name='Flowables', header=0)
     # Drop if the line is blank
@@ -29,7 +30,7 @@ for t in flow_classes:
     flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts, class_flowables_w_primary_contexts],
                                              ignore_index=True)
 
-    primary_contexts_unique = class_primary_contexts[primary_context_classes].drop_duplicates()
+    primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
     primary_contexts_unique['Class'] = t
     primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
 
@@ -42,11 +43,12 @@ SecondaryContextMembership = pd.read_excel(inputpath + 'SecondaryContextMembersh
 # if list(SecondaryContextMembership.columns[1:]) != compartment_classes:
 #    log.debug('ERROR: FlowableContextMembership compartment class columns must match Context compartment class columns')
 
+secondary_context_classes = flow_list_specs["secondary_context_classes"]
 context_patterns_used = pd.DataFrame(
     columns=['Class', 'Directionality', 'Environmental Media', 'Primary_Context_Path', 'Pattern'])
 for index, row in SecondaryContextMembership.iterrows():
     pattern = [x for x in secondary_context_classes if row[x] != 0]
-    pattern_w_primary = primary_context_classes.copy() + pattern
+    pattern_w_primary = flow_list_specs["primary_context_classes"].copy() + pattern
     # convert to string
     pattern_w_primary = ','.join(pattern_w_primary)
     primary_context_path = as_path(row['Directionality'], row['Environmental Media'])
@@ -96,4 +98,4 @@ contexts_in_flows = contexts_in_flows.drop_duplicates()
 # write_flow_list_to_jsonld(flows, contexts_in_flows)
 
 # Write it to csv
-# flows.to_csv(outputpath + 'FedElemFlowList_' + list_version_no + '.csv', index=False)
+# flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
