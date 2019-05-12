@@ -1,6 +1,7 @@
 #Set global variables for flow list creation
 import sys
 import os
+import json
 
 try: modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
 except NameError: modulepath = 'fedelemflowlist/'
@@ -13,12 +14,12 @@ import logging as log
 log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
-#list_version_no = '0.1' #Must be numeric
-#flow_types = {'Energy':'resource', 'Fuel':'resource', 'Land':'resource', 'Chemicals':'emission', 'Groups':'emission'}
+try:
+    with open(modulepath +"flowlistspecs.json") as cfg:
+        flow_list_specs = json.load(cfg)
+except FileNotFoundError:
+    log.info("Flow list specs not found. Create a flow list specs file.")
 
-list_version_no = '0.3e' #Must be numeric
-#flow_classes = ['Biological','Chemicals','Energy', 'Fuel', 'Geological','Groups','Land','Water','Other']
-flow_classes = ['Chemicals']
 
 def convert_to_lower(x):
     x = str(x)
