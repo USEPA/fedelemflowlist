@@ -10,6 +10,9 @@ flowables = pd.DataFrame()
 flowables_w_primary_contexts = pd.DataFrame()
 primary_contexts = pd.DataFrame()
 
+preferred_flowables_only = flow_list_specs["preferred_flowables_only"]
+preferred_contexts_only = flow_list_specs["preferred_contexts_only"]
+
 # Loop through
 for t in flow_list_specs["flow_classes"]:
     # Handle flowables first
@@ -18,6 +21,9 @@ for t in flow_list_specs["flow_classes"]:
     flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
     # Add Flow Class to columns
     flowables_for_class['Class'] = t
+    #Drop non-preferred
+    if preferred_flowables_only:
+        flowables_for_class = flowables_for_class[flowables_for_class['Preferred']==True]
     flowables = pd.concat([flowables, flowables_for_class])
     class_primary_contexts = pd.read_excel(inputpath + t + '.xlsx', sheet_name='FlowablePrimaryContexts', header=0)
     class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
@@ -52,6 +58,10 @@ for index, row in SecondaryContextMembership.iterrows():
     # convert to string
     pattern_w_primary = ','.join(pattern_w_primary)
     primary_context_path = as_path(row['Directionality'], row['Environmental Media'])
+    #Skip the context pattern if 0 when preferred_contexts_only is true
+    if preferred_contexts_only:
+        if row['ContextPreferred'] == 0:
+            continue
     context_patterns_used = context_patterns_used.append({'Class': row['FlowClass'],
                                                           'Directionality': row['Directionality'],
                                                           'Environmental Media': row['Environmental Media'],
@@ -59,6 +69,8 @@ for index, row in SecondaryContextMembership.iterrows():
                                                           'Pattern': pattern_w_primary}, ignore_index=True)
 
 # Cycle through these class context patterns and get context_paths
+
+#! This code segment is slow - could be improved
 field_to_keep = ['Class', 'Directionality', 'Environmental Media']
 class_contexts = pd.DataFrame()
 for index, row in context_patterns_used.iterrows():
@@ -75,7 +87,7 @@ for index, row in context_patterns_used.iterrows():
 # patterns in context_patterns
 
 # Merge this table now with the flowables and primary contexts with the full contexts per class, creating flows for each compartment relevant for that flow type, using major
-flows = pd.merge(flowables_w_primary_contexts, class_contexts)
+flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])
 
 # Loop through flows generating UUID for each
 flowids = []
