@@ -58,8 +58,6 @@ d = {'Context':context_paths,'Context UUID':context_uuids,'Pattern':context_patt
 context_path_uuid = pd.DataFrame(data=d)
 
 
-context_path_uuid.to_csv('work/context_path_uuid_1May.csv',index=False)
-
 
 # rows_as_list_with_nans = context_list_na_removed
 #
