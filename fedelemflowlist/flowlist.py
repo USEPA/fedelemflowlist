@@ -4,101 +4,108 @@ from fedelemflowlist.globals import log, inputpath, outputpath, as_path,flow_lis
 from fedelemflowlist.contexts import context_path_uuid
 from fedelemflowlist.uuid_generators import make_uuid
 
-# Import flowables by flow class with their units, as well as primary flow class membership
-flowables = pd.DataFrame()
-flowables_w_primary_contexts = pd.DataFrame()
-primary_contexts = pd.DataFrame()
 
-preferred_flowables_only = flow_list_specs["preferred_flowables_only"]
-preferred_contexts_only = flow_list_specs["preferred_contexts_only"]
+if __name__ == '__main__':
 
-# Loop through
-for t in flow_list_specs["flow_classes"]:
-    # Handle flowables first
-    flowables_for_class = pd.read_excel(inputpath + t + '.xlsx', sheet_name='Flowables', header=0)
-    # Drop if the line is blank
-    flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
-    # Add Flow Class to columns
-    flowables_for_class['Class'] = t
-    #Drop non-preferred
-    if preferred_flowables_only:
-        flowables_for_class = flowables_for_class[flowables_for_class['Preferred']==True]
-    flowables = pd.concat([flowables, flowables_for_class])
-    class_primary_contexts = pd.read_excel(inputpath + t + '.xlsx', sheet_name='FlowablePrimaryContexts', header=0)
-    class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
+    # Import flowables by flow class with their units, as well as primary flow class membership
+    flowables = pd.DataFrame()
+    flowables_w_primary_contexts = pd.DataFrame()
+    primary_contexts = pd.DataFrame()
 
-    # primary_contexts['Directionality'] = [convert_to_lower(x) for x in primary_contexts["Directionality"]]
-    # primary_contexts['Environmental Media'] = [convert_to_lower(x) for x in primary_contexts["Environmental Media"]]
+    preferred_flowables_only = flow_list_specs["preferred_flowables_only"]
+    preferred_contexts_only = flow_list_specs["preferred_contexts_only"]
 
-    # merge
-    class_flowables_w_primary_contexts = pd.merge(flowables_for_class, class_primary_contexts)
-    flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts, class_flowables_w_primary_contexts],
-                                             ignore_index=True)
+    # Loop through
+    for t in flow_list_specs["flow_classes"]:
+        # Handle flowables first
+        flowables_for_class = pd.read_excel(inputpath + t + '.xlsx', sheet_name='Flowables', header=0)
+        # Drop if the line is blank
+        flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
+        # Add Flow Class to columns
+        flowables_for_class['Class'] = t
+        #Drop non-preferred
+        if preferred_flowables_only:
+            flowables_for_class = flowables_for_class[flowables_for_class['Preferred']==True]
+        flowables = pd.concat([flowables, flowables_for_class])
+        class_primary_contexts = pd.read_excel(inputpath + t + '.xlsx', sheet_name='FlowablePrimaryContexts', header=0)
+        class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
 
-    primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
-    primary_contexts_unique['Class'] = t
-    primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
+        # primary_contexts['Directionality'] = [convert_to_lower(x) for x in primary_contexts["Directionality"]]
+        # primary_contexts['Environmental Media'] = [convert_to_lower(x) for x in primary_contexts["Environmental Media"]]
 
-# flowables = flowables.fillna(value="")
+        # merge
+        class_flowables_w_primary_contexts = pd.merge(flowables_for_class, class_primary_contexts)
+        flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts, class_flowables_w_primary_contexts],
+                                                 ignore_index=True)
 
-# Read in flowable context membership
-SecondaryContextMembership = pd.read_excel(inputpath + 'SecondaryContextMembership.xlsx',
-                                           sheet_name='SecondaryContextMembership')  #
+        primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
+        primary_contexts_unique['Class'] = t
+        primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
 
-# if list(SecondaryContextMembership.columns[1:]) != compartment_classes:
-#    log.debug('ERROR: FlowableContextMembership compartment class columns must match Context compartment class columns')
+    # flowables = flowables.fillna(value="")
 
-secondary_context_classes = flow_list_specs["secondary_context_classes"]
-context_patterns_used = pd.DataFrame(
-    columns=['Class', 'Directionality', 'Environmental Media', 'Primary_Context_Path', 'Pattern'])
-for index, row in SecondaryContextMembership.iterrows():
-    pattern = [x for x in secondary_context_classes if row[x] != 0]
-    pattern_w_primary = flow_list_specs["primary_context_classes"].copy() + pattern
-    # convert to string
-    pattern_w_primary = ','.join(pattern_w_primary)
-    primary_context_path = as_path(row['Directionality'], row['Environmental Media'])
-    #Skip the context pattern if 0 when preferred_contexts_only is true
-    if preferred_contexts_only:
-        if row['ContextPreferred'] == 0:
-            continue
-    context_patterns_used = context_patterns_used.append({'Class': row['FlowClass'],
-                                                          'Directionality': row['Directionality'],
-                                                          'Environmental Media': row['Environmental Media'],
-                                                          'Primary_Context_Path': primary_context_path,
-                                                          'Pattern': pattern_w_primary}, ignore_index=True)
+    # Read in flowable context membership
+    SecondaryContextMembership = pd.read_excel(inputpath + 'SecondaryContextMembership.xlsx',
+                                               sheet_name='SecondaryContextMembership')  #
 
-# Cycle through these class context patterns and get context_paths
+    # if list(SecondaryContextMembership.columns[1:]) != compartment_classes:
+    #    log.debug('ERROR: FlowableContextMembership compartment class columns must match Context compartment class columns')
 
-#! This code segment is slow - could be improved
-field_to_keep = ['Class', 'Directionality', 'Environmental Media']
-class_contexts = pd.DataFrame()
-for index, row in context_patterns_used.iterrows():
-    class_context_patterns_row = row[field_to_keep]
-    # Get the contexts specific to this class by matching the Pattern and Primary_Context_Path
-    contexts_df = context_path_uuid[(context_path_uuid['Pattern'] == row['Pattern']) & (
-        context_path_uuid['Context'].str.contains(row['Primary_Context_Path']))]
-    for f in field_to_keep:
-        contexts_df[f] = row[f]
-    contexts_df = contexts_df.drop(columns='Pattern')
-    class_contexts = pd.concat([class_contexts, contexts_df], ignore_index=True)
+    secondary_context_classes = flow_list_specs["secondary_context_classes"]
+    context_patterns_used = pd.DataFrame(
+        columns=['Class', 'Directionality', 'Environmental Media', 'Primary_Context_Path', 'Pattern'])
+    for index, row in SecondaryContextMembership.iterrows():
+        pattern = [x for x in secondary_context_classes if row[x] != 0]
+        pattern_w_primary = flow_list_specs["primary_context_classes"].copy() + pattern
+        # convert to string
+        pattern_w_primary = ','.join(pattern_w_primary)
+        primary_context_path = as_path(row['Directionality'], row['Environmental Media'])
+        #Skip the context pattern if 0 when preferred_contexts_only is true
+        if preferred_contexts_only:
+            if row['ContextPreferred'] == 0:
+                continue
+        context_patterns_used = context_patterns_used.append({'Class': row['FlowClass'],
+                                                              'Directionality': row['Directionality'],
+                                                              'Environmental Media': row['Environmental Media'],
+                                                              'Primary_Context_Path': primary_context_path,
+                                                              'Pattern': pattern_w_primary}, ignore_index=True)
 
-# Need to check that the primary context names match the name in the context paths, and that the pattern matches the
-# patterns in context_patterns
+    # Cycle through these class context patterns and get context_paths
 
-# Merge this table now with the flowables and primary contexts with the full contexts per class, creating flows for each compartment relevant for that flow type, using major
-flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])
+    #! This code segment is slow - could be improved
+    field_to_keep = ['Class', 'Directionality', 'Environmental Media']
+    class_contexts = pd.DataFrame()
+    for index, row in context_patterns_used.iterrows():
+        class_context_patterns_row = row[field_to_keep]
+        # Get the contexts specific to this class by matching the Pattern and Primary_Context_Path
+        contexts_df = context_path_uuid[(context_path_uuid['Pattern'] == row['Pattern']) & (
+            context_path_uuid['Context'].str.contains(row['Primary_Context_Path']))]
+        for f in field_to_keep:
+            contexts_df[f] = row[f]
+        contexts_df = contexts_df.drop(columns='Pattern')
+        class_contexts = pd.concat([class_contexts, contexts_df], ignore_index=True)
 
-# Loop through flows generating UUID for each
-flowids = []
-for index, row in flows.iterrows():
-    flowid = make_uuid(row['Flowable'], row['Context'], row['Unit'])
-    flowids.append(flowid)
-flows['Flow UUID'] = flowids
+    # Need to check that the primary context names match the name in the context paths, and that the pattern matches the
+    # patterns in context_patterns
 
-contexts_in_flows = flows[['Context', 'Context UUID']]
-contexts_in_flows = contexts_in_flows.drop_duplicates()
-log.info('Contexts in Flows:')
-log.info(contexts_in_flows)
+    # Merge this table now with the flowables and primary contexts with the full contexts per class, creating flows for each compartment relevant for that flow type, using major
+    flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])
 
-# Write it to csv
-flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
+    #If contexts and flows are
+
+
+    # Loop through flows generating UUID for each
+    flowids = []
+    for index, row in flows.iterrows():
+        flowid = make_uuid(row['Flowable'], row['Context'], row['Unit'])
+        flowids.append(flowid)
+    flows['Flow UUID'] = flowids
+
+    contexts_in_flows = flows[['Context', 'Context UUID']]
+    contexts_in_flows = contexts_in_flows.drop_duplicates()
+    log.info('Contexts in Flows:')
+    log.info(contexts_in_flows)
+
+    # Write it to csv
+    flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
+
