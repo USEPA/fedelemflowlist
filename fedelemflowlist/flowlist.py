@@ -100,8 +100,5 @@ contexts_in_flows = contexts_in_flows.drop_duplicates()
 log.info('Contexts in Flows:')
 log.info(contexts_in_flows)
 
-# Write it to json-ld
-# write_flow_list_to_jsonld(flows, contexts_in_flows)
-
 # Write it to csv
 flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
