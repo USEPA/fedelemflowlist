@@ -3,7 +3,6 @@ import pandas as pd
 from fedelemflowlist.globals import log, inputpath, outputpath, as_path,flow_list_specs
 from fedelemflowlist.contexts import context_path_uuid
 from fedelemflowlist.uuid_generators import make_uuid
-#from fedelemflowlist.jsonld_writer import write_flow_list_to_jsonld
 
 # Import flowables by flow class with their units, as well as primary flow class membership
 flowables = pd.DataFrame()
@@ -96,18 +95,13 @@ for index, row in flows.iterrows():
     flowids.append(flowid)
 flows['Flow UUID'] = flowids
 
-# Import unit metadata (from openLCA)
-unit_meta = pd.read_csv(inputpath + 'unit_meta_data.csv', header=0)
-
-# Merge it with the main table
-# rename flow propoerty factor temporarily
-flows = pd.merge(flows, unit_meta, how='left')
-
 contexts_in_flows = flows[['Context', 'Context UUID']]
 contexts_in_flows = contexts_in_flows.drop_duplicates()
+log.info('Contexts in Flows:')
+log.info(contexts_in_flows)
 
 # Write it to json-ld
 # write_flow_list_to_jsonld(flows, contexts_in_flows)
 
 # Write it to csv
-# flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
+flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
