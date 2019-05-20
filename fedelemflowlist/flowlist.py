@@ -25,7 +25,7 @@ if __name__ == '__main__':
         #Drop non-preferred
         if preferred_flowables_only:
             flowables_for_class = flowables_for_class[flowables_for_class['Preferred']==True]
-        flowables = pd.concat([flowables, flowables_for_class])
+        flowables = pd.concat([flowables, flowables_for_class], ignore_index=True, sort=False)
         class_primary_contexts = pd.read_excel(inputpath + t + '.xlsx', sheet_name='FlowablePrimaryContexts', header=0)
         class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
 
@@ -35,11 +35,11 @@ if __name__ == '__main__':
         # merge
         class_flowables_w_primary_contexts = pd.merge(flowables_for_class, class_primary_contexts)
         flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts, class_flowables_w_primary_contexts],
-                                                 ignore_index=True)
+                                                 ignore_index=True, sort=False)
 
         primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
         primary_contexts_unique['Class'] = t
-        primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True)
+        primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
 
     # flowables = flowables.fillna(value="")
 
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
     secondary_context_classes = flow_list_specs["secondary_context_classes"]
     context_patterns_used = pd.DataFrame(
-        columns=['Class', 'Directionality', 'Environmental Media', 'Primary_Context_Path', 'Pattern'])
+        columns=['Class', 'Directionality', 'Environmental Media', 'Primary_Context_Path', 'Pattern','ContextPreferred'])
     for index, row in SecondaryContextMembership.iterrows():
         pattern = [x for x in secondary_context_classes if row[x] != 0]
         pattern_w_primary = flow_list_specs["primary_context_classes"].copy() + pattern
@@ -67,12 +67,13 @@ if __name__ == '__main__':
                                                               'Directionality': row['Directionality'],
                                                               'Environmental Media': row['Environmental Media'],
                                                               'Primary_Context_Path': primary_context_path,
-                                                              'Pattern': pattern_w_primary}, ignore_index=True)
+                                                              'Pattern': pattern_w_primary,
+                                                              'ContextPreferred':row['ContextPreferred']}, ignore_index=True)
 
     # Cycle through these class context patterns and get context_paths
 
     #! This code segment is slow - could be improved
-    field_to_keep = ['Class', 'Directionality', 'Environmental Media']
+    field_to_keep = ['Class', 'Directionality', 'Environmental Media','ContextPreferred']
     class_contexts = pd.DataFrame()
     for index, row in context_patterns_used.iterrows():
         class_context_patterns_row = row[field_to_keep]
@@ -82,7 +83,7 @@ if __name__ == '__main__':
         for f in field_to_keep:
             contexts_df[f] = row[f]
         contexts_df = contexts_df.drop(columns='Pattern')
-        class_contexts = pd.concat([class_contexts, contexts_df], ignore_index=True)
+        class_contexts = pd.concat([class_contexts, contexts_df], ignore_index=True, sort=False)
 
     # Need to check that the primary context names match the name in the context paths, and that the pattern matches the
     # patterns in context_patterns
@@ -91,9 +92,17 @@ if __name__ == '__main__':
     flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])
 
     #Drop duplicate flows if they exist
-    if len(flow[flow.duplicated(keep=False)])>0:
+    if len(flows[flows.duplicated(keep=False)])>0:
         log.debug("Duplicate flows exist. They will be removed.")
         flows = flows.drop_duplicates()
+
+    #If both the flowable and context are preferred, make this a preferred flow
+    flows['Preferred'] = 0
+    flows.loc[(flows['Flowable Preferred']==1) & (flows['ContextPreferred']==1),'Preferred'] = 1
+
+    #Drop unneeded columns
+    cols_to_drop = ['Flowable Preferred','ContextPreferred','Directionality','Environmental Media']
+    flows = flows.drop(columns=cols_to_drop)
 
     # Loop through flows generating UUID for each
     flowids = []
