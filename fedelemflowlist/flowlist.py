@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
         primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
         primary_contexts_unique['Class'] = t
-        primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
+        primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True)
 
     # flowables = flowables.fillna(value="")
 
@@ -90,8 +90,10 @@ if __name__ == '__main__':
     # Merge this table now with the flowables and primary contexts with the full contexts per class, creating flows for each compartment relevant for that flow type, using major
     flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])
 
-    #If contexts and flows are
-
+    #Drop duplicate flows if they exist
+    if len(flow[flow.duplicated(keep=False)])>0:
+        log.debug("Duplicate flows exist. They will be removed.")
+        flows = flows.drop_duplicates()
 
     # Loop through flows generating UUID for each
     flowids = []
