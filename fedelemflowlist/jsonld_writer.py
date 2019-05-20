@@ -106,8 +106,8 @@ def write_compartment_categories(category,pack):
     c = {
             "@context":"http://greendelta.github.io/olca-schema/context.jsonld",
             "@type":"Category",
-            "@id":category['Context UUID'],
-            "name":category["Context"],
+            "@id":category['Compartment UUID'],
+            "name":category["Compartment"],
             "modelType":"FLOW"
         }
     if category["Directionality"]=="resource":
