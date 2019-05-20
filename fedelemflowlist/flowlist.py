@@ -4,7 +4,6 @@ from fedelemflowlist.globals import log, inputpath, outputpath, as_path,flow_lis
 from fedelemflowlist.contexts import context_path_uuid
 from fedelemflowlist.uuid_generators import make_uuid
 
-
 if __name__ == '__main__':
 
     # Import flowables by flow class with their units, as well as primary flow class membership
@@ -108,4 +107,3 @@ if __name__ == '__main__':
 
     # Write it to csv
     flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
-
