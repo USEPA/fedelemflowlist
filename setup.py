@@ -5,9 +5,10 @@ setup(
     version='0.1',
     packages=['fedelemflowlist'],
     package_dir={'fedelemflowlist': 'fedelemflowlist'},
-    package_data={'fedelemflowlist': ["input/*.*", "output/*.*","flowmapping/*.*","candidate-flows/*.*"]},
+    package_data={'fedelemflowlist': [
+        "input/*.*", "output/*.*", "flowmapping/*.*", "candidate-flows/*.*"]},
     include_package_data=True,
-    install_requires = ['pandas>=0.22'],
+    install_requires=['pandas>=0.22', 'olca-ipc>=0.0.8'],
     url='https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List',
     license='CC0',
     author='Wesley Ingwersen',
