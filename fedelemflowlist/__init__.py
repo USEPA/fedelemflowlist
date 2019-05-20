@@ -1,11 +1,6 @@
 import pandas as pd
 import os
-
-try: modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
-except NameError: modulepath = 'fedelemflowlist/'
-
-output_dir = modulepath + 'output/'
-flowmapping_dir = modulepath + 'flowmapping/'
+from fedelemflowlist.globals import outputpath, flowmappingpath
 
 #Returns the most recent flows list as a dataframe by default
 def get_flowlist(version=None,format='df'):
@@ -14,13 +9,13 @@ def get_flowlist(version=None,format='df'):
     else:
         list = 'FedElemFlowList_' + version
     #Get it as a dataframe
-    list_file = output_dir + list + '.csv'
+    list_file = outputpath + list + '.csv'
     if format == 'df':
         flowlist = pd.read_csv(list_file,header=0)
     return flowlist
 
 def list_flowlists():
-    files = os.listdir(output_dir)
+    files = os.listdir(outputpath)
     flowslists = []
     for name in files:
         if name.endswith(".csv"):
@@ -41,7 +36,7 @@ def get_flowmapping(version=None,source_list=None):
         list = identify_most_recent_list()
     else:
         list = 'FedElemFlowList_' + version
-    mapping_file = flowmapping_dir + list + '_mapping.csv'
+    mapping_file = flowmappingpath + list + '_mapping.csv'
 
     try: flowmapping =  pd.read_csv(mapping_file,header=0)
     except FileNotFoundError: print("No mapping file found for list " + list)

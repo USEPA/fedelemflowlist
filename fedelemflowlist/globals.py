@@ -1,13 +1,36 @@
 #Set global variables for flow list creation
+import sys
+import os
+import json
 
-inputpath = 'fedelemflowlist/input/'
-outputpath = 'fedelemflowlist/output/'
-flowmappingpath = 'fedelemflowlist/flowmapping'
-context_fields = ['Directionality','Compartment']
+try: modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
+except NameError: modulepath = 'fedelemflowlist/'
 
-#list_version_no = '0.1' #Must be numeric
-#flow_types = {'Energy':'resource', 'Fuel':'resource', 'Land':'resource', 'Chemicals':'emission', 'Groups':'emission'}
+outputpath = modulepath + 'output/'
+inputpath = modulepath + 'input/'
+flowmappingpath = modulepath + 'flowmapping/'
 
-list_version_no = '0.2' #Must be numeric
-flow_types = ['Biological','Chemicals','Energy', 'Fuel', 'Geological','Groups','Land','Water','Other']
+import logging as log
+log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
+                stream=sys.stdout)
+
+try:
+    with open(modulepath +"flowlistspecs.json") as cfg:
+        flow_list_specs = json.load(cfg)
+except FileNotFoundError:
+    log.info("Flow list specs not found. Create a flow list specs file.")
+
+
+def convert_to_lower(x):
+    x = str(x)
+    x = str.lower(x)
+    return x
+
+def as_path(*args: str) -> str:
+    strings = []
+    for arg in args:
+        if arg is None:
+            continue
+        strings.append(str(arg).strip().lower())
+    return "/".join(strings)
 
