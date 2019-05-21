@@ -4,12 +4,12 @@ import math
 import os
 import uuid
 
-import fedelemflowlist as fedfl
 import pandas as pd
 import olca
 import olca.units as units
 import olca.pack as pack
 
+from .uuid_generators import make_uuid
 from typing import Optional
 
 
@@ -140,83 +140,62 @@ class _MapEntry(object):
 
 class Writer(object):
 
-    def __init__(self, version="0.1", flow_list: pd.DataFrame = None,
+    def __init__(self, flow_list: pd.DataFrame,
                  flow_mapping: pd.DataFrame = None):
-        self.version = version
-
-        if flow_list is None:
-            self.flow_list = fedfl.get_flowlist(version)  # type: pd.DataFrame
-        else:
-            self.flow_list = flow_list
-
-        if flow_mapping is None:
-            self.flow_mapping = fedfl.get_flowmapping(  # type: pd.DataFrame
-                version)
-        else:
-            self.flow_mapping = flow_mapping
+        self.flow_list = flow_list
+        self.flow_mapping = flow_mapping
+        self._context_uids = {}
 
     def write_to(self, path: str):
         if os.path.exists(path):
             log.warning("File %s already exists and will be overwritten", path)
             os.remove(path)
         pw = pack.Writer(path)
-        self._write_top_categories(pw)
-        self._write_flow_compartments(pw)
+        self._write_categories(pw)
         self._write_flows(pw)
-        self._write_mappings(pw)
+        if self.flow_mapping is not None:
+            self._write_mappings(pw)
         pw.close()
 
-    def _write_top_categories(self, pw: pack.Writer):
-        # elementary flows
+    def _write_categories(self, pw: pack.Writer):
+
         root = olca.Category()
         root.id = "f318fa60-bae9-361f-ad5a-5066a0e2a9d1"
         root.name = "Elementary flows"
         root.model_type = olca.ModelType.FLOW
+        self._context_uids[root.name.lower()] = root.id
         pw.write(root)
 
-        # resources
-        res = olca.Category()
-        res.id = "3095c63c-7962-4086-a0d7-df4fd38c2e68"
-        res.name = "resource"
-        res.category = olca.ref(olca.Category, root.id)
-        res.model_type = olca.ModelType.FLOW
-        pw.write(res)
-
-        # emissions
-        emi = olca.Category()
-        emi.id = "c2433915-9ca3-3933-a64d-68d67e3e3281"
-        emi.name = "emission"
-        emi.category = olca.ref(olca.Category, root.id)
-        emi.model_type = olca.ModelType.FLOW
-        pw.write(emi)
-
-    def _write_flow_compartments(self, pw: pack.Writer):
-        handled = set()
         for _, row in self.flow_list.iterrows():
-            uid = row["Compartment UUID"]
-            if uid in handled:
+            path = row['Context']
+            if not isinstance(path, str):
                 continue
-            handled.add(uid)
-            parent_uid = None
-            direction = row["Directionality"].strip()
-            if direction == "resource":
-                parent_uid = "3095c63c-7962-4086-a0d7-df4fd38c2e68"
-            elif direction == "emission":
-                parent_uid = "c2433915-9ca3-3933-a64d-68d67e3e3281"
-            else:
-                log.error("Unknown directionality: %s", direction)
+            path = path.strip()
+            if path == '' or path.lower() in self._context_uids:
                 continue
-            comp = olca.Category()
-            comp.id = uid
-            comp.name = row["Compartment"]
-            comp.model_type = olca.ModelType.FLOW
-            comp.category = olca.ref(olca.Category, parent_uid)
-            pw.write(comp)
+            parts = path.split("/")
+            parent_id = root.id
+            for i in range(0, len(parts)):
+                lpath = "/".join(parts[0:i+1]).lower()
+                uid = self._context_uids.get(lpath)
+                if uid is not None:
+                    parent_id = uid
+                    continue
+                uid = make_uuid("Flow", lpath)
+                log.info("create category %s", lpath)
+                c = olca.Category()
+                c.id = uid
+                c.name = parts[i]
+                c.category = olca.ref(olca.Category, parent_id)
+                c.model_type = olca.ModelType.FLOW
+                pw.write(c)
+                self._context_uids[lpath] = uid
+                parent_id = uid
 
     def _write_flows(self, pw: pack.Writer):
         for _, row in self.flow_list.iterrows():
-
-            description = "From FedElemFlowList_%s." % self.version
+            # TODO: define a version field somewhere in the package?
+            description = "From FedElemFlowList_0.3."
             flow_class = row.get("Class")
             if flow_class is not None:
                 description += " Flow Class: %s." % flow_class
@@ -233,15 +212,22 @@ class Writer(object):
             flow.name = row["Flowable"]
             flow.cas = row.get("CAS No", None)
             flow.formula = row.get("Formula", None)
-            flow.version = self.version
+            flow.version = "0.3"  # TODO: see above
             flow.last_change = datetime.datetime.now().isoformat()
-            flow.category = olca.ref(olca.Category, row["Compartment UUID"])
             flow.flow_type = olca.FlowType.ELEMENTARY_FLOW
+
+            context_uid = self._context_uids.get(row['Context'].lower())
+            if context_uid is not None:
+                flow.category = olca.ref(olca.Category, context_uid)
+
             fp = olca.FlowPropertyFactor()
             fp.reference_flow_property = True
             fp.conversion_factor = 1.0
-            fp.flow_property = olca.ref(
-                olca.FlowProperty, row["Quality UUID"])
+            fp.flow_property = units.property_ref(row["Unit"])
+            if fp.flow_property is None:
+                log.warning("unknown unit %s in flow %s",
+                            row["Unit"], row["Flow UUID"])
+
             flow.flow_properties = [fp]
             pw.write(flow)
 
