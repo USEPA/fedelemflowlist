@@ -117,4 +117,4 @@ if __name__ == '__main__':
     log.info(contexts_in_flows)
 
     # Write it to csv
-    flows.to_csv(outputpath + 'FedElemFlowList_' + flow_list_specs["list_version"] + '.csv', index=False)
+    flows.to_csv(outputpath + 'FedElemFlowListMaster.csv', index=False)
