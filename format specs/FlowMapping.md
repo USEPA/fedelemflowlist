@@ -2,8 +2,7 @@
 
 Field |	Type |	Required? | Note |
 ----- | ---- | --------  | ----------- |
-SourceListName | string | Y | Name of source flowlist|
-SourceListVersion |	string | N | Version number for source list|
+SourceListName | string | Y | Name and version of the source flowlist, e.g. 'openLCA1.7' |
 SourceFlowName	| string | Y | Name of the source flow |
 SourceFlowUUID	| string | N | If no UUID present, UUID generated based on olca algorithm|
 SourceFlowContext | string | Y | Compartments separated by '/', like 'emission/air'|
@@ -19,4 +18,4 @@ Verifier |	string | N |Person verifying the mapping |
 LastUpdated | datetime | N | Date mapping last updated |
 
 Note that TargetList is not present, because the Fed LCA Commons Elementary Flow List
- is always assumed target, with version number in the file name.
+ is always assumed target.
