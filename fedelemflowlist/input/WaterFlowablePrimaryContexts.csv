@@ -1,0 +1,21 @@
+Flowable,Directionality,Environmental Media
+Water,Resource,Air
+Water,Resource,Water
+Water,Resource,Ground
+Water,Emission,Air
+Water,Emission,Water
+Water,Emission,Ground
+"Water, fresh",Emission,Air
+"Water, fresh",Emission,Water
+"Water, fresh",Emission,Ground
+"Water, brackish",Emission,Water
+"Water, brackish",Emission,Ground
+"Water, saline",Emission,Water
+"Water, saline",Emission,Ground
+"Water, fresh",Resource,Air
+"Water, fresh",Resource,Water
+"Water, fresh",Resource,Ground
+"Water, brackish",Resource,Water
+"Water, brackish",Resource,Ground
+"Water, saline",Resource,Water
+"Water, saline",Resource,Ground

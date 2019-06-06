@@ -1,0 +1,476 @@
+Flowable,Directionality,Environmental Media
+Acanthite,Resource,Ground
+Actinium ore,Resource,Ground
+Actinolite,Resource,Ground
+Agardite (Nd),Resource,Ground
+Aggregate,Resource,Ground
+Albite,Resource,Ground
+Alfisols,Resource,Ground
+Alforsite,Resource,Ground
+Allanite (Ce),Resource,Ground
+Almandine,Resource,Ground
+Altaite,Resource,Ground
+Aluminum ore,Resource,Ground
+Amazonite,Resource,Ground
+Analcime,Resource,Ground
+Andesine,Resource,Ground
+Andisols,Resource,Ground
+Andradite,Resource,Ground
+Anglesite,Resource,Ground
+Anhydrite,Resource,Ground
+Anorthite,Resource,Ground
+Anorthoclase,Resource,Ground
+Antimonselite,Resource,Ground
+Antimony,Resource,Ground
+Antimony ore,Resource,Ground
+Apatite,Resource,Ground
+Aragonite,Resource,Ground
+Argentite,Resource,Ground
+Argon,Resource,Air
+Argutite,Resource,Ground
+Argyrodite,Resource,Ground
+Arsenic ore,Resource,Ground
+Arsenopyrite,Resource,Ground
+Asbestos,Resource,Ground
+Autunite,Resource,Ground
+Azurite,Resource,Ground
+Baddeleyite,Resource,Ground
+Banalsite,Resource,Ground
+Barite,Resource,Ground
+Barium ore,Resource,Ground
+Barium sulfate,Resource,Ground
+Basalt,Resource,Ground
+Bastnaesite,Resource,Ground
+Bastnaesite (Ce),Resource,Ground
+Bastnaesite (La),Resource,Ground
+Bastnaesite (Nd),Resource,Ground
+Bastnaesite (Y),Resource,Ground
+Bastnaesite group,Resource,Ground
+Bauxite,Resource,Ground
+Bazzite,Resource,Ground
+Bentonite,Resource,Ground
+Bertradndite,Resource,Ground
+Beryl,Resource,Ground
+Beryllium ore,Resource,Ground
+Bismuth,Resource,Ground
+Bismuth ore,Resource,Ground
+Bismuthinite,Resource,Ground
+Bismutite,Resource,Ground
+Boehmite,Resource,Ground
+Borate,Resource,Ground
+Borax,Resource,Ground
+Bornite,Resource,Ground
+Boron ore,Resource,Ground
+Bowieite,Resource,Ground
+Bromargyrite,Resource,Ground
+Bromine,Resource,Ground
+Bromine,Resource,Water
+Brushite,Resource,Ground
+Buddingtonite,Resource,Ground
+Bytownite,Resource,Ground
+Cadmium ore,Resource,Ground
+Cadmium sulfide,Resource,Ground
+Caesium ore,Resource,Ground
+Calaverite,Resource,Ground
+Calcio-olivine,Resource,Ground
+Calcite,Resource,Ground
+Calcium carbonate,Resource,Ground
+Calcium chloride,Resource,Ground
+Calcium fluoride,Resource,Ground
+Calcium ore,Resource,Ground
+Calcium sulfate,Resource,Ground
+Calderite,Resource,Ground
+Caliche,Resource,Ground
+Carbon dioxide,Resource,Air
+Carnallite,Resource,Ground
+Carnotite,Resource,Ground
+Cassiterite,Resource,Ground
+Celestine,Resource,Ground
+Celsian,Resource,Ground
+Cerium ore,Resource,Ground
+Cerussite,Resource,Ground
+Chalcocite,Resource,Ground
+Chalcopyrite,Resource,Ground
+Chalk,Resource,Ground
+Cheralite,Resource,Ground
+Chlorapatite,Resource,Ground
+Chlorargyrite,Resource,Ground
+Chlorine,Resource,Ground
+Chromite,Resource,Ground
+Chromium ore,Resource,Ground
+Chrysoberyl,Resource,Ground
+Chrysotile,Resource,Ground
+Churchite(Y),Resource,Ground
+Cinnabar,Resource,Ground
+Clausthalite,Resource,Ground
+Clay,Resource,Ground
+Coal,Resource,Ground
+"Coal, anthracite",Resource,Ground
+"Coal, bituminous",Resource,Ground
+"Coal, lignite",Resource,Ground
+"Coal, sub-bituminous",Resource,Ground
+Coalbed methane,Resource,Ground
+Cobalt ore,Resource,Ground
+Cobaltite,Resource,Ground
+Colemanite,Resource,Ground
+Columbite (Fe),Resource,Ground
+Columbite (Mn),Resource,Ground
+Columbite group,Resource,Ground
+Copper,Resource,Ground
+Copper (I) sufide,Resource,Ground
+Copper ore,Resource,Ground
+Copper sulfides,Resource,Ground
+Corderoite,Resource,Ground
+Covellite,Resource,Ground
+Crocoite,Resource,Ground
+Crookesite,Resource,Ground
+Crude oil,Resource,Water
+Cuprite,Resource,Ground
+Cuprorhodsite,Resource,Ground
+Davidite (Ce),Resource,Ground
+Davidite (La),Resource,Ground
+Diaspore,Resource,Ground
+Diatomite,Resource,Ground
+Diopside,Resource,Ground
+Dmisteinbergite,Resource,Ground
+Dolomite,Resource,Ground
+Dravite,Resource,Ground
+Dysprosium ore,Resource,Ground
+Dzhalindite,Resource,Ground
+Elbaite,Resource,Ground
+Enargite,Resource,Ground
+Epidote,Resource,Ground
+Erbium ore,Resource,Ground
+Eringaite,Resource,Ground
+Erlichmanite,Resource,Ground
+Erythrite,Resource,Ground
+Eudialyte,Resource,Ground
+Europium ore,Resource,Ground
+Euxenite (Y),Resource,Ground
+Fayalite,Resource,Ground
+Feldspar group,Resource,Ground
+Ferberite,Resource,Ground
+Filatovite,Resource,Ground
+Florencite (Sm),Resource,Ground
+Fluorapatite,Resource,Ground
+Fluorine,Resource,Ground
+Fluorite,Resource,Ground
+Fluorspar,Resource,Ground
+Forsterite,Resource,Ground
+Gadolinium ore,Resource,Ground
+Galena,Resource,Ground
+Gallite,Resource,Ground
+Gallium ore,Resource,Ground
+Gallobeudantite,Resource,Ground
+Galloplumbogummite,Resource,Ground
+Gangue,Resource,Ground
+Garnet group,Resource,Ground
+Germanite,Resource,Ground
+Germanium ore,Resource,Ground
+Gersdorffite,Resource,Ground
+Gibbsite,Resource,Ground
+Glaucochroite,Resource,Ground
+Glaucodot,Resource,Ground
+Gold,Resource,Ground
+Gold ore,Resource,Ground
+Goldmanite,Resource,Ground
+Goyazite,Resource,Ground
+Granite,Resource,Ground
+Graphite,Resource,Ground
+Gravel,Resource,Ground
+Grechischchevite,Resource,Ground
+Greenockite,Resource,Ground
+Grossular,Resource,Ground
+Guanajuatite,Resource,Ground
+Guange,Resource,Ground
+Gypsum,Resource,Ground
+Gypsum group,Resource,Ground
+Hafnium ore,Resource,Ground
+Hafnon,Resource,Ground
+Halite,Resource,Ground
+Hambergite,Resource,Ground
+Hawleyite,Resource,Ground
+Helium,Resource,Air
+Hemimorphite,Resource,Ground
+Hessite,Resource,Ground
+Hexacelsian,Resource,Ground
+Hingganite (Yb),Resource,Ground
+Hollingworthite,Resource,Ground
+Holmium ore,Resource,Ground
+Huebnerite,Resource,Ground
+Hyalophane,Resource,Ground
+Hydrogen,Resource,Air
+Hydroxylapatite,Resource,Ground
+Hydroxylbastnaesite (Ce) ,Resource,Ground
+Hydroxylbastnaesite (Nd) ,Resource,Ground
+Ilmenite,Resource,Ground
+Indium,Resource,Ground
+Indium (III) sulfide,Resource,Ground
+Indium ore,Resource,Ground
+Iodargyrite,Resource,Ground
+Iodate,Resource,Ground
+Iodine,Resource,Ground
+Irarsite,Resource,Ground
+Iridium,Resource,Ground
+Iridium ore,Resource,Ground
+Iron chloride,Resource,Ground
+Iron ore,Resource,Ground
+Iron oxide,Resource,Ground
+Iron sulfide,Resource,Ground
+Ixiolite,Resource,Ground
+Johnbaumite,Resource,Ground
+Kaoline,Resource,Ground
+Kaolinite,Resource,Ground
+Keiviite (Yb),Resource,Ground
+Kernite,Resource,Ground
+Kieserite,Resource,Ground
+Kirschsteinite,Resource,Ground
+Knorringite,Resource,Ground
+Kokchetavite,Resource,Ground
+Kolbeckite,Resource,Ground
+Kotulskite,Resource,Ground
+Krypton,Resource,Air
+Kumdykolite,Resource,Ground
+Kuzminite,Resource,Ground
+Kyanite,Resource,Ground
+Labradorite,Resource,Ground
+Laihunite,Resource,Ground
+Lanthanum ore,Resource,Ground
+Laurite,Resource,Ground
+Lava,Resource,Ground
+Lead (II) sulfide,Resource,Ground
+Lead ore,Resource,Ground
+Lepersonnite (Gd),Resource,Ground
+Liebenbergite,Resource,Ground
+Limestone,Resource,Ground
+Lithium chloride,Resource,Ground
+Lithium ore,Resource,Ground
+Livingstonite,Resource,Ground
+Londonite,Resource,Ground
+Lorandite,Resource,Ground
+Lutetium ore,Resource,Ground
+Magnesiochromite,Resource,Ground
+Magnesite,Resource,Ground
+Magnesium chloride,Resource,Ground
+Magnesium ore,Resource,Ground
+Magnetite,Resource,Ground
+Majorite,Resource,Ground
+Malachite,Resource,Ground
+Manganese ore,Resource,Ground
+Marl,Resource,Ground
+Masutomilite,Resource,Ground
+Mawsonite,Resource,Ground
+Menzerite (Y),Resource,Ground
+Mercury,Resource,Ground
+Mercury ore,Resource,Ground
+Merenskyite,Resource,Ground
+Meta-autunite,Resource,Ground
+Metacinnabar,Resource,Ground
+Metastibnite,Resource,Ground
+Metatorbernite,Resource,Ground
+Methane,Resource,Air
+Mica,Resource,Ground
+Michenerite,Resource,Ground
+Microcline,Resource,Ground
+Millerite,Resource,Ground
+Mimetite,Resource,Ground
+Mirabilite,Resource,Ground
+Molybdenite,Resource,Ground
+Molybdenum ore,Resource,Ground
+Momoiite,Resource,Ground
+Monazite (Ce),Resource,Ground
+Monazite (La),Resource,Ground
+Monazite (Nd),Resource,Ground
+Monazite (Sm),Resource,Ground
+Moncheite,Resource,Ground
+Monticellite,Resource,Ground
+Morimotoite,Resource,Ground
+Muscovite,Resource,Ground
+Natural gas,Resource,Air
+Naumannite,Resource,Ground
+Neodymium ore,Resource,Ground
+Neon,Resource,Air
+Nepheline,Resource,Ground
+Nickel ore,Resource,Ground
+Nickel silicates,Resource,Ground
+Nickel sulfide,Resource,Ground
+Niobium ore,Resource,Ground
+Nitratine,Resource,Ground
+Nitrogen,Resource,Air
+Oil sand,Resource,Ground
+Oil shale,Resource,Ground
+Oligoclase,Resource,Ground
+Olivine,Resource,Ground
+Olivine group,Resource,Ground
+Orthoclase,Resource,Ground
+Osarsite,Resource,Ground
+Osmium,Resource,Ground
+Osmium ore,Resource,Ground
+Palladium ore,Resource,Ground
+Paracelsian,Resource,Ground
+Paratellurite,Resource,Ground
+Peat,Resource,Ground
+Pentlandite,Resource,Ground
+Perlite,Resource,Ground
+Perroudite,Resource,Ground
+Petzite,Resource,Ground
+Pharmacolite,Resource,Ground
+Phenakite,Resource,Ground
+Phonolite,Resource,Ground
+Phosphate ore,Resource,Ground
+Phosphorite,Resource,Ground
+Phosphorus ore,Resource,Ground
+Platinum,Resource,Ground
+Platinum ore,Resource,Ground
+Plattnerite,Resource,Ground
+Polonium ore,Resource,Ground
+Potassium chloride,Resource,Ground
+Potassium ore,Resource,Ground
+Potassium oxide,Resource,Ground
+Powellite,Resource,Ground
+Praseodymium ore,Resource,Ground
+Protactinium ore,Resource,Ground
+Pumice,Resource,Ground
+Pyrargyrite,Resource,Ground
+Pyrite,Resource,Ground
+Pyrochlore group,Resource,Ground
+Pyrolusite,Resource,Ground
+Pyromorphite,Resource,Ground
+Pyrope,Resource,Ground
+Quartz,Resource,Ground
+"Quartz, sand",Resource,Ground
+Quartzite,Resource,Ground
+Radium,Resource,Ground
+Radon,Resource,Air
+Ramanite (Rb),Resource,Ground
+Ramdohrite,Resource,Ground
+Reedmergnerite,Resource,Ground
+Renierite,Resource,Ground
+Rhabdophane (Nd),Resource,Ground
+Rheniite,Resource,Ground
+Rhenium ore,Resource,Ground
+Rhodium ore,Resource,Ground
+Rhodochrosite,Resource,Ground
+Rhyolite,Resource,Ground
+Rock,Resource,Ground
+Roepperite (of Brush),Resource,Ground
+Roquesite,Resource,Ground
+Ruarsite,Resource,Ground
+Rubicline,Resource,Ground
+Rubidiuan Muscovite,Resource,Ground
+Rubidium ore,Resource,Ground
+Rutheniridosmine,Resource,Ground
+Ruthenium,Resource,Ground
+Ruthenium ore,Resource,Ground
+Rutile,Resource,Ground
+Rutile group,Resource,Ground
+Samarium ore,Resource,Ground
+Samarskite (Y),Resource,Ground
+Sand,Resource,Ground
+Sanidine,Resource,Ground
+Scandium ore,Resource,Ground
+Scheelite,Resource,Ground
+Schorl,Resource,Ground
+Schroeckingerite,Resource,Ground
+Schwartzembergite,Resource,Ground
+Scorodite,Resource,Ground
+Selenium,Resource,Ground
+Selenium ore,Resource,Ground
+Shale,Resource,Ground
+Shale gas,Resource,Air
+Silicate group,Resource,Ground
+Silicates,Resource,Ground
+Silt,Resource,Ground
+Silver (I) sulfide,Resource,Ground
+Silver ore,Resource,Ground
+Skutterudite,Resource,Ground
+Slate,Resource,Ground
+Slawsonite,Resource,Ground
+Smithsonite,Resource,Ground
+Sodium bromide,Resource,Ground
+Sodium carbonate,Resource,Ground
+Sodium chloride,Resource,Ground
+Sodium cholride,Resource,Ground
+Sodium nitrate,Resource,Ground
+Sodium ore,Resource,Ground
+Sodium sulfate,Resource,Ground
+Soehngeite,Resource,Ground
+Soil,Resource,Ground
+Sperrylite,Resource,Ground
+Spessartine,Resource,Ground
+Sphalerite,Resource,Ground
+Spodumene,Resource,Ground
+Stannite,Resource,Ground
+Steatite,Resource,Ground
+Stibnite,Resource,Ground
+Stibnite group,Resource,Ground
+Stishovite,Resource,Ground
+Stone,Resource,Ground
+Stronalsite,Resource,Ground
+Strontianite,Resource,Ground
+Strontium ore,Resource,Ground
+Sulfate,Resource,Ground
+Sulfur,Resource,Ground
+Sulfur ore,Resource,Ground
+Sunstone,Resource,Ground
+Svabite,Resource,Ground
+Svyatoslavite,Resource,Ground
+Sylvinite,Resource,Ground
+Sylvite,Resource,Ground
+Talc,Resource,Ground
+Tantalite,Resource,Ground
+Tantalite (Fe),Resource,Ground
+Tantalite (Mn),Resource,Ground
+Tantalite group,Resource,Ground
+Tantalum ore,Resource,Ground
+Tarkianite,Resource,Ground
+Tellurium ore,Resource,Ground
+Tellurium sulfide,Resource,Ground
+Tennantite,Resource,Ground
+Tenorite,Resource,Ground
+Tephroite,Resource,Ground
+Terbium ore,Resource,Ground
+Tetradymite,Resource,Ground
+Tetrahedrite,Resource,Ground
+Thalcusite,Resource,Ground
+Thallium ore,Resource,Ground
+Thenardite,Resource,Ground
+Thorbastnaesite ,Resource,Ground
+Thorianite,Resource,Ground
+Thorite,Resource,Ground
+Thorium ore,Resource,Ground
+Thortveitite,Resource,Ground
+Thulium ore,Resource,Ground
+Tight gas,Resource,Air
+Tin ore,Resource,Ground
+Titanite,Resource,Ground
+Titanium ore,Resource,Ground
+Torbernite,Resource,Ground
+Triphylite,Resource,Ground
+Trona,Resource,Ground
+Tsumgallite,Resource,Ground
+Tungsten ore,Resource,Ground
+Turneaureite,Resource,Ground
+Twinnite,Resource,Ground
+Tyuyamunite,Resource,Ground
+Ulexite,Resource,Ground
+Uraninite,Resource,Ground
+Uranium ore,Resource,Ground
+Uranophane,Resource,Ground
+Uvarovite,Resource,Ground
+Vanadinite,Resource,Ground
+Vanadium ore,Resource,Ground
+Vermiculite,Resource,Ground
+Voloshinite,Resource,Ground
+Wulfenite,Resource,Ground
+Wurtzite,Resource,Ground
+Xenon,Resource,Air
+Xenotime (Y),Resource,Ground
+Xenotime (Yb),Resource,Ground
+Ytterbium ore,Resource,Ground
+Yttrium ore,Resource,Ground
+Zinc ore,Resource,Ground
+Zinc sulfide,Resource,Ground
+Zincite,Resource,Ground
+Zircon,Resource,Ground
+Zirconium ore,Resource,Ground
