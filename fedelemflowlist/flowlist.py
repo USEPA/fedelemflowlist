@@ -17,7 +17,7 @@ if __name__ == '__main__':
     # Loop through
     for t in flow_list_specs["flow_classes"]:
         # Handle flowables first
-        flowables_for_class = pd.read_excel(inputpath + t + '.xlsx', sheet_name='Flowables', header=0)
+        flowables_for_class = pd.read_csv(inputpath + t + 'Flowables.csv', header=0)
         # Drop if the line is blank
         flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
         # Add Flow Class to columns
@@ -26,7 +26,7 @@ if __name__ == '__main__':
         if preferred_flowables_only:
             flowables_for_class = flowables_for_class[flowables_for_class['Preferred']==True]
         flowables = pd.concat([flowables, flowables_for_class], ignore_index=True, sort=False)
-        class_primary_contexts = pd.read_excel(inputpath + t + '.xlsx', sheet_name='FlowablePrimaryContexts', header=0)
+        class_primary_contexts = pd.read_csv(inputpath + t + 'FlowablePrimaryContexts.csv', header=0)
         class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
 
         # primary_contexts['Directionality'] = [convert_to_lower(x) for x in primary_contexts["Directionality"]]
@@ -44,8 +44,7 @@ if __name__ == '__main__':
     # flowables = flowables.fillna(value="")
 
     # Read in flowable context membership
-    SecondaryContextMembership = pd.read_excel(inputpath + 'SecondaryContextMembership.xlsx',
-                                               sheet_name='SecondaryContextMembership')  #
+    SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
 
     # if list(SecondaryContextMembership.columns[1:]) != compartment_classes:
     #    log.debug('ERROR: FlowableContextMembership compartment class columns must match Context compartment class columns')

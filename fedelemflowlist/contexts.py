@@ -1,7 +1,7 @@
 import pandas as pd
 from fedelemflowlist.globals import inputpath, as_path, log,flow_list_specs
 
-contexts = pd.read_excel(inputpath + 'Contexts.xlsx', sheet_name='Contexts', na_values='N/A') #
+contexts = pd.read_csv(inputpath + 'Contexts.csv', na_values='N/A') #
 contexts.head(50)
 
 #Get levels for max number of compartment classes
