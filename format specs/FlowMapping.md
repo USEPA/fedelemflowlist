@@ -1,5 +1,7 @@
 # Flow Mapping format
 
+Flow mapping data is in the form of a pandas dataframe with the following fields.
+
 Field |	Type |	Required? | Note |
 ----- | ---- | --------  | ----------- |
 SourceListName | string | Y | Name and version of the source flowlist, e.g. 'openLCA1.7' |
