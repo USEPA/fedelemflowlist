@@ -1,0 +1,209 @@
+SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+CDDLCI,"1,2,3,4,6,7,8-Heptachlorodibenzofuran",c3ce1a2b-a097-35da-9444-7c47abb4a31d,air,kg,=,1,"1,2,3,4,6,7,8-Heptachlorodibenzofuran",366db8ca-5a41-354b-9847-179eb2759073,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,4,6,7,8-Heptachlorodibenzo-p-Dioxin",63610042-6664-37ef-9b76-ff0eb6d6be74,air,kg,=,1,"1,2,3,4,6,7,8-Heptachlorodibenzo-p-dioxin",f308c394-340b-3abb-8c2b-2e829fb36f2b,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,4,7,8,9-Heptachlorodibenzofuran",9b1469e4-747b-3c21-b3d9-b3b2e5647b0c,air,kg,=,1,"1,2,3,4,7,8,9-Heptachlorodibenzofuran",0adc7aaa-00dd-3ecd-a8db-4ce173a20591,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,4,7,8-Hexachlorodibenzofuran",886ee0c4-1ca7-3af3-a4d6-17838174731d,air,kg,=,1,"1,2,3,4,7,8-Hexachlorodibenzofuran",159f55db-a054-3dec-99be-023f3ec1a4af,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,4,7,8-Hexachlorodibenzo-p-Dioxin",11d1f336-6ef5-3a2d-8588-f7c27f6d2aa0,air,kg,=,1,"1,2,3,4,7,8-Hexachlorodibenzo-p-dioxin",a0df9853-65b8-350d-a719-dc21114176ee,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,6,7,8-Hexachlorodibenzofuran",53fbaf3c-b248-3963-9edc-20af095a1b50,air,kg,=,1,"1,2,3,6,7,8-Hexachlorodibenzofuran",871dc48b-a85c-33ff-98e2-cce2dbd63753,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,6,7,8-HEXACHLORODIBENZO-P-DIOXIN",b0ae4db6-bbb9-3498-b5eb-7633899361ac,air,kg,=,1,"1,2,3,6,7,8-Hexachlorodibenzo-p-dioxin",ae0dc249-97ae-3575-a2ea-99c3d2d312b0,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,7,8,9-Hexachlorodibenzofuran",dacf41a9-1de7-38bd-987b-64822ff08816,air,kg,=,1,"1,2,3,7,8,9-Hexachlorodibenzofuran",3efad51e-9c16-38ed-ac61-1c75af400df4,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,7,8,9-Hexachlorodibenzo-p-Dioxin",ef015ecb-72a0-3d16-9649-f33197f09e54,air,kg,=,1,"1,2,3,7,8,9-Hexachlorodibenzo-p-dioxin",b330e0bd-997f-3ae9-9bff-244143bf66a6,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,7,8-Pentachlorodibenzofuran",c61325ec-ee05-3725-8d8d-329c65957df1,air,kg,=,1,"1,2,3,7,8-Pentachlorodibenzofuran",4bcfae90-6a41-3fed-97a1-919f9e4cedf0,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"1,2,3,7,8-PENTACHLORODIBENZO-P-DIOXIN",b2921c60-92f5-3745-98c9-dd9b4e5931b1,air,kg,=,1,"1,2,3,7,8-Pentachlorodibenzo-p-dioxin",66fa486a-a469-3111-81ea-02f3ee6477ba,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,1-Butene,e01a56fc-6715-6221-6f06-0e1d98f097e1,air/unspecified,kg,=,1,1-Butene,ad64464c-1ff3-36e2-b7cd-8e404a62f7f2,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,1-Chloronaphthalene,67e44bb5-7479-0f39-3bc6-4f305df083b7,air/unspecified,kg,=,1,1-Chloronaphthalene,c8829301-b298-38e1-8b1d-07e0eb9fc610,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,1-Hexene,65caadfc-7b4f-89e5-212a-9014fa3375f3,air/unspecified,kg,=,1,1-Hexene,f5a30284-67a4-3a99-83ee-b7a486a2d196,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,1-Pentene,97c9ddbf-6a38-6979-3d65-116b62c48168,air/unspecified,kg,=,1,1-Pentene,f0540274-e177-35aa-aaca-2c33298ba3ff,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"2,2,4-trimethylpentane",ee3b356a-3f62-35f3-a41d-2c27ba134f8b,air,kg,=,1,"2,2,4-Trimethylpentane",3b981d82-2f3d-3ac0-89b5-5e38b91ef0f3,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"2,3,4,6,7,8-Hexachlorodibenzofuran",6568d25c-23f7-3b31-98ed-3c0a98c4b155,air,kg,=,1,"2,3,4,6,7,8-Hexachlorodibenzofuran",e3650058-0426-3a79-a606-758f352723e1,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"2,3,4,7,8-Pentachlorodibenzofuran",364cd8be-9b04-3407-bab9-bf1ecf13581b,air,kg,=,1,"2,3,4,7,8-Pentachlorodibenzofuran",90f1b922-1629-368b-a10b-f942f06f26b3,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"2,3,7,8-Tetrachlorodibenzofuran",d0432f6e-9f8d-36ed-ba97-eec7208e7b22,air,kg,=,1,"2,3,7,8-Tetrachlorodibenzofuran",cd0e6ccf-b6af-3faa-aeea-43b548b85479,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",a21817a8-0f71-366f-ac8a-8358135d5b97,air,kg,=,1,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",ceb19cad-78ed-3635-902c-d7ac03e5b830,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,2-Chloronaphthalene,0988f48b-5f8e-5ab3-226a-23af2650a232,air/unspecified,kg,=,1,2-Chloronaphthalene,3471d156-1b5e-34c1-b47f-73403c7eeda9,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,3-Chlorobiphenyl,a798c1a5-67de-32bb-834c-eb01f0071b84,air/unspecified,kg,=,1,3-Chlorobiphenyl,03d52a32-c000-3abb-a60e-e97a671dd078,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,4-Chlorobiphenyl,07df860c-3304-5209-0400-be02f73c6f98,air/unspecified,kg,=,1,4-Chlorobiphenyl,4eacaea6-0b7a-36c0-9511-23c9a76cfa04,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"9,10-Dichlorophenanthrene",9675a90c-2b77-1ed4-a4e6-17f011604ada,air/unspecified,kg,~,1,"9,10-Dihydrophenanthrene",0707ef0f-51bb-37ef-bea3-9db92f733191,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acenaphthalene,8f410f6d-3045-806d-33e7-27e7a7118893,air/unspecified,kg,~,1,Acenaphthylene,34b07e52-3833-3665-aeec-01aed3f78362,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acenaphthylene,392a55cf-da8e-37c8-9ae8-a93c8723f951,air,kg,=,1,Acenaphthylene,34b07e52-3833-3665-aeec-01aed3f78362,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acenaphthene,991f6801-5e21-363f-a166-770535846944,air,kg,=,1,Acenaphthene,43aed9d7-5a9b-3f3e-8d51-cc8bebd9a9a1,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acenaphthene,0b04ba8d-25a8-a117-81fe-3ed779b20534,air,kg,=,1,Acenaphthene,6a51722c-e4cc-3721-a510-cab19b0ab5bb,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acephenanthrylene,d2f123b4-893b-8197-524e-01c0a4e00fa5,air/unspecified,kg,=,1,Acephenanthrylene,e8b3b773-bde9-30e3-a7a6-a331a8d5775a,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acetaldehyde,10e8a299-d9ee-36c8-bf8e-4b6b919bd6c2,air,kg,=,1,Acetaldehyde,09dc3fe9-7e57-321f-9e04-34375bf2a0b7,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acetone,4bc5b6a1-f2ba-342e-adcf-c2aefbfdf572,air/unspecified,kg,=,1,Acetone,da3e01c8-7dec-3bce-97d7-a2a787b9bd79,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acetonitrile,c842f001-7b52-63ac-a451-cf42df1f403a,air/unspecified,kg,=,1,Acetonitrile,c8105d36-b64a-3b20-92bb-0208703c96a4,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acetylene,8294836f-a311-327b-0b07-02f0cb8f5fbe,air/unspecified,kg,=,1,Acetylene,dfe12a39-85ce-3a73-b099-ff45df1dd3cb,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acrolein,8f381c7a-9717-32d4-93dc-c1370e6a299a,air,kg,=,1,Acrolein,ba9cee15-a144-3c38-9a3b-36931d4e64e9,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Acrylonitrile,56c3cc75-6b2d-978a-0c19-8e28121b821e,air/unspecified,kg,=,1,Acrylonitrile,f5bb2d1e-1a7a-3587-8922-d711ec7e6ea4,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Aluminum,75df497a-2379-7901-3139-cf38e89d791a,Emission to water/ground water,kg,=,1,Aluminum,aacb5c36-6127-35d7-89cc-f25b89b85ff1,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Ammonia,c135969f-a35c-32d7-8c6a-7796b0b34e5e,air,kg,=,1,Ammonia,65b5d5dd-95b5-36b2-8cb0-7c5501ff1e32,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Anthracene,ab94b653-ca8e-32a5-b168-d998e619b619,air,kg,=,1,Anthracene,5aaca76f-ed8b-3dc6-9cb3-597421c567ac,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Anthracene,b1f3a0d0-18c4-3aed-8353-1fa617b422ef,air,kg,=,1,Anthracene,875f7fd4-8372-3633-9d09-bc52c9870e28,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Antimony,ee32eafa-8768-1bf0-20a1-698749f80703,Emission to water/ground water,kg,=,1,Antimony,4377e096-cf59-381a-ae6f-8f12185295c3,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Arsenic,e11cdec3-2f12-4888-8687-920f37a95de6,Emission to water/ground water,kg,=,1,Arsenic,eab4830f-e38c-3a5a-9cd6-cea5740d31d2,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Arsenic,7c87cff5-bbc8-3548-9124-362eee0752d0,soil/unspecified,kg,=,1,Arsenic,e96ce1ce-5cda-3807-9d86-3735e1c79fa9,emission/ground,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Arsenic & compounds,272141ad-73c8-3b87-99e3-7a347cb0b68c,air,kg,=,1,Arsenic compounds,65d56a65-e766-3e57-8da8-f2accb61e9fc,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Barium,d68f41b3-6887-49a8-8efa-96812f8ec9f6,Emission to water/ground water,kg,=,1,Boron,796a409c-131b-3cfc-8444-5fa0a57c818e,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Boron,8f79bf13-007b-330e-9c3c-8cd5b45fadf0,water/ground water,kg,=,1,Boron,796a409c-131b-3cfc-8444-5fa0a57c818e,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benz(a)anthracene,63ee7021-1eb9-3b8b-b970-ef33cd71eb48,air,kg,~,1,Benz[a]anthracene,248c35a7-7964-3f7b-aff8-9f29e983835e,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzene,4a8e3446-5e65-384f-b1fd-f0ba774a0574,air/unspecified,kg,=,1,Benzene,565c5d1a-1e0e-35f3-82a0-4845c43d3dcf,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzene,1430c5ad-d015-332c-837a-3440a054d738,air,kg,=,1,Benzene,565c5d1a-1e0e-35f3-82a0-4845c43d3dcf,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Benzene, 1,2,4-trimethyl-",c9cab0bc-561d-3df5-953c-d2ae2e92bb42,air/unspecified,kg,~,1,"1,2,4-Trimethylbenzene",37ea99ef-1be1-38e3-b5f4-8bbe233b6843,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Benzene, 1,3,5-trimethyl-",85addbab-15f3-3d25-8037-bcf1edfb617b,air/unspecified,kg,~,1,"1,3,5-Trimethylbenzene",baa8a7f5-a708-359a-9af3-4f1279daaaf5,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Benzene, ethyl-",c4c9ad9b-996f-3103-92d6-7ac3f3754734,air,kg,~,1,Ethylbenzene,7b2a26ef-86ec-39e1-82e6-016b31800e2b,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Benzene, ethyl-",69bb3ab9-a48f-3bf1-b4b0-21f6ac85f38e,air/unspecified,kg,~,1,Ethylbenzene,7b2a26ef-86ec-39e1-82e6-016b31800e2b,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzo(a)anthracene,8ebb256c-9975-9e37-5c8e-28027f2e0caa,air,kg,~,1,Benz[a]anthracene,971d8430-5b52-3a53-b290-4c36f0c2de52,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzo(a)pyrene,1b72079c-75cb-3b2b-ad1a-e37c276e9701,air,kg,~,1,Benzo[a]pyrene,76bd7eb9-a592-319f-9234-9a469de5bd59,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzo(b)fluoranthene,53595602-0c49-3395-99d9-6d6c4151a455,air,kg,=,1,Benzo(b)fluoranthene,920c61f8-5c4a-3900-b070-9a437d2738b8,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Benzo(g,h,i)fluoranthene",25d561c5-6d35-7c23-8c62-203ec0a33488,air/unspecified,kg,~,1,Benzo[ghi]fluoranthene,7837257b-ed43-332d-993a-20991cc8f326,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Benzo(g,h,i)perylene",bba61d20-0345-3856-8428-1bd99893ae99,air,kg,~,1,Benzo[ghi]perylene,c19f72d2-41a0-3218-ba4f-61fa392accd6,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzo(k)fluoranthene,850592ed-497b-01d1-1eac-22ad912a8efe,air,kg,~,1,Benzo[k]fluoranthene,fd07c148-75ee-3839-b747-72c0542da278,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzo(k)fluoranthene,a4e8b42f-e633-3cef-b60d-679930b3e837,air,kg,~,1,Benzo[k]fluoranthene,fcf65d36-ae15-3066-80c2-b624e04c6380,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzoic acid,c6a7f6fd-082c-19a3-7156-3f9c110c910e,air/unspecified,kg,=,1,Benzoic acid,5c933cba-c160-37f0-b440-4610ed27d1f5,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Benzyl chloride,20af9ecf-263a-39a1-83fd-f0b32b588ce5,air/unspecified,kg,=,1,Benzyl chloride,f0616d3c-8ad2-364a-aaae-42f0651f32e8,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Biphenyl,544c68c5-0b52-537d-2e18-a22836c71078,air/unspecified,kg,=,1,Biphenyl,52e6476c-bc9d-3aa2-bfb8-6597393b87d1,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Butadiene,40994363-d705-3998-b5b6-172c461896de,air,kg,~,1,"1,3-Butadiene",457411b2-4dac-3eb2-965d-97b60660afa2,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Butadiene, 1,3-",983a6d6c-4f31-3191-aff8-99c3849c719b,air/unspecified,kg,~,1,"1,3-Butadiene",457411b2-4dac-3eb2-965d-97b60660afa2,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Butane,5f564488-4741-7197-9817-6f1bf48123ef,air/unspecified,kg,=,1,Butane,f6a30f66-1274-3c09-beb7-c5fd91d11659,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Cadmium,ddce052d-27c0-4b28-8bf6-d50d39e420b0,Emission to water/ground water,kg,=,1,Cadmium,1799d091-63a4-3754-8c77-4c562e175ab7,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Carbon dioxide,3d7454b0-5714-301c-bae1-aad97ef63688,air,kg,=,1,Carbon dioxide,b6f010fb-a764-3063-af2d-bcb8309a97b7,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Carbon dioxide,5e738bf0-6bfe-3acd-8dcb-c74fe4f18b53,air/unspecified,kg,=,1,Carbon dioxide,b6f010fb-a764-3063-af2d-bcb8309a97b7,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Carbon monoxide,18a91c3c-73a0-31f2-bf47-cf2f8f485b08,air/unspecified,kg,=,1,Carbon monoxide,187c525c-3715-388c-b303-a0671524a615,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Carbon monoxide,49d33a59-f491-3929-940c-7a66cf4c4278,air,kg,=,1,Carbon monoxide,187c525c-3715-388c-b303-a0671524a615,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Carbonate,3f3eff31-d500-3deb-9329-1476265c854c,water/ground water,kg,=,1,Carbonate,a49d4f13-4d80-319c-968d-8b2d6e702f38,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chloride,3f98ebce-520e-3be0-bb8d-c72ea53a4728,water/ground water,kg,=,1,Chloride,c13e3fa3-bbee-34d1-a859-402b6fce6cb0,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Chlorobenzenes, unspecified",07031933-2448-09fd-2cfb-bc5d9fad4c8e,air/unspecified,kg,>,1,Chlorobenzene,0fe64d97-61d5-3366-9778-8c39d00edd73,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chlorophenols unspecified,99e62d3b-9b4f-78f4-638a-59fcd40e7f45,air/unspecified,kg,=,1,Chlorinated phenols,8da87990-fb87-3fba-824f-1d45a2d185c4,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chromium,3e040610-6354-758c-1c87-bdcdcfa364d1,air/unspecified,kg,=,1,Chromium,98bd36e1-fbe4-32ee-ba78-3b6726917c9b,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chromium,b2d38eb9-6b5d-3a62-b216-1eb28f79a8e2,soil/industrial,kg,=,1,Chromium,5f06eae8-f6ac-3976-bbb2-397b66f548e4,emission/ground/human-dominated/industrial,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chromium,e5465f7b-a0c5-3ae2-8066-14f52e4cf64d,Emission to water/ground water,kg,=,1,Chromium,1687d444-eea3-3c59-a2f7-9cf73a962e66,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chromium (Cr6+),5c15f8b7-80b5-3d18-b651-6a46a81a459e,air,kg,=,1,Chromium(VI),ac249128-5489-3eb8-bfb8-61c0b93d2e07,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chrysene,60817663-860f-3927-bb3c-8eb30a1ad295,air,kg,=,1,Chrysene,993fb955-f686-37f7-96e1-22b8c2a35ced,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Chrysene,e32c40b5-2067-84f7-17bb-2a317f552e81,air,kg,=,1,Chrysene,18b5a96b-f01a-3b11-8077-16777ce57763,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,cis-2-Butene,2cb23345-8f7e-08d8-a056-0877226151f3,air/unspecified,kg,=,1,cis-2-Butene,e5613286-3436-329e-9039-916b3f558ab2,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Cobalt,ab451123-9d27-7005-9b32-3ee4f777564a,Emission to water/ground water,kg,=,1,Cobalt,3033c5d7-7f5e-3b5a-b85a-162b4e3c6ab0,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Copper,ea6de79e-ce2c-44b2-994e-d2ea0125732b,Emission to water/ground water,kg,=,1,Copper,cfebaa84-b971-368e-b601-edc2d721835a,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Copper,d437b85b-928b-3cfd-bbcf-634ea28a6b52,soil/industrial,kg,=,1,Copper,c65748fb-c592-3ab2-abc6-39f611a7f7c7,emission/ground/human-dominated/industrial,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Cyclopentane,702b1a0f-761c-37ee-8ff8-cfaa9e47170d,air/unspecified,kg,=,1,Cyclopentane,7cfe87ec-d041-35a9-8547-17559edc863a,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Cyclopentene,c1942db2-94c3-5451-6ac0-520638af8a4f,air/unspecified,kg,=,1,Cyclopentene,6fc9d30e-a02d-32a4-99f3-df327c470d2e,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Dibenz(a,h)anthracene",6028c264-45f8-331c-972f-83b47c650137,air,kg,~,1,"Dibenz[a,h]anthracene",f1b4ae26-6dda-3d7f-8364-6e8c0ed72c34,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Dibenzo(a,h)anthracene",949674f9-cc6a-34f0-8812-12702dff02a7,air,kg,~,1,"Dibenz[a,h]anthracene",e51f946b-179b-3580-9ba3-37299516be47,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"dioxins and furans, unspecified",7799287b-8dba-814c-7ed2-edc51b811d7d,air/unspecified,kg,=,0.5,Dioxins,ac0fa9f8-2455-3106-841c-ed7be967c566,emission/air,kg,Ashley Edelen,Troy Hottle,6/6/2019
+CDDLCI,Dodecane,fdd36aea-fcba-37af-a2d2-e3d1ff33a742,air/unspecified,kg,=,1,Dodecane,4acda2b2-105c-30e7-bb18-31ffb1a63c5c,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Ethane,ce67e06d-4d8e-42dc-4800-d6b77ef669c7,air/unspecified,kg,=,1,Ethane,423e3050-f49a-303a-88a8-1ac428418f9c,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Ethene, tetrachloro-",f8d3477c-7a39-4a51-9c16-a2ee5ae6a5d7,Emission to water/ground water,kg,~,1,Tetrachloroethylene,26735446-69a6-3575-ab85-02be230288d4,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Ethene, trichloro-",014bd81b-88c7-4a81-b872-201dcbfb8bbf,Emission to water/ground water,kg,~,1,Trichloroethylene,175f5382-d650-3d18-948e-cdf18ce86a81,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Ethyl acetate,5a9e1425-7aac-3e4d-82a5-f61903e01b13,air/unspecified,kg,=,1,Ethyl acetate,7910d808-9bc5-3161-bad5-5edf6829b622,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Ethylene,d1966d7d-03fa-8a83-2c93-663c947d2a77,air/unspecified,kg,=,1,Ethylene,3378c02d-6828-36dc-a9fe-9948b59a8bd6,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Fluoranthene,e2029111-e23a-3e28-a298-7fee64d8a75a,air,kg,=,1,Fluoranthene,c89c263a-b0b7-34c9-a27c-d9ebf851c3cc,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Fluoranthene,20e9e5d7-1df6-3b5a-92cf-1644ef744129,water/ground water,kg,=,1,Fluoranthene,2537b383-61da-3c0f-97b6-e4e2a33f2610,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Fluoranthene, benzo(b)-",350de732-99fb-35d7-9776-f4eb6cbe7966,water/ground water,kg,~,1,Benzo(b)fluoranthene,b0a550e5-7bc2-3fe3-b002-60f63e2cbcad,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Fluoranthene, benzo(k)-",b3364c09-5889-3eee-a7b6-6bde5644292f,water/ground water,kg,~,1,Benzo[k]fluoranthene,a126a600-ba2b-30dc-b263-bf5bf605b583,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Fluorene,80634a36-f6dc-3d5e-935e-045cf90c14fd,air,kg,=,1,Fluorene,c5697dcb-8fd3-3046-b499-f34e33495b61,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Fluoride,ba6452f3-608e-35e4-abf4-874a2192c220,water/ground water,kg,=,1,Fluoride,e525de1a-f57a-30da-920f-a8677de1e014,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Formaldehyde,626e673e-b88b-3b62-ba63-6ea14d771993,air,kg,=,1,Formaldehyde,a257b8d3-62dd-37ad-b429-73d96c97165c,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Heat,29d245b5-a3d8-a755-2720-189dbdd9788e,air/unspecified,MJ,=,1,"Energy, heat",3a97c833-0fa7-31a4-a30c-6ca764403a6e,emission/air,MJ,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Hexane,0e94a9b1-8240-3945-a06c-0baf10d3538d,air,kg,=,1,Hexane,7955b6e2-3ae6-315c-94f1-028d7faada34,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Hydrochloric acid,92111736-0c73-8fca-4e8b-36c5b71e41db,air/unspecified,kg,=,1,Hydrochloric acid,e2230ed6-8d5e-3315-8bc9-ce337d1283ce,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Hydrogen cyanide,9cbd69c6-9701-9cef-4903-227cbf639a64,air/unspecified,kg,=,1,Hydrogen cyanide,aa7539ee-9aeb-3cb5-9d64-2a0bd94ebb0f,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Hydrogen sulfide,cd0f6f3f-a276-32f8-b134-f947b2f7b15d,air/unspecified,kg,=,1,Hydrogen sulfide,f8cbcd43-8201-3b05-b19a-82d305414af4,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Indeno(1,2,3,c,d)pyrene",d14f3cd5-dec6-3a4e-86a2-d75f2309a081,air,kg,~,1,"Indeno[1,2,3-cd]pyrene",e962ef47-cedd-36b6-b962-abacbab62a02,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Iron,254eb1fc-0e06-84d4-2fc5-c03300c23a0b,Emission to water/ground water,kg,=,1,Iron,a71b9acb-233e-39df-965e-e1489f77995e,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Isobutene,89a7ed53-0fba-9112-9229-fbb814235d8a,air/unspecified,kg,=,1,Isobutene,7e5a6669-43ca-3052-8900-825bb3ad2cc2,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Isopentane,bdd1ecec-2c19-1ade-3aa3-03d131fc4aee,air/unspecified,kg,~,1,2-Methylbutane,92c83b8e-2ed2-31af-a119-b29023aa3798,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Lead,cf695b3e-dbd4-3d28-ade0-24c25875112f,water/ground water,kg,=,1,Lead,f06bf041-664d-3e87-8523-8b3a17690829,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Lead,c864aa15-0abc-41ad-9889-348106e485d8,Emission to water/ground water,kg,=,1,Lead,f06bf041-664d-3e87-8523-8b3a17690829,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Lead,380359ec-9b6b-30a3-160c-34c12763635c,air/unspecified,kg,=,1,Lead,fe829136-3042-36e6-b4cb-7ff591e8db98,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Limonene,89a3a228-d934-3a36-b67f-35a798491b71,air/unspecified,kg,=,1,Limonene,22931ee5-3051-38d0-b1ba-1079a96276d1,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Magnesium,cb6c7487-cee0-36f4-8daa-737692c23ce8,water/ground water,kg,=,1,Magnesium,5adde311-c59c-3352-bb21-3fea9a01aa19,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Manganese,76964292-6196-3aff-bc2d-aecd46baeb5f,air,kg,=,1,Manganese,9a474c27-63f9-3d0d-a74c-465fd97400e7,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Manganese,cb32f341-8722-3aec-bed5-6e04eb48753f,water/ground water,kg,=,1,Manganese,88fefe1f-42cf-3bbe-8561-a2d2e554ad00,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Manganese,b798a35c-618c-3865-9628-e89d471be866,soil/industrial,kg,=,1,Manganese,f21c19bf-dc95-34f3-ba1a-4a7b8db3e590,emission/ground/human-dominated/industrial,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Mercury,49a23195-36e5-3673-8b8b-494149c071eb,air/unspecified,kg,=,1,Mercury,e2c65e04-f613-33db-9a6e-4cb4577b0005,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Mercury (divalent gaseous),42f96205-8c69-34d3-bab8-3f0b6796b12f,air,kg,~,1,Mercury,e2c65e04-f613-33db-9a6e-4cb4577b0005,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Mercury (elemental gaseous),acca0d63-d40a-38f6-8b12-4014101df518,air,kg,~,1,Mercury,e2c65e04-f613-33db-9a6e-4cb4577b0005,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Mercury (particulate),4c739736-d4f0-3a74-bea3-af6f24c3dd51,air,kg,~,1,Mercury,e2c65e04-f613-33db-9a6e-4cb4577b0005,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Mercury,e1aa92d7-9297-452e-ade0-e5e2acc52ad7,Emission to water/ground water,kg,=,1,Mercury,7b561227-ede3-3172-a299-d2e2309bd033,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Methane,d25cd0b7-4fc5-3be0-88d3-2d661482fde2,air/unspecified,kg,=,1,Methane,aab83476-ec6c-3742-af85-15d320b7ce80,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Methane,531ec53c-9efa-32f1-b346-b011669eb5a8,air,kg,=,1,Methane,aab83476-ec6c-3742-af85-15d320b7ce80,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Methane, chloro-",b3d23e91-e7d3-3dff-8d2c-e3bd80208f3b,air/unspecified,kg,~,1,Chloromethane,3e771661-38c3-332b-b4cb-8e2421b045ce,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Methanol,8ea4c7d5-472d-3f8e-b3a3-c65e9aa08ac0,air/unspecified,kg,=,1,Methanol,ad362da4-86b8-3519-b904-d7f3be4328fe,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Methyl ethyl ketone,aace5bd7-865d-39a5-862a-1fe99288b62a,air/unspecified,kg,=,1,Methyl ethyl ketone,086497a9-ac6e-3e3f-9b16-d980cc0bb381,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Methylcyclopentane,cf8e3b6b-9698-3236-7377-359bb8eb26de,air/unspecified,kg,=,1,Methylcyclopentane,009ab972-c6c1-3200-b646-4152b467bea7,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Methylene chloride,36fcf6d0-30b7-36f2-bea4-7aca56f6945b,air/unspecified,kg,=,1,Methylene chloride,f9fd0074-f765-3f38-a150-2ca0a82c37be,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Monochlorobiphenyl,1b99ff05-8189-0c7f-4ef9-b9398b802c1a,air/unspecified,kg,~,1,2-Chlorobiphenyl,15645ad8-a42d-391c-85c8-4dbc26dd3ede,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Naphthalene,a4c01223-01f5-3cba-988a-b1a3a64d55aa,air,kg,=,1,Naphthalene,ebf3aeb4-7a46-3029-a8f8-83d68f4d4ce5,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Naphthalene,59c36e7c-8044-3d0f-b9bb-aa43c602c54f,air/unspecified,kg,=,1,Naphthalene,ebf3aeb4-7a46-3029-a8f8-83d68f4d4ce5,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Nickel,7582e6db-2831-9910-28ab-fd3fb43014dc,Emission to water/ground water,kg,=,1,Nickel,7d51b139-14a6-36ca-b125-5748df47692c,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Nickel,202c61ba-442d-3c34-a4a8-7ba03f668ea1,air,kg,=,1,Nickel,50f56ea3-e292-3c09-89d2-74466af5f11e,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Nitric oxide,1cf851c7-10d3-75b5-a14b-e9895a1350f5,air/unspecified,kg,=,1,Nitric oxide,e4683d80-6078-3dd4-b381-6489015df3db,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Nitrogen oxides,f784e5d6-2004-399a-8859-a0f95e8389df,air/unspecified,kg,=,1,Nitrogen oxides,4382ba18-dd21-3837-80b2-94283ef5490e,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Nitrogen oxides,5740b7fa-e452-3576-9e94-fdac85b6a4ba,air,kg,=,1,Nitrogen oxides,4382ba18-dd21-3837-80b2-94283ef5490e,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Octachlorodibenzofuran,becd0230-ac2c-3f73-b626-ac89c81f9f5c,air,kg,~,1,"1,2,3,4,6,7,8,9-Octachlorodibenzofuran",13433131-590e-318a-a284-a2f2e05a4a85,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Octachlorodibenzo-p-dioxin,ea894562-24c8-3db5-b91f-08be0e2f5bdb,air,kg,~,1,"1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin",07ba9a74-dccc-3f2b-8217-c7439eb41088,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Octane,36d2fed6-f595-3b59-a223-31c3dfdda0b4,air/unspecified,kg,=,1,Octane,86382895-8bd4-3a06-8690-741950b7d876,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,o-Xylene,d10e0757-e81f-311a-b136-ac98b9bec2ae,air/unspecified,kg,=,1,o-Xylene,e99ddeb5-25be-3571-9b7a-2668d9531e8a,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Particulates, < 2.0 um",20881716-1e05-089a-32b5-963021249b43,air/unspecified,kg,=,1,Particulate matter - PM2.5,231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Particulates, < 2.5 um",da754443-df52-3206-ae80-af1ed1b69f81,air,kg,=,1,Particulate matter - PM2.5,231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Particulates, < 2.5 um",159aab32-8cd0-32ab-19dc-628fd35a898d,air/unspecified,kg,=,1,Particulate matter - PM2.5,231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Particulates, < 2.5 um",8cccee40-fb78-31f4-91ee-b4052b17686e,air/unspecified,kg,=,1,Particulate matter - PM2.5,231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Particulates, > 10 um",42c248d4-ce82-39d9-bb18-4b56038f4305,air/unspecified,kg,=,1,Particulate matter - PM10,bfde6c96-c85a-3920-a990-e4e68b3c1d8d,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Pentane,0fe24963-9281-3a32-70c0-657b7e4e1a7c,air/unspecified,kg,=,1,Pentane,6c7402f5-173f-358a-8724-db60071b5091,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluorodecanoic acid,d38e5ffe-a90f-4c0a-86c0-5e22b3708563,Emission to water/ground water,kg,=,1,Perfluorodecanoic acid,035f09de-6791-3696-8b7a-3b4e4a84f0dc,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluoroheptanoic acid,189f3fa8-5e33-4acf-bbbb-cc913dea1d48,Emission to water/ground water,kg,=,1,Perfluoroheptanoic acid,fec98fb6-199b-35ba-9cd3-f52af276559a,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluorohexanoic acid,68c17df5-b2cb-4309-81c8-a8afee0dc330,Emission to water/ground water,kg,=,1,Perfluorohexanoic acid,615cc8cc-8746-3e5b-bae8-9567e0e6600d,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluorolauric acid,3f23df63-d80d-4827-b9b8-65e24125c62b,Emission to water/ground water,kg,=,1,Perfluorolauric acid,2882839a-0356-3ac8-9c2c-f8e726c856d7,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluoromyristic acid,8cd00c2c-9366-4818-b43e-5904be506a48,Emission to water/ground water,kg,=,1,Perfluoromyristic acid,534cdd8e-93b0-3bc1-996b-0774ed252f29,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluorononanoic acid,f2783d66-3484-4c5a-bd8e-54260210bf28,Emission to water/ground water,kg,=,1,Perfluorononanoic acid,2deb900f-d83b-3fca-bf09-c9fa450f4104,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluorooctanesulfonamide,2a9e7dc0-2c85-4fb4-bdb0-dc6ac6a6a54e,Emission to water/ground water,kg,=,1,Perfluorooctanesulfonamide,3b028014-47dc-3266-ae79-5a8e56567cf2,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluorooctanoic acid,f615d00c-30a7-448d-b6a7-4ce5bf6260f5,Emission to water/ground water,kg,=,1,Perfluorooctanoic acid,85673b45-a039-35fd-b32a-33f7cc68b712,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perfluoropentanoic acid,af010844-3678-4a73-99b3-588b6c25f85a,Emission to water/ground water,kg,~,1,Perfluorovaleric acid,c49f3b90-780d-336c-8e36-3f7b0bcd5842,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Perylene,8bf8b0e3-3cf2-327f-4b88-e5d553b36867,air/unspecified,kg,=,1,Perylene,0a0026f6-bebf-332e-8dd3-616a6d4e9e1b,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Perylene, benzo(g,h,i)-",4146f15d-af5b-3210-8807-02e8b8ed0424,water/ground water,kg,~,1,Benzo[ghi]perylene,9a5b78b5-623a-3df8-aa31-fe7eea81e70b,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Phenanthrene,3df108ca-2bfa-37a8-88da-e77b8942b4a7,air,kg,=,1,Phenanthrene,12ae4a71-1402-36e9-ada8-fe6cb98c56ee,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Phenanthrene,88023129-2da9-5a7f-a74e-435eb63a2501,air,kg,=,1,Phenanthrene,f4d494d1-6e82-3f63-a2d5-610f40dc08b4,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Phenol,e19514cf-23e3-1452-70ab-b959e10a18fb,air/unspecified,kg,=,1,Phenol,45880be9-788f-387b-8b1b-c38615cc48e2,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Pinene,809e6dfd-bb1f-3299-9667-902a673704ae,air/unspecified,kg,~,1,.alpha.-Pinene,5babdbf2-aab2-3689-8a3f-c92e9a2c2cdb,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Polychlorinated biphenyls,f24a491b-8b6d-7199-16a5-08f1050e66ce,air/unspecified,kg,=,1,Polychlorinated biphenyls,18819e98-6dd1-3a8f-a27a-67ca826f3381,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Potassium,f167ce87-c330-36f0-81ed-ae085524750a,water/ground water,kg,=,1,Potassium,5cc83f3d-0db7-3f23-8a07-404d4f53eb8a,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Propanal,e7316549-121c-34b8-b497-5a5ac28dc4ae,air,kg,~,1,Propionaldehyde,592fa548-20aa-36e9-b703-68be0ff6f30a,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Propane,766ad851-8529-2c59-9a56-43cda54b2bdb,air/unspecified,kg,=,1,Propane,d7561431-fe1f-3854-862b-a3d2840d39e1,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Propene,1385004a-829c-80c1-04af-d0aebe650f39,air/unspecified,kg,~,1,Propylene,2014edbf-fd15-3674-8927-701264cb597f,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Propylene,79db12df-584a-14df-5951-f5abe17f3a45,air/unspecified,kg,=,1,Propylene,2014edbf-fd15-3674-8927-701264cb597f,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Propyne,a4a9b259-3813-2e7f-5969-61799a304266,air/unspecified,kg,=,1,Propyne,439023db-db84-3ff6-beb4-55327e2837e8,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Pyrene,d27f0c8f-13c9-3924-ab28-13fd2d57c28b,water/ground water,kg,=,1,Pyrene,83fd73f7-3a1d-3df5-b79f-c8aad34e8bb9,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Pyrene,6e18212c-4e45-3353-aa40-050d321b8eb2,air,kg,=,1,Pyrene,b51b5cbd-b0cb-3104-b03b-4fbc12829a9e,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Pyrene, benzo(a)-",5e4816a2-e2d5-3f50-9aa7-b39b159f463b,water/ground water,kg,~,1,Benzo[a]pyrene,d7f1dea1-f7c7-3225-9418-3d23f004e13f,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Selenium,1579e9d8-68c4-1513-8578-72c804d22019,air/unspecified,kg,=,1,Selenium,b6db14bd-73e9-3f02-852a-e8b5e60bbc61,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Selenium,1be475e0-ccef-4145-98e0-0d47c570a71b,Emission to water/ground water,kg,=,1,Selenium,c6cde609-8b8a-3d35-943f-fcfc590ea123,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Sodium,ed2d2c89-e357-3daf-afd4-fddf3be9e237,water/ground water,kg,=,1,Sodium,25df9388-caa8-34c9-a678-f3566a77af08,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Styrene,557cf201-86e9-35c3-9cc6-7043dbf4c1e4,air/unspecified,kg,=,1,Styrene,69bc8b47-09b5-3a09-b7f4-3e4d2925ce5a,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Styrene,e445c38f-6c8d-361b-9777-d25b0929602f,air,kg,=,1,Styrene,69bc8b47-09b5-3a09-b7f4-3e4d2925ce5a,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Sulfate,2ac1b273-25dd-3dca-9156-acee2497f10f,water/ground water,kg,=,1,Sulfate,de40a11d-a62b-3d3b-be52-346a779934ba,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Sulfur dioxide,afab34d0-1edf-3ab8-9a5f-164574792160,air/unspecified,kg,=,1,Sulfur dioxide,f4973035-59f5-3bdc-b257-b274dcc04e0f,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Sulfur dioxide,51c51244-5984-3c4f-a395-c106664f0df5,air,kg,=,1,Sulfur dioxide,f4973035-59f5-3bdc-b257-b274dcc04e0f,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Tin,864b1f19-6f3a-20df-979e-d41777792ee7,air,kg,=,1,Tin,e169f5f8-18bf-33b2-94d6-7c95d5a83259,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Titanium,6cf2b8e9-24be-9eb8-3077-87d0d00777bb,air/unspecified,kg,=,1,Titanium,42b724c4-3782-350c-b290-ede340ab29d1,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Toluene,c77687f9-1ed5-3a19-9142-db14121fb85d,air/unspecified,kg,=,1,Toluene,3f72fe9c-b003-38ee-b8d2-13a84f60506c,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Toluene,b98bad11-d9d3-3c01-a06f-24932224342a,air,kg,=,1,Toluene,3f72fe9c-b003-38ee-b8d2-13a84f60506c,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Toluene,e5d0d6ea-c681-4080-ab05-5d9522c79bd1,Emission to water/ground water,kg,=,1,Toluene,45e3f259-a4b9-3376-92bf-92c7ac3ea174,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Toluene diisocyanate (gas emission),77af617e-4493-6135-5565-f75034240f16,air/unspecified,kg,~,1,"Toluene-2,4-diisocyanate",d12dc9c7-2100-3a64-a398-1b050f8d2a34,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Toluene, 4-ethyl-",6d7a01dd-e934-3e73-8d24-c88263156f16,air/unspecified,kg,~,1,p-Ethyltoluene,1ab5de5c-6b4e-37f1-b527-56e3156c7617,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Undecane,3f1b878e-ca6c-3a4c-b5d7-8a6356dde886,air/unspecified,kg,=,1,Undecane,56813306-dd68-3daf-a971-3a2989a4c128,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Vanadium,76e2247e-3a4c-640b-1367-aa90058463f5,Emission to water/ground water,kg,=,1,Vanadium,f0015f3d-c230-37e8-b4c2-f4bbea7a0584,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Vinyl chloride,2dc649de-5d09-5f17-7a32-034458d058cf,air/unspecified,kg,=,1,Vinyl chloride,b5c72fb3-6445-33b7-aec4-ba41e30b8d14,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,48c3532e-327a-0d36-33a9-52deaada75f9,Elementary Flows/Emission to water,m3,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,48c3532e-327a-0d36-33a9-52deaada75f9,Elementary Flows/Emission to water,m3,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,48c3532e-327a-0d36-33a9-52deaada75f9,Elementary Flows/Emission to water,m3,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,48c3532e-327a-0d36-33a9-52deaada75f9,Elementary Flows/Emission to water,m3,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,c951088e-0e5e-33d2-408c-df79261b5df5,Elementary Flows/Emission to water,kg,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,c951088e-0e5e-33d2-408c-df79261b5df5,Elementary Flows/Emission to water,kg,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,c951088e-0e5e-33d2-408c-df79261b5df5,Elementary Flows/Emission to water,kg,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,c951088e-0e5e-33d2-408c-df79261b5df5,Elementary Flows/Emission to water,kg,=,1,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Water,33c9dd16-40c7-3b4c-ae0f-783711a3d15d,air/unspecified,kg,=,1,Water,e430eaa1-80c8-376d-a3bf-816c9a741807,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Water, consumptive use, unspecified natural origin/m3",6d63bf83-444b-59f5-3da4-e170dc0a4884,air,m3,~,1,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Water, process, unspecified natural origin",415fa1b7-1369-1c17-9adb-14ab15517121,resource/in water,m3,~,1,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Water, unspecified natural origin",636dda4b-30b1-981d-113a-2ae6bc8b7a86,resource/in water,m3,~,1,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,Xylene,77c10f34-d793-3220-9127-da03fd150dca,air,kg,=,1,Xylene,aef9d0ff-6482-3b1d-a53e-4d738bdcd9b1,emission/air,kg,Ashley Edelen,Troy Hottle,6/3/2019
+CDDLCI,"Xylene, m/p-",aa9dadfd-51cf-379d-b8c9-ac1ebbad3563,air/unspecified,kg,=,0.5,p-Xylene,3a41e87c-065d-3ab8-bc14-73ff717163c6,emission/air,kg,Ashley Edelen,Troy Hottle,6/6/2019
+CDDLCI,"Xylene, m/p-",aa9dadfd-51cf-379d-b8c9-ac1ebbad3563,air/unspecified,kg,=,0.5,m-Xylene,a20f692f-5cab-3036-b3aa-821fb758a39c,emission/air,kg,Ashley Edelen,Troy Hottle,6/6/2019
+CDDLCI,Zinc,5c7dd75f-8347-5306-4957-b49f526266a2,Emission to water/ground water,kg,=,1,Zinc,7a8b6917-b295-352b-a648-945c1a676f58,emission/water/subterranean,kg,Ashley Edelen,Troy Hottle,6/3/2019

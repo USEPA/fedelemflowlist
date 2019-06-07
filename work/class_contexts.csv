@@ -1,0 +1,41 @@
+Context,Context_UUID,Class,Directionality,Environmental Media
+resource/air,dc7154b1-e61b-3be5-9eb3-13b02752a38d,Energy,Resource,Air
+resource/ground,e5ecc00d-d602-3ace-85a0-1fcec744532d,Energy,Resource,Ground
+resource/water,674eb03e-a7ca-3fa3-b563-38078ec47aa3,Energy,Resource,Water
+emission/air,8f6bb452-80f4-31d6-9f8c-248d1f0297c8,Energy,Emission,Air
+emission/water,0f1dfbb1-7a2c-310c-9946-5c80e26de12c,Energy,Emission,Water
+emission/ground,a37116c1-c0b4-33a0-b75a-8b078f8f822e,Energy,Emission,Ground
+resource/biotic,d808b272-ea75-331a-a26e-7a25fee91150,Biological,Resource,Biotic
+emission/ground,a37116c1-c0b4-33a0-b75a-8b078f8f822e,Biological,Emission,Ground
+resource/ground/human-dominated,bcce63fe-af20-3ebb-879a-4e27bf5b1966,Land,Resource,Ground
+resource/ground/terrestrial,c10b64b6-5c36-3dfa-864b-534c841a0119,Land,Resource,Ground
+resource/ground/human-dominated/industrial,cb6de356-0582-3736-a58c-a52f32ea40f6,Land,Resource,Ground
+resource/ground/human-dominated/commercial,9bb87544-4e86-3815-8b6d-46f4a301c8fd,Land,Resource,Ground
+resource/ground/human-dominated/agricultural,b0197826-2b74-315f-9740-31c60101746b,Land,Resource,Ground
+resource/ground/human-dominated/residential,5ebb1e73-2096-3d22-b924-6a17f5ec9c58,Land,Resource,Ground
+resource/ground/terrestrial/wetland,b62731a6-6227-3680-8ac3-c37972576bfd,Land,Resource,Ground
+resource/ground/terrestrial/barren land,40e3c757-aad6-3021-9776-8f9a9046e131,Land,Resource,Ground
+resource/ground/terrestrial/snow and ice,1ff6b5dd-fdd5-3132-9f40-c7cc3767575a,Land,Resource,Ground
+resource/ground/terrestrial/grassland,0190633e-0304-3e1d-b7b8-ae2f644e6700,Land,Resource,Ground
+resource/ground/terrestrial/shrubland,056396fc-3962-39d2-8048-5e08249db8b8,Land,Resource,Ground
+resource/ground/terrestrial/forest,f074b682-50f7-3954-bd63-3a524ec57cf6,Land,Resource,Ground
+resource/ground/human-dominated/urban,2aff48c0-2473-37b9-b525-4899805276ee,Land,Resource,Ground
+resource/ground/human-dominated/rural,b0ab11ca-8657-3a59-8bfe-12435c9a5b9c,Land,Resource,Ground
+resource/ground/human-dominated/industrial/urban,2589156e-0f2d-3b42-8b4a-19d7e3455f08,Land,Resource,Ground
+resource/ground/human-dominated/industrial/rural,7b82b9a5-2594-3ff5-b64b-647b4b4c2b96,Land,Resource,Ground
+resource/ground/human-dominated/commercial/urban,f69f307a-f9ae-3721-81f6-f6051c81293e,Land,Resource,Ground
+resource/ground/human-dominated/commercial/rural,dc6b6385-3977-3bed-897f-c175d3f96f24,Land,Resource,Ground
+resource/ground/human-dominated/agricultural/urban,27091db1-cb4e-3f83-8fc1-abf673629675,Land,Resource,Ground
+resource/ground/human-dominated/agricultural/rural,856874b7-5c6b-373c-a823-a35487d9485f,Land,Resource,Ground
+resource/ground/human-dominated/residential/urban,3faa40b2-22ca-3852-8fd7-d20a51a09f87,Land,Resource,Ground
+resource/ground/human-dominated/residential/rural,2e47ca7f-e748-34b6-9309-b76028ab29dc,Land,Resource,Ground
+resource/water/fresh water body/lake,192ad1de-012d-3eef-80a5-e366803b0d89,Land,Resource,Water
+resource/water/fresh water body/river,e1aa0e15-8719-3e80-a760-c476efee02a4,Land,Resource,Water
+resource/water/brackish water body/lake,e68cae32-4b4a-30f5-bf30-3b831a1d857e,Land,Resource,Water
+resource/water/saline water body/ocean,8857a05c-d533-3167-abfb-08010b6a4f30,Land,Resource,Water
+resource/water/fresh water body/lake/urban,34e943de-7193-3997-bf1b-7eace1b3de7c,Land,Resource,Water
+resource/water/fresh water body/lake/rural,d46d6351-b381-3f60-9266-1194a33d7963,Land,Resource,Water
+resource/water/fresh water body/river/urban,64d357fc-5d15-3d83-9b73-e08df0453621,Land,Resource,Water
+resource/water/fresh water body/river/rural,dce574df-fffc-3871-8eb6-d4b4ecc727aa,Land,Resource,Water
+resource/water/brackish water body/lake/urban,bfae582d-ba05-3273-a7b0-35e3bef79e0a,Land,Resource,Water
+resource/water/brackish water body/lake/rural,c4a6e051-b818-3c53-abcf-e09bb8752dce,Land,Resource,Water
