@@ -2,11 +2,11 @@ from setuptools import setup
 
 setup(
     name='fedelemflowlist',
-    version='0.1',
+    version='0.3',
     packages=['fedelemflowlist'],
     package_dir={'fedelemflowlist': 'fedelemflowlist'},
     package_data={'fedelemflowlist': [
-        "input/*.*", "output/*.*", "flowmapping/*.*", "candidate-flows/*.*"]},
+        "input/*.*", "output/*.*", "flowmapping/*.*"]},
     include_package_data=True,
     install_requires=['pandas>=0.22', 'olca-ipc>=0.0.8'],
     url='https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List',
@@ -21,5 +21,5 @@ setup(
         "Programming Language :: Python :: 3.x",
         "Topic :: Utilities",
     ],
-    description='Complies and provides a standardized list of elementary flows for life cycle assessment data'
+    description='Complies and provides a standardized list of elementary flows and flow mappings for life cycle assessment data'
 )
