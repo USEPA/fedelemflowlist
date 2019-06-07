@@ -3,9 +3,13 @@ from fedelemflowlist.globals import outputpath, flowmappingpath
 import fedelemflowlist.jsonld as jsonld
 import os
 
-#Returns the most recent flows list as a dataframe by default
 def get_flows(preferred_only=None):
-    #Get it as a dataframe
+    """Gets a flow list in a standard format
+
+    Returns the full master flow list unless preferred flows is lists
+    :param preferred_only:
+    :return: standard Flow List dataframe
+    """
     list_file = outputpath + 'FedElemFlowListMaster.csv'
     flows = pd.read_csv(list_file,header=0)
     if preferred_only:
@@ -13,11 +17,13 @@ def get_flows(preferred_only=None):
     return flows
 
 def get_flowmapping(source=None):
-    """Gets a flowmapping in standard format
+    """Gets a flow mapping in standard format
 
-    Returns an error if specified source does not equal the source name
     Looks for a dataframe of the mapping file specific to the source
     If a source list is provided, it returns only the desired mappings
+    Returns an error if specified source does not equal the source name
+    :param source: Name of source list in
+    :return: standard Flow Mapping dataframe
     """
     flowmappings = pd.DataFrame()
     if source is not None:
@@ -39,7 +45,14 @@ def get_flowmapping(source=None):
                 flowmappings = pd.concat([flowmappings,flowmapping])
     return flowmappings
 
-def write_jsonld(flows,path):
-    writer = jsonld.Writer(flow_list=flows)
+def write_jsonld(flows,path,mappings=None):
+    """ Writes a standard openLCA JSON-LD zip archive with elementary flows and optionally flowmappings
+
+    :param flows: standard pd Flow List dataframe, generally from get_flows()
+    :param path: path and filename with .zip extention, e.g. 'c:users/mai/fedcommonsflows.zip'
+    :param mappings: standard pd Flow Mapping dataframe , generally from get_flowmapping()
+    :return: writes out .zip file
+    """
+    writer = jsonld.Writer(flow_list=flows,flow_mapping=mappings)
     writer.write_to(path)
 
