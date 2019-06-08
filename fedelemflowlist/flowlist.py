@@ -10,14 +10,14 @@ if __name__ == '__main__':
     flowables = pd.DataFrame()
     flowables_w_primary_contexts = pd.DataFrame()
     primary_contexts = pd.DataFrame()
-
+    flowable_data_types = {'CAS No':'str','Formula':'str','Flowable Preferred':'Int64'}
     preferred_flowables_only = flow_list_specs["preferred_flowables_only"]
     preferred_contexts_only = flow_list_specs["preferred_contexts_only"]
 
     # Loop through
     for t in flow_list_specs["flow_classes"]:
         # Handle flowables first
-        flowables_for_class = pd.read_csv(inputpath + t + 'Flowables.csv', header=0)
+        flowables_for_class = pd.read_csv(inputpath + t + 'Flowables.csv', header=0, dtype=flowable_data_types)
         # Drop if the line is blank
         flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
         # Add Flow Class to columns
