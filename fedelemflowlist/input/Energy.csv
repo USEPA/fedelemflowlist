@@ -1,7 +1,0 @@
-﻿Flowable,CAS No,Formula,Synonyms,Flow property factor,Unit,Directionality,air,water,ground,biotic,External reference,Preferred,air_root,water_root,ground_root,biotic_root
-"Energy, solar",,,,Energy,MJ,Resource,1,0,0,0,,1,Air,,,
-"Energy, wind",,,,Energy,MJ,Resource,1,0,0,0,,1,Troposphere,,,
-"Energy, geothermal",,,,Energy,MJ,Resource,0,0,1,0,,1,,,Subterranean,
-"Energy, hydro",,,,Energy,MJ,Resource,0,1,0,0,,1,,Resevoir,,
-"Energy, heat",,,,Energy,MJ,Emission,1,1,1,0,,1,Troposphere,Water,Subterranean,
-"Energy, hydro-wave",,,,Energy,MJ,Resource,0,1,0,0,,1,,Large Marine Ecosystem,,
