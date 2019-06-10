@@ -16,8 +16,8 @@ def get_flows(preferred_only=None):
     :param preferred_only:
     :return: standard Flow List dataframe
     """
-    list_file = outputpath + 'FedElemFlowListMaster.csv'
-    flows = pd.read_csv(list_file, header=0)
+    list_file = outputpath + 'FedElemFlowListMaster.parquet'
+    flows = pd.read_parquet(list_file, engine="pyarrow")
     if preferred_only:
         flows = flows[flows['Preferred'] == 1]
     return flows

@@ -115,5 +115,5 @@ if __name__ == '__main__':
     log.info('Contexts in Flows:')
     log.info(contexts_in_flows)
 
-    # Write it to csv
-    flows.to_csv(outputpath + 'FedElemFlowListMaster.csv', index=False)
+    # Write it to parquet
+    flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet', engine='pyarrow')
