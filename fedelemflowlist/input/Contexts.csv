@@ -1,19 +1,5 @@
 Directionality,Environmental Media,Vertical Strata,Land Use,Human-Dominated,Terrestrial,Aquatic Feature,Indoor,Population Density,Release Height
 Emission,Air,,,,,,,,
-Emission,Air,,,,,,,Urban,
-Emission,Air,,,,,,,Rural,
-Emission,Air,,,,,,,Urban,Low
-Emission,Air,,,,,,,Urban,High
-Emission,Air,,,,,,,Urban,Very High
-Emission,Air,,,,,,,Urban,Ground-level
-Emission,Air,,,,,,,Rural,Low
-Emission,Air,,,,,,,Rural,High
-Emission,Air,,,,,,,Rural,Very High
-Emission,Air,,,,,,,Rural,Ground-level
-Emission,Air,,,,,,,,Low
-Emission,Air,,,,,,,,High
-Emission,Air,,,,,,,,Very High
-Emission,Air,,,,,,,,Ground-level
 Emission,Air,Troposphere,,,,,,,
 Emission,Air,Troposphere,,,,,,,Low
 Emission,Air,Troposphere,,,,,,,High
