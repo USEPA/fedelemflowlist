@@ -11,10 +11,8 @@ if __name__ == '__main__':
     flowables_w_primary_contexts = pd.DataFrame()
     primary_contexts = pd.DataFrame()
     flowable_data_types = {'CAS No':'str','Formula':'str','Flowable Preferred':'Int64'}
-    preferred_flowables_only = flow_list_specs["preferred_flowables_only"]
-    preferred_contexts_only = flow_list_specs["preferred_contexts_only"]
 
-    # Loop through
+    # Loop through flow class specific files based on those classes specified in flowlistspecs
     for t in flow_list_specs["flow_classes"]:
         # Handle flowables first
         flowables_for_class = pd.read_csv(inputpath + t + 'Flowables.csv', header=0, dtype=flowable_data_types)
@@ -22,9 +20,6 @@ if __name__ == '__main__':
         flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
         # Add Flow Class to columns
         flowables_for_class['Class'] = t
-        #Drop non-preferred
-        if preferred_flowables_only:
-            flowables_for_class = flowables_for_class[flowables_for_class['Preferred']==True]
         flowables = pd.concat([flowables, flowables_for_class], ignore_index=True, sort=False)
         class_primary_contexts = pd.read_csv(inputpath + t + 'FlowablePrimaryContexts.csv', header=0)
         class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
@@ -58,10 +53,6 @@ if __name__ == '__main__':
         # convert to string
         pattern_w_primary = ','.join(pattern_w_primary)
         primary_context_path = as_path(row['Directionality'], row['Environmental Media'])
-        #Skip the context pattern if 0 when preferred_contexts_only is true
-        if preferred_contexts_only:
-            if row['ContextPreferred'] == 0:
-                continue
         context_patterns_used = context_patterns_used.append({'Class': row['FlowClass'],
                                                               'Directionality': row['Directionality'],
                                                               'Environmental Media': row['Environmental Media'],
