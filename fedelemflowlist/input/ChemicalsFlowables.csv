@@ -1,4 +1,4 @@
-Flowable,CAS No,Formula,Synonyms,Unit,External reference,Preferred
+Flowable,CAS No,Formula,Synonyms,Unit,External Reference,Preferred
 "(Z)-1,2-Dimethylcyclohexane",2207-01-4,C8H16,"Cyclohexane, 1,2-dimethyl-, (1R,2S)-rel-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41735,1.0
 Cyclohexanemethylamine,3218-02-8,C7H15N,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10185958,1.0
 "Benzene, 1,1'-ethylidenebis(4-chloro-",3547-04-4,C14H12Cl2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41848,1.0
@@ -1638,7 +1638,8 @@ Hydrazine,302-01-2,H4N2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substre
 Thiocyanate,302-04-5,CNS,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46283,1.0
 Chloral hydrate,302-17-0,C2H3Cl3O2,"1,1-Ethanediol, 2,2,2-trichloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=91840,1.0
 Retinoic acid,302-79-4,C20H28O2,all-trans-Retinoic acid,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=91831,1.0
-Lasiocarpine,303-34-4,C21H33NO7,"2-Butenoic acid, 2-methyl-,
+Lasiocarpine,303-34-4,C21H33NO7,"2-Butenoic acid, 2-methyl-,
+
 (1S,7aR)-7-[[(2R)-2,3-dihydroxy-2-[(1S)-1-methoxyethyl]-3-methyl-1-oxobutoxy]methyl]-2,3,5,7a-tetrahydro-1H-ester, (2Z)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=91826,1.0
 Glycidyltrimethylammonium chloride,3033-77-0,C6H14ClNO,"Glycidyl trimethylammonium chloride; 2-Oxiranemethanaminium, N,N,N-trimethyl-, chloride (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=40853,1.0
 Ochratoxin A,303-47-9,C20H18ClNO6,"L-Phenylalanine, N-[[(3R)-5-chloro-3,4-dihydro-8-hydroxy-3-methyl-1-oxo-1H-2-benzopyran-7-yl]carbonyl]-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78032,1.0
@@ -3207,7 +3208,9 @@ Isotriacontane,34425-19-9,C30H62,,kg,https://ofmpub.epa.gov/sor_internet/registr
 4-Propylcyclohexanone,40649-36-3,C9H16O,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID9048198,1.0
 "3,3-Dimethyloctane",4110-44-5,C10H22,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20194051,1.0
 "5-tetradecene, (e)-",41446-66-6,C14H28,"5-Tetradecene, (5E)-  ",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=100770,1.0
-"1,1,2,2-Tetrafluoro-1-methoxyethane",425-88-7,C3H4F4O,"Ethane, 1,1,2,2-tetrafluoro-1-methoxy-
+"1,1,2,2-Tetrafluoro-1-methoxyethane",425-88-7,C3H4F4O,"Ethane, 1,1,2,2-tetrafluoro-1-methoxy-
+
+
 ",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=99138,1.0
 "2,3-Butanedione",431-03-8,C4H6O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=45952,1.0
 "Butanal, 2-oxo-",4417-81-6,C4H6O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96141,1.0
@@ -3680,7 +3683,9 @@ Propanediol,26264-14-2,C3H8O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/s
 "Phenol, 4-ethenyl-",2628-17-3,C8H8O,4-Ethenyl-phenol,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=93359,1.0
 Trichlorotrifluoroethane,26523-64-8,-,"Ethane, trichlorotrifluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56367,1.0
 Isooctane,26635-64-3,-,Isooctane,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56112,1.0
-Isoflurane,26675-46-7,C3H2ClF5O,"Ethane, 2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-
+Isoflurane,26675-46-7,C3H2ClF5O,"Ethane, 2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-
+
+
 ",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=99081,1.0
 Chloroneb,2675-77-6,C8H8Cl2O2,"Benzene, 1,4-dichloro-2,5-dimethoxy-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=93167,1.0
 N-Lauryl-2-pyrrolidone,2687-96-9,C16H31NO,"1-Dodecyl-2-pyrrolidinone; 2-Pyrrolidinone, 1-dodecyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=93152,1.0
@@ -3762,7 +3767,9 @@ Rhodamine WT,37299-86-8,-,"Xanthylium, 9-(2,4-dicarboxyphenyl)-3,6-bis(diethylam
 Nickel(II) acetate,373-02-4,C4H6NiO4,"Acetic acid, nickel(2+) salt (2:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46042,1.0
 Aroclor 1262,37324-23-5,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=55008,1.0
 Bromofluoromethane,373-52-4,CH2BrF,"Methane, bromofluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80438,1.0
-Trifluoromethyl sulfur pentafluoride,373-80-8,CF8S,"Sulfur, pentafluoro(trifluoromethyl)-; Sulfur, pentafluoro(trifluoromethyl)-
+Trifluoromethyl sulfur pentafluoride,373-80-8,CF8S,"Sulfur, pentafluoro(trifluoromethyl)-; Sulfur, pentafluoro(trifluoromethyl)-
+
+
 ",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=99077,1.0
 CFC-114a,374-07-2,C2Cl2F4,"1,1-Dichlorotetrafluoroethane; Ethane, 1,1-dichloro-1,2,2,2-tetrafluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46035,1.0
 Perfluoroheptanoic acid,375-85-9,C7HF13O2,"Heptanoic acid, 2,2,3,3,4,4,5,5,6,6,7,7,7-tridecafluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46028,1.0
