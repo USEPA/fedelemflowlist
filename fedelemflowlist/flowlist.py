@@ -41,7 +41,7 @@ if __name__ == '__main__':
         #Check that every flowable has a primary context
         flowables_missing_primary_contexts = list(set(flowables_for_class['Flowable']) - set(class_primary_contexts['Flowable']))
         if len(flowables_missing_primary_contexts) > 0:
-            log.warning('Flowables ' + flowables_missing_primary_contexts +' are missing primary contexts.')
+            log.warning('Flowables ' + str(flowables_missing_primary_contexts) +' are missing primary contexts.')
 
         # merge
         class_flowables_w_primary_contexts = pd.merge(flowables_for_class, class_primary_contexts)
