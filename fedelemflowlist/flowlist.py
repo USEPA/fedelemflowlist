@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
     #Conform flows to final list structure
     flow_list_fields = ['Flowable', 'CAS No', 'Formula', 'Synonyms', 'Unit',
-                        'Class', 'External Reference', 'Preferred', 'Context', 'Context UUID', 'Flow UUID', 'AltUnit',
+                        'Class', 'External Reference', 'Preferred', 'Context', 'Flow UUID','Context UUID', 'AltUnit',
                         'AltUnitConversionFactor']
     flows = flows[flow_list_fields]
 
