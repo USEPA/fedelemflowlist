@@ -14,7 +14,6 @@ A Flow List is in the form of a pandas data frame with the following fields.
  Preferred | int |  N |   1 for preferred, 0 for non-preferred
  Context | string | Y | A path-like set in the form of directionality/environmental media/environmental compartment... e.g. 'emission/air/tropophere'|  
  Flow UUID | string | Y | Unique hexadecimal ID for the flow |
- Context UUID | string | N | Unique hexadecimal ID for the context |
  AltUnit | string | N | Alternate unit for the flow |
  AltUnitConversionFactor | double | N | Conversion factor to convert from Unit to AltUnit | 
  

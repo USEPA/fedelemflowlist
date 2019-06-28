@@ -1,13 +1,18 @@
-# Assemble pieces to generate the elementary flow list
+"""
+Generate the elementary flow master list as a pandas dataframe from input files
+Write it to the output folder
+"""
+
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, outputpath, as_path,flow_list_specs
-from fedelemflowlist.contexts import context_path_uuid
+from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs
+from fedelemflowlist.contexts import all_contexts
 from fedelemflowlist.uuid_generators import make_uuid
 
-flowable_data_types = {'CAS No':'str','Formula':'str','Flowable Preferred':'Int64'}
-altunits_data_types = {'Conversion Factor':'float'}
+flowable_data_types = {'CAS No': 'str', 'Formula': 'str', 'Flowable Preferred': 'Int64'}
+altunits_data_types = {'Conversion Factor': 'float'}
 
-def read_in_flowclass_file(flowclass,flowclasstype):
+
+def read_in_flowclass_file(flowclass, flowclasstype):
     """Declare data types for select variables in flow class input files
 
     :param flowclass: One of the flow class names
@@ -15,9 +20,9 @@ def read_in_flowclass_file(flowclass,flowclasstype):
     :return: pd dataframe for that flow class file
     """
     data_types = None
-    if flowclasstype=='Flowables':
+    if flowclasstype == 'Flowables':
         data_types = flowable_data_types
-    if flowclasstype=='FlowableAltUnits':
+    if flowclasstype == 'FlowableAltUnits':
         data_types = altunits_data_types
     flowclassfile = pd.read_csv(inputpath + flowclass + flowclasstype + '.csv', header=0, dtype=data_types)
     return flowclassfile
@@ -33,49 +38,55 @@ if __name__ == '__main__':
     # Loop through flow class specific files based on those classes specified in flowlistspecs
     for t in flow_list_specs["flow_classes"]:
         # Handle flowables first
-        flowables_for_class = read_in_flowclass_file(t,'Flowables')
+        flowables_for_class = read_in_flowclass_file(t, 'Flowables')
         log.info('Import ' + str(len(flowables_for_class)) + ' flowables for class ' + t)
         # Drop if the line is blank
         flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
-        #Drop duplicate flowables in list
+        # Drop duplicate flowables in list
         flowables_for_class = flowables_for_class.drop_duplicates(subset='Flowable')
         # Add Flow Class to columns
         flowables_for_class['Class'] = t
         flowables = pd.concat([flowables, flowables_for_class], ignore_index=True, sort=False)
-        class_primary_contexts = read_in_flowclass_file(t,'FlowablePrimaryContexts')
+        class_primary_contexts = read_in_flowclass_file(t, 'FlowablePrimaryContexts')
         flowables_for_class = flowables_for_class.drop_duplicates()
         log.info('Import ' + str(len(class_primary_contexts)) + ' flowable primary contexts for class ' + t)
         class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
 
-        #Check that every flowable has a primary context
-        flowables_missing_primary_contexts = list(set(flowables_for_class['Flowable']) - set(class_primary_contexts['Flowable']))
+        # Check that every flowable has a primary context
+        flowables_missing_primary_contexts = list(set(flowables_for_class['Flowable']) -
+                                                  set(class_primary_contexts['Flowable']))
         if len(flowables_missing_primary_contexts) > 0:
-            log.warning('Flowables ' + str(flowables_missing_primary_contexts) +' are missing primary contexts.')
+            log.warning('Flowables ' + str(flowables_missing_primary_contexts) +
+                        ' are missing primary contexts.')
         # merge in flowables and flowable primary contexts
         class_flowables_w_primary_contexts = pd.merge(flowables_for_class, class_primary_contexts)
-        #Add in Alt units
+        # Add in Alt units
         try:
-            altunits_for_class = read_in_flowclass_file(t,'FlowableAltUnits')
+            altunits_for_class = read_in_flowclass_file(t, 'FlowableAltUnits')
             altunits_for_class = altunits_for_class.drop_duplicates()
-            #Drop external reference for now
+            # Drop external reference for now
             altunits_for_class = altunits_for_class.drop(columns=['External Reference'])
-            flowables_alt_units_not_in_flowables = list(set(altunits_for_class['Flowable'])-set(flowables_for_class['Flowable']))
+            flowables_alt_units_not_in_flowables = list(set(altunits_for_class['Flowable']) -
+                                                        set(flowables_for_class['Flowable']))
             if len(flowables_alt_units_not_in_flowables) > 0:
-                log.warning('Flowables with alt units ' + str(flowables_alt_units_not_in_flowables) + ' not in Flowables file')
+                log.warning('Flowables with alt units ' + str(flowables_alt_units_not_in_flowables) +
+                            ' not in Flowables file')
                 # Left join in alt units
             #rename cols to match final flow list specs
-            altunits_for_class = altunits_for_class.rename(columns={'Conversion Factor':'AltUnitConversionFactor','Alternate Unit':'AltUnit'})
+            altunits_for_class = altunits_for_class.rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
+                                                                    'Alternate Unit': 'AltUnit'})
             class_flowables_w_primary_contexts = pd.merge(class_flowables_w_primary_contexts, altunits_for_class,
                                                           left_on=['Flowable', 'Unit'],
                                                           right_on=['Flowable', 'Reference Unit'], how='left')
             # Drop old reference unit
             class_flowables_w_primary_contexts = class_flowables_w_primary_contexts.drop(columns=['Reference Unit'])
         except FileNotFoundError:
-            altunits_for_class=None# Do nothing
-        log.info('Create ' + str(len(class_flowables_w_primary_contexts)) + ' flows with primary context for class ' + t)
-        flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts, class_flowables_w_primary_contexts],
+            altunits_for_class = None # Do nothing
+        log.info('Create ' + str(len(class_flowables_w_primary_contexts)) +
+                 ' flows with primary context for class ' + t)
+        flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts,
+                                                  class_flowables_w_primary_contexts],
                                                  ignore_index=True, sort=False)
-
         primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
         primary_contexts_unique['Class'] = t
         primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
@@ -113,8 +124,8 @@ if __name__ == '__main__':
     for index, row in context_patterns_used.iterrows():
         class_context_patterns_row = row[field_to_keep]
         # Get the contexts specific to this class by matching the Pattern and Primary_Context_Path
-        contexts_df = context_path_uuid[(context_path_uuid['Pattern'] == row['Pattern']) & (
-            context_path_uuid['Context'].str.contains(row['Primary_Context_Path']))]
+        contexts_df = all_contexts[(all_contexts['Pattern'] == row['Pattern']) & (
+            all_contexts['Context'].str.contains(row['Primary_Context_Path']))]
         for f in field_to_keep:
             contexts_df.loc[:,f] = row[f]
         contexts_df = contexts_df.drop(columns='Pattern')
@@ -147,13 +158,12 @@ if __name__ == '__main__':
         flowids.append(flowid)
     flows['Flow UUID'] = flowids
 
-    contexts_in_flows = flows[['Context', 'Context UUID']]
-    contexts_in_flows = contexts_in_flows.drop_duplicates()
+    contexts_in_flows = pd.unique(flows['Context'])
     log.info('Created ' + str(len(flows)) + ' flows with ' + str(len(contexts_in_flows))  + ' unique contexts')
 
     #Conform flows to final list structure
     flow_list_fields = ['Flowable', 'CAS No', 'Formula', 'Synonyms', 'Unit',
-                        'Class', 'External Reference', 'Preferred', 'Context', 'Flow UUID','Context UUID', 'AltUnit',
+                        'Class', 'External Reference', 'Preferred', 'Context', 'Flow UUID', 'AltUnit',
                         'AltUnitConversionFactor']
     flows = flows[flow_list_fields]
 
