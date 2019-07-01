@@ -519,8 +519,8 @@ Radium-226 and/or radium-228,Emission,Ground
 Radium-226 and/or radium-228,Emission,Water
 "Strychnidin-10-one, and salts",Emission,Air
 Sulfur oxides,Emission,Air
-Particulate matter - PM10,Emission,Air
-Particulate matter - PM2.5,Emission,Air
+"Particulate matter, ≥ PM10",Emission,Air
+"Particulate matter, ≤ PM2.5",Emission,Air
 Phosphorus compounds,Emission,Air
 Micas,Emission,Ground
 Micas,Emission,Water
@@ -535,3 +535,10 @@ Nicotine and salts,Emission,Water
 Chlorinated phenols,Emission,Air
 Chlorinated phenols,Emission,Ground
 Chlorinated phenols,Emission,Water
+"Particulate matter, > PM2.5 and < PM10", Emission,Air
+Furans, Emission,Air
+Furans, Emission,Water
+Volatile organic compounds,Emission,Air
+C5 alkenes,Emission,Air
+C6 alkenes,Emission,Air
+"2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-,  (1aR,2R,2aR,3R,6S,6aS,7S,7aS)-rel-, and metabolites",Emission,Water

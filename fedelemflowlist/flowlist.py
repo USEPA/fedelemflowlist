@@ -1,8 +1,32 @@
-# Assemble pieces to generate the elementary flow list
+"""
+Generate the elementary flow master list as a pandas dataframe from input files
+Write it to the output folder
+"""
+
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, outputpath, as_path,flow_list_specs
-from fedelemflowlist.contexts import context_path_uuid
+from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs
+from fedelemflowlist.contexts import all_contexts
 from fedelemflowlist.uuid_generators import make_uuid
+
+flowable_data_types = {'CAS No': 'str', 'Formula': 'str', 'Flowable Preferred': 'Int64'}
+altunits_data_types = {'Conversion Factor': 'float'}
+
+
+def read_in_flowclass_file(flowclass, flowclasstype):
+    """Declare data types for select variables in flow class input files
+
+    :param flowclass: One of the flow class names
+    :param flowclasstype: either 'Flowables','FlowablePrimaryContexts',or 'FlowableAltUnits'
+    :return: pd dataframe for that flow class file
+    """
+    data_types = None
+    if flowclasstype == 'Flowables':
+        data_types = flowable_data_types
+    if flowclasstype == 'FlowableAltUnits':
+        data_types = altunits_data_types
+    flowclassfile = pd.read_csv(inputpath + flowclass + flowclasstype + '.csv', header=0, dtype=data_types)
+    return flowclassfile
+
 
 if __name__ == '__main__':
 
@@ -10,42 +34,68 @@ if __name__ == '__main__':
     flowables = pd.DataFrame()
     flowables_w_primary_contexts = pd.DataFrame()
     primary_contexts = pd.DataFrame()
-    flowable_data_types = {'CAS No':'str','Formula':'str','Flowable Preferred':'Int64'}
-    preferred_flowables_only = flow_list_specs["preferred_flowables_only"]
-    preferred_contexts_only = flow_list_specs["preferred_contexts_only"]
 
-    # Loop through
+    # Loop through flow class specific files based on those classes specified in flowlistspecs
     for t in flow_list_specs["flow_classes"]:
         # Handle flowables first
-        flowables_for_class = pd.read_csv(inputpath + t + 'Flowables.csv', header=0, dtype=flowable_data_types)
+        flowables_for_class = read_in_flowclass_file(t, 'Flowables')
+        log.info('Import ' + str(len(flowables_for_class)) + ' flowables for class ' + t)
         # Drop if the line is blank
         flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
+        # Drop duplicate flowables in list
+        flowables_for_class = flowables_for_class.drop_duplicates(subset='Flowable')
         # Add Flow Class to columns
         flowables_for_class['Class'] = t
-        #Drop non-preferred
-        if preferred_flowables_only:
-            flowables_for_class = flowables_for_class[flowables_for_class['Preferred']==True]
         flowables = pd.concat([flowables, flowables_for_class], ignore_index=True, sort=False)
-        class_primary_contexts = pd.read_csv(inputpath + t + 'FlowablePrimaryContexts.csv', header=0)
+        class_primary_contexts = read_in_flowclass_file(t, 'FlowablePrimaryContexts')
+        flowables_for_class = flowables_for_class.drop_duplicates()
+        log.info('Import ' + str(len(class_primary_contexts)) + ' flowable primary contexts for class ' + t)
         class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
 
-        # primary_contexts['Directionality'] = [convert_to_lower(x) for x in primary_contexts["Directionality"]]
-        # primary_contexts['Environmental Media'] = [convert_to_lower(x) for x in primary_contexts["Environmental Media"]]
-
-        # merge
+        # Check that every flowable has a primary context
+        flowables_missing_primary_contexts = list(set(flowables_for_class['Flowable']) -
+                                                  set(class_primary_contexts['Flowable']))
+        if len(flowables_missing_primary_contexts) > 0:
+            log.warning('Flowables ' + str(flowables_missing_primary_contexts) +
+                        ' are missing primary contexts.')
+        # merge in flowables and flowable primary contexts
         class_flowables_w_primary_contexts = pd.merge(flowables_for_class, class_primary_contexts)
-        flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts, class_flowables_w_primary_contexts],
+        # Add in Alt units
+        try:
+            altunits_for_class = read_in_flowclass_file(t, 'FlowableAltUnits')
+            altunits_for_class = altunits_for_class.drop_duplicates()
+            # Drop external reference for now
+            altunits_for_class = altunits_for_class.drop(columns=['External Reference'])
+            flowables_alt_units_not_in_flowables = list(set(altunits_for_class['Flowable']) -
+                                                        set(flowables_for_class['Flowable']))
+            if len(flowables_alt_units_not_in_flowables) > 0:
+                log.warning('Flowables with alt units ' + str(flowables_alt_units_not_in_flowables) +
+                            ' not in Flowables file')
+                # Left join in alt units
+            #rename cols to match final flow list specs
+            altunits_for_class = altunits_for_class.rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
+                                                                    'Alternate Unit': 'AltUnit'})
+            class_flowables_w_primary_contexts = pd.merge(class_flowables_w_primary_contexts, altunits_for_class,
+                                                          left_on=['Flowable', 'Unit'],
+                                                          right_on=['Flowable', 'Reference Unit'], how='left')
+            # Drop old reference unit
+            class_flowables_w_primary_contexts = class_flowables_w_primary_contexts.drop(columns=['Reference Unit'])
+        except FileNotFoundError:
+            altunits_for_class = None # Do nothing
+        log.info('Create ' + str(len(class_flowables_w_primary_contexts)) +
+                 ' flows with primary context for class ' + t)
+        flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts,
+                                                  class_flowables_w_primary_contexts],
                                                  ignore_index=True, sort=False)
-
         primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
         primary_contexts_unique['Class'] = t
         primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
 
-    # flowables = flowables.fillna(value="")
+    log.info('Total of ' + str(len(flowables_w_primary_contexts)) + ' flows with primary contexts created.')
 
     # Read in flowable context membership
     SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
-
+    log.info('Read in secondary context membership')
     # if list(SecondaryContextMembership.columns[1:]) != compartment_classes:
     #    log.debug('ERROR: FlowableContextMembership compartment class columns must match Context compartment class columns')
 
@@ -58,10 +108,6 @@ if __name__ == '__main__':
         # convert to string
         pattern_w_primary = ','.join(pattern_w_primary)
         primary_context_path = as_path(row['Directionality'], row['Environmental Media'])
-        #Skip the context pattern if 0 when preferred_contexts_only is true
-        if preferred_contexts_only:
-            if row['ContextPreferred'] == 0:
-                continue
         context_patterns_used = context_patterns_used.append({'Class': row['FlowClass'],
                                                               'Directionality': row['Directionality'],
                                                               'Environmental Media': row['Environmental Media'],
@@ -72,15 +118,16 @@ if __name__ == '__main__':
     # Cycle through these class context patterns and get context_paths
 
     #! This code segment is slow - could be improved
+    log.info('Getting relevant contexts for each class ...')
     field_to_keep = ['Class', 'Directionality', 'Environmental Media','ContextPreferred']
     class_contexts = pd.DataFrame()
     for index, row in context_patterns_used.iterrows():
         class_context_patterns_row = row[field_to_keep]
         # Get the contexts specific to this class by matching the Pattern and Primary_Context_Path
-        contexts_df = context_path_uuid[(context_path_uuid['Pattern'] == row['Pattern']) & (
-            context_path_uuid['Context'].str.contains(row['Primary_Context_Path']))]
+        contexts_df = all_contexts[(all_contexts['Pattern'] == row['Pattern']) & (
+            all_contexts['Context'].str.contains(row['Primary_Context_Path']))]
         for f in field_to_keep:
-            contexts_df[f] = row[f]
+            contexts_df.loc[:,f] = row[f]
         contexts_df = contexts_df.drop(columns='Pattern')
         class_contexts = pd.concat([class_contexts, contexts_df], ignore_index=True, sort=False)
 
@@ -105,15 +152,21 @@ if __name__ == '__main__':
 
     # Loop through flows generating UUID for each
     flowids = []
+    log.info('Generating unique UUIDs for each flow...')
     for index, row in flows.iterrows():
         flowid = make_uuid(row['Flowable'], row['Context'], row['Unit'])
         flowids.append(flowid)
     flows['Flow UUID'] = flowids
 
-    contexts_in_flows = flows[['Context', 'Context UUID']]
-    contexts_in_flows = contexts_in_flows.drop_duplicates()
-    log.info('Contexts in Flows:')
-    log.info(contexts_in_flows)
+    contexts_in_flows = pd.unique(flows['Context'])
+    log.info('Created ' + str(len(flows)) + ' flows with ' + str(len(contexts_in_flows))  + ' unique contexts')
+
+    #Conform flows to final list structure
+    flow_list_fields = ['Flowable', 'CAS No', 'Formula', 'Synonyms', 'Unit',
+                        'Class', 'External Reference', 'Preferred', 'Context', 'Flow UUID', 'AltUnit',
+                        'AltUnitConversionFactor']
+    flows = flows[flow_list_fields]
 
     # Write it to parquet
     flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet', engine='pyarrow')
+    log.info('Stored flows in ' + 'output/FedElemFlowListMaster.parquet')

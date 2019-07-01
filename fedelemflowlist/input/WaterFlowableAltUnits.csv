@@ -1,0 +1,4 @@
+Flowable,Alternate Unit,Reference Unit,Conversion Factor,External Reference
+"Water, fresh",m3,kg,1000,Handbook of Chemistry and Physics 
+"Water, brackish",m3,kg,1010,Handbook of Chemistry and Physics 
+"Water, saline",m3,kg,1025,Handbook of Chemistry and Physics 
