@@ -1,30 +1,15 @@
 Flowable,Directionality,Environmental Media
-BOD,Emission,Air
 BOD,Emission,Water
-BOD,Emission,Ground
-BOD 5,Emission,Air
-BOD 5,Emission,Water
-"Carbon, organic",Emission,Air
-"Carbon, organic",Emission,Ground
-"Carbon, organic",Emission,Water
-"Carbon, organic bound",Emission,Ground
 "Carbon, organic bound",Emission,Water
-COD,Emission,Air
-COD,Emission,Ground
-COD,Emission,Water
-DOC,Emission,Water
+"Carbon, organic bound",Emission,Ground
+Chemical Oxygen Demand,Emission,Water
+Dissolved Organic Carbon,Emission,Water
 "Nitrogen, organic bound",Emission,Air
 "Nitrogen, organic bound",Emission,Water
-"Nitrogen, atmospheric",Emission,Air
-"Nitrogen, total",Emission,Air
-"Nitrogen, total",Emission,Water
 "Noise,>70db",Emission,Air
 "Noise,55-70db",Emission,Air
 "Noise, 45-55db",Emission,Air
 "Noise, 0-45db",Emission,Air
 Noise,Emission,Air
-"Phosphorus, total",Emission,Ground
-"Phosphorus, total",Emission,Water
-TOC,Emission,Air
-TOC,Emission,Ground
-TOC,Emission,Water
+Total Organic Carbon,Emission,Ground
+Total Organic Carbon,Emission,Water
