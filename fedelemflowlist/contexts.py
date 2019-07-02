@@ -14,9 +14,6 @@ max_compartment_classes = len(contexts.columns)
 compartment_classes = flow_list_specs['primary_context_classes'] +\
                       flow_list_specs['secondary_context_classes']
 
-if compartment_classes != list(contexts.columns):
-    log.debug('ERROR: Compartment class list does not match column headers in Contexts sheet')
-
 # Create dictionary of context levels
 context_levels = {}
 counter = 0
