@@ -52,7 +52,7 @@ class TestInputFiles(unittest.TestCase):
             for unt in ref_units:
                 olcaref = olcaunits.unit_ref(unt)
                 if olcaref is None:
-                    log.debug(unt + 'in Flowbles for class ' + c_ + ' is not an olca ref unit')
+                    log.debug(unt + ' in Flowables for class ' + c_ + ' is not an olca ref unit')
                 self.assertIsNotNone(olcaref)
             try:
                 altunits_for_class = read_in_flowclass_file(c_, 'FlowableAltUnits')
@@ -62,7 +62,7 @@ class TestInputFiles(unittest.TestCase):
                 for unt in alt_units_with_ref_unique:
                     olcaref = olcaunits.unit_ref(unt)
                     if olcaref is None:
-                        log.debug(unt + 'in alt units for class ' + c_ + ' is not an olca ref unit')
+                        log.debug(unt + ' in alt units for class ' + c_ + ' is not an olca ref unit')
                     self.assertIsNotNone(olcaref)
             except FileNotFoundError:
                 altunits_for_class = None
@@ -81,6 +81,17 @@ class TestInputFiles(unittest.TestCase):
                                                                           'ContextPreferred'])
         secondary_membership_classes = set(secondary_membership_classes)
         self.assertEqual(flowlistspecs_classes, secondary_membership_classes)
+
+    def test_synonyms_in_flowables(self):
+        """
+        Checks synonyms for bad characters
+        """
+        for c_ in flow_list_specs["flow_classes"]:
+            flowables = read_in_flowclass_file(c_, "Flowables")
+            synonyms = list(flowables['Synonyms'].dropna())
+            for v in synonyms:
+                if '\n' in v or '\r' in v:
+                    self.fail('Bad characters in synonymns: ' + v)
 
 if __name__ == '__main__':
     unittest.main()
