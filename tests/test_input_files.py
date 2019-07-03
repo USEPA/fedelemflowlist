@@ -25,12 +25,19 @@ class TestInputFiles(unittest.TestCase):
         """
         for c_ in flow_list_specs["flow_classes"]:
             flowables = read_in_flowclass_file(c_, "Flowables")
+            flowables_w_unit = flowables[['Flowable','Unit']]
             try:
                 altunits_for_class = read_in_flowclass_file(c_, 'FlowableAltUnits')
                 #First make sure reference units here match those in the flowables file
                 flowables_in_flowables = set(flowables['Flowable'])
                 flowables_in_altunits = set(altunits_for_class['Flowable'])
                 self.assertTrue(flowables_in_altunits.issubset(flowables_in_flowables))
+                #May sure ref units are the same in both files
+                altunits_w_unit = altunits_for_class[['Flowable','Reference Unit']]
+                merge_units = pd.merge(flowables_w_unit, altunits_w_unit, left_on=['Flowable','Unit'],
+                                       right_on=['Flowable','Reference Unit'])
+                #The merge should have found a row for every row in altunits
+                self.assertEqual(len(altunits_w_unit),len(merge_units))
             except FileNotFoundError:
                 altunits_for_class = None
 
