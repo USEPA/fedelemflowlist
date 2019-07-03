@@ -2,8 +2,9 @@
 Tests for input files used to build flow list to provide quality assurance
 """
 import unittest
+import pandas as pd
 from fedelemflowlist.flowlist import read_in_flowclass_file, import_secondary_context_membership
-from fedelemflowlist.globals import flow_list_specs
+from fedelemflowlist.globals import flow_list_specs,log
 from fedelemflowlist.contexts import contexts, compartment_classes
 
 class TestInputFiles(unittest.TestCase):
@@ -19,18 +20,46 @@ class TestInputFiles(unittest.TestCase):
             flowables_in_primary_contexts = set(primarycontexts['Flowable'])
             self.assertEqual(flowables_in_flowables, flowables_in_primary_contexts)
 
-    def test_altunitflowables_in_flowables(self):
+    def test_altunit_files_match_flowables(self):
         """For each flow class, test flowables in AltUnits are defined in Flowables
         """
         for c_ in flow_list_specs["flow_classes"]:
             flowables = read_in_flowclass_file(c_, "Flowables")
             try:
                 altunits_for_class = read_in_flowclass_file(c_, 'FlowableAltUnits')
+                #First make sure reference units here match those in the flowables file
                 flowables_in_flowables = set(flowables['Flowable'])
                 flowables_in_altunits = set(altunits_for_class['Flowable'])
                 self.assertTrue(flowables_in_altunits.issubset(flowables_in_flowables))
             except FileNotFoundError:
                 altunits_for_class = None
+
+    def test_units_are_olcaunits(self):
+        import olca.units as olcaunits
+        """ Test that units are openlca reference units
+        """
+        for c_ in flow_list_specs["flow_classes"]:
+            flowables = read_in_flowclass_file(c_, "Flowables")
+            # Get units and test that they are olca ref units
+            ref_units = pd.unique(flowables['Unit'])
+            for unt in ref_units:
+                olcaref = olcaunits.unit_ref(unt)
+                if olcaref is None:
+                    log.debug(unt + 'in Flowbles for class ' + c_ + ' is not an olca ref unit')
+                self.assertIsNotNone(olcaref)
+            try:
+                altunits_for_class = read_in_flowclass_file(c_, 'FlowableAltUnits')
+                alt_units_with_ref = list(altunits_for_class['Alternate Unit']) + list(
+                    altunits_for_class['Reference Unit'])
+                alt_units_with_ref_unique = set(alt_units_with_ref)
+                for unt in alt_units_with_ref_unique:
+                    olcaref = olcaunits.unit_ref(unt)
+                    if olcaref is None:
+                        log.debug(unt + 'in alt units for class ' + c_ + ' is not an olca ref unit')
+                    self.assertIsNotNone(olcaref)
+            except FileNotFoundError:
+                altunits_for_class = None
+
 
     def test_compartment_classes_match(self):
         """Test that compartment classes in Contexts and Secondary Context
