@@ -9,7 +9,7 @@ import olca
 import olca.units as units
 import olca.pack as pack
 
-from .uuid_generators import make_uuid
+from fedelemflowlist.uuid_generators import make_uuid
 from typing import Optional
 
 
@@ -44,16 +44,7 @@ def _catpath(*args) -> str:
             continue
         if p != '':
             p = p + "/"
-        p = p + str(arg).strip()
-
-    if p == 'air':
-        return 'Elementary flows/emission/air'
-    if p == 'ground':
-        return 'Elementary flows/resource/ground'
-    if p == 'soil':
-        return 'Elementary flows/emission/soil'
-    if p == 'water':
-        return 'Elementary flows/emission/water'
+        p = 'Elementary flows/' + p + str(arg).strip()
     return p
 
 
