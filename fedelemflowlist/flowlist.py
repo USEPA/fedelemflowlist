@@ -4,7 +4,7 @@ Write it to the output folder
 """
 
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs
+from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs, flow_list_fields
 from fedelemflowlist.contexts import all_contexts
 from fedelemflowlist.uuid_generators import make_uuid
 
@@ -145,9 +145,6 @@ if __name__ == '__main__':
     log.info('Created ' + str(len(flows)) + ' flows with ' + str(len(contexts_in_flows))  + ' unique contexts')
 
     #Conform flows to final list structure
-    flow_list_fields = ['Flowable', 'CAS No', 'Formula', 'Synonyms', 'Unit',
-                        'Class', 'External Reference', 'Preferred', 'Context', 'Flow UUID', 'AltUnit',
-                        'AltUnitConversionFactor']
     flows = flows[flow_list_fields]
 
     # Write it to parquet

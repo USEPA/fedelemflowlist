@@ -12,6 +12,32 @@ except NameError:
 outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 flowmappingpath = modulepath + 'flowmapping/'
+flow_list_fields = ['Flowable',
+                    'CAS No',
+                    'Formula',
+                    'Synonyms',
+                    'Unit',
+                    'Class',
+                    'External Reference',
+                    'Preferred',
+                    'Context',
+                    'Flow UUID',
+                    'AltUnit',
+                    'AltUnitConversionFactor']
+flowmapping_fields = ['SourceListName',
+                     'SourceFlowName',
+                     'SourceFlowUUID',
+                     'SourceFlowContext',
+                     'SourceUnit',
+                     'MatchCondition',
+                     'ConversionFactor',
+                     'TargetFlowName',
+                     'TargetFlowUUID',
+                     'TargetFlowContext',
+                     'TargetUnit',
+                     'Mapper',
+                     'Verifier',
+                     'LastUpdated']
 
 log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
