@@ -13,12 +13,6 @@ from fedelemflowlist.uuid_generators import make_uuid
 from typing import Optional
 
 
-def _uid(*args) -> str:
-    """A helper function that creates a name based UUID. """
-    path = '/'.join([str(arg).strip() for arg in args]).lower()
-    return str(uuid.uuid3(uuid.NAMESPACE_OID, path))
-
-
 def _isnil(val) -> bool:
     """Returns True when the given value is `None`, `NaN`, or `""`."""
     if val is None:
@@ -73,7 +67,7 @@ class _MapFlow(object):
 
         # set the UUID or generate it from the attributes
         if self.uid is None:
-            flow_ref.id = _uid(olca.ModelType.FLOW,
+            flow_ref.id = make_uuid("Flow",
                                self.category, self.name)
         else:
             flow_ref.id = self.uid
