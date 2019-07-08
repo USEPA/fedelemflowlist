@@ -8,9 +8,8 @@ from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_li
 from fedelemflowlist.contexts import all_contexts
 from fedelemflowlist.uuid_generators import make_uuid
 
-flowable_data_types = {'CAS No': 'str', 'Formula': 'str', 'Flowable Preferred': 'Int64'}
+flowable_data_types = {'CAS No': 'str', 'Formula': 'str', 'Flowable Preferred': 'int64'}
 altunits_data_types = {'Conversion Factor': 'float'}
-
 
 def read_in_flowclass_file(flowclass, flowclasstype):
     """Declare data types for select variables in flow class input files
@@ -25,12 +24,16 @@ def read_in_flowclass_file(flowclass, flowclasstype):
     if flowclasstype == 'FlowableAltUnits':
         data_types = altunits_data_types
     flowclassfile = pd.read_csv(inputpath + flowclass + flowclasstype + '.csv', header=0, dtype=data_types)
+    flowclassfile = flowclassfile.dropna(axis=0, how='all')
     return flowclassfile
 
+def import_secondary_context_membership():
+    log.info('Read in secondary context membership')
+    SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
+    return SecondaryContextMembership
 
 if __name__ == '__main__':
 
-    # Import flowables by flow class with their units, as well as primary flow class membership
     flowables = pd.DataFrame()
     flowables_w_primary_contexts = pd.DataFrame()
     primary_contexts = pd.DataFrame()
@@ -40,8 +43,6 @@ if __name__ == '__main__':
         # Handle flowables first
         flowables_for_class = read_in_flowclass_file(t, 'Flowables')
         log.info('Import ' + str(len(flowables_for_class)) + ' flowables for class ' + t)
-        # Drop if the line is blank
-        flowables_for_class = flowables_for_class.dropna(axis=0, how='all')
         # Drop duplicate flowables in list
         flowables_for_class = flowables_for_class.drop_duplicates(subset='Flowable')
         # Add Flow Class to columns
@@ -52,12 +53,6 @@ if __name__ == '__main__':
         log.info('Import ' + str(len(class_primary_contexts)) + ' flowable primary contexts for class ' + t)
         class_primary_contexts = class_primary_contexts.dropna(axis=0, how='all')
 
-        # Check that every flowable has a primary context
-        flowables_missing_primary_contexts = list(set(flowables_for_class['Flowable']) -
-                                                  set(class_primary_contexts['Flowable']))
-        if len(flowables_missing_primary_contexts) > 0:
-            log.warning('Flowables ' + str(flowables_missing_primary_contexts) +
-                        ' are missing primary contexts.')
         # merge in flowables and flowable primary contexts
         class_flowables_w_primary_contexts = pd.merge(flowables_for_class, class_primary_contexts)
         # Add in Alt units
@@ -66,12 +61,7 @@ if __name__ == '__main__':
             altunits_for_class = altunits_for_class.drop_duplicates()
             # Drop external reference for now
             altunits_for_class = altunits_for_class.drop(columns=['External Reference'])
-            flowables_alt_units_not_in_flowables = list(set(altunits_for_class['Flowable']) -
-                                                        set(flowables_for_class['Flowable']))
-            if len(flowables_alt_units_not_in_flowables) > 0:
-                log.warning('Flowables with alt units ' + str(flowables_alt_units_not_in_flowables) +
-                            ' not in Flowables file')
-                # Left join in alt units
+            # Left join in alt units
             #rename cols to match final flow list specs
             altunits_for_class = altunits_for_class.rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
                                                                     'Alternate Unit': 'AltUnit'})
@@ -87,17 +77,10 @@ if __name__ == '__main__':
         flowables_w_primary_contexts = pd.concat([flowables_w_primary_contexts,
                                                   class_flowables_w_primary_contexts],
                                                  ignore_index=True, sort=False)
-        primary_contexts_unique = class_primary_contexts[flow_list_specs["primary_context_classes"]].drop_duplicates()
-        primary_contexts_unique['Class'] = t
-        primary_contexts = pd.concat([class_primary_contexts, primary_contexts_unique], ignore_index=True, sort=False)
-
     log.info('Total of ' + str(len(flowables_w_primary_contexts)) + ' flows with primary contexts created.')
 
     # Read in flowable context membership
-    SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
-    log.info('Read in secondary context membership')
-    # if list(SecondaryContextMembership.columns[1:]) != compartment_classes:
-    #    log.debug('ERROR: FlowableContextMembership compartment class columns must match Context compartment class columns')
+    SecondaryContextMembership = import_secondary_context_membership()
 
     secondary_context_classes = flow_list_specs["secondary_context_classes"]
     context_patterns_used = pd.DataFrame(
