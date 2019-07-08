@@ -212,8 +212,17 @@ class Writer(object):
             if fp.flow_property is None:
                 log.warning("unknown unit %s in flow %s",
                             row["Unit"], row["Flow UUID"])
-
             flow.flow_properties = [fp]
+            #Add in alternate unit flow property
+            if row["AltUnit"] is not None:
+                altfp = olca.FlowPropertyFactor()
+                altfp.reference_flow_property = False
+                altfp.conversion_factor = row["AltUnitConversionFactor"]
+                altfp.flow_property = units.property_ref(row["AltUnit"])
+                if altfp.flow_property is None:
+                    log.warning("unknown altunit %s in flow %s",
+                                row["AltUnit"], row["Flow UUID"])
+                flow.flow_properties.append(altfp)
             pw.write(flow)
 
     def _write_mappings(self, pw: pack.Writer):
