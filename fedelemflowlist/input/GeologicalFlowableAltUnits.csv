@@ -1,15 +1,16 @@
 Flowable,Alternate Unit,Reference Unit,Conversion Factor,External Reference
-Coal,MJ,kg,23.35,http://greet.es.anl.gov/
-"Coal, lignite",MJ,kg,17.4,World-nuclear Assoication
-"Coal, bituminous",MJ,kg,26.694499999999998,http://greet.es.anl.gov/
-"Coal, sub-bituminous",MJ,kg,20,World-nuclear Assoication
-"Coal, anthracite",MJ,kg,23.9,World-nuclear Assoication
-Coalbed methane,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Methane,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Crude oil,MJ,kg,44.1145,http://greet.es.anl.gov/
-Natural gas,MJ,kg,49.683,http://greet.es.anl.gov/
-Oil sand,MJ,kg,44.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Shale gas,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Tight gas,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Hydrogen,MJ,kg,131.195,http://greet.es.anl.gov/
-Uranium ore,MJ,kg,500000,World-nuclear Assoication
+Coal,MJ,kg,0.0417,"Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
+"Coal, lignite",MJ,kg,0.0714,https://www.engineeringtoolbox.com/fuels-higher-calorific-values-d_169.html
+"Coal, bituminous",MJ,kg,0.0367,"Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
+"Coal, sub-bituminous",MJ,kg,0.041,https://www.engineeringtoolbox.com/fuels-higher-calorific-values-d_169.html
+"Coal, anthracite",MJ,kg,0.0307,https://www.engineeringtoolbox.com/fuels-higher-calorific-values-d_169.html
+Coalbed methane,MJ,kg,0.018,"same as Methane - Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Methane,MJ,kg,0.018,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Crude oil,MJ,kg,0.0221,"USEIA weighted world average U.S. Energy Information Administration. International Energy Statistics.  2011  [cited Feb 2011]; URL: http://www.eia.gov/cfapps/ipdbproject/IEDIndex3.cfm"
+Natural gas,MJ,kg,0.0191,"Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
+Oil sand,MJ,kg,0.0225,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Shale gas,MJ,kg,0.0191,"same as Natural gas - Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
+Tight gas,MJ,kg,0.0191,"same as Natural gas - Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
+Hydrogen,MJ,kg,0.007,"Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
+Uranium ore,MJ,kg,0.000002,"Uranium, in LWR World-nuclear Assoication https://www.world-nuclear.org/information-library/facts-and-figures/heat-values-of-various-fuels.aspx"
+Peat,MJ,kg,0.0577,"Thermochemical and Catalytic Upgrading in a Fuel Context: Peat, Biomass and Alkenes, Thesis by Christina Hornell, Chemical Engineering Dept., Royal Institute of Technology, Stockholm, Sweden, 2001."
