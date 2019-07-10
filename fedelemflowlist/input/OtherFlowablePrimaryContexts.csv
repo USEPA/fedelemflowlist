@@ -6,10 +6,5 @@ Chemical Oxygen Demand,Emission,Water
 Dissolved Organic Carbon,Emission,Water
 "Nitrogen, organic bound",Emission,Air
 "Nitrogen, organic bound",Emission,Water
-"Noise,>70db",Emission,Air
-"Noise,55-70db",Emission,Air
-"Noise, 45-55db",Emission,Air
-"Noise, 0-45db",Emission,Air
-Noise,Emission,Air
 Total Organic Carbon,Emission,Ground
 Total Organic Carbon,Emission,Water
