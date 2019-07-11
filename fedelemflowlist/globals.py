@@ -12,18 +12,19 @@ except NameError:
 outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 flowmappingpath = modulepath + 'flowmapping/'
-flow_list_fields = ['Flowable',
-                    'CAS No',
-                    'Formula',
-                    'Synonyms',
-                    'Unit',
-                    'Class',
-                    'External Reference',
-                    'Preferred',
-                    'Context',
-                    'Flow UUID',
-                    'AltUnit',
-                    'AltUnitConversionFactor']
+flow_list_fields = {'Flowable':[{'dtype':'str'},{'required':True}],
+                    'CAS No':[{'dtype':'str'},{'required':False}],
+                    'Formula':[{'dtype':'str'},{'required':False}],
+                    'Synonyms':[{'dtype':'str'},{'required':False}],
+                    'Unit':[{'dtype':'str'},{'required':True}],
+                    'Class':[{'dtype':'str'},{'required':True}],
+                    'External Reference':[{'dtype':'str'},{'required':False}],
+                    'Preferred':[{'dtype':'int'},{'required':False}],
+                    'Context':[{'dtype':'str'},{'required':True}],
+                    'Flow UUID':[{'dtype':'str'},{'required':True}],
+                    'AltUnit':[{'dtype':'str'},{'required':True}],
+                    'AltUnitConversionFactor':[{'dtype':'float'},{'required':True}]
+                    }
 flowmapping_fields = ['SourceListName',
                      'SourceFlowName',
                      'SourceFlowUUID',
