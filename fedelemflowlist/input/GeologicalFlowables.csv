@@ -42,7 +42,7 @@ Bastnaesite (Ce),12334-25-7,Ce(CO3)F,,kg,https://www.mindat.org/min-560.html,1.0
 Bastnaesite (La),,La(CO3)F,,kg,https://www.mindat.org/min-561.html,1.0
 Bastnaesite (Nd),,Nd(CO3)F,,kg,https://www.mindat.org/min-29123.html,1.0
 Bastnaesite (Y),795213-09-1,Y(CO3)F,,kg,https://www.mindat.org/min-29123.html,1.0
-Bastnaesite,,X(CO3)F ,,kg,,0.0
+Bastnaesite,,X(CO3)F,,kg,,0.0
 Bauxite,,,,kg,https://www.mindat.org/min-575.html,1.0
 Bazzite,,Be3Sc2(Si6O18),,kg,https://www.mindat.org/min-586.html,1.0
 Bentonite,1302-78-9,,,kg,https://www.mindat.org/min-9141.html,1.0
@@ -249,7 +249,7 @@ Meta-autunite,,Ca(UO2)2(PO4)2 · 6-8H2O,,kg,https://www.mindat.org/min-2662.htm
 Metacinnabar,,HgS,,kg,https://www.mindat.org/min-2670.html,1.0
 Metastibnite,,Sb2S3,,kg,https://www.mindat.org/min-2686.html,1.0
 Metatorbernite,,Cu(UO2)2(PO4)2 · 8H2O,,kg,https://www.mindat.org/min-2689.html,1.0
-Methane,74-82-8,CH4,,kg,,
+Methane,74-82-8,CH4,,MJ,,
 Mica,,,,kg,https://www.mindat.org/min-52478.html,1.0
 Michenerite,,PdBiTe,,kg,https://www.mindat.org/min-2703.html,1.0
 Microcline,,K(AlSi3O8),,kg,https://www.mindat.org/min-2704.html,1.0
@@ -420,7 +420,7 @@ Twinnite,,Pb0.8Tl0.1Sb1.3As0.8S4,,kg,https://www.mindat.org/min-4067.html,1.0
 Tyuyamunite,,Ca(UO2)2(VO4)2 · 5-8H2O,,kg,https://www.mindat.org/min-4072.html,1.0
 Ulexite,,NaCa[B5O6(OH)6] · 5H2O,,kg,https://www.mindat.org/min-4085.html,1.0
 Uraninite,,UO2,,kg,https://www.mindat.org/min-4102.html,1.0
-Uranium ore,,UX,,kg,https://www.mindat.org/element/uranium,0.0
+Uranium ore,,UX,,MJ,https://www.mindat.org/element/uranium,0.0
 Uranophane,,Ca(UO2)2(SiO3OH)2 · 5H2O,,kg,https://www.mindat.org/min-4107.html,1.0
 Uvarovite,,Ca3Cr2(SiO4)3,,kg,https://www.mindat.org/min-4125.html,1.0
 Vanadinite,,Pb5(VO4)3Cl,,kg,https://www.mindat.org/min-4139.html,1.0
@@ -458,17 +458,17 @@ Sodium nitrate,,NaNO3,,kg,,0.0
 Phosphate ore,,PO43-,,kg,,0.0
 Potassium ore,,KX,,kg,,0.0
 Potassium oxide,,KO,,kg,,0.0
-"Coal, lignite",,,,kg,,1.0
-"Coal, bituminous",,,,kg,,1.0
-"Coal, anthracite",,,,kg,,1.0
-Coalbed methane,,,,kg,,1.0
-Crude oil,,,,kg,,1.0
-Natural gas,8006-61-9,,,kg,,1.0
-Oil sand,,,,kg,,1.0
-Shale gas,,,,kg,,1.0
-Tight gas,,,,kg,,1.0
-Oil shale,,,,kg,,1.0
-Coal,,,,kg,,0.0
+"Coal, lignite",,,,MJ,,1.0
+"Coal, bituminous",,,,MJ,,1.0
+"Coal, anthracite",,,,MJ,,1.0
+Coalbed methane,,,,MJ,,1.0
+Crude oil,,,,MJ,,1.0
+Natural gas,8006-61-9,,,MJ,,1.0
+Oil sand,,,,MJ,,1.0
+Shale gas,,,,MJ,,1.0
+Tight gas,,,,MJ,,1.0
+Oil shale,,,,MJ,,1.0
+Coal,,,,MJ,,0.0
 Copper (I) sufide,,,,kg,,1.0
 Feldspar group,,,,kg,,0.0
 Fluorine,,,,kg,,1.0
@@ -483,5 +483,5 @@ Guange,,,,kg,,1.0
 Phosphorite,,,,kg,,1.0
 Peat,,,,kg,,1.0
 Asbestos,,,,kg,,1.0
-Hydrogen,,H2,,kg,,1.0
-"Coal, sub-bituminous",,,,kg,,1.0
+Hydrogen,,H2,,MJ,,1.0
+"Coal, sub-bituminous",,,,MJ,,1.0

@@ -12,6 +12,33 @@ except NameError:
 outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 flowmappingpath = modulepath + 'flowmapping/'
+flow_list_fields = {'Flowable':[{'dtype':'str'},{'required':True}],
+                    'CAS No':[{'dtype':'str'},{'required':False}],
+                    'Formula':[{'dtype':'str'},{'required':False}],
+                    'Synonyms':[{'dtype':'str'},{'required':False}],
+                    'Unit':[{'dtype':'str'},{'required':True}],
+                    'Class':[{'dtype':'str'},{'required':True}],
+                    'External Reference':[{'dtype':'str'},{'required':False}],
+                    'Preferred':[{'dtype':'int'},{'required':False}],
+                    'Context':[{'dtype':'str'},{'required':True}],
+                    'Flow UUID':[{'dtype':'str'},{'required':True}],
+                    'AltUnit':[{'dtype':'str'},{'required':False}],
+                    'AltUnitConversionFactor':[{'dtype':'float'},{'required':False}]
+                    }
+flowmapping_fields = ['SourceListName',
+                     'SourceFlowName',
+                     'SourceFlowUUID',
+                     'SourceFlowContext',
+                     'SourceUnit',
+                     'MatchCondition',
+                     'ConversionFactor',
+                     'TargetFlowName',
+                     'TargetFlowUUID',
+                     'TargetFlowContext',
+                     'TargetUnit',
+                     'Mapper',
+                     'Verifier',
+                     'LastUpdated']
 
 log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
                 stream=sys.stdout)

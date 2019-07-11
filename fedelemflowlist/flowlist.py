@@ -4,12 +4,14 @@ Write it to the output folder
 """
 
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs
+from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs, flow_list_fields
 from fedelemflowlist.contexts import all_contexts
 from fedelemflowlist.uuid_generators import make_uuid
 
-flowable_data_types = {'CAS No': 'str', 'Formula': 'str', 'Flowable Preferred': 'int64'}
-altunits_data_types = {'Conversion Factor': 'float'}
+flowable_data_types = {'CAS No': flow_list_fields['CAS No'][0]['dtype'],
+                       'Formula': flow_list_fields['Formula'][0]['dtype'],
+                       'Flowable Preferred': flow_list_fields['Preferred'][0]['dtype']}
+altunits_data_types = {'Conversion Factor': flow_list_fields['AltUnitConversionFactor'][0]['dtype']} #AltUnitConversionFactor
 
 def read_in_flowclass_file(flowclass, flowclasstype):
     """Declare data types for select variables in flow class input files
@@ -145,10 +147,7 @@ if __name__ == '__main__':
     log.info('Created ' + str(len(flows)) + ' flows with ' + str(len(contexts_in_flows))  + ' unique contexts')
 
     #Conform flows to final list structure
-    flow_list_fields = ['Flowable', 'CAS No', 'Formula', 'Synonyms', 'Unit',
-                        'Class', 'External Reference', 'Preferred', 'Context', 'Flow UUID', 'AltUnit',
-                        'AltUnitConversionFactor']
-    flows = flows[flow_list_fields]
+    flows = flows[list(flow_list_fields.keys())]
 
     # Write it to parquet
     flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet', engine='pyarrow')

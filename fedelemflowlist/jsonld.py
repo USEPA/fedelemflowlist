@@ -9,14 +9,8 @@ import olca
 import olca.units as units
 import olca.pack as pack
 
-from .uuid_generators import make_uuid
+from fedelemflowlist.uuid_generators import make_uuid
 from typing import Optional
-
-
-def _uid(*args) -> str:
-    """A helper function that creates a name based UUID. """
-    path = '/'.join([str(arg).strip() for arg in args]).lower()
-    return str(uuid.uuid3(uuid.NAMESPACE_OID, path))
 
 
 def _isnil(val) -> bool:
@@ -44,16 +38,7 @@ def _catpath(*args) -> str:
             continue
         if p != '':
             p = p + "/"
-        p = p + str(arg).strip()
-
-    if p == 'air':
-        return 'Elementary flows/emission/air'
-    if p == 'ground':
-        return 'Elementary flows/resource/ground'
-    if p == 'soil':
-        return 'Elementary flows/emission/soil'
-    if p == 'water':
-        return 'Elementary flows/emission/water'
+        p = 'Elementary flows/' + p + str(arg).strip()
     return p
 
 
@@ -82,7 +67,7 @@ class _MapFlow(object):
 
         # set the UUID or generate it from the attributes
         if self.uid is None:
-            flow_ref.id = _uid(olca.ModelType.FLOW,
+            flow_ref.id = make_uuid("Flow",
                                self.category, self.name)
         else:
             flow_ref.id = self.uid
@@ -227,8 +212,17 @@ class Writer(object):
             if fp.flow_property is None:
                 log.warning("unknown unit %s in flow %s",
                             row["Unit"], row["Flow UUID"])
-
             flow.flow_properties = [fp]
+            #Add in alternate unit flow property
+            if row["AltUnit"] is not None:
+                altfp = olca.FlowPropertyFactor()
+                altfp.reference_flow_property = False
+                altfp.conversion_factor = row["AltUnitConversionFactor"]
+                altfp.flow_property = units.property_ref(row["AltUnit"])
+                if altfp.flow_property is None:
+                    log.warning("unknown altunit %s in flow %s",
+                                row["AltUnit"], row["Flow UUID"])
+                flow.flow_properties.append(altfp)
             pw.write(flow)
 
     def _write_mappings(self, pw: pack.Writer):
