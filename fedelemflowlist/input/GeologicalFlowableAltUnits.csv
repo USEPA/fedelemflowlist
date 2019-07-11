@@ -1,15 +1,15 @@
 Flowable,Alternate Unit,Reference Unit,Conversion Factor,External Reference
-Coal,kg,MJ,23.35,http://greet.es.anl.gov/
-"Coal, lignite",kg,MJ,17.4,World-nuclear Assoication
-"Coal, bituminous",kg,MJ,26.694499999999998,http://greet.es.anl.gov/
-"Coal, sub-bituminous",kg,MJ,20,World-nuclear Assoication
-"Coal, anthracite",kg,MJ,23.9,World-nuclear Assoication
-Coalbed methane,kg,MJ,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Methane,kg,MJ,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Crude oil,kg,MJ,44.1145,http://greet.es.anl.gov/
-Natural gas,kg,MJ,49.683,http://greet.es.anl.gov/
-Oil sand,kg,MJ,44.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Shale gas,kg,MJ,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Tight gas,kg,MJ,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
-Hydrogen,kg,MJ,131.195,http://greet.es.anl.gov/
-Uranium ore,kg,MJ,500000,World-nuclear Assoication
+Coal,MJ,kg,23.35,http://greet.es.anl.gov/
+"Coal, lignite",MJ,kg,17.4,World-nuclear Assoication
+"Coal, bituminous",MJ,kg,26.694499999999998,http://greet.es.anl.gov/
+"Coal, sub-bituminous",MJ,kg,20,World-nuclear Assoication
+"Coal, anthracite",MJ,kg,23.9,World-nuclear Assoication
+Coalbed methane,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Methane,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Crude oil,MJ,kg,44.1145,http://greet.es.anl.gov/
+Natural gas,MJ,kg,49.683,http://greet.es.anl.gov/
+Oil sand,MJ,kg,44.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Shale gas,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Tight gas,MJ,kg,55.5,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Hydrogen,MJ,kg,131.195,http://greet.es.anl.gov/
+Uranium ore,MJ,kg,500000,World-nuclear Assoication
