@@ -3,8 +3,6 @@ Flowable,Directionality,Environmental Media
 "Energy, wind",Resource,Air
 "Energy, geothermal",Resource,Ground
 "Energy, hydro",Resource,Water
-"Energy, hydro-wave",Resource,Water
-"Energy, hydro-tidal",Resource,Water
 "Energy, heat",Emission,Air
 "Energy, heat",Emission,Water
 "Energy, heat",Emission,Ground
