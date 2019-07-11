@@ -22,8 +22,8 @@ flow_list_fields = {'Flowable':[{'dtype':'str'},{'required':True}],
                     'Preferred':[{'dtype':'int'},{'required':False}],
                     'Context':[{'dtype':'str'},{'required':True}],
                     'Flow UUID':[{'dtype':'str'},{'required':True}],
-                    'AltUnit':[{'dtype':'str'},{'required':True}],
-                    'AltUnitConversionFactor':[{'dtype':'float'},{'required':True}]
+                    'AltUnit':[{'dtype':'str'},{'required':False}],
+                    'AltUnitConversionFactor':[{'dtype':'float'},{'required':False}]
                     }
 flowmapping_fields = ['SourceListName',
                      'SourceFlowName',
