@@ -1,5 +1,5 @@
 Flowable,Alternate Unit,Reference Unit,Conversion Factor,External Reference
 Biomass,MJ,kg,0.0577,"GREET 1.8, The Greenhouse Gases, Regulated Emissions, and Energy Use In Transportation Model, GREET 1.8d.1, developed by ArgonneNational Laboratory, Argonne, IL, released August 26, 2010. http://greet.es.anl.gov/"
-Hardwood,MJ,kg,0.0484,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
-Softwood,MJ,kg,0.0505,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
+Hardwood,kg,MJ,20.669,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
+Softwood,kg,MJ,19.808,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
 Wood,MJ,kg,0.0453,"How To Estimate Forest Recoverable Heat Products, Peter J. Ince, 1979. The values in Table 1."
