@@ -1,5 +1,5 @@
 Flowable,Alternate Unit,Reference Unit,Conversion Factor,External Reference
-Biomass,kg,MJ,16.832,"GREET, The Greenhouse Gases, Regulated Emissions, and Energy Use In Transportation Model, GREET 1.8d.1, developed by ArgonneNational Laboratory, Argonne, IL, released August 26, 2010. http://greet.es.anl.gov/"
-Hardwood,kg,MJ,20.7,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
-Softwood,kg,MJ,19.8,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
-Wood,kg,MJ,20.2,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
+Biomass,MJ,kg,16.832,"GREET, The Greenhouse Gases, Regulated Emissions, and Energy Use In Transportation Model, GREET 1.8d.1, developed by ArgonneNational Laboratory, Argonne, IL, released August 26, 2010. http://greet.es.anl.gov/"
+Hardwood,MJ,kg,20.7,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
+Softwood,MJ,kg,19.8,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
+Wood,MJ,kg,20.2,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
