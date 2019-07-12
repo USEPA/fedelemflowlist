@@ -228,14 +228,14 @@ Radionuclides,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/se
 Radium-226 and/or radium-228,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35915,0
 "Strychnidin-10-one, and salts",n.a.,,,kg,,0
 Sulfur oxides,n.a.,,,kg,,1
-Particulate matter - PM10,n.a.,,,kg,,1
-Particulate matter - PM2.5,n.a.,,,kg,,1
+"Particulate matter, ≥ PM10",n.a.,,,kg,,1
+"Particulate matter, ≤ PM2.5",n.a.,,,kg,,1
 Phosphorus compounds,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96404,0
 Nicotine and salts,n.a.,-,,kg,,0
 Chlorinated phenols,1336-35-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82789,0
 "2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-,  (1aR,2R,2aR,3R,6S,6aS,7S,7aS)-rel-, and metabolites",n.a.,,,kg,,0
 C5 alkenes,68527-11-7,,"Alkenes,C5",kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID9028700,1
 C6 alkenes,68526-52-3,,"Alkenes,C6",kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID4028676,1
-Particulate matter - PM > 2.5 and < 10,n.a.,,,kg,,1
+"Particulate matter, > PM2.5 and < PM10",n.a.,,,kg,,1
 Furans,n.a.,,,kg,,0
 Volatile organic compounds,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=761346,1
