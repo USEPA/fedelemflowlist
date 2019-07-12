@@ -1,17 +1,17 @@
 Flowable,CAS No,Formula,Synonyms,Unit,External Reference,Flowable Preferred
 "Acetates, branched alkyl C7-9 C-8-rich",108419-32-5,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=27220,1
 Nitrogen oxides,11104-93-1,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38802,1
-Aroclor (unspecified),12767-79-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=61959,1
+Aroclor (unspecified),12767-79-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=61959,0
 Polycyclic aromatic hydrocarbons,130498-29-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=84476,1
 Polychlorinated biphenyls,1336-36-3,C12,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=16366,1
-Naphthenic acids,1338-24-5,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=16362,1
-Chlorinated dibenzo-p-dioxins,136677-09-3,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=85485,1
-Chlorinated dibenzofurans,136677-10-6,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36001,1
+Naphthenic acids,1338-24-5,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=16362,0
+Chlorinated dibenzo-p-dioxins,136677-09-3,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=85485,0
+Chlorinated dibenzofurans,136677-10-6,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36001,0
 Aflatoxins,1402-68-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81225,1
-"Benzene, 1,1'-ethylidenebis-, isopropylated, distn. residues",211578-04-0,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=24210,1
-Hydrocarbons,308067-53-0,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80291,1
-Perfluorocarbons,308069-13-8,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60109225,1
-Aromatic hydrocarbons,63231-51-6,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81718,1
+"Benzene, 1,1'-ethylidenebis-, isopropylated, distn. residues",211578-04-0,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=24210,0
+Hydrocarbons,308067-53-0,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80291,0
+Perfluorocarbons,308069-13-8,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60109225,0
+Aromatic hydrocarbons,63231-51-6,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81718,0
 Naphthalenesulfonic acids,68153-01-5,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=14941,1
 "Benzenesulfonic acid, alkyl derivs. C10-13, sodium salts",68411-30-3,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=69707,1
 "Alcohols, ethoxylated C12-14",68439-50-9,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=12603,1
@@ -32,211 +32,210 @@ Phthalic acid mixed decyl and lauryl and octyl diesters,70693-30-0,-,,kg,https:/
 "Bulan mixt. with 2-nitro-1,1-bis(p-chlorophenyl)propane",8027-00-7,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87185,1
 Gibberellin A4 mixture with Gibberellin A7,8030-53-3,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38286,1
 "Alkenes, C15-18",93762-80-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=26190,1
-"Hydrocarbons, C7",93924-37-9,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20109221,1
-"Hydrocarbons, C9",93924-40-4,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID80109222,1
-"Hydrocarbons, C10",93924-41-5,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80812,1
-"Hydrocarbons, C11",93924-43-7,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40109223,1
-"Hydrocarbons, C12",93924-44-8,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80811,1
-"Hydrocarbons, C13",93924-46-0,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00109224,1
-"Hydrocarbons, C14",93924-47-1,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80810,1
+"Hydrocarbons, C7",93924-37-9,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20109221,0
+"Hydrocarbons, C9",93924-40-4,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID80109222,0
+"Hydrocarbons, C10",93924-41-5,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80812,0
+"Hydrocarbons, C11",93924-43-7,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40109223,0
+"Hydrocarbons, C12",93924-44-8,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80811,0
+"Hydrocarbons, C13",93924-46-0,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00109224,0
+"Hydrocarbons, C14",93924-47-1,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80810,0
 Tetrachlorvinphos (mixed isomers),961-11-5,C10H9Cl4O4P,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87419,1
-Sitosterols,12002-39-0,-,,kg,,1
-"Ethanes, chlorinated",68411-72-3,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=12076,1
-Acid compounds,n.a.,-,,kg,,1
-Adsorbable organic halides,n.a.,-,,kg,,1
-Alcohols,n.a.,-,,kg,,1
-"Algicides, general",n.a.,-,,kg,,1
-Aliphatics,n.a.,-,,kg,,1
-Alpha emitting radium isotopes,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80394,1
-Amines,n.a.,-,,kg,,1
-Anesthetics,n.a.,-,,kg,,1
+Sitosterols,12002-39-0,-,,kg,,0
+"Ethanes, chlorinated",68411-72-3,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=12076,0
+Acid compounds,n.a.,-,,kg,,0
+Adsorbable organic halides,n.a.,-,,kg,,0
+Alcohols,n.a.,-,,kg,,0
+"Algicides, general",n.a.,-,,kg,,0
+Aliphatics,n.a.,-,,kg,,0
+Alpha emitting radium isotopes,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80394,0
+Amines,n.a.,-,,kg,,0
+Anesthetics,n.a.,-,,kg,,0
 Antimony compounds,n.a.,-,,kg,,1
-"Arsenic compounds, inorganic",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78874,1
+"Arsenic compounds, inorganic",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78874,0
 Arsenic compounds,n.a.,-,,kg,,1
 Barium compounds,n.a.,-,,kg,,1
-Benzene soluble organics,n.a.,-,,kg,,1
-"Benzoic acid, 4-hydroxy-, methyl and propyl esters",n.a.,-,,kg,,1
-Benzoic acids,n.a.,-,,kg,,1
+Benzene soluble organics,n.a.,-,,kg,,0
+"Benzoic acid, 4-hydroxy-, methyl and propyl esters",n.a.,-,,kg,,0
+Benzoic acids,n.a.,-,,kg,,0
 Beryllium compounds,n.a.,-,,kg,,1
-Biocides,n.a.,-,,kg,,1
-"Fluorenes, C2",n.a.,-,,kg,,1
-"Naphthalenes, C2",n.a.,-,,kg,,1
-"Naphthalenes, C3",n.a.,-,,kg,,1
-"Benzene, C4",n.a.,-,,kg,,1
-"Naphthalenes, C4",n.a.,-,,kg,,1
+Biocides,n.a.,-,,kg,,0
+"Fluorenes, C2",n.a.,-,,kg,,0
+"Naphthalenes, C2",n.a.,-,,kg,,0
+"Naphthalenes, C3",n.a.,-,,kg,,0
+"Benzene, C4",n.a.,-,,kg,,0
+"Naphthalenes, C4",n.a.,-,,kg,,0
 Cadmium compounds,n.a.,-,,kg,,1
-"Carbamic acid, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80302,1
-Carbonodithiocarbonic acids,n.a.,-,,kg,,1
-"Chlordane, technical, and/or chlordane metabolites",n.a.,-,,kg,,1
-"Chlorides and sulfates, total",n.a.,-,,kg,,1
-"Chlorinated dioxins and furans -- 2,3,7,8 congeners only",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78458,1
-"Chlorinated dioxins and furans -- excluding 2,3,7,8 congeners",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78459,1
-Chlorinated organic compounds,n.a.,-,,kg,,1
-Chlorinated paraffin,n.a.,-,,kg,,1
-Chlorinated phenoxy acid group,n.a.,-,,kg,,1
-Chloroform extractables,n.a.,-,,kg,,1
+"Carbamic acid, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80302,0
+Carbonodithiocarbonic acids,n.a.,-,,kg,,0
+"Chlordane, technical, and/or chlordane metabolites",n.a.,-,,kg,,0
+"Chlorides and sulfates, total",n.a.,-,,kg,,0
+"Chlorinated dioxins and furans -- 2,3,7,8 congeners only",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78458,0
+"Chlorinated dioxins and furans -- excluding 2,3,7,8 congeners",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78459,0
+Chlorinated organic compounds,n.a.,-,,kg,,0
+Chlorinated paraffin,n.a.,-,,kg,,0
+Chlorinated phenoxy acid group,n.a.,-,,kg,,0
+Chloroform extractables,n.a.,-,,kg,,0
 Chromium compounds,n.a.,-,,kg,,1
 Cobalt compounds,n.a.,-,,kg,,1
-Combined metals,n.a.,-,,kg,,1
+Combined metals,n.a.,-,,kg,,0
 Copper compounds,n.a.,-,,kg,,1
 Cyanide compounds,n.a.,-,,kg,,1
-Cyclonaphthenes,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96234,1
-"Cycloparaffins, C8",n.a.,-,,kg,,1
-Decane isomers,n.a.,-,,kg,,1
-Decyne isomers,n.a.,-,,kg,,1
-Dibenzofurans,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35852,1
-Diethylbenzene isomers,n.a.,-,,kg,,1
-Diisocyanates,n.a.,-,,kg,,1
+Cyclonaphthenes,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96234,0
+"Cycloparaffins, C8",n.a.,-,,kg,,0
+Decane isomers,n.a.,-,,kg,,0
+Decyne isomers,n.a.,-,,kg,,0
+Dibenzofurans,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35852,0
+Diethylbenzene isomers,n.a.,-,,kg,,0
+Diisocyanates,n.a.,-,,kg,,0
 Dioxins,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96405,1
-"Distillates, low vapor pressure volatile organic compounds",n.a.,-,,kg,,1
-Dodecane isomers,n.a.,-,,kg,,1
-"Endothal, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35943,1
-Esters,n.a.,-,,kg,,1
+"Distillates, low vapor pressure volatile organic compounds",n.a.,-,,kg,,0
+Dodecane isomers,n.a.,-,,kg,,0
+"Endothal, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35943,0
+Esters,n.a.,-,,kg,,0
 "Ethylenebisdithiocarbamic acid, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35868,1
-Extractable organic matter (EOM),n.a.,-,,kg,,1
-"Furans, nitro-",n.a.,-,,kg,,1
+Extractable organic matter (EOM),n.a.,-,,kg,,0
+"Furans, nitro-",n.a.,-,,kg,,0
 Glycol ethers,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35858,1
-"Ethers, glycol and acetates",n.a.,-,,kg,,1
-"Glycol ethers, subset",n.a.,-,,kg,,1
-Glycols,n.a.,-,,kg,,1
-"Guanidine, dodecyl-, salts",n.a.,-,,kg,,1
-"Halocarbons, purgeable",n.a.,-,,kg,,1
-Halogenated organics,n.a.,-,,kg,,1
-"Halogens, total",n.a.,-,,kg,,1
-"Halomethanes, total",n.a.,-,,kg,,1
-Herbicides,n.a.,-,,kg,,1
-"Hydrazines, total",n.a.,-,,kg,,1
-"Hydrocarbons, propellants",n.a.,-,,kg,,1
-"Hydrocarbons, carbon tetrachloride extractable",n.a.,-,,kg,,1
+"Ethers, glycol and acetates",n.a.,-,,kg,,0
+"Glycol ethers, subset",n.a.,-,,kg,,0
+Glycols,n.a.,-,,kg,,0
+"Guanidine, dodecyl-, salts",n.a.,-,,kg,,0
+"Halocarbons, purgeable",n.a.,-,,kg,,0
+Halogenated organics,n.a.,-,,kg,,0
+"Halogens, total",n.a.,-,,kg,,0
+"Halomethanes, total",n.a.,-,,kg,,0
+Herbicides,n.a.,-,,kg,,0
+"Hydrazines, total",n.a.,-,,kg,,0
+"Hydrocarbons, propellants",n.a.,-,,kg,,0
+"Hydrocarbons, carbon tetrachloride extractable",n.a.,-,,kg,,0
 "Hydrocarbons, chlorinated",n.a.,-,,kg,,1
-"Hydrocarbons, halogenated",n.a.,-,,kg,,1
-"Hydrocarbons, nitrated",n.a.,-,,kg,,1
-"Hydrocarbons, petroleum",n.a.,-,,kg,,1
-"Hydrocarbons, purgeable",n.a.,-,,kg,,1
-"Hydrocarbons, volatile",n.a.,-,,kg,,1
-Hydrochlorofluorocarbons,n.a.,-,,kg,,1
-Hydrofluorocarbons,n.a.,-,,kg,,1
-IMCO Lube 106,n.a.,-,,kg,,1
-IMCO Lubrikleen,n.a.,-,,kg,,1
-"IMCO Nos. 1,2,3,6",n.a.,-,,kg,,1
-"IMCO Nos. 4,5",n.a.,-,,kg,,1
-IMCO Phos,n.a.,-,,kg,,1
-"Nitrogen, inorganic",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35904,1
+"Hydrocarbons, halogenated",n.a.,-,,kg,,0
+"Hydrocarbons, nitrated",n.a.,-,,kg,,0
+"Hydrocarbons, petroleum",n.a.,-,,kg,,0
+"Hydrocarbons, purgeable",n.a.,-,,kg,,0
+"Hydrocarbons, volatile",n.a.,-,,kg,,0
+Hydrochlorofluorocarbons,n.a.,-,,kg,,0
+Hydrofluorocarbons,n.a.,-,,kg,,0
+IMCO Lube 106,n.a.,-,,kg,,0
+IMCO Lubrikleen,n.a.,-,,kg,,0
+"IMCO Nos. 1,2,3,6",n.a.,-,,kg,,0
+"IMCO Nos. 4,5",n.a.,-,,kg,,0
+IMCO Phos,n.a.,-,,kg,,0
+"Nitrogen, inorganic",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35904,0
 Lead compounds,n.a.,-,,kg,,1
-"Lead compounds, organic",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96402,1
-"Lead compounds, inorganic",n.a.,-,,kg,,1
-Macrotrol 9210,n.a.,-,,kg,,1
-Manganese compounds,n.a.,-,,kg,,1
-Mercaptans,n.a.,-,,kg,,1
-Mercury compounds,n.a.,-,,kg,,1
-Metals,n.a.,-,,kg,,1
-"Methanes, chlorinated",n.a.,-,,kg,,1
-"Organics, methylene chloride soluble",n.a.,-,,kg,,1
+"Lead compounds, organic",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96402,0
+"Lead compounds, inorganic",n.a.,-,,kg,,0
+Macrotrol 9210,n.a.,-,,kg,,0
+Manganese compounds,n.a.,-,,kg,,0
+Mercaptans,n.a.,-,,kg,,0
+Mercury compounds,n.a.,-,,kg,,0
+Metals,n.a.,-,,kg,,0
+"Methanes, chlorinated",n.a.,-,,kg,,0
+"Organics, methylene chloride soluble",n.a.,-,,kg,,0
 Nickel compounds,n.a.,-,,kg,,1
-Nitrate compounds,n.a.,-,,kg,,1
-"N-Nitroso compounds, volatile",n.a.,-,,kg,,1
-Organic active ingredients,n.a.,-,,kg,,1
-Organic amines,n.a.,-,,kg,,1
-Organic compounds,n.a.,-,,kg,,1
-"Organic halides, total",n.a.,-,,kg,,1
-Organic ingredients,n.a.,-,,kg,,1
-"Organics, purgeables",n.a.,-,,kg,,1
-Oxygenated compounds,n.a.,-,,kg,,1
-"PAH/POM, unspecified",n.a.,-,,kg,,1
-"Paraffin, C10",n.a.,-,,kg,,1
-"Paraffin, C11",n.a.,-,,kg,,1
-"Paraffin, C12",n.a.,-,,kg,,1
-"Paraffin, C13",n.a.,-,,kg,,1
-"Paraffin, C7",n.a.,-,,kg,,1
-"Paraffin, C8",n.a.,-,,kg,,1
-"Paraffin, C9",n.a.,-,,kg,,1
-"Pentane, perfluoro-, mixt with perfluorohexane",n.a.,-,,kg,,1
-Pesticides,n.a.,-,,kg,,1
-"Pesticides, chlorinated",n.a.,-,,kg,,1
-"Pesticides, organic, total",n.a.,-,,kg,,1
-"Pesticides, organochlorinated and polychlorinated biphenyls, total",n.a.,-,,kg,,1
-Phenols,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35995,1
-"Pesticides, phosphated",n.a.,-,,kg,,1
-"Esters, Phthalate",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35834,1
+Nitrate compounds,n.a.,-,,kg,,0
+"N-Nitroso compounds, volatile",n.a.,-,,kg,,0
+Organic active ingredients,n.a.,-,,kg,,0
+Organic amines,n.a.,-,,kg,,0
+Organic compounds,n.a.,-,,kg,,0
+"Organic halides, total",n.a.,-,,kg,,0
+Organic ingredients,n.a.,-,,kg,,0
+"Organics, purgeables",n.a.,-,,kg,,0
+Oxygenated compounds,n.a.,-,,kg,,0
+"PAH/POM, unspecified",n.a.,-,,kg,,0
+"Paraffin, C10",n.a.,-,,kg,,0
+"Paraffin, C11",n.a.,-,,kg,,0
+"Paraffin, C12",n.a.,-,,kg,,0
+"Paraffin, C13",n.a.,-,,kg,,0
+"Paraffin, C7",n.a.,-,,kg,,0
+"Paraffin, C8",n.a.,-,,kg,,0
+"Paraffin, C9",n.a.,-,,kg,,0
+Pesticides,n.a.,-,,kg,,0
+"Pesticides, chlorinated",n.a.,-,,kg,,0
+"Pesticides, organic, total",n.a.,-,,kg,,0
+"Pesticides, organochlorinated and polychlorinated biphenyls, total",n.a.,-,,kg,,0
+Phenols,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35995,0
+"Pesticides, phosphated",n.a.,-,,kg,,0
+"Esters, Phthalate",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35834,0
 "Biphenyls, polybrominated",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83728,1
-"Ethers, polybrominated diphenyl",n.a.,-,,kg,,1
-Polycyclic aromatic compounds,n.a.,-,,kg,,1
-"Polycyclic aromatic hydrocarbons, PAH15",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78457,1
-"Polycyclic aromatic hydrocarbons, PAH16",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=6012,1
-"Polycyclic aromatic hydrocarbons, PAH7",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=6011,1
-Polycyclic organic matter,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35886,1
-Priority pollutants,n.a.,-,,kg,,1
-"Priority pollutants, acidic",n.a.,-,,kg,,1
-"Priority pollutants, basic or neutral",n.a.,-,,kg,,1
-"Ammonium compounds, quarternary",n.a.,-,,kg,,1
-"Rare earth metals, total",n.a.,-,,kg,,1
-Resin acids,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80310,1
+"Ethers, polybrominated diphenyl",n.a.,-,,kg,,0
+Polycyclic aromatic compounds,n.a.,-,,kg,,0
+"Polycyclic aromatic hydrocarbons, PAH15",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78457,0
+"Polycyclic aromatic hydrocarbons, PAH16",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=6012,0
+"Polycyclic aromatic hydrocarbons, PAH7",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=6011,0
+Polycyclic organic matter,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35886,0
+Priority pollutants,n.a.,-,,kg,,0
+"Priority pollutants, acidic",n.a.,-,,kg,,0
+"Priority pollutants, basic or neutral",n.a.,-,,kg,,0
+"Ammonium compounds, quarternary",n.a.,-,,kg,,0
+"Rare earth metals, total",n.a.,-,,kg,,0
+Resin acids,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80310,0
 Selenium compounds,n.a.,-,,kg,,1
-Silanes,n.a.,-,,kg,,1
-"Siloxanes, methyl-, volatile",n.a.,-,,kg,,1
+Silanes,n.a.,-,,kg,,0
+"Siloxanes, methyl-, volatile",n.a.,-,,kg,,0
 Silver compounds,n.a.,-,,kg,,1
-Surfactants,n.a.,-,,kg,,1
+Surfactants,n.a.,-,,kg,,0
 "Suspended solids, inorganic",n.a.,-,,kg,,1
-"Tannins and lignen, total",n.a.,-,,kg,,1
+"Tannins and lignen, total",n.a.,-,,kg,,0
 Thallium compounds,n.a.,-,,kg,,1
-"Thiocarbamic acid, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80307,1
-Total carbon,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=98758,1
-Total metals,n.a.,-,,kg,,1
-"Total oil and grease, less total petroleum hydrocarbons (TPH)",n.a.,-,,kg,,1
-"Total organic gases, acetates and esters",n.a.,-,,kg,,1
-"Total organic gases, alkyd, acrylic and related resins",n.a.,-,,kg,,1
-"Total organic gases, asphalt mixtures",n.a.,-,,kg,,1
-"Total organic gases, copolymers, surfactants, resins",n.a.,-,,kg,,1
-"Total organic gases, hydrocarbon resins",n.a.,-,,kg,,1
-"Total organic gases, linseed, tung, soy, and other oils",n.a.,-,,kg,,1
-"Total organic gases, styrene-containing material",n.a.,-,,kg,,1
-"Total organic gases, urethane-containing material",n.a.,-,,kg,,1
-"Total organic gases, vinyl/acrylic and other copolymers",n.a.,-,,kg,,1
-Total petroleum hydrocarbon -diesel,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97464,1
-Total petroleum hydrocarbon -gasoline,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97463,1
-Total toxic organics,n.a.,-,,kg,,1
-Tridecane isomers,n.a.,-,,kg,,1
-"Trihalomethanes (four), total",n.a.,-,,kg,,1
-Undecane isomers,n.a.,-,,kg,,1
-Undecyne isomers,n.a.,-,,kg,,1
+"Thiocarbamic acid, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80307,0
+Total carbon,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=98758,0
+Total metals,n.a.,-,,kg,,0
+"Total oil and grease, less total petroleum hydrocarbons (TPH)",n.a.,-,,kg,,0
+"Total organic gases, acetates and esters",n.a.,-,,kg,,0
+"Total organic gases, alkyd, acrylic and related resins",n.a.,-,,kg,,0
+"Total organic gases, asphalt mixtures",n.a.,-,,kg,,0
+"Total organic gases, copolymers, surfactants, resins",n.a.,-,,kg,,0
+"Total organic gases, hydrocarbon resins",n.a.,-,,kg,,0
+"Total organic gases, linseed, tung, soy, and other oils",n.a.,-,,kg,,0
+"Total organic gases, styrene-containing material",n.a.,-,,kg,,0
+"Total organic gases, urethane-containing material",n.a.,-,,kg,,0
+"Total organic gases, vinyl/acrylic and other copolymers",n.a.,-,,kg,,0
+Total petroleum hydrocarbon -diesel,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97464,0
+Total petroleum hydrocarbon -gasoline,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97463,0
+Total toxic organics,n.a.,-,,kg,,0
+Tridecane isomers,n.a.,-,,kg,,0
+"Trihalomethanes (four), total",n.a.,-,,kg,,0
+Undecane isomers,n.a.,-,,kg,,0
+Undecyne isomers,n.a.,-,,kg,,0
 Vanadium compounds,n.a.,-,,kg,,1
-Volatile halogenated hydrocarbons,n.a.,-,,kg,,1
-Volatile halogenated organics (VHO),n.a.,-,,kg,,1
-Warfarin and salts,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35888,1
+Volatile halogenated hydrocarbons,n.a.,-,,kg,,0
+Volatile halogenated organics (VHO),n.a.,-,,kg,,0
+Warfarin and salts,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35888,0
 Zinc compounds,n.a.,-,,kg,,1
-"2,4-D, salts and esters",n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35853,1
-"Acids, volatile",n.a.,,,kg,,1
-"Aldehydes, C5",n.a.,,,kg,,1
-"Aldehydes, C6",n.a.,,,kg,,1
-"Alkenes, C10 internal-",n.a.,,,kg,,1
-"Alkenes, C11 internal-",n.a.,,,kg,,1
-"Alkenes, C12 internal-",n.a.,,,kg,,1
+"2,4-D, salts and esters",n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35853,0
+"Acids, volatile",n.a.,,,kg,,0
+"Aldehydes, C5",n.a.,,,kg,,0
+"Aldehydes, C6",n.a.,,,kg,,0
+"Alkenes, C10 internal-",n.a.,,,kg,,0
+"Alkenes, C11 internal-",n.a.,,,kg,,0
+"Alkenes, C12 internal-",n.a.,,,kg,,0
 "Aromatics, C10",n.a.,,,kg,,1
 "Aromatics, C11",n.a.,,,kg,,1
 "Aromatics, C12",n.a.,,,kg,,1
 "Aromatics, C9",n.a.,,,kg,,1
-"Aromatics, purgeable",n.a.,,,kg,,1
-"Aromatics, substituted",n.a.,,,kg,,1
-"Benzene, dialkyl derivs. C11",n.a.,,,kg,,1
-"Benzene, dialkyl derivs. C12",n.a.,,,kg,,1
-Butylbenzene isomers,n.a.,,,kg,,1
-Halogen,n.a.,,,kg,,1
-"Phenol, alkyl derivs. C10",n.a.,,,kg,,1
-"Phenol, alkyl derivs. C11",n.a.,,,kg,,1
-"Triaryl esters, phosphoric acid",n.a.,,,kg,,1
-"Propanoic acid, 2-(2,4,5-trichlorophenoxy)-, salts and esters",n.a.,,,kg,,1
+"Aromatics, purgeable",n.a.,,,kg,,0
+"Aromatics, substituted",n.a.,,,kg,,0
+"Benzene, dialkyl derivs. C11",n.a.,,,kg,,0
+"Benzene, dialkyl derivs. C12",n.a.,,,kg,,0
+Butylbenzene isomers,n.a.,,,kg,,0
+Halogen,n.a.,,,kg,,0
+"Phenol, alkyl derivs. C10",n.a.,,,kg,,0
+"Phenol, alkyl derivs. C11",n.a.,,,kg,,0
+"Triaryl esters, phosphoric acid",n.a.,,,kg,,0
+"Propanoic acid, 2-(2,4,5-trichlorophenoxy)-, salts and esters",n.a.,,,kg,,0
 Radionuclides,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Radium-226 and/or radium-228,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35915,1
-"Strychnidin-10-one, and salts",n.a.,,,kg,,1
+Radium-226 and/or radium-228,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35915,0
+"Strychnidin-10-one, and salts",n.a.,,,kg,,0
 Sulfur oxides,n.a.,,,kg,,1
-"Particulate matter, ≥ PM10",n.a.,,,kg,,1
-"Particulate matter, ≤ PM2.5",n.a.,,,kg,,1
-Phosphorus compounds,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96404,1
-Nicotine and salts,n.a.,-,,kg,,1
-Chlorinated phenols,1336-35-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82789,1
-"2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-,  (1aR,2R,2aR,3R,6S,6aS,7S,7aS)-rel-, and metabolites",n.a.,,,kg,,1
+Particulate matter - PM10,n.a.,,,kg,,1
+Particulate matter - PM2.5,n.a.,,,kg,,1
+Phosphorus compounds,n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96404,0
+Nicotine and salts,n.a.,-,,kg,,0
+Chlorinated phenols,1336-35-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82789,0
+"2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-,  (1aR,2R,2aR,3R,6S,6aS,7S,7aS)-rel-, and metabolites",n.a.,,,kg,,0
 C5 alkenes,68527-11-7,,"Alkenes,C5",kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID9028700,1
 C6 alkenes,68526-52-3,,"Alkenes,C6",kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID4028676,1
-"Particulate matter, > PM2.5 and < PM10",n.a.,,,kg,,1
-Furans,n.a.,,,kg,,1
+Particulate matter - PM > 2.5 and < 10,n.a.,,,kg,,1
+Furans,n.a.,,,kg,,0
 Volatile organic compounds,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=761346,1
