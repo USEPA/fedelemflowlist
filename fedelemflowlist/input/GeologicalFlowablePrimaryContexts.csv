@@ -474,3 +474,9 @@ Zinc sulfide,Resource,Ground
 Zincite,Resource,Ground
 Zircon,Resource,Ground
 Zirconium ore,Resource,Ground
+Mica,Emission,Ground
+Mica,Emission,Water
+Amphiboles,Emission,Ground
+Amphiboles,Emission,Water
+Asbestos,Emission,Air
+Asbestos,Emission,Water
