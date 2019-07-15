@@ -4,6 +4,7 @@ Tests the stored flow list to provide quality assurance
 import unittest
 import pandas as pd
 import fedelemflowlist
+from fedelemflowlist.globals import log
 
 """
 Hard-coded df of flows for testing UUID stability
@@ -83,6 +84,16 @@ class TestFlowList(unittest.TestCase):
         nas_in_required = flowlist_w_required.dropna()
         self.assertEqual(len(flowlist_w_required), len(nas_in_required))
 
+    def test_for_duplicate_uuids(self):
+        """Checks for duplicate uuids in list
+        """
+        fl_g = self.flowlist.groupby(['Flowable', 'Context', 'Unit'])['Flow UUID'].count().reset_index()
+        duplicate_uuids = fl_g[fl_g['Flow UUID'] > 1]
+        len_duplicate_uuids = len(duplicate_uuids)
+        if len_duplicate_uuids>0:
+            log.error('Duplicate UUIDs for \n')
+            print(duplicate_uuids)
+        self.assertEqual(len_duplicate_uuids,0)
 
 if __name__ == '__main__':
     unittest.main()
