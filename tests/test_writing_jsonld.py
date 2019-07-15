@@ -10,7 +10,7 @@ import os
 class TestWritingJSONLD(unittest.TestCase):
 
     def test_writing_flows(self):
-        """Test that first 100 preferred flows are written to 100 files in JSON_LD archive
+        """Test that first 100 flows are written to 100 files in JSON_LD archive
         """
         flowlist = fedelemflowlist.get_flows(preferred_only=False)
         #Test first 100
