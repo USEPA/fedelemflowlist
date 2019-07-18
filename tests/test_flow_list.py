@@ -4,7 +4,7 @@ Tests the stored flow list to provide quality assurance
 import unittest
 import pandas as pd
 import fedelemflowlist
-from fedelemflowlist.globals import log
+from fedelemflowlist.globals import log,flow_list_specs
 
 """
 Hard-coded df of flows for testing UUID stability
@@ -94,6 +94,11 @@ class TestFlowList(unittest.TestCase):
             log.error('Duplicate UUIDs for \n')
             print(duplicate_uuids)
         self.assertEqual(len_duplicate_uuids,0)
+
+    def test_preferred_flows_exist_for_all_classes(self):
+        flowclasses_in_list = set(pd.unique(self.flowlist['Class']))
+        flowclasses_in_specs = set(flow_list_specs['flow_classes'])
+        self.assertEqual(flowclasses_in_list,flowclasses_in_specs)
 
 if __name__ == '__main__':
     unittest.main()
