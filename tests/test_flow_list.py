@@ -96,9 +96,11 @@ class TestFlowList(unittest.TestCase):
         self.assertEqual(len_duplicate_uuids,0)
 
     def test_preferred_flows_exist_for_all_classes(self):
+        """Checks for each flow class in specs, preferred flows exist in list
+        """
         flowclasses_in_list = set(pd.unique(self.flowlist['Class']))
         flowclasses_in_specs = set(flow_list_specs['flow_classes'])
-        self.assertEqual(flowclasses_in_list,flowclasses_in_specs)
+        self.assertEqual(flowclasses_in_list, flowclasses_in_specs)
 
 if __name__ == '__main__':
     unittest.main()
