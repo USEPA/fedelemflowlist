@@ -14,8 +14,7 @@ if __name__ == '__main__':
     mapping_w_flowinfo = pd.merge(mapping,all_flows,left_on=['TargetFlowName','TargetFlowContext','TargetUnit'],right_on=['Flowable','Context','Unit'])
     mapping_w_flowinfo = mapping_w_flowinfo.drop(columns=['Flow UUID','Flowable','Context','Unit'])
 
-    flowmapping_order = flowmapping_fields
+    flowmapping_order = list(flowmapping_fields.keys())
     mapping_w_flowinfo = mapping_w_flowinfo[flowmapping_order]
-
 
     mapping_w_flowinfo.to_csv(flowmappingpath+source+'.csv',index=False)
