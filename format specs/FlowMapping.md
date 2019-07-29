@@ -9,7 +9,8 @@ SourceFlowName	| string | Y | Name of the source flow |
 SourceFlowUUID	| string | N | If no UUID present, UUID generated based on olca algorithm|
 SourceFlowContext | string | Y | Compartments separated by '/', like 'emission/air'|
 SourceUnit | string | Y | A unit abbreviation, like 'kg', using units from openLCA as a reference |
-MatchCondition | string | N |Single character. '=', '>','<','~'. Meaning 'equal to','a superset of', 'a subset of', ' a proxy for'|
+MatchCondition | string | N |Single character. '=', '>','<','~'. Meaning 'equal to','a superset of', 'a subset of', 
+' a proxy for'. Assumes '=' if not present|
 ConversionFactor | double | N |	Value for multiplying with source flow to equal target flow. Assumes 1 if not present |
 TargetFlowName | string | Y | Name of the Fed Commons flowable |
 TargetFlowUUID	| string| Y| UUID for Fed Commons flow |
