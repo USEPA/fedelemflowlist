@@ -520,11 +520,11 @@ NEI,Polycyclic aromatic hydrocarbons -- 15-PAH,,air,kg,=,1,"Polycyclic aromatic 
 NEI,Polycyclic aromatic hydrocarbons -- 16-PAH,,air,kg,=,1,"Polycyclic aromatic hydrocarbons, PAH16",deb2ff38-b7b0-3f20-bd9f-894578ca92aa,emission/air,kg,Hottle,,07/20/2018
 NEI,Polycyclic aromatic hydrocarbons -- 7-PAH,,air,kg,=,1,"Polycyclic aromatic hydrocarbons, PAH7",c67d66f0-e646-3ca0-a7b3-4eabfba1f4de,emission/air,kg,Hottle,,07/20/2018
 NEI,Polycyclic organic matter,,air,kg,=,1,Polycyclic organic matter,c19325cf-8ba0-34b3-b560-7e2db346d382,emission/air,kg,Hottle,,07/20/2018
-NEI,Volatile Organic Compounds,,air,kg,=,1,VOC ingredients,7d4c8a16-dc73-3c75-a9dc-42d86a4392f0,emission/air,kg,Hottle,,07/20/2018
+NEI,Volatile Organic Compounds,,air,kg,=,1,Volatile organic compounds,7d4c8a16-dc73-3c75-a9dc-42d86a4392f0,emission/air,kg,Hottle,,07/20/2018
 NEI,"2,4-D, salts and esters",,air,kg,=,1,"2,4-D, salts and esters",cdc87f15-940d-383e-930e-871fc3e6d0c7,emission/air,kg,Hottle,,07/20/2018
 NEI,Radionuclides (including radon),,air,kg,=,1,Radionuclides,e493f203-9fbb-3028-8571-b045bb83d0c0,emission/air,kg,Hottle,,07/20/2018
-NEI,PM10-Primary from certain diesel engines,,air,kg,<,1,Particulate matter - PM10,bfde6c96-c85a-3920-a990-e4e68b3c1d8d,emission/air,kg,Hottle,,07/20/2018
-NEI,PM10 Primary (Filt + Cond),,air,kg,=,1,Particulate matter - PM10,bfde6c96-c85a-3920-a990-e4e68b3c1d8d,emission/air,kg,Ingwersen,,07/20/2018
-NEI,PM25-Primary from certain diesel engines,,air,kg,<,1,Particulate matter - PM2.5,231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Hottle,,07/20/2018
-NEI,PM2.5 Primary (Filt + Cond),,air,kg,=,1,Particulate matter - PM2.5,231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Ingwersen,,07/20/2018
+NEI,PM10-Primary from certain diesel engines,,air,kg,<,1,"Particulate matter, ≤ 10μm",bfde6c96-c85a-3920-a990-e4e68b3c1d8d,emission/air,kg,Hottle,,07/20/2018
+NEI,PM10 Primary (Filt + Cond),,air,kg,=,1,"Particulate matter, ≤ 10μm",bfde6c96-c85a-3920-a990-e4e68b3c1d8d,emission/air,kg,Ingwersen,,07/20/2018
+NEI,PM25-Primary from certain diesel engines,,air,kg,<,1,"Particulate matter, ≤ 2.5μm",231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Hottle,,07/20/2018
+NEI,PM2.5 Primary (Filt + Cond),,air,kg,=,1,"Particulate matter, ≤ 2.5μm",231b0f47-fcd5-3b11-916c-42470a5199ae,emission/air,kg,Ingwersen,,07/20/2018
 NEI,Asbestos,,air,kg,=,1,Asbestos,5c8e293a-4009-30d8-a003-43add9e779f7,emission/air,kg,Hottle,,07/20/2018
