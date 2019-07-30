@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='fedelemflowlist',
-    version='0.3',
+    version='1.0',
     packages=['fedelemflowlist'],
     package_dir={'fedelemflowlist': 'fedelemflowlist'},
     package_data={'fedelemflowlist': [
@@ -14,7 +14,7 @@ setup(
     author='Wesley Ingwersen',
     author_email='ingwersen.wesley@epa.gov',
     classifiers=[
-        "Development Status :: Alpha",
+        "Development Status :: 4 - BETA",
         "Environment :: IDE",
         "Intended Audience :: Science/Research",
         "License :: CC0",
