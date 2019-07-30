@@ -10,16 +10,17 @@ from fedelemflowlist.globals import inputpath,flowmappingpath
 
 lcia_name = 'TRACI2.1'
 
+
 if __name__ == '__main__':
     ## Bring in TRACI flowables and contexts from the lcia_formatter
     import lciafmt
-    lcai_lciafmt = lciafmt.get_traci()
+    lcia_lciafmt = lciafmt.get_method('Traci 2.1')
     # Keep only flowable and category
-    lcai_lciafmt = lcai_lciafmt[['Flow', 'Flow category']]
-    lcai_lciafmt = lcai_lciafmt.drop_duplicates()
-    len(lcai_lciafmt)
+    lcia_lciafmt = lcia_lciafmt[['Flow', 'Flow category']]
+    lcia_lciafmt = lcia_lciafmt.drop_duplicates()
+    len(lcia_lciafmt)
 
-    traci_lciafmt_contexts = pd.Series(pd.unique(lcai_lciafmt['Flow category']))
+    traci_lciafmt_contexts = pd.Series(pd.unique(lcia_lciafmt['Flow category']))
     #export and map these to Fed Commons flow list contexts
     #traci_lciafmt_contexts.to_csv('work/TRACI_lciafmt_contexts.csv',index=False)
 
@@ -29,7 +30,7 @@ if __name__ == '__main__':
         return mappings
 
     context_mappings = get_manual_mappings(lcia_name,type='Context')
-    lciafmt_w_context_mappings = pd.merge(lcai_lciafmt,context_mappings,left_on='Flow category',right_on='SourceFlowContext')
+    lciafmt_w_context_mappings = pd.merge(lcia_lciafmt, context_mappings, left_on='Flow category', right_on='SourceFlowContext')
     #Drop duplicate field
     lciafmt_w_context_mappings = lciafmt_w_context_mappings.drop(columns=['Flow category'])
     len(lciafmt_w_context_mappings)
