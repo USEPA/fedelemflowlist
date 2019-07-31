@@ -6,13 +6,13 @@
  Standard formats for a [Flow List](./format%20specs/FlowList.md)
  and a [Flow Mapping](./format%20specs/FlowMapping.md) are defined and used. 
  
- The version of the package (see [Releases](./releases/)) corresponds to the version of the flow list that it provides.
+ The version of the package (see [Releases](releases/)) corresponds to the version of the flow list that it provides.
  
  The background and methodology behind creation of the flow list, as well as a summary of the flow list itself can be
   found in the USEPA Report
   ['The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Usage'](https://cfpub.epa.gov/si/si_public_search_results.cfm?simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019)
  
-See the [Wiki](./wiki/) for installation and use instructions.
+See the [Wiki](wiki/) for installation and use instructions.
 
 ## Disclaimer
 The United States Environmental Protection Agency (EPA) GitHub project code is provided on an "as is" basis
