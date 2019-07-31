@@ -1,6 +1,5 @@
 SourceFlowContext,TargetFlowContext
 air,emission/air
-air,emission/air/troposphere
 air,emission/air/troposphere/low
 air,emission/air/troposphere/high
 air,emission/air/troposphere/very high

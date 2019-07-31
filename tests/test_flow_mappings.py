@@ -39,9 +39,10 @@ class TestFlowMappings(unittest.TestCase):
                                                     'TargetFlowContext', 'TargetUnit']]
         flowmapping_targetinfo.columns = ['Flowable', 'Flow UUID', 'Context', 'Unit']
         flowmappings_w_flowlist = pd.merge(flowmapping_targetinfo,self.flowlist)
+        # To identify flowmapping flows not in list
+        missing_flows = flowmapping_targetinfo[~flowmapping_targetinfo['Flow UUID'].isin(flowmappings_w_flowlist['Flow UUID'])]
         self.assertEqual(len(flowmapping_targetinfo), len(flowmappings_w_flowlist))
-        #To identify flowmapping flows not in list
-        #missing_flows = flowmapping_targetinfo[~flowmapping_targetinfo['Flow UUID'].isin(flowmappings_w_flowlist['Flow UUID'])]
+
 
 if __name__ == '__main__':
     unittest.main()
