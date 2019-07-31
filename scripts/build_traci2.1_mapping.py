@@ -36,8 +36,7 @@ if __name__ == '__main__':
     len(lciafmt_w_context_mappings)
 
     # Add in flowable matches. Assume these are in inputfolder with lcia_name+standardname.csv
-    flowable_mappings = pd.read_excel(inputpath+lcia_name+'FlowableMappings.xlsx')
-    flowable_mappings = flowable_mappings[flowable_mappings['SourceFlowName'].notnull()]
+    flowable_mappings = pd.read_csv(inputpath + lcia_name + 'FlowableMappings.csv')
     len(flowable_mappings)
     lciafmt_w_context_flowable_mappings = pd.merge(lciafmt_w_context_mappings,flowable_mappings,left_on='Flow',right_on='SourceFlowName')
     # Drop duplicate field
