@@ -10,6 +10,7 @@ import olca.units as units
 import olca.pack as pack
 
 from fedelemflowlist.uuid_generators import make_uuid
+from fedelemflowlist.globals import flow_list_specs
 from typing import Optional
 
 
@@ -179,8 +180,7 @@ class Writer(object):
 
     def _write_flows(self, pw: pack.Writer):
         for _, row in self.flow_list.iterrows():
-            # TODO: define a version field somewhere in the package?
-            description = "From FedElemFlowList_0.3."
+            description = "From FedElemFlowList_"+flow_list_specs['list_version']+'.'
             flow_class = row.get("Class")
             if flow_class is not None:
                 description += " Flow Class: %s." % flow_class
@@ -197,7 +197,7 @@ class Writer(object):
             flow.name = row["Flowable"]
             flow.cas = row.get("CAS No", None)
             flow.formula = row.get("Formula", None)
-            flow.version = "0.3"  # TODO: see above
+            flow.version = flow_list_specs['list_version']
             flow.last_change = datetime.datetime.now().isoformat()
             flow.flow_type = olca.FlowType.ELEMENTARY_FLOW
 
