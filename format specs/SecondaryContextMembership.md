@@ -4,7 +4,7 @@ The secondary context membership input file is in the form of CSV data with the 
 
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
- FlowCLass | string | Y | the flow name |
+ FlowClass | string | Y | the flow name |
  Directionality | string | Y | defines whether flow is emission or resource |
  Environmental Media | string | Y | environmental compartment emission or resource flows to or from, respectively |
  Vertical Strata | int | Y | defines atmospheric or subterranean strata |
