@@ -1,4 +1,4 @@
-## Flowable Primary Context Input File format
+## Flowable Primary Context Input File Format
 
 Flowable primary context input files are the form of CSV data with the following fields.
 
