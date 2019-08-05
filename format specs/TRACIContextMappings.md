@@ -1,4 +1,4 @@
-## TRACI 2.1 Context Mapping Input File format
+## TRACI 2.1 Context Mapping Input File Format
 
 The TRACI 2.1 context mapping input file is in the form of CSV data with the following fields.
 
