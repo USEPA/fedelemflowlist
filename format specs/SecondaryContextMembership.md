@@ -1,18 +1,21 @@
 ## Secondary Context Membership Input File Format
 
-The secondary context membership input file is in the form of CSV data with the following fields. Binary entries indicate possible compartment combinations resulting in unique contexts.
-
+The secondary context membership input file is in the form of CSV data with the following fields. 
+ 
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
- FlowClass | string | Y | the flow name |
- Directionality | string | Y | defines whether flow is emission or resource |
- Environmental Media | string | Y | environmental compartment emission or resource flows to or from, respectively |
- Vertical Strata | int | Y | defines atmospheric or subterranean strata |
- Land Use | int | Y | primary use based on human activity or naturally occurring community of flora and fauna in a habitat |
- Human-Dominated | int | Y  | primary use categories based on ecologically-dominant human activity |
- Terrestrial | int | Y | primary use based on human activity or naturally occurring community of flora and fauna in a habitat |
- Aquatic Feature | int | Y | describing different formations of water bodies |
- Indoor | int |  Y |  defines if release occurs to air inside of a building or enclosed structure |
- Population Density | int | Y | describes the population density of the area of a release. This context can describe air, water or ground emissions |  
- Release Height | int | Y | height at which an air release occurs, ground-level is default |
- ContextPreferred | int | Y | 1 for preferred, 0 for non-preferred |
+ FlowClass | string | Y | The flow class. See [FlowList](FlowList.md). |
+ Directionality | string | Y |  A primary context compartment. See [FlowablePrimaryContext](FlowablePrimaryContext.md) |
+ Environmental Media | string | Y | A primary context compartment.  See [FlowablePrimaryContext](FlowablePrimaryContext.md) |
+ Vertical Strata | int | Y | `1` for included and `0` for excluded. See note.  |
+ Land Use | int | Y | `1` for included and `0` for excluded. See note. |
+ Human-Dominated | int | Y  | `1` for included and `0` for excluded. See note. |
+ Terrestrial | int | Y | `1` for included and `0` for excluded. See note. |
+ Aquatic Feature | int | Y | `1` for included and `0` for excluded. See note. |
+ Indoor | int |  Y |  `1` for included and `0` for excluded. See note. |
+ Population Density | int | Y | `1` for included and `0` for excluded. See note. |  
+ Release Height | int | Y | `1` for included and `0` for excluded. See note. |
+ ContextPreferred | int | Y | `1` for included and `0` for excluded. See note. |
+
+Note: Indicates whether or not contexts with compartment of this class (see [Contexts](Contexts.md) for class definitions)
+ should be associated with flows from this FlowClass and primary contexts (Directionality and Environmental Media). 
