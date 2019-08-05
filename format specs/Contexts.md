@@ -4,8 +4,8 @@ The context input file is in the form of CSV data with the following fields.
 
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
- Directionality | string | Y | See [FlowablePrimaryContext](FlowablePrimaryContext.md). |
- Environmental Media | string | Y | See [FlowablePrimaryContext](FlowablePrimaryContext.md). |
+ Directionality | string | Y | See [FlowablePrimaryContexts](FlowablePrimaryContexts.md). |
+ Environmental Media | string | Y | See [FlowablePrimaryContexts](FlowablePrimaryContexts.md). |
  Vertical Strata | string | N | A secondary context component that defines atmospheric or subterranean strata, like `Troposphere` |
  Land Use | string | N | A secondary context component that indicates if the land use is human-dominated or a primary terrestrial or aquatic natural use. |
  Human-Dominated | string | N  |  A secondary context component for naming human-dominated land use type, like `Urban`. Used if Land Use is `Human-Dominated`.|

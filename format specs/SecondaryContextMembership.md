@@ -4,9 +4,9 @@ The secondary context membership input file is in the form of CSV data with the 
  
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
- FlowClass | string | Y | The flow class. See [FlowList](FlowList.md). |
- Directionality | string | Y |  A primary context compartment. See [FlowablePrimaryContext](FlowablePrimaryContext.md) |
- Environmental Media | string | Y | A primary context compartment.  See [FlowablePrimaryContext](FlowablePrimaryContext.md) |
+ FlowClass | string | Y | The flow class. Same as 'Class' in [FlowList](FlowList.md). |
+ Directionality | string | Y |  A primary context compartment. See definition in [FlowablePrimaryContext](FlowablePrimaryContext.md) |
+ Environmental Media | string | Y | A primary context compartment.  See definition in [FlowablePrimaryContext](FlowablePrimaryContext.md) |
  Vertical Strata | int | Y | `1` for included and `0` for excluded. See note.  |
  Land Use | int | Y | `1` for included and `0` for excluded. See note. |
  Human-Dominated | int | Y  | `1` for included and `0` for excluded. See note. |
