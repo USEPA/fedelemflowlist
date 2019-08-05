@@ -1,6 +1,6 @@
-## Flowables Input File format
+## Flowable Primary Context Input File format
 
-Flowable input files are the form of CSV data with the following fields.
+Flowable primary context input files are the form of CSV data with the following fields.
 
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
