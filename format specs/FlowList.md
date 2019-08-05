@@ -16,4 +16,3 @@ A Flow List is in the form of a pandas data frame with the following fields.
  Flow UUID | string | Y | Unique hexadecimal ID for the flow |
  AltUnit | string | N | Alternate unit for the flow |
  AltUnitConversionFactor | double | N | Conversion factor to convert from Unit to AltUnit | 
- 
