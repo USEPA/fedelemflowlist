@@ -10,4 +10,4 @@ Flowable input files are the form of CSV data with the following fields.
  Synonyms | string | N | flow synonyms |
  Unit | string | Y  | the reference unit. uses olca units |
  External Reference | string | N | description or link to reference for conversion values |
- Flowable Preferred | int | N | 1 for preferred, 0 for non-preferred |
+ Flowable Preferred | int | Y | 1 for preferred, 0 for non-preferred |
