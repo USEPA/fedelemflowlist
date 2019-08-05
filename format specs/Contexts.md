@@ -1,6 +1,6 @@
 ## Contexts Input File format
 
-Flowable input files are the form of CSV data with the following fields.
+The context input file is in the form of CSV data with the following fields.
 
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
