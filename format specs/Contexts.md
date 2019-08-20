@@ -4,13 +4,13 @@ The context input file is in the form of CSV data with the following fields.
 
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
- Directionality | string | Y | defines whether flow is emission or resource |
- Environmental Media | string | Y | environmental compartment emission or resource flows to or from, respectively |
- Vertical Strata | string | N | defines atmospheric or subterranean strata |
- Land Use | string | N | primary use based on human activity or naturally occurring community of flora and fauna in a habitat |
- Human-Dominated | string | N  | primary use categories based on ecologically-dominant human activity |
- Terrestrial | string | N | primary use based on human activity or naturally occurring community of flora and fauna in a habitat |
- Aquatic Feature | string | N | describing different formations of water bodies |
- Indoor | string |  N |  defines if release occurs to air inside of a building or enclosed structure |
- Population Density | string | N | describes the population density of the area of a release. This context can describe air, water or ground emissions |  
- Release Height | string | N | height at which an air release occurs, ground-level is default |
+ Directionality | string | Y | See [FlowablePrimaryContexts](FlowablePrimaryContexts.md). |
+ Environmental Media | string | Y | See [FlowablePrimaryContexts](FlowablePrimaryContexts.md). |
+ Vertical Strata | string | N | A secondary context component that defines atmospheric or subterranean strata, like `Troposphere` |
+ Land Use | string | N | A secondary context component that indicates if the land use is human-dominated or a primary terrestrial or aquatic natural use. |
+ Human-Dominated | string | N  |  A secondary context component for naming human-dominated land use type, like `Urban`. Used if Land Use is `Human-Dominated`.|
+ Terrestrial | string | N | A secondary context component that describes various terrestrial habitat types, like `Forest`. Used if Land Use is `Terrestrial`.|
+ Aquatic Feature | string | N | A secondary context component that describes different water body types, like `Lake`. Used if Land Use is a broader water body type like `Fresh Water Body`. |
+ Indoor | string |  N |  A secondary context component that indicates `Indoor` for releases that occur to air inside of a building or enclosed structure. |
+ Population Density | string | N | A secondary context component that describes the population density of the area of an emission or resource, like `Urban`.|  
+ Release Height | string | N | A secondary context component that describes the height at which an air release occurs, like `Ground-level` or `Low` |
