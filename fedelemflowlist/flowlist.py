@@ -101,23 +101,23 @@ if __name__ == '__main__':
                                                               'ContextPreferred':row['ContextPreferred']}, ignore_index=True)
 
     # Cycle through these class context patterns and get context_paths
-
-    #! This code segment is slow - could be improved
     log.info('Getting relevant contexts for each class ...')
     field_to_keep = ['Class', 'Directionality', 'Environmental Media','ContextPreferred']
-    class_contexts = pd.DataFrame()
+    class_contexts_list = []
     for index, row in context_patterns_used.iterrows():
         class_context_patterns_row = row[field_to_keep]
         # Get the contexts specific to this class by matching the Pattern and Primary_Context_Path
         contexts_df = all_contexts[(all_contexts['Pattern'] == row['Pattern']) & (
             all_contexts['Context'].str.contains(row['Primary_Context_Path']))]
-        for f in field_to_keep:
-            contexts_df.loc[:,f] = row[f]
-        contexts_df = contexts_df.drop(columns='Pattern')
-        class_contexts = pd.concat([class_contexts, contexts_df], ignore_index=True, sort=False)
-
-    # Need to check that the primary context names match the name in the context paths, and that the pattern matches the
-    # patterns in context_patterns
+        c_group = []
+        for i in contexts_df['Context']:
+            c = {}
+            c['Context'] = i
+            for f in field_to_keep:
+                c[f] = row[f]
+            c_group.append(c)
+        class_contexts_list.extend(c_group)
+    class_contexts = pd.DataFrame(class_contexts_list)
 
     # Merge this table now with the flowables and primary contexts with the full contexts per class, creating flows for each compartment relevant for that flow type, using major
     flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])

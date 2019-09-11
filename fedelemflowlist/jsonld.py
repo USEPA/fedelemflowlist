@@ -1,16 +1,19 @@
+"""Writes flow list and mapping files to a JSON-LD zip archive using olca library
+"""
 import datetime
 import logging as log
 import math
 import os
 import uuid
+from typing import Optional
 
-import pandas as pd
 import olca
 import olca.units as units
 import olca.pack as pack
+import pandas as pd
 
 from fedelemflowlist.uuid_generators import make_uuid
-from typing import Optional
+from fedelemflowlist.globals import flow_list_specs
 
 
 def _isnil(val) -> bool:
@@ -60,6 +63,10 @@ class _MapFlow(object):
         self.unit = None  # type: Optional[str]
 
     def to_json(self) -> dict:
+        """
+        Creates a dictionary for an olca json file
+        :return: dictionary
+        """
         flow_ref = olca.FlowRef()
         flow_ref.name = self.name
         if self.category is not None:
@@ -68,7 +75,7 @@ class _MapFlow(object):
         # set the UUID or generate it from the attributes
         if self.uid is None:
             flow_ref.id = make_uuid("Flow",
-                               self.category, self.name)
+                                    self.category, self.name)
         else:
             flow_ref.id = self.uid
 
@@ -116,6 +123,10 @@ class _MapEntry(object):
             self.factor = 1.0
 
     def to_json(self) -> dict:
+        """
+        Create an olca json mapping dictionary
+        :return: dictionary
+        """
         return {
             'from': self.source_flow.to_json(),
             'to': self.target_flow.to_json(),
@@ -124,7 +135,8 @@ class _MapEntry(object):
 
 
 class Writer(object):
-
+    """Class for writing flows and mappings to json
+    """
     def __init__(self, flow_list: pd.DataFrame,
                  flow_mapping: pd.DataFrame = None):
         self.flow_list = flow_list
@@ -132,6 +144,11 @@ class Writer(object):
         self._context_uids = {}
 
     def write_to(self, path: str):
+        """
+        Writes json dictionaries to files
+        :param path: string path to file
+        :return: None
+        """
         if os.path.exists(path):
             log.warning("File %s already exists and will be overwritten", path)
             os.remove(path)
@@ -179,8 +196,7 @@ class Writer(object):
 
     def _write_flows(self, pw: pack.Writer):
         for _, row in self.flow_list.iterrows():
-            # TODO: define a version field somewhere in the package?
-            description = "From FedElemFlowList_0.3."
+            description = "From FedElemFlowList_"+flow_list_specs['list_version']+'.'
             flow_class = row.get("Class")
             if flow_class is not None:
                 description += " Flow Class: %s." % flow_class
@@ -197,7 +213,7 @@ class Writer(object):
             flow.name = row["Flowable"]
             flow.cas = row.get("CAS No", None)
             flow.formula = row.get("Formula", None)
-            flow.version = "0.3"  # TODO: see above
+            flow.version = flow_list_specs['list_version']
             flow.last_change = datetime.datetime.now().isoformat()
             flow.flow_type = olca.FlowType.ELEMENTARY_FLOW
 
