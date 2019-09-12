@@ -303,7 +303,7 @@ Pyrope,,Mg3Al2(SiO4)3,,kg,https://www.mindat.org/min-3321.html,1
 Quartzite,,,,kg,https://www.mindat.org/min-51087.html,1
 "Quartz, sand",,Mg3Al2(SiO4)3,,kg,https://www.mindat.org/min-3321.html,1
 Quartz,14808-60-7,SiO2,,kg,https://www.mindat.org/min-3337.html,1
-Radium,7440-14-4,RaX,,kg,https://www.mindat.org/element/radium,0
+Radium ore,7440-14-4,RaX,,kg,https://www.mindat.org/element/radium,0
 Radon,10043-92-2,RnX,,kg,https://www.mindat.org/element/radon,1
 Ramanite (Rb),,Rb[B5O6(OH)4] · 2H2O,,kg,https://www.mindat.org/min-31662.html,1
 Ramdohrite,,Pb5.9Fe0.1Mn0.1In0.1Cd0.2Ag2.8Sb10.8S24,,kg,https://www.mindat.org/min-3355.html,1
@@ -323,7 +323,6 @@ Rubicline,,Rb(AlSi3O8),,kg,https://www.mindat.org/min-7276.html,1
 Rubidiuan Muscovite,,"(K,Rb)Al2(AlSi3O10)(OH)2",,kg,https://www.mindat.org/min-40216.html,1
 Rubidium ore,,RbX,,kg,https://www.mindat.org/element/Rubidium,0
 Rutheniridosmine,,"(Ir,Os,Ru)",,kg,https://www.mindat.org/min-3482.html,1
-Ruthenium,7440-18-8,Ru,,kg,https://www.mindat.org/min-3483.html,1
 Ruthenium ore,,RuX,,kg,https://www.mindat.org/element/Ruthenium,0
 Rutile,13463-67-7,TiO2,,kg,https://www.mindat.org/min-3486.html,1
 Rutile group,,M4+O2,,kg,https://www.mindat.org/min-29330.html,0
@@ -437,11 +436,8 @@ Iron oxide,,FeO,,kg,https://www.mindat.org/min-51386.html,0
 Iron sulfide,,FeS,,kg,,0
 Magnesium chloride,,MgCl,,kg,,0
 Sodium carbonate,,Na2CO3-,,kg,,0
-Calcium carbonate,,CaSO4,,kg,,0
 Calcium fluoride,,CaF,,kg,,0
-Calcium chloride,,CaCl2,,kg,,0
 Calcium sulfate,,CaS,,kg,,0
-Calcium ore,,CaX,,kg,,0
 Caliche,,,,kg,https://www.mindat.org/min-30686.html,1
 Iron chloride,,FeCl,,kg,,0
 Sodium nitrate,,NaNO3,,kg,,0
@@ -459,16 +455,7 @@ Shale gas,,,,MJ,,1
 Tight gas,,,,MJ,,1
 Oil shale,,,,MJ,,1
 Coal,,,,MJ,,0
-Copper (I) sufide,,,,kg,,1
-Feldspar group,,,,kg,,0
-Fluorine,,,,kg,,1
-Barite,,,,kg,,1
-Boron ore,,,,kg,,0
-Caesium ore,,,,kg,,0
-Aluminum ore,,,,kg,,0
 Silicates,,,,kg,,0
-Sodium chloride,,,,kg,,1
-Bromine,,,,kg,,1
 Guange,,,,kg,,1
 Phosphorite,,,,kg,,1
 Peat,,,,MJ,,1
