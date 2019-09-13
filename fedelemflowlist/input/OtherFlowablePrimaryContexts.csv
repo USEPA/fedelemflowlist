@@ -1,11 +1,6 @@
 Flowable,Directionality,Environmental Media
 Biological Oxygen Demand,Emission,Water
-"Carbon, organic bound",Emission,Water
-"Carbon, organic bound",Emission,Ground
-"Carbon, organic bound",Emission,Air
 Chemical Oxygen Demand,Emission,Water
 Dissolved Organic Carbon,Emission,Water
-"Nitrogen, organic bound",Emission,Air
-"Nitrogen, organic bound",Emission,Water
 Total Organic Carbon,Emission,Ground
 Total Organic Carbon,Emission,Water
