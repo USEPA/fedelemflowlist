@@ -14,7 +14,7 @@ setup(
     author='Wesley Ingwersen',
     author_email='ingwersen.wesley@epa.gov',
     classifiers=[
-        "Development Status :: 4 - BETA",
+        "Development Status :: 5 - Production/Stable",
         "Environment :: IDE",
         "Intended Audience :: Science/Research",
         "License :: CC0",
