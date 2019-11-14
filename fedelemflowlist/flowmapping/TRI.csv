@@ -174,6 +174,8 @@ TRI,ETHYLIDENE DICHLORIDE,,air,kg,=,1,"1,1-Dichloroethane",ad60660d-a560-3357-b6
 TRI,POLYCHLORINATED BIPHENYLS,,air,kg,=,1,Polychlorinated biphenyls,18819e98-6dd1-3a8f-a27a-67ca826f3381,emission/air,kg,Hottle,,07/20/2018
 TRI,SELENIUM COMPOUNDS,,air,kg,=,1,Selenium compounds,d240a362-1f01-3b10-a506-6f544c61df57,emission/air,kg,Hottle,,07/20/2018
 TRI,DIOXIN AND DIOXIN-LIKE COMPOUNDS,,air,kg,>,1,Dioxins,ac0fa9f8-2455-3106-841c-ed7be967c566,emission/air,kg,Hottle,,07/20/2018
+TRI,DIOXIN AND DIOXIN-LIKE COMPOUNDS,,water,kg,>,1,Dioxins,efeb7418-2009-33e3-9c12-822a0eb4f2e4,emission/water,kg,Ingwersen,,10/23/2019
+TRI,DIOXIN AND DIOXIN-LIKE COMPOUNDS,,soil,kg,>,1,Dioxins,f48bfb4d-b114-301c-bba7-05fa2f7ff246,emission/ground,kg,Ingwersen,,10/23/2019
 TRI,PHOSPHORUS (YELLOW OR WHITE),,water,kg,=,1,Phosphorus,1733622b-b54a-3202-8e58-4670a96ef6b3,emission/water,kg,Hottle,,07/20/2018
 TRI,AMMONIA,,water,kg,=,1,Ammonia,2d117fdd-370d-331c-b07c-b0172c4a10ef,emission/water,kg,Hottle,,07/20/2018
 TRI,NITRIC ACID,,air,kg,=,1,Nitric acid,53ba40b0-e966-32ba-9a31-d50049e5f77a,emission/air,kg,Hottle,,07/20/2018
