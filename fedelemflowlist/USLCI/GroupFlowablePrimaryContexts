@@ -1,0 +1,30 @@
+Flowable,Directionality,Environmental Media
+Radionuclides,Emission,Air
+Radionuclides,Emission,Water
+Fatty acids,Emission,Ground
+Fatty acids,Emission,Water
+Terpenes,Emission,Air
+Organochlorine pesticides,Emission,Air
+Organochlorine pesticides,Emission,Ground
+Organochlorine pesticides,Emission,Water
+"Solvents, chlorinated",Emission,Air
+"Solvents, chlorinated",Emission,Ground
+"Solvents, chlorinated",Emission,Water
+Carboxylic acids,Emission,Ground
+Carboxylic acids,Emission,Water
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Air
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Ground
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Water
+"Benzene, methyl benzene, and dimethyl benzene, total",Emission,Air
+Aromatics,Emission,Air
+Aromatics,Emission,Ground
+Aromatics,Emission,Water
+Aromatic hydrocarbons,Emission,Air
+Chlorofluorocarbons,Emission,Air
+Chlorofluorocarbons,Emission,Ground
+Chlorofluorocarbons,Emission,Water
+Tributyltin Compounds,Emission,Ground
+Tributyltin Compounds,Emission,Water
+Toluenediamine,Emission,Air
+Toluenediamine,Emission,Ground
+Toluenediamine,Emission,Water
