@@ -1,14 +1,15 @@
 Flowable,CAS No,Formula,Synonyms,Unit,External Reference,Flowable Preferred
-Radionuclides,,,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Fatty acids,67254-79-9,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=15527,1
-Terpenes,129874-8-4,,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40903960,1
-Organochlorine pesticides,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-"Solvents, chlorinated",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Carboxylic acids,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-"Benzene, methyl benzene, and dimethyl benzene, total",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Aromatics,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Aromatic hydrocarbons,63231-51-6,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81718,1
-Chlorofluorocarbons,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Tributyltin Compounds,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Toluenediamine,25376-45-8,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56189,1
+Radionuclides,,,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+Fatty acids,67254-79-9,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=15527,0
+Terpenes,129874-8-4,,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40903960,0
+Organochlorine pesticides,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+"Solvents, chlorinated",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+Carboxylic acids,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+"Benzene, methyl benzene, and dimethyl benzene, total",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+Aromatics,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+Aromatic hydrocarbons,63231-51-6,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81718,0
+Chlorofluorocarbons,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+Tributyltin Compounds,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0
+Toluenediamine,25376-45-8,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56189,0
+Particulates,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=79627,0
