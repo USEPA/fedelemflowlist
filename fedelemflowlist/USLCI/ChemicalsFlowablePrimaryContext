@@ -1,0 +1,382 @@
+Flowable,Directionality,Environmental Media
+L-Glutamic acid,Emission,air
+L-Glutamic acid,Emission,ground
+L-Glutamic acid,Emission,water
+2-Aminopropanol,Emission,air
+2-Aminopropanol,Emission,water
+o-Nitrobenzoic acid,Emission,air
+"2-Butanol, 3-methyl-",Emission,air
+4-Aminobutanoic acid,Emission,air
+4-Aminobutanoic acid,Emission,ground
+4-Aminobutanoic acid,Emission,water
+Acequincyl,Emission,ground
+Acrinathrin,Emission,ground
+Air,Emission,air
+Aluminum nitrate,Emission,water
+Ammonium chloride,Emission,air
+Ammonium chloride,Emission,ground
+Ammonium chloride,Emission,water
+Ammonium thiocyanate,Emission,ground
+Ammonium carbonate,Emission,air
+Ammonium carbonate,Emission,ground
+Ammonium carbonate,Emission,water
+Ammonium nitrate,Emission,air
+Ammonium nitrate,Emission,ground
+Ammonium nitrate,Emission,water
+Anthranilic acid,Emission,air
+Anthranilic acid,Emission,ground
+Anthranilic acid,Emission,water
+Boron carbide (B4C),Emission,air
+Boron carbide (B4C),Emission,water
+Butoxypolypropylene glycol,Emission,ground
+Carbon black,Emission,air
+Chlorate,Emission,water
+Chlorfenapyr,Emission,ground
+Chloroacetyl chloride,Emission,water
+Chromate,Emission,air
+Chromate,Emission,water
+Clopyralid-olamine,Emission,ground
+Copper oxychloride (Cu2Cl(OH)3),Emission,air
+Copper oxychloride (Cu2Cl(OH)3),Emission,ground
+Copper oxychloride (Cu2Cl(OH)3),Emission,water
+Copper oxychloride sulfate,Emission,air
+Copper oxychloride sulfate,Emission,ground
+Copper oxychloride sulfate,Emission,water
+Cyanoacetic acid,Emission,air
+Diborane,Emission,air
+Diborane,Emission,water
+Dicamba-potassium,Emission,air
+Dicamba-potassium,Emission,ground
+Dicamba-potassium,Emission,water
+(R)-Dichlorprop,Emission,air
+(R)-Dichlorprop,Emission,ground
+(R)-Dichlorprop,Emission,water
+Dichromate,Emission,water
+Diclofop,Emission,ground
+Dikegulac-sodium,Emission,ground
+Dimefuron,Emission,ground
+"Phosphonic acid, disodium salt",Emission,ground
+Epoxiconazole,Emission,air
+Epoxiconazole,Emission,ground
+Epoxiconazole,Emission,water
+Etaconazole,Emission,ground
+Fenazaquin,Emission,ground
+Fenoxaprop,Emission,air
+Fenoxaprop,Emission,ground
+Fenoxaprop,Emission,water
+"Piperidine, 1-[3-[4-(1,1-dimethylethyl)phenyl]-2-methylpropyl]-",Emission,ground
+Ferric phosphate,Emission,ground
+Ferric oxide,Emission,air
+Flazasulfuron,Emission,ground
+Flufenoxuron,Emission,ground
+Fluoxastrobin,Emission,ground
+Fluosilicic acid,Emission,air
+Fluosilicic acid,Emission,water
+Fluoroglycofen-ethyl,Emission,ground
+Fluquinconazole,Emission,ground
+"3(2H)-Furanone, 5-(methylamino)-2-phenyl-4-[3-(trifluoromethyl)phenyl]-",Emission,ground
+Foramsulfuron,Emission,air
+Foramsulfuron,Emission,ground
+Foramsulfuron,Emission,water
+Formic acid(I),Emission,water
+Formetanate,Emission,ground
+Furathiocarb,Emission,ground
+Glufosinate,Emission,ground
+Haloxyfop,Emission,ground
+3-Hexanone,Emission,air
+Hexaconazole,Emission,air
+Hexaconazole,Emission,ground
+Hexaconazole,Emission,water
+Hexamethyldisilazane,Emission,air
+Hydriodic acid,Emission,air
+Hydrobromic acid,Emission,air
+"Imazaquin, sodium salt",Emission,air
+"Imazaquin, sodium salt",Emission,ground
+"Imazaquin, sodium salt",Emission,water
+Iodosulfuron-methyl-sodium,Emission,ground
+Iprovalicarb,Emission,ground
+Isocyanic acid,Emission,air
+Ivermectin,Emission,ground
+Lactic acid,Emission,air
+Lactic acid,Emission,water
+Lufenuron,Emission,ground
+Mefenpyr-diethyl,Emission,ground
+Methanesulfonic acid,Emission,air
+Trimethyl borate,Emission,air
+Trimethyl borate,Emission,water
+Metsulfuron,Emission,ground
+Naphtha,Emission,air
+Naptalam,Emission,air
+Naptalam,Emission,ground
+Naptalam,Emission,water
+N-Bromoacetamide,Emission,air
+Perchloromethyl mercaptan,Emission,air
+Phenyl isocyanate,Emission,air
+Potassium hydroxide,Emission,air
+Scandium,Emission,air
+Scandium,Emission,ground
+Scandium,Emission,water
+Quinoxyfen,Emission,ground
+"Silane, tetrachloro-",Emission,air
+"Silane, tetrafluoro-",Emission,air
+S-Kinoprene,Emission,ground
+Sodium perchlorate,Emission,air
+Sodium hydroxide,Emission,air
+Sodium hydroxide,Emission,ground
+Sodium hydroxide,Emission,water
+Sodium hypochlorite,Emission,air
+Sodium hypochlorite,Emission,water
+Sodium borohydride,Emission,air
+Spiroxamine,Emission,ground
+Streptomycin,Emission,air
+Streptomycin,Emission,ground
+Streptomycin,Emission,water
+Tebufenpyrad,Emission,ground
+Butam,Emission,ground
+Tin oxide,Emission,air
+Triazamate,Emission,ground
+"1,2,4-Benzotriazine, 7-chloro-3-(1H-imidazol-1-yl)-, 1-oxide",Emission,ground
+Triphenyltin,Emission,ground
+Trichlorosilane,Emission,air
+Trichlorosilane,Emission,water
+Triticonazole,Emission,ground
+Turpentine,Emission,air
+Vinyltoluene,Emission,air
+Zinc oxide,Emission,air
+Zinc chloride,Emission,air
+Zinc sulfate,Emission,air
+Amidosulfuron,Emission,air
+Amidosulfuron,Emission,ground
+Amidosulfuron,Emission,water
+Chlorimuron,Emission,ground
+Chromium(IV),Emission,air
+Cinidon-ethyl,Emission,ground
+Dimoxystrobin,Emission,ground
+Doramectin,Emission,ground
+Eprinomectin,Emission,ground
+Fluazifop,Emission,ground
+Flupyrsulfuron-methyl [ISO],Emission,ground
+"1-(2,4-Dichlorophenyl)-5-methyl-4,5-dihydro-1H-pyrazole-3,5-dicarboxylic acid",Emission,ground
+Metosulam,Emission,ground
+Moxidectin,Emission,ground
+"2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,air
+"2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,ground
+"2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,water
+Diphosphate,Emission,water
+Quizalofop,Emission,ground
+Quizalofop-P,Emission,ground
+Silthiofam,Emission,ground
+Sulfur monoxide,Emission,air
+Tribenuron,Emission,ground
+(Z)-9-Tricosene,Emission,ground
+Triflusulfuron,Emission,ground
+Zeta-Cypermethrin,Emission,air
+Zeta-Cypermethrin,Emission,ground
+Zeta-Cypermethrin,Emission,water
+"Carbamodithioic acid, cyano-, disodium salt, mixt. with 1,2-ethanediamine and methylcarbamodithioic acid monopotassium salt",Emission,air
+"Carbamodithioic acid, cyano-, disodium salt, mixt. with 1,2-ethanediamine and methylcarbamodithioic acid monopotassium salt",Emission,ground
+"Carbamodithioic acid, cyano-, disodium salt, mixt. with 1,2-ethanediamine and methylcarbamodithioic acid monopotassium salt",Emission,water
+"2,2,2-tris(Trifluoromethyl)ethanol",Emission,air
+"2,4-D, polypropoxybutyl ester",Emission,air
+"2,4-D, polypropoxybutyl ester",Emission,ground
+"2,4-D, polypropoxybutyl ester",Emission,water
+(E)-11-Tetradecen-1-ol acetate,Emission,ground
+Dibromodifluoromethane,Emission,air
+Sodium methyldithiocarbamate dihydrate,Emission,air
+Sodium methyldithiocarbamate dihydrate,Emission,ground
+Sodium methyldithiocarbamate dihydrate,Emission,water
+Hypochlorite,Emission,water
+1-Methylfluorene,Emission,water
+HCFC-123b,Emission,air
+Trimethylchlorosilane,Emission,air
+Trimethylchlorosilane,Emission,water
+Chlorophenol,Emission,air
+Chlorophenol,Emission,water
+Calcium hydroxide,Emission,air
+Calcium hydroxide,Emission,ground
+Calcium hydroxide,Emission,water
+Trifluoroacetic acid,Emission,air
+(Z)-8-Dodecen-1-ol acetate,Emission,air
+(Z)-8-Dodecen-1-ol acetate,Emission,ground
+(Z)-8-Dodecen-1-ol acetate,Emission,water
+"2-Pinene, (1S,5S)-(-)-",Emission,air
+Sodium hydrosulfide,Emission,air
+Sodium hydrosulfide,Emission,water
+Propylene glycol monobutyl ether,Emission,air
+"Cyclopropane, hexafluoro-",Emission,air
+Haloxyfop-P-methyl,Emission,ground
+Sevoflurane,Emission,air
+Dicamba diglycolamine salt,Emission,ground
+Copper hydroxide sulfate monohydrate,Emission,air
+Copper hydroxide sulfate monohydrate,Emission,ground
+Copper hydroxide sulfate monohydrate,Emission,water
+Tetramethylethylenediamine,Emission,air
+Aluminum hydroxide,Emission,water
+"2-Methyl-1,3-dioxolane",Emission,water
+Trisodium phosphate,Emission,air
+Americium-241,Emission,air
+Americium-241,Emission,ground
+Americium-241,Emission,water
+Antimony-125,Emission,air
+Antimony-125,Emission,ground
+Antimony-125,Emission,water
+Antimony-122,Emission,water
+Antimony-124,Emission,air
+Antimony-124,Emission,ground
+Antimony-124,Emission,water
+Argon-41,Emission,air
+Barium-140,Emission,air
+Barium-140,Emission,water
+Cadmium-109,Emission,water
+Carbon-14,Emission,air
+Carbon-14,Emission,ground
+Carbon-14,Emission,water
+Cerium-141,Emission,air
+Cerium-141,Emission,water
+Cerium-144,Emission,air
+Cerium-144,Emission,water
+Cesium-134,Emission,air
+Cesium-134,Emission,ground
+Cesium-134,Emission,water
+Cesium-136,Emission,water
+Cesium-137,Emission,air
+Cesium-137,Emission,ground
+Cesium-137,Emission,water
+Chromium-51,Emission,air
+Chromium-51,Emission,water
+Cobalt-60,Emission,air
+Cobalt-60,Emission,ground
+Cobalt-60,Emission,water
+Cobalt-58,Emission,air
+Cobalt-58,Emission,ground
+Cobalt-58,Emission,water
+Cobalt-57,Emission,air
+Cobalt-57,Emission,water
+Curium-244,Emission,air
+Curium-242,Emission,air
+Iodine-133,Emission,air
+Iodine-133,Emission,water
+Iodine-135,Emission,air
+Iodine-135,Emission,water
+Iron-59,Emission,air
+Iron-59,Emission,water
+Krypton-85,Emission,air
+Krypton-85,Emission,water
+Krypton-87,Emission,air
+Krypton-88,Emission,air
+Krypton-85m,Emission,air
+Lanthanum-140,Emission,air
+Lanthanum-141,Emission,air
+Manganese-54,Emission,air
+Manganese-54,Emission,ground
+Molybdenum-99,Emission,water
+Neptunium-237,Emission,air
+Neptunium-237,Emission,water
+Niobium-95,Emission,air
+Niobium-95,Emission,water
+Plutonium-238,Emission,air
+Plutonium-238,Emission,water
+Plutonium-241,Emission,air
+Plutonium-241,Emission,water
+Promethium-147,Emission,air
+Promethium-147,Emission,water
+Radon-220,Emission,air
+Ruthenium-106,Emission,air
+Ruthenium-106,Emission,water
+Ruthenium-103,Emission,air
+Ruthenium-103,Emission,water
+Silver-110,Emission,air
+Silver-110,Emission,ground
+Silver-110,Emission,water
+Sodium-24,Emission,water
+Strontium-89,Emission,air
+Strontium-89,Emission,water
+Technetium-99m,Emission,water
+Tellurium-132,Emission,water
+Tellurium-123,Emission,air
+Tellurium-123,Emission,ground
+Tellurium-123,Emission,water
+Tellurium-123m,Emission,air
+Tellurium-123m,Emission,water
+Thorium-234,Emission,air
+Thorium-234,Emission,water
+Uranium-234,Emission,air
+Uranium-234,Emission,ground
+Uranium-234,Emission,water
+Xenon-133,Emission,air
+Xenon-135,Emission,air
+Xenon-138,Emission,air
+Xenon-131m,Emission,air
+Xenon-133m,Emission,air
+Xenon-135m,Emission,air
+Yttrium-90,Emission,water
+Zinc-65,Emission,air
+Zinc-65,Emission,water
+Zirconium-95,Emission,air
+Zirconium-95,Emission,ground
+Zirconium-95,Emission,water
+Xenon-137,Emission,air
+Protactinium-234,Emission,air
+Protactinium-234,Emission,water
+Praseodymium-147,Emission,air
+Krypton-89,Emission,air
+Potassium(I),Emission,water
+Nickel(III),Emission,water
+Nickel(II),Emission,air
+Nickel(II),Emission,ground
+Nickel(II),Emission,water
+Zinc(II),Emission,air
+Zinc(II),Emission,ground
+Zinc(II),Emission,water
+Sodium(I),Emission,water
+Manganese(III),Emission,water
+Calcium(II),Emission,ground
+Calcium(II),Emission,water
+Cadmium(II),Emission,air
+Cadmium(II),Emission,ground
+Cadmium(II),Emission,water
+Lead(II),Emission,air
+Lead(II),Emission,ground
+Lead(II),Emission,water
+Manganese(II),Emission,water
+"Glyphosate, ammonium salt",Emission,air
+"Glyphosate, ammonium salt",Emission,ground
+"Glyphosate, ammonium salt",Emission,water
+Iodosulfuron-methyl,Emission,ground
+Hexamethylenediamine,Emission,air
+Copper(II),Emission,water
+Vanadium(III),Emission,air
+Vanadium(III),Emission,ground
+Vanadium(III),Emission,water
+Silver(I),Emission,water
+Lithium(I),Emission,water
+Copper(I),Emission,water
+Iron(II),Emission,water
+Chromium(III),Emission,air
+Chromium(III),Emission,ground
+Chromium(III),Emission,water
+Mercury(II),Emission,ground
+Mercury(II),Emission,water
+HCFC-121,Emission,water
+HCFC-124,Emission,water
+Isoflurane,Emission,ground
+Isoflurane,Emission,water
+Chlorotoluene,Emission,air
+Silica,Emission,air
+Tritium,Emission,air
+Tritium,Emission,ground
+Iodine-131,Emission,ground
+Iodine-131,Emission,water
+Iodine-129,Emission,air
+Iodine-129,Emission,ground
+Radium-226,Emission,ground
+Radium-228,Emission,air
+Strontium-90,Emission,air
+Strontium-90,Emission,ground
+Technetium-99,Emission,air
+Technetium-99,Emission,ground
+Thorium-228,Emission,water
+Thorium-230,Emission,ground
+Uranium-235,Emission,air
+Uranium-235,Emission,ground
+Uranium,Emission,ground
