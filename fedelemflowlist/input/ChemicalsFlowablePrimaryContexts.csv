@@ -10977,8 +10977,8 @@ Ammonium nitrate,Emission,Water
 Anthranilic acid,Emission,Air
 Anthranilic acid,Emission,Ground
 Anthranilic acid,Emission,Water
-Boron carbide (B4C),Emission,Air
-Boron carbide (B4C),Emission,Water
+Boron carbide,Emission,Air
+Boron carbide,Emission,Water
 Butoxypolypropylene glycol,Emission,Ground
 Carbon black,Emission,Air
 Chlorate,Emission,Water
@@ -10987,9 +10987,9 @@ Chloroacetyl chloride,Emission,Water
 Chromate,Emission,Air
 Chromate,Emission,Water
 Clopyralid-olamine,Emission,Ground
-Copper oxychloride (Cu2Cl(OH)3),Emission,Air
-Copper oxychloride (Cu2Cl(OH)3),Emission,Ground
-Copper oxychloride (Cu2Cl(OH)3),Emission,Water
+Copper oxychloride,Emission,Air
+Copper oxychloride,Emission,Ground
+Copper oxychloride,Emission,Water
 Copper oxychloride sulfate,Emission,Air
 Copper oxychloride sulfate,Emission,Ground
 Copper oxychloride sulfate,Emission,Water
@@ -11331,4 +11331,3 @@ Thorium-230,Emission,Ground
 Uranium-235,Emission,Air
 Uranium-235,Emission,Ground
 Uranium,Emission,Ground
-Zeolites,Emission,Ground
