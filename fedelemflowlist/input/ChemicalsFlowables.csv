@@ -1178,7 +1178,7 @@ Tributyltin chloride,1461-22-9,C12H27ClSn,"Stannane, tributylchloro-",kg,https:/
 Tetrabutyltin,1461-25-2,C16H36Sn,"Stannane, tetrabutyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43175,1
 Polyoxorim-zinc,146659-78-1,C17H21N5O14Zn,".beta.-D-Allofuranuronic acid, 5-[[2-amino-5-O-(aminocarbonyl)-2-deoxy-l-xylonoyl]amino]-1-(5-carboxy-3,4-dihydro-2,4-dioxo-1(2H)-pyrimidinyl)-1,5-dideoxy-, zinc salt (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=84629,1
 Oxolinic acid,14698-29-4,C13H11NO5,"1,3-Dioxolo[4,5-g]quinoline-7-carboxylic acid, 5-ethyl-5,8-dihydro-8-oxo-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96840,1
-Silver(I),14701-21-4,Ag,"Silver ion (1+); Silver, ion (Ag1+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78783,1
+Silver(I),14701-21-4,[Ag+],"Silver ion (1+); Silver, ion (Ag1+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78783,1
 Cloransulam-methyl,147150-35-4,C15H13ClFN5O5S,"Benzoic acid, 3-chloro-2-[[(5-ethoxy-7-fluoro[1,2,4]triazolo[1,5-c]pyrimidin-2-yl)sulfonyl]amino]-, methyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80662,1
 Nitrate,14797-55-8,NO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97628,1
 Zoalene,148-01-6,C8H7N3O5,"Benzamide, 2-methyl-3,5-dinitro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81257,1
@@ -1205,7 +1205,7 @@ p-Dimethoxybenzene,150-78-7,C8H10O2,"Hydroquinone dimethyl ether; Benzene, 1,4-d
 Cryolite,15096-52-3,-,Cryolite (Na3(AlF6)),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36363,1
 Sodium lauryl sulfate,151-21-3,C12H25NaO4S,Sodium dodecyl sulfate; Sulfuric acid monododecyl ester sodium salt (1:1),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97575,1
 Aziridine,151-56-4,C2H5N,Ethyleneimine,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46377,1
-Copper(II),15158-11-9,-,"Copper, ion (Cu2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97313,1
+Copper(II),15158-11-9,[Cu++],"Copper, ion (Cu2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97313,1
 Potassium 1-naphthaleneacetate,15165-79-4,C12H9KO2,"1-Naphthaleneacetic acid, potassium salt",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36345,1
 Halothane,151-67-7,C2HBrClF3,"Ethane, 2-bromo-2-chloro-1,1,1-trifluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97567,1
 Schradan,152-16-9,C8H24N4O3P2,"Diphosphoramide, N,N,N',N',N'',N'',N''',N'''-octamethyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97557,1
@@ -1239,7 +1239,7 @@ Dodemorph,1593-77-7,C18H35NO,"Morpholine, 4-cyclododecyl-2,6-dimethyl-",kg,https
 Daminozide,1596-84-5,C6H12N2O3,"Butanedioic acid, mono(2,2-dimethylhydrazide)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41604,1
 Alachlor,15972-60-8,C14H20ClNO2,"Acetamide, 2-chloro-N-(2,6-diethylphenyl)-N-(methoxymethyl)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60955,1
 "2,3,4,5,6-Pentachlorobenzenemethanol",16022-69-8,C7H3Cl5O,"Benzenemethanol, 2,3,4,5,6-pentachloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=95094,1
-Chromium(III),16065-83-1,Cr,"Chromium (III); Chromium, ion (Cr3+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60916,1
+Chromium(III),16065-83-1,[Cr+3],"Chromium (III); Chromium, ion (Cr3+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60916,1
 C.I. Direct Brown 95,16071-86-6,C31H18CuN6Na2O9S,"Cuprate(2-), [2-hydroxy-5-[2-[4'-[2-[2-(hydroxy-.kappa.O)-6-hydroxy-3-[2-[2-(hydroxy-.kappa.O)-5-sulfophenyl]diazenyl-.kappa.N1]phenyl]diazenyl][1,1'-biphenyl]-4-yl]diazenyl]benzoato(4-)]-, sodium (1:2)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60729,1
 "1-Bromo-3-chloro-5,5-dimethyl-2,4-imidazolidinedione",16079-88-2,C5H6BrClN2O2,"1-Bromo-3-chloro-5,5-dimethylhydantoin; 2,4-Imidazolidinedione, 1-bromo-3-chloro-5,5-dimethyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=93454,1
 Prometon,1610-18-0,C10H19N5O,"1,3,5-Triazine-2,4-diamine, 6-methoxy-N2,N4-bis(1-methylethyl)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41587,1
@@ -1445,7 +1445,7 @@ Heptenophos,23560-59-0,C9H12ClO4P,"Phosphoric acid, 7-chlorobicyclo[3.2.0]hepta-
 Thiophanate-methyl,23564-05-8,C12H14N4O4S2,"Carbamic acid, [1,2-phenylenebis(iminocarbonothioyl)]bis-, dimethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92271,1
 Thiophanate ethyl,23564-06-9,C14H18N4O4S2,"Thiophanate; Carbamic acid, [1,2-phenylenebis(iminocarbonothioyl)]bis-, diethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=55992,1
 2-Ethoxyethyl methacrylate,2370-63-0,C8H14O3,"2-Propenoic acid, 2-methyl-, 2-ethoxyethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41099,1
-Zinc(II),23713-49-7,-,"Zinc, ion (Zn2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97071,1
+Zinc(II),23713-49-7,[Zn++],"Zinc, ion (Zn2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97071,1
 Potassium bis(2-hydroxyethyl)dithiocarbamate,23746-34-1,C5H10KNO2S2,"bis-2-Hydroxyethyldithiocarbamic acid, potassium salt; Carbamodithioic acid, N,N-bis(2-hydroxyethyl)-, potassium salt (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59549,1
 Mirex,2385-85-5,C10Cl12,"1,3,4-Metheno-1H-cyclobuta[cd]pentalene, 1,1a,2,2,3,3a,4,5,5,5a,5b,6-dodecachlorooctahydro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92090,1
 Sodium laurylsulfonate,2386-53-0,C12H25NaO3S,"Sodium 1-dodecanesulfonate; 1-Dodecanesulfonic acid, sodium salt (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=40924,1
@@ -3560,7 +3560,7 @@ Bromodifluoromethane,1511-62-2,CHBrF2,"Methane, bromodifluoro-",kg,https://ofmpu
 Uranium-235,15117-96-1,-,"Uranium, isotope of mass 235",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5251,1
 Potassium cyanide,151-50-8,CKN,Potassium cyanide (K(CN)),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46378,1
 Radium-228,15262-20-1,[228Ra],"Radium, isotope of mass 228",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5250,1
-Iron(II),15438-31-0,Fe,"Fe +2 ion; Iron, ion (Fe2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=62083,1
+Iron(II),15438-31-0,[Fe++],"Fe +2 ion; Iron, ion (Fe2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=62083,1
 Bromate,15541-45-4,BrO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82602,1
 "3,6,9,12-Tetraoxahexadecan-1-ol",1559-34-8,C12H26O5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41812,1
 "Ethanol, 2-[(2-ethylhexyl)oxy]-",1559-35-9,C10H22O2,2-(2-Ethylhexyloxy)ethanol,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97502,1
@@ -4414,7 +4414,6 @@ Ammonium nitrate,6484-52-2,H4N2O3,,kg,https://ofmpub.epa.gov/sor_internet/regist
 Anthranilic acid,118-92-3,C7H7NO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47074,1
 Boron carbide,12069-32-8,CB4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60429,1
 Butoxypolypropylene glycol,9003-13-8,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=37676,1
-Carbon black,1333-86-4,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=16367,1
 Chlorate,14866-68-3,ClO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82605,1
 Chlorfenapyr,122453-73-0,C15H11BrClF3N2O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83271,1
 Chloroacetyl chloride,79-04-9,C2H2Cl2O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48735,1
@@ -4543,7 +4542,6 @@ Dicamba diglycolamine salt,104040-79-1,,,kg,https://ofmpub.epa.gov/sor_internet/
 Copper hydroxide sulfate monohydrate,1332-03-2,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81228,1
 Tetramethylethylenediamine,110-18-9,C6H16N2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47703,1
 Aluminum hydroxide,21645-51-2,AlH3O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=57146,1
-"2-Methyl-1,3-dioxolane",497-26-7 , C4H8O2,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID7060095,1
 Trisodium phosphate,7601-54-9,Na3O4P,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39489,1
 Americium-241,14596-10-2,[241Am],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5129,1
 Antimony-125,14234-35-6,[125Sb],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5200,1
@@ -4557,7 +4555,6 @@ Cerium-141,13967-74-3,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substr
 Cerium-144,14762-78-8,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5097,1
 Cesium-134,13967-70-9,[134Cs],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5146,1
 Cesium-136,14234-29-8,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5119,1
-Cesium-137,10045-97-3, [137Cs],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5259,1
 Chromium-51,14392-02-0,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5091,1
 Cobalt-60,10198-40-0,[60Co],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5257,1
 Cobalt-58,13981-38-9,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5150,1
@@ -4608,7 +4605,6 @@ Krypton-89,16316-03-3,[89Kr],,kBq,https://comptox.epa.gov/dashboard/dsstoxdb/res
 Potassium(I),24203-36-9,[K+],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78684,1
 Nickel(III),22541-64-6,[Ni+3],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00177069,1
 Nickel(II),14701-22-5,[Ni++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60163564,1
-Zinc(II),23713-49-7,[Zn++],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97071,1
 Sodium(I),17341-25-2,[Na+],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78682,1
 Manganese(III),14546-48-6,[Mn+3],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID70163050,1
 Calcium(II),14127-61-8,[Ca++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID7037638,1
@@ -4617,11 +4613,6 @@ Lead(II),14280-50-3,[Pb++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/result
 Manganese(II),16397-91-4 ,[Mn++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00167687,1
 "Glyphosate, ammonium salt",114370-14-8,[NH4+].OP(O)(=O)CNCC([O-])=O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=84781,1
 Iodosulfuron-methyl,185119-76-0,COC(=O)C1=C(C=C(I)C=C1)S(=O)(=O)NC(=O)NC1=NC(OC)=NC(C)=N1,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID1043968,1
-Hexamethylenediamine,124-09-4,NCCCCCCN,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46807,1
-Copper(II),15627-09-5,[Cu++].[O-]N(N=O)C1CCCCC1.[O-]N(N=O)C1CCCCC1,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76843,1
 Vanadium(III),22541-77-1,[V+3],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID50896834,1
-Silver(I),14701-21-4,[Ag+],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78783,1
 Lithium(I),17341-24-1,[Li+],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10169612,1
 Copper(I),17493-86-6,[Cu+],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID30169912,1
-Iron(II),15438-31-0,[Fe++],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=62083,1
-Chromium(III),16065-83-1 ,[Cr+3],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60916,1
