@@ -9510,7 +9510,6 @@ Chromium(III) chloride,Emission,Air
 Phosphorus oxychloride,Emission,Air
 Antimony trichloride,Emission,Air
 Diethylene glycol ethyl methyl ether,Emission,Air
-Tritium,Emission,Ground
 Tritium,Emission,Water
 Pentadecanoic acid,Emission,Air
 3-Isothiazolone,Emission,Ground
@@ -9526,11 +9525,8 @@ Calcium chloride,Emission,Water
 Iodine-131,Emission,Air
 Radon,Emission,Ground
 Radon,Emission,Water
-Cesium-137,Emission,Ground
-Cesium-137,Emission,Water
 Chromium(II) chloride,Emission,Air
 Chromium(III) chloride hexahydrate,Emission,Air
-Strontium-90,Emission,Ground
 Strontium-90,Emission,Water
 Lead(II) Nitrate,Emission,Air
 Sodium permanganate,Emission,Air
@@ -9777,7 +9773,6 @@ Methyl cellosolve acetyl ricinoleate,Emission,Air
 Benzeneacetonitrile,Emission,Air
 Selenite,Emission,Ground
 Selenite,Emission,Water
-Technetium-99,Emission,Ground
 Technetium-99,Emission,Water
 Pentafluorobutane,Emission,Ground
 Pentafluorobutane,Emission,Water
@@ -9825,10 +9820,8 @@ Trimethoxymethane,Emission,Water
 Chromium(VI) dioxychloride,Emission,Air
 Chlorite,Emission,Ground
 Chlorite,Emission,Water
-Iodine-129,Emission,Ground
 Iodine-129,Emission,Water
 Bromodifluoromethane,Emission,Air
-Uranium-235,Emission,Ground
 Uranium-235,Emission,Water
 Potassium cyanide,Emission,Air
 Radium-228,Emission,Ground
@@ -11273,9 +11266,6 @@ Nickel(III),Emission,Water
 Nickel(II),Emission,Air
 Nickel(II),Emission,Ground
 Nickel(II),Emission,Water
-Zinc(II),Emission,Air
-Zinc(II),Emission,Ground
-Zinc(II),Emission,Water
 Sodium(I),Emission,Water
 Manganese(III),Emission,Water
 Calcium(II),Emission,Ground
@@ -11291,18 +11281,12 @@ Manganese(II),Emission,Water
 "Glyphosate, ammonium salt",Emission,Ground
 "Glyphosate, ammonium salt",Emission,Water
 Iodosulfuron-methyl,Emission,Ground
-Hexamethylenediamine,Emission,Air
-Copper(II),Emission,Water
 Vanadium(III),Emission,Air
 Vanadium(III),Emission,Ground
 Vanadium(III),Emission,Water
-Silver(I),Emission,Water
 Lithium(I),Emission,Water
 Copper(I),Emission,Water
 Iron(II),Emission,Water
-Chromium(III),Emission,Air
-Chromium(III),Emission,Ground
-Chromium(III),Emission,Water
 Mercury(II),Emission,Ground
 Mercury(II),Emission,Water
 HCFC-121,Emission,Water
@@ -11317,14 +11301,12 @@ Iodine-131,Emission,Ground
 Iodine-131,Emission,Water
 Iodine-129,Emission,Air
 Iodine-129,Emission,Ground
-Radium-226,Emission,Ground
 Radium-228,Emission,Air
 Strontium-90,Emission,Air
 Strontium-90,Emission,Ground
 Technetium-99,Emission,Air
 Technetium-99,Emission,Ground
 Thorium-228,Emission,Water
-Thorium-230,Emission,Ground
 Uranium-235,Emission,Air
 Uranium-235,Emission,Ground
-Uranium,Emission,Ground
+
