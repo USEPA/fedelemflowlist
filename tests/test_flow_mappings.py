@@ -33,7 +33,7 @@ class TestFlowMappings(unittest.TestCase):
         self.assertEqual(len(flowmappings_w_required), len(nas_in_required))
 
     def test_targetflowinfo_matches_flows_in_list(self):
-        """Checks for duplicate uuids in list
+        """Checks that target flow information in the mapping files matches a flow in the flowlist
         """
         flowmapping_targetinfo = self.flowmappings[['TargetFlowName', 'TargetFlowUUID',
                                                     'TargetFlowContext', 'TargetUnit']]
