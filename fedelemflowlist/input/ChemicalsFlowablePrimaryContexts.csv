@@ -7226,9 +7226,11 @@ Metsulfuron-methyl,Emission,Water
 Aluminum,Emission,Air
 Aluminum,Emission,Ground
 Aluminum,Emission,Water
+Aluminum,Resource,Ground
 Lead,Emission,Air
 Lead,Emission,Ground
 Lead,Emission,Water
+Lead,Resource,Ground
 Manganese,Emission,Air
 Manganese,Emission,Ground
 Manganese,Emission,Water
@@ -7238,9 +7240,12 @@ Mercury,Emission,Water
 Nickel,Emission,Air
 Nickel,Emission,Ground
 Nickel,Emission,Water
+Nickel,Resource,Ground
+Neodymium,Resource,Ground
 Silver,Emission,Air
 Silver,Emission,Ground
 Silver,Emission,Water
+Silver,Resource,Ground
 Antimony,Emission,Air
 Antimony,Emission,Ground
 Antimony,Emission,Water
@@ -7253,15 +7258,19 @@ Barium,Emission,Water
 Cadmium,Emission,Air
 Cadmium,Emission,Ground
 Cadmium,Emission,Water
+Cadmium,Resource,Ground
 Chromium,Emission,Air
 Chromium,Emission,Ground
 Chromium,Emission,Water
+Chromium,Resource,Ground
 Cobalt,Emission,Air
 Cobalt,Emission,Ground
 Cobalt,Emission,Water
+Coblat,Resource,Ground
 Copper,Emission,Air
 Copper,Emission,Ground
 Copper,Emission,Water
+Copper,Resource,Ground
 Vanadium,Emission,Air
 Vanadium,Emission,Ground
 Vanadium,Emission,Water
@@ -7544,9 +7553,11 @@ Hydrogen peroxide,Emission,Water
 Phosphorus,Emission,Air
 Phosphorus,Emission,Ground
 Phosphorus,Emission,Water
+Phosphorus,Resource,Ground
 Bromine,Emission,Air
 Bromine,Emission,Ground
 Bromine,Emission,Water
+Bromine,Resource,Water
 Oxazolidine E,Emission,Air
 Oxazolidine E,Emission,Ground
 Oxazolidine E,Emission,Water
@@ -9242,6 +9253,8 @@ Nitrogen,Emission,Water
 Fluorine,Emission,Air
 Fluorine,Emission,Ground
 Fluorine,Emission,Water
+Fluorine,Resource,Ground
+Europium,Resource,Ground
 Nitrous acid,Emission,Air
 Nitrous acid,Emission,Ground
 Nitrous acid,Emission,Water
@@ -9480,8 +9493,10 @@ Niobium,Emission,Ground
 Niobium,Emission,Water
 Palladium,Emission,Ground
 Palladium,Emission,Water
+Palladium,Resource,Ground
 Platinum,Emission,Ground
 Platinum,Emission,Water
+Platinum,Resource,Ground
 Polonium,Emission,Ground
 Polonium,Emission,Water
 Potassium,Emission,Ground
@@ -9506,7 +9521,8 @@ XC Polymer,Emission,Ground
 XC Polymer,Emission,Water
 p-Diisopropylbenzene,Emission,Air
 Nitrous oxide,Emission,Air
-Chromium(III) chloride,Emission,Air
+
+(III) chloride,Emission,Air
 Phosphorus oxychloride,Emission,Air
 Antimony trichloride,Emission,Air
 Diethylene glycol ethyl methyl ether,Emission,Air
@@ -10451,24 +10467,31 @@ Endrin aldehyde,Emission,Water
 Lead stearate,Emission,Air
 Iron,Emission,Ground
 Iron,Emission,Water
+Iron,Resource,Ground
 Lanthanum,Emission,Ground
 Lanthanum,Emission,Water
+Lanthanum,Resource,Ground
 Lithium,Emission,Ground
 Lithium,Emission,Water
+Lithium,Resource,Ground
 Magnesium,Emission,Ground
 Magnesium,Emission,Water
+Magnesium,Resource,Water
 Molybdenum,Emission,Ground
 Molybdenum,Emission,Water
+Molybdenum,Resource,Ground
 Rhenium,Emission,Ground
 Rhenium,Emission,Water
 Rhodium,Emission,Ground
 Rhodium,Emission,Water
+Rhodium,Resource,Ground
 Rubidium,Emission,Ground
 Rubidium,Emission,Water
 Ruthenium,Emission,Ground
 Ruthenium,Emission,Water
 Samarium,Emission,Ground
 Samarium,Emission,Water
+Samarium,Resource,Ground
 Silicon,Emission,Ground
 Silicon,Emission,Water
 Sodium,Emission,Ground
@@ -10477,22 +10500,28 @@ Strontium,Emission,Ground
 Strontium,Emission,Water
 Tantalum,Emission,Ground
 Tantalum,Emission,Water
+Tantalum,Resource,Ground
 Tin,Emission,Ground
 Tin,Emission,Water
+Tin,Resource,Ground
 Tungsten,Emission,Ground
 Tungsten,Emission,Water
 Boron,Emission,Ground
 Boron,Emission,Water
 Cerium,Emission,Ground
 Cerium,Emission,Water
+Cerium,Resource,Ground
 Cesium,Emission,Ground
 Cesium,Emission,Water
 Gallium,Emission,Ground
 Gallium,Emission,Water
+Gallium,Resource,Ground
+Gadolinium,Resource,Ground
 Germanium,Emission,Ground
 Germanium,Emission,Water
 Gold,Emission,Ground
 Gold,Emission,Water
+Gold,Resource,Ground
 Hafnium,Emission,Ground
 Hafnium,Emission,Water
 Yttrium,Emission,Ground
@@ -10500,8 +10529,10 @@ Yttrium,Emission,Water
 Zinc,Emission,Air
 Zinc,Emission,Ground
 Zinc,Emission,Water
+Zinc,Resource,Ground
 Zirconium,Emission,Ground
 Zirconium,Emission,Water
+Zirconium,Resource,Ground
 Bismuth,Emission,Ground
 Bismuth,Emission,Water
 Calcium,Emission,Ground
@@ -10535,6 +10566,8 @@ Perfluorooctanesulfonamide,Emission,Water
 Titanium tetrachloride,Emission,Air
 Iodine,Emission,Ground
 Iodine,Emission,Water
+Iodine,Emission,Ground
+Iodine,Resource,Water
 Propyleneimine,Emission,Air
 Tetramethylammonium hydroxide,Emission,Ground
 Tetramethylammonium hydroxide,Emission,Water
@@ -11260,6 +11293,7 @@ Xenon-137,Emission,Air
 Protactinium-234,Emission,Air
 Protactinium-234,Emission,Water
 Praseodymium-147,Emission,Air
+Praseodymium,Resource,Ground
 Krypton-89,Emission,Air
 Potassium(I),Emission,Water
 Nickel(III),Emission,Water
