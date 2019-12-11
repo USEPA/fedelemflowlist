@@ -7266,7 +7266,7 @@ Chromium,Resource,Ground
 Cobalt,Emission,Air
 Cobalt,Emission,Ground
 Cobalt,Emission,Water
-Coblat,Resource,Ground
+Cobalt,Resource,Ground
 Copper,Emission,Air
 Copper,Emission,Ground
 Copper,Emission,Water
@@ -9521,8 +9521,7 @@ XC Polymer,Emission,Ground
 XC Polymer,Emission,Water
 p-Diisopropylbenzene,Emission,Air
 Nitrous oxide,Emission,Air
-
-(III) chloride,Emission,Air
+Chromium (III) chloride,Emission,Air
 Phosphorus oxychloride,Emission,Air
 Antimony trichloride,Emission,Air
 Diethylene glycol ethyl methyl ether,Emission,Air
