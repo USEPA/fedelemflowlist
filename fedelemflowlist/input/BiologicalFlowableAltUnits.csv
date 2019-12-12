@@ -3,6 +3,3 @@ Biomass,MJ,kg,16.832,"GREET, The Greenhouse Gases, Regulated Emissions, and Ener
 Hardwood,MJ,kg,20.7,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
 Softwood,MJ,kg,19.8,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
 Wood,MJ,kg,20.2,https://www.fpl.fs.fed.us/documnts/pdf1987/white87a.pdf
-Hardwood,m3,kg,0.0019,https://www.nrs.fs.fed.us/pubs/rn/rn_nrs38.pdf
-Softwood,m3,kg,0.0024,https://www.nrs.fs.fed.us/pubs/rn/rn_nrs38.pdf
-Wood,m3,kg,0.0021,https://www.nrs.fs.fed.us/pubs/rn/rn_nrs38.pdf
