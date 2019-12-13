@@ -6,10 +6,10 @@ BEWARE this will replace the existing mapping file if it exists in /flowmapping
 import time
 import pandas as pd
 import fedelemflowlist
-from fedelemflowlist.globals import flowmappingpath, log, flowmapping_fields
+from fedelemflowlist.globals import inputpath,flowmappingpath, log, flowmapping_fields
 
 base_name = 'USLCI_mapping_'
-USLCI_ver = '2.3'
+USLCI_ver = '2019Q4'
 mapper = 'Ashley Edelen'
 verifier = 'Troy Hottle'
 
@@ -23,7 +23,7 @@ if __name__ == '__main__':
         :param ftype: 'Flowable' or 'Context'
         :return: mapping file
         """
-        mappings = pd.read_csv(flowmappingpath + base_name + ftype + '.csv')
+        mappings = pd.read_csv(inputpath + base_name + ftype + '.csv')
         return mappings
 
 
@@ -61,11 +61,11 @@ if __name__ == '__main__':
     #Join in with mapping
     fl_mapping = pd.merge(fl_mapping,src_uuids,on=['SourceFlowName','SourceFlowContext'])
     log.info("Add in source flow UUIDs.")
-    log.info("Mapping is now " + str(len(fl_mapping)) + " flows.")
+    log.info("Mapping is now " + str(len(fl_mapping)) + " records.")
 
     fl_mapping = fl_mapping.drop_duplicates()
     log.info("Droping duplicates.")
-    log.info("Mapping is now " + str(len(fl_mapping)) + " flows.")
+    log.info("Mapping is now " + str(len(fl_mapping)) + " records.")
 
     #Rename fields
     fl_mapping = fl_mapping.rename(columns={'Flow UUID':'TargetFlowUUID'})

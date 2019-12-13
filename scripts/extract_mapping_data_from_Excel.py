@@ -5,10 +5,10 @@ WARNING: This will replace the existing input files
 """
 
 import pandas as pd
-from fedelemflowlist.globals import flowmappingpath, flow_list_specs
+from fedelemflowlist.globals import inputpath, flow_list_specs
 
 # Set directory where excel file resides and where we will write out to
-excel_dir = flowmappingpath
+excel_dir = inputpath
 file_name = 'USLCI_mapping'
 
 #A dictionary of names of data types and sheet names from the Excel file to extract them from
@@ -23,6 +23,6 @@ if __name__ == '__main__':
             df = pd.read_excel(excel_dir + file_name + '.xlsx',
                                             sheet_name=v, header=0, na_values="#N/A")
             df = df.dropna(axis=0, how='all')
-            df.to_csv(flowmappingpath + file_name + '_' + n + '.csv', index=False)
+            df.to_csv(excel_dir + file_name + '_' + n + '.csv', index=False)
 
 
