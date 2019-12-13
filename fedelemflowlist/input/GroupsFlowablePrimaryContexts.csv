@@ -24,6 +24,7 @@ Aflatoxins,Emission,Ground
 Aflatoxins,Emission,Water
 "Benzene, 1,1'-ethylidenebis-, isopropylated, distn. residues",Emission,Ground
 "Benzene, 1,1'-ethylidenebis-, isopropylated, distn. residues",Emission,Water
+Hydrocarbons,Emission,Air
 Hydrocarbons,Emission,Ground
 Hydrocarbons,Emission,Water
 Perfluorocarbons,Emission,Air
@@ -476,3 +477,4 @@ Toluenediamine,Emission,Water
 Tetrachlorvinphos,Emission,Air
 Tetrachlorvinphos,Emission,Water
 Tetrachlorvinphos,Emission,Ground
+Particulate matter,Emission,Air

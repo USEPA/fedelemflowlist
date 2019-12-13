@@ -10476,6 +10476,7 @@ Lithium,Resource,Ground
 Magnesium,Emission,Ground
 Magnesium,Emission,Water
 Magnesium,Resource,Water
+Molybdenum,Emission,Air
 Molybdenum,Emission,Ground
 Molybdenum,Emission,Water
 Molybdenum,Resource,Ground
@@ -11342,4 +11343,5 @@ Technetium-99,Emission,Ground
 Thorium-228,Emission,Water
 Uranium-235,Emission,Air
 Uranium-235,Emission,Ground
-
+Strontium-87,Emission,Ground
+Strontium-87,Emission,Water

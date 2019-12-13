@@ -72,6 +72,8 @@ Caesium ore,Resource,Ground
 Calaverite,Resource,Ground
 Calcio-olivine,Resource,Ground
 Calcite,Resource,Ground
+Calcium carbonate,Emission,Water
+Calcium carbonate,Emission,Ground
 Calcium carbonate,Resource,Ground
 Calcium chloride,Resource,Ground
 Calcium fluoride,Resource,Ground
