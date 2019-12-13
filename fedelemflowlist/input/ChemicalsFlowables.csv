@@ -1178,7 +1178,7 @@ Tributyltin chloride,1461-22-9,C12H27ClSn,"Stannane, tributylchloro-",kg,https:/
 Tetrabutyltin,1461-25-2,C16H36Sn,"Stannane, tetrabutyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43175,1
 Polyoxorim-zinc,146659-78-1,C17H21N5O14Zn,".beta.-D-Allofuranuronic acid, 5-[[2-amino-5-O-(aminocarbonyl)-2-deoxy-l-xylonoyl]amino]-1-(5-carboxy-3,4-dihydro-2,4-dioxo-1(2H)-pyrimidinyl)-1,5-dideoxy-, zinc salt (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=84629,1
 Oxolinic acid,14698-29-4,C13H11NO5,"1,3-Dioxolo[4,5-g]quinoline-7-carboxylic acid, 5-ethyl-5,8-dihydro-8-oxo-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96840,1
-Silver(I),14701-21-4,Ag,"Silver ion (1+); Silver, ion (Ag1+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78783,1
+Silver(I),14701-21-4,[Ag+],"Silver ion (1+); Silver, ion (Ag1+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78783,1
 Cloransulam-methyl,147150-35-4,C15H13ClFN5O5S,"Benzoic acid, 3-chloro-2-[[(5-ethoxy-7-fluoro[1,2,4]triazolo[1,5-c]pyrimidin-2-yl)sulfonyl]amino]-, methyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80662,1
 Nitrate,14797-55-8,NO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97628,1
 Zoalene,148-01-6,C8H7N3O5,"Benzamide, 2-methyl-3,5-dinitro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81257,1
@@ -1205,7 +1205,7 @@ p-Dimethoxybenzene,150-78-7,C8H10O2,"Hydroquinone dimethyl ether; Benzene, 1,4-d
 Cryolite,15096-52-3,-,Cryolite (Na3(AlF6)),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36363,1
 Sodium lauryl sulfate,151-21-3,C12H25NaO4S,Sodium dodecyl sulfate; Sulfuric acid monododecyl ester sodium salt (1:1),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97575,1
 Aziridine,151-56-4,C2H5N,Ethyleneimine,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46377,1
-Copper(II),15158-11-9,-,"Copper, ion (Cu2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97313,1
+Copper(II),15158-11-9,[Cu++],"Copper, ion (Cu2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97313,1
 Potassium 1-naphthaleneacetate,15165-79-4,C12H9KO2,"1-Naphthaleneacetic acid, potassium salt",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36345,1
 Halothane,151-67-7,C2HBrClF3,"Ethane, 2-bromo-2-chloro-1,1,1-trifluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97567,1
 Schradan,152-16-9,C8H24N4O3P2,"Diphosphoramide, N,N,N',N',N'',N'',N''',N'''-octamethyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97557,1
@@ -1239,7 +1239,7 @@ Dodemorph,1593-77-7,C18H35NO,"Morpholine, 4-cyclododecyl-2,6-dimethyl-",kg,https
 Daminozide,1596-84-5,C6H12N2O3,"Butanedioic acid, mono(2,2-dimethylhydrazide)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41604,1
 Alachlor,15972-60-8,C14H20ClNO2,"Acetamide, 2-chloro-N-(2,6-diethylphenyl)-N-(methoxymethyl)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60955,1
 "2,3,4,5,6-Pentachlorobenzenemethanol",16022-69-8,C7H3Cl5O,"Benzenemethanol, 2,3,4,5,6-pentachloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=95094,1
-Chromium(III),16065-83-1,Cr,"Chromium (III); Chromium, ion (Cr3+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60916,1
+Chromium(III),16065-83-1,[Cr+3],"Chromium (III); Chromium, ion (Cr3+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60916,1
 C.I. Direct Brown 95,16071-86-6,C31H18CuN6Na2O9S,"Cuprate(2-), [2-hydroxy-5-[2-[4'-[2-[2-(hydroxy-.kappa.O)-6-hydroxy-3-[2-[2-(hydroxy-.kappa.O)-5-sulfophenyl]diazenyl-.kappa.N1]phenyl]diazenyl][1,1'-biphenyl]-4-yl]diazenyl]benzoato(4-)]-, sodium (1:2)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60729,1
 "1-Bromo-3-chloro-5,5-dimethyl-2,4-imidazolidinedione",16079-88-2,C5H6BrClN2O2,"1-Bromo-3-chloro-5,5-dimethylhydantoin; 2,4-Imidazolidinedione, 1-bromo-3-chloro-5,5-dimethyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=93454,1
 Prometon,1610-18-0,C10H19N5O,"1,3,5-Triazine-2,4-diamine, 6-methoxy-N2,N4-bis(1-methylethyl)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41587,1
@@ -1409,7 +1409,7 @@ Levomenthol,2216-51-5,C10H20O,"(1R,2S,5R)-(-)-Menthol; Cyclohexanol, 5-methyl-2-
 Benzoylprop-ethyl,22212-55-1,C18H17Cl2NO3,"Alanine, N-benzoyl-N-(3,4-dichlorophenyl)-, ethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92831,1
 Fenamiphos,22224-92-6,C13H22NO3PS,"Phosphoramidic acid, (1-methylethyl)-, ethyl 3-methyl-4-(methylthio)phenyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56887,1
 Cadmium stearate,2223-93-0,C36H70CdO4,"Octadecanoic acid, cadmium salt (2:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92827,1
-Tetrachlorvinphos,22248-79-9,C10H9Cl4O4P,"Z-Tetrachlorvinphos; Phosphoric acid, (1Z)-2-chloro-1-(2,4,5-trichlorophenyl)ethenyl dimethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92825,1
+"Z-Tetrachlorvinphos",22248-79-9,C10H9Cl4O4P,"Tetrachlorvinphos; Phosphoric acid, (1Z)-2-chloro-1-(2,4,5-trichlorophenyl)ethenyl dimethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92825,1
 Tetrasul,2227-13-6,C12H6Cl4S,"Benzene, 1,2,4-trichloro-5-[(4-chlorophenyl)thio]-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=77594,1
 Dienochlor,2227-17-0,C10Cl10,"Bi-2,4-cyclopentadien-1-yl, 1,1',2,2',3,3',4,4',5,5'-decachloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92823,1
 Octachloronaphthalene,2234-13-1,C10Cl8,"1,2,3,4,5,6,7,8-Octachloronaphthalene; Naphthalene, 1,2,3,4,5,6,7,8-octachloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92815,1
@@ -1445,7 +1445,7 @@ Heptenophos,23560-59-0,C9H12ClO4P,"Phosphoric acid, 7-chlorobicyclo[3.2.0]hepta-
 Thiophanate-methyl,23564-05-8,C12H14N4O4S2,"Carbamic acid, [1,2-phenylenebis(iminocarbonothioyl)]bis-, dimethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92271,1
 Thiophanate ethyl,23564-06-9,C14H18N4O4S2,"Thiophanate; Carbamic acid, [1,2-phenylenebis(iminocarbonothioyl)]bis-, diethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=55992,1
 2-Ethoxyethyl methacrylate,2370-63-0,C8H14O3,"2-Propenoic acid, 2-methyl-, 2-ethoxyethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41099,1
-Zinc(II),23713-49-7,-,"Zinc, ion (Zn2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97071,1
+Zinc(II),23713-49-7,[Zn++],"Zinc, ion (Zn2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97071,1
 Potassium bis(2-hydroxyethyl)dithiocarbamate,23746-34-1,C5H10KNO2S2,"bis-2-Hydroxyethyldithiocarbamic acid, potassium salt; Carbamodithioic acid, N,N-bis(2-hydroxyethyl)-, potassium salt (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59549,1
 Mirex,2385-85-5,C10Cl12,"1,3,4-Metheno-1H-cyclobuta[cd]pentalene, 1,1a,2,2,3,3a,4,5,5,5a,5b,6-dodecachlorooctahydro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92090,1
 Sodium laurylsulfonate,2386-53-0,C12H25NaO3S,"Sodium 1-dodecanesulfonate; 1-Dodecanesulfonic acid, sodium salt (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=40924,1
@@ -1506,7 +1506,6 @@ Trichloroethane,25323-89-1,-,"Ethane, trichloro-",kg,https://ofmpub.epa.gov/sor_
 Isodecanol,25339-17-7,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56211,1
 Heptene,25339-56-4,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56210,1
 Phthalazine,253-52-1,C8H6N2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46339,1
-Toluenediamine,25376-45-8,-,"Benzenediamine, ar-methyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56189,1
 Octene,25377-83-7,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56186,1
 Tetrachloroguaiacol,2539-17-5,C7H4Cl4O2,"3,4,5,6-Tetrachloroguaiacol; Phenol, 2,3,4,5-tetrachloro-6-methoxy-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=40066,1
 Trichlorosyringol,2539-26-6,C8H7Cl3O3,"Phenol, 3,4,5-trichloro-2,6-dimethoxy-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83864,1
@@ -3003,12 +3002,12 @@ Carbon dioxide,124-38-9,CO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/sub
 Phosphorus pentoxide,1314-56-3,O10P4,Phosphorus oxide (P2O5),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42854,1
 Nickel carbonyl,13463-39-3,C4NiO4,"Nickel carbonyl (Ni(CO)4), (T-4)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60586,1
 sec-Butylbenzene,135-98-8,C10H14,"Benzene, (1-methylpropyl)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46586,1
-Potassium-40,13966-00-2,-,"Potassium, isotope of mass 40",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5247,1
-Polonium-210,13981-52-7,-,"Polonium, isotope of mass 210",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5241,1
-Radium-226,13982-63-3,[226Ra],"Radium, isotope of mass 226",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5239,1
-Lead-210,14255-04-0,[210Pb],"Lead, isotope of mass 210",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5236,1
+Potassium-40,13966-00-2,-,"Potassium, isotope of mass 40",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5247,1
+Polonium-210,13981-52-7,-,"Polonium, isotope of mass 210",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5241,1
+Radium-226,13982-63-3,[226Ra],"Radium, isotope of mass 226",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5239,1
+Lead-210,14255-04-0,[210Pb],"Lead, isotope of mass 210",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5236,1
 Orthophosphate,14265-44-2,O4P,Phosphate; Phosphate,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60773,1
-Thorium-230,14269-63-7,[230Th],"Thorium 230; Thorium, isotope of mass 230",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5235,1
+Thorium-230,14269-63-7,[230Th],"Thorium 230; Thorium, isotope of mass 230",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5235,1
 Ammonium,14798-03-9,H4N,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59836,1
 HCFC-132b,1649-08-7,C2H2Cl2F2,"1,2-Dichloro-1,1-difluoroethane; Ethane, 1,2-dichloro-1,1-difluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41379,1
 "Dibenzo[a,i]pyrene",189-55-9,C24H14,Benzo[rst]pentaphene,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46354,1
@@ -3060,7 +3059,7 @@ Docosane,629-97-0,C22H46,,kg,https://ofmpub.epa.gov/sor_internet/registry/substr
 "1,2,3,4,7,8-Hexachlorodibenzofuran",70648-26-9,C12H2Cl6O,"Dibenzofuran, 1,2,3,4,7,8-hexachloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=66666,1
 "1,2,3,7,8,9-Hexachlorodibenzofuran",72918-21-9,C12H2Cl6O,"1,2,3,7,8,9-Hexachlorodibenzo[b,d]furan; Dibenzofuran, 1,2,3,7,8,9-hexachloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=64281,1
 Thallium,7440-28-0,Tl,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36981,1
-Thorium-232,7440-29-1,Th,Thorium; Thorium,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5256,1
+Thorium-232,7440-29-1,Th,Thorium; Thorium,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5256,1
 Titanium,7440-32-6,Ti,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36978,1
 Beryllium,7440-41-7,Be,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36837,1
 Carbon,7440-44-0,C,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36834,1
@@ -3318,12 +3317,12 @@ Lead arsenite,10031-13-7,-,"Arsenenous acid, lead(2+) salt",kg,https://ofmpub.ep
 Aluminum sulfate,10043-01-3,Al2O12S3,"Sulfuric acid, aluminum salt (3:2)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39309,1
 Orthoboric acid,10043-35-3,BH3O3,Boric acid; Boric acid (H3BO3),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39305,1
 Calcium chloride,10043-52-4,CaCl2,Calcium chloride (CaCl2),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39304,1
-Iodine-131,10043-66-0,-,"Iodine, isotope of mass 131, at.",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5147,1
+Iodine-131,10043-66-0,-,"Iodine, isotope of mass 131, at.",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5147,1
 Radon,10043-92-2,-,Radon,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39299,1
-Cesium-137,10045-97-3,[137Cs],"Caesium-137; Cesium, isotope of mass 137",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5259,1
+Cesium-137,10045-97-3,[137Cs],"Caesium-137; Cesium, isotope of mass 137",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5259,1
 Chromium(II) chloride,10049-05-5,-,Chromium chloride (CrCl2),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39290,1
 Chromium(III) chloride hexahydrate,10060-12-5,Cl3CrH12O6,"Chromic chloride hexahydrate; Chromium chloride (CrCl3), hexahydrate",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78942,1
-Strontium-90,10098-97-2,[90Sr],"Strontium, isotope of mass 90",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5258,1
+Strontium-90,10098-97-2,[90Sr],"Strontium, isotope of mass 90",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5258,1
 Lead(II) Nitrate,10099-74-8,H2N2O6Pb,"Lead nitrate; Nitric acid, lead(2+) salt (2:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39255,1
 Sodium permanganate,10101-50-5,MnNaO4,"Permanganic acid (HMnO4), sodium salt",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39251,1
 Chromium(III) sulfate,10101-53-8,Cr2O12S3,"Sulfuric acid, chromium(3+) salt (3:2); Sulfuric acid, chromium(3+) salt (3:2)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39249,1
@@ -3525,14 +3524,14 @@ Uranium-236,13982-70-2,[236U],"Uranium 236; Uranium, isotope of mass 236",kg,htt
 Methyl cellosolve acetyl ricinoleate,140-05-6,-,"9-Octadecenoic acid, 12-(acetyloxy)-, 2-methoxyethyl ester, (R-(Z))-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78926,1
 Benzeneacetonitrile,140-29-4,C8H7N,Benzyl cyanide,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46868,1
 Selenite,14124-67-5,O3Se,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96890,1
-Technetium-99,14133-76-7,[99Tc],"Technetium, isotope of mass 99",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5144,1
+Technetium-99,14133-76-7,[99Tc],"Technetium, isotope of mass 99",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5144,1
 Pentafluorobutane,141529-32-0,-,"Butane, pentafluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80667,1
 Mesityl oxide,141-79-7,C6H10O,"4-Methylpent-3-en-2-one; 3-Penten-2-one, 4-methyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46135,1
 "Nickelate(2-), tetrakis(cyano-.kappa.C)-, dipotassium, (SP-4-1)-",14220-17-8,-,"Nickelate(2-), tetrakis(cyano-.kappa.C)-, potassium (1:2), (SP-4-1)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60981,1
 Cyclopentene,142-29-0,C5H8,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46117,1
 Sulfite,14265-45-3,O3S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97716,1
 Tetrahydropyran,142-68-7,C5H10O,"2H-Pyran, tetrahydro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46529,1
-Thorium-228,14274-82-9,[228Th],"Thorium 228; Thorium, isotope of mass 228",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5234,1
+Thorium-228,14274-82-9,[228Th],"Thorium 228; Thorium, isotope of mass 228",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5234,1
 Hydroxide,14280-30-9,HO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=85321,1
 Mercury(II),14302-87-5,Hg,"Mercury, ion (Hg2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78875,1
 "Chromic acid, calcium salt (1:1)",14307-33-6,CaCr2O7,Calcium dichromate,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60744,1
@@ -3551,23 +3550,23 @@ Nitrite,14797-65-0,NO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg
 Perchlorate,14797-73-0,ClO4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81029,1
 Sulfate,14808-79-8,O4S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59829,1
 Phenylpropanolamine,14838-15-4,C9H13NO,"Benzenemethanol, .alpha.-[(1R)-1-aminoethyl]-, (.alpha.S)-rel-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97622,1
-Radon-222,14859-67-7,Rn,"Radon 222; Radon, isotope of mass 222",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5231,1
-Actinium-227,14952-40-0,[227Ac],"Actinium, isotope of mass 227",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5229,1
+Radon-222,14859-67-7,Rn,"Radon 222; Radon, isotope of mass 222",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5231,1
+Actinium-227,14952-40-0,[227Ac],"Actinium, isotope of mass 227",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5229,1
 Trimethoxymethane,149-73-5,C4H10O3,"Methane, trimethoxy-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97602,1
 Chromium(VI) dioxychloride,14977-61-8,-,"Chromium, dichlorodioxo-, (T-4)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59610,1
 Chlorite,14998-27-7,ClO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59596,1
-Iodine-129,15046-84-1,C7H6Br2O,"Benzene, 2,4-dibromo-1-methoxy-; Iodine, isotope of mass 129, at.",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5228,1
+Iodine-129,15046-84-1,C7H6Br2O,"Benzene, 2,4-dibromo-1-methoxy-; Iodine, isotope of mass 129, at.",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5228,1
 Bromodifluoromethane,1511-62-2,CHBrF2,"Methane, bromodifluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42024,1
-Uranium-235,15117-96-1,-,"Uranium, isotope of mass 235",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5251,1
+Uranium-235,15117-96-1,-,"Uranium, isotope of mass 235",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5251,1
 Potassium cyanide,151-50-8,CKN,Potassium cyanide (K(CN)),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46378,1
-Radium-228,15262-20-1,[228Ra],"Radium, isotope of mass 228",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5250,1
-Iron(II),15438-31-0,Fe,"Fe +2 ion; Iron, ion (Fe2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=62083,1
+Radium-228,15262-20-1,[228Ra],"Radium, isotope of mass 228",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5250,1
+Iron(II),15438-31-0,[Fe++],"Fe +2 ion; Iron, ion (Fe2+)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=62083,1
 Bromate,15541-45-4,BrO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82602,1
 "3,6,9,12-Tetraoxahexadecan-1-ol",1559-34-8,C12H26O5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41812,1
 "Ethanol, 2-[(2-ethylhexyl)oxy]-",1559-35-9,C10H22O2,2-(2-Ethylhexyloxy)ethanol,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97502,1
 "Ethanol, 2-[2-[(2-ethylhexyl)oxy]ethoxy]-",1559-36-0,C12H26O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41811,1
 HFE-338mcf2,156053-88-2,C4H2F8O,"1,1,1,2,2-pentafluoro-2-(2,2,2-trifluoroethoxy)ethane; Ethane, 1,1,1,2,2-pentafluoro-2-(2,2,2-trifluoroethoxy)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=125298,1
-Radium-223,15623-45-7,-,"Radium, isotope of mass 223",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5249,1
+Radium-223,15623-45-7,-,"Radium, isotope of mass 223",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5249,1
 "cis-1,2-Dichloroethylene",156-59-2,C2H2Cl2,"(Z)-1,2-Dichloroethylene; Ethene, 1,2-dichloro-, (1Z)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46363,1
 Calcium cyanamide,156-62-7,CCaN2,"Cyanamide, calcium salt (1:1)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46361,1
 1-Propoxy-2-propanol,1569-01-3,C6H14O2,"2-Propanol, 1-propoxy-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41795,1
@@ -4399,3 +4398,225 @@ Tetrachlorodibenzo-p-dioxin,41903-57-5,-,,kg,https://ofmpub.epa.gov/sor_internet
 Hexachlorodibenzofuran,55684-94-1,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=49568,1
 Sodium metaborate,52623-84-4,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38304,1
 Carbon black,1333-86-4,,Black carbon PM2.5 LC,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=16367,0
+L-Glutamic acid,56-86-0,C5H9NO4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48950,1
+2-Aminopropanol,6168-72-5,C3H9NO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=89931,1
+o-Nitrobenzoic acid,552-16-9,C7H5NO4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=90366,1
+"2-Butanol, 3-methyl-",598-75-4,C5H12O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=45024,1
+4-Aminobutanoic acid,56-12-2,C4H9NO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=89973,1
+Acequincyl,57960-19-7,C24H32O4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=89400,1
+Acrinathrin,101007-06-1,C26H21F6NO5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=94750,1
+Air,132259-10-0,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=95821,1
+Aluminum nitrate,13473-90-0,AlN3O9,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60360,1
+Ammonium chloride,12125-02-9,ClH4N,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60382,1
+Ammonium thiocyanate,1762-95-4,CH4N2S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=92670,1
+Ammonium carbonate,506-87-6,CH8N2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=90017,1
+Ammonium nitrate,6484-52-2,H4N2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38693,1
+Anthranilic acid,118-92-3,C7H7NO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47074,1
+Boron carbide,12069-32-8,CB4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60429,1
+Butoxypolypropylene glycol,9003-13-8,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=37676,1
+Chlorate,14866-68-3,ClO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82605,1
+Chlorfenapyr,122453-73-0,C15H11BrClF3N2O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83271,1
+Chloroacetyl chloride,79-04-9,C2H2Cl2O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48735,1
+Chromate,13907-45-4,CrO4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=61467,1
+Clopyralid-olamine,57754-85-5,C8H10Cl2N2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=50442,1
+Copper oxychloride,1332-65-6,ClCu2H3O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43017,1
+Copper oxychloride sulfate,8012-69-9,ClCu6H9O13S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36605,1
+Cyanoacetic acid,372-09-8,C3H3NO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46047,1
+Diborane,19287-45-7,B2H6,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=62366,1
+Dicamba-potassium,10007-85-9,C8H5Cl2KO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39391,1
+(R)-Dichlorprop,15165-67-0,C9H8Cl2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81026,1
+Dichromate,13907-47-6,Cr2O7,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82283,1
+Diclofop,40843-25-2,C15H12Cl2O4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=77696,1
+Dikegulac-sodium,52508-35-7,C12H17NaO7,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=55312,1
+Dimefuron,34205-21-5,C15H19ClN4O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82933,1
+"Phosphonic acid, disodium salt",13708-85-5,HNa2O3P,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36409,1
+Epoxiconazole,133855-98-8,C17H13ClFN3O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80678,1
+Etaconazole,60207-93-4,C14H15Cl2N3O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82371,1
+Fenazaquin,120928-09-8,C20H22N2O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83275,1
+Fenoxaprop,95617-09-7,C16H12ClNO5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76758,1
+"Piperidine, 1-[3-[4-(1,1-dimethylethyl)phenyl]-2-methylpropyl]-",67306-00-7,C19H31N,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82172,1
+Ferric phosphate,10045-86-0,FeO4P,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39298,1
+Ferric oxide,1309-37-1,Fe2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43595,1
+Flazasulfuron,104040-78-0,C13H12F3N5O5S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83482,1
+Flufenoxuron,101463-69-8,C21H11ClF6N2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83504,1
+Fluoxastrobin,361377-29-9,C21H16ClFN4O5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=100933,1
+Fluosilicic acid,16961-83-4,F6H2Si,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36318,1
+Fluoroglycofen-ethyl,77501-90-7,C18H13ClF3NO7,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81958,1
+Fluquinconazole,136426-54-5,C16H8Cl2FN5O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=125553,1
+"3(2H)-Furanone, 5-(methylamino)-2-phenyl-4-[3-(trifluoromethyl)phenyl]-",96525-23-4,C18H14F3NO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=84006,1
+Foramsulfuron,173159-57-4,C17H20N6O7S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76858,1
+Formic acid(I),71-47-6,CHO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=126010,1
+Formetanate,22259-30-9,C11H15N3O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=63052,1
+Furathiocarb,65907-30-4,C18H26N2O5S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82180,1
+Glufosinate,51276-47-2,C5H12NO4P,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=77910,1
+Haloxyfop,69806-34-4,C15H11ClF3NO4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=77691,1
+3-Hexanone,589-38-8,C6H12O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=45158,1
+Hexaconazole,79983-71-4,C14H17Cl2N3O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81813,1
+Hexamethyldisilazane,999-97-3,C6H19NSi2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43758,1
+Hydriodic acid,10034-85-2,HI,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39323,1
+Hydrobromic acid,10035-10-6,BrH,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39321,1
+"Imazaquin, sodium salt",81335-46-8,C17H16N3NaO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=86393,1
+Iodosulfuron-methyl-sodium,144550-36-7,C14H13IN5NaO6S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76875,1
+Iprovalicarb,140923-17-7,C18H28N2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80671,1
+Isocyanic acid,75-13-8,CHNO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82881,1
+Ivermectin,70288-86-7,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=125642,1
+Lactic acid,50-21-5,C3H6O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=49195,1
+Lufenuron,103055-07-8,C17H8Cl2F8N2O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=101073,1
+Mefenpyr-diethyl,135590-91-9,C16H18Cl2N2O4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76886,1
+Methanesulfonic acid,75-75-2,CH4O3S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48908,1
+Trimethyl borate,121-43-7,C3H9BO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46987,1
+Metsulfuron,79510-48-8,C13H13N5O6S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87310,1
+Naphtha,8030-30-6,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=16240,1
+Naptalam,132-66-1,C18H13NO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83845,1
+N-Bromoacetamide,79-15-2,C2H4BrNO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48726,1
+Perchloromethyl mercaptan,594-42-3,CCl4S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=45058,1
+Phenyl isocyanate,103-71-9,C7H5NO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48056,1
+Potassium hydroxide,1310-58-3,HKO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42901,1
+Scandium,7440-20-2,Sc,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36988,1
+Quinoxyfen,124495-18-7,C15H8Cl2FNO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83137,1
+"Silane, tetrachloro-",10026-04-7,Cl4Si,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39359,1
+"Silane, tetrafluoro-",7783-61-1,F4Si,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87472,1
+S-Kinoprene,65733-20-2,C18H28O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=73033,1
+Sodium perchlorate,7601-89-0,ClNaO4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39488,1
+Sodium hydroxide,1310-73-2,HNaO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42898,1
+Sodium hypochlorite,7681-52-9,ClNaO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38634,1
+Sodium borohydride,16940-66-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59752,1
+Spiroxamine,118134-30-8,C18H35NO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76913,1
+Streptomycin,57-92-1,C21H39N7O12,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=49130,1
+Tebufenpyrad,119168-77-3,C18H24ClN3O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83282,1
+Butam,35256-85-0,C15H23NO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=77699,1
+Tin oxide,1332-29-2,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43020,1
+Triazamate,112143-82-5,C13H22N4O3S,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80786,1
+"1,2,4-Benzotriazine, 7-chloro-3-(1H-imidazol-1-yl)-, 1-oxide",72459-58-6,C10H6ClN5O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82004,1
+Triphenyltin,892-20-6,C18H16Sn,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=101834,1
+Trichlorosilane,10025-78-2,Cl3HSi,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=94779,1
+Triticonazole,131983-72-7,C17H20ClN3O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80770,1
+Turpentine,9005-90-7,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=16192,1
+Vinyltoluene,25013-15-4,C9H10,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=57780,1
+Zinc oxide,1314-13-2,OZn,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42868,1
+Zinc chloride,7646-85-7,Cl2Zn,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38659,1
+Zinc sulfate,7733-02-0,O4SZn,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38467,1
+Amidosulfuron,120923-37-7,C9H15N5O7S2,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID7057945,1
+Chlorimuron,99283-00-8,C13H11ClN4O6S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20244020,1
+Chromium(IV),15723-28-1,Cr,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID90872435,1
+Cinidon-ethyl,142891-20-1,C19H17Cl2NO4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID1036753,1
+Dimoxystrobin,149961-52-4,C19H22N2O3,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID3057981,1
+Doramectin,117704-25-3,C50H74O14,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID9048982,1
+Eprinomectin,123997-26-2,,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID8037542,1
+Fluazifop,69335-91-7,C15H12F3NO4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID3058163,1
+Flupyrsulfuron-methyl [ISO],144740-53-4,C15H14F3N5O7S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID80162796,1
+"1-(2,4-Dichlorophenyl)-5-methyl-4,5-dihydro-1H-pyrazole-3,5-dicarboxylic acid",135591-00-3,C12H10Cl2N2O4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10869847,1
+Metosulam,139528-85-1,C14H13Cl2N5O4S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID9047544,1
+Moxidectin,113507-06-5,C37H53NO8,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID5037577,1
+"2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",113036-87-6,C14H10F4N4O7S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40150270,1
+Diphosphate,14000-31-8,O7P2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97084,1
+Quizalofop,76578-12-6,C17H13ClN2O4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60273935,1
+Quizalofop-P,94051-08-8,C17H13ClN2O4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID2041387,1
+Silthiofam,175217-20-6,C13H21NOSSi,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID1058000,1
+Sulfur monoxide,13827-32-2,OS,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60160558,1
+Tribenuron,106040-48-6,C14H15N5O6S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20147486,1
+(Z)-9-Tricosene,27519-02-4,C23H46,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56978,1
+Triflusulfuron,135990-29-3,C16H17F3N6O6S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10159614,1
+Zeta-Cypermethrin,1315501-18-8,C22H19Cl2NO3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=137980,1
+"Carbamodithioic acid, cyano-, disodium salt, mixt. with 1,2-ethanediamine and methylcarbamodithioic acid monopotassium salt",8070-47-1,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97199,1
+"2,2,2-tris(Trifluoromethyl)ethanol",14117-17-0 ,C5H3F9O,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40161583,1
+"2,4-D, polypropoxybutyl ester",53467-11-1,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=51348,1
+(E)-11-Tetradecen-1-ol acetate,33189-72-9,C16H30O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=93107,1
+Dibromodifluoromethane,75-61-6,CBr2F2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48918,1
+Sodium methyldithiocarbamate dihydrate,6734-80-1,C2H10NNaO3S2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=84909,1
+Hypochlorite,14380-61-1,ClO,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82607,1
+1-Methylfluorene,1730-37-6,C14H12,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=40958,1
+HCFC-123b,812-04-4,C2HCl2F3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=44100,1
+Trimethylchlorosilane,75-77-4,C3H9ClSi,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48906,1
+Chlorophenol,25167-80-0,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56856,1
+Calcium hydroxide,1305-62-0,CaH2O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43619,1
+Trifluoroacetic acid,76-05-1,C2HF3O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48885,1
+(Z)-8-Dodecen-1-ol acetate,28079-04-1,C14H26O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56326,1
+"2-Pinene, (1S,5S)-(-)-",7785-26-4,C10H16,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=37931,1
+Sodium hydrosulfide,16721-80-5,HNaS,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60012,1
+Propylene glycol monobutyl ether,29387-86-8,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=59084,1
+"Cyclopropane, hexafluoro-",931-91-9,C3F6,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=99112,1
+Haloxyfop-P-methyl,72619-32-0,C16H13ClF3NO4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID8058249,1
+Sevoflurane,28523-86-6,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=99082,1
+Dicamba diglycolamine salt,104040-79-1,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=63235,1
+Copper hydroxide sulfate monohydrate,1332-03-2,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81228,1
+Tetramethylethylenediamine,110-18-9,C6H16N2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47703,1
+Aluminum hydroxide,21645-51-2,AlH3O3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=57146,1
+Trisodium phosphate,7601-54-9,Na3O4P,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=39489,1
+Americium-241,14596-10-2,[241Am],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5129,1
+Antimony-125,14234-35-6,[125Sb],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5200,1
+Antimony-122,14374-79-9,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5193,1
+Antimony-124,14683-10-4,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5184,1
+Argon-41,14163-25-8,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5029,1
+Barium-140,14798-08-4,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5180,1
+Cadmium-109,14109-32-1,[109Cd],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5207,1
+Carbon-14,14762-75-5,[14C],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5232,1
+Cerium-141,13967-74-3,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5244,1
+Cerium-144,14762-78-8,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5097,1
+Cesium-134,13967-70-9,[134Cs],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5146,1
+Cesium-136,14234-29-8,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5119,1
+Chromium-51,14392-02-0,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5091,1
+Cobalt-60,10198-40-0,[60Co],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5257,1
+Cobalt-58,13981-38-9,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5150,1
+Cobalt-57,13981-50-5,[57Co],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5213,1
+Curium-244,13981-15-2,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5138,1
+Curium-242,15510-73-3,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4804,1
+Iodine-133,14834-67-4,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4919,1
+Iodine-135,14834-68-5,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4918,1
+Iron-59,14596-12-4,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5186,1
+Krypton-85,13983-27-2,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5126,1
+Krypton-87,14809-68-8,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4926,1
+Krypton-88,14995-61-0,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4857,1
+Krypton-85m,378253-15-7,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4551,1
+Lanthanum-140,13981-28-7,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5154,1
+Lanthanum-141,15816-88-3,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4646,1
+Manganese-54,13966-31-9,[54Mn],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5162,1
+Molybdenum-99,14119-15-4,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5205,1
+Neptunium-237,13994-20-2,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5135,1
+Niobium-95,13967-76-5,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5159,1
+Plutonium-238,13981-16-3,[238Pu],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5242,1
+Plutonium-241,14119-32-5,[241Pu],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5038,1
+Promethium-147,14380-75-7,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5192,1
+Radon-220,22481-48-7,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5227,1
+Ruthenium-106,13967-48-1,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5104,1
+Ruthenium-103,13968-53-1,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5156,1
+Silver-110,14391-76-5,[110Ag],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5189,1
+Sodium-24,13982-04-2,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5075,1
+Strontium-89,14158-27-1,[89Sr],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5143,1
+Technetium-99m,378784-45-3,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4442,1
+Tellurium-132,14234-28-7,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5201,1
+Tellurium-123,14304-80-4,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5010,1
+Tellurium-123m,378784-49-7,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4440,1
+Thorium-234,15065-10-8,[234Th],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5140,1
+Uranium-234,13966-29-5,[234U],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5246,1
+Xenon-133,14932-42-4,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4888,1
+Xenon-135,14995-62-1,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4856,1
+Xenon-138,15751-81-2,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4727,1
+Xenon-131m,378784-67-9,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4425,1
+Xenon-133m,378784-91-9,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4424,1
+Xenon-135m,378784-92-0,-,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4423,1
+Yttrium-90,10098-91-6,[90Y],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5164,1
+Zinc-65,13982-39-3,[65Zn],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5209,1
+Zirconium-95,13967-71-0,[95Zr],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5160,1
+Xenon-137,14835-21-3,[137Xe],,kBq,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID70933396,1
+Protactinium-234,15100-28-4,[234Pa],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5127,1
+Praseodymium-147,15765-24-9,[147Pr],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4666,1
+Krypton-89,16316-03-3,[89Kr],,kBq,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40936793,1
+Potassium(I),24203-36-9,[K+],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78684,1
+Nickel(III),22541-64-6,[Ni+3],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00177069,1
+Nickel(II),14701-22-5,[Ni++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60163564,1
+Sodium(I),17341-25-2,[Na+],,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78682,1
+Manganese(III),14546-48-6,[Mn+3],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID70163050,1
+Calcium(II),14127-61-8,[Ca++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID7037638,1
+Cadmium(II),22537-48-0,[Cd++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60177060,1
+Lead(II),14280-50-3,[Pb++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10872437,1
+Manganese(II),16397-91-4 ,[Mn++],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00167687,1
+"Glyphosate, ammonium salt",114370-14-8,[NH4+].OP(O)(=O)CNCC([O-])=O,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=84781,1
+Iodosulfuron-methyl,185119-76-0,COC(=O)C1=C(C=C(I)C=C1)S(=O)(=O)NC(=O)NC1=NC(OC)=NC(C)=N1,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID1043968,1
+Vanadium(III),22541-77-1,[V+3],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID50896834,1
+Lithium(I),17341-24-1,[Li+],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10169612,1
+Copper(I),17493-86-6,[Cu+],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID30169912,1
+Neodymium,7440-00-8,Nd ,[Nd],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=37005,1
+Europium,7440-53-1,Eu,[Eu],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36827,1
+Gadolinium,7440-54-2,Gd,[Gd],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36826,1
+Praseodymium,7440-10-0,Pr,[Pr],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36995,1
