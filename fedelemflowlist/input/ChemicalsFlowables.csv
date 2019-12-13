@@ -2488,7 +2488,7 @@ Methoxyflurane,76-38-0,C3H4Cl2F2O,"Ethane, 2,2-dichloro-1,1-difluoro-1-methoxy-"
 "2,4-Hexadiene, 2,5-dimethyl-",764-13-6,C8H14,"2,5-Dimethyl-2,4-hexadiene",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=44184,1
 "1,4-Dichloro-2-butene",764-41-0,C4H6Cl2,"2-Butene, 1,4-dichloro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=44180,1
 Heptachlor,76-44-8,C10H5Cl7,"4,7-Methano-1H-indene, 1,4,5,6,7,8,8-heptachloro-3a,4,7,7a-tetrahydro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87744,1
-Hydrochloric acid,7647-01-0,ClH,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38657,1
+Hydrochloric acid,7647-01-0,ClH,Hydrogen chloride,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=38657,1
 Glycidylaldehyde,765-34-4,C3H4O2,Glycidaldehyde; Oxiranecarboxaldehyde,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87738,1
 Quizalofop-ethyl,76578-14-8,C19H17ClN2O4,"Propanoic acid, 2-[4-[(6-chloro-2-quinoxalinyl)oxy]phenoxy]-, ethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=85575,1
 Hydrofluoric acid,7664-39-3,FH,Hydrogen fluoride,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87730,1
@@ -4620,3 +4620,4 @@ Neodymium,7440-00-8,Nd ,[Nd],kg,https://ofmpub.epa.gov/sor_internet/registry/su
 Europium,7440-53-1,Eu,[Eu],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36827,1
 Gadolinium,7440-54-2,Gd,[Gd],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36826,1
 Praseodymium,7440-10-0,Pr,[Pr],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36995,1
+Strontium-87,378784-28-2,[87Sr],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4451,1
