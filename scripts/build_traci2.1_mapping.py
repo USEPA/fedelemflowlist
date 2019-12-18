@@ -17,11 +17,11 @@ if __name__ == '__main__':
 
     lcia_lciafmt = lciafmt.get_method('Traci 2.1')
     # Keep only flowable and category
-    lcia_lciafmt = lcia_lciafmt[['Flow', 'Flow category']]
+    lcia_lciafmt = lcia_lciafmt[['Flowable', 'Context']]
     lcia_lciafmt = lcia_lciafmt.drop_duplicates()
     len(lcia_lciafmt)
 
-    traci_lciafmt_contexts = pd.Series(pd.unique(lcia_lciafmt['Flow category']))
+    traci_lciafmt_contexts = pd.Series(pd.unique(lcia_lciafmt['Context']))
 
 
     # export and map these to Fed Commons flow list contexts
@@ -41,10 +41,10 @@ if __name__ == '__main__':
 
     context_mappings = get_manual_mappings(lcia_name, 'Context')
     lciafmt_w_context_mappings = pd.merge(lcia_lciafmt, context_mappings,
-                                          left_on='Flow category',
+                                          left_on='Context',
                                           right_on='SourceFlowContext')
     # Drop duplicate field
-    lciafmt_w_context_mappings = lciafmt_w_context_mappings.drop(columns=['Flow category'])
+    lciafmt_w_context_mappings = lciafmt_w_context_mappings.drop(columns=['Context'])
     len(lciafmt_w_context_mappings)
 
     # Add in flowable matches. Assume these are in inputfolder with lcia_name+standardname.csv
@@ -52,10 +52,10 @@ if __name__ == '__main__':
     len(flowable_mappings)
     lciafmt_w_context_flowable_mappings = pd.merge(lciafmt_w_context_mappings,
                                                    flowable_mappings,
-                                                   left_on='Flow',
+                                                   left_on='Flowable',
                                                    right_on='SourceFlowName')
     # Drop duplicate field
-    lciafmt_w_context_flowable_mappings = lciafmt_w_context_flowable_mappings.drop(columns='Flow')
+    lciafmt_w_context_flowable_mappings = lciafmt_w_context_flowable_mappings.drop(columns='Flowable')
     len(lciafmt_w_context_flowable_mappings)
 
     # Merge LCIA with Flowlist
