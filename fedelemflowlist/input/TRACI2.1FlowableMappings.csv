@@ -3439,7 +3439,7 @@ Sulfur oxides,kg,,SULFUR OXIDES (SOX),kg,Hottle,Manual,,,2019-05-16
 "Particulate matter, ≤ 2.5μm",kg,=,PM2.5,kg,Hottle,Manual,,,2019-05-16
 Biological Oxygen Demand,kg,,BIOLOGICAL OXYGEN DEMAND,kg,Hottle,Manual,,,2019-05-16
 Chemical Oxygen Demand,kg,,CHEMICAL OXYGEN DEMAND,kg,Hottle,Manual,,,2019-05-16
-HG-30,kg,=,HFE-43-10pccc124,kg,Hottle,New ChemDash match [name],,,2019-05-22
+HG-30,kg,=,HFE-43-10pccc124,kg,Hottle,New ChemDash match [name],,,2019-12-19
 "Ethane, 2-(difluoromethoxy)-1,1,1-trifluoro-",kg,=,HFE-245fa2,kg,Hottle,New ChemDash match [name],Ashley Edelen,Two TRACI chemicals matched as the same chemical in our list based on ChemDashboard,2019-05-22
 Isoflurane,kg,=,HCFE-235da2,kg,Hottle,New ChemDash match [name],Ashley Edelen,,2019-05-22
 "2,3-Dibromo-1,1,1-trifluoropropane",kg,=,"2,3-DIBROMO-1,1,1-TRIFLUOROPROPANE",kg,Hottle,New ChemDash match [name],,,2019-05-22
@@ -3467,8 +3467,8 @@ n-Butylbenzene,kg,<,BUTYLBENZENES,kg,Hottle,New ChemDash match [name],Ashley Ede
 C5 alkenes,kg,=,C5 ALKENES,kg,Hottle,New ChemDash match [name],,,2019-05-22
 C6 alkenes,kg,=,C6 ALKENES,kg,Hottle,New ChemDash match [name],,,2019-05-22
 "cis-1,2-Dichloroethylene",kg,=,"CIS-1,2-DICHLOROETHENE",kg,Hottle,New ChemDash match [name],Ashley Edelen,"(Z)-1,2-Dichloroethylene",2019-05-22
-Kerosene,kg,=,KEROSENE,kg,Hottle,New ChemDash match [name],,,2019-05-22
-Oxo-Heptyl Acetate,kg,=,OXO-HEPTYL ACETATE,kg,Hottle,New ChemDash match [name],,,2019-05-22
+Kerosene,kg,=,KEROSENE,kg,Hottle,New ChemDash match [name],,,2019-12-20
+Oxo-Heptyl Acetate,kg,=,OXO-HEPTYL ACETATE,kg,Hottle,New ChemDash match [name],,,2019-12-20
 "1,2-Dibromo-1-fluoroethane",kg,=,"1,2-DIBROMO-1-FLUROETHANE",kg,Hottle,New ChemDash match [CAS],,,2019-05-22
 "2-Bromo-1,1,1-trifluoroethane",kg,=,C2H2F3BR,kg,Hottle,New ChemDash match [CAS],,,2019-05-22
 "1,1,1,2,2,3-hexachloro-3-fluoropropane",kg,=,HCFC-221,kg,Hottle,New ChemDash match [CAS],,,2019-05-22
@@ -3502,7 +3502,7 @@ Citronellol,kg,=,(+-)-CITRONELLOL,kg,Hottle,New ChemDash match [CAS],,CAS No is 
 "Cyclohexane, 1-methyl-4-nonyl-",kg,=,1-METHYL-4-NONYL CYCLOHEXANE,kg,Hottle,New ChemDash match [CAS],,,2019-05-22
 2-Hydroxymethyl-Propenal,kg,=,HYDROXYL-METHACROLEIN,kg,Hottle,New ChemDash match [CAS],,,2019-05-22
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",kg,=,"PROPANEDIOIC ACID, 1,3-DITHIOLAN-2-YLIDENE-, BIS",kg,Hottle,New ChemDash match [CAS],,,2019-05-22
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",kg,=,"2,2,4(OR 2,4,4)-TRIMETHYLADIPIC ACID",kg,Hottle,New ChemDash match [CAS],,,2019-05-22
+"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",kg,=,"2,2,4(OR 2,4,4)-TRIMETHYLADIPIC ACID",kg,Hottle,New ChemDash match [CAS],,,2019-12-20
 1-Methyl-4-pentylcyclohexane,kg,=,1-METHYL-4-PENTYL CYCLOHEXANE,kg,Hottle,New ChemDash match [CAS],,,2019-05-22
 "3,7-Dimethyldodecane",kg,=,"3,7-DIMETHYL DODECANE",kg,Hottle,New ChemDash match [CAS],,,2019-05-22
 1-Methyl-2-hexylcyclohexane,kg,=,1-METHYL-2-HEXYL CYCLOHEXANE,kg,Hottle,New ChemDash match [CAS],,,2019-05-22
