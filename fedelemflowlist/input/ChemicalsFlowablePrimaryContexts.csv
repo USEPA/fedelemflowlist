@@ -9851,6 +9851,7 @@ Bromate,Emission,Water
 HFE-338mcf2,Emission,Air
 Radium-223,Emission,Ground
 Radium-223,Emission,Water
+"cis-1,2-Dichloroethylene",Emission,Air
 "cis-1,2-Dichloroethylene",Emission,Ground
 "cis-1,2-Dichloroethylene",Emission,Water
 Calcium cyanamide,Emission,Air
@@ -10863,27 +10864,27 @@ Dipropan-2-yl carbonate,Emission,Air
 "(Z)-2,6-Dimethylmorpholine",Emission,Air
 "(Z)-2,6-Dimethylmorpholine",Emission,Ground
 "(Z)-2,6-Dimethylmorpholine",Emission,Water
-"3,​9-​diethylundecane",Emission,Air
-"2,​4,​6,​8-​tetramethylnonane",Emission,Air
+"3,9-diethylundecane",Emission,Air
+"2,4,6,8-tetramethylnonane",Emission,Air
 3-methyl-tetradecane,Emission,Air
 "(E)-1,3-Hexadiene",Emission,Air
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Air
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Ground
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Water
 6-methyltetradecane,Emission,Air
-"Cyclohexane, 1-​methyl-​4-​nonyl-",Emission,Air
+"Cyclohexane, 1-methyl-4-nonyl-",Emission,Air
 2-Hydroxymethyl-Propenal,Emission,Air
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Air
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Ground
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Water
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Air
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Ground
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Water
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Air
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Ground
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Water
 1-Methyl-4-pentylcyclohexane,Emission,Air
 "3,7-Dimethyldodecane",Emission,Air
 1-Methyl-2-hexylcyclohexane,Emission,Air
 2-tert-Butoxypropan-1-ol,Emission,Air
-"Pentane, 2,​4-​dimethyl-​3-​methylene-",Emission,Air
+"Pentane, 2,4-dimethyl-3-methylene-",Emission,Air
 "1,3-Diethyl-5-Methylcyclohexane",Emission,Air
 "1,3,5-triethylcyclohexane",Emission,Air
 "4,8-dimethyltetradecane",Emission,Air
