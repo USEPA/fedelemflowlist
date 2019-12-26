@@ -7216,7 +7216,7 @@ Clofentezine,Emission,Water
 "Phosphonic acid, (1-hydroxyethylidene)bis-, disodium salt",Emission,Water
 Bensulide,Emission,Air
 Bensulide,Emission,Ground
-Bensulide,Emission,Water
+Bensulide,EmFission,Water
 Sulfometuron methyl,Emission,Air
 Sulfometuron methyl,Emission,Ground
 Sulfometuron methyl,Emission,Water
@@ -10464,7 +10464,7 @@ Ethylenediaminetetraacetic acid ammonium salt,Emission,Water
 Endrin aldehyde,Emission,Ground
 Endrin aldehyde,Emission,Water
 Lead stearate,Emission,Air
-Iron,Emission,Ground
+Iron,Emission,Air
 Iron,Emission,Water
 Iron,Resource,Ground
 Lanthanum,Emission,Ground
