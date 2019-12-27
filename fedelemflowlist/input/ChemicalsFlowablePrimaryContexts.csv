@@ -9851,6 +9851,7 @@ Bromate,Emission,Water
 HFE-338mcf2,Emission,Air
 Radium-223,Emission,Ground
 Radium-223,Emission,Water
+"cis-1,2-Dichloroethylene",Emission,Air
 "cis-1,2-Dichloroethylene",Emission,Ground
 "cis-1,2-Dichloroethylene",Emission,Water
 Calcium cyanamide,Emission,Air
@@ -10501,6 +10502,7 @@ Strontium,Emission,Water
 Tantalum,Emission,Ground
 Tantalum,Emission,Water
 Tantalum,Resource,Ground
+Tin,Emission,Air
 Tin,Emission,Ground
 Tin,Emission,Water
 Tin,Resource,Ground
@@ -10862,27 +10864,27 @@ Dipropan-2-yl carbonate,Emission,Air
 "(Z)-2,6-Dimethylmorpholine",Emission,Air
 "(Z)-2,6-Dimethylmorpholine",Emission,Ground
 "(Z)-2,6-Dimethylmorpholine",Emission,Water
-"3,​9-​diethylundecane",Emission,Air
-"2,​4,​6,​8-​tetramethylnonane",Emission,Air
+"3,9-diethylundecane",Emission,Air
+"2,4,6,8-tetramethylnonane",Emission,Air
 3-methyl-tetradecane,Emission,Air
 "(E)-1,3-Hexadiene",Emission,Air
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Air
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Ground
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Water
 6-methyltetradecane,Emission,Air
-"Cyclohexane, 1-​methyl-​4-​nonyl-",Emission,Air
+"Cyclohexane, 1-methyl-4-nonyl-",Emission,Air
 2-Hydroxymethyl-Propenal,Emission,Air
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Air
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Ground
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Water
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Air
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Ground
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Water
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Air
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Ground
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Water
 1-Methyl-4-pentylcyclohexane,Emission,Air
 "3,7-Dimethyldodecane",Emission,Air
 1-Methyl-2-hexylcyclohexane,Emission,Air
 2-tert-Butoxypropan-1-ol,Emission,Air
-"Pentane, 2,​4-​dimethyl-​3-​methylene-",Emission,Air
+"Pentane, 2,4-dimethyl-3-methylene-",Emission,Air
 "1,3-Diethyl-5-Methylcyclohexane",Emission,Air
 "1,3,5-triethylcyclohexane",Emission,Air
 "4,8-dimethyltetradecane",Emission,Air
@@ -11345,3 +11347,17 @@ Uranium-235,Emission,Air
 Uranium-235,Emission,Ground
 Strontium-87,Emission,Ground
 Strontium-87,Emission,Water
+"1-Propene, 1,1,2,3,3,3-hexafluoro-, oxidized, polymd.",Emission,Air
+"Methane, bis(difluoromethoxy)difluoro-",Emission,Air
+HFE 7100,Emission,Air
+"1-Nonanol, 2,4,6,8-tetramethyl-, acetate",Emission,Air
+"2,5-Dimethyloctane",Emission,Air
+2-Pentene,Emission,Air
+3-Methylheptyl acetate,Emission,Air
+3-Octene,Emission,Air
+Light aromatic solvent naphtha (petroleum),Emission,Air
+cis-4-Methyl-2-pentene,Emission,Air
+3-methyl-2-hexene,Emission,Air
+"2-Hexene, 4-Methyl-, (E)-",Emission,Air
+"Naphtha, petroleum, hydrotreated light",Emission,Air
+Dibromodifluoroethane,Emission,Air
