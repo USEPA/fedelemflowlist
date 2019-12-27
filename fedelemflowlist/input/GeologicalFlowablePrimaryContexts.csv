@@ -473,3 +473,18 @@ Zeolites,Emission,Ground
 Titanium oxide,Resource,Ground
 Titanium dioxide,Resource,Ground
 Uranium oxide,Resource,Ground
+Barite,Emission,Water
+Bauxite,Emission,Water
+Bauxite,Emission,Ground
+Bauxite,Emission,Air
+Borate,Emission,Water
+Bromate,Emission,Air
+Bromide,Emission,Air
+Crude oil,Emission,Air
+Crude oil,Emission,Water
+Crude oil,Emission,Ground
+Helium,Emission,Air
+Hydrogen,Emission,Air
+Hydrogen,Emission,Water
+Nitratine,Emission,Air
+Soil,Emission,Water
