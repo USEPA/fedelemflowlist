@@ -478,3 +478,15 @@ Tetrachlorvinphos,Emission,Air
 Tetrachlorvinphos,Emission,Water
 Tetrachlorvinphos,Emission,Ground
 Particulate matter,Emission,Air
+Adsorbable organic halides,Emission,Air
+"Hydrocarbons, chlorinated",Emission,Air
+"Hydrocarbons, halogenated
+Mercaptans,Emission,Air
+Metals,Emission,Air
+Organic compounds,Emission,Air
+"Particulate matter, > 10μm",Emission,Water
+"Particulate matter, ≤ 10μm",Emission,Water
+Phenols,Emission,Air
+Phosphorus compounds,Emission,Water
+Radionuclides,Emission,Water
+Volatile organic compounds,Emission,Water
