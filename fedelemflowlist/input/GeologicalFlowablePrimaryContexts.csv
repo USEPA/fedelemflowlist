@@ -83,7 +83,7 @@ Calderite,Resource,Ground
 Caliche,Resource,Ground
 Carbon dioxide,Resource,Air
 Carnallite,Resource,Ground
-Carnotite,Resource,Ground
+Carnotite,Resource,Water
 Cassiterite,Resource,Ground
 Celestine,Resource,Ground
 Celsian,Resource,Ground
@@ -488,3 +488,4 @@ Hydrogen,Emission,Air
 Hydrogen,Emission,Water
 Nitratine,Emission,Air
 Soil,Emission,Water
+Zeolites,Resource,Ground
