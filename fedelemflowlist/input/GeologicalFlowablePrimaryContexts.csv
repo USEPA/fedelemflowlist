@@ -489,3 +489,7 @@ Hydrogen,Emission,Water
 Nitratine,Emission,Air
 Soil,Emission,Water
 Zeolites,Resource,Ground
+Dysporium,Resource,Ground
+Sodium carbonate,Emission,Air
+Sodium carbonate,Emission,Ground
+Sodium carbonate,Emission,Water
