@@ -58,6 +58,7 @@ air/rural,emission/air/troposphere/rural/high
 air/rural,emission/air/troposphere/rural/very high
 air/rural,emission/air/troposphere/rural/ground-level
 air/urban,emission/air/urban
+air/urban,emission/air/troposphere/urban
 air/urban,emission/air/troposphere/urban/low
 air/urban,emission/air/troposphere/urban/high
 air/urban,emission/air/troposphere/urban/very high
