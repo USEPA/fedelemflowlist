@@ -9923,6 +9923,7 @@ Benzo[ghi]fluoranthene,Emission,Air
 Benzo[a]fluoranthene,Emission,Air
 Iodide,Emission,Ground
 Iodide,Emission,Water
+Iodide,Emission,Air
 "3,5-Diethyltoluene",Emission,Air
 2-Propoxyethanol acetate,Emission,Air
 Osmium tetroxide,Emission,Air
@@ -10465,8 +10466,9 @@ Ethylenediaminetetraacetic acid ammonium salt,Emission,Water
 Endrin aldehyde,Emission,Ground
 Endrin aldehyde,Emission,Water
 Lead stearate,Emission,Air
-Iron,Emission,Ground
+Iron,Ground
 Iron,Emission,Water
+Iron,Emission,Air
 Iron,Resource,Ground
 Lanthanum,Emission,Ground
 Lanthanum,Emission,Water
@@ -10568,6 +10570,7 @@ Perfluorooctanesulfonamide,Emission,Water
 Titanium tetrachloride,Emission,Air
 Iodine,Emission,Ground
 Iodine,Emission,Water
+Iodine,Emission,Air
 Iodine,Emission,Ground
 Iodine,Resource,Water
 Propyleneimine,Emission,Air
