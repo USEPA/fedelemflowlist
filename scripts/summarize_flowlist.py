@@ -8,7 +8,7 @@ from fedelemflowlist.globals import outputpath
 
 if __name__ == '__main__':
     flowlist = fedelemflowlist.get_flows()
-    preferred_flows = flowlist[flowlist['Preferred'] is True]
+    preferred_flows = flowlist[flowlist['Preferred'] == 1]
 
     all_flows_counts = count_flows_by_class(flowlist)
     all_flows_counts.to_csv(outputpath + 'all_flows_counts.csv', index=False)

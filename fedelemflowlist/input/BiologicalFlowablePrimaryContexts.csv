@@ -1,10 +1,23 @@
 Flowable,Directionality,Environmental Media
 Biomass,Resource,Biotic
+Biomass,Resource,Water
 Hardwood,Resource,Biotic
 Softwood,Resource,Biotic
 Wood,Resource,Biotic
 Bacillus subtilis,Emission,Ground
 Bacillus thuringiensis var. aizawai,Emission,Ground
-Bacillus thuringiensis var. israeliensis,Emission,Ground
+Bacillus thuringiensis var. israelensis,Emission,Ground
 Bacillus thuringiensis var. kurstaki,Emission,Ground
 Entomopathogenic virus,Emission,Ground
+Pseudomonas fluorescens,Emission,Air
+Pseudomonas fluorescens,Emission,Ground
+Pseudomonas fluorescens,Emission,Water
+Beauveria bassiana,Emission,Ground
+Bacillus pumilus,Emission,Ground
+Myrothecium verrucaria,Emission,Ground
+Wood,Emission,Air
+Biomass,Emission,Air
+Biomass,Emission,Ground
+Hardwood,Resource,Ground
+Softwood,Resource,Ground
+Water,Resource,Ground

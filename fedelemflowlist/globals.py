@@ -12,6 +12,7 @@ except NameError:
 outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 flowmappingpath = modulepath + 'flowmapping/'
+
 flow_list_fields = {'Flowable': [{'dtype': 'str'}, {'required': True}],
                     'CAS No': [{'dtype': 'str'}, {'required': False}],
                     'Formula': [{'dtype': 'str'}, {'required': False}],
@@ -43,11 +44,13 @@ flowmapping_fields = {'SourceListName': [{'dtype': 'str'}, {'required': True}],
 log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
-try:
-    with open(modulepath + "flowlistspecs.json") as cfg:
-        flow_list_specs = json.load(cfg)
-except FileNotFoundError:
-    log.info("Flow list specs not found. Create a flow list specs file.")
+flow_list_specs = {
+    "list_version": "1.0",
+    "flow_classes": ["Biological", "Chemicals", "Energy", "Geological", "Groups", "Land", "Other", "Water"],
+    "primary_context_classes": ["Directionality", "Environmental Media"],
+    "secondary_context_classes": ["Vertical Strata", "Land Use", "Human-Dominated", "Terrestrial", "Aquatic Feature",
+                                  "Indoor", "Population Density", "Release Height"]
+}
 
 def convert_to_lower(x):
     """Convert string to lower case

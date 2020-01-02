@@ -24,6 +24,7 @@ Aflatoxins,Emission,Ground
 Aflatoxins,Emission,Water
 "Benzene, 1,1'-ethylidenebis-, isopropylated, distn. residues",Emission,Ground
 "Benzene, 1,1'-ethylidenebis-, isopropylated, distn. residues",Emission,Water
+Hydrocarbons,Emission,Air
 Hydrocarbons,Emission,Ground
 Hydrocarbons,Emission,Water
 Perfluorocarbons,Emission,Air
@@ -187,6 +188,8 @@ Diisocyanates,Emission,Air
 Diisocyanates,Emission,Ground
 Diisocyanates,Emission,Water
 Dioxins,Emission,Air
+Dioxins,Emission,Ground
+Dioxins,Emission,Water
 "Distillates, low vapor pressure volatile organic compounds",Emission,Air
 Dodecane isomers,Emission,Air
 "Endothal, salts and esters",Emission,Ground
@@ -441,3 +444,52 @@ C5 alkenes,Emission,Air
 C6 alkenes,Emission,Air
 "2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-,  (1aR,2R,2aR,3R,6S,6aS,7S,7aS)-rel-, and metabolites",Emission,Water
 "Particulate matter, ≤ 10μm",Emission,Air
+"Organic carbon, PM2.5 LC",Emission,Air
+Radionuclides,Emission,Air
+Radionuclides,Emission,Water
+Fatty acids,Emission,Ground
+Fatty acids,Emission,Water
+Terpenes,Emission,Air
+Organochlorine pesticides,Emission,Air
+Organochlorine pesticides,Emission,Ground
+Organochlorine pesticides,Emission,Water
+"Solvents, chlorinated",Emission,Air
+"Solvents, chlorinated",Emission,Ground
+"Solvents, chlorinated",Emission,Water
+Carboxylic acids,Emission,Ground
+Carboxylic acids,Emission,Water
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Air
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Ground
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Water
+"Benzene, methyl benzene, and dimethyl benzene, total",Emission,Air
+Aromatics,Emission,Air
+Aromatics,Emission,Ground
+Aromatics,Emission,Water
+Aromatic hydrocarbons,Emission,Air
+Chlorofluorocarbons,Emission,Air
+Chlorofluorocarbons,Emission,Ground
+Chlorofluorocarbons,Emission,Water
+Tributyltin Compounds,Emission,Ground
+Tributyltin Compounds,Emission,Water
+Toluenediamine,Emission,Air
+Toluenediamine,Emission,Ground
+Toluenediamine,Emission,Water
+Tetrachlorvinphos,Emission,Air
+Tetrachlorvinphos,Emission,Water
+Tetrachlorvinphos,Emission,Ground
+Particulate matter,Emission,Air
+Tribromofluoroethanes,Emission,Air
+Tribromodifluoroethanes,Emission,Air
+Tetrabromofluoroethanes,Emission,Air
+Tetrabromodifluoropropanes,Emission,Air
+Dibromotetrafluoropropanes,Emission,Air
+Pentabromofluoropropanes,Emission,Air
+Tribromodifluoropropanes,Emission,Air
+Tetrabromofluoropropanes,Emission,Air
+Tribromofluoropropanes,Emission,Air
+Pentabromodifluoropropanes,Emission,Air
+Tetrabromotrifluoropropanes,Emission,Air
+Tribromotetrafluoropropanes,Emission,Air
+Dibromopentafluoropropanes,Emission,Air
+Hexabromofluoropropanes,Emission,Air
+Propylbenzene isomers,Emission,Air

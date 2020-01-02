@@ -1,6 +1,10 @@
 ## Secondary Context Membership Input File Format
 
-The secondary context membership input file is in the form of CSV data with the following fields. 
+The secondary context membership input file is in the form of CSV data with the following fields.
+Secondary context membership indicates whether or not secondary contexts (see [Contexts](Contexts.md)
+for class definitions) should be associated with flows from this FlowClass with listed primary contexts
+ (Directionality and Environmental Media).
+
  
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
@@ -15,7 +19,7 @@ The secondary context membership input file is in the form of CSV data with the 
  Indoor | int |  Y |  `1` for included and `0` for excluded. See note. |
  Population Density | int | Y | `1` for included and `0` for excluded. See note. |  
  Release Height | int | Y | `1` for included and `0` for excluded. See note. |
- ContextPreferred | int | Y | `1` for included and `0` for excluded. See note. |
+ ContextPreferred* | int | Y | `1` for included and `0` for excluded. See note. |
 
-Note: Indicates whether or not contexts with compartment of this class (see [Contexts](Contexts.md) for class definitions)
- should be associated with flows from this FlowClass and primary contexts (Directionality and Environmental Media). 
+ \* See the [EPA Report]((https://cfpub.epa.gov/si/si_public_search_results.cfm?simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019))
+  for discussion of preferred secondary contexts.

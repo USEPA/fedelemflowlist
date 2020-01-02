@@ -3,8 +3,12 @@ Biomass,,,,kg,,0
 Hardwood,,,,kg,,1
 Softwood,,,,kg,,1
 Wood,,,,kg,,0
-Bacillus subtilis,,,,kg,,1
-Bacillus thuringiensis var. aizawai,,,,kg,,1
-Bacillus thuringiensis var. israeliensis,,,,kg,,1
-Bacillus thuringiensis var. kurstaki,,,,kg,,1
+Bacillus subtilis,68038-70-0,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=107756,1
+Bacillus thuringiensis var. aizawai,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=6417,1
+Bacillus thuringiensis var. israelensis,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=6419,1
+Bacillus thuringiensis var. kurstaki,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=6418,1
 Entomopathogenic virus,,,,kg,,1
+Pseudomonas fluorescens,68332-93-4,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=23410,1
+Beauveria bassiana,63428-82-0,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=23685,1
+Bacillus pumilus,,,,kg,https://agclass.nal.usda.gov/mtwdk.exe?k=default&l=60&w=14562&n=1&s=5&t=2,1
+Myrothecium verrucaria,67892-16-4,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=23513,1
