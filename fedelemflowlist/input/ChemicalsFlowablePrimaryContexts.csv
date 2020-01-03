@@ -11371,10 +11371,9 @@ Argon,Emission,Air
 "Arsenic(III) trioxide",Emission,Water
 "Arsenic(III) trioxide",Emission,Ground
 Arsine,Emission/Water
-Asbestos,Emission,Ground
 "Benzene, pentamethyl-",Emission,Water
 "Benz[a]anthracene",Emission,Air
-"Benzo[b]fluoranthene",Emission,Air
+"Benzo(b)fluoranthene",Emission,Air
 Benzofluoranthene,Emission,Water
 Benzoyl peroxide,Emission,Ground
 Benzoyl peroxide,Emission,Water
@@ -11391,7 +11390,7 @@ Dimethyl ether,Emission,Water
 Dimethylamine dicamba,Emission,Water
 Dimethylamine dicamba,Emission,Ground
 Dipropyl isocinchomeronate,Emission,Ground
-Disodium phosphonate,Emission,Ground
+"Phosphonic acid, disodium salt",Emission,Ground
 Ethyl cellulose,Emission,Air
 Ethyl chloroformate,Emission,Water
 Ethyl chloroformate,Emission,Ground
