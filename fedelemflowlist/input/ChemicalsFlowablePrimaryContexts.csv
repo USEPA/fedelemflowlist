@@ -11007,7 +11007,6 @@ Anthranilic acid,Emission,Water
 Boron carbide,Emission,Air
 Boron carbide,Emission,Water
 Butoxypolypropylene glycol,Emission,Ground
-Carbon black,Emission,Air
 Chlorate,Emission,Water
 Chlorfenapyr,Emission,Ground
 Chloroacetyl chloride,Emission,Water
@@ -11190,7 +11189,6 @@ Copper hydroxide sulfate monohydrate,Emission,Ground
 Copper hydroxide sulfate monohydrate,Emission,Water
 Tetramethylethylenediamine,Emission,Air
 Aluminum hydroxide,Emission,Water
-"2-Methyl-1,3-dioxolane",Emission,Water
 Trisodium phosphate,Emission,Air
 Americium-241,Emission,Air
 Americium-241,Emission,Ground
@@ -11324,7 +11322,6 @@ Vanadium(III),Emission,Ground
 Vanadium(III),Emission,Water
 Lithium(I),Emission,Water
 Copper(I),Emission,Water
-Iron(II),Emission,Water
 Mercury(II),Emission,Ground
 Mercury(II),Emission,Water
 HCFC-121,Emission,Water
@@ -11350,7 +11347,6 @@ Uranium-235,Emission,Ground
 Strontium-87,Emission,Ground
 Strontium-87,Emission,Water
 "1-Propene, 1,1,2,3,3,3-hexafluoro-, oxidized, polymd.",Emission,Air
-"Methane, bis(difluoromethoxy)difluoro-",Emission,Air
 HFE 7100,Emission,Air
 "1-Nonanol, 2,4,6,8-tetramethyl-, acetate",Emission,Air
 "2,5-Dimethyloctane",Emission,Air
@@ -11366,14 +11362,11 @@ Dibromodifluoroethane,Emission,Air
 1-Butene,Emission,Water
 1-Pentene,Emission,Water
 2-Methyl-2-butene,Emission,Water
-Aluminum,Emission,Air
 Argon,Emission,Air
 "Arsenic(III) trioxide",Emission,Water
 "Arsenic(III) trioxide",Emission,Ground
 Arsine,Emission,Water
 "Benzene, pentamethyl-",Emission,Water
-"Benz[a]anthracene",Emission,Air
-"Benzo(b)fluoranthene",Emission,Air
 Benzofluoranthene,Emission,Water
 Benzoyl peroxide,Emission,Ground
 Benzoyl peroxide,Emission,Water
@@ -11390,7 +11383,6 @@ Dimethyl ether,Emission,Water
 Dimethylamine dicamba,Emission,Water
 Dimethylamine dicamba,Emission,Ground
 Dipropyl isocinchomeronate,Emission,Ground
-"Phosphonic acid, disodium salt",Emission,Ground
 Ethyl cellulose,Emission,Air
 Ethyl chloroformate,Emission,Water
 Ethyl chloroformate,Emission,Ground
@@ -11439,7 +11431,6 @@ Bismuth,Resource,Ground
 Boron,Resource,Ground
 Calcium,Resource,Ground
 Carbon,Resource,Ground
-Carbon,Resource,Biotic
 Chlorine,Resource,Water
 Erbium,Resource,Ground
 Holmium,Resource,Ground
@@ -11482,5 +11473,4 @@ Ytterbium,Resource,Ground
 Yttrium,Resource,Ground
 Zirconium oxide,Resource,Ground
 Manganese-55,Emission,Water
-Bromate,Emission,Air
 Bromide,Emission,Air
