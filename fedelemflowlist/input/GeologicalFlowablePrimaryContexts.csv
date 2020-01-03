@@ -83,7 +83,8 @@ Calderite,Resource,Ground
 Caliche,Resource,Ground
 Carbon dioxide,Resource,Air
 Carnallite,Resource,Ground
-Carnotite,Resource,Ground
+Carnallite,Resource,Water
+Carnotite,Resource,Water
 Cassiterite,Resource,Ground
 Celestine,Resource,Ground
 Celsian,Resource,Ground
@@ -473,3 +474,22 @@ Zeolites,Emission,Ground
 Titanium oxide,Resource,Ground
 Titanium dioxide,Resource,Ground
 Uranium oxide,Resource,Ground
+Barite,Emission,Water
+Bauxite,Emission,Water
+Bauxite,Emission,Ground
+Bauxite,Emission,Air
+Borate,Emission,Water
+Crude oil,Emission,Air
+Crude oil,Emission,Water
+Crude oil,Emission,Ground
+Helium,Emission,Air
+Hydrogen,Emission,Air
+Hydrogen,Emission,Water
+Nitratine,Emission,Air
+Soil,Emission,Water
+Zeolites,Resource,Ground
+Dysporium,Resource,Ground
+Sodium carbonate,Emission,Air
+Sodium carbonate,Emission,Ground
+Sodium carbonate,Emission,Water
+Asbestos,Emission,Ground
