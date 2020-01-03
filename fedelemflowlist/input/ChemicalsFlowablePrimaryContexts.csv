@@ -9851,6 +9851,7 @@ Bromate,Emission,Water
 HFE-338mcf2,Emission,Air
 Radium-223,Emission,Ground
 Radium-223,Emission,Water
+"cis-1,2-Dichloroethylene",Emission,Air
 "cis-1,2-Dichloroethylene",Emission,Ground
 "cis-1,2-Dichloroethylene",Emission,Water
 Calcium cyanamide,Emission,Air
@@ -9922,6 +9923,7 @@ Benzo[ghi]fluoranthene,Emission,Air
 Benzo[a]fluoranthene,Emission,Air
 Iodide,Emission,Ground
 Iodide,Emission,Water
+Iodide,Emission,Air
 "3,5-Diethyltoluene",Emission,Air
 2-Propoxyethanol acetate,Emission,Air
 Osmium tetroxide,Emission,Air
@@ -10466,6 +10468,7 @@ Endrin aldehyde,Emission,Water
 Lead stearate,Emission,Air
 Iron,Emission,Ground
 Iron,Emission,Water
+Iron,Emission,Air
 Iron,Resource,Ground
 Lanthanum,Emission,Ground
 Lanthanum,Emission,Water
@@ -10501,6 +10504,7 @@ Strontium,Emission,Water
 Tantalum,Emission,Ground
 Tantalum,Emission,Water
 Tantalum,Resource,Ground
+Tin,Emission,Air
 Tin,Emission,Ground
 Tin,Emission,Water
 Tin,Resource,Ground
@@ -10566,7 +10570,7 @@ Perfluorooctanesulfonamide,Emission,Water
 Titanium tetrachloride,Emission,Air
 Iodine,Emission,Ground
 Iodine,Emission,Water
-Iodine,Emission,Ground
+Iodine,Emission,Air
 Iodine,Resource,Water
 Propyleneimine,Emission,Air
 Tetramethylammonium hydroxide,Emission,Ground
@@ -10862,27 +10866,27 @@ Dipropan-2-yl carbonate,Emission,Air
 "(Z)-2,6-Dimethylmorpholine",Emission,Air
 "(Z)-2,6-Dimethylmorpholine",Emission,Ground
 "(Z)-2,6-Dimethylmorpholine",Emission,Water
-"3,​9-​diethylundecane",Emission,Air
-"2,​4,​6,​8-​tetramethylnonane",Emission,Air
+"3,9-diethylundecane",Emission,Air
+"2,4,6,8-tetramethylnonane",Emission,Air
 3-methyl-tetradecane,Emission,Air
 "(E)-1,3-Hexadiene",Emission,Air
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Air
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Ground
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",Emission,Water
 6-methyltetradecane,Emission,Air
-"Cyclohexane, 1-​methyl-​4-​nonyl-",Emission,Air
+"Cyclohexane, 1-methyl-4-nonyl-",Emission,Air
 2-Hydroxymethyl-Propenal,Emission,Air
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Air
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Ground
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",Emission,Water
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Air
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Ground
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",Emission,Water
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Air
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Ground
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",Emission,Water
 1-Methyl-4-pentylcyclohexane,Emission,Air
 "3,7-Dimethyldodecane",Emission,Air
 1-Methyl-2-hexylcyclohexane,Emission,Air
 2-tert-Butoxypropan-1-ol,Emission,Air
-"Pentane, 2,​4-​dimethyl-​3-​methylene-",Emission,Air
+"Pentane, 2,4-dimethyl-3-methylene-",Emission,Air
 "1,3-Diethyl-5-Methylcyclohexane",Emission,Air
 "1,3,5-triethylcyclohexane",Emission,Air
 "4,8-dimethyltetradecane",Emission,Air
@@ -11129,7 +11133,7 @@ Dimoxystrobin,Emission,Ground
 Doramectin,Emission,Ground
 Eprinomectin,Emission,Ground
 Fluazifop,Emission,Ground
-Flupyrsulfuron-methyl [ISO],Emission,Ground
+Flupyrsulfuron-methyl,Emission,Ground
 "1-(2,4-Dichlorophenyl)-5-methyl-4,5-dihydro-1H-pyrazole-3,5-dicarboxylic acid",Emission,Ground
 Metosulam,Emission,Ground
 Moxidectin,Emission,Ground
@@ -11345,3 +11349,138 @@ Uranium-235,Emission,Air
 Uranium-235,Emission,Ground
 Strontium-87,Emission,Ground
 Strontium-87,Emission,Water
+"1-Propene, 1,1,2,3,3,3-hexafluoro-, oxidized, polymd.",Emission,Air
+"Methane, bis(difluoromethoxy)difluoro-",Emission,Air
+HFE 7100,Emission,Air
+"1-Nonanol, 2,4,6,8-tetramethyl-, acetate",Emission,Air
+"2,5-Dimethyloctane",Emission,Air
+2-Pentene,Emission,Air
+3-Methylheptyl acetate,Emission,Air
+3-Octene,Emission,Air
+Light aromatic solvent naphtha (petroleum),Emission,Air
+cis-4-Methyl-2-pentene,Emission,Air
+3-methyl-2-hexene,Emission,Air
+"2-Hexene, 4-Methyl-, (E)-",Emission,Air
+"Naphtha, petroleum, hydrotreated light",Emission,Air
+Dibromodifluoroethane,Emission,Air
+1-Butene,Emission,Water
+1-Pentene,Emission,Water
+2-Methyl-2-butene,Emission,Water
+Aluminum,Emission,Air
+Argon,Emission,Air
+"Arsenic(III) trioxide",Emission,Water
+"Arsenic(III) trioxide",Emission,Ground
+Arsine,Emission,Water
+"Benzene, pentamethyl-",Emission,Water
+"Benz[a]anthracene",Emission,Air
+"Benzo(b)fluoranthene",Emission,Air
+Benzofluoranthene,Emission,Water
+Benzoyl peroxide,Emission,Ground
+Benzoyl peroxide,Emission,Water
+Bis(N-Cyclohexyldiazeniumdioxy)copper,Emission,Water
+Boron,Emission,Air
+Bromate,Emission,Air
+Calcium,Emission,Air
+Calcium chloride,Emission,Air
+Carbon,Resource,Biotic
+Carbon monoxide,Emission,Water
+CFC-13,Emission,Water
+Chloride,Emission,Air
+Dimethyl ether,Emission,Water
+Dimethylamine dicamba,Emission,Water
+Dimethylamine dicamba,Emission,Ground
+Dipropyl isocinchomeronate,Emission,Ground
+"Phosphonic acid, disodium salt",Emission,Ground
+Ethyl cellulose,Emission,Air
+Ethyl chloroformate,Emission,Water
+Ethyl chloroformate,Emission,Ground
+Fluoride,Emission,Air
+Flusilazole,Emission,Air
+Gold,Emission,Air
+HCFC-124,Emission,Ground
+Hydrogen ion,Emission,Air
+Lanthanum,Emission,Air
+Lanthanum-140,Emission,Water
+Lithium,Emission,Air
+Magnesium,Emission,Air
+Magnesium chloride,Emission,Water
+Manganese-54,Emission,Water
+Methyl chlorocarbonate,Emission,Water
+Methyl chlorocarbonate,Emission,Ground
+Nitrite,Emission,Air
+Nitrous oxide,Emission,Water
+Orthoboric acid,Emission,Air
+Oxygen,Emission,Air
+Palladium,Emission,Air
+Platinum,Emission,Air
+Potassium,Emission,Air
+Potassium chloride,Emission,Air
+Propyleneimine,Emission,Water
+Rhodium,Emission,Air
+Silicon,Emission,Air
+Sodium,Emission,Air
+Sodium chloride,Emission,Air
+Sodium tetrathiocarbonate,Emission,Ground
+Strontium,Emission,Air
+Sulfate,Emission,Air
+Sulfur trioxide,Emission,Water
+Tellurium,Emission,Air
+Tetramethylammonium hydroxide,Emission,Air
+Titanium tetrachloride,Emission,Ground
+Titanium tetrachloride,Emision,Water
+Tungsten,Emission,Air
+Zirconium,Emission,Air
+Antimony,Resource,Ground
+Argon-40,Resource,Air
+Arsenic,Resource,Ground
+Barium,Resource,Ground
+Beryllium,Resource,Ground
+Bismuth,Resource,Ground
+Boron,Resource,Ground
+Calcium,Resource,Ground
+Carbon,Resource,Ground
+Carbon,Resource,Biotic
+Chlorine,Resource,Water
+Erbium,Resource,Ground
+Holmium,Resource,Ground
+Indium,Resource,Ground
+Kaolin,Resource,Ground
+Lithium,Resource,Water
+Magnesium,Resource,Ground
+Manganese,Resource,Ground
+Mercury,Resource,Ground
+Molybdenum,Resource,Water
+Nickel,Resource,Water
+Niobium,Resource,Ground
+Nitrogen,Resource,Ground
+Nitrogen,Resource,Biotic
+Osmium,Resource,Ground
+Oxygen,Resource,Air
+Palladium,Resource,Water
+Orthophosphate,Resource,Ground
+Potassium,Resource,Ground
+Rhenium,Resource,Ground
+Ruthenium,Resource,Ground
+Scandium,Resource,Ground
+Selenium,Resource,Ground
+Silicon,Resource,Ground
+Sodium,Resource,Ground
+Sodium chloride,Resource,Water
+Strontium,Resource,Ground
+Sulfur,Resource,Ground
+Sulfur,Resource,Water
+Tellurium,Resource,Ground
+Terbium,Resource,Ground
+Thallium,Resource,Ground
+Thulium,Resource,Ground
+Tin dioxide,Resource,Ground
+Titanium,Resource,Ground
+Tungsten,Resource,Ground
+Uranium,Resource,Ground
+Vanadium,Resource,Ground
+Ytterbium,Resource,Ground
+Yttrium,Resource,Ground
+Zirconium oxide,Resource,Ground
+Manganese-55,Emission,Water
+Bromate,Emission,Air
+Bromide,Emission,Air

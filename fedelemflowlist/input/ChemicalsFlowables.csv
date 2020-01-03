@@ -3483,7 +3483,7 @@ Hematite,1317-60-8,-,Hematite (Fe2O3),kg,https://ofmpub.epa.gov/sor_internet/reg
 1(or 2)-Methoxypropanol,1320-67-8,-,"Propylene glycol monomethyl ether; Propanol, 1(or 2)-methoxy-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82790,1
 Chrysotile asbestos,132207-32-0,-,"Asbestos, chrysotile",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76803,1
 Chlorpheniramine,132-22-9,C16H19ClN2,"2-Pyridinepropanamine, .gamma.-(4-chlorophenyl)-N,N-dimethyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46657,1
-Radium-224,13233-32-4,-,"Radium, isotope of mass 224",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5237,1
+Radium-224,13233-32-4,-,"Radium, isotope of mass 224",kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5237,1
 "2-Heptanol, 2,6-dimethyl-",13254-34-7,C9H20O,"2,6-Dimethyl-2-heptanol",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97950,1
 Arsenic(III) trioxide,1327-53-3,As2O3,Arsenic oxide (As2O3); Arsenic oxide (As2O3),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43070,1
 "ar,ar'-Dimethoxybenzidine",1331-53-9,-,"[1,1'-Biphenyl]-4,4'-diamine, ar,ar'-dimethoxy-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=43028,1
@@ -4328,21 +4328,21 @@ Methyl palmitoleate,1120-25-8,C17H32O2,,kg,https://comptox.epa.gov/dashboard/dss
 (2Z)-Heptene,6443-92-1,C7H14,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60896845,1
 Dipropan-2-yl carbonate,6482-34-4,C7H14O3,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20871931,1
 "(Z)-2,6-Dimethylmorpholine",6485-55-8,C6H13NO,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00896844,1
-"3,​9-​diethylundecane",13286-72-1,C15H32,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40897350,1
-"2,​4,​6,​8-​tetramethylnonane",14638-54-1,C13H28,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID30897349,1
+"3,9-diethylundecane",13286-72-1,C15H32,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40897350,1
+"2,4,6,8-tetramethylnonane",14638-54-1,C13H28,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID30897349,1
 3-methyl-tetradecane,18435-22-8,C15H32,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10897342,1
 "(E)-1,3-Hexadiene",20237-34-7,C6H10,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID50897341,1
 "1,1-Bis(p-ethoxyphenyl)-2-nitropropane",26258-70-8,C19H23NO4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20897338,1
 6-methyltetradecane,26730-16-5,C15H32,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60897337,1
-"Cyclohexane, 1-​methyl-​4-​nonyl-",39762-40-8,C16H32,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID30897283,1
+"Cyclohexane, 1-methyl-4-nonyl-",39762-40-8,C16H32,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID30897283,1
 2-Hydroxymethyl-Propenal,40364-84-9,C4H6O2,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID70897282,1
 "Propanedioic acid, 1,3-dithiolan-2-ylidene-, bis(1-methylethyl) ester, 5-oxide",52303-69-2,C12H18O5S2,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID80897278,1
-"Hexanedioic acid, 2,​2,​4 (or 2,​4,​4)​-​trimethyl-",53445-37-7,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20897277,1
+"Hexanedioic acid, 2,2,4 (or 2,4,4)-trimethyl-",53445-37-7,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20897277,1
 1-Methyl-4-pentylcyclohexane,75736-67-3,C12H24,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID50896839,1
 "3,7-Dimethyldodecane",82144-67-0,C14H30,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID70896831,1
 1-Methyl-2-hexylcyclohexane,92031-93-1,C13H26,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00896829,1
 2-tert-Butoxypropan-1-ol,94023-15-1,C7H16O2,"1-Propanol, 2-(1,1-dimethylethoxy)",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=137839,1
-"Pentane, 2,​4-​dimethyl-​3-​methylene-",111823-35-9,C8H16,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60897352,1
+"Pentane, 2,4-dimethyl-3-methylene-",111823-35-9,C8H16,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID60897352,1
 "1,3-Diethyl-5-Methylcyclohexane",164259-42-1,C11H22,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID70897348,1
 "1,3,5-triethylcyclohexane",164259-43-2,C12H24,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10897347,1
 "4,8-dimethyltetradecane",175032-36-7,C16H34,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID90897345,1
@@ -4504,7 +4504,7 @@ Dimoxystrobin,149961-52-4,C19H22N2O3,,kg,https://comptox.epa.gov/dashboard/dssto
 Doramectin,117704-25-3,C50H74O14,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID9048982,1
 Eprinomectin,123997-26-2,,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID8037542,1
 Fluazifop,69335-91-7,C15H12F3NO4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID3058163,1
-Flupyrsulfuron-methyl [ISO],144740-53-4,C15H14F3N5O7S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID80162796,1
+Flupyrsulfuron-methyl,144740-53-4,C15H14F3N5O7S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID80162796,1
 "1-(2,4-Dichlorophenyl)-5-methyl-4,5-dihydro-1H-pyrazole-3,5-dicarboxylic acid",135591-00-3,C12H10Cl2N2O4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10869847,1
 Metosulam,139528-85-1,C14H13Cl2N5O4S,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID9047544,1
 Moxidectin,113507-06-5,C37H53NO8,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID5037577,1
@@ -4621,3 +4621,34 @@ Europium,7440-53-1,Eu,[Eu],kg,https://ofmpub.epa.gov/sor_internet/registry/subst
 Gadolinium,7440-54-2,Gd,[Gd],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36826,1
 Praseodymium,7440-10-0,Pr,[Pr],kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36995,1
 Strontium-87,378784-28-2,[87Sr],,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=4451,1
+"1-Propene, 1,1,2,3,3,3-hexafluoro-, oxidized, polymd.",69991-67-9,,"Poly(oxydifluormethanediyl)poly(oxy-1,1,2,3,3,3-hexafluoro-1,2-propanediyl), .alpha.-trifluoromethyl-.omega.-trifluoromethoxy-;1-Propene, 1,1,2,3,3,3-hexafluoro-, oxidized, polymd.",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=29123,1
+"Methane, bis(difluoromethoxy)difluoro-",78522-47-1,C3H2F6O2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=99085,1
+HFE 7100,219484-64-7,,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-, mixt. with 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoropropane",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=138248,1
+"1-Nonanol, 2,4,6,8-tetramethyl-, acetate",68922-14-5,C15H30O2 ,"2,4,6,8-Tetramethylnonyl acetate;1-Nonanol, 2,4,6,8-tetramethyl-, 1-acetate",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=67864,1
+"2,5-Dimethyloctane",15869-89-3,C10H22 ,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID70871244,1
+2-Pentene,109-68-2,C5H10 ,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47338,1
+3-Methylheptyl acetate,72218-58-7,C10H20O2 ,"1-Heptanol, 3-methyl-, 1-acetate",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=100838,1
+3-Octene,592-98-3,C8H16 ,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40862260,1
+Light aromatic solvent naphtha (petroleum),64742-95-6,,"Solvent naphtha (petroleum), light arom.",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=15090,1
+cis-4-Methyl-2-pentene,691-38-3,C6H12 ,"2-pentene, 4-methyl-, (z)-;2-Pentene, 4-methyl-, (2Z)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87514,1
+3-methyl-2-hexene,17618-77-8,C7H14 ,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID50871207,1
+"2-Hexene, 4-Methyl-, (E)-",3683-22-5,C7H14 ,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID20875696,1
+"Naphtha, petroleum, hydrotreated light",64742-49-0,,"Naphtha, petroleum, hydrotreated light;Naphtha (petroleum), hydrotreated light",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=15212,1
+Dibromodifluoroethane,31392-96-8,C2H2Br2F2 ,"Ethane, dibromodifluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80374,1
+Ytterbium,7440-64-4,Yb,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36817,1
+Yttrium,7440-65-5,Y,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36816,1
+Zirconium oxide,1314-23-4,ZrO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42863,1
+Thulium,7440-30-4,Tm,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36980,1
+Argon,7440-37-1,Ar,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36974,1
+Ethyl cellulose,9004-57-3,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=37459,1
+Bis(N-Cyclohexyldiazeniumdioxy)copper,312600-89-8,C12H22CuN4O4,"Copper, bis[N-(hydroxy-.kappa.O)-N-(nitroso-.kappa.O)cyclohexanaminato]-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=76843,1
+Magnesium chloride,14989-29-8,MgCl,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=97316,1
+Osmium,7440-04-2,Os,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=37001,1
+Erbium,7440-52-0,Er,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36828,1
+Terbium,7440-27-9,Tb,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36982,1
+Thulium,7440-30-4,Tm,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36980,1
+Holmium,7440-60-0,Ho,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36820,1
+Argon-40,1290046-39-7,[40Ar],,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?search=DTXSID30435907,1
+Tin dioxide,18282-10-5,SnO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=62603,1
+Sodium tetrathiocarbonate,7345-69-9,CNa2S4,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?search=sodium%20tetrathiocarbonate,1
+Manganese-55,,,,kBq,,1
