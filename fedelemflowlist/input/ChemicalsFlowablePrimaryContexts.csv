@@ -11370,7 +11370,7 @@ Aluminum,Emission,Air
 Argon,Emission,Air
 "Arsenic(III) trioxide",Emission,Water
 "Arsenic(III) trioxide",Emission,Ground
-Arsine,Emission/Water
+Arsine,Emission,Water
 "Benzene, pentamethyl-",Emission,Water
 "Benz[a]anthracene",Emission,Air
 "Benzo(b)fluoranthene",Emission,Air
