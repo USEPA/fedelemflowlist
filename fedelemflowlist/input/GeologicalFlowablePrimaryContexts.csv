@@ -61,8 +61,6 @@ Bornite,Resource,Ground
 Boron ore,Resource,Ground
 Bowieite,Resource,Ground
 Bromargyrite,Resource,Ground
-Bromine,Resource,Ground
-Bromine,Resource,Water
 Brushite,Resource,Ground
 Buddingtonite,Resource,Ground
 Bytownite,Resource,Ground
@@ -153,7 +151,6 @@ Ferberite,Resource,Ground
 Filatovite,Resource,Ground
 Florencite (Sm),Resource,Ground
 Fluorapatite,Resource,Ground
-Fluorine,Resource,Ground
 Fluorite,Resource,Ground
 Fluorspar,Resource,Ground
 Forsterite,Resource,Ground
@@ -206,8 +203,6 @@ Indium (III) sulfide,Resource,Ground
 Indium ore,Resource,Ground
 Iodargyrite,Resource,Ground
 Iodate,Resource,Ground
-Iodine,Resource,Ground
-Iodine,Resource,Water
 Irarsite,Resource,Ground
 Iridium ore,Resource,Ground
 Iron chloride,Resource,Ground
