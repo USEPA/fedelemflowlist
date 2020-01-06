@@ -371,6 +371,7 @@ Selenium ore,Resource,Ground
 Shale,Resource,Ground
 Shale gas,Resource,Air
 Silicate group,Resource,Ground
+Silicate group,Emission,Water
 Silt,Resource,Ground
 Silver (I) sulfide,Resource,Ground
 Silver ore,Resource,Ground
