@@ -7558,6 +7558,7 @@ Bromine,Emission,Air
 Bromine,Emission,Ground
 Bromine,Emission,Water
 Bromine,Resource,Water
+Bromine,Resource,Ground
 Oxazolidine E,Emission,Air
 Oxazolidine E,Emission,Ground
 Oxazolidine E,Emission,Water
@@ -10572,6 +10573,7 @@ Iodine,Emission,Ground
 Iodine,Emission,Water
 Iodine,Emission,Air
 Iodine,Resource,Water
+Iodine,Resource,Ground
 Propyleneimine,Emission,Air
 Tetramethylammonium hydroxide,Emission,Ground
 Tetramethylammonium hydroxide,Emission,Water
