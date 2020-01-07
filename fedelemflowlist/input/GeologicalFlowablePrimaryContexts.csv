@@ -25,7 +25,6 @@ Antimony ore,Resource,Ground
 Apatite,Resource,Ground
 Aragonite,Resource,Ground
 Argentite,Resource,Ground
-Argon,Resource,Air
 Argutite,Resource,Ground
 Argyrodite,Resource,Ground
 Arsenic ore,Resource,Ground
@@ -376,7 +375,6 @@ Slawsonite,Resource,Ground
 Smithsonite,Resource,Ground
 Sodium bromide,Resource,Ground
 Sodium carbonate,Resource,Ground
-Sodium chloride,Resource,Ground
 Sodium nitrate,Resource,Ground
 Sodium ore,Resource,Ground
 Sodium sulfate,Resource,Ground

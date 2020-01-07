@@ -11426,7 +11426,7 @@ Titanium tetrachloride,Emision,Water
 Tungsten,Emission,Air
 Zirconium,Emission,Air
 Antimony,Resource,Ground
-Argon-40,Resource,Air
+Argon,Resource,Air
 Arsenic,Resource,Ground
 Barium,Resource,Ground
 Beryllium,Resource,Ground
@@ -11460,6 +11460,7 @@ Selenium,Resource,Ground
 Silicon,Resource,Ground
 Sodium,Resource,Ground
 Sodium chloride,Resource,Water
+Sodium chloride,Resource,Ground
 Strontium,Resource,Ground
 Sulfur,Resource,Ground
 Sulfur,Resource,Water
