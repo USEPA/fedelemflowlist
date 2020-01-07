@@ -11325,6 +11325,7 @@ Vanadium(III),Emission,Ground
 Vanadium(III),Emission,Water
 Lithium(I),Emission,Water
 Copper(I),Emission,Water
+Copper(I),Emission,Ground
 Mercury(II),Emission,Ground
 Mercury(II),Emission,Water
 HCFC-121,Emission,Water
