@@ -32,7 +32,6 @@ Azurite,,Cu3(CO3)2(OH)2,,kg,https://www.mindat.org/min-447.html,1
 Baddeleyite,1314-23-4,ZrO2,,kg,https://www.mindat.org/min-480.html,1
 Banalsite,,Na2BaAl4Si4O16,,kg,https://www.mindat.org/min-504.html,1
 Barite,7727-43-7,BaSO4,Barite,kg,https://www.mindat.org/min-549.html,1
-Barium sulfate,7727-43-7,BaSO4,Barite,kg,,0
 Barium ore,,BaX,,kg,https://www.mindat.org/element/barium,0
 Basalt,1314-56-3,,,kg,https://www.mindat.org/min-48492.html,1
 Bastnaesite group,,X(CO3)F or X(CO3)(OH),,kg,https://www.mindat.org/min-563.html,0
@@ -61,15 +60,12 @@ Brushite,,Ca(HPO4) · 2H2O,,kg,https://www.mindat.org/min-793.html,1
 Buddingtonite,,(NH4)(AlSi3)O8,,kg,https://www.mindat.org/min-796.html,1
 Bytownite,,"(Ca,Na)[Al(Al,Si)Si2O8]",,kg,https://www.mindat.org/min-815.html,1
 Cadmium ore,,CdX,,kg,https://www.mindat.org/element/cadmium,0
-Cadmium sulfide,1306-23-6,CdS,,kg,,0
 Calaverite,,AuTe2,,kg,https://www.mindat.org/min-852.html,1
 Calcio-olivine,,Ca2SiO4,,kg,https://www.mindat.org/min-9574.html,1
 Calcite,13397-26-7,Ca(CO3),,kg,https://www.mindat.org/min-859.html,1
 Calcium carbonate,471-34-1,Ca(CO3),,kg,,0
-Calcium chloride,10043-52-4,CaCl2,,kg,,0
 Calcium ore,,CaX,,kg,https://www.mindat.org/element/calcium,0
 Calderite,,"(Mn2+,Ca)3(Fe3+,Al)2(SiO4)3",,kg,https://www.mindat.org/min-864.html,1
-Carbon dioxide,124-38-9,CO2,,kg,,1
 Carnallite,1318-27-0,KMgCl3 · 6H2O,,kg,https://www.mindat.org/min-906.html,1
 Carnotite,,K2(UO2)2(VO4)2 · 3H2O,,kg,https://www.mindat.org/min-907.html,1
 Cassiterite,,SnO2,,kg,https://www.mindat.org/min-917.html,1
@@ -84,11 +80,10 @@ Chalk,,,,kg,https://www.mindat.org/min-9073.html,1
 Cheralite,,CaTh(PO4)2,,kg,https://www.mindat.org/min-6865.html,1
 Chlorapatite,,Ca5(PO4)3Cl,,kg,https://www.mindat.org/min-1013.html,1
 Chlorargyrite,,AgCl,,kg,https://www.mindat.org/min-1014.html,1
-Chlorine,7782-50-5,ClX,,kg,https://www.mindat.org/element/chlorine,1
 Chromite,1308-31-2,Fe2+Cr3+2O4,,kg,https://www.mindat.org/min-1036.html,1
 Chromium ore,,CrX,,kg,https://www.mindat.org/element/chromium,0
 Chrysoberyl,,BeAl2O4,,kg,https://www.mindat.org/min-1039.html,1
-Chrysotile,12001-29-5,Mg3(Si2O5)(OH)4,,kg,https://www.mindat.org/min-975.html,1
+Chrysotile,12001-29-5,Mg3(Si2O5)(OH)4,"Asbestos, chrysotile; Chrysotile (Mg3H2(SiO4)2.H2O)",kg,https://www.mindat.org/min-975.html,1
 Churchite(Y),,Y(PO4) · 2H2O,,kg,https://www.mindat.org/min-1047.html,1
 Cinnabar,1344-48-5,HgS,,kg,https://www.mindat.org/min-1052.html,1
 Clausthalite,,PbSe,,kg,https://www.mindat.org/min-1061.html,1
@@ -238,7 +233,6 @@ Meta-autunite,,Ca(UO2)2(PO4)2 · 6-8H2O,,kg,https://www.mindat.org/min-2662.htm
 Metacinnabar,,HgS,,kg,https://www.mindat.org/min-2670.html,1
 Metastibnite,,Sb2S3,,kg,https://www.mindat.org/min-2686.html,1
 Metatorbernite,,Cu(UO2)2(PO4)2 · 8H2O,,kg,https://www.mindat.org/min-2689.html,1
-Methane,74-82-8,CH4,,MJ,,0
 Mica,,,,kg,https://www.mindat.org/min-52478.html,1
 Michenerite,,PdBiTe,,kg,https://www.mindat.org/min-2703.html,1
 Microcline,,K(AlSi3O8),,kg,https://www.mindat.org/min-2704.html,1
@@ -265,7 +259,6 @@ Nickel silicates,,NiSiX,,kg,,0
 Nickel sulfide,,NiSX,,kg,,0
 Niobium ore,,NbX,,kg,https://www.mindat.org/element/Niobium,0
 Nitratine,7631-99-4,NaNO3,,kg,https://www.mindat.org/min-2916.html,1
-Nitrogen,7727-37-9,NX,,kg,https://www.mindat.org/element/Nitrogen,1
 Oligoclase,,"(Na,Ca)[Al(Si,Al)Si2O8]",,kg,https://www.mindat.org/min-2976.html,1
 Olivine,,,,kg,https://www.mindat.org/min-2983.html,1
 Olivine group,19086-72-7,"(Mg²⁺, Fe²⁺)₂SiO₄. ",,kg,https://www.mindat.org/min-8658.html,0
@@ -299,7 +292,6 @@ Quartzite,,,,kg,https://www.mindat.org/min-51087.html,1
 "Quartz, sand",,Mg3Al2(SiO4)3,,kg,https://www.mindat.org/min-3321.html,1
 Quartz,14808-60-7,SiO2,,kg,https://www.mindat.org/min-3337.html,1
 Radium ore,7440-14-4,RaX,,kg,https://www.mindat.org/element/radium,0
-Radon,10043-92-2,RnX,,kg,https://www.mindat.org/element/radon,1
 Ramanite (Rb),,Rb[B5O6(OH)4] · 2H2O,,kg,https://www.mindat.org/min-31662.html,1
 Ramdohrite,,Pb5.9Fe0.1Mn0.1In0.1Cd0.2Ag2.8Sb10.8S24,,kg,https://www.mindat.org/min-3355.html,1
 Reedmergnerite,,NaBSi3O8,,kg,https://www.mindat.org/min-3382.htm,1
@@ -343,7 +335,6 @@ Slawsonite,,Sr(Al2Si2O8),,kg,https://www.mindat.org/min-3684.html,1
 Smithsonite,,ZnCO3,,kg,https://www.mindat.org/min-3688.html,1
 Sodium bromide,7647-15-6,NaBr,,kg,,1
 Sodium ore,,NaX,,kg,https://www.mindat.org/element/sodium,0
-Sodium sulfate,,Na2SO4,,kg,,0
 Soehngeite,,Ga(OH)3,,kg,https://www.mindat.org/min-3709.html,1
 Soil,,,,kg,https://www.mindat.org/min-50966.html,0
 Sperrylite,,PtAs2,,kg,https://www.mindat.org/min-3723.html,1
@@ -359,7 +350,6 @@ Stone,,,,kg,https://www.mindat.org/glossary/stone,0
 Stronalsite,,Na2SrAl4Si4O16,,kg,https://www.mindat.org/min-3804.html,1
 Strontianite,,SrCO3,,kg,https://www.mindat.org/min-3805.html,1
 Strontium ore,,Sr,,kg,https://www.mindat.org/element/strontium,0
-Sulfate,,(SO42-)X,,kg,,0
 Sulfur ore,,SX,,kg,,0
 Sunstone,,,,kg,https://www.mindat.org/min-10984.html,1
 Svabite,,Ca5(AsO4)3F,,kg,https://www.mindat.org/min-3836.html,1
@@ -425,10 +415,8 @@ Zirconium ore,,ZrX,,kg,https://www.mindat.org/element/zirconium,0
 Alfisols,,,,kg,https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051232.pdf,1
 Andisols,,,,kg,https://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051232.pdf,1
 Phosphorus ore,,PX,,kg,https://www.mindat.org/element/phosphorus,0
-Potassium chloride,,KCl,,kg,,0
 Iron oxide,,FeO,,kg,https://www.mindat.org/min-51386.html,0
 Iron sulfide,,FeS,,kg,,0
-Magnesium chloride,,MgCl,,kg,,0
 Sodium carbonate,,Na2CO3-,,kg,,0
 Calcium fluoride,,CaF,,kg,,0
 Calcium sulfate,,CaS,,kg,,0
@@ -437,7 +425,6 @@ Iron chloride,,FeCl,,kg,,0
 Sodium nitrate,,NaNO3,,kg,,0
 Phosphate ore,,PO43-,,kg,,0
 Potassium ore,,KX,,kg,,0
-Potassium oxide,,KO,,kg,,0
 "Coal, lignite",,,,MJ,,1
 "Coal, bituminous",,,,MJ,,1
 "Coal, anthracite",,,,MJ,,1
