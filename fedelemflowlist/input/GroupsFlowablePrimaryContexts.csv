@@ -98,9 +98,6 @@ Gibberellin A4 mixture with Gibberellin A7,Emission,Water
 "Hydrocarbons, C12",Emission,Air
 "Hydrocarbons, C13",Emission,Air
 "Hydrocarbons, C14",Emission,Air
-Tetrachlorvinphos (mixed isomers),Emission,Air
-Tetrachlorvinphos (mixed isomers),Emission,Ground
-Tetrachlorvinphos (mixed isomers),Emission,Water
 Sitosterols,Emission,Air
 "Ethanes, chlorinated",Emission,Ground
 "Ethanes, chlorinated",Emission,Water
@@ -492,7 +489,7 @@ Pentabromodifluoropropanes,Emission,Air
 Tetrabromotrifluoropropanes,Emission,Air
 Tribromotetrafluoropropanes,Emission,Air
 Dibromopentafluoropropanes,Emission,Air
-Hexabromofluoropropanes,Emission,Air
+Monobromohexafluoropropanes,Emission,Air
 Propylbenzene isomers,Emission,Air
 Adsorbable organic halides,Emission,Air
 "Hydrocarbons, chlorinated",Emission,Air
