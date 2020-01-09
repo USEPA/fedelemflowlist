@@ -16,6 +16,7 @@ Energy,Emission,Ground,0,0,0,0,0,0,0,0,1
 Energy,Emission,Ground,0,1,1,0,0,0,0,0,0
 Energy,Emission,Ground,0,1,0,1,0,0,0,0,0
 Biological,Resource,Biotic,0,0,0,0,0,0,0,0,1
+Biological,Resource,Ground,0,1,0,1,0,0,0,0,0
 Biological,Emission,Ground,0,0,0,0,0,0,0,0,1
 Biological,Emission,Ground,0,1,1,0,0,0,0,0,0
 Biological,Emission,Water,0,0,0,0,0,0,0,0,0
@@ -123,6 +124,7 @@ Groups,Emission,Ground,0,1,1,0,0,0,1,0,1
 Groups,Emission,Ground,0,0,0,0,0,0,0,0,0
 Groups,Emission,Ground,0,1,0,0,0,0,0,0,0
 Groups,Emission,Ground,1,0,0,0,0,0,0,0,1
+Chemicals,Resource,Biotic,0,0,0,0,0,0,0,0,0
 Chemicals,Resource,Air,0,0,0,0,0,0,0,0,0
 Chemicals,Resource,Air,1,0,0,0,0,0,0,0,1
 Chemicals,Resource,Ground,0,0,0,0,0,0,0,0,0
@@ -131,3 +133,4 @@ Chemicals,Resource,Ground,0,1,0,1,0,0,0,0,0
 Chemicals,Resource,Water,0,0,0,0,0,0,0,0,0
 Chemicals,Resource,Water,0,1,0,0,1,0,0,0,0
 Chemicals,Resource,Water,0,1,0,0,0,0,0,0,0
+Chemicals,Resource,Water,1,0,0,0,0,0,0,0,0
