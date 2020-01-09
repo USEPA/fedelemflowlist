@@ -25,7 +25,6 @@ Antimony ore,Resource,Ground
 Apatite,Resource,Ground
 Aragonite,Resource,Ground
 Argentite,Resource,Ground
-Argon,Resource,Air
 Argutite,Resource,Ground
 Argyrodite,Resource,Ground
 Arsenic ore,Resource,Ground
@@ -37,7 +36,6 @@ Baddeleyite,Resource,Ground
 Banalsite,Resource,Ground
 Barite,Resource,Ground
 Barium ore,Resource,Ground
-Barium sulfate,Resource,Ground
 Basalt,Resource,Ground
 Bastnaesite,Resource,Ground
 Bastnaesite (Ce),Resource,Ground
@@ -48,6 +46,9 @@ Bastnaesite group,Resource,Ground
 Bauxite,Resource,Ground
 Bazzite,Resource,Ground
 Bentonite,Resource,Ground
+Bentonite,Emission,Air
+Bentonite,Emission,Ground
+Bentonite,Emission,Water
 Bertrandite,Resource,Ground
 Beryl,Resource,Ground
 Beryllium ore,Resource,Ground
@@ -65,7 +66,6 @@ Brushite,Resource,Ground
 Buddingtonite,Resource,Ground
 Bytownite,Resource,Ground
 Cadmium ore,Resource,Ground
-Cadmium sulfide,Resource,Ground
 Caesium ore,Resource,Ground
 Calaverite,Resource,Ground
 Calcio-olivine,Resource,Ground
@@ -73,13 +73,11 @@ Calcite,Resource,Ground
 Calcium carbonate,Emission,Water
 Calcium carbonate,Emission,Ground
 Calcium carbonate,Resource,Ground
-Calcium chloride,Resource,Ground
 Calcium fluoride,Resource,Ground
 Calcium ore,Resource,Ground
 Calcium sulfate,Resource,Ground
 Calderite,Resource,Ground
 Caliche,Resource,Ground
-Carbon dioxide,Resource,Air
 Carnallite,Resource,Ground
 Carnallite,Resource,Water
 Carnotite,Resource,Water
@@ -94,11 +92,12 @@ Chalk,Resource,Ground
 Cheralite,Resource,Ground
 Chlorapatite,Resource,Ground
 Chlorargyrite,Resource,Ground
-Chlorine,Resource,Ground
 Chromite,Resource,Ground
 Chromium ore,Resource,Ground
 Chrysoberyl,Resource,Ground
 Chrysotile,Resource,Ground
+Chrysotile,Emission,Ground
+Chrysotile,Emission,Water
 Churchite(Y),Resource,Ground
 Cinnabar,Resource,Ground
 Clausthalite,Resource,Ground
@@ -243,7 +242,6 @@ Lorandite,Resource,Ground
 Lutetium ore,Resource,Ground
 Magnesiochromite,Resource,Ground
 Magnesite,Resource,Ground
-Magnesium chloride,Resource,Ground
 Magnesium ore,Resource,Ground
 Magnetite,Resource,Ground
 Majorite,Resource,Ground
@@ -259,7 +257,6 @@ Meta-autunite,Resource,Ground
 Metacinnabar,Resource,Ground
 Metastibnite,Resource,Ground
 Metatorbernite,Resource,Ground
-Methane,Resource,Air
 Mica,Resource,Ground
 Michenerite,Resource,Ground
 Microcline,Resource,Ground
@@ -287,7 +284,6 @@ Nickel silicates,Resource,Ground
 Nickel sulfide,Resource,Ground
 Niobium ore,Resource,Ground
 Nitratine,Resource,Ground
-Nitrogen,Resource,Air
 Oil sand,Resource,Ground
 Oil shale,Resource,Ground
 Oligoclase,Resource,Ground
@@ -313,9 +309,7 @@ Phosphorus ore,Resource,Ground
 Platinum ore,Resource,Ground
 Plattnerite,Resource,Ground
 Polonium ore,Resource,Ground
-Potassium chloride,Resource,Ground
 Potassium ore,Resource,Ground
-Potassium oxide,Resource,Ground
 Powellite,Resource,Ground
 Praseodymium ore,Resource,Ground
 Protactinium ore,Resource,Ground
@@ -330,7 +324,6 @@ Quartz,Resource,Ground
 "Quartz, sand",Resource,Ground
 Quartzite,Resource,Ground
 Radium ore,Resource,Ground
-Radon,Resource,Air
 Ramanite (Rb),Resource,Ground
 Ramdohrite,Resource,Ground
 Reedmergnerite,Resource,Ground
@@ -376,10 +369,8 @@ Slawsonite,Resource,Ground
 Smithsonite,Resource,Ground
 Sodium bromide,Resource,Ground
 Sodium carbonate,Resource,Ground
-Sodium chloride,Resource,Ground
 Sodium nitrate,Resource,Ground
 Sodium ore,Resource,Ground
-Sodium sulfate,Resource,Ground
 Soehngeite,Resource,Ground
 Soil,Resource,Ground
 Sperrylite,Resource,Ground
@@ -395,7 +386,6 @@ Stone,Resource,Ground
 Stronalsite,Resource,Ground
 Strontianite,Resource,Ground
 Strontium ore,Resource,Ground
-Sulfate,Resource,Ground
 Sulfur ore,Resource,Ground
 Sunstone,Resource,Ground
 Svabite,Resource,Ground

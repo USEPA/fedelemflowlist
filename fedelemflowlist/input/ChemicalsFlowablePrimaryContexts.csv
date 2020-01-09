@@ -3035,9 +3035,6 @@ N'-Nitro-N-nitroso-N-propylguanidine,Emission,Water
 Sodium alizarinesulfonate,Emission,Air
 Sodium alizarinesulfonate,Emission,Ground
 Sodium alizarinesulfonate,Emission,Water
-Bentonite,Emission,Air
-Bentonite,Emission,Ground
-Bentonite,Emission,Water
 Cyanofenphos,Emission,Air
 Cyanofenphos,Emission,Ground
 Cyanofenphos,Emission,Water
@@ -9011,6 +9008,7 @@ Diethylene glycol monobutyl ether acetate,Emission,Water
 Carbon dioxide,Emission,Air
 Carbon dioxide,Emission,Ground
 Carbon dioxide,Emission,Water
+Carbon dioxide,Resource,Air
 Phosphorus pentoxide,Emission,Air
 Phosphorus pentoxide,Emission,Ground
 Phosphorus pentoxide,Emission,Water
@@ -9209,6 +9207,7 @@ Uranium,Emission,Water
 Methane,Emission,Air
 Methane,Emission,Ground
 Methane,Emission,Water
+Methane,Resource,Air
 Methyl iodide,Emission,Air
 Methyl iodide,Emission,Ground
 Methyl iodide,Emission,Water
@@ -9538,9 +9537,11 @@ Orthoboric acid,Emission,Ground
 Orthoboric acid,Emission,Water
 Calcium chloride,Emission,Ground
 Calcium chloride,Emission,Water
+Calcium chloride,Resource,Ground
 Iodine-131,Emission,Air
 Radon,Emission,Ground
 Radon,Emission,Water
+Radon,Resource,Air
 Chromium(II) chloride,Emission,Air
 Chromium(III) chloride hexahydrate,Emission,Air
 Strontium-90,Emission,Water
@@ -9648,8 +9649,6 @@ Cyclobutanone,Emission,Air
 "3,3'-Dimethoxybenzidine",Emission,Air
 "3,3'-Dimethoxybenzidine",Emission,Ground
 "3,3'-Dimethoxybenzidine",Emission,Water
-Chrysotile,Emission,Ground
-Chrysotile,Emission,Water
 Chromium oxide,Emission,Air
 Chromium zinc oxide,Emission,Air
 Nickel subsulfide,Emission,Air
@@ -9664,6 +9663,7 @@ Manganese cyclopentadienyl tricarbonyl,Emission,Air
 "2,4-Di-tert-amylphenol",Emission,Water
 Potassium oxide,Emission,Ground
 Potassium oxide,Emission,Water
+Potassium oxide,Resource,Ground
 Phosphorus nitride,Emission,Air
 Attapulgite,Emission,Ground
 Attapulgite,Emission,Water
@@ -9712,6 +9712,7 @@ Calcium oxide,Emission,Ground
 Calcium oxide,Emission,Water
 Cadmium oxide,Emission,Air
 Cadmium sulfide,Emission,Air
+Cadmium sulfide,Resource,Ground
 Cobalt(II) oxide,Emission,Air
 Cobalt tetraoxide,Emission,Air
 Chromium(III) hydroxide,Emission,Air
@@ -9826,6 +9827,7 @@ Perchlorate,Emission,Ground
 Perchlorate,Emission,Water
 Sulfate,Emission,Ground
 Sulfate,Emission,Water
+Sulfate,Resource,Ground
 Phenylpropanolamine,Emission,Ground
 Phenylpropanolamine,Emission,Water
 Radon-222,Emission,Air
@@ -10553,6 +10555,7 @@ Aluminum chloride,Emission,Water
 "2,3,4,4',5-Pentachlorobiphenyl",Emission,Water
 Potassium chloride,Emission,Ground
 Potassium chloride,Emission,Water
+Potassium chloride,Resource,Ground
 Ethane,Emission,Air
 Acetylene,Emission,Air
 Mercuric chloride,Emission,Air
@@ -10611,9 +10614,11 @@ cis-2-Hexene,Emission,Air
 Nickel(II) chloride,Emission,Air
 Barium sulfate,Emission,Ground
 Barium sulfate,Emission,Water
+Barium sulfate,Resource,Ground
 Chromic(VI) acid,Emission,Air
 Sodium sulfate,Emission,Ground
 Sodium sulfate,Emission,Water
+Sodium sulfate,Resource,Ground
 Lead(II) chromate,Emission,Air
 "Propanoic acid, 2-methyl-, 3-hydroxy-2,2,4-trimethylpentyl ester",Emission,Air
 Arsenic acid,Emission,Air
@@ -10702,7 +10707,6 @@ Guaifenesin,Emission,Water
 "1,2-Dimethyl-3-ethylbenzene",Emission,Air
 "1,3-Dimethyl-5-ethylbenzene",Emission,Air
 "1,2-Dimethyl-4-ethylbenzene",Emission,Air
-C8 Hydrocarbons,Emission,Air
 Propylparaben,Emission,Air
 Citrus extract,Emission,Air
 "Cyclohexanone, 2-propyl-",Emission,Air
@@ -11233,6 +11237,7 @@ Cobalt-57,Emission,Air
 Cobalt-57,Emission,Water
 Curium-244,Emission,Air
 Curium-242,Emission,Air
+Curium-242,Emission,Water
 Iodine-133,Emission,Air
 Iodine-133,Emission,Water
 Iodine-135,Emission,Air
@@ -11325,6 +11330,7 @@ Vanadium(III),Emission,Ground
 Vanadium(III),Emission,Water
 Lithium(I),Emission,Water
 Copper(I),Emission,Water
+Copper(I),Emission,Ground
 Mercury(II),Emission,Ground
 Mercury(II),Emission,Water
 HCFC-121,Emission,Water
@@ -11399,6 +11405,7 @@ Lanthanum-140,Emission,Water
 Lithium,Emission,Air
 Magnesium,Emission,Air
 Magnesium chloride,Emission,Water
+Magnesium chloride,Resource,Ground
 Manganese-54,Emission,Water
 Methyl chlorocarbonate,Emission,Water
 Methyl chlorocarbonate,Emission,Ground
@@ -11426,7 +11433,7 @@ Titanium tetrachloride,Emision,Water
 Tungsten,Emission,Air
 Zirconium,Emission,Air
 Antimony,Resource,Ground
-Argon-40,Resource,Air
+Argon,Resource,Air
 Arsenic,Resource,Ground
 Barium,Resource,Ground
 Beryllium,Resource,Ground
@@ -11435,6 +11442,7 @@ Boron,Resource,Ground
 Calcium,Resource,Ground
 Carbon,Resource,Ground
 Chlorine,Resource,Water
+Chlorine,Resource,Ground
 Erbium,Resource,Ground
 Holmium,Resource,Ground
 Indium,Resource,Ground
@@ -11446,6 +11454,7 @@ Mercury,Resource,Ground
 Molybdenum,Resource,Water
 Nickel,Resource,Water
 Niobium,Resource,Ground
+Nitrogen,Resource,Air
 Nitrogen,Resource,Ground
 Nitrogen,Resource,Biotic
 Osmium,Resource,Ground
@@ -11460,6 +11469,7 @@ Selenium,Resource,Ground
 Silicon,Resource,Ground
 Sodium,Resource,Ground
 Sodium chloride,Resource,Water
+Sodium chloride,Resource,Ground
 Strontium,Resource,Ground
 Sulfur,Resource,Ground
 Sulfur,Resource,Water

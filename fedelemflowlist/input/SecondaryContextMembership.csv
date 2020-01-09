@@ -16,7 +16,7 @@ Energy,Emission,Ground,0,0,0,0,0,0,0,0,1
 Energy,Emission,Ground,0,1,1,0,0,0,0,0,0
 Energy,Emission,Ground,0,1,0,1,0,0,0,0,0
 Biological,Resource,Biotic,0,0,0,0,0,0,0,0,1
-Bioogical,Resource,Ground,0,1,0,1,0,0,0,0,0
+Biological,Resource,Ground,0,1,0,1,0,0,0,0,0
 Biological,Emission,Ground,0,0,0,0,0,0,0,0,1
 Biological,Emission,Ground,0,1,1,0,0,0,0,0,0
 Biological,Emission,Water,0,0,0,0,0,0,0,0,0
