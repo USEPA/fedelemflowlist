@@ -91,6 +91,7 @@ Gibberellin A4 mixture with Gibberellin A7,Emission,Water
 "Alkenes, C15-18",Emission,Ground
 "Alkenes, C15-18",Emission,Water
 "Hydrocarbons, C7",Emission,Air
+"Hydrocarbons, C8",Emission,Air
 "Hydrocarbons, C9",Emission,Air
 "Hydrocarbons, C10",Emission,Air
 "Hydrocarbons, C11",Emission,Air
