@@ -249,9 +249,9 @@ USLCIv2019Q4,Ammonia,63e78926-8549-11e0-9d78-0800200c9a66,Elementary flows/Emiss
 USLCIv2019Q4,Ammonia,68d9e957-9d64-309d-a250-541ac41fb4ec,soil/industrial,kg,=,1,Ammonia,,emission/ground/human-dominated/industrial,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Ammonia,7f86a32f-44f0-39c9-8454-fd0e076bfe54,soil/unspecified,kg,=,1,Ammonia,,emission/ground,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Ammonia,1c0256f1-0bb2-30ec-97ef-4cfa8f1f6ac2,water/ocean,kg,=,1,Ammonia,,emission/water/saline water body/ocean,kg,Hottle,Cashman,8/16/2019
-USLCIv2019Q4,"Ammonia, as N",c5ff9afc-4c08-40cb-9150-c2465be5cd3c,Elementary flows/Emission to water/unspecified,kg,=,1,Ammonia,,emission/water,kg,Hottle,Cashman,8/16/2019
+USLCIv2019Q4,"Ammonia, as N",c5ff9afc-4c08-40cb-9150-c2465be5cd3c,Elementary flows/Emission to water/unspecified,kg,=,1,Nitrogen,,emission/water,kg,Hottle,Cashman,1/9/2020
 USLCIv2019Q4,"Ammonia, as N",6b180312-b0fd-3e88-96cc-d802f0bd6dcf,"water/low population density, long-term",kg,=,1,Nitrogen,,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Ammonia, as N",1094c377-89bb-3c6f-8827-ded891266a22,water/ocean,kg,=,1,Ammonia,,emission/water/saline water body/ocean,kg,Hottle,Cashman,8/16/2019
+USLCIv2019Q4,"Ammonia, as N",1094c377-89bb-3c6f-8827-ded891266a22,water/ocean,kg,=,1,Nitrogen,,emission/water/saline water body/ocean,kg,Hottle,Cashman,1/9/2020
 USLCIv2019Q4,Ammonia_toxic,def255b3-5dc5-32f4-9f92-86f2e31cf9f7,water/unspecified,kg,=,1,Ammonia,,emission/water,kg,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,Ammonium,26eb71b1-4a6f-31d1-90c0-9f1d38d0f513,air/unspecified,kg,=,1,Ammonium,,emission/air,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Ammonium,ffe14db9-e0c1-34b5-9303-4795c5d65d89,water/ocean,kg,=,1,Ammonium,,emission/water/saline water body/ocean,kg,Hottle,Cashman,8/16/2019
@@ -358,11 +358,11 @@ USLCIv2019Q4,Arsenic,8d6ac21e-08c9-361a-9413-73c8ded65324,water/ocean,kg,=,1,Ars
 USLCIv2019Q4,Arsenic,0a7f1c4b-45f8-366d-beb2-9bfd4ee8db56,water/unspecified,kg,=,1,Arsenic,,emission/water,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Arsenic compounds,4d518311-49d9-3907-9006-4ce883325cbc,"water/low population density, long-term",kg,=,1,Arsenic compounds,,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,Arsenic trioxide,08d9b53d-2a11-39da-b064-0df2a4be326e,air/unspecified,kg,=,1,Arsenic(III) trioxide,,emission/air,kg,Hottle,Cashman,8/16/2019
-USLCIv2019Q4,"Arsenic, ion",1f607ae2-b42d-4411-90b8-e9bbac66a554,Elementary flows/Emission to water/ground water,kg,=,1,Arsenic(V),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Arsenic, ion",e60edb16-3c74-415b-9aff-a22a6f49fecb,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Arsenic(V),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Arsenic, ion",d70b4182-d633-4178-84c0-8854f5f6594b,Elementary flows/Emission to water/ocean,kg,=,1,Arsenic(V),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Arsenic, ion",8c8ffaa5-84ed-4668-ba7d-80fd0f47013f,Elementary flows/Emission to water/surface water,kg,=,1,Arsenic(V),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Arsenic, ion",e1bd008f-c3c2-47f1-ab60-35e1a842acc0,Elementary flows/Emission to water/unspecified,kg,=,1,Arsenic(V),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Arsenic, ion",1f607ae2-b42d-4411-90b8-e9bbac66a554,Elementary flows/Emission to water/ground water,kg,~,1,Arsenic(V),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Arsenic, ion",e60edb16-3c74-415b-9aff-a22a6f49fecb,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Arsenic(V),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Arsenic, ion",d70b4182-d633-4178-84c0-8854f5f6594b,Elementary flows/Emission to water/ocean,kg,~,1,Arsenic(V),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Arsenic, ion",8c8ffaa5-84ed-4668-ba7d-80fd0f47013f,Elementary flows/Emission to water/surface water,kg,~,1,Arsenic(V),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Arsenic, ion",e1bd008f-c3c2-47f1-ab60-35e1a842acc0,Elementary flows/Emission to water/unspecified,kg,~,1,Arsenic(V),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Arsenic, ion",130cce08-0045-354b-8d0c-046f4745ef06,water/ground-,kg,~,1,Arsenic(V),,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Arsenic, ion",bdba84f4-e105-326c-b38c-a31a6f272b64,"water/ground-, long-term",kg,~,1,Arsenic(V),,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Arsenic, ion",1cc2dc15-787f-3e42-9b67-323f64b7a5f0,water/lake,kg,~,1,Arsenic(V),,emission/water/fresh water body/lake,kg,Hottle,Edelen,1/6/2020
@@ -695,11 +695,11 @@ USLCIv2019Q4,"Cadmium compounds, unspecified",5812467e-3be2-3a76-97dd-7223701259
 USLCIv2019Q4,"Cadmium compounds, unspecified",abb23052-6424-3ff8-84dd-de4bccac88dc,"water/low population density, long-term",kg,=,1,Cadmium compounds,,emission/water,kg,Edelen,Hottle,9/23/2019
 USLCIv2019Q4,"Cadmium, 0.30% in sulfide, Cd 0.18%, Pb, Zn, Ag, In, in ground",621b1cf1-9b47-4c44-b71e-ebeb9afd9bbc,Elementary flows/Resource/in ground,kg,=,1,Cadmium,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Cadmium, 0.30% in sulfide, Cd 0.18%, Pb, Zn, Ag, In, in ground",8a3ebd47-cd4c-304a-a1b8-eab41a7b8108,resource/in ground,kg,=,1,Cadmium,,resource/ground/subterranean,kg,Edelen,Hottle,9/25/2019
-USLCIv2019Q4,"Cadmium, ion",3937f5a5-b4a4-434d-9fc3-1d29064fc3f8,Elementary flows/Emission to water/ground water,kg,=,1,Cadmium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Cadmium, ion",4ce23896-a82f-49f1-a8e3-8848734805a3,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Cadmium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Cadmium, ion",62fcd384-906d-474f-a84b-9f944b78f804,Elementary flows/Emission to water/ocean,kg,=,1,Cadmium(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Cadmium, ion",af83b42f-a4e6-4457-be74-46a87798f82a,Elementary flows/Emission to water/surface water,kg,=,1,Cadmium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Cadmium, ion",2712fe5f-0d3c-4c8e-8bc4-26c604413849,Elementary flows/Emission to water/unspecified,kg,=,1,Cadmium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Cadmium, ion",3937f5a5-b4a4-434d-9fc3-1d29064fc3f8,Elementary flows/Emission to water/ground water,kg,~,1,Cadmium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Cadmium, ion",4ce23896-a82f-49f1-a8e3-8848734805a3,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Cadmium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Cadmium, ion",62fcd384-906d-474f-a84b-9f944b78f804,Elementary flows/Emission to water/ocean,kg,~,1,Cadmium(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Cadmium, ion",af83b42f-a4e6-4457-be74-46a87798f82a,Elementary flows/Emission to water/surface water,kg,~,1,Cadmium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Cadmium, ion",2712fe5f-0d3c-4c8e-8bc4-26c604413849,Elementary flows/Emission to water/unspecified,kg,~,1,Cadmium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Cadmium, ion",79e157c5-d4c6-3dc4-8937-6c1afcc4842b,soil/industrial,kg,~,1,Cadmium(II),,emission/ground/human-dominated/industrial,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Cadmium, ion",edfd9f1c-3e3d-3984-8f57-788f05a40ed6,water/ground-,kg,~,1,Cadmium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Cadmium, ion",304c9b5b-6a21-3439-b0d0-d34ffb4ccdaa,"water/ground-, long-term",kg,~,1,Cadmium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
@@ -729,11 +729,11 @@ USLCIv2019Q4,"Calcium carbonate, in ground",600b1c44-b10d-4a1e-8426-62779c118d34
 USLCIv2019Q4,Calcium chloride,1720edbf-05cf-3dc0-a8d5-4744ef0aaed3,resource/in ground,kg,=,1,Calcium chloride,,resource/ground/subterranean,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,"Calcium compounds, unspecified",c607b333-d318-3552-bab4-6123d226406b,"water/low population density, long-term",kg,>,1,Calcium,,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Calcium sulphate, in ground",bfb85fb4-8784-3e1a-8b67-8deb84e5d9f8,resource/in ground,kg,=,1,Calcium sulfate,,resource/ground/subterranean,kg,Hottle,Edelen,12/20/2019
-USLCIv2019Q4,"Calcium, ion",1d0f4392-8c91-4d01-8a5d-f8fe1f5b05c9,Elementary flows/Emission to water/ground water,kg,=,1,Calcium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Calcium, ion",ae28c923-a4a3-4f00-b862-1ae6e748efb9,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Calcium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Calcium, ion",55bf893f-0d89-429c-be59-2f99b33ddb11,Elementary flows/Emission to water/ocean,kg,=,1,Calcium(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Calcium, ion",ac066c02-b403-407b-a1f0-b29ad0f8188f,Elementary flows/Emission to water/surface water,kg,=,1,Calcium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Calcium, ion",08151735-9d1b-4b1c-a8b1-f341ade54f2f,Elementary flows/Emission to water/unspecified,kg,=,1,Calcium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Calcium, ion",1d0f4392-8c91-4d01-8a5d-f8fe1f5b05c9,Elementary flows/Emission to water/ground water,kg,~,1,Calcium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Calcium, ion",ae28c923-a4a3-4f00-b862-1ae6e748efb9,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Calcium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Calcium, ion",55bf893f-0d89-429c-be59-2f99b33ddb11,Elementary flows/Emission to water/ocean,kg,~,1,Calcium(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Calcium, ion",ac066c02-b403-407b-a1f0-b29ad0f8188f,Elementary flows/Emission to water/surface water,kg,~,1,Calcium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Calcium, ion",08151735-9d1b-4b1c-a8b1-f341ade54f2f,Elementary flows/Emission to water/unspecified,kg,~,1,Calcium(II),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Calcium, ion",b5220345-0a07-30d8-8557-78d4536e28a5,soil/industrial,kg,~,1,Calcium(II),,emission/ground/human-dominated/industrial,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Calcium, ion",8cb8f6db-01d7-324c-a4a7-875d553105b3,water/ground-,kg,~,1,Calcium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Calcium, ion",9b3b949d-31ce-3383-87e0-556303f6102f,"water/ground-, long-term",kg,~,1,Calcium(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
@@ -913,7 +913,7 @@ USLCIv2019Q4,Chloride,decca054-6ed6-380d-98bc-742d870ed337,water/ocean,kg,=,1,Ch
 USLCIv2019Q4,Chloride,a552549c-3370-38ad-95bb-dcd8551c8172,water/river,kg,=,1,Chloride,,emission/water/fresh water body/river,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Chloride,2b12e42f-cfca-3dc8-97cf-abe04f8dc67b,water/unspecified,kg,=,1,Chloride,,emission/water,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Chloride (unspecified),247c02a9-fd2a-3233-8afd-5a55b5dc8746,air/unspecified,kg,=,1,Chloride,,emission/air,kg,Hottle,Edelen,12/20/2019
-USLCIv2019Q4,"Chlorides, unspecified",cd90b6de-0be0-45e5-88c5-d641e78a0339,Elementary Flows/Emission to water/unspecified,kg,<,1,"Chlorides and sulfates, total",,emission/water,kg,Hottle,Edelen,1/3/2020
+USLCIv2019Q4,"Chlorides, unspecified",cd90b6de-0be0-45e5-88c5-d641e78a0339,Elementary Flows/Emission to water/unspecified,kg,~,1,Chloride,,emission/water,kg,Hottle,Edelen,1/9/2020
 USLCIv2019Q4,Chlorimuron-ethyl,fbfdddc6-fd45-3a17-8df4-51b7a599e12a,air/low population density,kg,=,1,Chlorimuron-ethyl,,emission/air/troposphere/rural,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Chlorimuron-ethyl,fe780f3a-15c6-4daa-b946-42b575a83ef8,Elementary flows/Emission to air/low population density,kg,=,1,Chlorimuron-ethyl,,emission/air/troposphere/rural,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Chlorimuron-ethyl,af99a064-3ca7-43cd-9c72-cf20d245b0a8,Elementary flows/Emission to soil/agricultural,kg,=,1,Chlorimuron-ethyl,,emission/ground/human-dominated/agricultural,kg,Hottle,Cashman,8/16/2019
@@ -1027,10 +1027,10 @@ USLCIv2019Q4,"Chromium, 25.5 in chromite, 11.6% in crude ore, in ground",61e02d6
 USLCIv2019Q4,"Chromium, 25.5% in chromite, 11.6% in crude ore, in ground",ef6dd09f-bddc-49b4-a207-dbaec2f07bb5,Elementary flows/Resource/in ground,kg,=,1,Chromium,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Chromium, 25.5% in chromite, 11.6% in crude ore, in ground",5d86e1a3-1397-392b-a79e-6a38d1b7ff05,resource/in ground,kg,=,1,Chromium,,resource/ground/subterranean,kg,Edelen,Hottle,9/25/2019
 USLCIv2019Q4,"Chromium, ion",07eca828-373d-399d-8442-8d4128539b28,air/unspecified,kg,~,1,Chromium(III),,emission/air,kg,Hottle,Edelen,1/3/2020
-USLCIv2019Q4,"Chromium, ion",1c87de06-e58f-4684-a54c-d29f1a251a87,Elementary flows/Emission to water/ground water,kg,=,1,Chromium(III),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Chromium, ion",d98f0ec0-bf19-4c90-a457-a8593dec497f,Elementary flows/Emission to water/ocean,kg,=,1,Chromium(III),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Chromium, ion",e34d3da4-a3d5-41be-84b5-458afe32c990,Elementary flows/Emission to water/surface water,kg,=,1,Chromium(III),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Chromium, ion",30f484ee-dec4-47ae-8e92-d00d4b93fe05,Elementary flows/Emission to water/unspecified,kg,=,1,Chromium(III),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Chromium, ion",1c87de06-e58f-4684-a54c-d29f1a251a87,Elementary flows/Emission to water/ground water,kg,~,1,Chromium(III),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Chromium, ion",d98f0ec0-bf19-4c90-a457-a8593dec497f,Elementary flows/Emission to water/ocean,kg,~,1,Chromium(III),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Chromium, ion",e34d3da4-a3d5-41be-84b5-458afe32c990,Elementary flows/Emission to water/surface water,kg,~,1,Chromium(III),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Chromium, ion",30f484ee-dec4-47ae-8e92-d00d4b93fe05,Elementary flows/Emission to water/unspecified,kg,~,1,Chromium(III),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Chromium, ion",903664d7-fb2a-34ae-b0ef-b17630802e26,soil/unspecified,kg,~,1,Chromium(III),,emission/ground,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Chromium, ion",76ec2279-aa13-3617-bff8-0775b3b64cc7,water/ground-,kg,~,1,Chromium(III),,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Chromium, ion",6e8e81fa-2f09-3e83-9ed7-283be35a77f6,water/ocean,kg,~,1,Chromium(III),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/3/2020
@@ -1077,7 +1077,7 @@ USLCIv2019Q4,Cloransulam-methyl,6a455b72-1bc3-4812-86c3-a7c191cd965e,Elementary 
 USLCIv2019Q4,Cloransulam-methyl,d0431945-ea71-4257-9be6-78a849cd5440,Elementary flows/Emission to soil/agricultural,kg,=,1,Cloransulam-methyl,,emission/ground/human-dominated/agricultural,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Cloransulam-methyl,9d37b59b-58f7-3238-aa27-f2af66f9ee58,soil/unspecified,kg,=,1,Cloransulam-methyl,,emission/ground,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Cloransulam-methyl,32eafcc4-3eba-334b-9e3f-5b9f89235446,water/unspecified,kg,=,1,Cloransulam-methyl,,emission/water,kg,Hottle,Cashman,8/16/2019
-USLCIv2019Q4,"Coal, 26.4 MJ per kg, in ground",7ae371af-8532-11e0-9d78-0800200c9a66,Elementary flows/Resource/in ground,kg,=,26.4,"Coal, bituminous",,resource/ground/subterranean,MJ,Young,Hottle,1/7/2020
+USLCIv2019Q4,"Coal, 26.4 MJ per kg, in ground",7ae371af-8532-11e0-9d78-0800200c9a66,Elementary flows/Resource/in ground,kg,>,26.4,"Coal, bituminous",,resource/ground/subterranean,MJ,Young,Hottle,1/7/2020
 USLCIv2019Q4,"Coal, bituminous, 24.8 MJ per kg",eaaa17d0-52c2-36ed-a39b-406e7bb80359,resource/ground-,kg,=,24.8,"Coal, bituminous",,resource/ground,MJ,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Coal, bituminous, 24.8 MJ per kg, in ground",aacc62a2-f89d-3427-a34e-240d834b1860,resource/in ground,kg,=,24.8,"Coal, bituminous",,resource/ground/subterranean,MJ,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Coal, bituminous, 24.8 MJ/kg, in ground",7069b8d5-3382-3f29-a313-66ad00e34710,resource/in ground,kg,=,24.8,"Coal, bituminous",,resource/ground/subterranean,MJ,Hottle,Edelen,12/20/2019
@@ -1197,11 +1197,11 @@ USLCIv2019Q4,"Copper, 2.19% in sulfide, Cu 1.83% and Mo 8.2E-3% in crude ore, in
 USLCIv2019Q4,"Copper, Cu 0.2%, in mixed ore",43af501b-3e45-30e3-a126-cb1940c15410,Resources/in ground,kg,=,1,Copper,,resource/ground/subterranean,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,"Copper, Cu 0.38%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Pb 0.014%, in ore, in ground",5afa470c-ab8c-4ec3-8a18-5c0bed973571,Elementary flows/Resource/in ground,kg,=,1,Copper,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Copper, in ground",7dd59db5-0770-336f-bba7-3fb396febc04,resource/in ground,kg,=,1,Copper,,resource/ground/subterranean,kg,Hottle,Cashman,8/16/2019
-USLCIv2019Q4,"Copper, ion",c3b659e5-35f1-408c-8cb5-b5f9b295c76e,Elementary flows/Emission to water/ground water,kg,=,1,Copper(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Copper, ion",40229ebf-9346-4f20-910a-f8ea3bd88d44,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Copper(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Copper, ion",d8f9ccf6-fd32-4348-83c0-1cee724af9ae,Elementary flows/Emission to water/ocean,kg,=,1,Copper(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Copper, ion",6d9550e2-e670-44c1-bad8-c0c4975ffca7,Elementary flows/Emission to water/surface water,kg,=,1,Copper(I),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Copper, ion",615b1460-6860-4cf6-8678-ad92c03c5e8b,Elementary flows/Emission to water/unspecified,kg,=,1,Copper(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Copper, ion",c3b659e5-35f1-408c-8cb5-b5f9b295c76e,Elementary flows/Emission to water/ground water,kg,~,1,Copper(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Copper, ion",40229ebf-9346-4f20-910a-f8ea3bd88d44,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Copper(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Copper, ion",d8f9ccf6-fd32-4348-83c0-1cee724af9ae,Elementary flows/Emission to water/ocean,kg,~,1,Copper(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Copper, ion",6d9550e2-e670-44c1-bad8-c0c4975ffca7,Elementary flows/Emission to water/surface water,kg,~,1,Copper(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Copper, ion",615b1460-6860-4cf6-8678-ad92c03c5e8b,Elementary flows/Emission to water/unspecified,kg,~,1,Copper(I),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Copper, ion",f8b63c54-4812-3d8f-8616-923c8748f7fc,water/ground-,kg,~,1,Copper(I),,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Copper, ion",2a2ebe92-6fcb-3fa6-933a-792e3ba7fb10,"water/ground-, long-term",kg,~,1,Copper(I),,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Copper, ion",a6dfb78d-59f0-307c-9eeb-c0005d099d80,water/lake,kg,~,1,Copper(I),,emission/water/fresh water body/lake,kg,Hottle,Edelen,1/6/2020
@@ -1362,9 +1362,8 @@ USLCIv2019Q4,"Dioxin, 2,3,7,8 Tetrachlorodibenzo-p-",f815eb25-9b88-39ae-aa98-ae9
 USLCIv2019Q4,"Dioxin, 2,3,7,8 Tetrachlorodibenzo-p-",5bbe9024-8f6b-3a96-a4e5-f3f508db3e0b,air/unspecified,kg,=,1,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",,emission/air,kg,Edelen,Hottle,10/4/2019
 USLCIv2019Q4,"Dioxin, 2,3,7,8 Tetrachlorodibenzo-p-",80185620-0205-394d-ab63-28630e2482f2,water/unspecified,kg,=,1,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",,emission/water,kg,Edelen,Hottle,10/4/2019
 USLCIv2019Q4,Dioxins (unspec.),08ce5e34-5772-322b-953a-96a7ed74c8e5,air/unspecified,kg,=,1,Dioxins,,emission/air,kg,Hottle,Edelen,12/20/2019
-USLCIv2019Q4,"Dioxins and furans, measured as 2,3,7,8-tetrachlorodibenzo-p-dioxin",95aaa785-ad2d-31bb-b739-bc5ffcfe4119,air/low population density,kg,=,0.5,Dioxins,,emission/air/troposphere/rural,kg,Hottle,Young,1/9/2020
+USLCIv2019Q4,"Dioxins and furans, measured as 2,3,7,8-tetrachlorodibenzo-p-dioxin",95aaa785-ad2d-31bb-b739-bc5ffcfe4119,air/low population density,kg,=,1,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",,emission/air/troposphere/rural,kg,Hottle,Young,1/9/2020
 USLCIv2019Q4,"Dioxins and furans, unspecified",829f3fe2-9586-3d50-b7a3-f06a5555115b,air/unspecified,kg,=,0.5,Dioxins,,emission/air,kg,Hottle,Young,1/9/2020
-USLCIv2019Q4,"Dioxins and furans, measured as 2,3,7,8-tetrachlorodibenzo-p-dioxin",95aaa785-ad2d-31bb-b739-bc5ffcfe4119,air/low population density,kg,=,0.5,Furans,,emission/air/troposphere/rural,kg,Hottle,Young,1/9/2020
 USLCIv2019Q4,"Dioxins and furans, unspecified",829f3fe2-9586-3d50-b7a3-f06a5555115b,air/unspecified,kg,=,0.5,Furans,,emission/air,kg,Hottle,Young,1/9/2020
 USLCIv2019Q4,"Dioxins, measured as 2,3,7,8-tetrachlorodibenzo-p-dioxin",5ddcf3fe-95c4-3af1-b890-1bd1591489f4,air/high population density,kg,=,1,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",,emission/air/troposphere/urban,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,"Dioxins, measured as 2,3,7,8-tetrachlorodibenzo-p-dioxin",237a5f15-8119-472a-8988-88b7ecb42405,Elementary flows/Emission to air/high population density,kg,=,1,"2,3,7,8-Tetrachlorodibenzo-p-dioxin",,emission/air/troposphere/urban,kg,Hottle,Cashman,8/16/2019
@@ -1760,8 +1759,8 @@ USLCIv2019Q4,"Gangue, bauxite, in ground",3eb350c9-21f8-4f7e-8543-2611c3d8ed90,E
 USLCIv2019Q4,"Gangue, bauxite, in ground",3eb350c9-21f8-4f7e-8543-2611c3d8ed90,Elementary flows/Resource/in ground,kg,=,0.5,Gangue,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Gas, mine, off-gas, process, coal mining/m3",9d0b44c5-a0c9-31e0-ba2a-1d8cc7ccfd7b,resource/in ground,m3,>,38.3,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Gas, natural",bb916783-9073-3ac2-b6b0-d72a7b22d503,resource/ground-,m3,=,38.3,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Gas, natural, 46.8 MJ per kg, in ground",444852c5-c6ec-3222-ad04-580c45924793,resource/in ground,kg,=,52.35602094,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Gas, natural, 49.8 MJ per kg, in ground",746745dd-26b9-30c9-961b-f3b0c49363c5,resource/fossil-,kg,=,52.35602094,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,12/20/2019
+USLCIv2019Q4,"Gas, natural, 46.8 MJ per kg, in ground",444852c5-c6ec-3222-ad04-580c45924793,resource/in ground,kg,=,46.8,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,1/9/2020
+USLCIv2019Q4,"Gas, natural, 49.8 MJ per kg, in ground",746745dd-26b9-30c9-961b-f3b0c49363c5,resource/fossil-,kg,=,49.8,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,1/9/2020
 USLCIv2019Q4,"Gas, natural, 50.0 MJ per kg, in ground",ac37e5f6-e5f9-3406-8af4-4f8cc4a5a8c2,resource/in ground,m3,=,38.3,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Gas, natural, in ground",7c337428-fb1b-45c7-bbb2-2ee4d29e17ba,Elementary flows/Resource/in ground,m3,=,38.3,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Gas, natural, in ground",a31e0bc0-a573-3ddf-b03d-a35a9420a6bc,resource/in ground,kg,=,52.35602094,Natural gas,,resource/air/subterranean,MJ,Hottle,Edelen,1/6/2020
@@ -2081,10 +2080,10 @@ USLCIv2019Q4,"Iron compounds, unspecified",6cc500b1-9b45-3bf1-8144-a192b772f704,
 USLCIv2019Q4,Iron ore,4c7c3002-32b1-3a2d-86ee-bec8d1b066b1,resource/ground-,kg,=,1,Iron,,resource/ground,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Iron ore, in ground",7ae398b5-8532-11e0-9d78-0800200c9a66,Elementary flows/Resource/in ground,kg,=,1,Iron,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Iron, 46% in ore, 25% in crude ore, in ground",7e317fd1-5b25-35a2-9fac-fe2ef9f4d383,resource/in ground,kg,=,1,Iron,,resource/ground/subterranean,kg,Edelen,Hottle,9/25/2019
-USLCIv2019Q4,"Iron, ion",9b6d6f07-ebc6-447d-a3c0-f2017d77d852,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Iron(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Iron, ion",2c9a7182-37c8-4777-a37a-9a007c3edb2f,Elementary flows/Emission to water/ocean,kg,=,1,Iron(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Iron, ion",7c335b9c-a403-47a8-bb6d-2e7d3c3a230e,Elementary flows/Emission to water/surface water,kg,=,1,Iron(II),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Iron, ion",de444dc0-5964-4501-8367-50ba53bfc6b9,Elementary flows/Emission to water/unspecified,kg,=,1,Iron(II),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Iron, ion",9b6d6f07-ebc6-447d-a3c0-f2017d77d852,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Iron(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Iron, ion",2c9a7182-37c8-4777-a37a-9a007c3edb2f,Elementary flows/Emission to water/ocean,kg,~,1,Iron(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Iron, ion",7c335b9c-a403-47a8-bb6d-2e7d3c3a230e,Elementary flows/Emission to water/surface water,kg,~,1,Iron(II),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Iron, ion",de444dc0-5964-4501-8367-50ba53bfc6b9,Elementary flows/Emission to water/unspecified,kg,~,1,Iron(II),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Iron, ion",abbebfa6-a2c6-34e6-ab2b-8398d8dd1e6c,water/ground-,kg,~,1,Iron(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Iron, ion",7a14a0fa-ee95-3318-8f56-c1f8e3731378,"water/ground-, long-term",kg,~,1,Iron(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Iron, ion",0ae46c73-3c34-3d1f-aae0-092182dc846f,water/ocean,kg,~,1,Iron(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
@@ -2205,7 +2204,7 @@ USLCIv2019Q4,"Light aromatic solvent naphtha, unspecified",5e4b57a3-2aca-3176-80
 USLCIv2019Q4,Lignite (in MJ),87230972-1d09-30f6-b56f-721da7d28619,resource/fossil-,MJ,=,1,"Coal, lignite",,resource/ground,MJ,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Lignite coal, at surface mine",32de8f69-43e9-3a2c-a1aa-e8bca7ead3f6,resource/fossil-,kg,=,14.00560224,"Coal, lignite",,resource/ground,MJ,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Lignite coal, at surface mine",c9bd9974-90a7-313c-8281-6c3ff93c5eb8,resource/ground-,kg,=,14.00560224,"Coal, lignite",,resource/ground,MJ,Hottle,Edelen,12/20/2019
-USLCIv2019Q4,"Lignite, 11 MJ per kg, in ground",badefaa0-fb1e-4cb0-bac1-480058554f3c,Elementary flows/Resource/in ground,kg,=,14.00560224,"Coal, lignite",,resource/ground/subterranean,MJ,Young,Hottle,1/7/2020
+USLCIv2019Q4,"Lignite, 11 MJ per kg, in ground",badefaa0-fb1e-4cb0-bac1-480058554f3c,Elementary flows/Resource/in ground,kg,=,11,"Coal, lignite",,resource/ground/subterranean,MJ,Young,Hottle,1/9/2020
 USLCIv2019Q4,Limestone,deb2f9c9-421d-3786-bd8e-cea642271147,resource/ground-,kg,=,1,Limestone,,resource/ground,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Limestone, in ground",537b8312-3f27-4d3c-859f-55d3f944f42d,Elementary flows/Resource/in ground,kg,=,1,Limestone,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Limestone, in ground",4c69dcb7-9864-3c1b-994d-01d2532ef8e7,resource/unspecified,kg,=,1,Limestone,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
@@ -2220,8 +2219,8 @@ USLCIv2019Q4,lithium,65acbe76-a761-4a8c-8d66-940a677c69b0,Elementary flows/Emiss
 USLCIv2019Q4,lithium,aee98c0f-45d0-4b36-b660-a27b5ce46aa2,Elementary flows/Emission to water/ground water,kg,=,1,Lithium,,emission/water/subterranean,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,"Lithium, 0.15% in brine, in ground",a9ad523f-b721-4f07-ad9f-584053f3454d,Elementary flows/Resource/in ground,kg,=,1,Lithium,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Lithium, 0.15% in brine, in ground",0812f4c7-f7c8-3189-ae15-a22a99f8e961,resource/in ground,kg,=,1,Lithium,,resource/ground/subterranean,kg,Edelen,Hottle,9/25/2019
-USLCIv2019Q4,"Lithium, ion",e98084d6-88a2-48cf-9ad5-6462fe9cf857,Elementary flows/Emission to water/surface water,kg,=,1,Lithium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Lithium, ion",eb2bfdf1-1881-40e8-bebb-d674b2a79149,Elementary flows/Emission to water/unspecified,kg,=,1,Lithium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Lithium, ion",e98084d6-88a2-48cf-9ad5-6462fe9cf857,Elementary flows/Emission to water/surface water,kg,~,1,Lithium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Lithium, ion",eb2bfdf1-1881-40e8-bebb-d674b2a79149,Elementary flows/Emission to water/unspecified,kg,~,1,Lithium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Lithium, ion",4db739d9-a558-3e67-84b3-8d6cf0edafc3,water/unspecified,kg,~,1,Lithium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Magnesite, 60% in crude ore, in ground",d2bf022d-9cbf-4f19-a8ec-7f507746942b,Elementary flows/Resource/in ground,kg,=,1,Magnesite,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Magnesite, 60% in crude ore, in ground",6a38b0e9-46b8-349a-969d-5c7cc7093bb2,resource/in ground,kg,=,1,Magnesite,,resource/ground/subterranean,kg,Edelen,Hottle,9/18/2019
@@ -2623,12 +2622,12 @@ USLCIv2019Q4,"Nickel, 1.13% in sulfide, Ni 0.76% and Cu 0.76% in crude ore, in g
 USLCIv2019Q4,"Nickel, 1.13% in sulfides, 0.76% in crude ore, in ground",000aa0c1-72a1-3724-8507-7275115915bb,resource/in ground,kg,=,1,Nickel,,resource/ground/subterranean,kg,Edelen,Hottle,9/18/2019
 USLCIv2019Q4,"Nickel, 1.98% in silicates, 1.04% in crude ore, in ground",e47e4e5f-6528-413d-a8fb-1cd1875fbd73,Elementary flows/Resource/in ground,kg,=,1,Nickel,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Nickel, 1.98% in silicates, 1.04% in crude ore, in ground",8c0d8e9c-0ab3-3a1a-8a1e-4c330ca13b0d,resource/in ground,kg,=,1,Nickel,,resource/ground/subterranean,kg,Edelen,Hottle,9/25/2019
-USLCIv2019Q4,"Nickel, ion",9f69cb8e-51fe-447b-a1ac-4da74de8ebe4,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Nickel(II),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
-USLCIv2019Q4,"Nickel, ion",23cb10a4-6228-4ce4-9fb5-7043bc31faec,Elementary flows/Emission to water/ocean,kg,=,1,Nickel(II),,emission/water/saline water body/ocean,kg,Edelen,Hottle,1/6/2020
-USLCIv2019Q4,"Nickel, ion",9798359e-a3ee-4362-a038-23a188582c6e,Elementary flows/Emission to water/surface water,kg,=,1,Nickel(II),,emission/water,kg,Edelen,Hottle,1/6/2020
-USLCIv2019Q4,"Nickel, ion",6ec6cdaa-5a01-46d4-b716-1905e56690ea,Elementary flows/Emission to water/unspecified,kg,=,1,Nickel(II),,emission/water,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Nickel, ion",9f69cb8e-51fe-447b-a1ac-4da74de8ebe4,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Nickel(II),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Nickel, ion",23cb10a4-6228-4ce4-9fb5-7043bc31faec,Elementary flows/Emission to water/ocean,kg,~,1,Nickel(II),,emission/water/saline water body/ocean,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Nickel, ion",9798359e-a3ee-4362-a038-23a188582c6e,Elementary flows/Emission to water/surface water,kg,~,1,Nickel(II),,emission/water,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Nickel, ion",6ec6cdaa-5a01-46d4-b716-1905e56690ea,Elementary flows/Emission to water/unspecified,kg,~,1,Nickel(II),,emission/water,kg,Edelen,Hottle,1/6/2020
 USLCIv2019Q4,"Nickel, ion",706b35bd-9a51-3368-9e6b-b084c0363f69,water/ground-,kg,~,1,Nickel(II),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Nickel, ion",ddd8add6-0980-37d8-ae64-de612aabcdbc,"water/ground-, long-term",kg,=,1,Nickel(II),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Nickel, ion",ddd8add6-0980-37d8-ae64-de612aabcdbc,"water/ground-, long-term",kg,~,1,Nickel(II),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
 USLCIv2019Q4,"Nickel, ion",0ba6de4b-7d9e-393a-8c81-1bf19d949b1c,water/lake,kg,~,1,Nickel(II),,emission/water/fresh water body/lake,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Nickel, ion",09f16540-5c6f-30c1-b5ec-cd874f03221d,water/ocean,kg,~,1,Nickel(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Nickel, ion",c646426d-9d96-3f3d-8f61-ad70d5933f1a,water/river,kg,~,1,Nickel(II),,emission/water/fresh water body/river,kg,Hottle,Edelen,1/3/2020
@@ -3131,9 +3130,9 @@ USLCIv2019Q4,Potassium Chloride,e9b40ea1-437e-3704-bf39-2894deb0461e,resource/un
 USLCIv2019Q4,"Potassium chloride, in ground",fcd5cb97-effa-378f-b287-603825942a58,resource/in ground,kg,=,1,Potassium chloride,,resource/ground/subterranean,kg,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Potassium compounds, unspecified",7d43f177-3fe6-310d-9999-e130b48c1dce,"water/low population density, long-term",kg,>,1,Potassium,,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,Potassium oxide,47be6340-2118-3b43-ad26-3d7ee747e928,resource/in ground,kg,=,1,Potassium oxide,,resource/ground/subterranean,kg,Hottle,Cashman,8/16/2019
-USLCIv2019Q4,"Potassium, ion",b93fc4df-91b2-4ac4-a315-89147515ddfb,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Potassium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Potassium, ion",297cc04f-e215-433c-ae3b-d1e34464c785,Elementary flows/Emission to water/ocean,kg,=,1,Potassium(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Potassium, ion",1653bf60-f682-4088-b02d-6dc44eae2786,Elementary flows/Emission to water/surface water,kg,=,1,Potassium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Potassium, ion",b93fc4df-91b2-4ac4-a315-89147515ddfb,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Potassium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Potassium, ion",297cc04f-e215-433c-ae3b-d1e34464c785,Elementary flows/Emission to water/ocean,kg,~,1,Potassium(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Potassium, ion",1653bf60-f682-4088-b02d-6dc44eae2786,Elementary flows/Emission to water/surface water,kg,~,1,Potassium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Potassium, ion",51d92663-17f3-3788-927b-f636b50ee267,water/ground-,kg,~,1,Potassium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Potassium, ion",1cc56b05-1d55-35dd-a1f7-583c14534819,"water/ground-, long-term",kg,~,1,Potassium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Potassium, ion",fd0c9593-6891-3937-98c7-1e18744f1688,water/ocean,kg,~,1,Potassium(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
@@ -3461,11 +3460,11 @@ USLCIv2019Q4,"Silver, Ag 7.6E-5%, Au 9.7E-5%, in ore",827d6b0b-0205-32ef-b0cf-36
 USLCIv2019Q4,"Silver, Ag 9.7E-4%, Au 9.7E-4%, Zn 0.63%, Cu 0.38%, Pb 0.014%, in ore, in ground",cfaa80f4-8e19-4fd6-942a-eaea14812896,Elementary flows/Resource/in ground,kg,=,1,Silver,,resource/ground/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Silver, Ag 9.7E-4%, Au 9.7E-4%, Zn 0.63%, Cu 0.38%, Pb 0.014%, in ore, in ground",c4ba134b-05d5-390b-97d1-a6caf4b08bfb,resource/in ground,kg,=,1,Silver,,resource/ground/subterranean,kg,Edelen,Hottle,9/25/2019
 USLCIv2019Q4,"Silver, in ground",05162d2b-730c-3625-a383-d25db6ea0dd9,resource/in ground,kg,=,1,Silver,,resource/ground/subterranean,kg,Edelen,Hottle,10/3/2019
-USLCIv2019Q4,"Silver, ion",71cfe87c-ab80-421e-adba-afb7d5bd0861,Elementary flows/Emission to water/ground water,kg,=,1,Silver(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Silver, ion",94426df9-63b1-4dc6-ad1b-3509e22f1154,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Silver(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Silver, ion",21c257b2-57ce-4a6e-b4bd-40f0f75f310f,Elementary flows/Emission to water/ocean,kg,=,1,Silver(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Silver, ion",af9793ba-25a1-4928-a14a-4bcf7d5bd3f7,Elementary flows/Emission to water/surface water,kg,=,1,Silver(I),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Silver, ion",6aa8673f-f7e3-4270-93dc-e97b745fced7,Elementary flows/Emission to water/unspecified,kg,=,1,Silver(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Silver, ion",71cfe87c-ab80-421e-adba-afb7d5bd0861,Elementary flows/Emission to water/ground water,kg,~,1,Silver(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Silver, ion",94426df9-63b1-4dc6-ad1b-3509e22f1154,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Silver(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Silver, ion",21c257b2-57ce-4a6e-b4bd-40f0f75f310f,Elementary flows/Emission to water/ocean,kg,~,1,Silver(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Silver, ion",af9793ba-25a1-4928-a14a-4bcf7d5bd3f7,Elementary flows/Emission to water/surface water,kg,~,1,Silver(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Silver, ion",6aa8673f-f7e3-4270-93dc-e97b745fced7,Elementary flows/Emission to water/unspecified,kg,~,1,Silver(I),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Silver, ion",2612ef7a-5f6d-366b-878e-3b1fe441c703,water/ground-,kg,~,1,Silver(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Silver, ion",8327186c-0e04-3ea1-af51-aff7c38d8e3e,"water/ground-, long-term",kg,~,1,Silver(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Silver, ion",8308dea6-0ca9-3e51-b281-62346c975657,water/ocean,kg,~,1,Silver(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
@@ -3530,10 +3529,10 @@ USLCIv2019Q4,"sodium sulfate, various forms, in ground",c5198aae-6bb8-309b-b323-
 USLCIv2019Q4,Sodium sulphate,b9a860f3-8e77-3883-ac61-39e3f511b9d8,water/unspecified,kg,=,1,Sodium sulfate,,emission/water,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,"sodium sulphate, various forms, in ground",35d79e85-67bb-369e-8c07-c1aef666e25c,resource/in ground,kg,=,1,Sodium sulfate,,resource/ground/subterranean,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,Sodium tetrahydroborate,ba317646-ea99-4060-838f-7933b10f0033,Elementary flows/Emission to air/high population density,kg,=,1,Sodium borohydride,,emission/air/troposphere/urban,kg,Edelen,Hottle,10/2/2019
-USLCIv2019Q4,"Sodium, ion",fb83d61e-6fe3-4da7-8eb2-b0e2dc85a76d,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Sodium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Sodium, ion",9310f497-3205-4717-aaa8-1a94c321f7d8,Elementary flows/Emission to water/ocean,kg,=,1,Sodium(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Sodium, ion",1fc409bc-b8e7-48b2-92d5-2ced4aa7bae2,Elementary flows/Emission to water/surface water,kg,=,1,Sodium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Sodium, ion",5ac961f0-8e53-42ff-b13f-1a7fb9133868,Elementary flows/Emission to water/unspecified,kg,=,1,Sodium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Sodium, ion",fb83d61e-6fe3-4da7-8eb2-b0e2dc85a76d,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Sodium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Sodium, ion",9310f497-3205-4717-aaa8-1a94c321f7d8,Elementary flows/Emission to water/ocean,kg,~,1,Sodium(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Sodium, ion",1fc409bc-b8e7-48b2-92d5-2ced4aa7bae2,Elementary flows/Emission to water/surface water,kg,~,1,Sodium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Sodium, ion",5ac961f0-8e53-42ff-b13f-1a7fb9133868,Elementary flows/Emission to water/unspecified,kg,~,1,Sodium(I),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Sodium, ion",8c853d5b-3039-301c-927e-81ddbed74077,water/ground-,kg,~,1,Sodium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Sodium, ion",5e77e579-d015-3eb9-b771-35ab33a4afbd,"water/ground-, long-term",kg,~,1,Sodium(I),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Sodium, ion",3ab59625-084f-3b66-8a4e-f7be0ff3b19d,water/ocean,kg,~,1,Sodium(I),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
@@ -4039,11 +4038,11 @@ USLCIv2019Q4,Vanadium,bd42af30-d069-3fd4-a6b9-c9ccb9586bd2,water/ocean,kg,=,1,Va
 USLCIv2019Q4,Vanadium,05d25fc1-11cb-3e52-bdfc-c382779992c8,water/unspecified,kg,=,1,Vanadium,,emission/water,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,"Vanadium compounds, unspecified",7ec8c0ee-02bc-3681-8351-5b01949cc78b,"air/low population density, long-term",kg,=,1,Vanadium compounds,,emission/air/troposphere/rural,kg,Edelen,Hottle,9/23/2019
 USLCIv2019Q4,"Vanadium compounds, unspecified",0ccad182-1c75-3c4f-93cb-713187d4099a,"water/low population density, long-term",kg,=,1,Vanadium compounds,,emission/water,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Vanadium, ion",ed1fd27e-014a-41cf-842f-7b2022b0be79,Elementary flows/Emission to water/ground water,kg,=,1,Vanadium(III),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
-USLCIv2019Q4,"Vanadium, ion",41dbbe1f-06e1-4a34-8497-5986be8f9e51,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Vanadium(III),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
-USLCIv2019Q4,"Vanadium, ion",dbdc3ea8-cc2b-4dbe-82b9-e954e333281d,Elementary flows/Emission to water/ocean,kg,=,1,Vanadium(III),,emission/water/saline water body/ocean,kg,Edelen,Hottle,1/6/2020
-USLCIv2019Q4,"Vanadium, ion",a46a250e-297d-43e9-b1c4-052cdcfb79c5,Elementary flows/Emission to water/surface water,kg,=,1,Vanadium(III),,emission/water,kg,Edelen,Hottle,1/6/2020
-USLCIv2019Q4,"Vanadium, ion",20839113-fbf2-4d2f-bab8-66861f86bc60,Elementary flows/Emission to water/unspecified,kg,=,1,Vanadium(III),,emission/water,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Vanadium, ion",ed1fd27e-014a-41cf-842f-7b2022b0be79,Elementary flows/Emission to water/ground water,kg,~,1,Vanadium(III),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Vanadium, ion",41dbbe1f-06e1-4a34-8497-5986be8f9e51,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Vanadium(III),,emission/water/subterranean,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Vanadium, ion",dbdc3ea8-cc2b-4dbe-82b9-e954e333281d,Elementary flows/Emission to water/ocean,kg,~,1,Vanadium(III),,emission/water/saline water body/ocean,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Vanadium, ion",a46a250e-297d-43e9-b1c4-052cdcfb79c5,Elementary flows/Emission to water/surface water,kg,~,1,Vanadium(III),,emission/water,kg,Edelen,Hottle,1/6/2020
+USLCIv2019Q4,"Vanadium, ion",20839113-fbf2-4d2f-bab8-66861f86bc60,Elementary flows/Emission to water/unspecified,kg,~,1,Vanadium(III),,emission/water,kg,Edelen,Hottle,1/6/2020
 USLCIv2019Q4,"Vanadium, ion",cf87f315-6922-3fad-a1fa-7865d28ac659,water/ground-,kg,~,1,Vanadium(III),,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Vanadium, ion",87be947a-09eb-3f26-99d3-44db9906cff9,"water/ground-, long-term",kg,~,1,Vanadium(III),,emission/water,kg,Hottle,Edelen,1/3/2020
 USLCIv2019Q4,"Vanadium, ion",a105acf7-1bc1-3276-92d3-8c6f3eb27d1e,water/ocean,kg,~,1,Vanadium(III),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/3/2020
@@ -4423,10 +4422,10 @@ USLCIv2019Q4,Zinc oxide,4e68878a-21d7-32f6-8738-a9712c623862,air/unspecified,kg,
 USLCIv2019Q4,Zinc sulfate,b16ed7c7-7118-3afb-8079-6f96fdfd7fe2,air/unspecified,kg,=,1,Zinc sulfate,,emission/air,kg,Edelen,Hottle,10/2/2019
 USLCIv2019Q4,"Zinc, 9.0% in sulfide, Zn 5.3%, Pb, Ag, Cd, In, in ground",fcdd3e7f-e2d0-3b7e-bd64-bfc9941cdcbd,resource/in ground,kg,=,1,Zinc,,resource/ground/subterranean,kg,Edelen,Hottle,9/25/2019
 USLCIv2019Q4,"Zinc, in ground",c5e1778e-f30b-395e-8f83-12c63ef0cb72,resource/in ground,kg,=,1,Zinc,,resource/ground/subterranean,kg,Hottle,Edelen,12/20/2019
-USLCIv2019Q4,"Zinc, ion",7e769b3e-03fb-4b53-be15-85a910dcfea9,Elementary flows/Emission to water/ground water,kg,=,1,Zinc(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Zinc, ion",bdce3a7c-e008-4391-be26-285f71a02453,"Elementary flows/Emission to water/ground water, long-term",kg,=,1,Zinc(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Zinc, ion",2195d86f-e4c8-4e86-9f18-b5b065b1df7e,Elementary flows/Emission to water/ocean,kg,=,1,Zinc(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
-USLCIv2019Q4,"Zinc, ion",541b633c-17a3-4047-bce6-0c0e4fdb7c10,Elementary flows/Emission to water/surface water,kg,=,1,Zinc(II),,emission/water,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Zinc, ion",7e769b3e-03fb-4b53-be15-85a910dcfea9,Elementary flows/Emission to water/ground water,kg,~,1,Zinc(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Zinc, ion",bdce3a7c-e008-4391-be26-285f71a02453,"Elementary flows/Emission to water/ground water, long-term",kg,~,1,Zinc(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Zinc, ion",2195d86f-e4c8-4e86-9f18-b5b065b1df7e,Elementary flows/Emission to water/ocean,kg,~,1,Zinc(II),,emission/water/saline water body/ocean,kg,Hottle,Edelen,1/6/2020
+USLCIv2019Q4,"Zinc, ion",541b633c-17a3-4047-bce6-0c0e4fdb7c10,Elementary flows/Emission to water/surface water,kg,~,1,Zinc(II),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Zinc, ion",2c7be02c-791f-4fef-b231-b90321bbeb30,Elementary flows/Emission to water/unspecified,kg,~,1,Zinc(II),,emission/water,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Zinc, ion",1b96046d-0195-3ae2-9012-2f6c19baf031,soil/industrial,kg,~,1,Zinc(II),,emission/ground/human-dominated/industrial,kg,Hottle,Edelen,1/6/2020
 USLCIv2019Q4,"Zinc, ion",0f7ac6ca-e9df-3131-8fa6-a8e3786590c6,water/ground-,kg,~,1,Zinc(II),,emission/water/subterranean,kg,Hottle,Edelen,1/6/2020
