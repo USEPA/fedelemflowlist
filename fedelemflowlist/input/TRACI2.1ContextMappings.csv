@@ -67,6 +67,7 @@ air/urban,emission/air/urban/low
 air/urban,emission/air/urban/high
 air/urban,emission/air/urban/very high
 air/urban,emission/air/urban/ground-level
+soil,emission/ground
 soil/natural,emission/ground/terrestrial/wetland
 soil/natural,emission/ground/terrestrial/barren land
 soil/natural,emission/ground/terrestrial/snow and ice
