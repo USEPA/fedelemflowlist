@@ -47,26 +47,16 @@ water,emission/water/subterranean/saline water body/confined aquifer
 water,emission/water/subterranean/fresh water body/unconfined aquifer
 water,emission/water/subterranean/brackish water body/unconfined aquifer
 water,emission/water/subterranean/saline water body/unconfined aquifer
-air/rural,emission/air/rural
-air/rural,emission/air/rural/low
-air/rural,emission/air/rural/high
-air/rural,emission/air/rural/very high
-air/rural,emission/air/rural/ground-level
 air/rural,emission/air/troposphere/rural
 air/rural,emission/air/troposphere/rural/low
 air/rural,emission/air/troposphere/rural/high
 air/rural,emission/air/troposphere/rural/very high
 air/rural,emission/air/troposphere/rural/ground-level
-air/urban,emission/air/urban
 air/urban,emission/air/troposphere/urban
 air/urban,emission/air/troposphere/urban/low
 air/urban,emission/air/troposphere/urban/high
 air/urban,emission/air/troposphere/urban/very high
 air/urban,emission/air/troposphere/urban/ground-level
-air/urban,emission/air/urban/low
-air/urban,emission/air/urban/high
-air/urban,emission/air/urban/very high
-air/urban,emission/air/urban/ground-level
 soil/natural,emission/ground/terrestrial/wetland
 soil/natural,emission/ground/terrestrial/barren land
 soil/natural,emission/ground/terrestrial/snow and ice
