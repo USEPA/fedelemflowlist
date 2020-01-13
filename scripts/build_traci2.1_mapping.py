@@ -15,7 +15,7 @@ if __name__ == '__main__':
     ## Bring in TRACI flowables and contexts from the lcia_formatter
     import lciafmt
 
-    lcia_lciafmt = lciafmt.get_method('Traci 2.1')
+    lcia_lciafmt = lciafmt.get_method('TRACI 2.1')
    
     
     """ due to substances listed more than once with different names
