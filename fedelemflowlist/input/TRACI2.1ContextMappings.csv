@@ -74,6 +74,8 @@ soil/natural,emission/ground/human-dominated/commercial/urban
 soil/natural,emission/ground/human-dominated/commercial/rural
 soil/natural,emission/ground/human-dominated/residential/urban
 soil/natural,emission/ground/human-dominated/residential/rural
+soil/natural,emission/ground/human-dominated
+soil/natural,emission/ground/subterranean
 soil/agricultural,emission/ground/human-dominated/agricultural
 soil/agricultural,emission/ground/human-dominated/agricultural/rural
 soil/agricultural,emission/ground/human-dominated/agricultural/urban
