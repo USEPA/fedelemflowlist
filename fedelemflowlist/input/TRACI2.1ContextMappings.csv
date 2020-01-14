@@ -56,6 +56,7 @@ air/urban,emission/air/troposphere/urban/low
 air/urban,emission/air/troposphere/urban/high
 air/urban,emission/air/troposphere/urban/very high
 air/urban,emission/air/troposphere/urban/ground-level
+soil,emission/ground
 soil/natural,emission/ground
 soil/natural,emission/ground/terrestrial/wetland
 soil/natural,emission/ground/terrestrial/barren land
