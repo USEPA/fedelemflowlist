@@ -3558,21 +3558,21 @@ Monobromodifluoropropanes,kg,=,C3H5F2BR,kg,Edelen,,,,01/09/2020
 Hexabromofluoropropanes,kg,=,C3HFBR6,kg,Edelen,,,,01/09/2020
 "Chlordane, technical",kg,=,"Chlordane, technical",kg,Young,,,Updated name applied via code to CAS 12789-03-6,01/10/2020
 Dodecylguanidine,kg,=,Dodecylguanidine,kg,Young,,,Updated name applied via code to CAS 112-65-2,01/10/2020
-Copper,kg,~,COPPER(II),kg,Hottle,,,,01/17/2020
-Zinc,kg,~,ZINC(II),kg,Hottle,,,,01/17/2020
-Lead,kg,~,LEAD(II),kg,Hottle,,,,01/17/2020
-Nickel,kg,~,NICKEL(II),kg,Hottle,,,,01/17/2020
-Barium,kg,~,BARIUM(II),kg,Hottle,,,,01/17/2020
-Cadmium,kg,~,CADMIUM(II),kg,Hottle,,,,01/17/2020
-Cobalt,kg,~,COBALT(II),kg,Hottle,,,,01/17/2020
-Vanadium,kg,~,VANADIUM(V),kg,Hottle,,,,01/17/2020
-Beryllium,kg,~,BERYLLIUM(II),kg,Hottle,,,,01/17/2020
-Mercury,kg,~,MERCURY(II),kg,Hottle,,,,01/17/2020
-Tin,kg,~,TIN(II),kg,Hottle,,,,01/17/2020
-Selenium,kg,~,SELENIUM(IV),kg,Hottle,,,,01/17/2020
-Molybdenum,kg,~,MOLYBDENUM(VI),kg,Hottle,,,,01/17/2020
-Antimony,kg,~,ANTIMONY(III),kg,Hottle,,,,01/17/2020
-Thallium,kg,~,THALLIUM(I),kg,Hottle,,,,01/17/2020
-Arsenic,kg,~,ARSENIC(III),kg,Hottle,,,,01/17/2020
-Chromium,kg,~,CHROMIUM(III),kg,Hottle,,,,01/17/2020
-Silver,kg,~,SILVER(I),kg,Hottle,,,,01/17/2020
+Copper,kg,~,COPPER(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Zinc,kg,~,ZINC(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Lead,kg,~,LEAD(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Nickel,kg,~,NICKEL(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Barium,kg,~,BARIUM(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Cadmium,kg,~,CADMIUM(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Cobalt,kg,~,COBALT(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Vanadium,kg,~,VANADIUM(V),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Beryllium,kg,~,BERYLLIUM(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Mercury,kg,~,MERCURY(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Tin,kg,~,TIN(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Selenium,kg,~,SELENIUM(IV),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Molybdenum,kg,~,MOLYBDENUM(VI),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Antimony,kg,~,ANTIMONY(III),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Thallium,kg,~,THALLIUM(I),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Arsenic,kg,~,ARSENIC(III),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Chromium,kg,~,CHROMIUM(III),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Silver,kg,~,SILVER(I),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
