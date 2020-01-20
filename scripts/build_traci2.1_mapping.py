@@ -14,6 +14,7 @@ lcia_name = 'TRACI2.1'
 if __name__ == '__main__':
     ## Bring in TRACI flowables and contexts from the lcia_formatter
     import lciafmt
+    from lciafmt.traci import flowables_replace, flowables_split
 
     lcia_lciafmt = lciafmt.get_method('TRACI 2.1')
    
@@ -22,7 +23,6 @@ if __name__ == '__main__':
     this replaces all instances of the Original Flowable with a New Flowable
     based on a csv input file, otherwise zero values for CFs will override
     when there are duplicate names"""
-    flowables_replace = pd.read_csv(inputpath+'/TRACI_2.1_replacement.csv')
     for index, row in flowables_replace.iterrows():
         orig = row['Original Flowable']
         new = row['New Flowable']
@@ -31,7 +31,6 @@ if __name__ == '__main__':
     """ due to substances listed more than once with the same name but different CAS
     this replaces all instances of the Original Flowable with a New Flowable
     based on a csv input file according to the CAS"""
-    flowables_split = pd.read_csv(inputpath+'/TRACI_2.1_split.csv')
     for index, row in flowables_split.iterrows():
         CAS = row['CAS']
         new = row['New Flowable']
