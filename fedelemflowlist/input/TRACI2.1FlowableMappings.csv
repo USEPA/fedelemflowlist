@@ -784,7 +784,7 @@ Bromuconazole,kg,=,BROMUCONAZOLE,kg,Hottle,Name/Cas,,,2019-05-16
 Aflatoxin B1,kg,=,AFLATOXIN B1,kg,Hottle,Name/Cas,,,2019-05-16
 Tetradifon,kg,=,TETRADIFON,kg,Hottle,Name/Cas,,,2019-05-16
 Decabromodiphenyl oxide,kg,=,DECABROMOPHENYL ETHER,kg,Hottle,Name/Cas,,,2019-05-16
-2-Methylbutyric acid,kg,?,"BUTANOIC ACID, 2-METHYL-, (,+-,)-",kg,Hottle,Manual,Ashley Edelen,I can not find any definative information on this one way or another.,2019-05-16
+2-Methylbutyric acid,kg,=,"BUTANOIC ACID, 2-METHYL-, (,+-,)-",kg,Hottle,Manual,Ashley Edelen,appears to be synonymus on PubChem,2020-01-17
 Danthron,kg,=,"9,10-ANTHRACENEDIONE, 1,8-DIHYDROXY-",kg,Hottle,Name/Cas,,,2019-05-16
 Tecnazene,kg,=,"2,3,5,6-TETRACHLORONITROBENZENE",kg,Hottle,Name/Cas,,,2019-05-16
 Fluthiacet-methyl,kg,=,FLUTHIACET-METHYL,kg,Hottle,Name/Cas,,,2019-05-16
@@ -2295,12 +2295,12 @@ Aclonifen,kg,=,ACLONIFEN,kg,Hottle,Name/Cas,,,2019-05-16
 Bensulide,kg,=,BENSULIDE,kg,Hottle,Name/Cas,,,2019-05-16
 Sulfometuron methyl,kg,=,SULFOMETURON (PH 5-7),kg,Hottle,Name/Cas,,,2019-05-16
 Metsulfuron-methyl,kg,=,METSULFURON-METHYL,kg,Hottle,Name/Cas,,,2019-05-16
-Lead,kg,=,LEAD(II),kg,Hottle,Manual,,,2019-05-16
-Nickel,kg,=,NICKEL(II),kg,Hottle,Manual,,,2019-05-16
-Barium,kg,=,BARIUM(II),kg,Hottle,Manual,,,2019-05-16
-Cadmium,kg,=,CADMIUM(II),kg,Hottle,Manual,,,2019-05-16
-Cobalt,kg,=,COBALT(II),kg,Hottle,Manual,,,2019-05-16
-Vanadium,kg,=,VANADIUM(V),kg,Hottle,Manual,,,2019-05-16
+Lead(II),kg,=,LEAD(II),kg,Hottle,Manual,,,2020-01-14
+Nickel(II),kg,=,NICKEL(II),kg,Hottle,Manual,,,2020-01-14
+Barium(II),kg,=,BARIUM(II),kg,Hottle,Manual,,,2020-01-14
+Cadmium(II),kg,=,CADMIUM(II),kg,Hottle,Manual,,,2020-01-14
+Cobalt(II),kg,=,COBALT(II),kg,Hottle,Manual,,,2020-01-14
+Vanadium(V),kg,=,VANADIUM(V),kg,Hottle,Manual,,,2020-01-14
 "1H-Pyrrole-3-carbonitrile, 4-(2,3-dichlorophenyl)-",kg,=,FENPICLONIL,kg,Hottle,Name/Cas,,,2019-05-16
 Methyl bromide,kg,=,METHYL BROMIDE,kg,Hottle,Name/Cas,,,2019-05-16
 Ethylene,kg,=,ETHENE,kg,Hottle,Name/Cas,,,2019-05-16
@@ -2397,7 +2397,7 @@ Dicyclopentadiene,kg,=,DICYCLOPENTADIENE,kg,Hottle,Name/Cas,,,2019-05-16
 3-Methyl-3-pentanol,kg,=,3-METHYL-3-PENTANOL,kg,Hottle,Name/Cas,,,2019-05-16
 3-Methyl-1-pentyn-3-ol,kg,=,METHYL PENTYNOL,kg,Hottle,Name/Cas,,,2019-05-16
 Dimethyl sulfate,kg,=,DIMETHYL SULFATE,kg,Hottle,Name/Cas,,,2019-05-16
-Selenium,kg,=,SELENIUM(IV),kg,Hottle,Manual,,,2019-05-16
+Selenium(IV),kg,=,SELENIUM(IV),kg,Hottle,Manual,,,2020-01-14
 Chlorine,kg,=,CHLORINE,kg,Hottle,Name/Cas,,,2019-05-16
 Mevinphos,kg,=,MEVINPHOS,kg,Hottle,Name/Cas,,,2019-05-16
 9-Methylanthracene,kg,=,9-METHYLANTHRACENE,kg,Hottle,Name/Cas,,,2019-05-16
@@ -2868,7 +2868,7 @@ p-Ethyltoluene,kg,=,P-ETHYL TOLUENE,kg,Hottle,Name/Cas,,,2019-05-16
 Tetradecane,kg,=,N-TETRADECANE,kg,Hottle,Name/Cas,,,2019-05-16
 Heptadecane,kg,=,N-C17,kg,Hottle,Name/Cas,,,2019-05-16
 Docosane,kg,=,N-C22,kg,Hottle,Name/Cas,,,2019-05-16
-Beryllium,kg,=,BERYLLIUM(II),kg,Hottle,Manual,,,2019-05-16
+Beryllium(II),kg,=,BERYLLIUM(II),kg,Hottle,Manual,,,2020-01-14
 Methane,kg,=,METHANE,kg,Hottle,Name/Cas,Ashley,Removed resources and so only in list once,2019-05-16
 Dibromomethane,kg,=,"METHANE, DIBROMO-",kg,Hottle,Name/Cas,,,2019-05-16
 Propane,kg,=,PROPANE,kg,Hottle,Name/Cas,,,2019-05-16
@@ -3508,8 +3508,7 @@ Trans-1-Methyl-4-Heptylcyclohexane,kg,=,TRANS-1-METHYL-4-HEPTYL CYCLOHEXANE,kg,H
 Sevoflurane,kg,=,HFE-347mcc3,kg,Edelen,,,,12/19/2019
 "2,2,2-Trifluoroethyl trifluoromethyl ether",kg,=,HFE-236fa,kg,Edelen,,,,12/19/2019
 "1,1,2,2-Tetrafluoro-1-methoxyethane",kg,=,HFE-254cb2,kg,Edelen,,,,12/19/2019
-Ethyl nonafluorobutyl ether,kg,=,HFE-569sf2,kg,Edelen,,,,12/19/2019
-Ethyl nonafluorobutyl ether,kg,=,HFE-7200,kg,Edelen,,,,12/19/2019
+Ethyl nonafluorobutyl ether,kg,=,HFE-569sf2,kg,Hottle,,,same as HFE-7200 which has been removed,1/13/2020
 "Ethane, 1,1,1-trifluoro-2-methoxy-",kg,=,HFE-263fb2,kg,Edelen,,,,12/19/2019
 .alpha.-Terpineol,kg,=,Α-TERPINEOL,kg,Edelen,,,,12/19/2019
 .alpha.-Methylstyrene,kg,=,Α-METHYL STYRENE,kg,Edelen,,,,12/19/2019
@@ -3559,3 +3558,21 @@ Monobromodifluoropropanes,kg,=,C3H5F2BR,kg,Edelen,,,,01/09/2020
 Hexabromofluoropropanes,kg,=,C3HFBR6,kg,Edelen,,,,01/09/2020
 "Chlordane, technical",kg,=,"Chlordane, technical",kg,Young,,,Updated name applied via code to CAS 12789-03-6,01/10/2020
 Dodecylguanidine,kg,=,Dodecylguanidine,kg,Young,,,Updated name applied via code to CAS 112-65-2,01/10/2020
+Copper,kg,~,COPPER(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Zinc,kg,~,ZINC(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Lead,kg,~,LEAD(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Nickel,kg,~,NICKEL(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Barium,kg,~,BARIUM(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Cadmium,kg,~,CADMIUM(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Cobalt,kg,~,COBALT(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Vanadium,kg,~,VANADIUM(V),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Beryllium,kg,~,BERYLLIUM(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Mercury,kg,~,MERCURY(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Tin,kg,~,TIN(II),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Selenium,kg,~,SELENIUM(IV),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Molybdenum,kg,~,MOLYBDENUM(VI),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Antimony,kg,~,ANTIMONY(III),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Thallium,kg,~,THALLIUM(I),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Arsenic,kg,~,ARSENIC(III),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Chromium,kg,~,CHROMIUM(III),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
+Silver,kg,~,SILVER(I),kg,Hottle,,,Added mapping so that metals are associated with a CF when TRACI is used,01/17/2020
