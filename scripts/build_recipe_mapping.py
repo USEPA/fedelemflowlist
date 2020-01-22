@@ -1,6 +1,6 @@
 """
-Builds the mapping file for TRACI2.1 using input flowable and context mappings,
-and TRACI2.1 from the lcia_formatter
+Builds the mapping file for ReCiPe using input flowable and context mappings,
+and recipe from the lcia_formatter
 Requires lciafmt from lcia_formatter (https://github.com/USEPA/lciaformatter)
 BEWARE this will replace the existing mapping file if it exists in /flowmapping
 """
@@ -9,43 +9,18 @@ import pandas as pd
 import fedelemflowlist
 from fedelemflowlist.globals import inputpath, flowmappingpath
 
-lcia_name = 'TRACI2.1'
+lcia_name = 'ReCiPe2016'
 
 if __name__ == '__main__':
-    ## Bring in TRACI flowables and contexts from the lcia_formatter
+    ## Bring in ReCiPe flowables and contexts from the lcia_formatter
     import lciafmt
-    from lciafmt.traci import flowables_replace, flowables_split
 
-    lcia_lciafmt = lciafmt.get_method('TRACI 2.1')
+    lcia_lciafmt = lciafmt.get_method('ReCiPe 2016')
    
-    
-    """ due to substances listed more than once with different names
-    this replaces all instances of the Original Flowable with a New Flowable
-    based on a csv input file, otherwise zero values for CFs will override
-    when there are duplicate names"""
-    for index, row in flowables_replace.iterrows():
-        orig = row['Original Flowable']
-        new = row['New Flowable']
-        lcia_lciafmt['Flowable']=lcia_lciafmt['Flowable'].replace(orig, new)    
-    
-    """ due to substances listed more than once with the same name but different CAS
-    this replaces all instances of the Original Flowable with a New Flowable
-    based on a csv input file according to the CAS"""
-    for index, row in flowables_split.iterrows():
-        CAS = row['CAS']
-        new = row['New Flowable']
-        lcia_lciafmt.loc[lcia_lciafmt['CAS No'] == CAS, 'Flowable'] = new
-        
     # Keep only flowable and category
     lcia_lciafmt = lcia_lciafmt[['Flowable', 'Context']]
     lcia_lciafmt = lcia_lciafmt.drop_duplicates()
     len(lcia_lciafmt)
-
-    traci_lciafmt_contexts = pd.Series(pd.unique(lcia_lciafmt['Context']))
-
-
-    # export and map these to Fed Commons flow list contexts
-    # traci_lciafmt_contexts.to_csv('work/TRACI_lciafmt_contexts.csv',index=False)
 
     # Add in context matches. Assume these are in inputfolder with lcia_name+standardname.csv
     def get_manual_mappings(source, ftype):
