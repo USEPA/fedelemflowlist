@@ -167,3 +167,44 @@ water/unspecified,emission/water/subterranean/brackish water body/unconfined aqu
 "Occupation, grassland, natural (non-use)",resource/ground/terrestrial/grassland
 "Occupation, urban/industrial fallow (non-use)",resource/ground/human-dominated/industrial
 "Occupation, traffic area, rail/road embankment",resource/ground
+resource/ground,resource/ground/
+resource/ground,resource/ground/urban
+resource/ground,resource/ground/rural
+resource/ground,resource/ground/human-dominated
+resource/ground,resource/ground/human-dominated/industrial
+resource/ground,resource/ground/human-dominated/commercial
+resource/ground,resource/ground/human-dominated/agricultural
+resource/ground,resource/ground/human-dominated/residential
+resource/ground,resource/ground/human-dominated/urban
+resource/ground,resource/ground/human-dominated/rural
+resource/ground,resource/ground/human-dominated/industrial/urban
+resource/ground,resource/ground/human-dominated/industrial/rural
+resource/ground,resource/ground/human-dominated/commercial/urban
+resource/ground,resource/ground/human-dominated/commercial/rural
+resource/ground,resource/ground/human-dominated/agricultural/urban
+resource/ground,resource/ground/human-dominated/agricultural/rural
+resource/ground,resource/ground/human-dominated/residential/urban
+resource/ground,resource/ground/human-dominated/residential/rural
+resource/ground,resource/ground/terrestrial/wetland
+resource/ground,resource/ground/terrestrial/barren land
+resource/ground,resource/ground/terrestrial/snow and ice
+resource/ground,resource/ground/terrestrial/grassland
+resource/ground,resource/ground/terrestrial/shrubland
+resource/ground,resource/ground/terrestrial/forest
+resource/ground,resource/ground/subterranean
+resource/fresh water,resource/water/
+resource/fresh water,resource/water/urban
+resource/fresh water,resource/water/rural
+resource/fresh water,resource/water/subterranean
+resource/fresh water,resource/water/fresh water body
+resource/fresh water,resource/water/fresh water body/lake
+resource/fresh water,resource/water/fresh water body/river
+resource/fresh water,resource/water/fresh water body/urban
+resource/fresh water,resource/water/fresh water body/rural
+resource/fresh water,resource/water/fresh water body/lake/urban
+resource/fresh water,resource/water/fresh water body/lake/rural
+resource/fresh water,resource/water/fresh water body/river/urban
+resource/fresh water,resource/water/fresh water body/river/rural
+resource/fresh water,resource/water/subterranean/fresh water body
+resource/fresh water,resource/water/subterranean/fresh water body/confined aquifer
+resource/fresh water,resource/water/subterranean/fresh water body/unconfined aquifer
