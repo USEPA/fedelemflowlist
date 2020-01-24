@@ -64,3 +64,12 @@ def write_jsonld(flows, path, mappings=None):
     """
     writer = jsonld.Writer(flow_list=flows, flow_mapping=mappings)
     writer.write_to(path)
+    
+def find_alt_conversion():
+    """returns a dataframe of all flowables with altunits and alt conversion factors"""
+    flowlist = get_flows()
+    flowlist = flowlist[['Flowable', 'Unit', 'AltUnit', 'AltUnitConversionFactor']]
+    flowlist = flowlist.dropna(subset=['AltUnit'])
+    flowlist.drop_duplicates(keep='first',inplace=True)
+    return flowlist
+

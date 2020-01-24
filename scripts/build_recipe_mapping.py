@@ -14,7 +14,6 @@ lcia_name = 'ReCiPe2016'
 if __name__ == '__main__':
     ## Bring in ReCiPe flowables and contexts from the lcia_formatter
     import lciafmt
-
     lcia_lciafmt = lciafmt.get_method('ReCiPe 2016')
    
     # Keep only flowable and category
@@ -71,7 +70,10 @@ if __name__ == '__main__':
     lcia_mappings['ConversionFactor'] = 1
     lcia_mappings['SourceFlowUUID'] = None
     len(lcia_mappings)
-
+    
+    """where sourceunit does not equal target unit; look up source unit to 
+    see if its an alt unit, and if so make it the target unit"""
+    
     # Reorder the mappings
     flowmapping_order = ['SourceListName',
                          'SourceFlowName',
