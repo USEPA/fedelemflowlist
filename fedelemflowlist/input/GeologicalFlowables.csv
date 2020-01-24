@@ -130,8 +130,7 @@ Ferberite,,FeWO4,,kg,https://www.mindat.org/min-1476.html,1
 Filatovite,,"K(Al,Zn)2(As,Si)2O8",,kg,https://www.mindat.org/min-26577.html,1
 Florencite (Sm),,SmAl3(PO4)2(OH)6,,kg,https://www.mindat.org/min-42495.html,1
 Fluorapatite,,Ca5(PO4)3F,,kg,https://www.mindat.org/min-1572.html,1
-Fluorite,7789-75-5,CaF2,,kg,https://www.mindat.org/min-1576.html,1
-Fluorspar,7789-75-6,CaF2,,kg,https://www.mindat.org/min-1576.html,1
+Fluorite,7789-75-5,CaF2,Fluorspar,kg,https://www.mindat.org/min-1576.html,1
 Forsterite,,Mg2SiO4,,kg,https://www.mindat.org/min-1584.html,1
 Gadolinium ore,,GdX,,kg,https://www.mindat.org/element/gadolinium,0
 Galena,1314-87-0,PbS,,kg,https://www.mindat.org/min-1641.html,1
@@ -289,7 +288,7 @@ Pyrolusite,,Mn4+O2,,kg,https://www.mindat.org/min-3318.html,1
 Pyromorphite,,Pb5(PO4)3Cl,,kg,https://www.mindat.org/min-3320.html,1
 Pyrope,,Mg3Al2(SiO4)3,,kg,https://www.mindat.org/min-3321.html,1
 Quartzite,,,,kg,https://www.mindat.org/min-51087.html,1
-"Quartz, sand",,Mg3Al2(SiO4)3,,kg,https://www.mindat.org/min-3321.html,1
+"Quartz, sand",,,,kg,,1
 Quartz,14808-60-7,SiO2,,kg,https://www.mindat.org/min-3337.html,1
 Radium ore,7440-14-4,RaX,,kg,https://www.mindat.org/element/radium,0
 Ramanite (Rb),,Rb[B5O6(OH)4] · 2H2O,,kg,https://www.mindat.org/min-31662.html,1

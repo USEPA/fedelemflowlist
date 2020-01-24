@@ -39,7 +39,6 @@ Gibberellin A4 mixture with Gibberellin A7,8030-53-3,-,,kg,https://ofmpub.epa.go
 "Hydrocarbons, C12",93924-44-8,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80811,0
 "Hydrocarbons, C13",93924-46-0,-,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID00109224,0
 "Hydrocarbons, C14",93924-47-1,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80810,0
-Tetrachlorvinphos (mixed isomers),961-11-5,C10H9Cl4O4P,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87419,1
 Sitosterols,12002-39-0,-,,kg,,0
 "Ethanes, chlorinated",68411-72-3,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=12076,0
 Acid compounds,n.a.,-,,kg,,0
@@ -67,7 +66,7 @@ Biocides,n.a.,-,,kg,,0
 Cadmium compounds,n.a.,-,,kg,,1
 "Carbamic acid, salts and esters",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80302,0
 Carbonodithiocarbonic acids,n.a.,-,,kg,,0
-"Chlordane, technical, and/or chlordane metabolites",n.a.,-,,kg,,0
+"Chlordane, technical",12789-03-06,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=61763,1
 "Chlorides and sulfates, total",n.a.,-,,kg,,0
 "Chlorinated dioxins and furans -- 2,3,7,8 congeners only",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78458,0
 "Chlorinated dioxins and furans -- excluding 2,3,7,8 congeners",n.a.,-,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=78459,0
@@ -243,32 +242,32 @@ Volatile organic compounds,n.a.,,,kg,https://ofmpub.epa.gov/sor_internet/registr
 Radionuclides,,,,kBq,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
 Fatty acids,67254-79-9,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=15527,1
 Terpenes,129874-8-4,,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID40903960,1
-Organochlorine pesticides,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-"Solvents, chlorinated",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Carboxylic acids,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-"Benzene, methyl benzene, and dimethyl benzene, total",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Aromatics,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
+Organochlorine pesticides,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=99032,1
+"Solvents, chlorinated",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82428,1
+Carboxylic acids,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=82431,1
+"Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80288,1
+"Benzene, methyl benzene, and dimethyl benzene, total",,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=63032,1
+Aromatics,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83718,1
 Aromatic hydrocarbons,63231-51-6,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=81718,1
-Chlorofluorocarbons,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
-Tributyltin Compounds,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,1
+Chlorofluorocarbons,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=83716,1
+Tributyltin Compounds,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=107719,1
 Toluenediamine,25376-45-8,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=56189,1
 Tetrachlorvinphos,961-11-5,C10H9Cl4O4P,"Phosphoric acid, 2-chloro-1-(2,4,5-trichlorophenyl)ethenyl dimethyl ester",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87419,1
 Particulate matter,,,Particulates,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=79627,0
-Tribromofluoroethanes,,C2H2FBR3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80375,1
-Tribromodifluoroethanes,,C2HF2BR3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80433,1
-Tetrabromofluoroethanes,,C2HFBR4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80434,1
-Tetrabromodifluoropropanes,,C3H2F2BR4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80362,1
-Dibromotetrafluoropropanes,,C3H2F4BR2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80360,1
-Pentabromofluoropropanes,,C3H2FBR5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80363,1
-Tribromodifluoropropanes,,C3H3F2BR3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80357,1
-Tetrabromofluoropropanes,,C3H3FBR4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80358,1
-Tribromofluoropropanes,,C3H4FBR3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80354,1
-Pentabromodifluoropropanes,,C3HF2BR5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80368,1
-Tetrabromotrifluoropropanes,,C3HF3BR4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80367,1
-Tribromotetrafluoropropanes,,C3HF4BR3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80366,1
-Dibromopentafluoropropanes,,C3HF5BR2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80365,1
-Hexabromofluoropropanes,,C3HF6BR,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80369,1
+Tribromofluoroethanes,,C2H2FBr3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80375,1
+Tribromodifluoroethanes,,C2HF2Br3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80433,1
+Tetrabromofluoroethanes,,C2HFBr4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80434,1
+Tetrabromodifluoropropanes,,C3H2F2Br4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80362,1
+Dibromotetrafluoropropanes,,C3H2F4Br2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80360,1
+Pentabromofluoropropanes,,C3H2FBr5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80363,1
+Tribromodifluoropropanes,,C3H3F2Br3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80357,1
+Tetrabromofluoropropanes,,C3H3FBr4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80358,1
+Tribromofluoropropanes,,C3H4FBr3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80354,1
+Pentabromodifluoropropanes,,C3HF2Br5,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80368,1
+Tetrabromotrifluoropropanes,,C3HF3Br4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80367,1
+Tribromotetrafluoropropanes,,C3HF4Br3,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80366,1
+Dibromopentafluoropropanes,,C3HF5Br2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80365,1
+Monobromohexafluoropropanes,,C3HF6Br,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80364,1
 Propylbenzene isomers,,,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96632,1
 Dibromotrifluoropropanes,,C3H3F3Br2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80356,1
 Bromotrifluoropropane,72101-30-5,C3H4F3Br,"Propane, bromotrifluoro-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=80352,1

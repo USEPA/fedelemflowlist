@@ -16,7 +16,6 @@ air,emission/air/troposphere/urban/ground-level
 air,emission/air/troposphere/rural/ground-level
 air,emission/air/indoor
 air,emission/air/stratosphere
-air,emission/air/subterranean
 water,emission/water
 water,emission/water/urban
 water,emission/water/rural
@@ -47,32 +46,44 @@ water,emission/water/subterranean/saline water body/confined aquifer
 water,emission/water/subterranean/fresh water body/unconfined aquifer
 water,emission/water/subterranean/brackish water body/unconfined aquifer
 water,emission/water/subterranean/saline water body/unconfined aquifer
-air/rural,emission/air/rural
-air/rural,emission/air/rural/low
-air/rural,emission/air/rural/high
-air/rural,emission/air/rural/very high
-air/rural,emission/air/rural/ground-level
 air/rural,emission/air/troposphere/rural
 air/rural,emission/air/troposphere/rural/low
 air/rural,emission/air/troposphere/rural/high
 air/rural,emission/air/troposphere/rural/very high
 air/rural,emission/air/troposphere/rural/ground-level
-air/urban,emission/air/urban
 air/urban,emission/air/troposphere/urban
 air/urban,emission/air/troposphere/urban/low
 air/urban,emission/air/troposphere/urban/high
 air/urban,emission/air/troposphere/urban/very high
 air/urban,emission/air/troposphere/urban/ground-level
-air/urban,emission/air/urban/low
-air/urban,emission/air/urban/high
-air/urban,emission/air/urban/very high
-air/urban,emission/air/urban/ground-level
+air/unspecified,emission/air
+air/unspecified,emission/air/troposphere/low
+air/unspecified,emission/air/troposphere/high
+air/unspecified,emission/air/troposphere/very high
+air/unspecified,emission/air/troposphere/ground-level
+air/urban,emission/air/indoor
+air/unspecified,emission/air/stratosphere
+soil/unspecified,emission/ground
 soil/natural,emission/ground/terrestrial/wetland
 soil/natural,emission/ground/terrestrial/barren land
 soil/natural,emission/ground/terrestrial/snow and ice
 soil/natural,emission/ground/terrestrial/grassland
 soil/natural,emission/ground/terrestrial/shrubland
 soil/natural,emission/ground/terrestrial/forest
+soil/unspecified,emission/ground/human-dominated
+soil/natural,emission/ground/human-dominated/industrial
+soil/natural,emission/ground/human-dominated/commercial
+soil/natural,emission/ground/human-dominated/residential
+soil/natural,emission/ground/human-dominated/industrial/urban
+soil/natural,emission/ground/human-dominated/industrial/rural
+soil/natural,emission/ground/human-dominated/commercial/urban
+soil/natural,emission/ground/human-dominated/commercial/rural
+soil/natural,emission/ground/human-dominated/residential/urban
+soil/natural,emission/ground/human-dominated/residential/rural
+soil/unspecified,emission/ground/urban
+soil/unspecified,emission/ground/rural
+soil/unspecified,emission/ground/human-dominated/urban
+soil/unspecified,emission/ground/human-dominated/rural
 soil/agricultural,emission/ground/human-dominated/agricultural
 soil/agricultural,emission/ground/human-dominated/agricultural/rural
 soil/agricultural,emission/ground/human-dominated/agricultural/urban
@@ -87,3 +98,12 @@ water/freshwater,emission/water/fresh water body/river/urban
 water/freshwater,emission/water/fresh water body/river/rural
 water/sea water,emission/water/saline water body
 water/sea water,emission/water/saline water body/ocean
+water/freshwater,emission/water
+water/freshwater,emission/water/urban
+water/freshwater,emission/water/rural
+water/unspecified,emission/water/brackish water body
+water/unspecified,emission/water/brackish water body/urban
+water/unspecified,emission/water/brackish water body/rural
+water/unspecified,emission/water/brackish water body/lake
+water/unspecified,emission/water/brackish water body/lake/urban
+water/unspecified,emission/water/brackish water body/lake/rural
