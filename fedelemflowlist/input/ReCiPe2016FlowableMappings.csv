@@ -33,7 +33,7 @@ HFC-143a,kg,=,HFC-143a,kg,Hottle,Name match,,,1/7/2020
 HFC-152,kg,=,HFC-152,kg,Hottle,Name match,,,1/7/2020
 HFC-152a,kg,=,HFC-152a,kg,Hottle,Name match,,,1/7/2020
 HFC-161,kg,=,HFC-161,kg,Hottle,Name match,,,1/7/2020
-HFC-227ea,kg,=,HFC-227ca,kg,Hottle,Manual,,"could only find ""ea"" not ""ca"", assuming typo",1/7/2020
+1H-Heptafluoropropane,kg,=,HFC-227ca,kg,Hottle,Manual,,"could only find ""ea"" not ""ca"", assuming typo",1/7/2020
 HFC-227ea,kg,=,HFC-227ea,kg,Hottle,Name match,,,1/7/2020
 HFC-236cb,kg,=,HFC-236cb,kg,Hottle,Name match,,,1/7/2020
 HFC-236ea,kg,=,HFC-236ea,kg,Hottle,Name match,,,1/7/2020
@@ -158,7 +158,7 @@ Fluoro(methoxy)methane,kg,=,Fluoro(methoxy)methane,kg,Edelen,Manual,,"not in our
 Difluoro(methoxy)methane,kg,=,Difluoro(methoxy)methane,kg,Edelen,Manual,,"not in our list, 359-15-9",1/22/2020
 Fluoro(fluoromethoxy)methane,kg,=,Fluoro(fluoromethoxy)methane,kg,Edelen,Manual,,"not in our list, 462-51-1",1/22/2020
 "Methane, (difluoromethoxy)trifluoro-",kg,=,Difluoro(fluoromethoxy)methane,kg,Hottle,Manual,,,1/7/2020
-"Methane, trifluoromethoxy-",kg,=,Trifluoro(fluoromethoxy)methane,kg,Hottle,Manual,,,1/7/2020
+"Trifluoro(fluoromethoxy)methane",kg,=,Trifluoro(fluoromethoxy)methane,kg,Hottle,Manual,,,1/7/2020
 HG'-01,kg,=,HG'-01,kg,Edelen,Manual,,"not in our list, 73287-23-7",1/22/2020
 HG'-02,kg,=,HG'-02,kg,Edelen,Manual,,"not in our list, 485399-46-0",1/22/2020
 HG'-03,kg,=,HG'-03,kg,Edelen,Manual,,"not in our list, 485399-48-2",1/22/2020
@@ -293,9 +293,9 @@ Methylcyclohexane,kg,=,Methylcyclohexane,kg,Hottle,Name match,,,1/7/2020
 Ethylcyclohexane,kg,=,Ethylcyclohexane,kg,Hottle,Name match,,,1/7/2020
 Propylcyclohexane,kg,=,Propylcyclohexane,kg,Hottle,Name match,,,1/7/2020
 "1,2,3-Trimethylcyclohexane",kg,=,"1,2,3-Trimethylcyclohexane",kg,Hottle,Name match,,,1/7/2020
-Propylcyclohexane,kg,~,i-Propylcyclohexane,kg,Hottle,Manual,,,1/7/2020
+"Cyclohexane, (1-methylethyl)-",kg,~,i-Propylcyclohexane,kg,Hottle,Manual,,,1/7/2020
 Butylcyclohexane,kg,=,Butylcyclohexane,kg,Hottle,Name match,,,1/7/2020
-Butylcyclohexane,kg,~,i-Butylcyclohexane,kg,Hottle,Manual,,,1/7/2020
+Isobutylcyclohexane,kg,~,i-Butylcyclohexane,kg,Hottle,Manual,,,1/7/2020
 1-Methyl-3-propyl-cyclohexane,kg,=,1-Methyl-3-propylcyclohexane,kg,Edelen,Manual,,"not in our list, 4291-80-9",1/22/2020
 1-methyl-4-propylcyclohexane,kg,=,1-Methyl-4-propylcyclohexane,kg,Edelen,Manual,,"not in our list, 4291-81-0",1/22/2020
 "Cyclohexane, pentyl-",kg,=,Pentylcyclohexane,kg,Hottle,Manual,,,1/7/2020
@@ -968,7 +968,7 @@ m-Dinitrobenzene,kg,=,"1,3-Dinitrobenzene",kg,Hottle,CAS match,,,1/7/2020
 Chlormequat chloride,kg,=,CHLORMEQUAT CHLORIDE,kg,Hottle,Name match,,,1/7/2020
 p-Nitrotoluene,kg,=,4-nitrotoluene,kg,Hottle,CAS match,,,1/7/2020
 "2-Amino-9H-pyrido[2,3-b]indole",kg,=,"1H-PYRIDO[2,3-B]INDOL-2-AMINE",kg,Hottle,CAS match,,,1/7/2020
-Diflubenzuron,kg,=,DIMELIN,kg,Hottle,CAS match,,,1/7/2020
+Acetohexamide,kg,=,DIMELIN,kg,Hottle,CAS match,,,1/7/2020
 Acetone[4-(5-nitro-2-furyl)-2-thiazolyl] hydrazone,kg,=,ACETONE[4-(5-NITRO-2-FURYL)-2-THIAZOLYL]HYDRAZONE,kg,Hottle,CAS match,,,1/7/2020
 1'-Acetoxysafrole,kg,=,1'-ACETOXYSAFROLE,kg,Hottle,Name match,,,1/7/2020
 "3-Acetyl-6-methyl-2H-pyran-2,4(3H)-dione",kg,=,DEHYDROACETIC ACID,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
@@ -1244,7 +1244,7 @@ Photomirex,kg,=,"1,3,4-Metheno-1H-cyclobuta[cd]pentalene, 1,1a,2,2,3,3a,4,5,5,5a
 Misoprostol,kg,=,MISOPROSTOL,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
 Monocrotaline,kg,=,Monocrotaline,kg,Hottle,Name match,,,1/7/2020
 (S)-Furaltadone hydrochloride,kg,=,l-5-MORPHOLINOMETHYL-3-[(5-NITROFURFURYLIDENE)AMINO]-2-OXAZOLIDINONE.HCl,kg,Hottle,CAS match,,,1/7/2020
-S-Ethylhomocysteine,kg,=,MYLERLAN,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
+Busulfan,kg,=,MYLERLAN,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
 Nafenopin,kg,=,Nafenoic acid,kg,Hottle,CAS match,,,1/7/2020
 Nalidixic acid,kg,=,NALIDIXIC ACID,kg,Hottle,Name match,,,1/7/2020
 1-Naphthaleneacetamide,kg,=,1-Naphthaleneacetamide,kg,Hottle,Name match,,,1/7/2020
@@ -1405,7 +1405,7 @@ Trimethadione,kg,=,Trimethadione,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/
 Trp-P-1 acetate,kg,=,"5H-Pyrido(4,3-b)indol-3-amine, 1,4-dimethyl-, acetate",kg,Hottle,CAS match,,,1/7/2020
 Trp-P-2 acetate,kg,=,"3-Amino-1-methyl-5H-pyrido(4,3-b)indole acetate",kg,Hottle,CAS match,,,1/7/2020
 dl-Tryptophan,kg,=,DL-TRYPTOPHAN,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
-dl-Tryptophan,kg,=,TRYPTOPHAN,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
+L-Tryptophan,kg,=,TRYPTOPHAN,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
 Urapidil,kg,=,"2,4(1H,3H)-PYRIMIDINEDIONE, 6-[[3-[4-(2-METHOXYP",kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
 Vinyl bromide,kg,=,Bromoethylene,kg,Hottle,CAS match,,,1/7/2020
 Vinyl chloride,kg,=,chloroethene (vinyl chloride),kg,Hottle,CAS match,,,1/7/2020
@@ -1608,7 +1608,7 @@ N-Methyl-N-formylhydrazine,kg,=,N-Formyl-N-methyl hydrazine,kg,Hottle,CAS match,
 Methyl methanesulfonate,kg,=,METHYL METHANE SULFONATE,kg,Hottle,CAS match,,,1/7/2020
 N-Methylolacrylamide,kg,=,N-(Hydroxymethyl)acrylamide,kg,Hottle,CAS match,,,1/7/2020
 Acetic acid hydrazide,kg,=,ACETIC ACID HYDRAZIDE,kg,Hottle,Name match,,,1/7/2020
-Monosodium methanearsonate,kg,=,METHANE ARSONATE,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
+Methylarsonic acid,kg,=,METHANE ARSONATE,kg,Edelen,Manual,,no match for CAS in ReCiPe,1/22/2020
 Nicotinic acid hydrazide,kg,=,"3-Pyridinecarboxylic acid, hydrazide",kg,Hottle,CAS match,,,1/7/2020
 "Nitrilotriacetic acid trisodium salt, monohydrate",kg,=,Trsodium nitrilotriacetate monohydrate,kg,Hottle,CAS match,,,1/7/2020
 "N-{[3-(5-Nitro-2-furyl)-1,2,4-oxadiazole-5-yl]-methyl}acetamide",kg,=,"N-{[3-(5-NITRO-2-FURYL)-1,2,4-OXADIAZOLE-5-YL]-METHYL}ACETAMIDE",kg,Hottle,Name match,,,1/7/2020
@@ -3470,7 +3470,7 @@ Arsenic(V),kg,=,As(V),kg,Hottle,Manual,,,1/7/2020
 Barium,kg,<,Ba(II),kg,Hottle,Manual,,,1/7/2020
 Beryllium,kg,<,Be(II),kg,Hottle,Manual,,,1/7/2020
 Cadmium(II),kg,=,Cd(II),kg,Hottle,Manual,,,1/7/2020
-Cobalt,kg,<,Co(II),kg,Hottle,Manual,,,1/7/2020
+Cobalt(II),kg,<,Co(II),kg,Hottle,Manual,,,1/7/2020
 Chromium(III),kg,=,Cr(III),kg,Hottle,Manual,,,1/7/2020
 Chromium(VI),kg,=,Cr(VI),kg,Hottle,Manual,,,1/7/2020
 Copper(II),kg,=,Cu(II),kg,Hottle,Manual,,,1/7/2020
@@ -3527,7 +3527,7 @@ Bentonite,kg,=,Bentonite clay*,kg,Hottle,Manual,,,1/7/2020
 Beryllium,kg,=,Beryllium*,kg,Hottle,Name match,,,1/7/2020
 Bismuth,kg,=,Bismuth*,kg,Hottle,Name match,,,1/7/2020
 Boron trifluoride,kg,=,Boron*,kg,Hottle,Name match,,,1/7/2020
-Cadmium stearate,kg,=,Cadmium*,kg,Hottle,Name match,,,1/7/2020
+Cadmium,kg,=,Cadmium*,kg,Hottle,Name match,,,1/7/2020
 Cesium,kg,=,Cesium*,kg,Hottle,Manual,,,1/7/2020
 Chromium,kg,=,Chromium,kg,Hottle,Name match,,,1/7/2020
 Chrysotile,kg,=,Chrysotile*,kg,Hottle,Name match,,,1/7/2020
@@ -3570,7 +3570,7 @@ Pumice,kg,<,Pumice and pumicite*,kg,Hottle,Manual,,,1/7/2020
 Rhenium,kg,=,Rhenium*,kg,Hottle,Name match,,,1/7/2020
 Rhodium,kg,=,Rhodium*,kg,Hottle,Name match,,,1/7/2020
 Rutile,kg,=,Rutile*,kg,Hottle,Name match,,,1/7/2020
-Selenium tetrakis(diethyldithiocarbamate),kg,=,Selenium*,kg,Hottle,Name match,,,1/7/2020
+Selenium,kg,=,Selenium*,kg,Hottle,Name match,,,1/7/2020
 Silicon,kg,=,Silicon*,kg,Hottle,Name match,,,1/7/2020
 Silver,kg,=,Silver,kg,Hottle,Name match,,,1/7/2020
 Strontium chromate,kg,=,Strontium*,kg,Hottle,Name match,,,1/7/2020
