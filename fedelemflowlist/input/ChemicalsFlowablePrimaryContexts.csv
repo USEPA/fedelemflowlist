@@ -11777,9 +11777,6 @@ Methyl carbonofluoridate,Emission,Water
 "1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",Emission,Air
 "1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",Emission,Ground
 "1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",Emission,Water
-Cesium-137,Emission,Air
-Cesium-137,Emission,Ground
-Cesium-137,Emission,Water
 Plutonium-239,Emission,Air
 Plutonium-239,Emission,Ground
 Plutonium-239,Emission,Water
