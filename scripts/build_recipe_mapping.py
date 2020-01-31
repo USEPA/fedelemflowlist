@@ -45,12 +45,15 @@ if __name__ == '__main__':
     # Add in flowable matches. Assume these are in inputfolder with lcia_name+standardname.csv
     flowable_mappings = pd.read_csv(inputpath + lcia_name + 'FlowableMappings.csv')
     len(flowable_mappings)
+    # Make all flowables lowercase to resolve case sensitivity issues in ReCiPe
+    flowable_mappings['SourceFlowName_low'] = flowable_mappings['SourceFlowName'].str.lower()
+    lciafmt_w_context_mappings['Flowable_low']=lciafmt_w_context_mappings['Flowable'].str.lower()
     lciafmt_w_context_flowable_mappings = pd.merge(lciafmt_w_context_mappings,
                                                    flowable_mappings,
-                                                   left_on='Flowable',
-                                                   right_on='SourceFlowName')
+                                                   left_on='Flowable_low',
+                                                   right_on='SourceFlowName_low')
     # Drop duplicate field
-    lciafmt_w_context_flowable_mappings = lciafmt_w_context_flowable_mappings.drop(columns='Flowable')
+    lciafmt_w_context_flowable_mappings = lciafmt_w_context_flowable_mappings.drop(columns=['Flowable','SourceFlowName_low','Flowable_low'])
     len(lciafmt_w_context_flowable_mappings)
 
     # Merge LCIA with Flowlist
