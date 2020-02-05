@@ -21,25 +21,25 @@ air/unspecified,emission/air/troposphere/high
 air/unspecified,emission/air/troposphere/very high
 air/unspecified,emission/air/troposphere/ground-level
 air/unspecified,emission/air/stratosphere
-ground/unspecified,emission/ground
-ground/unspecified,emission/ground/urban
-ground/unspecified,emission/ground/rural
-ground/unspecified,emission/ground/human-dominated
-ground/unspecified,emission/ground/human-dominated/commercial
-ground/unspecified,emission/ground/human-dominated/residential
-ground/unspecified,emission/ground/human-dominated/urban
-ground/unspecified,emission/ground/human-dominated/rural
-ground/unspecified,emission/ground/human-dominated/commercial/urban
-ground/unspecified,emission/ground/human-dominated/commercial/rural
-ground/unspecified,emission/ground/human-dominated/residential/urban
-ground/unspecified,emission/ground/human-dominated/residential/rural
-ground/unspecified,emission/ground/terrestrial/wetland
-ground/unspecified,emission/ground/terrestrial/barren land
-ground/unspecified,emission/ground/terrestrial/snow and ice
-ground/unspecified,emission/ground/terrestrial/grassland
-ground/unspecified,emission/ground/terrestrial/shrubland
-ground/unspecified,emission/ground/terrestrial/forest
-ground/unspecified,emission/ground/subterranean
+soil/unspecified,emission/ground
+soil/unspecified,emission/ground/urban
+soil/unspecified,emission/ground/rural
+soil/unspecified,emission/ground/human-dominated
+soil/unspecified,emission/ground/human-dominated/commercial
+soil/unspecified,emission/ground/human-dominated/residential
+soil/unspecified,emission/ground/human-dominated/urban
+soil/unspecified,emission/ground/human-dominated/rural
+soil/unspecified,emission/ground/human-dominated/commercial/urban
+soil/unspecified,emission/ground/human-dominated/commercial/rural
+soil/unspecified,emission/ground/human-dominated/residential/urban
+soil/unspecified,emission/ground/human-dominated/residential/rural
+soil/unspecified,emission/ground/terrestrial/wetland
+soil/unspecified,emission/ground/terrestrial/barren land
+soil/unspecified,emission/ground/terrestrial/snow and ice
+soil/unspecified,emission/ground/terrestrial/grassland
+soil/unspecified,emission/ground/terrestrial/shrubland
+soil/unspecified,emission/ground/terrestrial/forest
+soil/unspecified,emission/ground/subterranean
 water/unspecified,emission/water/brackish water body
 water/unspecified,emission/water/brackish water body/urban
 water/unspecified,emission/water/brackish water body/rural
