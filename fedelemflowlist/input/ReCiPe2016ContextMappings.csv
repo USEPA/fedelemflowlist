@@ -1,21 +1,4 @@
 ﻿SourceFlowContext,TargetFlowContext
-emission/air,emission/air
-emission/air,emission/air/troposphere/low
-emission/air,emission/air/troposphere/high
-emission/air,emission/air/troposphere/very high
-emission/air,emission/air/troposphere/ground-level
-emission/air,emission/air/troposphere/urban
-emission/air,emission/air/troposphere/rural
-emission/air,emission/air/troposphere/urban/low
-emission/air,emission/air/troposphere/rural/low
-emission/air,emission/air/troposphere/urban/high
-emission/air,emission/air/troposphere/rural/high
-emission/air,emission/air/troposphere/urban/very high
-emission/air,emission/air/troposphere/rural/very high
-emission/air,emission/air/troposphere/urban/ground-level
-emission/air,emission/air/troposphere/rural/ground-level
-emission/air,emission/air/indoor
-emission/air,emission/air/stratosphere
 air,emission/air
 air,emission/air/troposphere/low
 air,emission/air/troposphere/high
