@@ -34,17 +34,6 @@ def _isnum(val) -> bool:
     return False
 
 
-def _catpath(*args) -> str:
-    p = ''
-    for arg in args:
-        if _isnil(arg):
-            continue
-        if p != '':
-            p = p + "/"
-        p = 'Elementary flows/' + p + str(arg).strip()
-    return p
-
-
 def _s(val) -> Optional[str]:
     """Returns the string value of the given value or None if the value is
        `None`, `NaN`, or `""`.
@@ -105,7 +94,7 @@ class _MapEntry(object):
         self.source_flow = s_flow
         s_flow.name = _s(row['SourceFlowName'])
         s_flow.uid = _s(row['SourceFlowUUID'])
-        s_flow.category = _catpath(row['SourceFlowContext'])
+        s_flow.category = _s(row['SourceFlowContext'])
         s_flow.unit = _s(row['SourceUnit'])
 
         # traget flow attributs
@@ -113,7 +102,7 @@ class _MapEntry(object):
         self.target_flow = t_flow
         t_flow.name = _s(row['TargetFlowName'])
         t_flow.uid = _s(row['TargetFlowUUID'])
-        t_flow.category = _catpath(row['TargetFlowContext'])
+        t_flow.category = _s(row['TargetFlowContext'])
         t_flow.unit = _s(row['TargetUnit'])
 
         factor = row['ConversionFactor']
