@@ -80,9 +80,10 @@ if __name__ == '__main__':
     alt_unit_list = fedelemflowlist.get_alt_conversion()
     lcia_mappings = lcia_mappings.merge(alt_unit_list,how='left',
                                         left_on=['TargetFlowName','SourceUnit', 'TargetUnit'],right_on=['Flowable','AltUnit','Unit'])
-    lcia_mappings['ConversionFactor'].update(lcia_mappings['AltUnitConversionFactor'])
+    lcia_mappings['ConversionFactor'].update(lcia_mappings['InverseConversionFactor'])
     lcia_mappings = lcia_mappings.drop(columns=['Flowable','Unit',
-                                                'AltUnit','AltUnitConversionFactor'])
+                                                'AltUnit','AltUnitConversionFactor',
+                                                'InverseConversionFactor'])
             
     # Reorder the mappings
     flowmapping_order = ['SourceListName',
