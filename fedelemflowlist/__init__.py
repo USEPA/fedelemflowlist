@@ -71,4 +71,7 @@ def get_alt_conversion():
     flowlist = flowlist[['Flowable', 'Unit', 'AltUnit', 'AltUnitConversionFactor']]
     flowlist = flowlist.dropna(subset=['AltUnit'])
     flowlist.drop_duplicates(keep='first',inplace=True)
+    flowlist['InverseConversionFactor']=1/flowlist['AltUnitConversionFactor']
+    #round to 6 decimals
+    flowlist = flowlist.round({'InverseConversionFactor':6})
     return flowlist
