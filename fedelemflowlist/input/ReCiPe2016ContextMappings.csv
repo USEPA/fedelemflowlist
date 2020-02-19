@@ -80,7 +80,7 @@ water/unspecified,emission/water/subterranean/brackish water body/unconfined aqu
 "Occupation, grassland, natural (non-use)",resource/ground/terrestrial/grassland
 "Occupation, urban/industrial fallow (non-use)",resource/ground/human-dominated/industrial
 "Occupation, traffic area, rail/road embankment",resource/ground
-resource/ground,resource/ground/
+resource/ground,resource/ground
 resource/ground,resource/ground/urban
 resource/ground,resource/ground/rural
 resource/ground,resource/ground/human-dominated
@@ -105,7 +105,13 @@ resource/ground,resource/ground/terrestrial/grassland
 resource/ground,resource/ground/terrestrial/shrubland
 resource/ground,resource/ground/terrestrial/forest
 resource/ground,resource/ground/subterranean
-resource/fresh water,resource/water/
+resource,resource/ground
+resource,resource/ground/subterranean
+resource,resource/air
+resource,resource/air/subterranean
+resource,resource/water
+resource,resource/water/subterranean
+resource/fresh water,resource/water
 resource/fresh water,resource/water/urban
 resource/fresh water,resource/water/rural
 resource/fresh water,resource/water/subterranean
