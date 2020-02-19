@@ -67,7 +67,8 @@ def write_jsonld(flows, path, mappings=None):
     writer.write_to(path)
 
 def get_alt_conversion():
-    """returns a dataframe of all flowables with altunits and alt conversion factors"""
+    """returns a dataframe of all flowables with altunits and alt conversion factors
+    sourced direclty from input files and so can reference multiple alt units per flowable"""
     altflowlist = pd.DataFrame()
     for t in flow_list_specs["flow_classes"]:
         try:
@@ -80,6 +81,7 @@ def get_alt_conversion():
     altflowlist = altflowlist.rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
                                                                     'Alternate Unit': 'AltUnit',
                                                                     'Reference Unit': 'Unit'})
+    #generate InverseConversionFactor for converting from alt unit to primary unit
     altflowlist['InverseConversionFactor']=1/altflowlist['AltUnitConversionFactor']
     #round to 6 decimals
     altflowlist = altflowlist.round({'InverseConversionFactor':6})

@@ -9,7 +9,7 @@ import fedelemflowlist
 from fedelemflowlist.globals import flowmappingpath, flowmapping_fields, log
 
 #Add source name here. The .csv mapping file with this name must be in the flowmapping directory
-#None can be used to update UUIDs in all mapping files
+#None can be used to add conversions in all mapping files
 source = 'ReCiPe2016'
 
 if __name__ == '__main__':
