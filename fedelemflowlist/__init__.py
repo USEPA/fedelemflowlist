@@ -5,7 +5,8 @@ in standard pandas dataframe formats, defined within format specs
 """
 import os
 import pandas as pd
-from fedelemflowlist.globals import outputpath, flowmappingpath
+from fedelemflowlist.flowlist import read_in_flowclass_file
+from fedelemflowlist.globals import outputpath, flowmappingpath, flow_list_specs
 import fedelemflowlist.jsonld as jsonld
 
 
@@ -67,11 +68,19 @@ def write_jsonld(flows, path, mappings=None):
 
 def get_alt_conversion():
     """returns a dataframe of all flowables with altunits and alt conversion factors"""
-    flowlist = get_flows()
-    flowlist = flowlist[['Flowable', 'Unit', 'AltUnit', 'AltUnitConversionFactor']]
-    flowlist = flowlist.dropna(subset=['AltUnit'])
-    flowlist.drop_duplicates(keep='first',inplace=True)
-    flowlist['InverseConversionFactor']=1/flowlist['AltUnitConversionFactor']
+    altflowlist = pd.DataFrame()
+    for t in flow_list_specs["flow_classes"]:
+        try:
+            altunits_for_class = read_in_flowclass_file(t, 'FlowableAltUnits')
+            altunits_for_class = altunits_for_class.drop_duplicates()
+            altflowlist = pd.concat([altflowlist,altunits_for_class],ignore_index=True)
+        except FileNotFoundError:
+            altunits_for_class = None # Do nothing
+    altflowlist = altflowlist.drop(columns=['External Reference'])
+    altflowlist = altflowlist.rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
+                                                                    'Alternate Unit': 'AltUnit',
+                                                                    'Reference Unit': 'Unit'})
+    altflowlist['InverseConversionFactor']=1/altflowlist['AltUnitConversionFactor']
     #round to 6 decimals
-    flowlist = flowlist.round({'InverseConversionFactor':6})
-    return flowlist
+    altflowlist = altflowlist.round({'InverseConversionFactor':6})
+    return altflowlist
