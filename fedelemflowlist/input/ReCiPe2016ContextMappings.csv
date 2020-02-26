@@ -1,0 +1,167 @@
+﻿SourceFlowContext,TargetFlowContext
+air,emission/air
+air,emission/air/troposphere/low
+air,emission/air/troposphere/high
+air,emission/air/troposphere/very high
+air,emission/air/troposphere/ground-level
+air,emission/air/troposphere/urban
+air,emission/air/troposphere/rural
+air,emission/air/troposphere/urban/low
+air,emission/air/troposphere/rural/low
+air,emission/air/troposphere/urban/high
+air,emission/air/troposphere/rural/high
+air,emission/air/troposphere/urban/very high
+air,emission/air/troposphere/rural/very high
+air,emission/air/troposphere/urban/ground-level
+air,emission/air/troposphere/rural/ground-level
+air,emission/air/indoor
+air,emission/air/stratosphere
+air/unspecified,emission/air/troposphere/low
+air/unspecified,emission/air/troposphere/high
+air/unspecified,emission/air/troposphere/very high
+air/unspecified,emission/air/troposphere/ground-level
+air/unspecified,emission/air/stratosphere
+soil/unspecified,emission/ground
+soil/unspecified,emission/ground/urban
+soil/unspecified,emission/ground/rural
+soil/unspecified,emission/ground/human-dominated
+soil/unspecified,emission/ground/human-dominated/commercial
+soil/unspecified,emission/ground/human-dominated/residential
+soil/unspecified,emission/ground/human-dominated/urban
+soil/unspecified,emission/ground/human-dominated/rural
+soil/unspecified,emission/ground/human-dominated/commercial/urban
+soil/unspecified,emission/ground/human-dominated/commercial/rural
+soil/unspecified,emission/ground/human-dominated/residential/urban
+soil/unspecified,emission/ground/human-dominated/residential/rural
+soil/unspecified,emission/ground/terrestrial/wetland
+soil/unspecified,emission/ground/terrestrial/barren land
+soil/unspecified,emission/ground/terrestrial/snow and ice
+soil/unspecified,emission/ground/terrestrial/grassland
+soil/unspecified,emission/ground/terrestrial/shrubland
+soil/unspecified,emission/ground/terrestrial/forest
+soil/unspecified,emission/ground/subterranean
+water/unspecified,emission/water/brackish water body
+water/unspecified,emission/water/brackish water body/urban
+water/unspecified,emission/water/brackish water body/rural
+water/unspecified,emission/water/brackish water body/lake
+water/unspecified,emission/water/brackish water body/lake/urban
+water/unspecified,emission/water/brackish water body/lake/rural
+water/unspecified,emission/water/subterranean/brackish water body
+water/unspecified,emission/water/subterranean/brackish water body/confined aquifer
+water/unspecified,emission/water/subterranean/brackish water body/unconfined aquifer
+"Occupation, pasture, man made, intensive",resource/ground/human-dominated/agricultural
+"Occupation, permanent crop, non-irrigated, intensive",resource/ground/human-dominated/agricultural
+"Occupation, mineral extraction site",resource/ground/human-dominated/industrial
+"Occupation, annual crop, greenhouse",resource/ground/human-dominated/agricultural
+"Occupation, permanent crop, irrigated, intensive",resource/ground/human-dominated/agricultural
+"Occupation, industrial area",resource/ground/human-dominated/industrial
+"Occupation, construction site",resource/ground/human-dominated/commercial
+"Occupation, annual crop, non-irrigated, intensive",resource/ground/human-dominated/agricultural
+"Occupation, traffic area, road network",resource/ground/human-dominated
+"Occupation, annual crop, irrigated, intensive",resource/ground/human-dominated/agricultural
+"Occupation, dump site",resource/ground/human-dominated/industrial
+"Occupation, river, artificial",resource/water/fresh water body/river
+"Occupation, annual crop",resource/ground/human-dominated/agricultural
+"Occupation, lake, artificial",resource/water/fresh water body/lake
+"Occupation, annual crop, non-irrigated, extensive",resource/ground/human-dominated/agricultural
+"Occupation, traffic area, rail/road embankment",resource/ground/human-dominated
+"Occupation, pasture, man made, extensive",resource/ground/human-dominated/agricultural
+"Occupation, forest, extensive",resource/ground/terrestrial/forest
+"Occupation, forest, intensive",resource/ground/terrestrial/forest
+"Occupation, permanent crop",resource/ground/human-dominated/agricultural
+"Occupation, traffic area, rail network",resource/ground/human-dominated/industrial
+"Occupation, seabed, infrastructure",resource/water/saline water body/ocean
+"Occupation, seabed, drilling and mining",resource/water/saline water body/ocean
+"Occupation, annual crop, non-irrigated",resource/ground/human-dominated/agricultural
+"Occupation, shrub land, sclerophyllous",resource/ground/terrestrial/shrubland
+"Occupation, annual crop, irrigated",resource/ground/human-dominated/agricultural
+"Occupation, urban, discontinuously built",resource/ground/human-dominated/urban
+"Occupation, pasture, man made",resource/ground/human-dominated/rural
+"Occupation, grassland, natural (non-use)",resource/ground/terrestrial/grassland
+"Occupation, urban/industrial fallow (non-use)",resource/ground/human-dominated/industrial
+"Occupation, traffic area, rail/road embankment",resource/ground
+resource/ground,resource/ground
+resource/ground,resource/ground/urban
+resource/ground,resource/ground/rural
+resource/ground,resource/ground/human-dominated
+resource/ground,resource/ground/human-dominated/industrial
+resource/ground,resource/ground/human-dominated/commercial
+resource/ground,resource/ground/human-dominated/agricultural
+resource/ground,resource/ground/human-dominated/residential
+resource/ground,resource/ground/human-dominated/urban
+resource/ground,resource/ground/human-dominated/rural
+resource/ground,resource/ground/human-dominated/industrial/urban
+resource/ground,resource/ground/human-dominated/industrial/rural
+resource/ground,resource/ground/human-dominated/commercial/urban
+resource/ground,resource/ground/human-dominated/commercial/rural
+resource/ground,resource/ground/human-dominated/agricultural/urban
+resource/ground,resource/ground/human-dominated/agricultural/rural
+resource/ground,resource/ground/human-dominated/residential/urban
+resource/ground,resource/ground/human-dominated/residential/rural
+resource/ground,resource/ground/terrestrial/wetland
+resource/ground,resource/ground/terrestrial/barren land
+resource/ground,resource/ground/terrestrial/snow and ice
+resource/ground,resource/ground/terrestrial/grassland
+resource/ground,resource/ground/terrestrial/shrubland
+resource/ground,resource/ground/terrestrial/forest
+resource/ground,resource/ground/subterranean
+resource,resource/ground
+resource,resource/ground/subterranean
+resource,resource/air
+resource,resource/air/subterranean
+resource,resource/water
+resource,resource/water/subterranean
+resource/fresh water,resource/water
+resource/fresh water,resource/water/urban
+resource/fresh water,resource/water/rural
+resource/fresh water,resource/water/subterranean
+resource/fresh water,resource/water/fresh water body
+resource/fresh water,resource/water/fresh water body/lake
+resource/fresh water,resource/water/fresh water body/river
+resource/fresh water,resource/water/fresh water body/urban
+resource/fresh water,resource/water/fresh water body/rural
+resource/fresh water,resource/water/fresh water body/lake/urban
+resource/fresh water,resource/water/fresh water body/lake/rural
+resource/fresh water,resource/water/fresh water body/river/urban
+resource/fresh water,resource/water/fresh water body/river/rural
+resource/fresh water,resource/water/subterranean/fresh water body
+resource/fresh water,resource/water/subterranean/fresh water body/confined aquifer
+resource/fresh water,resource/water/subterranean/fresh water body/unconfined aquifer
+air/urban,emission/air/troposphere/urban
+air/urban,emission/air/indoor
+air/urban,emission/air/troposphere/urban/low
+air/urban,emission/air/troposphere/urban/high
+air/urban,emission/air/troposphere/urban/very high
+air/urban,emission/air/troposphere/urban/ground-level
+air/rural,emission/air/troposphere/rural
+air/rural,emission/air/troposphere/rural/low
+air/rural,emission/air/troposphere/rural/high
+air/rural,emission/air/troposphere/rural/very high
+air/rural,emission/air/troposphere/rural/ground-level
+soil/agricultural,emission/ground/human-dominated/agricultural
+soil/agricultural,emission/ground/human-dominated/agricultural/urban
+soil/agricultural,emission/ground/human-dominated/agricultural/rural
+soil/industrial,emission/ground/human-dominated/industrial
+soil/industrial,emission/ground/human-dominated/industrial/urban
+soil/industrial,emission/ground/human-dominated/industrial/rural
+water/freshwater,emission/water/fresh water body
+water/freshwater,emission/water
+water/freshwater,emission/water/urban
+water/freshwater,emission/water/rural
+water/freshwater,emission/water/fresh water body/urban
+water/freshwater,emission/water/fresh water body/rural
+water/freshwater,emission/water/fresh water body/lake
+water/freshwater,emission/water/fresh water body/river
+water/freshwater,emission/water/fresh water body/lake/urban
+water/freshwater,emission/water/fresh water body/lake/rural
+water/freshwater,emission/water/fresh water body/river/urban
+water/freshwater,emission/water/fresh water body/river/rural
+water/freshwater,emission/water/subterranean
+water/freshwater,emission/water/subterranean/fresh water body
+water/freshwater,emission/water/subterranean/fresh water body/confined aquifer
+water/freshwater,emission/water/subterranean/fresh water body/unconfined aquifer
+water/sea water,emission/water/saline water body/ocean
+water/sea water,emission/water/saline water body
+water/sea water,emission/water/subterranean/saline water body
+water/sea water,emission/water/subterranean/saline water body/confined aquifer
+water/sea water,emission/water/subterranean/saline water body/unconfined aquifer
