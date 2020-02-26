@@ -49,37 +49,23 @@ water/unspecified,emission/water/brackish water body/lake/rural
 water/unspecified,emission/water/subterranean/brackish water body
 water/unspecified,emission/water/subterranean/brackish water body/confined aquifer
 water/unspecified,emission/water/subterranean/brackish water body/unconfined aquifer
-"Occupation, pasture, man made, intensive",resource/ground/human-dominated/agricultural
-"Occupation, permanent crop, non-irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, mineral extraction site",resource/ground/human-dominated/industrial
-"Occupation, annual crop, greenhouse",resource/ground/human-dominated/agricultural
-"Occupation, permanent crop, irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, industrial area",resource/ground/human-dominated/industrial
-"Occupation, construction site",resource/ground/human-dominated/commercial
-"Occupation, annual crop, non-irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, traffic area, road network",resource/ground/human-dominated
-"Occupation, annual crop, irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, dump site",resource/ground/human-dominated/industrial
-"Occupation, river, artificial",resource/water/fresh water body/river
-"Occupation, annual crop",resource/ground/human-dominated/agricultural
-"Occupation, lake, artificial",resource/water/fresh water body/lake
-"Occupation, annual crop, non-irrigated, extensive",resource/ground/human-dominated/agricultural
-"Occupation, traffic area, rail/road embankment",resource/ground/human-dominated
-"Occupation, pasture, man made, extensive",resource/ground/human-dominated/agricultural
-"Occupation, forest, extensive",resource/ground/terrestrial/forest
-"Occupation, forest, intensive",resource/ground/terrestrial/forest
-"Occupation, permanent crop",resource/ground/human-dominated/agricultural
-"Occupation, traffic area, rail network",resource/ground/human-dominated/industrial
-"Occupation, seabed, infrastructure",resource/water/saline water body/ocean
-"Occupation, seabed, drilling and mining",resource/water/saline water body/ocean
-"Occupation, annual crop, non-irrigated",resource/ground/human-dominated/agricultural
-"Occupation, shrub land, sclerophyllous",resource/ground/terrestrial/shrubland
-"Occupation, annual crop, irrigated",resource/ground/human-dominated/agricultural
-"Occupation, urban, discontinuously built",resource/ground/human-dominated/urban
-"Occupation, pasture, man made",resource/ground/human-dominated/rural
-"Occupation, grassland, natural (non-use)",resource/ground/terrestrial/grassland
-"Occupation, urban/industrial fallow (non-use)",resource/ground/human-dominated/industrial
-"Occupation, traffic area, rail/road embankment",resource/ground
+artificial area,resource/ground/human-dominated
+artificial area,resource/ground/human-dominated/industrial
+artificial area,resource/ground/human-dominated/commercial
+annual crops,resource/ground/human-dominated/agricultural
+artificial area,resource/ground/human-dominated/residential
+managed forest,resource/ground/terrestrial/forest
+artificial area,resource/ground/human-dominated/urban
+artificial area,resource/ground/human-dominated/rural
+artificial area,resource/ground/human-dominated/industrial/urban
+artificial area,resource/ground/human-dominated/industrial/rural
+artificial area,resource/ground/human-dominated/commercial/urban
+artificial area,resource/ground/human-dominated/commercial/rural
+annual crops,resource/ground/human-dominated/agricultural/urban
+annual crops,resource/ground/human-dominated/agricultural/rural
+artificial area,resource/ground/human-dominated/residential/urban
+artificial area,resource/ground/human-dominated/residential/rural
+artificial area,resource/ground
 resource/ground,resource/ground
 resource/ground,resource/ground/urban
 resource/ground,resource/ground/rural
