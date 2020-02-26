@@ -3465,14 +3465,11 @@ Thallium(I),kg,=,Tl(I),kg,Hottle,Manual,,,1/7/2020
 Vanadium,kg,<,V(V),kg,Hottle,Manual,,,1/7/2020
 Zinc(II),kg,=,Zn(II),kg,Hottle,Manual,,,1/7/2020
 Polycyclic aromatic hydrocarbons,kg,=,"PAH, polycyclic aromatic hydrocarbons",kg,Hottle,Manual,,,1/7/2020
-<<<<<<< HEAD,,,,,,,,,
 Land use,m2*a,=,pasture,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,permanent crops,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,artificial area,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,annual crops,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,managed forest,m2*a,Hottle,Manual,,,2/25/2020
-=======,,,,,,,,,
->>>>>>> 0dc149485bd0329d48ab764271707345a09dfb12,,,,,,,,,
 Water,kg,=,Water consumption,m3,Young,Manual,,conversion needed,2/19/2020
 Aluminum,kg,=,Aluminium,kg,Hottle,Manual,,,1/7/2020
 Antimony,kg,=,Antimony,kg,Hottle,Name match,,,1/7/2020
