@@ -1197,7 +1197,7 @@ USLCIv2019Q4,"Water, process",48719b78-8f64-373c-b99d-ac1003335dc3,water/unspeci
 USLCIv2019Q4,"Water, process, unspecified natural origin",665be6c5-e018-3956-83b9-99a381acf90e,water/unspecified,kg,=,1.0,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Hottle,Cashman,3/5/2020
 USLCIv2019Q4,"Water, process, unspecified natural origin/kg",78394ef8-1f6f-3cb4-89e4-6defabda95a1,water/unspecified,kg,=,1.0,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Hottle,Cashman,3/5/2020
 USLCIv2019Q4,"Water, process, unspecified natural origin/m3",7fefc941-9acb-39f7-9e3b-dd4e8f07ed0b,water/unspecified,m3,=,1000.0,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Hottle,Edelen,3/5/2020
-USLCIv2019Q4,"Water, process, well, in ground",1f0094b1-4821-3308-a96f-b255b4a97f0f,water/unspecified,kg,=,1.0,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Hottle,Cashman,3.5/2020
+USLCIv2019Q4,"Water, process, well, in ground",1f0094b1-4821-3308-a96f-b255b4a97f0f,water/unspecified,kg,=,1.0,Water,e2eb491c-78ff-3123-9e42-494c7d199b44,resource/water,kg,Hottle,Cashman,3/5/2020
 USLCIv2019Q4,"Water, SA",d4e91995-843c-380f-9b1d-e73eb87989d3,Elementary flows/Emission to water/unspecified,m3,=,1000.0,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Water, UN-EUROPE",ae1e393b-8ec0-3060-b98c-945b00f012c1,Elementary flows/Emission to water/unspecified,m3,=,1000.0,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Water, UN-OCEANIA",c76abb6e-4dff-3c0f-b3d9-80be0f80ec3e,Elementary flows/Emission to water/unspecified,m3,=,1000.0,Water,96054103-8509-3049-a638-c4d13cc707cc,emission/water,kg,Hottle,Edelen,12/20/2019
@@ -4011,7 +4011,7 @@ USLCIv2019Q4,"Water, irrigation",af36a5f2-a06e-35fc-8112-481eb0108b5c,water/grou
 USLCIv2019Q4,"Water, process",412dc486-d454-332c-a460-51b5dcb8f14f,water/ground-,kg,=,1.0,Water,01ec7937-eea7-3830-aaf6-3be74f4d952b,resource/water/subterranean,kg,Hottle,Cashman,3/5/2020
 USLCIv2019Q4,"Water, process",b0ef9a1c-958c-3edc-8ff8-092032d2e81c,water/ground-,m3,=,1000.0,Water,01ec7937-eea7-3830-aaf6-3be74f4d952b,resource/water/subterranean,kg,Hottle,Edelen,3/5/2020
 USLCIv2019Q4,"Water, process, well",897675d5-fe7d-3813-a85b-619c4558b572,water/ground-,kg,=,1.0,Water,01ec7937-eea7-3830-aaf6-3be74f4d952b,resource/water/subterranean,kg,Hottle,Cashman,3/5/2020
-USLCIv2019Q4,"Water, well",3d4b8f99-70c8-3542-a817-8cba6a836a4a,water/ground-,m3,=,1000.0,Water,01ec7937-eea7-3830-aaf6-3be74f4d952b,resource/water/subterranean,kg,Hottle,Edelen,3.5/2020
+USLCIv2019Q4,"Water, well",3d4b8f99-70c8-3542-a817-8cba6a836a4a,water/ground-,m3,=,1000.0,Water,01ec7937-eea7-3830-aaf6-3be74f4d952b,resource/water/subterranean,kg,Hottle,Edelen,3/5/2020
 USLCIv2019Q4,"Water, well, in ground",0a978708-b16b-3b5d-aabe-cb5d531d2c64,water/ground-,m3,=,1000.0,Water,01ec7937-eea7-3830-aaf6-3be74f4d952b,resource/water/subterranean,kg,Hottle,Edelen,3/5/2020
 USLCIv2019Q4,Water,ed3fdab8-6123-4c08-a25b-0a74a7fa779a,Elementary flows/Emission to water/ocean,kg,=,1.0,Water,2554f411-741b-3f04-a3c4-325f7a018f73,emission/water/saline water body/ocean,kg,Hottle,Cashman,8/16/2019
 USLCIv2019Q4,"Water, IAI Area 1",4bb40b02-179d-37e9-b933-1fe73f79b66f,Elementary flows/Emission to water/ocean,m3,=,1000.0,Water,2554f411-741b-3f04-a3c4-325f7a018f73,emission/water/saline water body/ocean,kg,Hottle,Edelen,12/20/2019
