@@ -4362,3 +4362,4 @@ eLCI,"Phenol compounds, unspecified",,emission/water,kg,=,1,Phenols,12812f0a-dd3
 eLCI,"Toluene, vinyl",,emission/air,kg,=,1,Vinyltoluene,926e6e98-b7ed-38f3-9873-93aeaf5f33e6,emission/air,kg,Hottle,Edelen,2/5/2020
 eLCI,Chlorides,,emission/water,kg,<,1,"Chlorides and sulfates, total",1fd6ca1f-26bf-3d26-8170-55746d2e2522,emission/water,kg,Hottle,Young,2/10/2020
 eLCI,Tetrachloroethene,,emission/air,kg,=,1,Tetrachloroethane,5e5215d6-2374-38ee-b26d-3a128f2e6ecd,emission/air,kg,Hottle,Edelen,2/10/2020
+eLCI,"N,N-Dimethylnitroamine",,emission/air,kg,=,1,Dimethylnitramine,40a7bc05-dd9d-3468-99f1-017faf0bc3a8,emission/air,kg,Hottle,Edelen,2/10/2020
