@@ -499,6 +499,7 @@ Adsorbable organic halides,Emission,Air
 "Hydrocarbons, halogenated",Emission,Air
 Mercaptans,Emission,Air
 Metals,Emission,Air
+Metals,Resource,Ground
 Organic compounds,Emission,Air
 "Particulate matter, > 10μm",Emission,Water
 "Particulate matter, ≤ 10μm",Emission,Water
