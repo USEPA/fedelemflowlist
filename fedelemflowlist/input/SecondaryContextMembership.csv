@@ -135,3 +135,5 @@ Chemicals,Resource,Water,0,0,0,0,0,0,0,0,0
 Chemicals,Resource,Water,0,1,0,0,1,0,0,0,0
 Chemicals,Resource,Water,0,1,0,0,0,0,0,0,0
 Chemicals,Resource,Water,1,0,0,0,0,0,0,0,0
+Groups,Resource,Ground,0,0,0,0,0,0,0,0,0
+Groups,Resource,Ground,1,0,0,0,0,0,0,0,0

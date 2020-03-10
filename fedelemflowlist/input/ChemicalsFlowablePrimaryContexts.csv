@@ -10520,17 +10520,20 @@ Cerium,Emission,Water
 Cerium,Resource,Ground
 Cesium,Emission,Ground
 Cesium,Emission,Water
+Cesium,Resource,Ground
 Gallium,Emission,Ground
 Gallium,Emission,Water
 Gallium,Resource,Ground
 Gadolinium,Resource,Ground
 Germanium,Emission,Ground
 Germanium,Emission,Water
+Germanium,Resource,Ground
 Gold,Emission,Ground
 Gold,Emission,Water
 Gold,Resource,Ground
 Hafnium,Emission,Ground
 Hafnium,Emission,Water
+Hafnium,Resource,Ground
 Yttrium,Emission,Ground
 Yttrium,Emission,Water
 Zinc,Emission,Air
@@ -12356,3 +12359,14 @@ Methylarsonic acid,Emission,Ground
 Busulfan,Emission,Air
 Busulfan,Emission,Water
 Busulfan,Emission,Ground
+"Ethane, 1,1-dichloro-1,2-difluoro-",Emission,Air
+"Difluoro(fluoromethoxy)methane",Emission,Air
+"1-Ethoxy-1,1,2,3,3,3-hexafluoro-2-(trifluoromethyl)propane--1-ethoxy-1,1,2,2,3,3,4,4,4-nonafluorobutane (1/1)",Emission,Air
+Sulfur oxide,Emission,Air
+Dichloropropane,Emission,Air
+Dichloropropane,Emission,Water
+HCFC-253,Emission,Air
+Butanediol,Emission,Water
+"2-(4,5-Dihydro-4-methyl-4-isopropyl-5-oxo-1H-imidazol-2-yl)-5-methyl-3-pyridinecarboxylic acid monoammonium salt",Emission,Air
+"2-(4,5-Dihydro-4-methyl-4-isopropyl-5-oxo-1H-imidazol-2-yl)-5-methyl-3-pyridinecarboxylic acid monoammonium salt",Emission,Water
+"2-Methyl-3,5-dinitrophenol",Emission,Air
