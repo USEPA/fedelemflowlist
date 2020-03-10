@@ -12,6 +12,7 @@ import olca.units as units
 import olca.pack as pack
 import pandas as pd
 
+import fedelemflowlist
 from fedelemflowlist.uuid_generators import make_uuid
 from fedelemflowlist.globals import flow_list_specs
 
@@ -184,6 +185,7 @@ class Writer(object):
                 parent_id = uid
 
     def _write_flows(self, pw: pack.Writer):
+        altflowlist=fedelemflowlist.get_alt_conversion()
         for _, row in self.flow_list.iterrows():
             description = "From FedElemFlowList_"+flow_list_specs['list_version']+'.'
             flow_class = row.get("Class")
@@ -218,16 +220,22 @@ class Writer(object):
                 log.warning("unknown unit %s in flow %s",
                             row["Unit"], row["Flow UUID"])
             flow.flow_properties = [fp]
-            #Add in alternate unit flow property
+            #Add in alternate unit flow propert(ies), if an alternate unit exists
+            #in the flows list, uses short list of altflowlist to assign one or more
+            #alternate units
             if row["AltUnit"] is not None:
-                altfp = olca.FlowPropertyFactor()
-                altfp.reference_flow_property = False
-                altfp.conversion_factor = row["AltUnitConversionFactor"]
-                altfp.flow_property = units.property_ref(row["AltUnit"])
-                if altfp.flow_property is None:
-                    log.warning("unknown altunit %s in flow %s",
-                                row["AltUnit"], row["Flow UUID"])
-                flow.flow_properties.append(altfp)
+                #create dataframe of all alternate units for this flowable
+                altunits=altflowlist[altflowlist['Flowable']==row["Flowable"]]
+                for i, alternate in altunits.iterrows():
+                    altfp = olca.FlowPropertyFactor()
+                    altfp.reference_flow_property = False
+                    altfp.conversion_factor = alternate['AltUnitConversionFactor']
+                    altfp.flow_property = units.property_ref(alternate["AltUnit"])
+                    if altfp.flow_property is None:
+                        log.warning("unknown altunit %s in flow %s",
+                                    alternate["AltUnit"], row["Flow UUID"])
+                    else:
+                        flow.flow_properties.append(altfp)
             pw.write(flow)
 
     def _write_mappings(self, pw: pack.Writer):
