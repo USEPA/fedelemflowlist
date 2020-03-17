@@ -335,6 +335,7 @@ Priority pollutants,Emission,Water
 "Ammonium compounds, quarternary",Emission,Water
 "Rare earth metals, total",Emission,Ground
 "Rare earth metals, total",Emission,Water
+"Rare earth metals, total",Resource,Ground
 Resin acids,Emission,Ground
 Resin acids,Emission,Water
 Selenium compounds,Emission,Air
@@ -457,6 +458,7 @@ Organochlorine pesticides,Emission,Water
 "Solvents, chlorinated",Emission,Water
 Carboxylic acids,Emission,Ground
 Carboxylic acids,Emission,Water
+Carboxylic acids,Emission,Air
 "Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Air
 "Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Ground
 "Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Water
@@ -497,6 +499,7 @@ Adsorbable organic halides,Emission,Air
 "Hydrocarbons, halogenated",Emission,Air
 Mercaptans,Emission,Air
 Metals,Emission,Air
+Metals,Resource,Ground
 Organic compounds,Emission,Air
 "Particulate matter, > 10μm",Emission,Water
 "Particulate matter, ≤ 10μm",Emission,Water
@@ -507,3 +510,4 @@ Dibromotrifluoropropanes,Emission,Air
 Bromotrifluoropropane,Emission,Air
 Monobromodifluoropropanes,Emission,Air
 Hexabromofluoropropanes,Emission,Air
+Total suspended solids,Emission,Water

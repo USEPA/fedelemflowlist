@@ -80,7 +80,7 @@ if __name__ == '__main__':
                                                   class_flowables_w_primary_contexts],
                                                  ignore_index=True, sort=False)
     log.info('Total of ' + str(len(flowables_w_primary_contexts)) + ' flows with primary contexts created.')
-
+    
     # Read in flowable context membership
     SecondaryContextMembership = import_secondary_context_membership()
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
     if len(flows[flows.duplicated(keep=False)])>0:
         log.debug("Duplicate flows exist. They will be removed.")
         flows = flows.drop_duplicates()
-
+        
     #If both the flowable and context are preferred, make this a preferred flow
     flows['Preferred'] = 0
     flows.loc[(flows['Flowable Preferred']==1) & (flows['ContextPreferred']==1),'Preferred'] = 1
@@ -142,6 +142,15 @@ if __name__ == '__main__':
         flowid = make_uuid(row['Flowable'], row['Context'], row['Unit'])
         flowids.append(flowid)
     flows['Flow UUID'] = flowids
+
+    #Drop duplicate entries due to multiple alt units
+    flows['Duplicates']=flows.duplicated(subset=['Flow UUID'],keep='first')
+    if flows['Duplicates'].sum() > 0:
+        log.info(str(flows['Duplicates'].sum()) + " flows with multiple alt unit; these duplicates have been removed:")
+        duplicates_df = flows.loc[flows['Duplicates'] == True, 'Flowable']
+        print(duplicates_df.drop_duplicates().to_string(index=False))
+        flows = flows.drop_duplicates(subset=['Flow UUID'], keep='first')
+    flows.drop(columns='Duplicates')
 
     contexts_in_flows = pd.unique(flows['Context'])
     log.info('Created ' + str(len(flows)) + ' flows with ' + str(len(contexts_in_flows))  + ' unique contexts')

@@ -7,6 +7,7 @@ Coal,kg,MJ,0.0417,"Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model)
 Coalbed methane,kg,MJ,0.018,"same as Methane - Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
 Crude oil,kg,MJ,0.0221,USEIA weighted world average U.S. Energy Information Administration. International Energy Statistics.  2011  [cited Feb 2011]; URL: http://www.eia.gov/cfapps/ipdbproject/IEDIndex3.cfm
 Natural gas,kg,MJ,0.0191,"Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
+Natural gas,Nm3,MJ,0.026,EIA https://www.eia.gov/energyexplained/units-and-calculators/energy-conversion-calculators.php
 Oil sand,kg,MJ,0.0225,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
 Shale gas,kg,MJ,0.0191,"same as Natural gas - Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
 Tight gas,kg,MJ,0.0191,"same as Natural gas - Greet 1.8 M. Wang, GREET 1, version 1.8c.0 (Fuel-Cycle Model). 2009, Center for Transportation Research, Argonne National Laboratory: Center. URL: http://tinyurl.com/m6oo5z"
