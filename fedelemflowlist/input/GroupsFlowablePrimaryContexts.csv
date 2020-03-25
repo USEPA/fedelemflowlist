@@ -232,6 +232,7 @@ Herbicides,Emission,Water
 "Hydrocarbons, nitrated",Emission,Water
 "Hydrocarbons, petroleum",Emission,Ground
 "Hydrocarbons, petroleum",Emission,Water
+"Hydrocarbons, petroleum",Emission,Air
 "Hydrocarbons, purgeable",Emission,Ground
 "Hydrocarbons, purgeable",Emission,Water
 "Hydrocarbons, volatile",Emission,Ground
@@ -447,6 +448,7 @@ C6 alkenes,Emission,Air
 "Organic carbon, PM2.5 LC",Emission,Air
 Radionuclides,Emission,Air
 Radionuclides,Emission,Water
+Radionuclides,Emission,Ground
 Fatty acids,Emission,Ground
 Fatty acids,Emission,Water
 Terpenes,Emission,Air

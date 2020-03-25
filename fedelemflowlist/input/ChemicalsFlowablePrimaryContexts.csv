@@ -9786,6 +9786,7 @@ Potassium ferrocyanide,Emission,Air
 "Aurate(1-), bis(cyano-.kappa.C)-, potassium",Emission,Air
 Uranium-236,Emission,Ground
 Uranium-236,Emission,Water
+Uranium-236,Emission,Air
 Methyl cellosolve acetyl ricinoleate,Emission,Air
 Benzeneacetonitrile,Emission,Air
 Selenite,Emission,Ground
@@ -10565,6 +10566,7 @@ Mercuric chloride,Emission,Air
 Selenium disulfide,Emission,Air
 Methyl mercaptan,Emission,Ground
 Methyl mercaptan,Emission,Water
+Methyl mercaptan,Emission,Air
 Propyne,Emission,Air
 Cyclopropane,Emission,Air
 Isobutane,Emission,Air
@@ -11057,6 +11059,8 @@ Ferric oxide,Emission,Air
 Flazasulfuron,Emission,Ground
 Flufenoxuron,Emission,Ground
 Fluoxastrobin,Emission,Ground
+Fluoxastrobin,Emission,Air
+Fluoxastrobin,Emission,Water
 Fluosilicic acid,Emission,Air
 Fluosilicic acid,Emission,Water
 Fluoroglycofen-ethyl,Emission,Ground
@@ -11239,6 +11243,7 @@ Cobalt-58,Emission,Water
 Cobalt-57,Emission,Air
 Cobalt-57,Emission,Water
 Curium-244,Emission,Air
+Curium-244,Emission,Water
 Curium-242,Emission,Air
 Curium-242,Emission,Water
 Iodine-133,Emission,Air
@@ -12411,3 +12416,9 @@ Veratrine (mixture),Emission,Ground
 "Propane, bromo-",Emission,Water
 "Propane, bromo-",Emission,Air
 1-Butoxy-1-propanol,Emission,Air
+Spinetoram,Emission,Air
+Spinetoram,Emission,Ground
+Spinetoram,Emission,Water
+Dichloropropene,Emission,Air
+Dichloropropene,Emission,Ground
+Dichloropropene,Emission,Water
