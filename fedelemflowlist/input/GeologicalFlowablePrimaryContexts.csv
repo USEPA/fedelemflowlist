@@ -277,6 +277,8 @@ Monticellite,Resource,Ground
 Morimotoite,Resource,Ground
 Muscovite,Resource,Ground
 Natural gas,Resource,Air
+Natural gas,Emission,Air
+Natural gas,Emission,Water
 Naumannite,Resource,Ground
 Neodymium ore,Resource,Ground
 Neon,Resource,Air
