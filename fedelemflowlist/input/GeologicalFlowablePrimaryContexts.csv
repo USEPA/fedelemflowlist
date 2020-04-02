@@ -365,6 +365,7 @@ Shale,Resource,Ground
 Shale gas,Resource,Air
 Silicate group,Resource,Ground
 Silicate group,Emission,Water
+Silicate group,Emission,Air
 Silt,Resource,Ground
 Silver (I) sulfide,Resource,Ground
 Silver ore,Resource,Ground
@@ -488,3 +489,12 @@ Tripoli,Resource,Ground
 Wollastonite,Resource,Ground
 "Fuller's earth",Resource,Ground
 Jarosite,Resource,Ground
+Ulexite,Emission,Ground
+Zirconium oxide,Emission,Air
+Protactinium,Emission,Air
+Protactinium,Resource,Ground
+Magnesium carbonate,Emission,Ground
+Magnesium carbonate,Resource,Ground
+Actinium,Emission,Air
+Actinium,Resource,Ground
+"Kieselguhr, soda ash flux-calcined",Resource,Ground
