@@ -11566,6 +11566,7 @@ Vanadium,Resource,Ground
 Ytterbium,Resource,Ground
 Yttrium,Resource,Ground
 Zirconium oxide,Resource,Ground
+Zirconium oxide,Emission,Air
 Manganese-55,Emission,Water
 Bromide,Emission,Air
 Iridium,Resource,Ground
@@ -12460,7 +12461,6 @@ Azadirachtin B,Emission,Ground
 "Benzoxazole, 2,2'-(1,2-ethenediyldi-4,1-phenylene)bis-",Emission,Water
 Dodemorph acetate,Emission,Ground
 Tetrabromobisphenol A bis(2-hydroxyethyl) ether,Emission,Water
-"1,1-Difluoroethyl carbonofluoridate",Emission,Air
 "Phosphonic acid, monoethyl ester",Emission,Ground
 "1,2,5,6,9,10-Hexabromocyclododecane",Emission,Water
 Milbemycin A4,Emission,Ground
@@ -12470,7 +12470,6 @@ Pentaerythritol stearate,Emission,Water
 "2,4,4'-Trichlorobiphenyl",Emission,Water
 "2,4',5-Trichlorobiphenyl",Emission,Water
 "2,2',3,4',5-Pentachlorobiphenyl",Emission,Water
-"2,2',4,5,5'-Pentachlorobiphenyl",Emission,Water
 Octrizole,Emission,Water
 "2-(2H-benzotriazol-2-yl)-4-(1,1-dimethylethyl)-6-(1-methylpropyl)phenol",Emission,Water
 "2-(2H-benzotriazol-2-yl)-4,6-bis(1,1-dimethylethyl)phenol",Emission,Water
@@ -12528,7 +12527,6 @@ Dichloropropene,Emission,Water
 1-Butoxypropan-2-yl acetate,Emission,Air
 1-Butoxypropan-2-yl acetate,Emission,Ground
 1-Butoxypropan-2-yl acetate,Emission,Water
-"Cyclohexane, (1-methylethyl)-",Emission,Air
 "1-Octanesulfonamide, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-N-methyl-",Emission,Water
 2-(Diethylamino)-6-methyl-1H-pyrimidin-4-one,Emission,Air
 2-(Diethylamino)-6-methyl-1H-pyrimidin-4-one,Emission,Ground
@@ -12569,7 +12567,6 @@ Dichlorotetrafluoropropane,Emission,Air
 "2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",Emission,Water
 "2-Propanol, 1-(1-methyl-2-propoxyethoxy)-",Emission,Air
 "3,​9-​diethylundecane",Emission,Air
-"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",Emission,Air
 3-Nitro-N4-phenylsulfanilanilide,Emission,Ground
 3-Nitro-N4-phenylsulfanilanilide,Emission,Water
 "3-Octanol, 3,6-dimethyl-, acetate",Emission,Air
@@ -12748,7 +12745,6 @@ p-Dibromobenzene,Emission,Water
 Pentabromodiphenyl ether,Emission,Air
 Pentabromodiphenyl ether,Emission,Ground
 Pentabromodiphenyl ether,Emission,Water
-HFE-365mcf2,Emission,Air
 Pethoxamid,Emission,Ground
 Phenesterin,Emission,Air
 Phenesterin,Emission,Ground
