@@ -20,6 +20,19 @@ class TestInputFiles(unittest.TestCase):
             flowables_in_primary_contexts = set(primarycontexts['Flowable'])
             self.assertEqual(flowables_in_flowables, flowables_in_primary_contexts)
 
+    def test_duplicate_flowables(self):
+        """For each flow class, tests for duplicate flowable names 
+        """
+        duplicates = 0
+        for c_ in flow_list_specs["flow_classes"]:
+            flowables = read_in_flowclass_file(c_, "Flowables")
+            flowables_in_flowables = set(flowables['Flowable'])
+            class_duplicates = len(flowables.index) - len(flowables_in_flowables)
+            if class_duplicates > 0:
+                log.debug('duplicate flowables in '+ c_)
+                duplicates = duplicates + class_duplicates
+        self.assertTrue(duplicates==0,'Duplicate flowables')
+        
     def test_altunit_files_match_flowables(self):
         """For each flow class, test flowables in AltUnits are defined in Flowables
         """
