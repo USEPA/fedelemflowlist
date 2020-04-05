@@ -6,3 +6,5 @@ Flowable,Directionality,Environmental Media
 "Energy, heat",Emission,Air
 "Energy, heat",Emission,Water
 "Energy, heat",Emission,Ground
+"Energy, heat",Resource,Air
+"Energy, heat",Resource,Water
