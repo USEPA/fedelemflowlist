@@ -11566,6 +11566,7 @@ Vanadium,Resource,Ground
 Ytterbium,Resource,Ground
 Yttrium,Resource,Ground
 Zirconium oxide,Resource,Ground
+Zirconium oxide,Emission,Air
 Manganese-55,Emission,Water
 Bromide,Emission,Air
 Iridium,Resource,Ground
@@ -12450,7 +12451,6 @@ Butanediol,Emission,Water
 "2-Methyl-3,5-dinitrophenol",Emission,Air
 "7-Oxa-3,20-diazadispiro[5.1.11.2]heneicosan-21-one, 2,2,4,4-tetramethyl-",Emission,Water
 "2,2-Difluoroethyl trifluoroacetate",Emission,Air
-(2E)-2-Pentene,Emission,Air
 Azadirachtin B,Emission,Ground
 "Benzenamine, 4-(1-methyl-1-phenylethyl)-N-phenyl-",Emission,Water
 "Benzenamine, N-phenyl-, reaction products with 2,4,4-trimethylpentene",Emission,Water
@@ -12460,7 +12460,6 @@ Azadirachtin B,Emission,Ground
 "Benzoxazole, 2,2'-(1,2-ethenediyldi-4,1-phenylene)bis-",Emission,Water
 Dodemorph acetate,Emission,Ground
 Tetrabromobisphenol A bis(2-hydroxyethyl) ether,Emission,Water
-"1,1-Difluoroethyl carbonofluoridate",Emission,Air
 "Phosphonic acid, monoethyl ester",Emission,Ground
 "1,2,5,6,9,10-Hexabromocyclododecane",Emission,Water
 Milbemycin A4,Emission,Ground
@@ -12470,14 +12469,12 @@ Pentaerythritol stearate,Emission,Water
 "2,4,4'-Trichlorobiphenyl",Emission,Water
 "2,4',5-Trichlorobiphenyl",Emission,Water
 "2,2',3,4',5-Pentachlorobiphenyl",Emission,Water
-"2,2',4,5,5'-Pentachlorobiphenyl",Emission,Water
 Octrizole,Emission,Water
 "2-(2H-benzotriazol-2-yl)-4-(1,1-dimethylethyl)-6-(1-methylpropyl)phenol",Emission,Water
 "2-(2H-benzotriazol-2-yl)-4,6-bis(1,1-dimethylethyl)phenol",Emission,Water
 "2-(2H-Benzotriazol-2-yl)-4,6-di-tert-pentylphenol",Emission,Water
 "2-(2H-benzotriazol-2-yl)-4,6-bis(1-methyl-1-phenylethyl)phenol",Emission,Water
 "2-(5-Chloro-2H-benzotriazol-2-yl)-4,6-di-tert-butylphenol",Emission,Water
-"2,2'-Methylenebis(tert-butyl-p-cresol)",Emission,Water
 "2,2,3-tribromo-1,1,1-trifluoropropane",Emission,Air
 1-tert-Butoxypropan-1-ol,Emission,Air
 Quassia extract,Emission,Ground
@@ -12498,8 +12495,6 @@ Dichloropropene,Emission,Ground
 Dichloropropene,Emission,Water
 ({5-[2-Chloro-4-(trifluoromethyl)phenoxy]-2-nitrobenzoyl}oxy)acetic acid,Emission,Ground
 "(E,Z)-3,13-Octadecadienyl acetate",Emission,Ground
-"Cyclohexane, 1-​methyl-​4-​nonyl-",Emission,Air
-"1,1,2,2-Tetrafluoro-3-methoxy-propane; Methyl 2,2,3,3-tetrafluoropropyl ether",Emission,Air
 "1,1,2-Tribromo-1-fluoroethane",Emission,Air
 "1,1,2-Trichloropropane",Emission,Air
 "1,1,2-Trichloropropane",Emission,Ground
@@ -12528,12 +12523,10 @@ Dichloropropene,Emission,Water
 1-Butoxypropan-2-yl acetate,Emission,Air
 1-Butoxypropan-2-yl acetate,Emission,Ground
 1-Butoxypropan-2-yl acetate,Emission,Water
-"Cyclohexane, (1-methylethyl)-",Emission,Air
 "1-Octanesulfonamide, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-N-methyl-",Emission,Water
 2-(Diethylamino)-6-methyl-1H-pyrimidin-4-one,Emission,Air
 2-(Diethylamino)-6-methyl-1H-pyrimidin-4-one,Emission,Ground
 2-(Diethylamino)-6-methyl-1H-pyrimidin-4-one,Emission,Water
-"2,​4,​6,​8-​tetramethylnonane",Emission,Air
 "2,13-Octadecadien-1-ol, 1-acetate, (2Z,13Z)-",Emission,Ground
 "2,2',3,3',4,4',5,5'-Octachlorobiphenyl",Emission,Water
 "2,2',3,3',4,5,5',6'-Octachlorobiphenyl",Emission,Water
@@ -12568,8 +12561,6 @@ Dichlorotetrafluoropropane,Emission,Air
 "2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",Emission,Ground
 "2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",Emission,Water
 "2-Propanol, 1-(1-methyl-2-propoxyethoxy)-",Emission,Air
-"3,​9-​diethylundecane",Emission,Air
-"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",Emission,Air
 3-Nitro-N4-phenylsulfanilanilide,Emission,Ground
 3-Nitro-N4-phenylsulfanilanilide,Emission,Water
 "3-Octanol, 3,6-dimethyl-, acetate",Emission,Air
@@ -12748,7 +12739,6 @@ p-Dibromobenzene,Emission,Water
 Pentabromodiphenyl ether,Emission,Air
 Pentabromodiphenyl ether,Emission,Ground
 Pentabromodiphenyl ether,Emission,Water
-HFE-365mcf2,Emission,Air
 Pethoxamid,Emission,Ground
 Phenesterin,Emission,Air
 Phenesterin,Emission,Ground
