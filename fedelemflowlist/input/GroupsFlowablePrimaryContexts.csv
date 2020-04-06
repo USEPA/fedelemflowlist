@@ -533,3 +533,9 @@ Lecithins,Emission,Ground
 "Acetic acid, hexyl ester",Emission,Air
 "Polycyclic aromatic hydrocarbons - 15-PAH",Emission,Air
 "Polycyclic aromatic hydrocarbons - 7-PAH",Emission,Air
+"Noble gases, radioactive, unspecified",Emission,Air
+"Noble gases, radioactive, unspecified",Emission,Ground
+"Noble gases, radioactive, unspecified",Emission,Water
+"Actinides, unspecified",Emission,Air
+"Actinides, unspecified",Emission,Ground
+"Actinides, unspecified",Emission,Water
