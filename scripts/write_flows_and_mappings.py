@@ -3,9 +3,10 @@ Exports flows and flowmappings for a selecting mapping file
 """
 import fedelemflowlist
 import pandas as pd
+from fedelemflowlist.globals import outputpath
 
 #Set name of mapping file. More than one mapping file can be used
-mapping_to_use = ['TRI']
+mapping_to_use = ['openLCA']
 
 if __name__ == '__main__':
     mapping = fedelemflowlist.get_flowmapping(mapping_to_use)
@@ -22,5 +23,5 @@ if __name__ == '__main__':
     for s in mapping_to_use:
         export_name = export_name + s + '_'
     export_name = export_name+ 'flows_w_mappings.zip'
-    fedelemflowlist.write_jsonld(flows_used_in_mapping,'./'+export_name,mapping)
+    fedelemflowlist.write_jsonld(flows_used_in_mapping,outputpath+export_name,mapping)
 
