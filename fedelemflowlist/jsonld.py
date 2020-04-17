@@ -76,9 +76,6 @@ class _MapFlow(object):
             unit_ref = units.unit_ref(self.unit)
             if unit_ref is not None:
                 json['unit'] = unit_ref.to_json()
-            prop_ref = units.property_ref(self.unit)
-            if prop_ref is not None:
-                json['flowProperty'] = prop_ref.to_json()
 
         return json
 
