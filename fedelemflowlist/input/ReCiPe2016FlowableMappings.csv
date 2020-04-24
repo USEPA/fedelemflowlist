@@ -231,7 +231,7 @@ Thorium-230,kBq,=,Th-230,kBq,Hottle,Manual,Edelen,,1/7/2020
 Uranium-234,kBq,=,U-234a,kBq,Hottle,Manual,Edelen,,1/7/2020
 Uranium-235,kBq,=,U-235a,kBq,Hottle,Manual,Edelen,,1/7/2020
 Xenon-133,kBq,=,Xe-133,kBq,Hottle,Manual,Edelen,,1/7/2020
-Radionuclides,kBq,=,"Noble gases, radioactive, unspecified",kBq,Hottle,Manual,Edelen,,1/7/2020
+Radionuclides,kBq,=,Co-60,kBq,Hottle,Manual,Edelen,,4/6/2020
 Silver-110,kBq,~,Ag-110m,kBq,Hottle,Manual,Edelen,,1/7/2020
 Manganese-54,kBq,=,Mn-54,kBq,Hottle,Manual,Edelen,,1/7/2020
 Radium-226,kBq,~,Ra-226a,kBq,Hottle,Manual,Edelen,,1/7/2020
@@ -3542,3 +3542,5 @@ Natural gas,MJ,=,Natural gas,Nm3,Hottle,Name match,Edelen,conversion needed,1/7/
 "Coal, lignite",MJ,=,Brown coal,kg,Hottle,Manual,Edelen,conversion needed,1/7/2020
 Peat,MJ,=,Peat,kg,Hottle,Name match,Edelen,conversion needed,1/7/2020
 Uranium,kg,=,U-238a,kBq,Young,Name match,Edelen,conversion needed,2/29/2020
+"Noble gases, radioactive, unspecified",kBq,=,"Noble gases, radioactive, unspecified",kBq,Hottle,Manual,,,4/6/2020
+"Actinides, unspecified",kBq,=,"Actinides, unspecified",kBq,Hottle,Manual,,,4/6/2020
