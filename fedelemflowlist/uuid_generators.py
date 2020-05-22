@@ -1,6 +1,8 @@
 """
-Methods for UUID generation for flows, contexts
-Uses UUID3 function from UUID package to generate IDs from strings
+Methods for UUID generation.
+
+For flows, contexts, uses UUID3 function from UUID package to generate IDs from
+strings.
 """
 
 import uuid

@@ -1,4 +1,4 @@
-"""Set common variables for use in package"""
+"""Set common variables for use in package."""
 import sys
 import os
 import json

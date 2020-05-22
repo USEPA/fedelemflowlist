@@ -1,6 +1,8 @@
 """
-Combines all mapping files to help maintain consistency in future future mappings
-output: xlsx in the mapping format
+Combines all mapping files.
+
+To help maintain consistency in future future mappings
+output: xlsx in the mapping format.
 """
 
 import fedelemflowlist

@@ -1,6 +1,8 @@
 """
-Gets Fed Commons Flow UUID from mapping list and adds it to mapping file(s).
-Mapping file must already conform to mapping format
+Gets Fed Commons Flow UUID.
+
+From mapping list and adds it to mapping file(s). Mapping file must already
+conform to mapping format.
 """
 import pandas as pd
 import fedelemflowlist

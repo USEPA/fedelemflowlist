@@ -1,6 +1,4 @@
-"""
-Exports flows and flowmappings for a selecting mapping file
-"""
+"""Exports flows and flowmappings for a selecting mapping file."""
 import fedelemflowlist
 import pandas as pd
 from fedelemflowlist.globals import outputpath

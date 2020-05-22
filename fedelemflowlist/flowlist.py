@@ -1,6 +1,7 @@
 """
-Generate the elementary flow master list as a pandas dataframe from input files
-Write it to the output folder
+Generate the elementary flow master list.
+
+As a pandas dataframe from input files. Write it to the output folder.
 """
 
 import pandas as pd
@@ -14,7 +15,8 @@ flowable_data_types = {'CAS No': flow_list_fields['CAS No'][0]['dtype'],
 altunits_data_types = {'Conversion Factor': flow_list_fields['AltUnitConversionFactor'][0]['dtype']} #AltUnitConversionFactor
 
 def read_in_flowclass_file(flowclass, flowclasstype):
-    """Declare data types for select variables in flow class input files
+    """
+    Declare data types for select variables in flow class input files.
 
     :param flowclass: One of the flow class names
     :param flowclasstype: either 'Flowables','FlowablePrimaryContexts',or 'FlowableAltUnits'
@@ -30,6 +32,7 @@ def read_in_flowclass_file(flowclass, flowclasstype):
     return flowclassfile
 
 def import_secondary_context_membership():
+    """Add docstring."""
     log.info('Read in secondary context membership')
     SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
     return SecondaryContextMembership

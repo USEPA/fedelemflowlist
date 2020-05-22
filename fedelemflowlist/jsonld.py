@@ -1,5 +1,4 @@
-"""Writes flow list and mapping files to a JSON-LD zip archive using olca library
-"""
+"""Writes flow list and mapping files to a JSON-LD zip archive using olca library."""
 import datetime
 import logging as log
 import math
@@ -36,9 +35,7 @@ def _isnum(val) -> bool:
 
 
 def _s(val) -> Optional[str]:
-    """Returns the string value of the given value or None if the value is
-       `None`, `NaN`, or `""`.
-    """
+    """Returns the string value of the given value or None if the value is `None`, `NaN`, or `""`."""
     if _isnil(val):
         return None
     return str(val).strip()
@@ -81,7 +78,7 @@ class _MapFlow(object):
 
 
 class _MapEntry(object):
-    """ Describes a mapping entry in the Fed.LCA flow list. """
+    """Describes a mapping entry in the Fed.LCA flow list."""
 
     def __init__(self, row):
 
@@ -122,8 +119,8 @@ class _MapEntry(object):
 
 
 class Writer(object):
-    """Class for writing flows and mappings to json
-    """
+    """Class for writing flows and mappings to json."""
+
     def __init__(self, flow_list: pd.DataFrame,
                  flow_mapping: pd.DataFrame = None):
         self.flow_list = flow_list

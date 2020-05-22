@@ -1,8 +1,9 @@
 """
-Flow data were originally developed in Excel. This script extracts those data
-and writes them to csv files.
-WARNING: This will replace the existing input files
-The flow class files should match the class names in the flowlistspecs
+Flow data were originally developed in Excel.
+
+This script extracts those data and writes them to csv files. WARNING: This will
+replace the existing input files The flow class files should match the class
+names in the flowlistspecs.
 """
 
 import pandas as pd

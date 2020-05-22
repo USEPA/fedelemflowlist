@@ -1,4 +1,4 @@
-## Flowables Input File Format
+# Flowables Input File Format
 
 Flowable input files are the form of CSV data with the following fields.
 
