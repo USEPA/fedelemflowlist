@@ -1,0 +1,2 @@
+SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+USGS_NWIS_WU,fresh,,surface,m3.yr,=,1000.0,"Water, fresh",3a10ad4e-2c19-3be8-b199-249d7020bba1,resource/water/fresh water body,kg,Ingwersen,,6/25/2020
