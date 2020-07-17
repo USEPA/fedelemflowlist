@@ -1,3 +1,6 @@
+# __init__.py (fedelemflowlist)
+# !/usr/bin/env python3
+# coding=utf-8
 """fedelemflowlist
 
 Allows retrieval of the Federal LCA Commons flow list and mapping files
@@ -8,19 +11,27 @@ import pandas as pd
 from fedelemflowlist.flowlist import read_in_flowclass_file
 from fedelemflowlist.globals import outputpath, flowmappingpath, flow_list_specs
 import fedelemflowlist.jsonld as jsonld
+from fedelemflowlist.subset_list import subsets
+import fedelemflowlist.subset_list as subset_list
 
-
-def get_flows(preferred_only=None):
+def get_flows(preferred_only=None, subset=None):
     """Gets a flow list in a standard format
 
     Returns the full master flow list unless preferred flows is lists
-    :param preferred_only:
+    :param preferred_only: Boolean for whether preferred flows are desired or not
+    :param subset: str, a possible subset of flows
     :return: standard Flow List dataframe
     """
     list_file = outputpath + 'FedElemFlowListMaster.parquet'
     flows = pd.read_parquet(list_file, engine="pyarrow")
     if preferred_only:
         flows = flows[flows['Preferred'] == 1]
+    if subset is not None:
+        try:
+            flows = getattr(subset_list,subsets[subset])(flows)
+        except KeyError:
+            print("Subset " + subset + " not found.")
+            flows = None
     return flows
 
 
