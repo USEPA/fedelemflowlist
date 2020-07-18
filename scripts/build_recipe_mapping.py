@@ -1,8 +1,9 @@
 """
-Builds the mapping file for ReCiPe using input flowable and context mappings,
-and recipe from the lcia_formatter
+Builds the mapping file for ReCiPe.
+
+Using input flowable and context mappings, and recipe from the lcia_formatter
 Requires lciafmt from lcia_formatter (https://github.com/USEPA/lciaformatter)
-BEWARE this will replace the existing mapping file if it exists in /flowmapping
+BEWARE this will replace the existing mapping file if it exists in /flowmapping.
 """
 
 import pandas as pd

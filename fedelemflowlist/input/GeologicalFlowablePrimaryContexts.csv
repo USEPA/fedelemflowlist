@@ -74,6 +74,7 @@ Calcium carbonate,Emission,Water
 Calcium carbonate,Emission,Ground
 Calcium carbonate,Resource,Ground
 Calcium fluoride,Resource,Ground
+Calcium fluoride,Emission,Ground
 Calcium ore,Resource,Ground
 Calcium sulfate,Resource,Ground
 Calderite,Resource,Ground
@@ -151,6 +152,7 @@ Filatovite,Resource,Ground
 Florencite (Sm),Resource,Ground
 Fluorapatite,Resource,Ground
 Fluorite,Resource,Ground
+Fluorite,Emission,Ground
 Forsterite,Resource,Ground
 Gadolinium ore,Resource,Ground
 Galena,Resource,Ground
@@ -206,6 +208,7 @@ Iridium ore,Resource,Ground
 Iron chloride,Resource,Ground
 Iron ore,Resource,Ground
 Iron oxide,Resource,Ground
+Iron oxide,Emission,Water
 Iron sulfide,Resource,Ground
 Ixiolite,Resource,Ground
 Johnbaumite,Resource,Ground
@@ -277,6 +280,7 @@ Natural gas,Resource,Air
 Naumannite,Resource,Ground
 Neodymium ore,Resource,Ground
 Neon,Resource,Air
+Neon,Emission,Air
 Nepheline,Resource,Ground
 Nickel ore,Resource,Ground
 Nickel silicates,Resource,Ground
@@ -359,6 +363,7 @@ Shale,Resource,Ground
 Shale gas,Resource,Air
 Silicate group,Resource,Ground
 Silicate group,Emission,Water
+Silicate group,Emission,Air
 Silt,Resource,Ground
 Silver (I) sulfide,Resource,Ground
 Silver ore,Resource,Ground
@@ -481,3 +486,12 @@ Diamond,Resource,Ground
 Tripoli,Resource,Ground
 Wollastonite,Resource,Ground
 "Fuller's earth",Resource,Ground
+Jarosite,Resource,Ground
+Ulexite,Emission,Ground
+Protactinium,Emission,Air
+Protactinium,Resource,Ground
+Magnesium carbonate,Emission,Ground
+Magnesium carbonate,Resource,Ground
+Actinium,Emission,Air
+Actinium,Resource,Ground
+"Kieselguhr, soda ash flux-calcined",Resource,Ground

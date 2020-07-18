@@ -1,6 +1,4 @@
-"""
-Uses fedelemflowlist analysis functions to perform and export basic analysis
-"""
+"""Uses fedelemflowlist analysis functions to perform and export basic analysis."""
 import fedelemflowlist
 from fedelemflowlist.analysis.flow_list_analysis import count_flows_by_class,\
     count_flowables_by_class, list_contexts

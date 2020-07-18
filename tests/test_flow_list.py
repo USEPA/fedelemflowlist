@@ -1,6 +1,4 @@
-"""
-Tests the stored flow list to provide quality assurance
-"""
+"""Tests the stored flow list to provide quality assurance."""
 import unittest
 import pandas as pd
 import fedelemflowlist
@@ -49,7 +47,9 @@ existing_flow_list_sample = {'Flowable': {0: 'Copper octanoate',
 existing_flow_sample = pd.DataFrame(existing_flow_list_sample)
 
 def get_required_flowlist_fields():
-    """Gets required field names for Flow List
+    """
+    Gets required field names for Flow List.
+
     :return:list of required fields
     """
     from fedelemflowlist.globals import flow_list_fields
@@ -60,16 +60,15 @@ def get_required_flowlist_fields():
     return required_fields
 
 class TestFlowList(unittest.TestCase):
+    """Add docstring."""
 
     def setUp(self):
-        """Get flowlist used for all tests
-        """
+        """Get flowlist used for all tests."""
         self.flowlist = fedelemflowlist.get_flows()
 
 
     def test_UUID_stability(self):
-        """Checks that UUIDs in currently served list are identical to old UUIDs
-        """
+        """Checks that UUIDs in currently served list are identical to old UUIDs."""
         merge_new_and_existing = pd.merge(existing_flow_sample, self.flowlist,
                                           on=['Flowable', 'Context', 'Unit'])
         self.assertEqual(set(merge_new_and_existing['Flow UUID_x']),
@@ -77,16 +76,14 @@ class TestFlowList(unittest.TestCase):
 
 
     def test_no_nas_in_required_fields(self):
-        """Checks that no flows have na values in required fields
-        """
+        """Checks that no flows have na values in required fields."""
         required_fields = get_required_flowlist_fields()
         flowlist_w_required = self.flowlist[required_fields]
         nas_in_required = flowlist_w_required.dropna()
         self.assertEqual(len(flowlist_w_required), len(nas_in_required))
 
     def test_for_duplicate_uuids(self):
-        """Checks for duplicate uuids in list
-        """
+        """Checks for duplicate uuids in list."""
         fl_g = self.flowlist.groupby(['Flowable', 'Context', 'Unit'])['Flow UUID'].count().reset_index()
         duplicate_uuids = fl_g[fl_g['Flow UUID'] > 1]
         len_duplicate_uuids = len(duplicate_uuids)
@@ -96,8 +93,7 @@ class TestFlowList(unittest.TestCase):
         self.assertEqual(len_duplicate_uuids,0)
 
     def test_preferred_flows_exist_for_all_classes(self):
-        """Checks for each flow class in specs, preferred flows exist in list
-        """
+        """Checks for each flow class in specs, preferred flows exist in list."""
         flowclasses_in_list = set(pd.unique(self.flowlist['Class']))
         flowclasses_in_specs = set(flow_list_specs['flow_classes'])
         self.assertEqual(flowclasses_in_list, flowclasses_in_specs)

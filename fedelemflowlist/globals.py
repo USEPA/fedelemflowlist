@@ -1,4 +1,4 @@
-"""Set common variables for use in package"""
+"""Set common variables for use in package."""
 import sys
 import os
 import json
@@ -45,7 +45,7 @@ log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
 flow_list_specs = {
-    "list_version": "1.0.2",
+    "list_version": "1.0.3",
     "flow_classes": ["Biological", "Chemicals", "Energy", "Geological", "Groups", "Land", "Other", "Water"],
     "primary_context_classes": ["Directionality", "Environmental Media"],
     "secondary_context_classes": ["Vertical Strata", "Land Use", "Human-Dominated", "Terrestrial", "Aquatic Feature",

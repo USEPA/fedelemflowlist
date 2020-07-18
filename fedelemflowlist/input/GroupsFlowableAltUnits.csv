@@ -1,0 +1,2 @@
+Flowable,Alternate Unit,Reference Unit,Conversion Factor,External Reference
+Radionuclides,kg,kBq,2.38E-14,"same as cobalt-60 based on ReCiPe reference unit, https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html"

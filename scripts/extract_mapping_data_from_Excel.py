@@ -1,7 +1,9 @@
 """
-For mapping data were originally developed in Excel where flowables. This was developed specifically
-for the USLCI mapping. This script extracts those data and writes them to csv files.
-WARNING: This will replace the existing input files
+For mapping data were originally developed in Excel where flowables.
+
+This was developed specifically for the USLCI mapping. This script extracts
+those data and writes them to csv files. WARNING: This will replace the existing
+input files.
 """
 
 import pandas as pd

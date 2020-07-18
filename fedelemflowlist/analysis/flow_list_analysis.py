@@ -1,11 +1,10 @@
-"""
-Functions to perform analysis of a flow list
-"""
+"""Functions to perform analysis of a flow list."""
 import pandas as pd
 
 
 def count_flows_by_class(flowlist):
-    """Counts all and preferred flows by class
+    """
+    Counts all and preferred flows by class.
 
     :param flowlist: A FlowList in standard format
     :return: pandas df with 'Class','No. of Flows','No. of Preferred Flows'

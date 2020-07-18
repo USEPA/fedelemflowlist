@@ -21,3 +21,6 @@ Biomass,Emission,Ground
 Hardwood,Resource,Ground
 Softwood,Resource,Ground
 Wood,Resource,Ground
+Harpin Ea,Emission,Air
+Harpin Ea,Emission,Water
+Harpin Ea,Emission,Ground
