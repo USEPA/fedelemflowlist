@@ -10,9 +10,19 @@ subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "land_use":"get_land_use_flows"}
 
 
+def get_subsets() -> list():
+    """
+    Returns a list of all availabile inventory subsets
+
+    return: list of inventory subsets
+    """
+    list_of_inventories = list(subsets)
+    return list_of_inventories
+
 def get_freshwater_resource_flows(fl):
     """
-    Subsets the flow list for all freshwater resource flows
+    Subsets the flow list for all freshwater resource flows,
+    excluding resource/air
 
     :param fl: df in standard flowlist format
     :return: df in standard flowlist format
