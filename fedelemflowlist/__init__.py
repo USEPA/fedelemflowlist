@@ -18,7 +18,7 @@ def get_flows(preferred_only=None):
     :return: standard Flow List dataframe
     """
     list_file = outputpath + 'FedElemFlowListMaster.parquet'
-    flows = pd.read_parquet(list_file, engine="fastparquet", compression='GZIP')
+    flows = pd.read_parquet(list_file, engine="fastparquet")
     if preferred_only:
         flows = flows[flows['Preferred'] == 1]
     return flows
