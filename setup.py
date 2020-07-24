@@ -8,7 +8,7 @@ setup(
     package_data={'fedelemflowlist': [
         "input/*.*", "output/*.*", "flowmapping/*.*"]},
     include_package_data=True,
-    install_requires=['pandas>=0.22', 'olca-ipc>=0.0.8', 'pyarrow>=0.14'],
+    install_requires=['pandas>=0.22', 'olca-ipc>=0.0.8', 'fastparquet>=0.4[snappy]'],
     url='https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List',
     license='CC0',
     author='Wesley Ingwersen',
