@@ -162,5 +162,6 @@ if __name__ == '__main__':
     flows = flows[list(flow_list_fields.keys())]
 
     # Write it to parquet
-    flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet', engine='pyarrow')
+    flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet',
+                     index=False, compression=None)
     log.info('Stored flows in ' + 'output/FedElemFlowListMaster.parquet')
