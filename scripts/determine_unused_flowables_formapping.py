@@ -1,6 +1,8 @@
 """
-Determines FEDEFL flowables not used in a mapping and exports those flowables to csv
-output: csv with columns 'Class','Flowable','CAS No','Formula','Synonyms'
+Determines FEDEFL flowables not used in a mapping and exports.
+
+Those flowables to csv output: csv with columns 'Class','Flowable','CAS No',
+'Formula','Synonyms'.
 """
 
 import fedelemflowlist

@@ -1,6 +1,4 @@
-"""
-Writes preferred flows to a JSON-LD archive in the output folder
-"""
+"""Writes preferred flows to a JSON-LD archive in the output folder."""
 import fedelemflowlist
 from fedelemflowlist.globals import outputpath,flow_list_specs
 

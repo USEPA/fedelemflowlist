@@ -1,11 +1,10 @@
-## Secondary Context Membership Input File Format
+# Secondary Context Membership Input File Format
 
 The secondary context membership input file is in the form of CSV data with the following fields.
 Secondary context membership indicates whether or not secondary contexts (see [Contexts](Contexts.md)
 for class definitions) should be associated with flows from this FlowClass with listed primary contexts
  (Directionality and Environmental Media).
 
- 
  Field | Type | Required |  Note |
 ----------- |  ---- | ---------| -----  |
  FlowClass | string | Y | The flow class. Same as 'Class' in [FlowList](FlowList.md). |

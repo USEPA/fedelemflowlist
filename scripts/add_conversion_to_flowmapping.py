@@ -1,8 +1,9 @@
 """
-Adds conversion factor to mapping files if source unit is an alternate unit
-Requires target unit to be the primary unit
-Existing conversion factor must be set to 1 to avoid replacing manual conversion factors
-Mapping file must already conform to mapping format
+Adds conversion factor to mapping files if source unit is an alternate unit.
+
+Requires target unit to be the primary unit. Existing conversion factor must be
+set to 1 to avoid replacing manual conversion factors. Mapping file must already
+conform to mapping format.
 """
 import pandas as pd
 import fedelemflowlist

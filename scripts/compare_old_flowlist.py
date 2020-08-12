@@ -1,5 +1,6 @@
 """
 Use an archived flowlist parquet file to load in and compare with the current list.
+
 Write csvs of the new flows and expired flows in csv format, write new flows to JSON-LD
 Currently compares only by UUID.
 """
@@ -23,7 +24,7 @@ if __name__ == '__main__':
     # load old version from output folder
 
     list_file = outputpath + old_version_parquet
-    old_list = pd.read_parquet(list_file, engine="pyarrow")
+    old_list = pd.read_parquet(list_file)
     old_list_UUIDs = old_list['Flow UUID']
 
     new_UUIDS = list(set(current_UUIDs) - set(old_list_UUIDs))
