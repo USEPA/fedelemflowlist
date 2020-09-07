@@ -7,6 +7,7 @@ Functions correspond with a subset names stored in the subsets dictionary
 """
 
 subsets = {"freshwater_resources":"get_freshwater_resource_flows",
+           "water_resources":"get_water_resource_flows",
            "land_use":"get_land_use_flows"}
 
 
@@ -32,6 +33,21 @@ def get_freshwater_resource_flows(fl):
     flows = flows[~flows["Context"].str.startswith("resource/air")]
 
     return flows
+
+def get_water_resource_flows(fl):
+    """
+    Subsets the flow list for all water resource flows,
+    excluding resource/air
+
+    :param fl: df in standard flowlist format
+    :return: df in standard flowlist format
+    """
+    flows = fl[fl["Flowable"].str.startswith("Water")]
+    flows = flows[flows["Context"].str.startswith("resource")]
+    flows = flows[~flows["Context"].str.startswith("resource/air")]
+
+    return flows
+
 
 def get_land_use_flows(fl):
     """
