@@ -1,11 +1,14 @@
 from setuptools import setup
 
+install_requires = ['pandas>=0.22',
+                    'olca-ipc>=0.0.8']
+
 import struct
 bit_size = struct.calcsize("P") * 8
 if bit_size == 32:
-    install_requires=['pandas>=0.22', 'olca-ipc>=0.0.8', 'fastparquet>=0.4']
+    install_requires.append('fastparquet>=0.4')
 else:
-    install_requires=['pandas>=0.22', 'olca-ipc>=0.0.8', 'pyarrow>=0.14'] 
+    install_requires.append('pyarrow>=0.14') 
 
 setup(
     name='fedelemflowlist',
