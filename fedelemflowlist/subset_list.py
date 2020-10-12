@@ -17,6 +17,13 @@ subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "metal_emissions":"get_metal_emission_flows",
            "HAP":"get_hazardous_air_pollutant_flows"}
 
+inventory_unit = {"freshwater_resources":"kg",
+                  "water_resources":"kg",
+                  "land_use":"m2*a",
+                  "mineral_resources":"kg",
+                  "energy":"MJ",
+                  "metal_emissions":"kg",
+                  "HAP":"kg"}
 
 def get_subsets() -> list():
     """
@@ -27,6 +34,16 @@ def get_subsets() -> list():
     list_of_inventories = list(subsets)
     return list_of_inventories
 
+def get_inventory_unit(subset):
+    """
+    Returns the inventory unit for the selected subset
+    :param subset: dictionary key
+    return: (str) unit for inventory method.
+    """
+    unit = inventory_unit[subset]
+    return unit    
+    
+    
 def get_freshwater_resource_flows(fl):
     """
     Subsets the flow list for all freshwater resource flows,
@@ -102,7 +119,10 @@ def get_metal_emission_flows(fl):
     """
     flows = fl[fl["Context"].str.startswith("emission")]
     #TODO Update with list of metals
-        
+    metals = ['Aluminum',
+              'Antimony']
+    flows = flows[flows['Flowable'].isin(metals)]    
+   
     return flows
 
 def get_hazardous_air_pollutant_flows(fl):
