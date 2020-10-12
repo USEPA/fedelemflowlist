@@ -14,7 +14,7 @@ subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "land_use":"get_land_use_flows",
            "mineral_resources":"get_mineral_resource_flows",
            "energy":"get_energy_flows",
-           "metal_emissions":"get_metal_emissions_flows",
+           "metal_emissions":"get_metal_emission_flows",
            "HAP":"get_hazardous_air_pollutant_flows"}
 
 
