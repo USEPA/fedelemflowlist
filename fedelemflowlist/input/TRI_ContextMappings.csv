@@ -1,0 +1,5 @@
+SourceFlowContext,TargetFlowContext
+air,emission/air
+water,emission/water
+soil,emission/ground
+ground,emission/ground
