@@ -222,7 +222,7 @@ Nickel Refinery Dust,kg, =,Nickel,kg,Hottle,index All_mappings file,,,10/14/2020
 Nickel Subsulfide,kg, =,Nickel subsulfide,kg,Hottle,index All_mappings file,,,10/14/2020
 Nitrate portion of PM2.5-PRI,kg,,[unmapped],,,,,did not map to avoid possible aggregation of double counting,
 Nitrobenzene,kg, =,Nitrobenzene,kg,Hottle,index All_mappings file,,,10/14/2020
-Nitrogen Oxides,kg, =,Nitrogen oxides,kg,Hottle,index All_mappings file,,,10/14/2020
+Nitrogen Oxides,kg, =,Nitrogen dioxide,kg,Hottle,index All_mappings file,,mapped to Nitrogen dioxide per previous assumption, intended to ensure proper impact assessment,10/14/2020
 Nitrous Oxide,kg, =,Nitrous oxide,kg,Hottle,index All_mappings file,,,10/14/2020
 Organic Carbon portion of PM2.5-PRI,kg,=,"Organic carbon, PM2.5 LC",kg,Hottle,manual,,,10/14/2020
 "PAH, total",kg, =,Polycyclic aromatic hydrocarbons,kg,Hottle,index All_mappings file,,,10/14/2020
