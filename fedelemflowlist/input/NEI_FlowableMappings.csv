@@ -2,7 +2,7 @@ SourceFlowName,SourceUnit,MatchCondition,TargetFlowName,TargetUnit,Mapper,Map me
 "1,1,2,2-Tetrachloroethane",kg, =,"1,1,2,2-Tetrachloroethane",kg,Hottle,index All_mappings file,,,10/14/2020
 "1,1,2-Trichloroethane",kg, =,"1,1,2-Trichloroethane",kg,Hottle,index All_mappings file,,,10/14/2020
 "1,1-Dimethyl Hydrazine",kg, =,"1,1-Dimethylhydrazine",kg,Hottle,index All_mappings file,,,10/14/2020
-"1,2,3,4,5,6-Hexachlorocyclohexane",kg, =,Lindane,kg,Hottle,index All_mappings file,,,10/14/2020
+"1,2,3,4,5,6-Hexachlorocyclohexane",kg, =,"1,2,3,4,5,6-Hexachlorocyclohexane",kg,Hottle,manual,,,10/15/2020
 "1,2,4-Trichlorobenzene",kg, =,"1,2,4-Trichlorobenzene",kg,Hottle,index All_mappings file,,,10/14/2020
 "1,2-Dibromo-3-Chloropropane",kg, =,"1,2-Dibromo-3-chloropropane",kg,Hottle,index All_mappings file,,,10/14/2020
 "1,2-Dimethoxyethane",kg, =,Ethylene glycol dimethyl ether,kg,Hottle,index All_mappings file,,,10/14/2020
