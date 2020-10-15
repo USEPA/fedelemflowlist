@@ -2,7 +2,7 @@ SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchC
 NEI,"1,1,2,2-Tetrachloroethane",,air,kg, =,1.0,"1,1,2,2-Tetrachloroethane",93c46787-fe26-3ebd-84b1-25ae486ef58d,emission/air,kg,Hottle,,10/14/2020
 NEI,"1,1,2-Trichloroethane",,air,kg, =,1.0,"1,1,2-Trichloroethane",2e6af10c-ada7-3e44-9243-3fc7dd9f580d,emission/air,kg,Hottle,,10/14/2020
 NEI,"1,1-Dimethyl Hydrazine",,air,kg, =,1.0,"1,1-Dimethylhydrazine",d5124a15-fd4d-3dfa-a02c-a9a32d8c336c,emission/air,kg,Hottle,,10/14/2020
-NEI,"1,2,3,4,5,6-Hexachlorocyclohexane",,air,kg, =,1.0,Lindane,1c0f7bac-3f4c-3e31-b818-5e298f309697,emission/air,kg,Hottle,,10/14/2020
+NEI,"1,2,3,4,5,6-Hexachlorocyclohexane",,air,kg, =,1.0,"1,2,3,4,5,6-Hexachlorocyclohexane",0bd3ed14-b833-3861-8de0-d621c0ebd895,emission/air,kg,Hottle,,10/15/2020
 NEI,"1,2,4-Trichlorobenzene",,air,kg, =,1.0,"1,2,4-Trichlorobenzene",2b548673-879c-3885-afe9-2439ce6a47f1,emission/air,kg,Hottle,,10/14/2020
 NEI,"1,2-Dibromo-3-Chloropropane",,air,kg, =,1.0,"1,2-Dibromo-3-chloropropane",707d6cd3-d2d2-383e-9852-bf063efcd75c,emission/air,kg,Hottle,,10/14/2020
 NEI,"1,2-Dimethoxyethane",,air,kg, =,1.0,Ethylene glycol dimethyl ether,72250565-eb82-3c96-a962-6fca75668cbf,emission/air,kg,Hottle,,10/14/2020
