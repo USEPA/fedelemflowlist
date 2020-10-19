@@ -83,4 +83,4 @@ flowmapping_order = list(flowmapping_fields.keys())
 flow_mapping = flow_mapping[flowmapping_order]
 
 # Write them to a csv
-flow_mapping.to_csv(flowmappingpath + source_name + 'new.csv', index=False)
+flow_mapping.to_csv(flowmappingpath + source_name + '.csv', index=False)
