@@ -127,7 +127,8 @@ def get_metal_emission_flows(fl):
 
 def get_hazardous_air_pollutant_flows(fl):
     """
-    Subsets the flow list for all HAP emissions
+    Subsets the flow list for all HAP emissions based on list of flows from
+    EPA.
 
     :param fl: df in standard flowlist format
     :return: df in standard flowlist format

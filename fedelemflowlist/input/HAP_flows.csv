@@ -12,7 +12,6 @@ CAS No,HAP,Flowable,Formula,Synonyms,Unit,Class,External Reference,Preferred
 92-67-1,4-Aminobiphenyl,4-Aminobiphenyl,C12H11N,"4-Biphenylamine; [1,1'-Biphenyl]-4-amine",kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87829,0.0
 62-53-3,Aniline,Aniline,C6H7N,Benzenamine,kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=49067,0.0
 90-04-0,o-Anisidine,o-Anisidine,C7H9NO,"2-Anisidine; Benzenamine, 2-methoxy-",kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48311,0.0
-1332-21-4,Asbestos,,,,,,,
 71-43-2,Benzene (including benzene from gasoline),Benzene,C6H6,,kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=98385,0.0
 92-87-5,Benzidine,Benzidine,C12H12N2,"[1,1'-Biphenyl]-4,4'-diamine",kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48195,0.0
 98-07-7,Benzotrichloride,Benzotrichloride,C7H5Cl3,"Benzene, (trichloromethyl)-",kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87374,0.0
@@ -169,20 +168,21 @@ CAS No,HAP,Flowable,Formula,Synonyms,Unit,Class,External Reference,Preferred
 95-47-6,o-Xylenes,o-Xylene,C8H10,"Benzene, 1,2-dimethyl-",kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=87536,0.0
 108-38-3,m-Xylenes,m-Xylene,C8H10,"Benzene, 1,3-dimethyl-",kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=96452,0.0
 106-42-3,p-Xylenes,p-Xylene,C8H10,"Benzene, 1,4-dimethyl-",kg,Chemicals,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47528,0.0
-,Antimony Compounds,,,,,,,
-,Arsenic Compounds (inorganic including arsine),,,,,,,
-,Beryllium Compounds,,,,,,,
-,Cadmium Compounds,,,,,,,
-,Chromium Compounds,,,,,,,
-,Cobalt Compounds,,,,,,,
+,Asbestos,Asbestos,,,kg,Geological,,0.0
+n.a.,Antimony Compounds,Antimony compounds,-,,kg,Groups,,0.0
+n.a.,Arsenic Compounds (inorganic including arsine),Arsenic compounds,-,,kg,Groups,,0.0
+n.a.,Beryllium Compounds,Beryllium compounds,-,,kg,Groups,,0.0
+n.a.,Cadmium Compounds,Cadmium compounds,-,,kg,Groups,,0.0
+n.a.,Chromium Compounds,Chromium compounds,-,,kg,Groups,,0.0
+n.a.,Cobalt Compounds,Cobalt compounds,-,,kg,Groups,,0.0
 ,Coke Oven Emissions,,,,,,,
-,Cyanide Compounds 1,,,,,,,
-,Glycol ethers 2 (See Modification),,,,,,,
-,Lead Compounds,,,,,,,
-,Manganese Compounds,,,,,,,
-,Mercury Compounds,,,,,,,
+n.a.,Cyanide Compounds 1,Cyanide compounds,-,,kg,Groups,,0.0
+n.a.,Glycol ethers 2 (See Modification),Glycol ethers,-,,kg,Groups,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35858,0.0
+n.a.,Lead Compounds,Lead compounds,-,,kg,Groups,,0.0
+n.a.,Manganese Compounds,Manganese compounds,-,,kg,Groups,,0.0
+n.a.,Mercury Compounds,Mercury compounds,-,,kg,Groups,,0.0
 ,Fine mineral fibers 3,,,,,,,
-,Nickel Compounds,,,,,,,
-,Polycyclic Organic Matter 4,,,,,,,
-,Radionuclides (including radon) 5,,,,,,,
-,Selenium Compounds,,,,,,,
+n.a.,Nickel Compounds,Nickel compounds,-,,kg,Groups,,0.0
+n.a.,Polycyclic Organic Matter 4,Polycyclic organic matter,-,,kg,Groups,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35886,0.0
+,Radionuclides (including radon) 5,Radionuclides,,,kBq,Groups,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=35890,0.0
+n.a.,Selenium Compounds,Selenium compounds,-,,kg,Groups,,0.0

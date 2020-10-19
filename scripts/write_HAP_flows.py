@@ -53,4 +53,25 @@ if __name__ == '__main__':
 
     merged_df = df.merge(fl,how='left',on='CAS No')
     merged_df.loc[merged_df['CAS No']=='--0','CAS No'] = None
+    
+    # for flows unmatched by CAS, remove extraneous data within flow name
+    # and match on flowable (case insensitive)
+    no_match = merged_df.loc[merged_df['Flowable'].isnull()]
+    no_match[['f1','f2']]=no_match['HAP'].str.split("\(",expand=True)
+    no_match['f3']=no_match['f1'].str.strip().str[-1:].str.isnumeric()
+    no_match.loc[no_match['f3'], 'f1'] = no_match['f1'].str[:-2]
+    no_match['HAP2']=no_match['f1'].str.strip()
+    no_match.drop(columns=['f1','f2','f3'],inplace=True)
+    
+    no_match['HAP_lower']=no_match['HAP2'].str.lower()
+    name_match = no_match[['HAP','HAP_lower']]
+    fl['Flowable_lower']=fl['Flowable'].str.lower()
+    name_match = name_match.merge(fl,how='left',left_on='HAP_lower',
+                              right_on='Flowable_lower')
+    name_match.drop(columns=['HAP_lower','Flowable_lower'], inplace=True)
+    
+    # update the merged dataframe with name matches
+    merged_df.dropna(subset=['Flowable'], inplace=True)
+    merged_df = pd.concat([merged_df,name_match],ignore_index=True)
+    
     merged_df.to_csv(inputpath+'HAP_flows.csv', index=False)
