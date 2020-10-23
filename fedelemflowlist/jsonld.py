@@ -209,7 +209,8 @@ class Writer(object):
             fp = olca.FlowPropertyFactor()
             fp.reference_flow_property = True
             fp.conversion_factor = 1.0
-            fp.flow_property = units.property_ref(row["Unit"])
+
+            fp.flow_property = self._get_fpf(row["Unit"])
             if fp.flow_property is None:
                 log.warning("unknown unit %s in flow %s",
                             row["Unit"], row["Flow UUID"])
@@ -224,7 +225,7 @@ class Writer(object):
                     altfp = olca.FlowPropertyFactor()
                     altfp.reference_flow_property = False
                     altfp.conversion_factor = alternate['AltUnitConversionFactor']
-                    altfp.flow_property = units.property_ref(alternate["AltUnit"])
+                    altfp.flow_property = self._get_fpf(alternate["AltUnit"])
                     if altfp.flow_property is None:
                         log.warning("unknown altunit %s in flow %s",
                                     alternate["AltUnit"], row["Flow UUID"])
@@ -256,3 +257,19 @@ class Writer(object):
             for e in entries:
                 mappings.append(e.to_json())
             pw.write_json(flow_map, 'flow_mappings')
+
+    def _get_fpf(self, unit):
+        id = None
+        name = None
+        if unit == 'MJ': # flows w energy units assigned to Gross calorific value isntead of Energy
+            id = '93a60a56-a3c8-14da-a746-0800200c9a66'
+            name = 'Gross calorific value'
+        elif unit == 'Nm3':
+            id = '93a60a56-a3c8-13da-a746-0800200c9a66'
+            name = 'Normal Volume'
+        if id == None: # default assignment of units to flow properties:
+            # https://github.com/GreenDelta/olca-ipc.py/blob/master/olca/units/units.csv
+            fpf = units.property_ref(unit)
+        else:
+            fpf = olca.ref(olca.FlowProperty, id, name)
+        return fpf
