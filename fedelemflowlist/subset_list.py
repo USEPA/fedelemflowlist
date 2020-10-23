@@ -12,9 +12,9 @@ from fedelemflowlist.globals import inputpath
 subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "water_resources":"get_water_resource_flows",
            "land_use":"get_land_use_flows",
-           "mineral_resources":"get_mineral_resource_flows",
-           "energy":"get_energy_flows",
-           "metal_emissions":"get_metal_emission_flows",
+           #"mineral_resources":"get_mineral_resource_flows",
+           #"energy":"get_energy_flows",
+           #"metal_emissions":"get_metal_emission_flows",
            "HAP":"get_hazardous_air_pollutant_flows"}
 
 inventory_unit = {"freshwater_resources":"kg",
