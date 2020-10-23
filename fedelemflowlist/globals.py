@@ -107,4 +107,28 @@ def add_uuid_to_mapping(flow_mapping):
     flow_mapping_uuid = flow_mapping_uuid[flowmapping_order]
     
     return flow_mapping_uuid
+
+def add_conversion_to_mapping(flow_mapping):
+    """
+    Adds conversion factors from FEDEFL to a flow mapping file
+    :param flow_mapping: dataframe of flow mapping in standard format
+    return: mapping_w_conversion
+    """
+    conversions = fedelemflowlist.get_alt_conversion()
+    # merge in conversion factors where source unit = alternate unit
+    mapping_w_conversion = pd.merge(flow_mapping, conversions, how='left',
+                                  left_on=['TargetFlowName', 'SourceUnit', 'TargetUnit'],
+                                  right_on=['Flowable', 'AltUnit', 'Unit'])
     
+    # update conversion factor where current conversion is 1 and the updated conversion exists
+    converted1 = mapping_w_conversion['InverseConversionFactor'].notnull() 
+    converted2 = mapping_w_conversion['ConversionFactor']==1
+    mapping_w_conversion['Convert']=converted1 & converted2
+    mapping_w_conversion.loc[(mapping_w_conversion['Convert']==True), 
+                             'ConversionFactor']=mapping_w_conversion['InverseConversionFactor']
+    converted = mapping_w_conversion['Convert'].sum()
+    log.info('added conversion factors for ' + str(converted) + ' flows')
+    mapping_w_conversion = mapping_w_conversion.drop(columns=['Flowable','Unit',
+                                                         'AltUnit','AltUnitConversionFactor',
+                                                         'InverseConversionFactor', 'Convert'])
+    return mapping_w_conversion
