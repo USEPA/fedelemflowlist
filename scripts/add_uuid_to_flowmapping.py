@@ -6,8 +6,8 @@ conform to mapping format.
 """
 import pandas as pd
 import fedelemflowlist
-from fedelemflowlist.globals import flowmappingpath, flowmapping_fields, log
-from fedelemflowlist.uuid_generators import add_uuid_to_mapping
+from fedelemflowlist.globals import flowmappingpath, add_uuid_to_mapping
+
 
 #Add source name here. The .csv mapping file with this name must be in the flowmapping directory
 #None can be used to update UUIDs in all mapping files
