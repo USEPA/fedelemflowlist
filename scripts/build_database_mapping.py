@@ -29,10 +29,13 @@ if __name__ == '__main__':
     
     # Add source name name and missing fields
     flow_mapping['SourceListName'] = source_name
-    flow_mapping['ConversionFactor'] = 1
     flow_mapping['SourceFlowUUID'] = ""
     flow_mapping['TargetFlowUUID'] = ""
-    
+    if 'ConversionFactor' not in flow_mapping:
+        flow_mapping['ConversionFactor'] = 1
+        log.info('ConversionFactor column not included in input file, added to mapping')
+    flow_mapping['ConversionFactor']=flow_mapping['ConversionFactor'].fillna(1)
+
     flow_mapping = add_conversion_to_mapping(flow_mapping)
     
     flow_mapping = add_uuid_to_mapping(flow_mapping)
