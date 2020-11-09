@@ -1,0 +1,45 @@
+Flowable,Context
+"Water, fresh",resource/water/brackish water body
+"Water, fresh",resource/water/brackish water body/lake
+"Water, fresh",resource/water/brackish water body/lake/rural
+"Water, fresh",resource/water/brackish water body/lake/urban
+"Water, fresh",resource/water/subterranean/brackish water body
+"Water, fresh",resource/water/subterranean/brackish water body/confined aquifer
+"Water, fresh",resource/water/subterranean/brackish water body/unconfined aquifer
+"Water, fresh",resource/water/saline water body
+"Water, fresh",resource/water/saline water body/ocean
+"Water, fresh",resource/water/subterranean/saline water body
+"Water, fresh",resource/water/subterranean/saline water body/confined aquifer
+"Water, fresh",resource/water/subterranean/saline water body/unconfined aquifer
+"Water, brackish",resource/water/fresh water body
+"Water, brackish",resource/water/fresh water body/lake
+"Water, brackish",resource/water/fresh water body/lake/rural
+"Water, brackish",resource/water/fresh water body/lake/urban
+"Water, brackish",resource/water/fresh water body/river
+"Water, brackish",resource/water/fresh water body/river/rural
+"Water, brackish",resource/water/fresh water body/river/urban
+"Water, brackish",resource/water/subterranean/fresh water body
+"Water, brackish",resource/water/subterranean/fresh water body/confined aquifer
+"Water, brackish",resource/water/subterranean/fresh water body/unconfined aquifer
+"Water, brackish",resource/water/saline water body
+"Water, brackish",resource/water/saline water body/ocean
+"Water, brackish",resource/water/subterranean/saline water body
+"Water, brackish",resource/water/subterranean/saline water body/confined aquifer
+"Water, brackish",resource/water/subterranean/saline water body/unconfined aquifer
+"Water, saline",resource/water/fresh water body
+"Water, saline",resource/water/fresh water body/lake
+"Water, saline",resource/water/fresh water body/lake/rural
+"Water, saline",resource/water/fresh water body/lake/urban
+"Water, saline",resource/water/fresh water body/river
+"Water, saline",resource/water/fresh water body/river/rural
+"Water, saline",resource/water/fresh water body/river/urban
+"Water, saline",resource/water/subterranean/fresh water body
+"Water, saline",resource/water/subterranean/fresh water body/confined aquifer
+"Water, saline",resource/water/subterranean/fresh water body/unconfined aquifer
+"Water, saline",resource/water/brackish water body
+"Water, saline",resource/water/brackish water body/lake
+"Water, saline",resource/water/brackish water body/lake/rural
+"Water, saline",resource/water/brackish water body/lake/urban
+"Water, saline",resource/water/subterranean/brackish water body
+"Water, saline",resource/water/subterranean/brackish water body/confined aquifer
+"Water, saline",resource/water/subterranean/brackish water body/unconfined aquifer
