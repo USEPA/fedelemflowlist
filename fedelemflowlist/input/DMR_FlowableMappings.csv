@@ -380,7 +380,7 @@ HCFC-123,kg,=,HCFC-123,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
 HCFC-21,kg,=,HCFC-21,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
 HCFC-22,kg,=,HCFC-22,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
 Heptachlor,kg,=,Heptachlor,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
-Heptachlor and its epoxide -- RCRA T,kg,>,Heptachlor,kg,Hottle,,Edelen,"potential split, epoxide is a separate flow in FEDEFL",11/6/2020,
+Heptachlor and its epoxide -- RCRA T,kg,>,Heptachlor,kg,Hottle,,Edelen,split,11/6/2020,0.5
 Heptachlor epoxide,kg,=,Heptachlor epoxide,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
 Heptadecafluorononanoic acid,kg,=,Perfluorononanoic acid,kg,Edelen,CAS FEDEFL,Hottle,,11/2/2020,
 Heptane,kg,=,Heptane,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
@@ -706,3 +706,4 @@ Xylene,kg,=,Xylene,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
 "Xylene, meta & para in combination",kg,=,m-Xylene,kg,Edelen,manual match,,Split,11/2/2020,0.5
 Zinc,kg,=,Zinc,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
 Zirconium,kg,=,Zirconium,kg,Edelen,indexAll_mappingsfile,Hottle,,11/2/2020,
+Heptachlor and its epoxide -- RCRA T,kg,>,Heptachlor epoxide,kg,Hottle,,Edelen,split,11/6/2020,0.5
