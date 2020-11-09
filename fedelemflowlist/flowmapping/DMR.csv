@@ -126,6 +126,7 @@ DMR,Alachlor,,water,kg,=,1.0,Alachlor,8599e263-6ba7-371f-9781-940f34ccf742,emiss
 DMR,Aldicarb,,water,kg,=,1.0,Aldicarb,87271b69-7840-370c-a487-17bee9100ded,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Aldrin,,water,kg,=,1.0,Aldrin,ba7d7f47-f243-34d4-81c9-b159e5c90aaf,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Aldrin + Dieldrin,,water,kg,=,0.5,Aldrin,ba7d7f47-f243-34d4-81c9-b159e5c90aaf,emission/water,kg,Edelen,,11/2/2020
+DMR,Aldrin + Dieldrin,,water,kg,=,0.5,Dieldrin,0a908b5e-881b-38e7-a33a-665ec8be739f,emission/water,kg,Edelen,,11/2/2020
 DMR,"Algicides, general",,water,kg,<,1.0,Herbicides,dec4f78e-4eed-34a1-bc7a-f3da543bb312,emission/water,kg,Hottle,Edelen,11/5/2020
 DMR,Alkyl benzene sulfonated (ABS),,water,kg,=,1.0,"Benzenesulfonic acid, alkyl derivs.",7463813a-262e-3c4a-983d-0f23afc508fa,emission/water,kg,Hottle,Edelen,11/5/2020
 DMR,Aluminum,,water,kg,=,1.0,Aluminum,2b8613fe-c7db-355d-9754-baebbc92512f,emission/water,kg,Edelen,Hottle,11/2/2020
@@ -168,11 +169,17 @@ DMR,Benz[a]anthracene,,water,kg,=,1.0,Benz[a]anthracene,971d8430-5b52-3a53-b290-
 DMR,"Benzenamine, N-methyl-N,2,4,6-tetranitro-",,water,kg,=,1.0,Tetryl,2271ea43-c10f-37fc-8fc2-4aaa283f13ff,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Benzene,,water,kg,=,1.0,Benzene,67999cea-e58a-3044-95a9-4b45269260fd,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,"Benzene, ethylbenzene, toluene, xylene combination",,water,kg,=,0.25,Benzene,67999cea-e58a-3044-95a9-4b45269260fd,emission/water,kg,Edelen,,11/2/2020
+DMR,"Benzene, ethylbenzene, toluene, xylene combination",,water,kg,=,0.25,Ethylbenzene,6c82f4d1-4fa8-3b7e-816d-c4153c0eba6d,emission/water,kg,Edelen,,11/2/2020
+DMR,"Benzene, ethylbenzene, toluene, xylene combination",,water,kg,=,0.25,Toluene,f7ebc6df-b3ee-30de-b6e8-c70e155854b3,emission/water,kg,Edelen,,11/2/2020
+DMR,"Benzene, ethylbenzene, toluene, xylene combination",,water,kg,=,0.25,Xylene,11b4481a-d297-349a-89fc-102009c1410c,emission/water,kg,Edelen,,11/2/2020
 DMR,"Benzene, halogenated",,water,kg,<,1.0,Benzene,67999cea-e58a-3044-95a9-4b45269260fd,emission/water,kg,Hottle,Edelen,11/5/2020
 DMR,"Benzene, toluene, xylene in combination",,water,kg,=,0.33,Benzene,67999cea-e58a-3044-95a9-4b45269260fd,emission/water,kg,Edelen,,11/2/2020
+DMR,"Benzene, toluene, xylene in combination",,water,kg,=,0.33,Toluene,f7ebc6df-b3ee-30de-b6e8-c70e155854b3,emission/water,kg,Edelen,,11/2/2020
+DMR,"Benzene, toluene, xylene in combination",,water,kg,=,0.33,Xylene,11b4481a-d297-349a-89fc-102009c1410c,emission/water,kg,Edelen,,11/2/2020
 DMR,Benzidine,,water,kg,=,1.0,Benzidine,7ce3b6cb-4842-314c-abc9-97bc2f0ad7b7,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Benzo(b)fluoranthene,,water,kg,=,1.0,Benzo(b)fluoranthene,22a4cd56-fe90-35d5-8905-4377d913926d,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,"Benzo(b,k)fluoranthene",,water,kg,=,0.5,Benzo[k]fluoranthene,fd07c148-75ee-3839-b747-72c0542da278,emission/water,kg,Edelen,,11/2/2020
+DMR,"Benzo(b,k)fluoranthene",,water,kg,=,0.5,Benzo(b)fluoranthene,22a4cd56-fe90-35d5-8905-4377d913926d,emission/water,kg,Edelen,,11/2/2020
 DMR,Benzo[a]pyrene,,water,kg,=,1.0,Benzo[a]pyrene,b2781dc3-77ab-326f-9463-058a6608beac,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Benzo[ghi]perylene,,water,kg,=,1.0,Benzo[ghi]perylene,5f75a7a8-003b-30a7-8f41-f83791efd349,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Benzo[j]fluoranthene,,water,kg,=,1.0,Benzo[j]fluoranthene,9cab49c6-3485-32e8-905b-e0c822a438a2,emission/water,kg,Edelen,Hottle,11/2/2020
@@ -302,6 +309,7 @@ DMR,Endothall,,water,kg,=,1.0,Endothall,c4883e8d-0f18-3935-83dd-61e5f597a136,emi
 DMR,Endothall salts and esters,,water,kg,<,1.0,Endothall,c4883e8d-0f18-3935-83dd-61e5f597a136,emission/water,kg,Hottle,Edelen,11/6/2020
 DMR,Endrin,,water,kg,=,1.0,Endrin,b503b3ac-c688-3dcd-a21e-494bfc4c5b13,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Endrin + endrin aldehyde (sum),,water,kg,=,0.5,Endrin aldehyde,ee70f857-6815-3c00-9435-6a7c97afe12b,emission/water,kg,Edelen,,11/2/2020
+DMR,Endrin + endrin aldehyde (sum),,water,kg,=,0.5,Endrin,b503b3ac-c688-3dcd-a21e-494bfc4c5b13,emission/water,kg,Edelen,,11/2/2020
 DMR,Endrin aldehyde,,water,kg,=,1.0,Endrin aldehyde,ee70f857-6815-3c00-9435-6a7c97afe12b,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Epichlorohydrin,,water,kg,=,1.0,Epichlorohydrin,6b9f80f5-e697-3f89-8914-e6fe87a6169c,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Ethanol,,water,kg,=,1.0,Ethanol,639a3dd8-ebfc-36e2-9b5e-c846509fe259,emission/water,kg,Edelen,Hottle,11/2/2020
@@ -344,7 +352,8 @@ DMR,"Halogens, tot organics bottom sediment",,water,kg,<,1.0,"Halogens, total",8
 DMR,"Halomethanes, sum",,water,kg,<,1.0,"Hydrocarbons, halogenated",4203cce1-1793-33d9-8de1-046aae0a373e,emission/water,kg,Hottle,Edelen,11/6/2020
 DMR,Halon 1011,,water,kg,=,1.0,Halon 1011,479a74ed-0cf7-391f-85c8-cbd8f87cac2d,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Heptachlor,,water,kg,=,1.0,Heptachlor,993c3a4f-36fd-3d2d-aa48-0e8ade199eaa,emission/water,kg,Edelen,Hottle,11/2/2020
-DMR,Heptachlor and its epoxide -- RCRA T,,water,kg,>,1.0,Heptachlor,993c3a4f-36fd-3d2d-aa48-0e8ade199eaa,emission/water,kg,Hottle,Edelen,11/6/2020
+DMR,Heptachlor and its epoxide -- RCRA T,,water,kg,>,0.5,Heptachlor,993c3a4f-36fd-3d2d-aa48-0e8ade199eaa,emission/water,kg,Hottle,Edelen,11/6/2020
+DMR,Heptachlor and its epoxide -- RCRA T,,water,kg,>,0.5,Heptachlor epoxide,6a84a11b-2ff2-3dfd-9b4e-0865545cebac,emission/water,kg,Hottle,Edelen,11/6/2020
 DMR,Heptachlor epoxide,,water,kg,=,1.0,Heptachlor epoxide,6a84a11b-2ff2-3dfd-9b4e-0865545cebac,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Heptadecafluorononanoic acid,,water,kg,=,1.0,Perfluorononanoic acid,ee4ae49a-065d-3d20-99b4-63bd5e402439,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Heptane,,water,kg,=,1.0,Heptane,61c5b48a-1d6d-31e0-a06d-e93204f32ec3,emission/water,kg,Edelen,Hottle,11/2/2020
@@ -593,6 +602,7 @@ DMR,Vinyl acetate,,water,kg,=,1.0,Vinyl acetate,a436de55-1bd6-35fc-9884-85ed374d
 DMR,Vinyl chloride,,water,kg,=,1.0,Vinyl chloride,839b1b58-8089-3455-9755-a839f9d1fdbc,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,"Volatile compounds, (GC/MS)",,water,kg,=,1.0,Volatile organic compounds,e6cafce7-a60f-316b-b264-3127bdc946d0,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Xylene,,water,kg,=,1.0,Xylene,11b4481a-d297-349a-89fc-102009c1410c,emission/water,kg,Edelen,Hottle,11/2/2020
+DMR,"Xylene, meta & para in combination",,water,kg,=,0.5,m-Xylene,a975efda-5fb3-38a9-8d3f-212606aa853f,emission/water,kg,Edelen,,11/2/2020
 DMR,"Xylene, meta & para in combination",,water,kg,=,0.5,p-Xylene,8e880bf8-6567-3247-afb3-52a7b6c8ab5a,emission/water,kg,Edelen,,11/2/2020
 DMR,Zinc,,water,kg,=,1.0,Zinc,41f104ab-8f49-3924-9b57-98ed81cd54a0,emission/water,kg,Edelen,Hottle,11/2/2020
 DMR,Zirconium,,water,kg,=,1.0,Zirconium,437bfdd8-7c90-318c-b3f0-821801d89861,emission/water,kg,Edelen,Hottle,11/2/2020
