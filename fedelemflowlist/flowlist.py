@@ -1,6 +1,7 @@
 """
-Generate the elementary flow master list as a pandas dataframe from input files
-Write it to the output folder
+Generate the elementary flow master list.
+
+As a pandas dataframe from input files. Write it to the output folder.
 """
 
 import pandas as pd
@@ -14,7 +15,8 @@ flowable_data_types = {'CAS No': flow_list_fields['CAS No'][0]['dtype'],
 altunits_data_types = {'Conversion Factor': flow_list_fields['AltUnitConversionFactor'][0]['dtype']} #AltUnitConversionFactor
 
 def read_in_flowclass_file(flowclass, flowclasstype):
-    """Declare data types for select variables in flow class input files
+    """
+    Declare data types for select variables in flow class input files.
 
     :param flowclass: One of the flow class names
     :param flowclasstype: either 'Flowables','FlowablePrimaryContexts',or 'FlowableAltUnits'
@@ -30,6 +32,7 @@ def read_in_flowclass_file(flowclass, flowclasstype):
     return flowclassfile
 
 def import_secondary_context_membership():
+    """Add docstring."""
     log.info('Read in secondary context membership')
     SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
     return SecondaryContextMembership
@@ -80,7 +83,7 @@ if __name__ == '__main__':
                                                   class_flowables_w_primary_contexts],
                                                  ignore_index=True, sort=False)
     log.info('Total of ' + str(len(flowables_w_primary_contexts)) + ' flows with primary contexts created.')
-
+    
     # Read in flowable context membership
     SecondaryContextMembership = import_secondary_context_membership()
 
@@ -126,7 +129,7 @@ if __name__ == '__main__':
     if len(flows[flows.duplicated(keep=False)])>0:
         log.debug("Duplicate flows exist. They will be removed.")
         flows = flows.drop_duplicates()
-
+        
     #If both the flowable and context are preferred, make this a preferred flow
     flows['Preferred'] = 0
     flows.loc[(flows['Flowable Preferred']==1) & (flows['ContextPreferred']==1),'Preferred'] = 1
@@ -143,6 +146,15 @@ if __name__ == '__main__':
         flowids.append(flowid)
     flows['Flow UUID'] = flowids
 
+    #Drop duplicate entries due to multiple alt units
+    flows['Duplicates']=flows.duplicated(subset=['Flow UUID'],keep='first')
+    if flows['Duplicates'].sum() > 0:
+        log.info(str(flows['Duplicates'].sum()) + " flows with multiple alt unit; these duplicates have been removed:")
+        duplicates_df = flows.loc[flows['Duplicates'] == True, 'Flowable']
+        print(duplicates_df.drop_duplicates().to_string(index=False))
+        flows = flows.drop_duplicates(subset=['Flow UUID'], keep='first')
+    flows.drop(columns='Duplicates')
+
     contexts_in_flows = pd.unique(flows['Context'])
     log.info('Created ' + str(len(flows)) + ' flows with ' + str(len(contexts_in_flows))  + ' unique contexts')
 
@@ -150,5 +162,6 @@ if __name__ == '__main__':
     flows = flows[list(flow_list_fields.keys())]
 
     # Write it to parquet
-    flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet', engine='pyarrow')
+    flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet',
+                     index=False, compression=None)
     log.info('Stored flows in ' + 'output/FedElemFlowListMaster.parquet')

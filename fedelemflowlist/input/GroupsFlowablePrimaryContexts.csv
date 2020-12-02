@@ -196,6 +196,8 @@ Dodecane isomers,Emission,Air
 "Endothal, salts and esters",Emission,Water
 Esters,Emission,Air
 "Ethylenebisdithiocarbamic acid, salts and esters",Emission,Air
+"Ethylenebisdithiocarbamic acid, salts and esters",Emission,Ground
+"Ethylenebisdithiocarbamic acid, salts and esters",Emission,Water
 Extractable organic matter (EOM),Emission,Air
 "Furans, nitro-",Emission,Ground
 "Furans, nitro-",Emission,Water
@@ -232,6 +234,7 @@ Herbicides,Emission,Water
 "Hydrocarbons, nitrated",Emission,Water
 "Hydrocarbons, petroleum",Emission,Ground
 "Hydrocarbons, petroleum",Emission,Water
+"Hydrocarbons, petroleum",Emission,Air
 "Hydrocarbons, purgeable",Emission,Ground
 "Hydrocarbons, purgeable",Emission,Water
 "Hydrocarbons, volatile",Emission,Ground
@@ -335,6 +338,7 @@ Priority pollutants,Emission,Water
 "Ammonium compounds, quarternary",Emission,Water
 "Rare earth metals, total",Emission,Ground
 "Rare earth metals, total",Emission,Water
+"Rare earth metals, total",Resource,Ground
 Resin acids,Emission,Ground
 Resin acids,Emission,Water
 Selenium compounds,Emission,Air
@@ -375,6 +379,7 @@ Total petroleum hydrocarbon -diesel,Emission,Ground
 Total petroleum hydrocarbon -diesel,Emission,Water
 Total petroleum hydrocarbon -gasoline,Emission,Ground
 Total petroleum hydrocarbon -gasoline,Emission,Water
+Total petroleum hydrocarbon -gasoline,Emission,Air
 Total toxic organics,Emission,Ground
 Total toxic organics,Emission,Water
 Tridecane isomers,Emission,Air
@@ -390,6 +395,8 @@ Volatile halogenated hydrocarbons,Emission,Water
 Volatile halogenated organics (VHO),Emission,Ground
 Volatile halogenated organics (VHO),Emission,Water
 Warfarin and salts,Emission,Air
+Warfarin and salts,Emission,Ground
+Warfarin and salts,Emission,Water
 Zinc compounds,Emission,Air
 Zinc compounds,Emission,Ground
 Zinc compounds,Emission,Water
@@ -425,6 +432,8 @@ Halogen,Emission,Water
 Radium-226 and/or radium-228,Emission,Ground
 Radium-226 and/or radium-228,Emission,Water
 "Strychnidin-10-one, and salts",Emission,Air
+"Strychnidin-10-one, and salts",Emission,Ground
+"Strychnidin-10-one, and salts",Emission,Water
 Sulfur oxides,Emission,Air
 "Particulate matter, > 10μm",Emission,Air
 "Particulate matter, ≤ 2.5μm",Emission,Air
@@ -446,6 +455,7 @@ C6 alkenes,Emission,Air
 "Organic carbon, PM2.5 LC",Emission,Air
 Radionuclides,Emission,Air
 Radionuclides,Emission,Water
+Radionuclides,Emission,Ground
 Fatty acids,Emission,Ground
 Fatty acids,Emission,Water
 Terpenes,Emission,Air
@@ -457,6 +467,7 @@ Organochlorine pesticides,Emission,Water
 "Solvents, chlorinated",Emission,Water
 Carboxylic acids,Emission,Ground
 Carboxylic acids,Emission,Water
+Carboxylic acids,Emission,Air
 "Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Air
 "Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Ground
 "Benzene mixt. with methylbenzene, ethylbenzene, and dimethylbenzene",Emission,Water
@@ -497,13 +508,35 @@ Adsorbable organic halides,Emission,Air
 "Hydrocarbons, halogenated",Emission,Air
 Mercaptans,Emission,Air
 Metals,Emission,Air
+Metals,Resource,Ground
 Organic compounds,Emission,Air
 "Particulate matter, > 10μm",Emission,Water
 "Particulate matter, ≤ 10μm",Emission,Water
 Phenols,Emission,Air
 Phosphorus compounds,Emission,Water
 Volatile organic compounds,Emission,Water
+Volatile organic compounds,Emission,Ground
 Dibromotrifluoropropanes,Emission,Air
 Bromotrifluoropropane,Emission,Air
 Monobromodifluoropropanes,Emission,Air
 Hexabromofluoropropanes,Emission,Air
+Total suspended solids,Emission,Water
+Total suspended solids,Emission,Air
+Dibromofluoropropanes,Emission,Water
+Dibromofluoropropanes,Emission,Air
+Monobromopentafluoropropanes,Emission,Air
+Monobromotetrafluoropropanes,Emission,Air
+Tribromotrifluoropropanes,Emission,Ground
+Tribromotrifluoropropanes,Emission,Air
+Lecithins,Emission,Water
+Lecithins,Emission,Ground
+"Benzene, hexyl-",Emission,Air
+"Acetic acid, hexyl ester",Emission,Air
+"Polycyclic aromatic hydrocarbons - 15-PAH",Emission,Air
+"Polycyclic aromatic hydrocarbons - 7-PAH",Emission,Air
+"Noble gases, radioactive, unspecified",Emission,Air
+"Noble gases, radioactive, unspecified",Emission,Ground
+"Noble gases, radioactive, unspecified",Emission,Water
+"Actinides, unspecified",Emission,Air
+"Actinides, unspecified",Emission,Ground
+"Actinides, unspecified",Emission,Water

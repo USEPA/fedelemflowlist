@@ -1,6 +1,8 @@
 """
-Provides a pandas dataframe of all contexts as paths and as a pattern of context classes
-Used by flowlist.py
+Provides a pandas dataframe.
+
+Of all contexts as paths and as a pattern of context classes. Used by
+flowlist.py.
 """
 
 import pandas as pd

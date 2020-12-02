@@ -5,7 +5,8 @@ in standard pandas dataframe formats, defined within format specs
 """
 import os
 import pandas as pd
-from fedelemflowlist.globals import outputpath, flowmappingpath
+from fedelemflowlist.flowlist import read_in_flowclass_file
+from fedelemflowlist.globals import outputpath, flowmappingpath, flow_list_specs
 import fedelemflowlist.jsonld as jsonld
 
 
@@ -17,7 +18,7 @@ def get_flows(preferred_only=None):
     :return: standard Flow List dataframe
     """
     list_file = outputpath + 'FedElemFlowListMaster.parquet'
-    flows = pd.read_parquet(list_file, engine="pyarrow")
+    flows = pd.read_parquet(list_file)
     if preferred_only:
         flows = flows[flows['Preferred'] == 1]
     return flows
@@ -64,3 +65,24 @@ def write_jsonld(flows, path, mappings=None):
     """
     writer = jsonld.Writer(flow_list=flows, flow_mapping=mappings)
     writer.write_to(path)
+
+def get_alt_conversion():
+    """returns a dataframe of all flowables with altunits and alt conversion factors
+    sourced direclty from input files and so can reference multiple alt units per flowable"""
+    altflowlist = pd.DataFrame()
+    for t in flow_list_specs["flow_classes"]:
+        try:
+            altunits_for_class = read_in_flowclass_file(t, 'FlowableAltUnits')
+            altunits_for_class = altunits_for_class.drop_duplicates()
+            altflowlist = pd.concat([altflowlist,altunits_for_class],ignore_index=True)
+        except FileNotFoundError:
+            altunits_for_class = None # Do nothing
+    altflowlist = altflowlist.drop(columns=['External Reference'])
+    altflowlist = altflowlist.rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
+                                                                    'Alternate Unit': 'AltUnit',
+                                                                    'Reference Unit': 'Unit'})
+    #generate InverseConversionFactor for converting from alt unit to primary unit
+    altflowlist['InverseConversionFactor']=1/altflowlist['AltUnitConversionFactor']
+    #round to 6 decimals
+    altflowlist = altflowlist.round({'InverseConversionFactor':6})
+    return altflowlist

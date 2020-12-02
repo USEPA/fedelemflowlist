@@ -1,5 +1,5 @@
 """
-Tests for that flows and mappings are written as expected to JSON-LD archives
+Tests for that flows and mappings are written as expected to JSON-LD archives.
 """
 import unittest
 import fedelemflowlist
@@ -8,10 +8,10 @@ import zipfile
 import os
 
 class TestWritingJSONLD(unittest.TestCase):
+    """Add docstring."""
 
     def test_writing_flows(self):
-        """Test that first 100 flows are written to 100 files in JSON_LD archive
-        """
+        """Test that first 100 flows are written to 100 files in JSON_LD archive."""
         flowlist = fedelemflowlist.get_flows(preferred_only=False)
         #Test first 100
         flowlist = flowlist.iloc[0:100]

@@ -56,6 +56,7 @@ Thorium-230,kg,kBq,1.32E-09,https://www.nrc.gov/reading-rm/doc-collections/cfr/p
 Thorium-232,kg,kBq,2.50E-04,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
 Thorium-234,kg,kBq,1.16E-15,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
 Uranium,kBq,kg,1.20E+04,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
+Uranium,MJ,kg,5.00E+05,"Uranium, in LWR World-nuclear Assoication https://www.world-nuclear.org/information-library/facts-and-figures/heat-values-of-various-fuels.aspx"
 Uranium-235,kg,kBq,1.25E-05,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
 Xenon-131m,kg,kBq,3.23E-16,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
 Xenon-133,kg,kBq,1.45E-16,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
@@ -67,3 +68,6 @@ Actinium-227,kg,kBq,3.70E-13,https://www.nrc.gov/reading-rm/doc-collections/cfr/
 Radon-222,kg,kBq,1.75E-16,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
 Radium-223,kg,kBq,5.26E-16,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
 Methane,MJ,kg,55.55,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Methane,m3,kg,1.82,"Oil Sands, Heavy Oil & Bitumen: From Recovery to Refinery (Banerjee)"
+Silver-110,kg,kBq,5.56E-15,https://www.nrc.gov/reading-rm/doc-collections/cfr/part071/part071-appa.html
+

@@ -1,4 +1,4 @@
-## Contexts Input File Format
+# Contexts Input File Format
 
 The context input file is in the form of CSV data with the following fields.
 

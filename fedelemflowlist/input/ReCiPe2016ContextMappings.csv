@@ -1,21 +1,4 @@
 ﻿SourceFlowContext,TargetFlowContext
-emission/air,emission/air
-emission/air,emission/air/troposphere/low
-emission/air,emission/air/troposphere/high
-emission/air,emission/air/troposphere/very high
-emission/air,emission/air/troposphere/ground-level
-emission/air,emission/air/troposphere/urban
-emission/air,emission/air/troposphere/rural
-emission/air,emission/air/troposphere/urban/low
-emission/air,emission/air/troposphere/rural/low
-emission/air,emission/air/troposphere/urban/high
-emission/air,emission/air/troposphere/rural/high
-emission/air,emission/air/troposphere/urban/very high
-emission/air,emission/air/troposphere/rural/very high
-emission/air,emission/air/troposphere/urban/ground-level
-emission/air,emission/air/troposphere/rural/ground-level
-emission/air,emission/air/indoor
-emission/air,emission/air/stratosphere
 air,emission/air
 air,emission/air/troposphere/low
 air,emission/air/troposphere/high
@@ -33,100 +16,30 @@ air,emission/air/troposphere/urban/ground-level
 air,emission/air/troposphere/rural/ground-level
 air,emission/air/indoor
 air,emission/air/stratosphere
-urban air,emission/air/troposphere/urban
-urban air,emission/air/indoor
-urban air,emission/air/troposphere/urban/low
-urban air,emission/air/troposphere/urban/high
-urban air,emission/air/troposphere/urban/very high
-urban air,emission/air/troposphere/urban/ground-level
-urban  air,emission/air/troposphere/urban
-urban  air,emission/air/indoor
-urban  air,emission/air/troposphere/urban/low
-urban  air,emission/air/troposphere/urban/high
-urban  air,emission/air/troposphere/urban/very high
-urban  air,emission/air/troposphere/urban/ground-level
-rural air,emission/air/troposphere/rural
-rural air,emission/air/troposphere/rural/low
-rural air,emission/air/troposphere/rural/high
-rural air,emission/air/troposphere/rural/very high
-rural air,emission/air/troposphere/rural/ground-level
 air/unspecified,emission/air/troposphere/low
 air/unspecified,emission/air/troposphere/high
 air/unspecified,emission/air/troposphere/very high
 air/unspecified,emission/air/troposphere/ground-level
 air/unspecified,emission/air/stratosphere
-agricultural soil,emission/ground/human-dominated/agricultural
-agricultural soil,emission/ground/human-dominated/agricultural/urban
-agricultural soil,emission/ground/human-dominated/agricultural/rural
-industrial soil,emission/ground/human-dominated/industrial
-industrial soil,emission/ground/human-dominated/industrial/urban
-industrial soil,emission/ground/human-dominated/industrial/rural
-ground/unspecified,emission/ground
-ground/unspecified,emission/ground/urban
-ground/unspecified,emission/ground/rural
-ground/unspecified,emission/ground/human-dominated
-ground/unspecified,emission/ground/human-dominated/commercial
-ground/unspecified,emission/ground/human-dominated/residential
-ground/unspecified,emission/ground/human-dominated/urban
-ground/unspecified,emission/ground/human-dominated/rural
-ground/unspecified,emission/ground/human-dominated/commercial/urban
-ground/unspecified,emission/ground/human-dominated/commercial/rural
-ground/unspecified,emission/ground/human-dominated/residential/urban
-ground/unspecified,emission/ground/human-dominated/residential/rural
-ground/unspecified,emission/ground/terrestrial/wetland
-ground/unspecified,emission/ground/terrestrial/barren land
-ground/unspecified,emission/ground/terrestrial/snow and ice
-ground/unspecified,emission/ground/terrestrial/grassland
-ground/unspecified,emission/ground/terrestrial/shrubland
-ground/unspecified,emission/ground/terrestrial/forest
-ground/unspecified,emission/ground/subterranean
-fresh water,emission/water/fresh water body
-fresh water,emission/water
-fresh water,emission/water/urban
-fresh water,emission/water/rural
-fresh water,emission/water/fresh water body/urban
-fresh water,emission/water/fresh water body/rural
-fresh water,emission/water/fresh water body/lake
-fresh water,emission/water/fresh water body/river
-fresh water,emission/water/fresh water body/lake/urban
-fresh water,emission/water/fresh water body/lake/rural
-fresh water,emission/water/fresh water body/river/urban
-fresh water,emission/water/fresh water body/river/rural
-fresh water,emission/water/subterranean
-fresh water,emission/water/subterranean/fresh water body
-fresh water,emission/water/subterranean/fresh water body/confined aquifer
-fresh water,emission/water/subterranean/fresh water body/unconfined aquifer
-freshwater,emission/water/fresh water body
-freshwater,emission/water
-freshwater,emission/water/urban
-freshwater,emission/water/rural
-freshwater,emission/water/fresh water body/urban
-freshwater,emission/water/fresh water body/rural
-freshwater,emission/water/fresh water body/lake
-freshwater,emission/water/fresh water body/river
-freshwater,emission/water/fresh water body/lake/urban
-freshwater,emission/water/fresh water body/lake/rural
-freshwater,emission/water/fresh water body/river/urban
-freshwater,emission/water/fresh water body/river/rural
-freshwater,emission/water/subterranean
-freshwater,emission/water/subterranean/fresh water body
-freshwater,emission/water/subterranean/fresh water body/confined aquifer
-freshwater,emission/water/subterranean/fresh water body/unconfined aquifer
-marine water,emission/water/saline water body/ocean
-marine water,emission/water/saline water body
-marine water,emission/water/subterranean/saline water body
-marine water,emission/water/subterranean/saline water body/confined aquifer
-marine water,emission/water/subterranean/saline water body/unconfined aquifer
-sea water,emission/water/saline water body/ocean
-sea water,emission/water/saline water body
-sea water,emission/water/subterranean/saline water body
-sea water,emission/water/subterranean/saline water body/confined aquifer
-sea water,emission/water/subterranean/saline water body/unconfined aquifer
-seawater,emission/water/saline water body/ocean
-seawater,emission/water/saline water body
-seawater,emission/water/subterranean/saline water body
-seawater,emission/water/subterranean/saline water body/confined aquifer
-seawater,emission/water/subterranean/saline water body/unconfined aquifer
+soil/unspecified,emission/ground
+soil/unspecified,emission/ground/urban
+soil/unspecified,emission/ground/rural
+soil/unspecified,emission/ground/human-dominated
+soil/unspecified,emission/ground/human-dominated/commercial
+soil/unspecified,emission/ground/human-dominated/residential
+soil/unspecified,emission/ground/human-dominated/urban
+soil/unspecified,emission/ground/human-dominated/rural
+soil/unspecified,emission/ground/human-dominated/commercial/urban
+soil/unspecified,emission/ground/human-dominated/commercial/rural
+soil/unspecified,emission/ground/human-dominated/residential/urban
+soil/unspecified,emission/ground/human-dominated/residential/rural
+soil/unspecified,emission/ground/terrestrial/wetland
+soil/unspecified,emission/ground/terrestrial/barren land
+soil/unspecified,emission/ground/terrestrial/snow and ice
+soil/unspecified,emission/ground/terrestrial/grassland
+soil/unspecified,emission/ground/terrestrial/shrubland
+soil/unspecified,emission/ground/terrestrial/forest
+soil/unspecified,emission/ground/subterranean
 water/unspecified,emission/water/brackish water body
 water/unspecified,emission/water/brackish water body/urban
 water/unspecified,emission/water/brackish water body/rural
@@ -136,38 +49,24 @@ water/unspecified,emission/water/brackish water body/lake/rural
 water/unspecified,emission/water/subterranean/brackish water body
 water/unspecified,emission/water/subterranean/brackish water body/confined aquifer
 water/unspecified,emission/water/subterranean/brackish water body/unconfined aquifer
-"Occupation, pasture, man made, intensive",resource/ground/human-dominated/agricultural
-"Occupation, permanent crop, non-irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, mineral extraction site",resource/ground/human-dominated/industrial
-"Occupation, annual crop, greenhouse",resource/ground/human-dominated/agricultural
-"Occupation, permanent crop, irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, industrial area",resource/ground/human-dominated/industrial
-"Occupation, construction site",resource/ground/human-dominated/commercial
-"Occupation, annual crop, non-irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, traffic area, road network",resource/ground/human-dominated
-"Occupation, annual crop, irrigated, intensive",resource/ground/human-dominated/agricultural
-"Occupation, dump site",resource/ground/human-dominated/industrial
-"Occupation, river, artificial",resource/water/fresh water body/river
-"Occupation, annual crop",resource/ground/human-dominated/agricultural
-"Occupation, lake, artificial",resource/water/fresh water body/lake
-"Occupation, annual crop, non-irrigated, extensive",resource/ground/human-dominated/agricultural
-"Occupation, traffic area, rail/road embankment",resource/ground/human-dominated
-"Occupation, pasture, man made, extensive",resource/ground/human-dominated/agricultural
-"Occupation, forest, extensive",resource/ground/terrestrial/forest
-"Occupation, forest, intensive",resource/ground/terrestrial/forest
-"Occupation, permanent crop",resource/ground/human-dominated/agricultural
-"Occupation, traffic area, rail network",resource/ground/human-dominated/industrial
-"Occupation, seabed, infrastructure",resource/water/saline water body/ocean
-"Occupation, seabed, drilling and mining",resource/water/saline water body/ocean
-"Occupation, annual crop, non-irrigated",resource/ground/human-dominated/agricultural
-"Occupation, shrub land, sclerophyllous",resource/ground/terrestrial/shrubland
-"Occupation, annual crop, irrigated",resource/ground/human-dominated/agricultural
-"Occupation, urban, discontinuously built",resource/ground/human-dominated/urban
-"Occupation, pasture, man made",resource/ground/human-dominated/rural
-"Occupation, grassland, natural (non-use)",resource/ground/terrestrial/grassland
-"Occupation, urban/industrial fallow (non-use)",resource/ground/human-dominated/industrial
-"Occupation, traffic area, rail/road embankment",resource/ground
-resource/ground,resource/ground/
+artificial area,resource/ground/human-dominated
+artificial area,resource/ground/human-dominated/industrial
+artificial area,resource/ground/human-dominated/commercial
+annual crops,resource/ground/human-dominated/agricultural
+artificial area,resource/ground/human-dominated/residential
+managed forest,resource/ground/terrestrial/forest
+artificial area,resource/ground/human-dominated/urban
+artificial area,resource/ground/human-dominated/rural
+artificial area,resource/ground/human-dominated/industrial/urban
+artificial area,resource/ground/human-dominated/industrial/rural
+artificial area,resource/ground/human-dominated/commercial/urban
+artificial area,resource/ground/human-dominated/commercial/rural
+annual crops,resource/ground/human-dominated/agricultural/urban
+annual crops,resource/ground/human-dominated/agricultural/rural
+artificial area,resource/ground/human-dominated/residential/urban
+artificial area,resource/ground/human-dominated/residential/rural
+artificial area,resource/ground
+resource/ground,resource/ground
 resource/ground,resource/ground/urban
 resource/ground,resource/ground/rural
 resource/ground,resource/ground/human-dominated
@@ -192,7 +91,13 @@ resource/ground,resource/ground/terrestrial/grassland
 resource/ground,resource/ground/terrestrial/shrubland
 resource/ground,resource/ground/terrestrial/forest
 resource/ground,resource/ground/subterranean
-resource/fresh water,resource/water/
+resource,resource/ground
+resource,resource/ground/subterranean
+resource,resource/air
+resource,resource/air/subterranean
+resource,resource/water
+resource,resource/water/subterranean
+resource/fresh water,resource/water
 resource/fresh water,resource/water/urban
 resource/fresh water,resource/water/rural
 resource/fresh water,resource/water/subterranean
@@ -208,3 +113,41 @@ resource/fresh water,resource/water/fresh water body/river/rural
 resource/fresh water,resource/water/subterranean/fresh water body
 resource/fresh water,resource/water/subterranean/fresh water body/confined aquifer
 resource/fresh water,resource/water/subterranean/fresh water body/unconfined aquifer
+air/urban,emission/air/troposphere/urban
+air/urban,emission/air/indoor
+air/urban,emission/air/troposphere/urban/low
+air/urban,emission/air/troposphere/urban/high
+air/urban,emission/air/troposphere/urban/very high
+air/urban,emission/air/troposphere/urban/ground-level
+air/rural,emission/air/troposphere/rural
+air/rural,emission/air/troposphere/rural/low
+air/rural,emission/air/troposphere/rural/high
+air/rural,emission/air/troposphere/rural/very high
+air/rural,emission/air/troposphere/rural/ground-level
+soil/agricultural,emission/ground/human-dominated/agricultural
+soil/agricultural,emission/ground/human-dominated/agricultural/urban
+soil/agricultural,emission/ground/human-dominated/agricultural/rural
+soil/industrial,emission/ground/human-dominated/industrial
+soil/industrial,emission/ground/human-dominated/industrial/urban
+soil/industrial,emission/ground/human-dominated/industrial/rural
+water/freshwater,emission/water/fresh water body
+water/freshwater,emission/water
+water/freshwater,emission/water/urban
+water/freshwater,emission/water/rural
+water/freshwater,emission/water/fresh water body/urban
+water/freshwater,emission/water/fresh water body/rural
+water/freshwater,emission/water/fresh water body/lake
+water/freshwater,emission/water/fresh water body/river
+water/freshwater,emission/water/fresh water body/lake/urban
+water/freshwater,emission/water/fresh water body/lake/rural
+water/freshwater,emission/water/fresh water body/river/urban
+water/freshwater,emission/water/fresh water body/river/rural
+water/freshwater,emission/water/subterranean
+water/freshwater,emission/water/subterranean/fresh water body
+water/freshwater,emission/water/subterranean/fresh water body/confined aquifer
+water/freshwater,emission/water/subterranean/fresh water body/unconfined aquifer
+water/sea water,emission/water/saline water body/ocean
+water/sea water,emission/water/saline water body
+water/sea water,emission/water/subterranean/saline water body
+water/sea water,emission/water/subterranean/saline water body/confined aquifer
+water/sea water,emission/water/subterranean/saline water body/unconfined aquifer

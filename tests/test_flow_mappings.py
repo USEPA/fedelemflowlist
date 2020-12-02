@@ -1,14 +1,10 @@
-"""
-Tests the stored flow mappings to provide quality assurance
-"""
+"""Tests the stored flow mappings to provide quality assurance."""
 import unittest
 import pandas as pd
 import fedelemflowlist
 
 def get_required_flowmapping_fields():
-    """Gets required field names for Flow Mappingt
-    :return:list of required fields
-    """
+    """Gets required field names for Flow Mappingt:return:list of required fields."""
     from fedelemflowlist.globals import flowmapping_fields
     required_fields = []
     for k, v in flowmapping_fields.items():
@@ -17,24 +13,22 @@ def get_required_flowmapping_fields():
     return required_fields
 
 class TestFlowMappings(unittest.TestCase):
+    """Add doctring."""
 
     def setUp(self):
-        """Get flowlist used for all tests
-        """
+        """Get flowlist used for all tests."""
         self.flowmappings = fedelemflowlist.get_flowmapping()
         self.flowlist = self.flowlist = fedelemflowlist.get_flows()
 
     def test_no_nas_in_required_fields(self):
-        """Checks that no flows have na values in required fields
-        """
+        """Checks that no flows have na values in required fields."""
         required_fields = get_required_flowmapping_fields()
         flowmappings_w_required = self.flowmappings[required_fields]
         nas_in_required = flowmappings_w_required.dropna()
         self.assertEqual(len(flowmappings_w_required), len(nas_in_required))
 
     def test_targetflowinfo_matches_flows_in_list(self):
-        """Checks that target flow information in the mapping files matches a flow in the flowlist
-        """
+        """Checks that target flow information in the mapping files matches a flow in the flowlist."""
         flowmapping_targetinfo = self.flowmappings[['TargetFlowName', 'TargetFlowUUID',
                                                     'TargetFlowContext']]
         flowmapping_targetinfo.columns = ['Flowable', 'Flow UUID', 'Context']

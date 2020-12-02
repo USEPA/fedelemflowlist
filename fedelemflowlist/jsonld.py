@@ -1,5 +1,4 @@
-"""Writes flow list and mapping files to a JSON-LD zip archive using olca library
-"""
+"""Writes flow list and mapping files to a JSON-LD zip archive using olca library."""
 import datetime
 import logging as log
 import math
@@ -12,6 +11,7 @@ import olca.units as units
 import olca.pack as pack
 import pandas as pd
 
+import fedelemflowlist
 from fedelemflowlist.uuid_generators import make_uuid
 from fedelemflowlist.globals import flow_list_specs
 
@@ -34,21 +34,8 @@ def _isnum(val) -> bool:
     return False
 
 
-def _catpath(*args) -> str:
-    p = ''
-    for arg in args:
-        if _isnil(arg):
-            continue
-        if p != '':
-            p = p + "/"
-        p = 'Elementary flows/' + p + str(arg).strip()
-    return p
-
-
 def _s(val) -> Optional[str]:
-    """Returns the string value of the given value or None if the value is
-       `None`, `NaN`, or `""`.
-    """
+    """Returns the string value of the given value or None if the value is `None`, `NaN`, or `""`."""
     if _isnil(val):
         return None
     return str(val).strip()
@@ -86,15 +73,12 @@ class _MapFlow(object):
             unit_ref = units.unit_ref(self.unit)
             if unit_ref is not None:
                 json['unit'] = unit_ref.to_json()
-            prop_ref = units.property_ref(self.unit)
-            if prop_ref is not None:
-                json['flowProperty'] = prop_ref.to_json()
 
         return json
 
 
 class _MapEntry(object):
-    """ Describes a mapping entry in the Fed.LCA flow list. """
+    """Describes a mapping entry in the Fed.LCA flow list."""
 
     def __init__(self, row):
 
@@ -105,7 +89,7 @@ class _MapEntry(object):
         self.source_flow = s_flow
         s_flow.name = _s(row['SourceFlowName'])
         s_flow.uid = _s(row['SourceFlowUUID'])
-        s_flow.category = _catpath(row['SourceFlowContext'])
+        s_flow.category = _s(row['SourceFlowContext'])
         s_flow.unit = _s(row['SourceUnit'])
 
         # traget flow attributs
@@ -113,7 +97,7 @@ class _MapEntry(object):
         self.target_flow = t_flow
         t_flow.name = _s(row['TargetFlowName'])
         t_flow.uid = _s(row['TargetFlowUUID'])
-        t_flow.category = _catpath(row['TargetFlowContext'])
+        t_flow.category = _s(row['TargetFlowContext'])
         t_flow.unit = _s(row['TargetUnit'])
 
         factor = row['ConversionFactor']
@@ -135,8 +119,8 @@ class _MapEntry(object):
 
 
 class Writer(object):
-    """Class for writing flows and mappings to json
-    """
+    """Class for writing flows and mappings to json."""
+
     def __init__(self, flow_list: pd.DataFrame,
                  flow_mapping: pd.DataFrame = None):
         self.flow_list = flow_list
@@ -195,6 +179,7 @@ class Writer(object):
                 parent_id = uid
 
     def _write_flows(self, pw: pack.Writer):
+        altflowlist=fedelemflowlist.get_alt_conversion()
         for _, row in self.flow_list.iterrows():
             description = "From FedElemFlowList_"+flow_list_specs['list_version']+'.'
             flow_class = row.get("Class")
@@ -229,16 +214,22 @@ class Writer(object):
                 log.warning("unknown unit %s in flow %s",
                             row["Unit"], row["Flow UUID"])
             flow.flow_properties = [fp]
-            #Add in alternate unit flow property
+            #Add in alternate unit flow propert(ies), if an alternate unit exists
+            #in the flows list, uses short list of altflowlist to assign one or more
+            #alternate units
             if row["AltUnit"] is not None:
-                altfp = olca.FlowPropertyFactor()
-                altfp.reference_flow_property = False
-                altfp.conversion_factor = row["AltUnitConversionFactor"]
-                altfp.flow_property = units.property_ref(row["AltUnit"])
-                if altfp.flow_property is None:
-                    log.warning("unknown altunit %s in flow %s",
-                                row["AltUnit"], row["Flow UUID"])
-                flow.flow_properties.append(altfp)
+                #create dataframe of all alternate units for this flowable
+                altunits=altflowlist[altflowlist['Flowable']==row["Flowable"]]
+                for i, alternate in altunits.iterrows():
+                    altfp = olca.FlowPropertyFactor()
+                    altfp.reference_flow_property = False
+                    altfp.conversion_factor = alternate['AltUnitConversionFactor']
+                    altfp.flow_property = units.property_ref(alternate["AltUnit"])
+                    if altfp.flow_property is None:
+                        log.warning("unknown altunit %s in flow %s",
+                                    alternate["AltUnit"], row["Flow UUID"])
+                    else:
+                        flow.flow_properties.append(altfp)
             pw.write(flow)
 
     def _write_mappings(self, pw: pack.Writer):
