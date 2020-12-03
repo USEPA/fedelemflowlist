@@ -10,8 +10,8 @@ import pandas as pd
 from fedelemflowlist.globals import inputpath, flowmappingpath, add_uuid_to_mapping,\
     add_conversion_to_mapping
 
-# Options: 'TRACI2.1', 'ReCiPe2016'
-lcia_name = 'TRACI2.1'
+# Options: 'TRACI2.1', 'ReCiPe2016', 'ImpactWorld+'
+lcia_name = 'ImpactWorld+'
 
 
 if __name__ == '__main__':
