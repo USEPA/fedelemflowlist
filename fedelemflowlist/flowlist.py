@@ -138,6 +138,15 @@ if __name__ == '__main__':
     cols_to_drop = ['Flowable Preferred','ContextPreferred','Directionality','Environmental Media']
     flows = flows.drop(columns=cols_to_drop)
 
+    # Drop excluded flows based on CSV input file
+    log.info('Total of ' + str(len(flows)) + ' flows created.')
+    flow_exclusions_to_drop = pd.read_csv(inputpath + 'FlowExclusions.csv')
+    log.info('Drop ' + str(len(flow_exclusions_to_drop)) + ' specified flowable/context combinations.')
+    flows = pd.merge(flows, flow_exclusions_to_drop, on=['Flowable','Context'], how='outer', indicator=True)
+    flows = flows.drop(flows[flows['_merge'] == 'both'].index)
+    flows = flows.drop(columns=['_merge'])
+    log.info('Total of ' + str(len(flows)) + ' flows remain.')
+
     # Loop through flows generating UUID for each
     flowids = []
     log.info('Generating unique UUIDs for each flow...')
