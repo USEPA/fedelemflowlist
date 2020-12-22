@@ -211,7 +211,7 @@ METRIBUZIN,Mass,=,Metribuzin,kg,Edelen,FEDEFL Name Match,Hottle,,,3
 METSULFURON-METHYL,Mass,=,Metsulfuron-methyl,kg,Edelen,FEDEFL Name Match,Hottle,,,3
 MINERAL OIL,Mass,<,"Hydrocarbons, petroleum",kg,Hottle,,Edelen,,,0
 MONOCARBAMIDE DIHYD.,Mass,=,Urea sulfate,kg,Edelen,FEDEFL CAS match,Hottle,,,3
-MONO-POTASSIUM SALT,Mass,=,Monopotassium phosphate,kg,Edelen,,Hottle,added for this list,,0
+MONO-POTASSIUM SALT,Mass,=,Monopotassium phosphate,kg,Edelen,,Hottle,,,0
 MSMA,Mass,=,Monosodium methanearsonate,kg,Edelen,FEDEFL CAS match,Hottle,,,3
 MYCLOBUTANIL,Mass,=,Myclobutanil,kg,Edelen,FEDEFL Name Match,Hottle,,,3
 "NAA, AMMONIUM SALT",Mass,=,Ammonium 1-naphthaleneacetate,kg,Edelen,FEDEFL CAS match,Hottle,,,3
@@ -332,4 +332,4 @@ ZINC PHOSPHIDE,Mass,=,Zinc phosphide,kg,Edelen,FEDEFL Name Match,Hottle,,,3
 ZIRAM,Mass,=,Ziram,kg,Edelen,FEDEFL Name Match,Hottle,,,3
 ZOXAMIDE,Mass,=,Zoxamide,kg,Edelen,FEDEFL Name Match,Hottle,,,3
 "DICAMBA, DIGLY. SALT",Mass,=,Dicamba diglycolamine salt,kg,Edelen,,Hottle,added for this list,,0
-"DICAMBA, DIMET. SALT",Mass,,Dimethylamine dicamba,kg,Edelen,,Hottle,added for this list,,0
+"DICAMBA, DIMET. SALT",Mass,=,Dimethylamine dicamba,kg,Edelen,,Hottle,,,0
