@@ -1,4 +1,4 @@
 ﻿SourceFlowContext,TargetFlowContext
-Air,emission/air/troposphere/rural
-Water,emission/water
-groundwater,emission/water/subterranean
+Air,emission/air/troposphere/rural/ground-level
+Water,emission/water/fresh water body/rural
+Ground,emission/ground/human-dominated/agricultural/rural
