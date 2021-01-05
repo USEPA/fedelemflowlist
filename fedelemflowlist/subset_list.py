@@ -7,6 +7,7 @@ Functions correspond with a subset names stored in the subsets dictionary
 """
 
 import pandas as pd
+import fedelemflowlist
 from fedelemflowlist.globals import inputpath
 
 subsets = {"freshwater_resources":"get_freshwater_resource_flows",
@@ -15,6 +16,7 @@ subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            #"mineral_resources":"get_mineral_resource_flows",
            #"energy":"get_energy_flows",
            #"metal_emissions":"get_metal_emission_flows",
+           "USDA_CUS_pesticides":"get_USDA_CUS_pesticides",
            "HAP":"get_hazardous_air_pollutant_flows"}
 
 inventory_unit = {"freshwater_resources":"kg",
@@ -23,6 +25,7 @@ inventory_unit = {"freshwater_resources":"kg",
                   "mineral_resources":"kg",
                   "energy":"MJ",
                   "metal_emissions":"kg",
+                  "USDA_CUS_pesticides":"kg",
                   "HAP":"kg"}
 
 def get_subsets() -> list():
@@ -140,4 +143,18 @@ def get_hazardous_air_pollutant_flows(fl):
     flows = flows[flows['Flowable'].isin(haps.Flowable)]
             
     return flows
+
+def get_USDA_CUS_pesticides(fl):
+    """
+    Subsets the flow list for all pesticide emissions as identified in the USDA
+    Chemical Use Survey.
+
+    :param fl: df in standard flowlist format
+    :return: df in standard flowlist format
+    """
+    pesticides = fedelemflowlist.get_flowmapping('USDA_CUS')
+    pesticides = pesticides[['TargetFlowUUID']].drop_duplicates()
+    flows = fl[fl["Flow UUID"].isin(pesticides['TargetFlowUUID'])]
+    return flows
+
     
