@@ -1,4 +1,4 @@
-Flowable,Directionality,Environmental Media
+﻿Flowable,Directionality,Environmental Media
 "(Z)-1,2-Dimethylcyclohexane",Emission,Air
 "(Z)-1,2-Dimethylcyclohexane",Emission,Ground
 "(Z)-1,2-Dimethylcyclohexane",Emission,Water
@@ -4226,9 +4226,9 @@ Fenamiphos,Emission,Water
 Cadmium stearate,Emission,Air
 Cadmium stearate,Emission,Ground
 Cadmium stearate,Emission,Water
-"Z-Tetrachlorvinphos",Emission,Air
-"Z-Tetrachlorvinphos",Emission,Ground
-"Z-Tetrachlorvinphos",Emission,Water
+Z-Tetrachlorvinphos,Emission,Air
+Z-Tetrachlorvinphos,Emission,Ground
+Z-Tetrachlorvinphos,Emission,Water
 Tetrasul,Emission,Air
 Tetrasul,Emission,Ground
 Tetrasul,Emission,Water
@@ -11453,8 +11453,8 @@ Dibromodifluoroethane,Emission,Air
 1-Pentene,Emission,Water
 2-Methyl-2-butene,Emission,Water
 Argon,Emission,Air
-"Arsenic(III) trioxide",Emission,Water
-"Arsenic(III) trioxide",Emission,Ground
+Arsenic(III) trioxide,Emission,Water
+Arsenic(III) trioxide,Emission,Ground
 Arsine,Emission,Water
 "Benzene, pentamethyl-",Emission,Water
 Benzofluoranthene,Emission,Water
@@ -12439,7 +12439,7 @@ Busulfan,Emission,Air
 Busulfan,Emission,Water
 Busulfan,Emission,Ground
 "Ethane, 1,1-dichloro-1,2-difluoro-",Emission,Air
-"Difluoro(fluoromethoxy)methane",Emission,Air
+Difluoro(fluoromethoxy)methane,Emission,Air
 "1-Ethoxy-1,1,2,3,3,3-hexafluoro-2-(trifluoromethyl)propane--1-ethoxy-1,1,2,2,3,3,4,4,4-nonafluorobutane (1/1)",Emission,Air
 Sulfur oxide,Emission,Air
 Dichloropropane,Emission,Air
@@ -12821,3 +12821,41 @@ Sec-Butyl Cyclohexane,Emission,Water
 "Trans-1,4-Hexadiene",Emission,Air
 "Trans-1,4-Hexadiene",Emission,Ground
 "Trans-1,4-Hexadiene",Emission,Water
+Clopyralid-olamine,Emission,Air
+Clopyralid-olamine,Emission,Water
+beta-cyfluthrin,Emission,Water
+"N-[[(4,6-Dimethoxy-2-pyrimidinyl)amino]carbonyl]-(2,2,2-trifluoroethoxy)-2-pyridinesulfonamide sodium salt (1:1)",Emission,Water
+"2,4-D triisopropanolamine salt",Emission,Water
+"2,4-DB dimethylamine salt",Emission,Water
+Basic copper sulfate,Emission,Water
+Crotonic acid,Emission,Water
+Clopyralid-potassium,Emission,Water
+"Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",Emission,Water
+Glyphosate dimethylamine salt,Emission,Water
+Potassium N-(phosphonomethyl)glycine,Emission,Water
+Reynoutria sachalinensis extract,Emission,Water
+Dicamba diglycolamine salt,Emission,Water
+beta-cyfluthrin,Emission,Air
+"N-[[(4,6-Dimethoxy-2-pyrimidinyl)amino]carbonyl]-(2,2,2-trifluoroethoxy)-2-pyridinesulfonamide sodium salt (1:1)",Emission,Air
+"2,4-D triisopropanolamine salt",Emission,Air
+"2,4-DB dimethylamine salt",Emission,Air
+Basic copper sulfate,Emission,Air
+Crotonic acid,Emission,Air
+Clopyralid-potassium,Emission,Air
+"Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",Emission,Air
+Glyphosate dimethylamine salt,Emission,Air
+Potassium N-(phosphonomethyl)glycine,Emission,Air
+Reynoutria sachalinensis extract,Emission,Air
+Dicamba diglycolamine salt,Emission,Air
+beta-cyfluthrin,Emission,Ground
+"N-[[(4,6-Dimethoxy-2-pyrimidinyl)amino]carbonyl]-(2,2,2-trifluoroethoxy)-2-pyridinesulfonamide sodium salt (1:1)",Emission,Ground
+"2,4-D triisopropanolamine salt",Emission,Ground
+"2,4-DB dimethylamine salt",Emission,Ground
+Basic copper sulfate,Emission,Ground
+Crotonic acid,Emission,Ground
+Clopyralid-potassium,Emission,Ground
+"Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",Emission,Ground
+Glyphosate dimethylamine salt,Emission,Ground
+Potassium N-(phosphonomethyl)glycine,Emission,Ground
+Reynoutria sachalinensis extract,Emission,Ground
+Dicamba diglycolamine salt,Emission,Ground
