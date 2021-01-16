@@ -524,4 +524,5 @@ NEI,PM10-Primary from certain diesel engines,,air,kg,<,1,"Particulate matter, �
 NEI,PM10 Primary (Filt + Cond),,air,kg,=,1,"Particulate matter, ≤ 10μm",5a939c2b-cebf-3060-8862-4a8650caf6dd,emission/air,kg,Ingwersen,,07/20/2018
 NEI,PM25-Primary from certain diesel engines,,air,kg,<,1,"Particulate matter, ≤ 2.5μm",49a9c581-7c83-36b0-b1bd-455ea4c665a6,emission/air,kg,Hottle,,07/20/2018
 NEI,PM2.5 Primary (Filt + Cond),,air,kg,=,1,"Particulate matter, ≤ 2.5μm",49a9c581-7c83-36b0-b1bd-455ea4c665a6,emission/air,kg,Ingwersen,,07/20/2018
+NEI,PM10-PM2.5,,air,kg,=,1,"Particulate matter, > 2.5μm and ≤ 10μm",a320e284-d276-3167-89b3-19d790081c08,emission/air,kg,Young,,01/16/2021
 NEI,Asbestos,,air,kg,=,1,Asbestos,5c8e293a-4009-30d8-a003-43add9e779f7,emission/air,kg,Ingwersen,,10/29/2019
