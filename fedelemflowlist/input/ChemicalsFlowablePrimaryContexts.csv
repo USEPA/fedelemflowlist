@@ -12833,7 +12833,6 @@ Clopyralid-potassium,Emission,Water
 "Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",Emission,Water
 Glyphosate dimethylamine salt,Emission,Water
 Potassium N-(phosphonomethyl)glycine,Emission,Water
-Reynoutria sachalinensis extract,Emission,Water
 Dicamba diglycolamine salt,Emission,Water
 beta-cyfluthrin,Emission,Air
 "N-[[(4,6-Dimethoxy-2-pyrimidinyl)amino]carbonyl]-(2,2,2-trifluoroethoxy)-2-pyridinesulfonamide sodium salt (1:1)",Emission,Air
@@ -12845,7 +12844,6 @@ Clopyralid-potassium,Emission,Air
 "Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",Emission,Air
 Glyphosate dimethylamine salt,Emission,Air
 Potassium N-(phosphonomethyl)glycine,Emission,Air
-Reynoutria sachalinensis extract,Emission,Air
 Dicamba diglycolamine salt,Emission,Air
 beta-cyfluthrin,Emission,Ground
 "N-[[(4,6-Dimethoxy-2-pyrimidinyl)amino]carbonyl]-(2,2,2-trifluoroethoxy)-2-pyridinesulfonamide sodium salt (1:1)",Emission,Ground
@@ -12857,5 +12855,365 @@ Clopyralid-potassium,Emission,Ground
 "Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",Emission,Ground
 Glyphosate dimethylamine salt,Emission,Ground
 Potassium N-(phosphonomethyl)glycine,Emission,Ground
-Reynoutria sachalinensis extract,Emission,Ground
 Dicamba diglycolamine salt,Emission,Ground
+(+)-trans-p-Menth-2-ene,Emission,Ground
+"(2E,13Z)-2,13-Octadecadienol",Emission,Ground
+"(6Z,13Z)-6,13-octadecadien-1-yl acetate",Emission,Ground
+"(9E,12Z)-9,12-Tetradecadien-1-ol acetate",Emission,Ground
+(E)-11-Tetradecen-1-ol acetate,Emission,Ground
+"(E,Z)-3,13-Octadecadienyl acetate",Emission,Ground
+"(E,Z)-7,11-Hexadecadien-1-yl acetate",Emission,Ground
+(R)-Mecoprop dimethylamine salt,Emission,Ground
+(Z)-11-Hexadecen-1-ol acetate,Emission,Ground
+(Z)-11-Hexadecenal,Emission,Ground
+(Z)-11-Tetradecen-1-ol,Emission,Ground
+"(Z,Z)-3,13-Octadecadienyl acetate",Emission,Ground
+"11-Tetradecenal, (11Z)-",Emission,Ground
+"1-Bromo-3-chloro-5,5-dimethylhydantoin",Emission,Ground
+1-Methylcyclopropene,Emission,Ground
+"2,13-Octadecadien-1-ol, 1-acetate, (2Z,13Z)-",Emission,Ground
+"2,4-D choline salt",Emission,Ground
+"2,4-D triethylamine salt",Emission,Ground
+"2,4-D triisopropanolamine salt",Emission,Ground
+"2,4-Decadienoic acid, ethyl ester, (2E,4Z)-",Emission,Ground
+2-Methoxy-5-nitrophenol sodium salt,Emission,Ground
+2-Phenylethyl propionate,Emission,Ground
+5-Methyl-2-(prop-1-en-2-yl)hex-4-en-1-yl 3-methylbut-2-enoate,Emission,Ground
+"7,9-Dodecadien-1-ol, acetate, (7E,9Z)-",Emission,Ground
+"9,11-Tetradecadien-1-ol, acetate, (9Z,11E)-",Emission,Ground
+"9-Tetradecen-1-ol, acetate, (9Z)-",Emission,Ground
+Aminopyralid,Emission,Ground
+Ammonium benzadox,Emission,Ground
+Ammonium nonanoate,Emission,Ground
+Ammonium thiosulfate,Emission,Ground
+Benzovindiflupyr,Emission,Ground
+Bicyclopyrone,Emission,Ground
+Bromethalin,Emission,Ground
+Calcium hypochlorite,Emission,Ground
+Canola oil,Emission,Ground
+Castor oil,Emission,Ground
+Chitosan,Emission,Ground
+Chloramben-sodium,Emission,Ground
+Cholecalciferol,Emission,Ground
+Clopyralid-potassium,Emission,Ground
+Clorsulon,Emission,Ground
+Clove oil,Emission,Ground
+Copper oxychloride,Emission,Ground
+Copper tetraamine,Emission,Ground
+Copper(II) 2-aminoethanolate,Emission,Ground
+Cupric sulfate monohydrate,Emission,Ground
+Cyantraniliprole,Emission,Ground
+Cyclaniliprole,Emission,Ground
+Cyflumetofen,Emission,Ground
+D-Glucitol octanoate,Emission,Ground
+Diammonium N-(phosphonomethyl)glycine,Emission,Ground
+"Dicamba N,N-bis(3-aminopropyl)methylamine salt",Emission,Ground
+Dicamba-diolamine,Emission,Ground
+Dichlorprop-P-2-ethylhexyl,Emission,Ground
+Didecyldimethylammonium,Emission,Ground
+Diethatyl ethyl,Emission,Ground
+Dimethyl dioctyl ammonium chloride,Emission,Ground
+Dimethylphenol,Emission,Ground
+Diphacinone,Emission,Ground
+Dipotassium phosphate,Emission,Ground
+Disodium octaborate tetrahydrate,Emission,Ground
+Ethaboxam,Emission,Ground
+Ethyl 1-naphthaleneacetate,Emission,Ground
+Ethylenediaminetetraacetic acid ferric sodium salt,Emission,Ground
+Farnesol,Emission,Ground
+Fluensulfone,Emission,Ground
+Flupyradifurone,Emission,Ground
+Flutianil,Emission,Ground
+Garlic oil,Emission,Ground
+Gossyplure,Emission,Ground
+Halauxifen-methyl,Emission,Ground
+Imiprothrin,Emission,Ground
+Ipconazole,Emission,Ground
+Isofetamid,Emission,Ground
+Japonilure,Emission,Ground
+Jojoba wax,Emission,Ground
+Kasugamycin,Emission,Ground
+Kinetin,Emission,Ground
+l-Menthone,Emission,Ground
+Magnesium dalapon,Emission,Ground
+Mecoprop dimethylamine salt,Emission,Ground
+Mecoprop-P-potassium,Emission,Ground
+Mefluidide diethanolamine salt,Emission,Ground
+Methazole,Emission,Ground
+Methyl salicylate,Emission,Ground
+Monopotassium phosphate,Emission,Ground
+"N,N-Diethyl-2-(4-methylbenzyloxy) ethylamine hydrochloride",Emission,Ground
+N-2-Ethylhexylbicycloheptenedicarboximide,Emission,Ground
+Nadide,Emission,Ground
+Octyl decyl dimethyl ammonium chloride,Emission,Ground
+o-Nitrophenol sodium salt,Emission,Ground
+Oxathiapiprolin,Emission,Ground
+Picloram triisopropanolamine salt,Emission,Ground
+p-Nitrophenol sodium salt,Emission,Ground
+Potassium gibberellate,Emission,Ground
+Potassium silicate,Emission,Ground
+Prohydrojasmon,Emission,Ground
+Pyridalyl,Emission,Ground
+Pyridinamine,Emission,Ground
+Pyriofenone,Emission,Ground
+Rosemary oil,Emission,Ground
+Scilliroside,Emission,Ground
+Sedaxane,Emission,Ground
+Sesame oil,Emission,Ground
+Silicic acid,Emission,Ground
+Sodium asulam,Emission,Ground
+Sodium chlorite,Emission,Ground
+Sodium percarbonate,Emission,Ground
+Soy oil,Emission,Ground
+Sulfaquinoxaline,Emission,Ground
+Tea tree oil,Emission,Ground
+Tetradecanol,Emission,Ground
+Thyme oil,Emission,Ground
+Tribasic copper sulfate,Emission,Ground
+Triclopyr,Emission,Ground
+Trifloxysulfuron-sodium,Emission,Ground
+Trimethacarb,Emission,Ground
+Uniconazole-P,Emission,Ground
+Urea sulfate,Emission,Ground
+"Z,E-3,13-Octadecadien-1-ol",Emission,Ground
+(+)-trans-p-Menth-2-ene,Emission,Water
+"(2E,13Z)-2,13-Octadecadienol",Emission,Water
+"(6Z,13Z)-6,13-octadecadien-1-yl acetate",Emission,Water
+"(9E,12Z)-9,12-Tetradecadien-1-ol acetate",Emission,Water
+(E)-11-Tetradecen-1-ol acetate,Emission,Water
+"(E,Z)-3,13-Octadecadienyl acetate",Emission,Water
+"(E,Z)-7,11-Hexadecadien-1-yl acetate",Emission,Water
+(R)-Mecoprop dimethylamine salt,Emission,Water
+(Z)-11-Hexadecen-1-ol acetate,Emission,Water
+(Z)-11-Hexadecenal,Emission,Water
+(Z)-11-Tetradecen-1-ol,Emission,Water
+"(Z,Z)-3,13-Octadecadienyl acetate",Emission,Water
+"11-Tetradecenal, (11Z)-",Emission,Water
+"1-Bromo-3-chloro-5,5-dimethylhydantoin",Emission,Water
+1-Methylcyclopropene,Emission,Water
+"2,13-Octadecadien-1-ol, 1-acetate, (2Z,13Z)-",Emission,Water
+"2,4-D choline salt",Emission,Water
+"2,4-D triethylamine salt",Emission,Water
+"2,4-D triisopropanolamine salt",Emission,Water
+"2,4-Decadienoic acid, ethyl ester, (2E,4Z)-",Emission,Water
+2-Methoxy-5-nitrophenol sodium salt,Emission,Water
+2-Phenylethyl propionate,Emission,Water
+5-Methyl-2-(prop-1-en-2-yl)hex-4-en-1-yl 3-methylbut-2-enoate,Emission,Water
+"7,9-Dodecadien-1-ol, acetate, (7E,9Z)-",Emission,Water
+"9,11-Tetradecadien-1-ol, acetate, (9Z,11E)-",Emission,Water
+"9-Tetradecen-1-ol, acetate, (9Z)-",Emission,Water
+Aminopyralid,Emission,Water
+Ammonium benzadox,Emission,Water
+Ammonium nonanoate,Emission,Water
+Ammonium thiosulfate,Emission,Water
+Benzovindiflupyr,Emission,Water
+Bicyclopyrone,Emission,Water
+Bromethalin,Emission,Water
+Calcium hypochlorite,Emission,Water
+Canola oil,Emission,Water
+Castor oil,Emission,Water
+Chitosan,Emission,Water
+Chloramben-sodium,Emission,Water
+Cholecalciferol,Emission,Water
+Clopyralid-potassium,Emission,Water
+Clorsulon,Emission,Water
+Clove oil,Emission,Water
+Copper oxychloride,Emission,Water
+Copper tetraamine,Emission,Water
+Copper(II) 2-aminoethanolate,Emission,Water
+Cupric sulfate monohydrate,Emission,Water
+Cyantraniliprole,Emission,Water
+Cyclaniliprole,Emission,Water
+Cyflumetofen,Emission,Water
+D-Glucitol octanoate,Emission,Water
+Diammonium N-(phosphonomethyl)glycine,Emission,Water
+"Dicamba N,N-bis(3-aminopropyl)methylamine salt",Emission,Water
+Dicamba-diolamine,Emission,Water
+Dichlorprop-P-2-ethylhexyl,Emission,Water
+Didecyldimethylammonium,Emission,Water
+Diethatyl ethyl,Emission,Water
+Dimethyl dioctyl ammonium chloride,Emission,Water
+Dimethylphenol,Emission,Water
+Diphacinone,Emission,Water
+Dipotassium phosphate,Emission,Water
+Disodium octaborate tetrahydrate,Emission,Water
+Ethaboxam,Emission,Water
+Ethyl 1-naphthaleneacetate,Emission,Water
+Ethylenediaminetetraacetic acid ferric sodium salt,Emission,Water
+Farnesol,Emission,Water
+Fluensulfone,Emission,Water
+Flupyradifurone,Emission,Water
+Flutianil,Emission,Water
+Garlic oil,Emission,Water
+Gossyplure,Emission,Water
+Halauxifen-methyl,Emission,Water
+Imiprothrin,Emission,Water
+Ipconazole,Emission,Water
+Isofetamid,Emission,Water
+Japonilure,Emission,Water
+Jojoba wax,Emission,Water
+Kasugamycin,Emission,Water
+Kinetin,Emission,Water
+l-Menthone,Emission,Water
+Magnesium dalapon,Emission,Water
+Mecoprop dimethylamine salt,Emission,Water
+Mecoprop-P-potassium,Emission,Water
+Mefluidide diethanolamine salt,Emission,Water
+Methazole,Emission,Water
+Methyl salicylate,Emission,Water
+Monopotassium phosphate,Emission,Water
+"N,N-Diethyl-2-(4-methylbenzyloxy) ethylamine hydrochloride",Emission,Water
+N-2-Ethylhexylbicycloheptenedicarboximide,Emission,Water
+Nadide,Emission,Water
+Octyl decyl dimethyl ammonium chloride,Emission,Water
+o-Nitrophenol sodium salt,Emission,Water
+Oxathiapiprolin,Emission,Water
+Picloram triisopropanolamine salt,Emission,Water
+p-Nitrophenol sodium salt,Emission,Water
+Potassium gibberellate,Emission,Water
+Potassium silicate,Emission,Water
+Prohydrojasmon,Emission,Water
+Pyridalyl,Emission,Water
+Pyridinamine,Emission,Water
+Pyriofenone,Emission,Water
+Rosemary oil,Emission,Water
+Scilliroside,Emission,Water
+Sedaxane,Emission,Water
+Sesame oil,Emission,Water
+Silicic acid,Emission,Water
+Sodium asulam,Emission,Water
+Sodium chlorite,Emission,Water
+Sodium percarbonate,Emission,Water
+Soy oil,Emission,Water
+Sulfaquinoxaline,Emission,Water
+Tea tree oil,Emission,Water
+Tetradecanol,Emission,Water
+Thyme oil,Emission,Water
+Tribasic copper sulfate,Emission,Water
+Triclopyr,Emission,Water
+Trifloxysulfuron-sodium,Emission,Water
+Trimethacarb,Emission,Water
+Uniconazole-P,Emission,Water
+Urea sulfate,Emission,Water
+"Z,E-3,13-Octadecadien-1-ol",Emission,Water
+(+)-trans-p-Menth-2-ene,Emission,Air
+"(2E,13Z)-2,13-Octadecadienol",Emission,Air
+"(6Z,13Z)-6,13-octadecadien-1-yl acetate",Emission,Air
+"(9E,12Z)-9,12-Tetradecadien-1-ol acetate",Emission,Air
+(E)-11-Tetradecen-1-ol acetate,Emission,Air
+"(E,Z)-3,13-Octadecadienyl acetate",Emission,Air
+"(E,Z)-7,11-Hexadecadien-1-yl acetate",Emission,Air
+(R)-Mecoprop dimethylamine salt,Emission,Air
+(Z)-11-Hexadecen-1-ol acetate,Emission,Air
+(Z)-11-Hexadecenal,Emission,Air
+(Z)-11-Tetradecen-1-ol,Emission,Air
+"(Z,Z)-3,13-Octadecadienyl acetate",Emission,Air
+"11-Tetradecenal, (11Z)-",Emission,Air
+"1-Bromo-3-chloro-5,5-dimethylhydantoin",Emission,Air
+1-Methylcyclopropene,Emission,Air
+"2,13-Octadecadien-1-ol, 1-acetate, (2Z,13Z)-",Emission,Air
+"2,4-D choline salt",Emission,Air
+"2,4-D triethylamine salt",Emission,Air
+"2,4-D triisopropanolamine salt",Emission,Air
+"2,4-Decadienoic acid, ethyl ester, (2E,4Z)-",Emission,Air
+2-Methoxy-5-nitrophenol sodium salt,Emission,Air
+2-Phenylethyl propionate,Emission,Air
+5-Methyl-2-(prop-1-en-2-yl)hex-4-en-1-yl 3-methylbut-2-enoate,Emission,Air
+"7,9-Dodecadien-1-ol, acetate, (7E,9Z)-",Emission,Air
+"9,11-Tetradecadien-1-ol, acetate, (9Z,11E)-",Emission,Air
+"9-Tetradecen-1-ol, acetate, (9Z)-",Emission,Air
+Aminopyralid,Emission,Air
+Ammonium benzadox,Emission,Air
+Ammonium nonanoate,Emission,Air
+Ammonium thiosulfate,Emission,Air
+Benzovindiflupyr,Emission,Air
+Bicyclopyrone,Emission,Air
+Bromethalin,Emission,Air
+Calcium hypochlorite,Emission,Air
+Canola oil,Emission,Air
+Castor oil,Emission,Air
+Chitosan,Emission,Air
+Chloramben-sodium,Emission,Air
+Cholecalciferol,Emission,Air
+Clopyralid-potassium,Emission,Air
+Clorsulon,Emission,Air
+Clove oil,Emission,Air
+Copper oxychloride,Emission,Air
+Copper tetraamine,Emission,Air
+Copper(II) 2-aminoethanolate,Emission,Air
+Cupric sulfate monohydrate,Emission,Air
+Cyantraniliprole,Emission,Air
+Cyclaniliprole,Emission,Air
+Cyflumetofen,Emission,Air
+D-Glucitol octanoate,Emission,Air
+Diammonium N-(phosphonomethyl)glycine,Emission,Air
+"Dicamba N,N-bis(3-aminopropyl)methylamine salt",Emission,Air
+Dicamba-diolamine,Emission,Air
+Dichlorprop-P-2-ethylhexyl,Emission,Air
+Didecyldimethylammonium,Emission,Air
+Diethatyl ethyl,Emission,Air
+Dimethyl dioctyl ammonium chloride,Emission,Air
+Dimethylphenol,Emission,Air
+Diphacinone,Emission,Air
+Dipotassium phosphate,Emission,Air
+Disodium octaborate tetrahydrate,Emission,Air
+Ethaboxam,Emission,Air
+Ethyl 1-naphthaleneacetate,Emission,Air
+Ethylenediaminetetraacetic acid ferric sodium salt,Emission,Air
+Farnesol,Emission,Air
+Fluensulfone,Emission,Air
+Flupyradifurone,Emission,Air
+Flutianil,Emission,Air
+Garlic oil,Emission,Air
+Gossyplure,Emission,Air
+Halauxifen-methyl,Emission,Air
+Imiprothrin,Emission,Air
+Ipconazole,Emission,Air
+Isofetamid,Emission,Air
+Japonilure,Emission,Air
+Jojoba wax,Emission,Air
+Kasugamycin,Emission,Air
+Kinetin,Emission,Air
+l-Menthone,Emission,Air
+Magnesium dalapon,Emission,Air
+Mecoprop dimethylamine salt,Emission,Air
+Mecoprop-P-potassium,Emission,Air
+Mefluidide diethanolamine salt,Emission,Air
+Methazole,Emission,Air
+Methyl salicylate,Emission,Air
+Monopotassium phosphate,Emission,Air
+"N,N-Diethyl-2-(4-methylbenzyloxy) ethylamine hydrochloride",Emission,Air
+N-2-Ethylhexylbicycloheptenedicarboximide,Emission,Air
+Nadide,Emission,Air
+Octyl decyl dimethyl ammonium chloride,Emission,Air
+o-Nitrophenol sodium salt,Emission,Air
+Oxathiapiprolin,Emission,Air
+Picloram triisopropanolamine salt,Emission,Air
+p-Nitrophenol sodium salt,Emission,Air
+Potassium gibberellate,Emission,Air
+Potassium silicate,Emission,Air
+Prohydrojasmon,Emission,Air
+Pyridalyl,Emission,Air
+Pyridinamine,Emission,Air
+Pyriofenone,Emission,Air
+Rosemary oil,Emission,Air
+Scilliroside,Emission,Air
+Sedaxane,Emission,Air
+Sesame oil,Emission,Air
+Silicic acid,Emission,Air
+Sodium asulam,Emission,Air
+Sodium chlorite,Emission,Air
+Sodium percarbonate,Emission,Air
+Soy oil,Emission,Air
+Sulfaquinoxaline,Emission,Air
+Tea tree oil,Emission,Air
+Tetradecanol,Emission,Air
+Thyme oil,Emission,Air
+Tribasic copper sulfate,Emission,Air
+Triclopyr,Emission,Air
+Trifloxysulfuron-sodium,Emission,Air
+Trimethacarb,Emission,Air
+Uniconazole-P,Emission,Air
+Urea sulfate,Emission,Air
+"Z,E-3,13-Octadecadien-1-ol",Emission,Air
+
