@@ -14,7 +14,9 @@ subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "water_resources":"get_water_resource_flows",
            "land_use":"get_land_use_flows",
            #"mineral_resources":"get_mineral_resource_flows",
-           #"energy":"get_energy_flows",
+           "energy":"get_energy_flows",
+           "renewable_energy":"get_renewable_energy_flows",
+           "nonrenewable_energy":"get_nonrenewable_energy_flows",  
            #"metal_emissions":"get_metal_emission_flows",
            "USDA_CUS_pesticides":"get_USDA_CUS_pesticides",
            "HAP":"get_hazardous_air_pollutant_flows"}
@@ -108,8 +110,35 @@ def get_energy_flows(fl):
     :param fl: df in standard flowlist format
     :return: df in standard flowlist format
     """
-    flows = fl[fl["Unit"]=="MJ"]
+    list_of_flows = ['Uranium','Biomass','Hardwood','Softwood','Wood']
+    flows = fl[(fl["Unit"]=="MJ") | (fl['Flowable'].isin(list_of_flows))]
     flows = flows[flows["Context"].str.startswith("resource")]
+        
+    return flows
+
+def get_renewable_energy_flows(fl):
+    """
+    Subsets the flow list for all renewable energy flows
+
+    :param fl: df in standard flowlist format
+    :return: df in standard flowlist format
+    """
+    fl = get_energy_flows(fl) 
+    renewables_class = ['Biological','Energy']
+    flows = fl[fl["Class"].isin(renewables_class)]
+        
+    return flows
+
+def get_nonrenewable_energy_flows(fl):
+    """
+    Subsets the flow list for all nonrenewable energy flows
+
+    :param fl: df in standard flowlist format
+    :return: df in standard flowlist format
+    """
+    fl = get_energy_flows(fl) 
+    renewables_class = ['Biological','Energy']
+    flows = fl[~fl["Class"].isin(renewables_class)]
         
     return flows
 
