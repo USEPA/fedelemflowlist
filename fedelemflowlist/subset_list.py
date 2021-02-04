@@ -130,6 +130,8 @@ def get_energy_flows(fl):
     """
     list_of_flows = ['Uranium','Biomass','Hardwood','Softwood','Wood']
     flows = fl[(fl["Unit"]=="MJ") | (fl['Flowable'].isin(list_of_flows))]
+    #Peat is captured in USGS_mineral_resource_flows so exclude here
+    flows = flows[flows['Flowable']!='Peat']
     flows = flows[flows["Context"].str.startswith("resource")]
         
     return flows
