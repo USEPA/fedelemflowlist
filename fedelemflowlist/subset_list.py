@@ -13,7 +13,8 @@ from fedelemflowlist.globals import inputpath
 subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "water_resources":"get_water_resource_flows",
            "land_use":"get_land_use_flows",
-           "mineral_resources":"get_mineral_resource_flows",
+           #"mineral_resources":"get_mineral_resource_flows",
+           "USGS_mineral_resources":"get_USGS_mineral_resource_flows",
            "energy":"get_energy_flows",
            "renewable_energy":"get_renewable_energy_flows",
            "nonrenewable_energy":"get_nonrenewable_energy_flows",  
@@ -25,6 +26,7 @@ inventory_unit = {"freshwater_resources":"kg",
                   "water_resources":"kg",
                   "land_use":"m2*a",
                   "mineral_resources":"kg",
+                  "USGS_mineral_resources":"kg",
                   "energy":"MJ",
                   "renewable_energy":"MJ",
                   "nonrenewable_energy":"MJ",
@@ -102,6 +104,20 @@ def get_mineral_resource_flows(fl):
     flows = flows[flows["Context"].str.startswith("resource")]
     flows = flows[~flows["Flowable"].str.contains(" ore")]
     flows = flows[flows["Unit"]=="kg"]
+    
+    return flows
+
+def get_USGS_mineral_resource_flows(fl):
+    """
+    Subsets the flow list for all mineral resource flows from USGS MCS
+
+    :param fl: df in standard flowlist format
+    :return: df in standard flowlist format
+    """
+    usgs = fedelemflowlist.get_flowmapping('USGS_MCS')
+    usgs = list(usgs['TargetFlowName'].drop_duplicates())
+    flows = fl[fl["Flowable"].isin(usgs)]
+    flows = flows[flows["Context"].str.startswith("resource")]
     
     return flows
 
