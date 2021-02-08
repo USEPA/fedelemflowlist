@@ -1,0 +1,51 @@
+SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+USGS_MCS,Copper; mine,,,kg,=,1.0,Copper,fddcce55-84af-3798-81cc-47fedcf811b8,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,"Lead; mine, concentrates",,,kg,=,1.0,Lead,b66af8c0-de54-3a35-ace0-7743af98f6de,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Nickel; mine,,,kg,=,1.0,Nickel,d1ce496a-891d-3fae-9188-7345718cd600,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,"Zinc; mine, zinc in concentrate",,,kg,=,1.0,Zinc,7dbe300b-d061-3e5e-a9f0-1813e89d415c,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Lime; lime,,,kg,=,1.0,Limestone,13f50f4e-6aee-34f6-b3af-20503373f75d,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Sand and Gravel; sand and gravel (construction),,,kg,=,0.5,Sand,96ad9cfe-d563-33ca-8dbc-efe34aaaca0a,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Sand and Gravel; sand and gravel (industrial),,,kg,=,0.5,Sand,96ad9cfe-d563-33ca-8dbc-efe34aaaca0a,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Sand and Gravel; sand and gravel (construction),,,kg,=,0.5,Gravel,dd983461-0533-301e-bde1-e1d5f1d55c4e,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Sand and Gravel; sand and gravel (industrial),,,kg,=,0.5,Gravel,dd983461-0533-301e-bde1-e1d5f1d55c4e,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Stone; Stone (crushed),,,kg,=,1.0,Stone,26484009-712e-32d1-8f80-456363c6c226,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Stone; Stone (dimension),,,kg,=,1.0,Stone,26484009-712e-32d1-8f80-456363c6c226,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Beryllium; mine shipments,,,kg,=,1.0,Beryllium,f7ff85d1-1dc5-31d1-8c08-47bd566a32b4,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Cobalt; cobalt content,,,kg,=,1.0,Cobalt,aec2cf2a-b55b-3598-a164-05f8ba8ad3ee,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Gold; mine,,,kg,=,1.0,Gold,affc3f7b-6f37-3ff0-beb0-981ec1567bc3,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,"Iron Ore, US production",,,kg,=,1.0,Iron ore,6fca43a7-13fb-315d-a184-8af7d40ff1d3,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Magnesium; magnesium compounds,,,kg,=,1.0,Magnesium,8284cb6c-7887-322d-8abd-8682e981791a,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Molybdenum; mine,,,kg,=,1.0,Molybdenum,b7643fb5-0299-371b-b148-3e24ab1c469e,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Platinum group metals; palladium,,,kg,=,1.0,Palladium,c84f9368-f27b-3698-badf-84728a9a170b,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Platinum group metals; platinum,,,kg,=,1.0,Platinum,12aaa508-a741-36a0-99e5-b2ebca11c98b,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Rare Earths; bastnasite concentrates,,,kg,=,1.0,Bastnaesite,50bc0c18-20f8-3351-a1b0-29816a96703b,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Rhenium; rhenium,,,kg,=,1.0,Rhenium,7e3a1fea-3393-3377-a83f-5210b4368090,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Silver; mine,,,kg,=,1.0,Silver,c1469141-98f7-3068-bd5d-1993b7d762d3,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Titanium and Titanium Dioxide; mineral concentrate,,,kg,>,1.0,Titanium dioxide,d112a9f2-c53e-30b4-8129-507aedd1882f,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,"Zirconium and Hafnium; zirconium, ores and concentrates",,,kg,>,1.0,Zirconium,3ca65344-7d94-3bc1-8454-32d2e77766f4,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,"Barite; sold or used, mine",,,kg,=,1.0,Barite,09ce2596-a9f3-3373-9049-342d0e8929a3,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Boron,,,kg,=,1.0,Boron,4c4afdaf-8575-3c7c-bf8f-4ddea29fd682,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Clays; Ball clay,,,kg,=,1.0,Clay,2c6a4656-52d3-3fbf-9e1b-84a047d4c78c,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Clays; Common clay,,,kg,=,1.0,Clay,2c6a4656-52d3-3fbf-9e1b-84a047d4c78c,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Clays; Fire clay,,,kg,=,1.0,Clay,2c6a4656-52d3-3fbf-9e1b-84a047d4c78c,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Clays; Fuller's earth,,,kg,=,1.0,Clay,2c6a4656-52d3-3fbf-9e1b-84a047d4c78c,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Clays; Bentonite,,,kg,=,1.0,Bentonite,72e54433-a3d9-348d-aac4-684499fea92b,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Clays; Kaolin,,,kg,=,1.0,Kaoline,5610a066-f8c1-3a18-9255-70a7b07e78df,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Diatomite; diatomite,,,kg,=,1.0,Diatomite,8db22f24-6361-3d68-8aa4-4cad5d7db52c,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Feldspar; marketable,,,kg,=,1.0,Feldspar group,ebe0c1c3-9d31-3099-b4ac-c5519c2166e3,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Fluorspar; fluorspar equivalent from phosphate rock,,,kg,=,1.0,Fluorite,ea940079-0b1a-3e26-9013-c5ace83fa0f5,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Garnet (Industrial); crude,,,kg,=,1.0,Garnet group,08892041-9412-351c-a166-9f0966dbd29d,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Gypsum; crude,,,kg,=,1.0,Gypsum,1f8ed538-0c45-3e06-97cc-70033132a450,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Kyanite and related; mine,,,kg,=,1.0,Kyanite,cc6e343d-b2e6-38f2-bdf8-21a23e49ee97,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Lithium; lithium,,,kg,=,1.0,Lithium,4265cb8a-11b6-3949-90ee-9eec7a7ec5a3,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Mica; mine,,,kg,=,1.0,Mica,432ca42e-8fd0-3a2a-b37b-d66aebdd048d,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Peat; peat,,,kg,=,17.331023000000002,Peat,6e414092-5f92-3cd9-afaa-94ddeacb895b,resource/ground,MJ,Edelen,Young,2/3/2021
+USGS_MCS,Perlite; perlite,,,kg,=,1.0,Perlite,66c6fc98-3707-3b5f-80f2-e91df2ac7912,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Phosphate Rock; marketable,,,kg,=,1.0,Phosphate ore,1ab24e9c-18f9-3aeb-a968-d1c6f25a1ef4,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Potash; marketable,,,kg,~,1.0,Potassium oxide,9e478ab2-41b2-391e-9c0a-a0d4b38fdd74,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Pumice and Pumicite; mine,,,kg,=,1.0,Pumice,939fb88f-7bf5-36fe-a417-4610cf1ff3f8,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Salt; salt,,,kg,=,1.0,Sodium chloride,f338dd70-dcd0-33e9-b26a-ba5c8042f793,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Soda Ash; soda ash,,,kg,=,1.0,Sodium carbonate,546de5ab-4d9b-3a33-92c5-5425ec52249a,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Talc and pyrophyllite; mine,,,kg,=,1.0,Talc,acd4abb1-54fc-3c02-ab6e-36d8822062ae,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,Vermiculite; vermiculite,,,kg,=,1.0,Vermiculite,19be0c5c-690b-32d0-a36e-be3e629a4518,resource/ground,kg,Edelen,Young,2/3/2021
+USGS_MCS,"Zeolites; zeolites, natural",,,kg,=,1.0,Zeolites,414aa017-7696-316e-802b-dcc3c7fb36d1,resource/ground,kg,Edelen,Young,2/3/2021
