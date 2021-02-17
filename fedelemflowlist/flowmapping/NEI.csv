@@ -422,6 +422,7 @@ NEI,Organic Carbon portion of PM2.5-PRI,,air,kg,=,1.0,"Organic carbon, PM2.5 LC"
 NEI,"PAH, total",,air,kg, =,1.0,Polycyclic aromatic hydrocarbons,3bf6bb55-a2d2-36a1-988c-3caf0d73baf9,emission/air,kg,Hottle,,10/14/2020
 NEI,PAH/POM - Unspecified,,air,kg, =,1.0,"PAH/POM, unspecified",02493f33-ffee-3fb6-8508-42de1592015e,emission/air,kg,Hottle,,10/14/2020
 NEI,PM10 Primary (Filt + Cond),,air,kg, =,1.0,"Particulate matter, ≤ 10μm",5a939c2b-cebf-3060-8862-4a8650caf6dd,emission/air,kg,Hottle,,10/14/2020
+NEI,PM10-PM2.5,,air,kg,=,1.0,"Particulate matter, > 2.5μm and ≤ 10μm",a320e284-d276-3167-89b3-19d790081c08,emission/air,kg,Young,,1/16/2021
 NEI,PM10-Primary from certain diesel engines,,air,kg,<,1.0,"Particulate matter, ≤ 10μm",5a939c2b-cebf-3060-8862-4a8650caf6dd,emission/air,kg,Hottle,,10/14/2020
 NEI,PM2.5 Primary (Filt + Cond),,air,kg, =,1.0,"Particulate matter, ≤ 2.5μm",49a9c581-7c83-36b0-b1bd-455ea4c665a6,emission/air,kg,Hottle,,10/14/2020
 NEI,PM25-Primary from certain diesel engines,,air,kg,<,1.0,"Particulate matter, ≤ 2.5μm",49a9c581-7c83-36b0-b1bd-455ea4c665a6,emission/air,kg,Hottle,,10/14/2020

@@ -555,3 +555,4 @@ Polycyclic aromatic hydrocarbons -- 7-PAH,kg,=,"Polycyclic aromatic hydrocarbons
 Polycyclic organic matter,kg,=,Polycyclic organic matter,kg,Hottle,original NEI mappings not in recent version,,,7/20/2018
 "2,4-D, salts and esters",kg,=,"2,4-D, salts and esters",kg,Hottle,original NEI mappings not in recent version,,,7/20/2018
 Radionuclides (including radon),kg,=,Radionuclides,kBq,Young,original NEI mappings not in recent version,,,1/7/2020
+PM10-PM2.5,kg,=,"Particulate matter, > 2.5μm and ≤ 10μm",kg,Young,reflects name change in StEWI,,,1/16/2021
