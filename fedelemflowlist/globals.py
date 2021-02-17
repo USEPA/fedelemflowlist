@@ -13,6 +13,7 @@ except NameError:
 
 outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
+inputpath_mapping = inputpath + 'mapping input/'
 flowmappingpath = modulepath + 'flowmapping/'
 
 flow_list_fields = {'Flowable': [{'dtype': 'str'}, {'required': True}],
