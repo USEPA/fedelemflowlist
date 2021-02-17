@@ -33,9 +33,14 @@ if __name__ == '__main__':
     if 'ConversionFactor' not in flow_mapping:
         flow_mapping['ConversionFactor'] = 1
         log.info('ConversionFactor column not included in input file, added to mapping')
-    flow_mapping['ConversionFactor']=flow_mapping['ConversionFactor'].fillna(1)
+    flow_mapping['ConversionFactor']=flow_mapping['ConversionFactor'].fillna(1.0)
 
     flow_mapping = add_conversion_to_mapping(flow_mapping)
+    
+    # Ensure consistent formatting in mapping file
+    flow_mapping['ConversionFactor'] = flow_mapping['ConversionFactor'] * 1.0
+    flow_mapping.loc[(flow_mapping['MatchCondition'] == " ="),
+                     'MatchCondition'] = "="
     
     flow_mapping = add_uuid_to_mapping(flow_mapping)
     
