@@ -12855,13 +12855,10 @@ Clopyralid-potassium,Emission,Ground
 "Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",Emission,Ground
 Glyphosate dimethylamine salt,Emission,Ground
 Potassium N-(phosphonomethyl)glycine,Emission,Ground
-Dicamba diglycolamine salt,Emission,Ground
 (+)-trans-p-Menth-2-ene,Emission,Ground
 "(2E,13Z)-2,13-Octadecadienol",Emission,Ground
 "(6Z,13Z)-6,13-octadecadien-1-yl acetate",Emission,Ground
 "(9E,12Z)-9,12-Tetradecadien-1-ol acetate",Emission,Ground
-(E)-11-Tetradecen-1-ol acetate,Emission,Ground
-"(E,Z)-3,13-Octadecadienyl acetate",Emission,Ground
 "(E,Z)-7,11-Hexadecadien-1-yl acetate",Emission,Ground
 (R)-Mecoprop dimethylamine salt,Emission,Ground
 (Z)-11-Hexadecen-1-ol acetate,Emission,Ground
@@ -12871,10 +12868,8 @@ Dicamba diglycolamine salt,Emission,Ground
 "11-Tetradecenal, (11Z)-",Emission,Ground
 "1-Bromo-3-chloro-5,5-dimethylhydantoin",Emission,Ground
 1-Methylcyclopropene,Emission,Ground
-"2,13-Octadecadien-1-ol, 1-acetate, (2Z,13Z)-",Emission,Ground
 "2,4-D choline salt",Emission,Ground
 "2,4-D triethylamine salt",Emission,Ground
-"2,4-D triisopropanolamine salt",Emission,Ground
 "2,4-Decadienoic acid, ethyl ester, (2E,4Z)-",Emission,Ground
 2-Methoxy-5-nitrophenol sodium salt,Emission,Ground
 2-Phenylethyl propionate,Emission,Ground
@@ -12895,10 +12890,8 @@ Castor oil,Emission,Ground
 Chitosan,Emission,Ground
 Chloramben-sodium,Emission,Ground
 Cholecalciferol,Emission,Ground
-Clopyralid-potassium,Emission,Ground
 Clorsulon,Emission,Ground
 Clove oil,Emission,Ground
-Copper oxychloride,Emission,Ground
 Copper tetraamine,Emission,Ground
 Copper(II) 2-aminoethanolate,Emission,Ground
 Cupric sulfate monohydrate,Emission,Ground
@@ -12941,7 +12934,6 @@ Mecoprop-P-potassium,Emission,Ground
 Mefluidide diethanolamine salt,Emission,Ground
 Methazole,Emission,Ground
 Methyl salicylate,Emission,Ground
-Monopotassium phosphate,Emission,Ground
 "N,N-Diethyl-2-(4-methylbenzyloxy) ethylamine hydrochloride",Emission,Ground
 N-2-Ethylhexylbicycloheptenedicarboximide,Emission,Ground
 Nadide,Emission,Ground
@@ -12970,11 +12962,8 @@ Tea tree oil,Emission,Ground
 Tetradecanol,Emission,Ground
 Thyme oil,Emission,Ground
 Tribasic copper sulfate,Emission,Ground
-Triclopyr,Emission,Ground
-Trifloxysulfuron-sodium,Emission,Ground
 Trimethacarb,Emission,Ground
 Uniconazole-P,Emission,Ground
-Urea sulfate,Emission,Ground
 "Z,E-3,13-Octadecadien-1-ol",Emission,Ground
 (+)-trans-p-Menth-2-ene,Emission,Water
 "(2E,13Z)-2,13-Octadecadienol",Emission,Water
@@ -12994,7 +12983,6 @@ Urea sulfate,Emission,Ground
 "2,13-Octadecadien-1-ol, 1-acetate, (2Z,13Z)-",Emission,Water
 "2,4-D choline salt",Emission,Water
 "2,4-D triethylamine salt",Emission,Water
-"2,4-D triisopropanolamine salt",Emission,Water
 "2,4-Decadienoic acid, ethyl ester, (2E,4Z)-",Emission,Water
 2-Methoxy-5-nitrophenol sodium salt,Emission,Water
 2-Phenylethyl propionate,Emission,Water
@@ -13015,10 +13003,8 @@ Castor oil,Emission,Water
 Chitosan,Emission,Water
 Chloramben-sodium,Emission,Water
 Cholecalciferol,Emission,Water
-Clopyralid-potassium,Emission,Water
 Clorsulon,Emission,Water
 Clove oil,Emission,Water
-Copper oxychloride,Emission,Water
 Copper tetraamine,Emission,Water
 Copper(II) 2-aminoethanolate,Emission,Water
 Cupric sulfate monohydrate,Emission,Water
@@ -13061,7 +13047,6 @@ Mecoprop-P-potassium,Emission,Water
 Mefluidide diethanolamine salt,Emission,Water
 Methazole,Emission,Water
 Methyl salicylate,Emission,Water
-Monopotassium phosphate,Emission,Water
 "N,N-Diethyl-2-(4-methylbenzyloxy) ethylamine hydrochloride",Emission,Water
 N-2-Ethylhexylbicycloheptenedicarboximide,Emission,Water
 Nadide,Emission,Water
@@ -13090,11 +13075,8 @@ Tea tree oil,Emission,Water
 Tetradecanol,Emission,Water
 Thyme oil,Emission,Water
 Tribasic copper sulfate,Emission,Water
-Triclopyr,Emission,Water
-Trifloxysulfuron-sodium,Emission,Water
 Trimethacarb,Emission,Water
 Uniconazole-P,Emission,Water
-Urea sulfate,Emission,Water
 "Z,E-3,13-Octadecadien-1-ol",Emission,Water
 (+)-trans-p-Menth-2-ene,Emission,Air
 "(2E,13Z)-2,13-Octadecadienol",Emission,Air
@@ -13114,7 +13096,6 @@ Urea sulfate,Emission,Water
 "2,13-Octadecadien-1-ol, 1-acetate, (2Z,13Z)-",Emission,Air
 "2,4-D choline salt",Emission,Air
 "2,4-D triethylamine salt",Emission,Air
-"2,4-D triisopropanolamine salt",Emission,Air
 "2,4-Decadienoic acid, ethyl ester, (2E,4Z)-",Emission,Air
 2-Methoxy-5-nitrophenol sodium salt,Emission,Air
 2-Phenylethyl propionate,Emission,Air
@@ -13135,10 +13116,8 @@ Castor oil,Emission,Air
 Chitosan,Emission,Air
 Chloramben-sodium,Emission,Air
 Cholecalciferol,Emission,Air
-Clopyralid-potassium,Emission,Air
 Clorsulon,Emission,Air
 Clove oil,Emission,Air
-Copper oxychloride,Emission,Air
 Copper tetraamine,Emission,Air
 Copper(II) 2-aminoethanolate,Emission,Air
 Cupric sulfate monohydrate,Emission,Air
@@ -13181,7 +13160,6 @@ Mecoprop-P-potassium,Emission,Air
 Mefluidide diethanolamine salt,Emission,Air
 Methazole,Emission,Air
 Methyl salicylate,Emission,Air
-Monopotassium phosphate,Emission,Air
 "N,N-Diethyl-2-(4-methylbenzyloxy) ethylamine hydrochloride",Emission,Air
 N-2-Ethylhexylbicycloheptenedicarboximide,Emission,Air
 Nadide,Emission,Air
@@ -13210,10 +13188,7 @@ Tea tree oil,Emission,Air
 Tetradecanol,Emission,Air
 Thyme oil,Emission,Air
 Tribasic copper sulfate,Emission,Air
-Triclopyr,Emission,Air
-Trifloxysulfuron-sodium,Emission,Air
 Trimethacarb,Emission,Air
 Uniconazole-P,Emission,Air
-Urea sulfate,Emission,Air
 "Z,E-3,13-Octadecadien-1-ol",Emission,Air
 
