@@ -1,32 +1,33 @@
 SourceFlowContext,TargetFlowContext
+Air,emission/air
+Air,emission/air/indoor
+Air,emission/air/stratosphere
+Air,emission/air/subterranean
+Air,emission/air/troposphere/ground-level
+Air,emission/air/troposphere/high
+Air,emission/air/troposphere/low
+Air,emission/air/troposphere/rural
+Air,emission/air/troposphere/rural/ground-level
+Air,emission/air/troposphere/rural/high
+Air,emission/air/troposphere/rural/low
+Air,emission/air/troposphere/rural/very high
+Air,emission/air/troposphere/urban
+Air,emission/air/troposphere/urban/ground-level
+Air,emission/air/troposphere/urban/high
+Air,emission/air/troposphere/urban/low
+Air,emission/air/troposphere/urban/very high
+Air,emission/air/troposphere/very high
 Air/(unspecified),emission/air
-Air/(unspecified),emission/air/indoor
-Air/(unspecified),emission/air/stratosphere
 Air/(unspecified),emission/air/subterranean
 Air/(unspecified),emission/air/troposphere/ground-level
 Air/(unspecified),emission/air/troposphere/high
 Air/(unspecified),emission/air/troposphere/low
-Air/(unspecified),emission/air/troposphere/rural
-Air/(unspecified),emission/air/troposphere/rural/ground-level
-Air/(unspecified),emission/air/troposphere/rural/high
-Air/(unspecified),emission/air/troposphere/rural/low
-Air/(unspecified),emission/air/troposphere/rural/very high
-Air/(unspecified),emission/air/troposphere/urban
-Air/(unspecified),emission/air/troposphere/urban/ground-level
-Air/(unspecified),emission/air/troposphere/urban/high
-Air/(unspecified),emission/air/troposphere/urban/low
-Air/(unspecified),emission/air/troposphere/urban/very high
 Air/(unspecified),emission/air/troposphere/very high
 Air/low. pop.,emission/air/troposphere/rural
 Air/low. pop.,emission/air/troposphere/rural/ground-level
 Air/low. pop.,emission/air/troposphere/rural/high
 Air/low. pop.,emission/air/troposphere/rural/low
 Air/low. pop.,emission/air/troposphere/rural/very high
-"Air/low. pop., long-term",emission/air/troposphere/rural
-"Air/low. pop., long-term",emission/air/troposphere/rural/ground-level
-"Air/low. pop., long-term",emission/air/troposphere/rural/high
-"Air/low. pop., long-term",emission/air/troposphere/rural/low
-"Air/low. pop., long-term",emission/air/troposphere/rural/very high
 Air/high. pop.,emission/air/troposphere/urban
 Air/high. pop.,emission/air/troposphere/urban/ground-level
 Air/high. pop.,emission/air/troposphere/urban/high
@@ -47,7 +48,6 @@ Water/(unspecified),emission/water/fresh water body/river
 Water/(unspecified),emission/water/fresh water body/river/rural
 Water/(unspecified),emission/water/fresh water body/river/urban
 Water/(unspecified),emission/water/saline water body
-Water/(unspecified),emission/water/saline water body/ocean
 Water/(unspecified),emission/water/subterranean
 Water/(unspecified),emission/water/subterranean/brackish water body
 Water/(unspecified),emission/water/subterranean/brackish water body/confined aquifer
@@ -61,9 +61,6 @@ Water/(unspecified),emission/water/subterranean/saline water body/unconfined aqu
 Water/ocean,emission/water/saline water body/ocean
 Soil/(unspecified),emission/ground
 Soil/(unspecified),emission/ground/human-dominated
-Soil/(unspecified),emission/ground/human-dominated/agricultural
-Soil/(unspecified),emission/ground/human-dominated/agricultural/rural
-Soil/(unspecified),emission/ground/human-dominated/agricultural/urban
 Soil/(unspecified),emission/ground/human-dominated/commercial
 Soil/(unspecified),emission/ground/human-dominated/commercial/rural
 Soil/(unspecified),emission/ground/human-dominated/commercial/urban
