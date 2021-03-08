@@ -17,7 +17,9 @@ lcia_name = 'ImpactWorld+'
 if __name__ == '__main__':
     ## Bring in flowables and contexts from the lcia_formatter
     import lciafmt
-    lcia_lciafmt = lciafmt.get_method(lcia_name)
+    lcia_lciafmt = lciafmt.get_method(lcia_name, endpoint = False)
+    lcia_endpoint = lciafmt.get_method(lcia_name, endpoint = True)
+    lcia_lciafmt = lcia_lciafmt.append(lcia_endpoint, ignore_index = True)
    
     # Keep only flowable and category
     lcia_lciafmt = lcia_lciafmt[['Flowable', 'Context']]
