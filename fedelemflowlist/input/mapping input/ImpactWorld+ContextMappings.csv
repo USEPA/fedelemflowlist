@@ -23,16 +23,31 @@ Air/(unspecified),emission/air/troposphere/ground-level
 Air/(unspecified),emission/air/troposphere/high
 Air/(unspecified),emission/air/troposphere/low
 Air/(unspecified),emission/air/troposphere/very high
+Air/Population-weighted average ,emission/air
+Air/Population-weighted average ,emission/air/troposphere/ground-level
+Air/Population-weighted average ,emission/air/troposphere/high
+Air/Population-weighted average ,emission/air/troposphere/low
+Air/Population-weighted average ,emission/air/troposphere/very high
 Air/low. pop.,emission/air/troposphere/rural
 Air/low. pop.,emission/air/troposphere/rural/ground-level
 Air/low. pop.,emission/air/troposphere/rural/high
 Air/low. pop.,emission/air/troposphere/rural/low
 Air/low. pop.,emission/air/troposphere/rural/very high
+Air/Rural,emission/air/troposphere/rural
+Air/Rural,emission/air/troposphere/rural/ground-level
+Air/Rural,emission/air/troposphere/rural/high
+Air/Rural,emission/air/troposphere/rural/low
+Air/Rural,emission/air/troposphere/rural/very high
 Air/high. pop.,emission/air/troposphere/urban
 Air/high. pop.,emission/air/troposphere/urban/ground-level
 Air/high. pop.,emission/air/troposphere/urban/high
 Air/high. pop.,emission/air/troposphere/urban/low
 Air/high. pop.,emission/air/troposphere/urban/very high
+Air/Urban,emission/air/troposphere/urban
+Air/Urban,emission/air/troposphere/urban/ground-level
+Air/Urban,emission/air/troposphere/urban/high
+Air/Urban,emission/air/troposphere/urban/low
+Air/Urban,emission/air/troposphere/urban/very high
 Air/stratosphere + troposphere,emission/air/stratosphere
 Air/indoor,emission/air/indoor
 Water/(unspecified),emission/water
@@ -47,17 +62,17 @@ Water/(unspecified),emission/water/fresh water body/lake/urban
 Water/(unspecified),emission/water/fresh water body/river
 Water/(unspecified),emission/water/fresh water body/river/rural
 Water/(unspecified),emission/water/fresh water body/river/urban
-Water/(unspecified),emission/water/saline water body
-Water/(unspecified),emission/water/subterranean
-Water/(unspecified),emission/water/subterranean/brackish water body
-Water/(unspecified),emission/water/subterranean/brackish water body/confined aquifer
-Water/(unspecified),emission/water/subterranean/brackish water body/unconfined aquifer
-Water/(unspecified),emission/water/subterranean/fresh water body
-Water/(unspecified),emission/water/subterranean/fresh water body/confined aquifer
-Water/(unspecified),emission/water/subterranean/fresh water body/unconfined aquifer
-Water/(unspecified),emission/water/subterranean/saline water body
-Water/(unspecified),emission/water/subterranean/saline water body/confined aquifer
-Water/(unspecified),emission/water/subterranean/saline water body/unconfined aquifer
+Water/groundwater,emission/water/subterranean
+Water/groundwater,emission/water/subterranean/brackish water body
+Water/groundwater,emission/water/subterranean/brackish water body/confined aquifer
+Water/groundwater,emission/water/subterranean/brackish water body/unconfined aquifer
+Water/groundwater,emission/water/subterranean/fresh water body
+Water/groundwater,emission/water/subterranean/fresh water body/confined aquifer
+Water/groundwater,emission/water/subterranean/fresh water body/unconfined aquifer
+Water/groundwater,emission/water/subterranean/saline water body
+Water/groundwater,emission/water/subterranean/saline water body/confined aquifer
+Water/groundwater,emission/water/subterranean/saline water body/unconfined aquifer
+Water/ocean,emission/water/saline water body
 Water/ocean,emission/water/saline water body/ocean
 Soil/(unspecified),emission/ground
 Soil/(unspecified),emission/ground/human-dominated
@@ -181,3 +196,11 @@ Raw/in water,resource/water/subterranean/saline water body/unconfined aquifer
 Raw/in air,resource/air
 Raw/in air,resource/air/subterranean
 Raw/in air,resource/air/troposphere
+"Agriculture, mosaic (Agroforestry)",
+Annual crops,
+Artificial areas,
+"Forest, used",
+"Forest/Grassland, not used",
+Pasture/meadow,
+Permanent crops,
+Secondary Vegetation,
