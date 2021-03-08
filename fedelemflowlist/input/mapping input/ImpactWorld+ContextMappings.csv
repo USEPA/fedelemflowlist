@@ -204,3 +204,27 @@ Artificial areas,resource/ground/human-dominated
 Pasture/meadow,resource/ground/terrestrial/grassland
 Permanent crops,resource/ground/human-dominated/agricultural
 Secondary Vegetation,resource/ground/terrestrial/forest
+"Water, UNKNOWN",resource/water
+"Water, UNKNOWN",resource/water/brackish water body
+"Water, UNKNOWN",resource/water/brackish water body/lake
+"Water, AGRI",resource/water/brackish water body/lake/rural
+"Water, NON-AGRI",resource/water/brackish water body/lake/urban
+"Water, UNKNOWN",resource/water/fresh water body
+"Water, UNKNOWN",resource/water/fresh water body/lake
+"Water, AGRI",resource/water/fresh water body/lake/rural
+"Water, NON-AGRI",resource/water/fresh water body/lake/urban
+"Water, UNKNOWN",resource/water/fresh water body/river
+"Water, AGRI",resource/water/fresh water body/river/rural
+"Water, NON-AGRI",resource/water/fresh water body/river/urban
+"Water, UNKNOWN",resource/water/saline water body
+"Water, UNKNOWN",resource/water/saline water body/ocean
+"Water, UNKNOWN",resource/water/subterranean
+"Water, UNKNOWN",resource/water/subterranean/brackish water body
+"Water, UNKNOWN",resource/water/subterranean/brackish water body/confined aquifer
+"Water, UNKNOWN",resource/water/subterranean/brackish water body/unconfined aquifer
+"Water, UNKNOWN",resource/water/subterranean/fresh water body
+"Water, UNKNOWN",resource/water/subterranean/fresh water body/confined aquifer
+"Water, UNKNOWN",resource/water/subterranean/fresh water body/unconfined aquifer
+"Water, UNKNOWN",resource/water/subterranean/saline water body
+"Water, UNKNOWN",resource/water/subterranean/saline water body/confined aquifer
+"Water, UNKNOWN",resource/water/subterranean/saline water body/unconfined aquifer
