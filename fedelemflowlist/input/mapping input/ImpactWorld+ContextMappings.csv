@@ -196,11 +196,11 @@ Raw/in water,resource/water/subterranean/saline water body/unconfined aquifer
 Raw/in air,resource/air
 Raw/in air,resource/air/subterranean
 Raw/in air,resource/air/troposphere
-"Agriculture, mosaic (Agroforestry)",
-Annual crops,
-Artificial areas,
-"Forest, used",
-"Forest/Grassland, not used",
-Pasture/meadow,
-Permanent crops,
-Secondary Vegetation,
+"Agriculture, mosaic (Agroforestry)",resource/ground/human-dominated/agricultural
+Annual crops,resource/ground/human-dominated/agricultural
+Artificial areas,resource/ground/human-dominated
+"Forest, used",resource/ground/terrestrial/forest
+"Forest/Grassland, not used",resource/ground/terrestrial/forest
+Pasture/meadow,resource/ground/terrestrial/grassland
+Permanent crops,resource/ground/human-dominated/agricultural
+Secondary Vegetation,resource/ground/terrestrial/forest
