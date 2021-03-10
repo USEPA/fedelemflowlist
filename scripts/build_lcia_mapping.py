@@ -76,6 +76,10 @@ if __name__ == '__main__':
     
     # Merge LCIA with Flowlist
     lcia_mappings = add_uuid_to_mapping(lciafmt_w_context_flowable_mappings)
+   
+    # Sort to maintain mapping file consistency
+    lcia_mappings.sort_values(by=['SourceFlowName','SourceFlowContext'],
+                              inplace=True, ignore_index=True)
 
     # Write them to a csv
     lcia_mappings.to_csv(flowmappingpath + lcia_name + '.csv', index=False)
