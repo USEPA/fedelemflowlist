@@ -24,7 +24,10 @@ class TestFlowMappings(unittest.TestCase):
         """Checks that no flows have na values in required fields."""
         required_fields = get_required_flowmapping_fields()
         flowmappings_w_required = self.flowmappings[required_fields]
+        flowmappings_w_required.reset_index(drop=True, inplace=True)
         nas_in_required = flowmappings_w_required.dropna()
+        # To Identify mappings with missing fields
+        missing = flowmappings_w_required[~flowmappings_w_required.index.isin(nas_in_required.index)]
         self.assertEqual(len(flowmappings_w_required), len(nas_in_required))
 
     def test_targetflowinfo_matches_flows_in_list(self):
