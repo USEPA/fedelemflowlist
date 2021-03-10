@@ -11,7 +11,7 @@ from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, add_uuid
     add_conversion_to_mapping
 
 # Options: 'TRACI2.1', 'ReCiPe2016', 'ImpactWorld+'
-lcia_name = 'ImpactWorld+'
+lcia_name = 'ReCiPe2016'
 
 
 if __name__ == '__main__':
@@ -48,7 +48,7 @@ if __name__ == '__main__':
     
     left_field = 'Flowable'
     right_field = 'SourceFlowName'
-    columns_to_drop = 'Flowable'
+    columns_to_drop = ['Flowable']
     
     if lcia_name == 'ReCiPe2016':
         # Make all flowables lowercase to resolve case sensitivity issues in ReCiPe
@@ -56,7 +56,7 @@ if __name__ == '__main__':
         lciafmt_w_context_mappings['Flowable_low']=lciafmt_w_context_mappings['Flowable'].str.lower()
         left_field = 'Flowable_low'
         right_field = 'SourceFlowName_low'
-        columns_to_drop.append([left_field,right_field])
+        columns_to_drop.extend([left_field,right_field])
         
     lciafmt_w_context_flowable_mappings = pd.merge(lciafmt_w_context_mappings,
                                                    flowable_mappings,
