@@ -6,8 +6,8 @@
 "2,4-D, DIMETH. SALT",Mass,=,"2,4-D dimethylamine salt",kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 "2,4-D, ISOPROP ESTER",Mass,=,"2,4-D isopropyl ester",kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 "2,4-D, ISOPROP. SALT",Mass,=,"2,4-D isopropylamine salt",kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
-"2,4-D, TRIISO. SALT",Mass,=,"2,4-D triisopropanolamine salt",kg,Edelen,,Hottle,added for this list,12/22/2020
-"2,4-DB, DIMETH. SALT",Mass,=,"2,4-DB dimethylamine salt",kg,Edelen,,Hottle,added for this list,12/22/2020
+"2,4-D, TRIISO. SALT",Mass,=,"2,4-D triisopropanolamine salt",kg,Edelen,,Hottle,,12/22/2020
+"2,4-DB, DIMETH. SALT",Mass,=,"2,4-DB dimethylamine salt",kg,Edelen,,Hottle,,12/22/2020
 ABAMECTIN,Mass,=,Abamectin,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 ACEPHATE,Mass,=,Acephate,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 ACETAMIPRID,Mass,=,Acetamiprid,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
@@ -22,13 +22,13 @@ ATRAZINE,Mass,=,Atrazine,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 AZADIRACHTIN,Mass,=,Azadirachtin A,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 AZINPHOS-METHYL,Mass,=,Azinphos-methyl,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 AZOXYSTROBIN,Mass,=,Azoxystrobin,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
-BASIC COPPER SULFATE,Mass,=,Basic copper sulfate,kg,Edelen,,Hottle,added for this list,12/22/2020
+BASIC COPPER SULFATE,Mass,=,Basic copper sulfate,kg,Edelen,,Hottle,,12/22/2020
 BENEFIN,Mass,=,Benfluralin,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 BENSULFURON-METHYL,Mass,=,Bensulfuron-methyl,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 BENSULIDE,Mass,=,Bensulide,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 BENTAZON,Mass,=,Bentazon,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 BENZYLADENINE,Mass,=,N-Benzyladenine,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
-BETA-CYFLUTHRIN,Mass,=,beta-cyfluthrin,kg,Edelen,,Hottle,added for this list,12/22/2020
+BETA-CYFLUTHRIN,Mass,=,beta-cyfluthrin,kg,Edelen,,Hottle,,12/22/2020
 BIFENAZATE,Mass,=,Bifenazate,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 BIFENTHRIN,Mass,=,Bifenthrin,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 BISPYRIBAC-SODIUM,Mass,=,Bispyribac-sodium,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
@@ -37,12 +37,12 @@ BROMACIL,Mass,=,Bromacil,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 BROMOXYNIL HEPTAN.,Mass,=,Bromoxynil heptanoate,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 BROMOXYNIL OCTANOATE,Mass,=,Bromoxynil octanoate,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 BUPROFEZIN,Mass,=,Buprofezin,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
-BUTENOIC ACID HYDRO.,Mass,=,Crotonic acid,kg,Edelen,,Hottle,added for this list,12/22/2020
+BUTENOIC ACID HYDRO.,Mass,=,Crotonic acid,kg,Edelen,,Hottle,,12/22/2020
 CLODINAFOP-PROPARGIL,Mass,=,"Z-Ethyl-O,N,N-azoxyethane",kg,Edelen,All mappings match,Hottle,,12/22/2020
 CYPERMETHRIN,Mass,=,Beta Cypermethrin,kg,Edelen,,Hottle,,12/22/2020
 DODECANOL,Mass,=,2-Nonynoic acid,kg,Edelen,All mappings match,Hottle,,12/22/2020
 FENBUTATIN-OXIDE,Mass,=,Fenbutatin oxide,kg,Edelen,,Hottle,,12/22/2020
-CLOPYRALID MONO SALT,Mass,=,Clopyralid-olamine,kg,Edelen,FEDEFL CAS match,Hottle,added contexts,12/22/2020
+CLOPYRALID MONO SALT,Mass,=,Clopyralid-olamine,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 COPPER CHLORIDE HYD.,Mass,=,Cupric chloride dihydrate,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 COPPER HYDROXIDE,Mass,=,Cupric hydroxide,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 COPPER OXIDE,Mass,=,Cupric oxide,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
@@ -54,7 +54,7 @@ DCPA,Mass,=,Chlorthal-dimethyl,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 "DICAMBA, SODIUM SALT",Mass,=,Sodium dicamba,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 DICLORAN,Mass,=,Dichloran,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 DODECADIEN-1-OL,Mass,=,Codlelure,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
-CLOPYRALID POTASSIUM,Mass,=,Clopyralid-potassium,kg,Edelen,,Hottle,added for this list,12/22/2020
+CLOPYRALID POTASSIUM,Mass,=,Clopyralid-potassium,kg,Edelen,,Hottle,,12/22/2020
 E-8-DODECENYL ACETAT,Mass,=,(E)-8-Dodecen-1-yl acetate,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 EPTC,Mass,=,S-Ethyl dipropylthiocarbamate,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 FLUCARBAZONE-SODIUM,Mass,=,Flucarbazon-sodium,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
@@ -150,9 +150,9 @@ GAMMA-CYHALOTHRIN,Mass,=,Gamma-cyhalothrin,kg,Edelen,FEDEFL Name Match,Hottle,,1
 GIBBERELLIC ACID,Mass,=,Gibberellic acid,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 GLUFOSINATE-AMMONIUM,Mass,=,Glufosinate-ammonium,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 GLYPHOSATE,Mass,=,Glyphosate,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
-GLYPHOSATE AMM. SALT,Mass,=,"Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",kg,Edelen,,Hottle,added for this list,12/22/2020
-GLYPHOSATE DIM. SALT,Mass,=,Glyphosate dimethylamine salt,kg,Edelen,,Hottle,added for this list,12/22/2020
-GLYPHOSATE POT. SALT,Mass,=,Potassium N-(phosphonomethyl)glycine,kg,Edelen,,Hottle,added for this list,12/22/2020
+GLYPHOSATE AMM. SALT,Mass,=,"Glycine, N-(phosphonomethyl)-, ammonium salt (1:1)",kg,Edelen,,Hottle,,12/22/2020
+GLYPHOSATE DIM. SALT,Mass,=,Glyphosate dimethylamine salt,kg,Edelen,,Hottle,,12/22/2020
+GLYPHOSATE POT. SALT,Mass,=,Potassium N-(phosphonomethyl)glycine,kg,Edelen,,Hottle,,12/22/2020
 HALOSULFURON,Mass,=,Halosulfuron,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 HEXAZINONE,Mass,=,Hexazinone,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 HEXYTHIAZOX,Mass,=,Hexythiazox,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
@@ -273,7 +273,7 @@ QUINCLORAC,Mass,=,Quinclorac,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 QUINCLORAC DIMETHYLAMINE SALT,Mass,=,"8-Quinolinecarboxylic acid, 3,7-dichloro-, compd. with N-methylmethanamine (1:1)",kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 QUINOLINE,Mass,=,Quinoline,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 QUIZALOFOP-P-ETHYL,Mass,=,Quizalofop-P-ethyl,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
-REYNOUTRIA SACHALINE,Mass,=,Reynoutria sachalinensis,kg,Edelen,,Hottle,added for this list,12/22/2020
+REYNOUTRIA SACHALINE,Mass,=,Reynoutria sachalinensis,kg,Edelen,,Hottle,,12/22/2020
 RIMSULFURON,Mass,=,Rimsulfuron,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 S-ABSCISIC ACID,Mass,=,(1S)-Abscisic acid,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 SAFLUFENACIL,Mass,=,Saflufenacil,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
@@ -321,7 +321,7 @@ TRIBENURON-METHYL,Mass,=,Tribenuron-methyl,kg,Edelen,FEDEFL Name Match,Hottle,,1
 TRIBUFOS,Mass,=,Tribufos,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 TRIETHYLAMINE TRICLO,Mass,=,Triclopyr-triethylammonium,kg,Edelen,FEDEFL CAS match,Hottle,,12/22/2020
 TRIFLOXYSTROBIN,Mass,=,Trifloxystrobin,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
-TRIFLOXYSULFURON-SOD,Mass,=,"N-[[(4,6-Dimethoxy-2-pyrimidinyl)amino]carbonyl]-(2,2,2-trifluoroethoxy)-2-pyridinesulfonamide sodium salt (1:1)",kg,Edelen,,Hottle,added for this list,12/22/2020
+TRIFLOXYSULFURON-SOD,Mass,=,"N-[[(4,6-Dimethoxy-2-pyrimidinyl)amino]carbonyl]-(2,2,2-trifluoroethoxy)-2-pyridinesulfonamide sodium salt (1:1)",kg,Edelen,,Hottle,,12/22/2020
 TRIFLUMIZOLE,Mass,=,Triflumizole,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 TRIFLURALIN,Mass,=,Trifluralin,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 TRIPHENYLTIN HYDROX.,Mass,=,Triphenyltin hydroxide,kg,Edelen,,Hottle,,12/22/2020
@@ -331,5 +331,322 @@ ZETA-CYPERMETHRIN,Mass,=,Zeta-Cypermethrin,kg,Edelen,FEDEFL Name Match,Hottle,,1
 ZINC PHOSPHIDE,Mass,=,Zinc phosphide,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 ZIRAM,Mass,=,Ziram,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
 ZOXAMIDE,Mass,=,Zoxamide,kg,Edelen,FEDEFL Name Match,Hottle,,12/22/2020
-"DICAMBA, DIGLY. SALT",Mass,=,Dicamba diglycolamine salt,kg,Edelen,,Hottle,added for this list,12/22/2020
+"DICAMBA, DIGLY. SALT",Mass,=,Dicamba diglycolamine salt,kg,Edelen,,Hottle,,12/22/2020
 "DICAMBA, DIMET. SALT",Mass,=,Dimethylamine dicamba,kg,Edelen,,Hottle,,12/22/2020
+ALPHA CYPERMETHRIN,kg,=,.alpha.-Cypermethrin,kg,Edelen,,,,1/7/2021
+APROCARB ,kg,=,Propoxur,kg,Edelen,,,,1/7/2021
+BACILLUS MYCOIDES ISOLATE,kg,~,Bacillus mycoides Isolate J,kg,Edelen,,,,1/7/2021
+BEAUVERIA BASSIANA,kg,=,Beauveria bassiana,kg,Edelen,,,,1/7/2021
+BT CRYL A(B); DE OF ,kg,,[unmapped],,,,,unknown,
+BT KURSTAK ABTS-1857,kg,~,Bacillus thuringiensis ssp. aizawai strain ABTS 1857,kg,Edelen,,,,1/7/2021
+BT KURSTAKI ABTS-351,kg,=,Bacillus thuringiensis ssp. Kurstaki Strain ABTS-351,kg,Edelen,,,,1/7/2021
+BT KURSTAKI BMP123,kg,=,Bacillus thuringiensis ssp. kurstaki strain BMP123,kg,Edelen,,,,1/7/2021
+BT KURSTAKI EG2348,kg,=,Bacillus thuringiensis ssp. kurstaki strain EG2348,kg,Edelen,,,,1/7/2021
+BT KURSTAKI EG7841,kg,=,Bacillus thuringiensis ssp. kurstaki strain EG7841 Lepidopteran active toxin,kg,Edelen,,,,1/7/2021
+BT KURSTAKI SA-11,kg,=,"Bacillus thuringiensis, ssp. kurstaki strain SA - 11",kg,Edelen,,,,1/7/2021
+BT SUB AIZAWAI GC-91,kg,=,Bacillus thuringiensis subspecies aizawai strain GC-91,kg,Edelen,,,,1/7/2021
+BT SUBSP ISRAELENSIS,kg,=,Bacillus thuringiensis var. israelensis,kg,Edelen,,,,1/7/2021
+BT SUBSP KURSTAKI STRAIN EVB-113-19,kg,=,"Bacillus thuringiensis subspecies kurstaki, strain EVB-113-19",kg,Edelen,,,,1/7/2021
+BT SUBSP. AIZAWAI,kg,=,Bacillus thuringiensis var. aizawai,kg,Edelen,,,,1/7/2021
+BT SUBSP. KURSTAKI,kg,=,Bacillus thuringiensis var. kurstaki,kg,Edelen,,,,1/7/2021
+BT. (BERLINER),kg,=,Bacillus thuringiensis Berliner,kg,Edelen,,,,1/7/2021
+BURKHOLDERIA A396 CELLS & MEDIA ,kg,~,Heat-Killed Burkholderia sp strain A396 cells and spent fermentation media,kg,Edelen,,,,1/7/2021
+BUTOXYPOLYPR. GLYCOL ,kg,=,Butoxypolypropylene glycol,kg,Edelen,,,,1/7/2021
+"CACODYLIC ACID, SODI",kg,~,Cacodylic acid,kg,Edelen,,,,1/7/2021
+CANOLA OIL,kg,=,Canola oil,kg,Edelen,,,,1/7/2021
+CHENOPODIUM AMBROSIO ,kg,=,Chenopodium ambrosioides,kg,Edelen,,,,1/7/2021
+CHITIN ,kg,=,Chitin,kg,Edelen,,,,1/7/2021
+CHLORPYRIFOS-METHYL,kg,=,Chlorpyrifos-methyl,kg,Edelen,,,,1/7/2021
+CHROMOBAC SUBTSUGAE PRAA4-1 CELLS AND SPENT MEDIA,kg,=,Chromobacterium subtsugae strain PRAA4-1 cells and spent fermentation media,kg,Edelen,,,,1/7/2021
+CINNAMALDEHYDE ,kg,=,Cinnamaldehyde,kg,Edelen,,,,1/7/2021
+CLORSULON ,kg,=,Clorsulon,kg,Edelen,,,,1/7/2021
+CLOVE OIL,kg,=,Clove oil,kg,Edelen,,,,1/7/2021
+"CUBE RESINS, OTHER",kg,,[unmapped],,,,,Group not found in SRS,
+CYANTRANILIPROLE ,kg,=,Cyantraniliprole,kg,Edelen,,,,1/7/2021
+CYCLANILIPROLE ,kg,=,Cyclaniliprole,kg,Edelen,,,,1/7/2021
+CYD-X GRANULO. VIRUS,kg,=,Cydia pomonella granulovirus,kg,Edelen,,,,1/7/2021
+CYDIA POMONELLA GRANULOVIRUS V22,kg,=,Cydia pomonella granulovirus isolate V22,kg,Edelen,,,,1/7/2021
+"D-GLUCITOL, OCTANOAT",kg,=,D-Glucitol octanoate,kg,Edelen,,,,1/7/2021
+DISOD. OCTA. TETRA.,kg,=,Disodium octaborate tetrahydrate,kg,Edelen,,,,1/7/2021
+DORAMECTIN ,kg,=,Doramectin,kg,Edelen,,,,1/7/2021
+EPRINOMECTIN ,kg,=,Eprinomectin,kg,Edelen,,,,1/7/2021
+ETHOFENPROX ,kg,=,Etofenprox,kg,Edelen,,,,1/7/2021
+ETHOXY SEC. ALCOHOLS,kg,,[unmapped],,,,,Group not found in SRS,
+ETHYL (2E;4Z)-DECADIENOATE,kg,=,"2,4-Decadienoic acid, ethyl ester, (2E,4Z)-",kg,Edelen,,,,1/7/2021
+ETHYL PARATHION,kg,=,Parathion,kg,Edelen,,,,1/7/2021
+EXCL NEMATICIDES,kg,,[unmapped],,,,,Group not found in SRS,
+FENAZAQUIN ,kg,=,Fenazaquin,kg,Edelen,,,,1/7/2021
+FERRIC SODIUM EDTA,kg,=,Ethylenediaminetetraacetic acid ferric sodium salt,kg,Edelen,,,,1/7/2021
+FLUPYRADIFURONE ,kg,=,Flupyradifurone,kg,Edelen,,,,1/7/2021
+FORMETANATE HYDRO,kg,=,Formetanate hydrochloride,kg,Edelen,,,,1/7/2021
+GS-OMEGA/KAPPA-HXTX-HV1A,kg,=,GS-omega/kappa-Hxtx-Hv1a,kg,Edelen,,,,1/7/2021
+HALOFENOZIDE ,kg,=,Halofenozide,kg,Edelen,,,,1/7/2021
+"HELICOVERPA ARMIGERA NUCLEPOLYHEDROVIRUS, STRAIN BV-0003",kg,=,"Helicoverpa armigera nucleopolyhedrovirus, strain BV-0003",kg,Edelen,,,,1/7/2021
+HELICOVERPA ZEA NPV,kg,=,Helicoverpa zea ABA-NPV-U,kg,Edelen,,,,1/7/2021
+IMIPROTHRIN ,kg,=,Imiprothrin,kg,Edelen,,,,1/7/2021
+IVERMECTIN ,kg,=,Ivermectin,kg,Edelen,,,,1/7/2021
+JOJOBA OIL,kg,=,Jojoba wax,kg,Edelen,,,,1/7/2021
+KINOPRENE ,kg,=,S-Kinoprene,kg,Edelen,,,,1/7/2021
+METHYL SALICYLATE,kg,=,Methyl salicylate,kg,Edelen,,,,1/7/2021
+MEVINPHOS ,kg,=,Mevinphos,kg,Edelen,,,,1/7/2021
+MILBEMECTIN ,kg,=,Milbemycin A3,kg,Edelen,,,,1/7/2021
+MOXIDECTIN ,kg,=,Moxidectin,kg,Edelen,,,,1/7/2021
+MUSTARD OIL,kg,=,Allyl isothiocyanate,kg,Edelen,,,,1/7/2021
+MYROTHECIUM VERRUC.,kg,=,Myrothecium verrucaria,kg,Edelen,,,,1/7/2021
+NEEM OIL,kg,=,Neem oil,kg,Edelen,,,,1/7/2021
+NEMATICIDES,kg,,[unmapped],,,,,Group not found in SRS,
+NOSEMA LOCUSTAE,kg,=,Nosema locustae,kg,Edelen,,,,1/7/2021
+NURANONE ,kg,=,Japonilure,kg,Edelen,,,,1/7/2021
+OCTACIDE-264 ,kg,=,N-2-Ethylhexylbicycloheptenedicarboximide,kg,Edelen,,,,1/7/2021
+OXYDEMETON-METHYL,kg,=,Oxydemeton-methyl,kg,Edelen,,,,1/7/2021
+PETROLEUM OIL,kg,=,Petroleum oil,kg,Edelen,,,,1/7/2021
+PHOSPHINE GAS,kg,=,Phosphine,kg,Edelen,,,,1/7/2021
+PIRIMIPHOS-METHYL,kg,=,Pirimiphos-methyl,kg,Edelen,,,,1/7/2021
+PYRIDALYL ,kg,=,Pyridalyl,kg,Edelen,,,,1/7/2021
+ROSEMARY OIL,kg,=,Rosemary oil,kg,Edelen,,,,1/7/2021
+RYANIA ,kg,=,Ryanodine,kg,Edelen,,,,1/7/2021
+S-KINOPRENE,kg,=,S-Kinoprene,kg,Edelen,,,,1/7/2021
+S-METHOPRENE,kg,=,Methoprene,kg,Edelen,,,,1/7/2021
+SABADILLA ,kg,=,Veratrine (mixture),kg,Edelen,,,,1/7/2021
+SESAME OIL,kg,=,Sesame oil,kg,Edelen,,,,1/7/2021
+SILICON DIOXIDE,kg,=,Silicon Dioxide,kg,Edelen,,,,1/7/2021
+SOYBEAN OIL,kg,=,Soy oil,kg,Edelen,,,,1/7/2021
+SUCROSE OCTANOATE,kg,,[unmapped],,,,,Group not found in SRS,
+SULFOTEPP ,kg,=,Sulfotep,kg,Edelen,,,,1/7/2021
+SULFOXAFLOR ,kg,=,Methyl[1-(2-trifluoromethylpyridin-5-yl)ethyl]-N-cyanosulfoximine,kg,Edelen,,,,1/7/2021
+TRICOSENE ,kg,=,1-Tricosene,kg,Edelen,,,,1/7/2021
+TRIMETHACARB ,kg,=,Trimethacarb,kg,Edelen,,,,1/7/2021
+"(3S,6R)METHYLISOPROP",kg,~,(+)-trans-p-Menth-2-ene,kg,Edelen,,,,1/15/2021
+"(3S,6S)METHYLISOPROP",kg,,[unmapped],,,,,"Chemical, unknown",
+"(E,Z)-7,9-DODECADIENYL ACETATE",kg,=,"7,9-Dodecadien-1-ol, acetate, (7E,9Z)-",kg,Edelen,,,,1/15/2021
+(E;Z)-2;13-OCTADECADIEN-1-OL,kg,=,"(2E,13Z)-2,13-Octadecadienol",kg,Edelen,,,,1/15/2021
+(METH)PROPIONIC ACID,kg,,[unmapped],,,,,"Chemical, unknown",
+(Z)-11-HEXADECENAL,kg,=,(Z)-11-Hexadecenal,kg,Edelen,,,,1/15/2021
+"(Z,E)-9,12-TETRADECADIEN-1-YL-ACETATE",kg,=,"(9E,12Z)-9,12-Tetradecadien-1-ol acetate",kg,Edelen,,,,1/15/2021
+(Z;Z)-2;13-OCTADECADIEN-1-OL ACETATE,kg,,[unmapped],,,,,,
+(Z;Z)-3;13-OCTADECADIEN-1-OL,kg,=,"Z,E-3,13-Octadecadien-1-ol",kg,Edelen,,,,1/15/2021
+1-OCTANOL,kg,=,1-Octanol,kg,Edelen,,,,1/15/2021
+"2,4-D, CHOLINE SALT",kg,=,"2,4-D choline salt",kg,Edelen,,,,1/15/2021
+"2,4-D, TRIETHYLAMINE SALT",kg,=,"2,4-D triethylamine salt",kg,Edelen,,,,1/15/2021
+"2,4-DB",kg,=,"2,4-DB",kg,Edelen,,,,1/15/2021
+"2,4-DB; SODIUM SALT",kg,=,"2,4-D dimethylamine salt",kg,Edelen,,,,1/15/2021
+"2,4-DP, 2-BEE",kg,=,"2,4-D 2-butoxyethyl ester",kg,Edelen,,,,1/15/2021
+"2,4-DP, DIMETH. SALT",kg,=,"2,4-D dimethylamine salt",kg,Edelen,,,,1/15/2021
+"2,4-DP-P, 2-EH",kg,=,Dichlorprop-P-2-ethylhexyl,kg,Edelen,,,,1/15/2021
+2-PHENYLETHYL PROPIONATE,kg,=,2-Phenylethyl propionate,kg,Edelen,,,,1/15/2021
+4-TERT-AMYLPHENOL,kg,=,p-tert-Amylphenol,kg,Edelen,,,,1/15/2021
+A. FLAVUS NRRL 21882,kg,=,Aspergillus flavus NRRL 21882,kg,Edelen,,,,1/15/2021
+ACEQUINOCYL,kg,=,Acequincyl,kg,Edelen,,,,1/15/2021
+AGRIPHAGE,kg,,[unmapped],,,,,"Split, Bacteriophage active against xanthomonas campestris pv. Vesicatoria & Bacteriophage active against pseudomonas syringae pv. Tomato",
+AGROBACTERIUM RADIO.,kg,>,Agrobacterium radiobacter (strain K84),kg,Edelen,,,SRS has specific strains,1/15/2021
+ALK. DIM. BENZYL 50%,kg,=,Benzalkonium chloride,kg,Edelen,,,,1/15/2021
+ALK. DIM. BENZYL 60%,kg,=,Benzalkonium chloride,kg,Edelen,,,,1/15/2021
+ALK. DIM. ETH. BENZ.,kg,=,C12-14-Alkyldimethyl(ethylbenzyl) ammonium chlorides,kg,Edelen,,,,1/15/2021
+ALK. DIM. ETHBZ. AM.,kg,=,C12-14-Alkyldimethyl(ethylbenzyl) ammonium chlorides,kg,Edelen,,,,1/15/2021
+ALKYL. DIM. BENZ. AM,kg,=,Benzalkonium chloride,kg,Edelen,,,,1/15/2021
+AMINOPYRALID,kg,=,Aminopyralid,kg,Edelen,,,,1/15/2021
+AMINOPYRIDINE,kg,=,Pyridinamine,kg,Edelen,,,,1/15/2021
+AMM. SOAP FATTY ACID,kg,~,C8-18 and C18-Unsaturated fatty acids ammonium salts,kg,Edelen,,,,1/15/2021
+AMMONIUM BENZADOX,kg,=,Ammonium benzadox,kg,Edelen,,,,1/15/2021
+AMMONIUM CHLORAMBEN,kg,=,Chloramben-ammonium,kg,Edelen,,,,1/15/2021
+AMMONIUM PELARGONATE,kg,=,Ammonium nonanoate,kg,Edelen,,,,1/15/2021
+AMMONIUM THIOSULFATE,kg,=,Ammonium thiosulfate,kg,Edelen,,,,1/15/2021
+AQ-10 BIOFUNGICIDE,kg,,[unmapped],,,,,"Biofungicide, unknown",
+ARSENIC ACID,kg,=,Arsenic acid,kg,Edelen,,,,1/15/2021
+ASPERGILLUS FLAVUS,kg,=,Aspergillus flavus,kg,Edelen,,,,1/15/2021
+"ASULAM, SODIUM SALT",kg,=,Sodium asulam,kg,Edelen,,,,1/15/2021
+AUREOBASIDIUM PULLULANS DSM 14940,kg,=,Aureobasidium pullulans strains DSM 14940,kg,Edelen,,,,1/15/2021
+AUREOBASIDIUM PULLULANS DSM 14941,kg,=,Aureobasidium pullulans strain DSM 14941,kg,Edelen,,,,1/15/2021
+BACILLUS AMYLOLIQUEFAC F727,kg,=,Bacillus amyloliquefaciens strain F727,kg,Edelen,,,,1/15/2021
+BACILLUS AMYLOLIQUEFACIENS MBI 600,kg,=,Bacillus amyloliquefaciens MBI 600,kg,Edelen,,,,1/15/2021
+BACILLUS AMYLOLIQUEFACIENS STRAIN D747,kg,=,Bacillus amyloliquefaciens strain D747,kg,Edelen,,,,1/15/2021
+BACILLUS CEREUS,kg,=,Bacillus cereus,kg,Edelen,,,,1/15/2021
+BACILLUS PUMILUS,kg,=,Bacillus pumilus,kg,Edelen,,,,1/15/2021
+BACILLUS SUBT. GB03,kg,=,Bacillus subtilis GB03,kg,Edelen,,,,1/15/2021
+BACILLUS SUBTILIS,kg,=,Bacillus subtilis,kg,Edelen,,,,1/15/2021
+BACILLUS SUBTILIS AMYLOLIQUEFAC FZB24,kg,=,Bacillus subtilis var. amyloliquefaciens strain FZB24,kg,Edelen,,,,1/15/2021
+BACTERIOPHAGE,kg,=,Bacteriophages,kg,Edelen,,,,1/15/2021
+BACTERIOPHAGE ACT. VS PSUEDO. SYRINGAE PV. TOMATO,kg,=,Bacteriophage active against pseudomonas syringae pv. tomato,kg,Edelen,,,,1/15/2021
+BAPMA SALT OF DICAMBA,kg,=,"Dicamba N,N-bis(3-aminopropyl)methylamine salt",kg,Edelen,,,,1/15/2021
+BAS COPPER ZINC SULF,kg,,[unmapped],,,,,"Chemical, unknown",
+BENZETHONIUM CHLORID,kg,=,Benzethonium chloride,kg,Edelen,,,,1/15/2021
+BENZOVINDIFLUPYR,kg,=,Benzovindiflupyr,kg,Edelen,,,,1/15/2021
+BENZYLCHLOROPHENOL,kg,=,o-Benzyl-p-chlorophenol,kg,Edelen,,,,1/15/2021
+BICYCLOPYRONE,kg,=,Bicyclopyrone,kg,Edelen,,,,1/15/2021
+BIS(TRICHLOROMETHYL) SULFONE,kg,=,Bis(trichloromethyl) sulfone,kg,Edelen,,,,1/15/2021
+BLAD,kg,=,banda de Lupinue albus doce,kg,Edelen,,,,1/15/2021
+BORAX DECAHYDRATE,kg,=,Borax,kg,Edelen,,,,1/15/2021
+"BROMACIL, LITHIUM SALT",kg,=,"Bromacil, lithium salt",kg,Edelen,,,,1/15/2021
+BROMADIOLONE,kg,=,Bromadiolone,kg,Edelen,,,,1/15/2021
+BROMETHALIN,kg,=,Bromethalin,kg,Edelen,,,,1/15/2021
+BT ISRAELENSIS AM 65-52,kg,=,Bacillus thuringiensis subspecies israelensis strain AM 65-52,kg,Edelen,,,,1/15/2021
+BT KURSTAKI SA-12,kg,=,Bacillus thuringiensis ssp. kurstaki strain SA-12,kg,Edelen,,,,1/15/2021
+BT SUBSP KURSTAKI EVB-113-19,kg,=,"Bacillus thuringiensis subspecies kurstaki, strain EVB-113-19",kg,Edelen,,,,1/15/2021
+BUSAN 77,kg,,[unmapped],,,,,"Chemical, unknown",
+BUTANONE,kg,=,Methyl ethyl ketone,kg,Edelen,,,,1/15/2021
+BUTOXYETHYL TRICLOPY,kg,=,Triclopyr-butotyl,kg,Edelen,,,,1/15/2021
+CALCIUM HYDROXIDE,kg,=,Calcium hydroxide,kg,Edelen,,,,1/15/2021
+CALCIUM HYPOCHLORITE,kg,=,Calcium hypochlorite,kg,Edelen,,,,1/15/2021
+CAPRIC ACID,kg,=,Decanoic acid,kg,Edelen,,,,1/15/2021
+CAPRYLIC ACID,kg,=,Octanoic acid,kg,Edelen,,,,1/15/2021
+CAPSICUM OLEORESIN EXTRACT,kg,=,Capsicum oleoresins,kg,Edelen,,,,1/15/2021
+CARBON,kg,=,Carbon,kg,Edelen,,,,1/15/2021
+CASTOR OIL,kg,=,Castor oil,kg,Edelen,,,,1/15/2021
+CEREVISANE,kg,=,Cerevisane,kg,Edelen,,,,1/15/2021
+CHITOSAN,kg,=,Chitosan,kg,Edelen,,,,1/15/2021
+CHLORONEB,kg,=,Chloroneb,kg,Edelen,,,,1/15/2021
+CHLOROPHACINONE,kg,=,Chlorophacinone,kg,Edelen,,,,1/15/2021
+CHOLECALCIFEROL,kg,=,Cholecalciferol,kg,Edelen,,,,1/15/2021
+CITRONELLOL,kg,=,Citronellol,kg,Edelen,,,,1/15/2021
+CONIOTHYRIUM MINITAN,kg,>,Coniothyrium minitans strain CON/M/91-08,kg,Edelen,,,SRS has a particular strain,1/15/2021
+COPPER (METALLIC),kg,=,Copper,kg,Edelen,,,,1/15/2021
+COPPER AMM. COMPLEX,kg,=,Copper tetraamine,kg,Edelen,,,,1/15/2021
+COPPER AMMONIUM,kg,,[unmapped],,,,,"Chemical, unknown",
+COPPER ETHANOLAMINE,kg,=,Copper(II) 2-aminoethanolate,kg,Edelen,,,,1/15/2021
+COPPER OXYCHLO. SUL.,kg,=,Copper oxychloride sulfate,kg,Edelen,,,,1/15/2021
+COPPER SULFATE MONOH,kg,=,Cupric sulfate monohydrate,kg,Edelen,,,,1/15/2021
+"CYCLOPROPENE,1-METHY",kg,=,1-Methylcyclopropene,kg,Edelen,,,,1/15/2021
+CYFLUMETOFEN,kg,=,Cyflumetofen,kg,Edelen,,,,1/15/2021
+CYTOKININS,kg,=,Gibberellic acid,kg,Edelen,,,,1/15/2021
+DECANOL,kg,=,1-Decanol,kg,Edelen,,,,1/15/2021
+DECENOL,kg,,[unmapped],,,,,"Chemical, unknown",
+DECENYL ACETATE,kg,,[unmapped],,,,,"Chemical, unknown",
+DECYLDIMETHYLOCTYL,kg,=,Octyl decyl dimethyl ammonium chloride,kg,Edelen,,,,1/15/2021
+DIALKYL METH. BENZY.,kg,~,C12-18-Dialkylmethylbenzyl ammonium chlorides,kg,Edelen,,,,1/15/2021
+DIBUTALIN,kg,=,Butralin,kg,Edelen,,,,1/15/2021
+"DICAMBA, ISO SALT",kg,=,Dicamba-diolamine,kg,Edelen,,,,1/15/2021
+DICAMBA; BAPMA,kg,,[unmapped],,,,,"Two chemicals, 1918-00-9 & 105-83-9",
+DIDECYL DIM. AMMON.,kg,=,Didecyldimethylammonium,kg,Edelen,,,,1/15/2021
+DIETHATYL ETHYL,kg,=,Diethatyl ethyl,kg,Edelen,,,,1/15/2021
+DIFETHIALONE,kg,=,Difethialone,kg,Edelen,,,,1/15/2021
+DIKEGULAC-SODIUM,kg,=,Dikegulac-sodium,kg,Edelen,,,,1/15/2021
+DIMETHYL DISULFIDE (DMDS),kg,=,Methyl disulfide,kg,Edelen,,,,1/15/2021
+DIMETHYLDIOCTYL,kg,=,Dimethyl dioctyl ammonium chloride,kg,Edelen,,,,1/15/2021
+DIPHACINONE,kg,=,Diphacinone,kg,Edelen,,,,1/15/2021
+DIPOTASSIUM PHOSPHATE,kg,=,Dipotassium phosphate,kg,Edelen,,,,1/15/2021
+DSMA,kg,=,Disodium methanearsonate,kg,Edelen,,,,1/15/2021
+ERWINIA AMYLOVORA,kg,~,Bacteriophage active against Erwinia amylovora,kg,Edelen,,,"This is actualy the bacteria that causes fire blight, I mapped it to the bacterophage that destroys the bacteria as the bacterophage is a pesticide.",1/15/2021
+ETHABOXAM,kg,=,Ethaboxam,kg,Edelen,,,,1/15/2021
+FARNESOL,kg,=,Farnesol,kg,Edelen,,,,1/15/2021
+FATTY ACIDS,kg,=,Fatty acids,kg,Edelen,,,,1/15/2021
+FATTY ALCOHOLS,kg,,[unmapped],,,,,"Group, unknown",
+FENOXAPROP,kg,=,Fenoxaprop,kg,Edelen,,,,1/15/2021
+FLAZASULFURON,kg,=,Flazasulfuron,kg,Edelen,,,,1/15/2021
+FLUENSULFONE,kg,=,Fluensulfone,kg,Edelen,,,,1/15/2021
+FLUTIANIL,kg,=,Flutianil,kg,Edelen,,,,1/15/2021
+FORAMSULFURON,kg,=,Foramsulfuron,kg,Edelen,,,,1/15/2021
+GABA,kg,=,4-Aminobutanoic acid,kg,Edelen,,,,1/15/2021
+GARLIC OIL,kg,=,Garlic oil,kg,Edelen,,,,1/15/2021
+GLIOCLADIUM VIRENS,kg,=,Gliocladium virens,kg,Edelen,,,,1/15/2021
+GLYPHOSATE DIA. SALT,kg,=,Diammonium N-(phosphonomethyl)glycine,kg,Edelen,,,,1/15/2021
+GOSSYPLURE,kg,=,Gossyplure,kg,Edelen,,,,1/15/2021
+HALAUXIFEN-METHYL,kg,=,Halauxifen-methyl,kg,Edelen,,,,1/15/2021
+HALOBROM,kg,=,"1-Bromo-3-chloro-5,5-dimethylhydantoin",kg,Edelen,,,,1/15/2021
+HARPIN A B PROTEIN,kg,=,Harpin alpha beta protein,kg,Edelen,,,,1/15/2021
+HARPIN PROTEIN,kg,=,Harpin Ea,kg,Edelen,,,,1/15/2021
+HELICOVERPA ZEA ABA-NPV-U,kg,=,Helicoverpa zea ABA-NPV-U,kg,Edelen,,,,1/15/2021
+"HEXADECADIEN (Z,Z)",kg,=,"(E,Z)-7,11-Hexadecadien-1-yl acetate",kg,Edelen,,,,1/15/2021
+HEXADECENAL,kg,=,(Z)-11-Hexadecenal,kg,Edelen,,,,1/15/2021
+HEXADECENYL ACETATE,kg,~,(Z)-11-Hexadecen-1-ol acetate,kg,Edelen,,,,1/15/2021
+HOMOBRASSINOLIDE,kg,=,Homobrassinolide,kg,Edelen,,,,1/15/2021
+"HYDANTOIN, DIMETHYL",kg,=,"5,5-Dimethylhydantoin",kg,Edelen,,,,1/15/2021
+"HYDANTOIN, METHYL",kg,,[unmapped],,,,,"Chemical, unknown",
+IMAZAMETHABENZ,kg,=,Imazamethabenz-methyl,kg,Edelen,,,,1/15/2021
+IMAZAMOX; SODIUM SALT,kg,,[unmapped],,,,,"Chemical, unknown",
+"IMAZAPYR, ISO. SALT",kg,=,"Imazapyr, isopropylamine salt",kg,Edelen,,,,1/15/2021
+"IMAZAQUIN, SOD. SALT",kg,=,"Imazaquin, sodium salt",kg,Edelen,,,,1/15/2021
+INDOLEBUTYRIC ACID,kg,=,Indole-3-butyric acid,kg,Edelen,,,,1/15/2021
+IODOMETHANE,kg,=,Methyl iodide,kg,Edelen,,,,1/15/2021
+IODOSULFURON-MET-SOD,kg,=,Iodosulfuron-methyl-sodium,kg,Edelen,,,,1/15/2021
+IPCONAZOLE,kg,=,Ipconazole,kg,Edelen,,,,1/15/2021
+IRON PHOSPHATE,kg,=,Ferric phosphate,kg,Edelen,,,,1/15/2021
+ISOFETAMID,kg,=,Isofetamid,kg,Edelen,,,,1/15/2021
+KASUGAMYCIN,kg,=,Kasugamycin,kg,Edelen,,,,1/15/2021
+KINETIN,kg,=,Kinetin,kg,Edelen,,,,1/15/2021
+LACTIC ACID,kg,=,Lactic acid,kg,Edelen,,,,1/15/2021
+LAMINARIN,kg,=,Laminaran,kg,Edelen,,,,1/15/2021
+LAVANDULYL SENECIOAT,kg,=,5-Methyl-2-(prop-1-en-2-yl)hex-4-en-1-yl 3-methylbut-2-enoate,kg,Edelen,,,,1/15/2021
+L-GLUTAMIC ACID,kg,=,L-Glutamic acid,kg,Edelen,,,,1/15/2021
+MAGNESIUM DALAPON,kg,=,Magnesium dalapon,kg,Edelen,,,,1/15/2021
+MCPA,kg,=,MCPA,kg,Edelen,,,,1/15/2021
+"MCPA, SODIUM SALT",kg,=,Methoxone sodium salt,kg,Edelen,,,,1/15/2021
+"MCPP, DMA SALT",kg,=,Mecoprop dimethylamine salt,kg,Edelen,,,,1/15/2021
+"MCPP-P, DMA SALT",kg,=,(R)-Mecoprop dimethylamine salt,kg,Edelen,,,,1/15/2021
+MCPP-P-POTASSIUM,kg,=,Mecoprop-P-potassium,kg,Edelen,,,,1/15/2021
+"MECOPROP, POTASSIUM",kg,=,Mecoprop potassium salt,kg,Edelen,,,,1/15/2021
+"MEFLUIDIDE, DIET.",kg,=,Mefluidide diethanolamine salt,kg,Edelen,,,,1/15/2021
+METHAZOLE,kg,=,Methazole,kg,Edelen,,,,1/15/2021
+METHYL ISOTHIOCYA.,kg,=,Methyl isothiocyanate,kg,Edelen,,,,1/15/2021
+MILBAN,kg,,[unmapped],,,,,"Chemical, unknown",
+NAA,kg,=,1-Naphthaleneacetic acid,kg,Edelen,,,,1/15/2021
+"NAA, ETHYL ESTER",kg,=,Ethyl 1-naphthaleneacetate,kg,Edelen,,,,1/15/2021
+NAPTALAM,kg,=,Naptalam,kg,Edelen,,,,1/15/2021
+NRRL B-21856,kg,=,Pantoea agglomerans strain E325; NRRL B-21856,kg,Edelen,,,,1/15/2021
+"OCTADECADIEN (E,Z)",kg,=,"(E,Z)-3,13-Octadecadienyl acetate",kg,Edelen,,,,1/15/2021
+"OCTADECADIEN (Z,Z)",kg,=,"(Z,Z)-3,13-Octadecadienyl acetate",kg,Edelen,,,,1/15/2021
+ORTHOPHENYLPHENOL,kg,=,2-Phenylphenol,kg,Edelen,,,,1/15/2021
+OXADIAZON,kg,=,Oxadiazon,kg,Edelen,,,,1/15/2021
+OXATHIAPIPROLIN,kg,=,Oxathiapiprolin,kg,Edelen,,,,1/15/2021
+PAECILOMYCES FUMOSOR,kg,=,Paecilomyces fumosoroseus,kg,Edelen,,,,1/15/2021
+PAECILOMYCES LILACIN,kg,=,Paecilomyces lilacinus,kg,Edelen,,,,1/15/2021
+PELARGONIC ACID,kg,=,Nonanoic acid,kg,Edelen,,,,1/15/2021
+PEROXYACETIC ACID,kg,=,Peracetic acid,kg,Edelen,,,,1/15/2021
+"PICLORAM, K SALT",kg,=,Picloram-potassium,kg,Edelen,,,,1/15/2021
+"PICLORAM, TRIISOPROP",kg,=,Picloram triisopropanolamine salt,kg,Edelen,,,,1/15/2021
+"PLANT EXTRACT, MULTI SPECIES",kg,,[unmapped],,,,,"Biological, unknown",
+POTASSIUM GIBBER.,kg,=,Potassium gibberellate,kg,Edelen,,,,1/15/2021
+POTASSIUM SILICATE,kg,=,Potassium silicate,kg,Edelen,,,,1/15/2021
+PROHYDROJASMON,kg,=,Prohydrojasmon,kg,Edelen,,,,1/15/2021
+PROPANOIC ACID,kg,=,Propionic acid,kg,Edelen,,,,1/15/2021
+PSEUDO FLUORES A506,kg,=,Pseudomonas fluorescens A506,kg,Edelen,,,,1/15/2021
+PT807-HCL,kg,=,"N,N-Diethyl-2-(4-methylbenzyloxy) ethylamine hydrochloride",kg,Edelen,,,,1/15/2021
+PYRAZON,kg,=,Pyrazon,kg,Edelen,,,,1/15/2021
+PYRIOFENONE,kg,=,Pyriofenone,kg,Edelen,,,,1/15/2021
+QUILLAJA SAPONINS,kg,=,"Saponins, Quillaja saponaria",kg,Edelen,,,,1/15/2021
+QUIZALOFOP-ETHYL,kg,=,Quizalofop-ethyl,kg,Edelen,,,,1/15/2021
+RHAMNOLIPID,kg,,[unmapped],,,,,"Group, unknown",
+SCILLIROSIDE,kg,=,Scilliroside,kg,Edelen,,,,1/15/2021
+SEDAXANE,kg,=,Sedaxane,kg,Edelen,,,,1/15/2021
+SILICIC ACID,kg,=,Silicic acid,kg,Edelen,,,,1/15/2021
+SODIUM 5-NITROGUAIAC,kg,=,2-Methoxy-5-nitrophenol sodium salt,kg,Edelen,,,,1/15/2021
+SODIUM CHLORAMBEN,kg,=,Chloramben-sodium,kg,Edelen,,,,1/15/2021
+SODIUM CHLORITE,kg,=,Sodium chlorite,kg,Edelen,,,,1/15/2021
+SODIUM HYPOCHLORITE,kg,=,Sodium hypochlorite,kg,Edelen,,,,1/15/2021
+SODIUM METABORATE,kg,=,Sodium metaborate,kg,Edelen,,,,1/15/2021
+SODIUM O-NITROPHENOL,kg,=,o-Nitrophenol sodium salt,kg,Edelen,,,,1/15/2021
+SODIUM PERCARBONATE,kg,=,Sodium percarbonate,kg,Edelen,,,,1/15/2021
+SODIUM P-NITROPHENOL,kg,=,p-Nitrophenol sodium salt,kg,Edelen,,,,1/15/2021
+SODIUM TETRATHIOCARB,kg,=,Sodium tetrathiocarbonate,kg,Edelen,,,,1/15/2021
+SODIUM TRICHLOROACET,kg,=,Sodium trichloroacetate,kg,Edelen,,,,1/15/2021
+SPODOPTERA FRUGIPERDA,kg,=,Spodoptera frugiperda,kg,Edelen,,,,1/15/2021
+STODDARD SOLVENT,kg,=,Stoddard solvent,kg,Edelen,,,,1/15/2021
+STREPTOMYCES GRIS.,kg,=,Streptomyces griseus,kg,Edelen,,,,1/15/2021
+STREPTOMYCES LYDICUS,kg,=,Streptomyces lydicus WYEC 108,kg,Edelen,,,,1/15/2021
+STREPTOMYCIN,kg,=,Streptomycin,kg,Edelen,,,,1/15/2021
+SULFAQUINOXALINE,kg,=,Sulfaquinoxaline,kg,Edelen,,,,1/15/2021
+SWINGLEA GLUTINOSA,kg,=,Extract of Swinglea glutinosa,kg,Edelen,,,,1/15/2021
+TEA TREE OIL,kg,=,Tea tree oil,kg,Edelen,,,,1/15/2021
+TETRADECEN-1-OL (Z),kg,,[unmapped],,,,,"Chemical, unknown",
+TETRADECEN-1-YL E,kg,=,(E)-11-Tetradecen-1-ol acetate,kg,Edelen,,,,1/15/2021
+TETRASODIUM SALT,kg,~,Ethylenediaminetetraacetic acid tetrasodium salt,kg,Edelen,,,,1/15/2021
+THIABENDAZOLE (TBZ),kg,=,Thiabendazole,kg,Edelen,,,,1/15/2021
+THYME OIL,kg,=,Thyme oil,kg,Edelen,,,,1/15/2021
+"TOTAL, FUNCIDIDES",kg,,[unmapped],,,,,"Group, unknown",
+"TRANS-9, CIS-11-TETRADECADIENYL ACETATE",kg,~,"9,11-Tetradecadien-1-ol, acetate, (9Z,11E)-",kg,Edelen,,,,1/15/2021
+TRICHODERMA ASPERELLUM STRAIN ICC 012,kg,=,Trichoderma asperellum Strain ICC 012,kg,Edelen,,,,1/15/2021
+TRICHODERMA GAMISII STRAIN ICC 080,kg,=,Trichoderma gamsii Strain ICC 080,kg,Edelen,,,,1/15/2021
+TRICHODERMA HARZ.,kg,=,Trichoderma harzianum,kg,Edelen,,,,1/15/2021
+TRICHODERMA VIRENS STRAIN G-41,kg,=,Trichoderma virens strain G-41,kg,Edelen,,,,1/15/2021
+TRIDECEN-1-YL-ACETAT,kg,,[unmapped],,,,,"Chemical, unknown ",
+TRIDECENYL ACETATE,kg,,[unmapped],,,,,"Chemical, unknown ",
+TRIDIPHANE,kg,=,Tridiphane,kg,Edelen,,,,1/15/2021
+TRIFLUSULFURONMETHYL,kg,=,Triflusulfuron-methyl,kg,Edelen,,,,1/15/2021
+TRIISOPROPANOLAMINE,kg,=,Triisopropanolamine,kg,Edelen,,,,1/15/2021
+TRITCONAZOLE,kg,=,Triticonazole,kg,Edelen,,,,1/15/2021
+ULOCLADIUM OUDEMANSII U3,kg,=,Ulocladium oudemansii U3 Strain,kg,Edelen,,,,1/15/2021
+UNICONAZOLE P,kg,=,Uniconazole-P,kg,Edelen,,,,1/15/2021
+XYLENOL,kg,=,Dimethylphenol,kg,Edelen,,,,1/15/2021
+Z-11-TETRADECENAL,kg,=,"11-Tetradecenal, (11Z)-",kg,Edelen,,,,1/15/2021
+Z-11-TETRADECENOL,kg,=,(Z)-11-Tetradecen-1-ol,kg,Edelen,,,,1/15/2021
+Z-8-DODECANOL,kg,,[unmapped],,,,,"Chemical, unknown",
+Z-9-TETRADECEN-1-YL ACETATE,kg,=,"9-Tetradecen-1-ol, acetate, (9Z)-",kg,Edelen,,,,1/15/2021
