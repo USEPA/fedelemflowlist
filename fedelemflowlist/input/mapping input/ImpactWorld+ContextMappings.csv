@@ -228,15 +228,17 @@ Secondary Vegetation,resource/ground/terrestrial/forest
 "Water, UNKNOWN",resource/water/subterranean/saline water body
 "Water, UNKNOWN",resource/water/subterranean/saline water body/confined aquifer
 "Water, UNKNOWN",resource/water/subterranean/saline water body/unconfined aquifer
-"Water, S2b",resource/water
-"Water, S2b",resource/water/fresh water body
-"Water, S2b",resource/water/fresh water body/lake
-"Water, S2b",resource/water/fresh water body/lake/rural
-"Water, S2b",resource/water/fresh water body/lake/urban
-"Water, S2b",resource/water/fresh water body/river
-"Water, S2b",resource/water/fresh water body/river/rural
-"Water, S2b",resource/water/fresh water body/river/urban
-"Water, G2b",resource/water/subterranean
-"Water, G2b",resource/water/subterranean/fresh water body
-"Water, G2b",resource/water/subterranean/fresh water body/confined aquifer
-"Water, G2b",resource/water/subterranean/fresh water body/unconfined aquifer
+"Water, Surface",resource/water
+"Water, Surface",resource/water/fresh water body
+"Water, Surface",resource/water/fresh water body/lake
+"Water, Surface",resource/water/fresh water body/lake/rural
+"Water, Surface",resource/water/fresh water body/lake/urban
+"Water, Surface",resource/water/fresh water body/river
+"Water, Surface",resource/water/fresh water body/river/rural
+"Water, Surface",resource/water/fresh water body/river/urban
+"Water, Ground",resource/water/subterranean
+"Water, Ground",resource/water/subterranean/fresh water body
+"Water, Ground",resource/water/subterranean/fresh water body/confined aquifer
+"Water, Ground",resource/water/subterranean/fresh water body/unconfined aquifer
+"Water, Rain",resource/air
+"Water, Rain",resource/air/troposphere
