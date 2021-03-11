@@ -47,6 +47,7 @@ Geological,Resource,Water,1,0,0,0,0,0,0,0,1
 Geological,Emission,Air,0,0,0,0,0,0,0,0,0
 Geological,Emission,Air,1,0,0,0,0,0,0,0,0
 Geological,Emission,Air,1,0,0,0,0,0,1,0,0
+Geological,Emission,Air,1,0,0,0,0,0,1,1,1
 Geological,Emission,Ground,1,0,0,0,0,0,0,0,1
 Geological,Emission,Ground,0,1,1,0,0,0,0,0,1
 Geological,Emission,Ground,0,1,0,1,0,0,0,0,1
