@@ -10034,6 +10034,7 @@ Isooctane,Emission,Ground
 Isooctane,Emission,Water
 Isoflurane,Emission,Air
 Chloroneb,Emission,Ground
+Chloroneb,Emission,Air
 Chloroneb,Emission,Water
 N-Lauryl-2-pyrrolidone,Emission,Air
 Methylfluorene,Emission,Air
@@ -10282,6 +10283,7 @@ Methocarbamol,Emission,Water
 2-Chloro-4-tert-amylphenol,Emission,Water
 3-Methoxypropylamine,Emission,Ground
 3-Methoxypropylamine,Emission,Water
+"Bromacil, lithium salt",Emission,Air
 "Bromacil, lithium salt",Emission,Ground
 "Bromacil, lithium salt",Emission,Water
 "2,4-D 2-ethyl-4-methylpentyl ester",Emission,Air
@@ -10417,6 +10419,7 @@ Ethyl methyl sulfide,Emission,Ground
 Ethyl methyl sulfide,Emission,Water
 Methyl nitrite,Emission,Air
 Methyl disulfide,Emission,Ground
+Methyl disulfide,Emission,Air
 Methyl disulfide,Emission,Water
 Ethyl methanesulfonate,Emission,Ground
 Ethyl methanesulfonate,Emission,Water
@@ -10540,6 +10543,7 @@ Samarium,Emission,Water
 Samarium,Resource,Ground
 Silicon,Emission,Ground
 Silicon,Emission,Water
+Silicon,Emission,Air
 Sodium,Emission,Ground
 Sodium,Emission,Water
 Strontium,Emission,Ground
@@ -10721,6 +10725,7 @@ Nitroethane,Emission,Ground
 Terpineol,Emission,Ground
 Terpineol,Emission,Water
 Benzalkonium chloride,Emission,Ground
+Benzalkonium chloride,Emission,Air
 Benzalkonium chloride,Emission,Water
 Manganese tallate,Emission,Air
 Lignosulfonic acid,Emission,Ground
@@ -11049,6 +11054,7 @@ Hexachlorodibenzofuran,Emission,Ground
 Hexachlorodibenzofuran,Emission,Water
 Sodium metaborate,Emission,Ground
 Sodium metaborate,Emission,Water
+Sodium metaborate,Emission,Air
 Carbon black,Emission,Air
 L-Glutamic acid,Emission,Air
 L-Glutamic acid,Emission,Ground
@@ -11061,6 +11067,7 @@ o-Nitrobenzoic acid,Emission,Air
 4-Aminobutanoic acid,Emission,Ground
 4-Aminobutanoic acid,Emission,Water
 Acequincyl,Emission,Ground
+Acequincyl,Emission,Air
 Acrinathrin,Emission,Ground
 Air,Emission,Air
 Air,Resource,Air
@@ -11106,6 +11113,7 @@ Dicamba-potassium,Emission,Water
 Dichromate,Emission,Water
 Diclofop,Emission,Ground
 Dikegulac-sodium,Emission,Ground
+Dikegulac-sodium,Emission,Air
 Dimefuron,Emission,Ground
 "Phosphonic acid, disodium salt",Emission,Ground
 Epoxiconazole,Emission,Air
@@ -11113,6 +11121,7 @@ Epoxiconazole,Emission,Ground
 Epoxiconazole,Emission,Water
 Etaconazole,Emission,Ground
 Fenazaquin,Emission,Ground
+Fenazaquin,Emission,Air
 Fenoxaprop,Emission,Air
 Fenoxaprop,Emission,Ground
 Fenoxaprop,Emission,Water
@@ -11120,8 +11129,10 @@ Fenoxaprop,Emission,Water
 "Piperidine, 1-[3-[4-(1,1-dimethylethyl)phenyl]-2-methylpropyl]-",Emission,Air
 "Piperidine, 1-[3-[4-(1,1-dimethylethyl)phenyl]-2-methylpropyl]-",Emission,Water
 Ferric phosphate,Emission,Ground
+Ferric phosphate,Emission,Air
 Ferric oxide,Emission,Air
 Flazasulfuron,Emission,Ground
+Flazasulfuron,Emission,Air
 Flufenoxuron,Emission,Ground
 Fluoxastrobin,Emission,Ground
 Fluoxastrobin,Emission,Air
@@ -11150,9 +11161,11 @@ Hydrobromic acid,Emission,Air
 "Imazaquin, sodium salt",Emission,Ground
 "Imazaquin, sodium salt",Emission,Water
 Iodosulfuron-methyl-sodium,Emission,Ground
+Iodosulfuron-methyl-sodium,Emission,Air
 Iprovalicarb,Emission,Ground
 Isocyanic acid,Emission,Air
 Ivermectin,Emission,Ground
+Ivermectin,Emission,Air
 Lactic acid,Emission,Air
 Lactic acid,Emission,Water
 Lufenuron,Emission,Ground
@@ -11197,6 +11210,7 @@ Triphenyltin,Emission,Ground
 Trichlorosilane,Emission,Air
 Trichlorosilane,Emission,Water
 Triticonazole,Emission,Ground
+Triticonazole,Emission,Air
 Turpentine,Emission,Air
 Vinyltoluene,Emission,Air
 Vinyltoluene,Emission,Ground
@@ -11213,11 +11227,14 @@ Cinidon-ethyl,Emission,Ground
 Dimoxystrobin,Emission,Ground
 Doramectin,Emission,Ground
 Eprinomectin,Emission,Ground
+Doramectin,Emission,Air
+Eprinomectin,Emission,Air
 Fluazifop,Emission,Ground
 Flupyrsulfuron-methyl,Emission,Ground
 "1-(2,4-Dichlorophenyl)-5-methyl-4,5-dihydro-1H-pyrazole-3,5-dicarboxylic acid",Emission,Ground
 Metosulam,Emission,Ground
 Moxidectin,Emission,Ground
+Moxidectin,Emission,Air
 "2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,Air
 "2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,Ground
 "2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,Water
@@ -11504,6 +11521,7 @@ Silicon,Emission,Air
 Sodium,Emission,Air
 Sodium chloride,Emission,Air
 Sodium tetrathiocarbonate,Emission,Ground
+Sodium tetrathiocarbonate,Emission,Air
 Strontium,Emission,Air
 Sulfate,Emission,Air
 Sulfur trioxide,Emission,Water
@@ -12464,6 +12482,7 @@ Tetrabromobisphenol A bis(2-hydroxyethyl) ether,Emission,Water
 "1,2,5,6,9,10-Hexabromocyclododecane",Emission,Water
 Milbemycin A4,Emission,Ground
 Milbemycin A3,Emission,Ground
+Milbemycin A3,Emission,Air
 Pentaerythritol stearate,Emission,Ground
 Pentaerythritol stearate,Emission,Water
 "2,4,4'-Trichlorobiphenyl",Emission,Water
@@ -12482,7 +12501,9 @@ Sodium 2-nitrobenzene-1-sulfonate,Emission,Air
 Sodium 2-nitrobenzene-1-sulfonate,Emission,Ground
 Sodium 2-nitrobenzene-1-sulfonate,Emission,Water
 1-Tricosene,Emission,Ground
+1-Tricosene,Emission,Air
 Veratrine (mixture),Emission,Ground
+Veratrine (mixture),Emission,Air
 "Propane, 1,1,1,2,2,3,3-heptafluoro-3-[(trifluoroethenyl)oxy]-",Emission,Air
 "Propane, bromo-",Emission,Water
 "Propane, bromo-",Emission,Air
@@ -12600,6 +12621,7 @@ Bezafibrate,Emission,Water
 "Bis-1,2-(chloromethoxy)ethane",Emission,Water
 "bis-1,4-(Chloromethoxymethyl)benzene",Emission,Air
 Bromadiolone,Emission,Ground
+Bromadiolone,Emission,Air
 Butafenacil,Emission,Ground
 C.I. Pigment Red 149,Emission,Water
 C.I. Pigment Yellow 109,Emission,Water
@@ -12613,6 +12635,7 @@ Carbamazepine,Emission,Ground
 Carbamazepine,Emission,Water
 CFC-215cb,Emission,Air
 Chlorophacinone,Emission,Ground
+Chlorophacinone,Emission,Air
 Chlorotetrafluoroethane,Emission,Air
 Chlorozotocin,Emission,Air
 Chlorozotocin,Emission,Ground
@@ -12631,6 +12654,7 @@ Diclofenac,Emission,Ground
 Diclofenac,Emission,Water
 Dicyanodiamide,Emission,Ground
 Difethialone,Emission,Ground
+Difethialone,Emission,Air
 Diisooctyl phthalate,Emission,Air
 Diisooctyl phthalate,Emission,Ground
 Diisooctyl phthalate,Emission,Water
@@ -12689,6 +12713,7 @@ Isophosphamide,Emission,Ground
 Isophosphamide,Emission,Water
 Isoxadifen-ethyl,Emission,Ground
 Laminaran,Emission,Ground
+Laminaran,Emission,Air
 Lauric diethanolamide,Emission,Air
 Lauric diethanolamide,Emission,Ground
 Lauric diethanolamide,Emission,Water
