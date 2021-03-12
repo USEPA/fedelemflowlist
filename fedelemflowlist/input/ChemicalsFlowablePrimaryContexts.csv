@@ -11212,6 +11212,7 @@ Trichlorosilane,Emission,Air
 Trichlorosilane,Emission,Water
 Triticonazole,Emission,Ground
 Triticonazole,Emission,Air
+Triticonazole,Emission,Water
 Turpentine,Emission,Air
 Vinyltoluene,Emission,Air
 Vinyltoluene,Emission,Ground
@@ -11236,6 +11237,7 @@ Flupyrsulfuron-methyl,Emission,Ground
 Metosulam,Emission,Ground
 Moxidectin,Emission,Ground
 Moxidectin,Emission,Air
+Moxidectin,Emission,Water
 "2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,Air
 "2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,Ground
 "2-[4,6-Bis(difluoromethoxy)pyrimidin-2-ylcarbamoylsulfamoyl]benzoic acid",Emission,Water
@@ -11522,6 +11524,7 @@ Sodium,Emission,Air
 Sodium chloride,Emission,Air
 Sodium tetrathiocarbonate,Emission,Ground
 Sodium tetrathiocarbonate,Emission,Air
+Sodium tetrathiocarbonate,Emission,Water
 Strontium,Emission,Air
 Sulfate,Emission,Air
 Sulfur trioxide,Emission,Water
@@ -12483,6 +12486,7 @@ Tetrabromobisphenol A bis(2-hydroxyethyl) ether,Emission,Water
 Milbemycin A4,Emission,Ground
 Milbemycin A3,Emission,Ground
 Milbemycin A3,Emission,Air
+Milbemycin A3,Emission,Water
 Pentaerythritol stearate,Emission,Ground
 Pentaerythritol stearate,Emission,Water
 "2,4,4'-Trichlorobiphenyl",Emission,Water
@@ -12502,8 +12506,10 @@ Sodium 2-nitrobenzene-1-sulfonate,Emission,Ground
 Sodium 2-nitrobenzene-1-sulfonate,Emission,Water
 1-Tricosene,Emission,Ground
 1-Tricosene,Emission,Air
+1-Tricosene,Emission,Water
 Veratrine (mixture),Emission,Ground
 Veratrine (mixture),Emission,Air
+Veratrine (mixture),Emission,Water
 "Propane, 1,1,1,2,2,3,3-heptafluoro-3-[(trifluoroethenyl)oxy]-",Emission,Air
 "Propane, bromo-",Emission,Water
 "Propane, bromo-",Emission,Air
@@ -12714,6 +12720,7 @@ Isophosphamide,Emission,Water
 Isoxadifen-ethyl,Emission,Ground
 Laminaran,Emission,Ground
 Laminaran,Emission,Air
+Laminaran,Emission,Water
 Lauric diethanolamide,Emission,Air
 Lauric diethanolamide,Emission,Ground
 Lauric diethanolamide,Emission,Water
