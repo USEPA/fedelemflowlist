@@ -12,6 +12,10 @@ Bacillus subtilis,Emission,Air
 Bacillus thuringiensis var. aizawai,Emission,Air
 Bacillus thuringiensis var. israelensis,Emission,Air
 Bacillus thuringiensis var. kurstaki,Emission,Air
+Bacillus subtilis,Emission,Water
+Bacillus thuringiensis var. aizawai,Emission,Water
+Bacillus thuringiensis var. israelensis,Emission,Water
+Bacillus thuringiensis var. kurstaki,Emission,Water
 Entomopathogenic virus,Emission,Ground
 Pseudomonas fluorescens,Emission,Air
 Pseudomonas fluorescens,Emission,Ground
@@ -19,7 +23,10 @@ Pseudomonas fluorescens,Emission,Water
 Beauveria bassiana,Emission,Ground
 Bacillus pumilus,Emission,Ground
 Beauveria bassiana,Emission,Air
+Beauveria bassiana,Emission,Water
 Bacillus pumilus,Emission,Air
+Bacillus pumilus,Emission,Water
+Myrothecium verrucaria,Emission,Water
 Myrothecium verrucaria,Emission,Ground
 Myrothecium verrucaria,Emission,Air
 Wood,Emission,Air
