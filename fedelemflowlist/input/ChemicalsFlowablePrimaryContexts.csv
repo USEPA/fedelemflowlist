@@ -7648,7 +7648,7 @@ Tris(2-butoxyethyl) phosphate,Emission,Ground
 Tris(2-butoxyethyl) phosphate,Emission,Water
 Hexythiazox,Emission,Air
 Hexythiazox,Emission,Ground
-Hexythiazox,Emicon dission,Water
+Hexythiazox,Emission,Water
 Isophorone,Emission,Air
 Isophorone,Emission,Ground
 Isophorone,Emission,Water
@@ -11518,7 +11518,6 @@ Potassium,Emission,Air
 Potassium chloride,Emission,Air
 Propyleneimine,Emission,Water
 Rhodium,Emission,Air
-Silicon,Emission,Air
 Sodium,Emission,Air
 Sodium chloride,Emission,Air
 Sodium tetrathiocarbonate,Emission,Ground
