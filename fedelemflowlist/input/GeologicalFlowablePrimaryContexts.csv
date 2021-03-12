@@ -59,6 +59,8 @@ Boehmite,Resource,Ground
 Borate,Resource,Ground
 Borax,Resource,Ground
 Borax,Emission,Air
+Borax,Emission,Ground
+Borax,Emission,Water
 Bornite,Resource,Ground
 Boron ore,Resource,Ground
 Bowieite,Resource,Ground
