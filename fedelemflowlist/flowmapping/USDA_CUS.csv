@@ -271,6 +271,7 @@ USDA_CUS,BLAD,,Water,kg,=,1.0,banda de Lupinue albus doce,be227452-cecc-35ba-984
 USDA_CUS,BLAD,,Ground,kg,=,1.0,banda de Lupinue albus doce,fadc62c8-377e-3297-9b5b-66bc45d2012f,emission/ground/human-dominated/agricultural/rural,kg,Edelen,,1/15/2021
 USDA_CUS,BORAX DECAHYDRATE,,Air,kg,=,1.0,Borax,270d63f4-9c75-3332-9d9c-b407b1af4e66,emission/air/troposphere/rural/ground-level,kg,Edelen,,1/15/2021
 USDA_CUS,BORAX DECAHYDRATE,,Water,kg,=,1.0,Borax,9ef34c83-6aff-3086-a5c6-a21d0299f729,emission/water/fresh water body,kg,Edelen,,1/15/2021
+USDA_CUS,BORAX DECAHYDRATE,,Ground,kg,=,1.0,Borax,cc33d1b7-a9cb-3695-807b-ea89b870fb94,emission/ground/human-dominated/agricultural/rural,kg,Edelen,,1/15/2021
 USDA_CUS,BOSCALID,,Air,kg,=,1.0,Boscalid,aa7b73b9-df67-3ee6-bbc4-f66b56fa1522,emission/air/troposphere/rural/ground-level,kg,Edelen,Hottle,12/22/2020
 USDA_CUS,BOSCALID,,Water,kg,=,1.0,Boscalid,d4fbe8cb-f8e2-3129-95b3-a28d16094f62,emission/water/fresh water body,kg,Edelen,Hottle,12/22/2020
 USDA_CUS,BOSCALID,,Ground,kg,=,1.0,Boscalid,50be3f23-90fb-3be8-a945-b47594c044da,emission/ground/human-dominated/agricultural/rural,kg,Edelen,Hottle,12/22/2020
