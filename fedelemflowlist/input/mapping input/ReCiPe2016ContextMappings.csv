@@ -16,6 +16,7 @@ air,emission/air/troposphere/urban/ground-level
 air,emission/air/troposphere/rural/ground-level
 air,emission/air/indoor
 air,emission/air/stratosphere
+air/unspecified,emission/air
 air/unspecified,emission/air/troposphere/low
 air/unspecified,emission/air/troposphere/high
 air/unspecified,emission/air/troposphere/very high
