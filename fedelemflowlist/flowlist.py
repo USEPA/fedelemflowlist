@@ -126,7 +126,8 @@ if __name__ == '__main__':
     flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])
 
     #Drop duplicate flows if they exist
-    if len(flows[flows.duplicated(keep=False)])>0:
+    duplicates = flows[flows.duplicated(keep=False)]
+    if len(duplicates)>0:
         log.debug("Duplicate flows exist. They will be removed.")
         flows = flows.drop_duplicates()
         
@@ -158,9 +159,9 @@ if __name__ == '__main__':
     #Drop duplicate entries due to multiple alt units
     flows['Duplicates']=flows.duplicated(subset=['Flow UUID'],keep='first')
     if flows['Duplicates'].sum() > 0:
-        log.info(str(flows['Duplicates'].sum()) + " flows with multiple alt unit; these duplicates have been removed:")
+        log.debug(str(flows['Duplicates'].sum()) + " flows with multiple alt unit; these duplicates have been removed:")
         duplicates_df = flows.loc[flows['Duplicates'] == True, 'Flowable']
-        print(duplicates_df.drop_duplicates().to_string(index=False))
+        log.debug(duplicates_df.drop_duplicates().to_string(index=False))
         flows = flows.drop_duplicates(subset=['Flow UUID'], keep='first')
     flows.drop(columns='Duplicates')
 

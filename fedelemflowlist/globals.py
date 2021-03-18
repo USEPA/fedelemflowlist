@@ -44,7 +44,7 @@ flowmapping_fields = {'SourceListName': [{'dtype': 'str'}, {'required': True}],
                       'Verifier': [{'dtype': 'str'}, {'required': False}],
                       'LastUpdated': [{'dtype': 'str'}, {'required': False}]}
 
-log.basicConfig(level=log.DEBUG, format='%(levelname)s %(message)s',
+log.basicConfig(level=log.INFO, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
 flow_list_specs = {
