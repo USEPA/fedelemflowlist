@@ -458,6 +458,7 @@ Radionuclides,Emission,Water
 Radionuclides,Emission,Ground
 Fatty acids,Emission,Ground
 Fatty acids,Emission,Water
+Fatty acids,Emission,Air
 Terpenes,Emission,Air
 Organochlorine pesticides,Emission,Air
 Organochlorine pesticides,Emission,Ground
@@ -540,3 +541,18 @@ Lecithins,Emission,Ground
 "Actinides, unspecified",Emission,Air
 "Actinides, unspecified",Emission,Ground
 "Actinides, unspecified",Emission,Water
+Stoddard solvent,Emission,Air
+C12-14-Alkyldimethyl(ethylbenzyl) ammonium chlorides,Emission,Air
+C12-18-Dialkylmethylbenzyl ammonium chlorides,Emission,Air
+C8-18 and C18-Unsaturated fatty acids ammonium salts,Emission,Air
+Capsicum oleoresins,Emission,Air
+Stoddard solvent,Emission,Water
+C12-14-Alkyldimethyl(ethylbenzyl) ammonium chlorides,Emission,Water
+C12-18-Dialkylmethylbenzyl ammonium chlorides,Emission,Water
+C8-18 and C18-Unsaturated fatty acids ammonium salts,Emission,Water
+Capsicum oleoresins,Emission,Water
+Stoddard solvent,Emission,Ground
+C12-14-Alkyldimethyl(ethylbenzyl) ammonium chlorides,Emission,Ground
+C12-18-Dialkylmethylbenzyl ammonium chlorides,Emission,Ground
+C8-18 and C18-Unsaturated fatty acids ammonium salts,Emission,Ground
+Capsicum oleoresins,Emission,Ground

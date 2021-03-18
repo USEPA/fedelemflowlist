@@ -8,13 +8,27 @@ Bacillus subtilis,Emission,Ground
 Bacillus thuringiensis var. aizawai,Emission,Ground
 Bacillus thuringiensis var. israelensis,Emission,Ground
 Bacillus thuringiensis var. kurstaki,Emission,Ground
+Bacillus subtilis,Emission,Air
+Bacillus thuringiensis var. aizawai,Emission,Air
+Bacillus thuringiensis var. israelensis,Emission,Air
+Bacillus thuringiensis var. kurstaki,Emission,Air
+Bacillus subtilis,Emission,Water
+Bacillus thuringiensis var. aizawai,Emission,Water
+Bacillus thuringiensis var. israelensis,Emission,Water
+Bacillus thuringiensis var. kurstaki,Emission,Water
 Entomopathogenic virus,Emission,Ground
 Pseudomonas fluorescens,Emission,Air
 Pseudomonas fluorescens,Emission,Ground
 Pseudomonas fluorescens,Emission,Water
 Beauveria bassiana,Emission,Ground
 Bacillus pumilus,Emission,Ground
+Beauveria bassiana,Emission,Air
+Beauveria bassiana,Emission,Water
+Bacillus pumilus,Emission,Air
+Bacillus pumilus,Emission,Water
+Myrothecium verrucaria,Emission,Water
 Myrothecium verrucaria,Emission,Ground
+Myrothecium verrucaria,Emission,Air
 Wood,Emission,Air
 Biomass,Emission,Air
 Biomass,Emission,Ground
@@ -24,3 +38,177 @@ Wood,Resource,Ground
 Harpin Ea,Emission,Air
 Harpin Ea,Emission,Water
 Harpin Ea,Emission,Ground
+Reynoutria sachalinensis extract,Emission,Ground
+Reynoutria sachalinensis extract,Emission,Air
+Reynoutria sachalinensis extract,Emission,Water
+"Bacillus thuringiensis, ssp. kurstaki strain SA - 11",Emission,Air
+Bacillus thuringiensis ssp. Kurstaki Strain ABTS-351,Emission,Air
+Bacillus thuringiensis ssp. kurstaki strain BMP123,Emission,Air
+Bacillus thuringiensis ssp. kurstaki strain EG2348,Emission,Air
+Bacillus thuringiensis ssp. kurstaki strain EG7841 Lepidopteran active toxin,Emission,Air
+Bacillus thuringiensis subspecies aizawai strain GC-91,Emission,Air
+Bacillus thuringiensis ssp. aizawai strain ABTS 1857,Emission,Air
+Bacillus mycoides Isolate J,Emission,Air
+Bacillus thuringiensis Berliner,Emission,Air
+Chitin,Emission,Air
+Chenopodium ambrosioides,Emission,Air
+Heat-Killed Burkholderia sp strain A396 cells and spent fermentation media,Emission,Air
+Harpin alpha beta protein,Emission,Air
+Nosema locustae,Emission,Air
+"Helicoverpa armigera nucleopolyhedrovirus, strain BV-0003",Emission,Air
+Cydia pomonella granulovirus isolate V22,Emission,Air
+GS-omega/kappa-Hxtx-Hv1a,Emission,Air
+Chromobacterium subtsugae strain PRAA4-1 cells and spent fermentation media,Emission,Air
+Cydia pomonella granulovirus,Emission,Air
+Aspergillus flavus NRRL 21882,Emission,Air
+Aspergillus flavus,Emission,Air
+Aureobasidium pullulans strains DSM 14940,Emission,Air
+Aureobasidium pullulans strain DSM 14941,Emission,Air
+Bacillus amyloliquefaciens MBI 600,Emission,Air
+Bacillus amyloliquefaciens strain F727,Emission,Air
+Bacillus amyloliquefaciens strain D747,Emission,Air
+Bacillus cereus,Emission,Air
+Bacillus subtilis GB03,Emission,Air
+Bacillus subtilis var. amyloliquefaciens strain FZB24,Emission,Air
+Bacteriophages,Emission,Air
+Bacteriophage active against pseudomonas syringae pv. tomato,Emission,Air
+Bacillus thuringiensis subspecies israelensis strain AM 65-52,Emission,Air
+Bacillus thuringiensis ssp. kurstaki strain SA-12,Emission,Air
+"Bacillus thuringiensis subspecies kurstaki, strain EVB-113-19",Emission,Air
+Cerevisane,Emission,Air
+Bacteriophage active against Erwinia amylovora,Emission,Air
+Gliocladium virens,Emission,Air
+Helicoverpa zea ABA-NPV-U,Emission,Air
+Paecilomyces fumosoroseus,Emission,Air
+Paecilomyces lilacinus,Emission,Air
+Pseudomonas fluorescens A506,Emission,Air
+"Saponins, Quillaja saponaria",Emission,Air
+Reynoutria sachalinensis,Emission,Air
+Spodoptera frugiperda,Emission,Air
+Streptomyces griseus,Emission,Air
+Streptomyces lydicus WYEC 108,Emission,Air
+Extract of Swinglea glutinosa,Emission,Air
+Trichoderma asperellum Strain ICC 012,Emission,Air
+Trichoderma gamsii Strain ICC 080,Emission,Air
+Trichoderma harzianum,Emission,Air
+Trichoderma virens strain G-41,Emission,Air
+Ulocladium oudemansii U3 Strain,Emission,Air
+banda de Lupinue albus doce,Emission,Air
+Homobrassinolide,Emission,Air
+Coniothyrium minitans strain CON/M/91-08,Emission,Air
+Agrobacterium radiobacter (strain K84),Emission,Air
+Pantoea agglomerans strain E325; NRRL B-21856,Emission,Air
+"Bacillus thuringiensis, ssp. kurstaki strain SA - 11",Emission,Ground
+Bacillus thuringiensis ssp. Kurstaki Strain ABTS-351,Emission,Ground
+Bacillus thuringiensis ssp. kurstaki strain BMP123,Emission,Ground
+Bacillus thuringiensis ssp. kurstaki strain EG2348,Emission,Ground
+Bacillus thuringiensis ssp. kurstaki strain EG7841 Lepidopteran active toxin,Emission,Ground
+Bacillus thuringiensis subspecies aizawai strain GC-91,Emission,Ground
+Bacillus thuringiensis ssp. aizawai strain ABTS 1857,Emission,Ground
+Bacillus mycoides Isolate J,Emission,Ground
+Bacillus thuringiensis Berliner,Emission,Ground
+Chitin,Emission,Ground
+Chenopodium ambrosioides,Emission,Ground
+Heat-Killed Burkholderia sp strain A396 cells and spent fermentation media,Emission,Ground
+Harpin alpha beta protein,Emission,Ground
+Nosema locustae,Emission,Ground
+"Helicoverpa armigera nucleopolyhedrovirus, strain BV-0003",Emission,Ground
+Cydia pomonella granulovirus isolate V22,Emission,Ground
+GS-omega/kappa-Hxtx-Hv1a,Emission,Ground
+Chromobacterium subtsugae strain PRAA4-1 cells and spent fermentation media,Emission,Ground
+Cydia pomonella granulovirus,Emission,Ground
+Aspergillus flavus NRRL 21882,Emission,Ground
+Aspergillus flavus,Emission,Ground
+Aureobasidium pullulans strains DSM 14940,Emission,Ground
+Aureobasidium pullulans strain DSM 14941,Emission,Ground
+Bacillus amyloliquefaciens MBI 600,Emission,Ground
+Bacillus amyloliquefaciens strain F727,Emission,Ground
+Bacillus amyloliquefaciens strain D747,Emission,Ground
+Bacillus cereus,Emission,Ground
+Bacillus subtilis GB03,Emission,Ground
+Bacillus subtilis var. amyloliquefaciens strain FZB24,Emission,Ground
+Bacteriophages,Emission,Ground
+Bacteriophage active against pseudomonas syringae pv. tomato,Emission,Ground
+Bacillus thuringiensis subspecies israelensis strain AM 65-52,Emission,Ground
+Bacillus thuringiensis ssp. kurstaki strain SA-12,Emission,Ground
+"Bacillus thuringiensis subspecies kurstaki, strain EVB-113-19",Emission,Ground
+Cerevisane,Emission,Ground
+Bacteriophage active against Erwinia amylovora,Emission,Ground
+Gliocladium virens,Emission,Ground
+Helicoverpa zea ABA-NPV-U,Emission,Ground
+Paecilomyces fumosoroseus,Emission,Ground
+Paecilomyces lilacinus,Emission,Ground
+Pseudomonas fluorescens A506,Emission,Ground
+"Saponins, Quillaja saponaria",Emission,Ground
+Reynoutria sachalinensis,Emission,Ground
+Spodoptera frugiperda,Emission,Ground
+Streptomyces griseus,Emission,Ground
+Streptomyces lydicus WYEC 108,Emission,Ground
+Extract of Swinglea glutinosa,Emission,Ground
+Trichoderma asperellum Strain ICC 012,Emission,Ground
+Trichoderma gamsii Strain ICC 080,Emission,Ground
+Trichoderma harzianum,Emission,Ground
+Trichoderma virens strain G-41,Emission,Ground
+Ulocladium oudemansii U3 Strain,Emission,Ground
+banda de Lupinue albus doce,Emission,Ground
+Homobrassinolide,Emission,Ground
+Coniothyrium minitans strain CON/M/91-08,Emission,Ground
+Agrobacterium radiobacter (strain K84),Emission,Ground
+Pantoea agglomerans strain E325; NRRL B-21856,Emission,Ground
+"Bacillus thuringiensis, ssp. kurstaki strain SA - 11",Emission,Water
+Bacillus thuringiensis ssp. Kurstaki Strain ABTS-351,Emission,Water
+Bacillus thuringiensis ssp. kurstaki strain BMP123,Emission,Water
+Bacillus thuringiensis ssp. kurstaki strain EG2348,Emission,Water
+Bacillus thuringiensis ssp. kurstaki strain EG7841 Lepidopteran active toxin,Emission,Water
+Bacillus thuringiensis subspecies aizawai strain GC-91,Emission,Water
+Bacillus thuringiensis ssp. aizawai strain ABTS 1857,Emission,Water
+Bacillus mycoides Isolate J,Emission,Water
+Bacillus thuringiensis Berliner,Emission,Water
+Chitin,Emission,Water
+Chenopodium ambrosioides,Emission,Water
+Heat-Killed Burkholderia sp strain A396 cells and spent fermentation media,Emission,Water
+Harpin alpha beta protein,Emission,Water
+Nosema locustae,Emission,Water
+"Helicoverpa armigera nucleopolyhedrovirus, strain BV-0003",Emission,Water
+Cydia pomonella granulovirus isolate V22,Emission,Water
+GS-omega/kappa-Hxtx-Hv1a,Emission,Water
+Chromobacterium subtsugae strain PRAA4-1 cells and spent fermentation media,Emission,Water
+Cydia pomonella granulovirus,Emission,Water
+Aspergillus flavus NRRL 21882,Emission,Water
+Aspergillus flavus,Emission,Water
+Aureobasidium pullulans strains DSM 14940,Emission,Water
+Aureobasidium pullulans strain DSM 14941,Emission,Water
+Bacillus amyloliquefaciens MBI 600,Emission,Water
+Bacillus amyloliquefaciens strain F727,Emission,Water
+Bacillus amyloliquefaciens strain D747,Emission,Water
+Bacillus cereus,Emission,Water
+Bacillus subtilis GB03,Emission,Water
+Bacillus subtilis var. amyloliquefaciens strain FZB24,Emission,Water
+Bacteriophages,Emission,Water
+Bacteriophage active against pseudomonas syringae pv. tomato,Emission,Water
+Bacillus thuringiensis subspecies israelensis strain AM 65-52,Emission,Water
+Bacillus thuringiensis ssp. kurstaki strain SA-12,Emission,Water
+"Bacillus thuringiensis subspecies kurstaki, strain EVB-113-19",Emission,Water
+Cerevisane,Emission,Water
+Bacteriophage active against Erwinia amylovora,Emission,Water
+Gliocladium virens,Emission,Water
+Helicoverpa zea ABA-NPV-U,Emission,Water
+Paecilomyces fumosoroseus,Emission,Water
+Paecilomyces lilacinus,Emission,Water
+Pseudomonas fluorescens A506,Emission,Water
+"Saponins, Quillaja saponaria",Emission,Water
+Reynoutria sachalinensis,Emission,Water
+Spodoptera frugiperda,Emission,Water
+Streptomyces griseus,Emission,Water
+Streptomyces lydicus WYEC 108,Emission,Water
+Extract of Swinglea glutinosa,Emission,Water
+Trichoderma asperellum Strain ICC 012,Emission,Water
+Trichoderma gamsii Strain ICC 080,Emission,Water
+Trichoderma harzianum,Emission,Water
+Trichoderma virens strain G-41,Emission,Water
+Ulocladium oudemansii U3 Strain,Emission,Water
+banda de Lupinue albus doce,Emission,Water
+Homobrassinolide,Emission,Water
+Coniothyrium minitans strain CON/M/91-08,Emission,Water
+Agrobacterium radiobacter (strain K84),Emission,Water
+Pantoea agglomerans strain E325; NRRL B-21856,Emission,Water

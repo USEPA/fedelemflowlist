@@ -1,16 +1,16 @@
-﻿SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
-GHGI,C2F6,,air,kg,=,,Hexafluoroethane,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,C3F8,,air,kg,=,,Perfluoropropane,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,C4F8,,air,kg,=,,Perfluorocyclobutane,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,CF4,,air,kg,=,,Carbon tetrafluoride,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,CH4,,air,kg,=,,Methane,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,CO2,,air,kg,=,,Carbon dioxide,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,HFC-125,,air,kg,=,,HFC-125,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,HFC-134a,,air,kg,=,,HFC-134a,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,HFC-143a,,air,kg,=,,HFC-143a,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,HFC-23,,air,kg,=,,HFC-23,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,HFC-236fa,,air,kg,=,,HFC-236fa,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,HFC-32,,air,kg,=,,HFC-32,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,N2O,,air,kg,=,,Nitrous oxide,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,NF3,,air,kg,=,,Nitrogen trifluoride,,emission/air,kg,Edelen,Young,12/18/2020
-GHGI,SF6,,air,kg,=,,Sulfur hexafluoride,,emission/air,kg,Edelen,Young,12/18/2020
+SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+GHGI,C2F6,,air,kg,=,,Hexafluoroethane,b24a2de2-da9b-30b8-ae33-3d4ffa692029,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,C3F8,,air,kg,=,,Perfluoropropane,d7bc2a19-d1a1-3cbb-b19b-758691f823c1,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,C4F8,,air,kg,=,,Perfluorocyclobutane,8dbc9ab8-994d-3120-a843-bdbd98c41047,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,CF4,,air,kg,=,,Carbon tetrafluoride,fbfa508b-f3c9-3977-a47d-1138e96914a3,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,CH4,,air,kg,=,,Methane,aab83476-ec6c-3742-af85-15d320b7ce80,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,CO2,,air,kg,=,,Carbon dioxide,b6f010fb-a764-3063-af2d-bcb8309a97b7,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,HFC-125,,air,kg,=,,HFC-125,44be3f68-dee3-3228-adb4-04b003485c5f,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,HFC-134a,,air,kg,=,,HFC-134a,4fd60c2c-8625-3b10-8618-e3eacc121bbb,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,HFC-143a,,air,kg,=,,HFC-143a,3c29f66a-2dd8-3f9b-a05c-c8cb3d93f0f1,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,HFC-23,,air,kg,=,,HFC-23,b7bab095-d0bf-3d7b-9c8e-c247d71a8f85,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,HFC-236fa,,air,kg,=,,HFC-236fa,32057bc6-6839-3dbc-b33d-5b72e542e3fc,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,HFC-32,,air,kg,=,,HFC-32,747fa9a4-559b-37a4-ac9b-5ca630274739,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,N2O,,air,kg,=,,Nitrous oxide,cfee0524-7ad6-300b-b050-6249135a2492,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,NF3,,air,kg,=,,Nitrogen trifluoride,80d4ef62-ca97-37d6-87ac-83233956c063,emission/air,kg,Edelen,Young,12/18/2020
+GHGI,SF6,,air,kg,=,,Sulfur hexafluoride,8334c424-1603-3274-bec1-15a7bd5c8e86,emission/air,kg,Edelen,Young,12/18/2020

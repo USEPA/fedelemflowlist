@@ -1,11 +1,11 @@
 SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
-EIA_MER,Coal Production,,,MJ,=,1.0,Coal,39a07dad-33e8-3644-b6a5-2054c3d53fa9,resource/ground,MJ,Young,Edelen,02/02/2021
-EIA_MER,Natural Gas (Dry) Production,,,MJ,=,1.0,Natural gas,ae604834-c49a-3ebb-b15b-06e6e89e427e,resource/air,MJ,Young,Edelen,02/02/2021
-EIA_MER,Natural Gas Plant Liquids Production,,,MJ,=,1.0,Natural gas,ae604834-c49a-3ebb-b15b-06e6e89e427e,resource/air,MJ,Young,Edelen,02/02/2021
-EIA_MER,Crude Oil Production,,,MJ,=,1.0,Crude oil,4aca0c2c-6e1a-3d90-956c-7141ca8932ce,resource/water,MJ,Young,Edelen,02/02/2021
-EIA_MER,Primary energy - nuclear,,,MJ,=,2e-06,Uranium,af4664da-60f0-31e5-83ba-0d2518959c5b,resource/ground,kg,Young,Edelen,02/02/2021
-EIA_MER,Primary energy - geothermal,,,MJ,=,1.0,"Energy, geothermal",d2792697-9e22-3380-974f-54b92a3549a9,resource/ground,MJ,Young,Edelen,02/02/2021
-EIA_MER,Primary energy - biomass,,,MJ,=,0.0612,Biomass,7feeb363-fbeb-37ad-937f-080834b9dc35,resource/biotic,kg,Young,Edelen,02/02/2021
-EIA_MER,Primary energy - hydro,,,MJ,=,1.0,"Energy, hydro",5af7a834-bf92-32eb-a0b2-2f2dcdc9f3d9,resource/water,MJ,Young,Edelen,02/02/2021
-EIA_MER,Primary energy - solar,,,MJ,=,1.0,"Energy, solar",4d1571a6-ffff-3a36-82df-224ed975a094,resource/air,MJ,Young,Edelen,02/02/2021
-EIA_MER,Primary energy - wind,,,MJ,=,1.0,"Energy, wind",35962866-662b-3817-a2a7-39375c7e6a3c,resource/air,MJ,Young,Edelen,02/02/2021
+EIA_MER,Coal Production,,resource/in ground,MJ,=,1,Coal,39a07dad-33e8-3644-b6a5-2054c3d53fa9,resource/ground,MJ,Young,Edelen,2/2/2021
+EIA_MER,Natural Gas (Dry) Production,,resource/in ground,MJ,=,1,Natural gas,ae604834-c49a-3ebb-b15b-06e6e89e427e,resource/air,MJ,Young,Edelen,2/2/2021
+EIA_MER,Natural Gas Plant Liquids Production,,resource/in ground,MJ,=,1,Natural gas,ae604834-c49a-3ebb-b15b-06e6e89e427e,resource/air,MJ,Young,Edelen,2/2/2021
+EIA_MER,Crude Oil Production,,resource/in ground,MJ,=,1,Crude oil,4aca0c2c-6e1a-3d90-956c-7141ca8932ce,resource/water,MJ,Young,Edelen,2/2/2021
+EIA_MER,Primary energy - nuclear,,resource/in ground,MJ,=,2.00E-06,Uranium,af4664da-60f0-31e5-83ba-0d2518959c5b,resource/ground,kg,Young,Edelen,2/2/2021
+EIA_MER,Primary energy - geothermal,,resource/in ground,MJ,=,1,"Energy, geothermal",d2792697-9e22-3380-974f-54b92a3549a9,resource/ground,MJ,Young,Edelen,2/2/2021
+EIA_MER,Primary energy - biomass,,resource,MJ,=,0.0612,Biomass,7feeb363-fbeb-37ad-937f-080834b9dc35,resource/biotic,kg,Young,Edelen,2/2/2021
+EIA_MER,Primary energy - hydro,,resource/in water,MJ,=,1,"Energy, hydro",5af7a834-bf92-32eb-a0b2-2f2dcdc9f3d9,resource/water,MJ,Young,Edelen,2/2/2021
+EIA_MER,Primary energy - solar,,resource/in air,MJ,=,1,"Energy, solar",4d1571a6-ffff-3a36-82df-224ed975a094,resource/air,MJ,Young,Edelen,2/2/2021
+EIA_MER,Primary energy - wind,,resource/in air,MJ,=,1,"Energy, wind",35962866-662b-3817-a2a7-39375c7e6a3c,resource/air,MJ,Young,Edelen,2/2/2021
