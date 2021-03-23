@@ -9,7 +9,8 @@ in standard pandas dataframe formats, defined within format specs
 import os
 import pandas as pd
 from fedelemflowlist.flowlist import read_in_flowclass_file
-from fedelemflowlist.globals import outputpath, flowmappingpath, flow_list_specs
+from fedelemflowlist.globals import outputpath, flowmappingpath, flow_list_specs,\
+    log
 import fedelemflowlist.jsonld as jsonld
 from fedelemflowlist.subset_list import subsets
 import fedelemflowlist.subset_list as subset_list
@@ -30,7 +31,7 @@ def get_flows(preferred_only=None, subset=None):
         try:
             flows = getattr(subset_list,subsets[subset])(flows)
         except KeyError:
-            print("Subset " + subset + " not found.")
+            log.error("Subset " + subset + " not found.")
             flows = None
     return flows
 
@@ -54,7 +55,7 @@ def get_flowmapping(source=None):
                 flowmapping = pd.read_csv(mapping_file, header=0)
                 flowmappings = pd.concat([flowmappings, flowmapping])
             except FileNotFoundError:
-                print("No mapping file found for " + str(f))
+                log.warn("No mapping file found for " + str(f))
     else:
         # load all mappings in directory
         files = os.listdir(flowmappingpath)
