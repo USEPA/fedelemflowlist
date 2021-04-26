@@ -12,7 +12,7 @@ else:
 
 setup(
     name='fedelemflowlist',
-    version='1.0.7',
+    version='1.0.8',
     packages=['fedelemflowlist'],
     package_dir={'fedelemflowlist': 'fedelemflowlist'},
     package_data={'fedelemflowlist': [
