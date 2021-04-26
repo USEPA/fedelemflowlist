@@ -490,7 +490,7 @@ THIOPHANATE-METHYL,kg, =,Thiophanate-methyl,kg,Hottle,index All_mappings file,,,
 THIOSEMICARBAZIDE,kg, =,Thiosemicarbazide,kg,Hottle,index All_mappings file,,,10/14/2020
 THIOUREA,kg, =,Thiourea,kg,Hottle,index All_mappings file,,,10/14/2020
 THIRAM,kg, =,Thiram,kg,Hottle,index All_mappings file,,,10/14/2020
-THORIUM DIOXIDE,kg,,[unmapped],,,source file CAS: 1314201,,,
+THORIUM DIOXIDE,kg,=,Thorium dioxide,kg,Edelen,name match,,,4/23/2021
 TITANIUM TETRACHLORIDE,kg, =,Titanium tetrachloride,kg,Hottle,index All_mappings file,,,10/14/2020
 TOLUENE,kg, =,Toluene,kg,Hottle,index All_mappings file,,,10/14/2020
 TOLUENE DIISOCYANATE (MIXED ISOMERS),kg, =,Toluene diisocyanate,kg,Hottle,index All_mappings file,,,10/14/2020
@@ -992,12 +992,12 @@ zinc compounds,kg,=,Zinc compounds,kg,Young,comparison to former TRI list with n
 zineb,kg,=,Zineb,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 1-bromopropane,kg,=,1-Bromopropane,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 "2,4-db",kg,=,"2,4-DB",kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
-"2,4-dithiobiuret",kg,,Dithiobiuret,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
+"2,4-dithiobiuret",kg,=,Dithiobiuret,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 2-acetylaminofluorene,kg,=,2-Acetylaminofluorene,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 "3,3'-dichlorobenzidine dihydrochloride",kg,=,"3,3'-Dichlorobenzidine dihydrochloride",kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 abamectin,kg,=,Abamectin,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 cyanazine,kg,=,Cyanazine,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
-dibromotetrafluoroethane,kg,,,,,,,,
+dibromotetrafluoroethane,kg,=,"1,2-Dibromo-1,1,2,2-tetrafluoroethane",kg,Edelen,CAS match,,,4/23/2021
 dichlorophene,kg,=,Dichlorophene,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 diflubenzuron,kg,=,Diflubenzuron,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 dimethipin,kg,=,Dimethipin,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -1016,4 +1016,4 @@ resmethrin,kg,=,Resmethrin,kg,Young,comparison to former TRI list with name upda
 tebuthiuron,kg,=,Tebuthiuron,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 terbacil,kg,=,Terbacil,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 thiabendazole,kg,=,Thiabendazole,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
-thorium dioxide,kg,=,,,,,,,
+thorium dioxide,kg,=,Thorium dioxide,kg,Edelen,name match,,,4/23/2021
