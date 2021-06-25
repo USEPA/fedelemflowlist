@@ -154,16 +154,16 @@ BROMACIL,kg,=,Bromacil,kg,Hottle,original TRI mappings not in current version,,,
 BROMINE,kg, =,Bromine,kg,Hottle,index All_mappings file,,,10/14/2020
 BROMOCHLORODIFLUOROMETHANE,kg, =,Halon 1211,kg,Hottle,index All_mappings file,,,10/14/2020
 BROMOFORM,kg,=,Tribromomethane,kg,Hottle,original TRI mappings not in current version,,,7/20/2018
-BROMOMETHANE,kg, =,Methyl bromide,kg,Hottle,index All_mappings file,,,10/14/2020
-BROMOTRIFLUOROMETHANE,kg, =,Halon 1301,kg,Hottle,index All_mappings file,,,10/14/2020
-BROMOXYNIL,kg, =,Bromoxynil,kg,Hottle,index All_mappings file,,,10/14/2020
-BROMOXYNIL OCTANOATE,kg, =,Bromoxynil octanoate,kg,Hottle,index All_mappings file,,,10/14/2020
+BROMOMETHANE,kg,=,Methyl bromide,kg,Hottle,index All_mappings file,,,10/14/2020
+BROMOTRIFLUOROMETHANE,kg,=,Halon 1301,kg,Hottle,index All_mappings file,,,10/14/2020
+BROMOXYNIL,kg,=,Bromoxynil,kg,Hottle,index All_mappings file,,,10/14/2020
+BROMOXYNIL OCTANOATE,kg,=,Bromoxynil octanoate,kg,Hottle,index All_mappings file,,,10/14/2020
 BRUCINE,kg, =,Brucine,kg,Hottle,index All_mappings file,,,10/14/2020
-BUTYL ACRYLATE,kg, =,Butyl acrylate,kg,Hottle,index All_mappings file,,,10/14/2020
-BUTYRALDEHYDE,kg, =,Butyraldehyde,kg,Hottle,index All_mappings file,,,10/14/2020
+BUTYL ACRYLATE,kg,=,Butyl acrylate,kg,Hottle,index All_mappings file,,,10/14/2020
+BUTYRALDEHYDE,kg,=,Butyraldehyde,kg,Hottle,index All_mappings file,,,10/14/2020
 C.I. DIRECT BLACK 38,kg,=,C.I. Direct Black 38,kg,Hottle,original TRI mappings not in current version,,,7/20/2018
-C.I. DIRECT BLUE 218,kg, =,C.I. Direct Blue 218,kg,Hottle,index All_mappings file,,,10/14/2020
-C.I. SOLVENT YELLOW 34,kg, =,Auramine,kg,Hottle,index All_mappings file,,,10/14/2020
+C.I. DIRECT BLUE 218,kg,=,C.I. Direct Blue 218,kg,Hottle,index All_mappings file,,,10/14/2020
+C.I. SOLVENT YELLOW 34,kg,=,Auramine,kg,Hottle,index All_mappings file,,,10/14/2020
 CADMIUM,kg, =,Cadmium,kg,Hottle,index All_mappings file,,,10/14/2020
 CADMIUM COMPOUNDS,kg, =,Cadmium compounds,kg,Hottle,index All_mappings file,,,10/14/2020
 CALCIUM CYANAMIDE,kg, =,Calcium cyanamide,kg,Hottle,index All_mappings file,,,10/14/2020
@@ -537,7 +537,7 @@ ZINEB,kg,=,Zineb,kg,Hottle,original TRI mappings not in current version,,,7/20/2
 "1,1,1,2-Tetrachloroethane",kg,=,"1,1,1,2-Tetrachloroethane",kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 "1,1,1-trichloroethane",kg,=,"1,1,1-Trichloroethane",kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 "1,1,1-Trichloroethane",kg,=,"1,1,1-Trichloroethane",kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-"1,1,2,2-tetrachloro-1-fluoroethane (hcfc-121)",kg,,,,,,,,
+"1,1,2,2-tetrachloro-1-fluoroethane (hcfc-121)",kg,=,HCFC-121,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 "1,1,2,2-tetrachloroethane",kg,=,"1,1,2,2-Tetrachloroethane",kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 "1,1,2,2-Tetrachloroethane",kg,=,"1,1,2,2-Tetrachloroethane",kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 "1,1,2-trichloroethane",kg,=,"1,1,2-Trichloroethane",kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -742,7 +742,7 @@ aluminum phosphide,kg,=,Aluminum phosphide,kg,Young,comparison to former TRI lis
 Aluminum phosphide,kg,=,Aluminum phosphide,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 ametryn,kg,=,Ametryn,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Ametryn,kg,=,Ametryn,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-amitraz,kg,,,,,,,,
+amitraz,kg,=,Amitraz,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 amitrole,kg,=,Amitrole,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Amitrole,kg,=,Amitrole,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 ammonia,kg,=,Ammonia,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -832,13 +832,13 @@ butyl acrylate,kg,=,Butyl acrylate,kg,Young,comparison to former TRI list with n
 Butyl acrylate,kg,=,Butyl acrylate,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 butyraldehyde,kg,=,Butyraldehyde,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Butyraldehyde,kg,=,Butyraldehyde,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-c.i. basic green 4,kg,,,,,,,,
+c.i. basic green 4,kg,=,Malachite green,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 c.i. direct black 38,kg,=,C.I. Direct Black 38,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 C.I. Direct Black 38,kg,=,C.I. Direct Black 38,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 c.i. direct blue 218,kg,=,C.I. Direct Blue 218,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 C.I. Direct Blue 218,kg,=,C.I. Direct Blue 218,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-C.I. Food Red 15,kg,,,,,,,,
-C.I. Solvent Yellow 14,kg,,,,,,,,
+C.I. Food Red 15,kg,=,Rhodamine B,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
+C.I. Solvent Yellow 14,kg,=,C.I. Solvent Yellow 14,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 c.i. solvent yellow 34,kg,=,Auramine,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 C.I. Solvent Yellow 34,kg,=,Auramine,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 cadmium,kg,=,Cadmium,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -899,7 +899,7 @@ chlorothalonil,kg,=,Chlorothalonil,kg,Young,comparison to former TRI list with n
 Chlorothalonil,kg,=,Chlorothalonil,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 chlorotrifluoromethane (cfc-13),kg,=,CFC-13,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Chlorotrifluoromethane (CFC-13),kg,=,CFC-13,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-chlorpyrifos-methyl,kg,,,,,,,,
+chlorpyrifos-methyl,kg,=,Chlorpyrifos-methyl,kg,Edelen,,,,6/25/2021
 chlorsulfuron,kg,=,Chlorsulfuron,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Chlorsulfuron,kg,=,Chlorsulfuron,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 chromium,kg,=,Chromium,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -924,7 +924,7 @@ cumene,kg,=,Cumene,kg,Young,comparison to former TRI list with name updates and 
 Cumene,kg,=,Cumene,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 cumene hydroperoxide,kg,=,Cumene hydroperoxide,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Cumene hydroperoxide,kg,=,Cumene hydroperoxide,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-cupferron,kg,,,,,,,,
+cupferron,kg,=,Cupferron,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 cyanazine,kg,=,Cyanazine,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Cyanazine,kg,=,Cyanazine,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 cyanide compounds,kg,=,Cyanide compounds,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -1050,7 +1050,7 @@ Ethylidene dichloride,kg,=,"1,1-Dichloroethane",kg,Young,comparison to former TR
 famphur,kg,=,Famphur,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 fenoxaprop-ethyl,kg,=,Fenoxaprop-ethyl,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Fenoxaprop-ethyl,kg,=,Fenoxaprop-ethyl,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-Fenoxycarb,kg,,,,,,,,
+Fenoxycarb,kg,=,Fenoxycarb,kg,comparison to former TRI list with name updates and capitalization change,,,,6/25/2021
 fenpropathrin,kg,=,Fenpropathrin,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 ferbam,kg,=,Ferbam,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Ferbam,kg,=,Ferbam,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
@@ -1257,8 +1257,8 @@ N-Nitrosopiperidine,kg,=,N-Nitrosopiperidine,kg,Young,comparison to former TRI l
 nonylphenol,kg,=,Nonylphenol,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Nonylphenol,kg,=,Nonylphenol,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 Nonylphenol Ethoxylates,kg,,,,,,,,
-Norflurazon,kg,,,,,,,,
-norflurazon,kg,,,,,,,,
+Norflurazon,kg,=,Norflurazon,kg,comparison to former TRI list with name updates and capitalization change,,,,6/25/2021
+norflurazon,kg,=,Norflurazon,kg,comparison to former TRI list with name updates and capitalization change,,,,6/25/2021
 o-anisidine,kg,=,o-Anisidine,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 o-Anisidine,kg,=,o-Anisidine,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 o-cresol,kg,=,o-Cresol,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -1314,7 +1314,7 @@ phenanthrene,kg,=,Phenanthrene,kg,Young,comparison to former TRI list with name 
 Phenanthrene,kg,=,Phenanthrene,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 phenol,kg,=,Phenol,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Phenol,kg,=,Phenol,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-Phenolphthalein,kg,,,,,,,,
+Phenolphthalein,kg,=,"3,3-Bis(4-hydroxyphenyl)phthalide",kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 phenothrin,kg,=,Phenothrin,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Phenothrin,kg,=,Phenothrin,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 phenytoin,kg,=,Phenytoin,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -1335,7 +1335,7 @@ piperonyl butoxide,kg,=,Piperonyl butoxide,kg,Young,comparison to former TRI lis
 Piperonyl butoxide,kg,=,Piperonyl butoxide,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 p-nitroaniline,kg,=,p-Nitroaniline,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 p-Nitroaniline,kg,=,p-Nitroaniline,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-p-nitrosodiphenylamine,kg,,,,,,,,
+p-nitrosodiphenylamine,kg,=,p-Nitrosodiphenylamine,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 polychlorinated alkanes (c10-c13),kg,<,"Hydrocarbons, chlorinated",kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Polychlorinated alkanes (C10-C13),kg,<,"Hydrocarbons, chlorinated",kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 polychlorinated biphenyls,kg,=,Polychlorinated biphenyls,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -1398,7 +1398,7 @@ selenium,kg,=,Selenium,kg,Young,comparison to former TRI list with name updates 
 Selenium,kg,=,Selenium,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 selenium compounds,kg,=,Selenium compounds,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Selenium compounds,kg,=,Selenium compounds,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-sethoxydim,kg,,,,,,,,
+sethoxydim,kg,=,Sethoxydim,kg,Edelen,comparison to former TRI list with name updates and capitalization change,,,6/25/2021
 s-ethyl dipropylthiocarbamate,kg,=,S-Ethyl dipropylthiocarbamate,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 S-Ethyl dipropylthiocarbamate,kg,=,S-Ethyl dipropylthiocarbamate,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 silver,kg,=,Silver,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
@@ -1523,7 +1523,7 @@ vanadium compounds,kg,=,Vanadium compounds,kg,Young,comparison to former TRI lis
 Vanadium compounds,kg,=,Vanadium compounds,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 vinyl acetate,kg,=,Vinyl acetate,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Vinyl acetate,kg,=,Vinyl acetate,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
-Vinyl bromide,kg,,,,,,,,
+Vinyl bromide,kg,=,Vinyl bromide,kg,Edelen,omparison to former TRI list with name updates and capitalization change,,,6/25/2021
 vinyl chloride,kg,=,Vinyl chloride,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
 Vinyl chloride,kg,=,Vinyl chloride,kg,Young,comparison to former TRI list with name updates and capitalization change,,,6/24/2021
 vinyl fluoride,kg,=,Vinyl fluoride,kg,Young,comparison to former TRI list with name updates and capitalization change,,,4/22/2021
