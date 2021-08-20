@@ -199,8 +199,8 @@ Huebnerite,Resource,Ground
 Hyalophane,Resource,Ground
 Hydrogen,Resource,Air
 Hydroxylapatite,Resource,Ground
-Hydroxylbastnaesite (Ce) ,Resource,Ground
-Hydroxylbastnaesite (Nd) ,Resource,Ground
+Hydroxylbastnaesite (Ce),Resource,Ground
+Hydroxylbastnaesite (Nd),Resource,Ground
 Ilmenite,Resource,Ground
 Indium (III) sulfide,Resource,Ground
 Indium ore,Resource,Ground
@@ -417,7 +417,7 @@ Tetrahedrite,Resource,Ground
 Thalcusite,Resource,Ground
 Thallium ore,Resource,Ground
 Thenardite,Resource,Ground
-Thorbastnaesite ,Resource,Ground
+Thorbastnaesite,Resource,Ground
 Thorianite,Resource,Ground
 Thorite,Resource,Ground
 Thorium ore,Resource,Ground
