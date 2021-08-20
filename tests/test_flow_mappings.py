@@ -32,9 +32,10 @@ class TestFlowMappings(unittest.TestCase):
 
     def test_targetflowinfo_matches_flows_in_list(self):
         """Checks that target flow information in the mapping files matches a flow in the flowlist."""
-        flowmapping_targetinfo = self.flowmappings[['TargetFlowName', 'TargetFlowUUID',
+        flowmapping_targetinfo = self.flowmappings[['SourceListName', 
+                                                    'TargetFlowName', 'TargetFlowUUID',
                                                     'TargetFlowContext']]
-        flowmapping_targetinfo.columns = ['Flowable', 'Flow UUID', 'Context']
+        flowmapping_targetinfo.columns = ['SourceListName','Flowable', 'Flow UUID', 'Context']
         flowmappings_w_flowlist = pd.merge(flowmapping_targetinfo,self.flowlist)
         # To identify flowmapping flows not in list
         missing_flows = flowmapping_targetinfo[~flowmapping_targetinfo['Flow UUID'].isin(flowmappings_w_flowlist['Flow UUID'])]
