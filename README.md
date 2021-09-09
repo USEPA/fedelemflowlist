@@ -19,7 +19,7 @@
 
  The background and methodology behind creation of the flow list, as well as a summary of the flow list itself can be
   found in the USEPA Report
- ['The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use'](https://cfpub.epa.gov/si/si_public_search_results.cfm?simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019). Definitions for terms used in the flow list can be found in on EPA's Terminology Services in the [Federal LCA Commons Elementary Flow List for Life Cycle Assessment](https://sor.epa.gov/sor_internet/registry/termreg/searchandretrieve/glossariesandkeywordlists/search.do?details=&vocabName=FEDEFL) vocabulary. 
+ ['The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use'](https://cfpub.epa.gov/si/si_public_search_results.cfm?simpleSearch=0&showCriteria=2&searchAll=elementary+flows&TIMSType=Published+Report&dateBeginPublishedPresented=07%2F31%2F2019). Definitions for terms used in the flow list can be found in on EPA's Terminology Services in the [Federal LCA Commons Elementary Flow List for Life Cycle Assessment vocabulary](https://sor.epa.gov/sor_internet/registry/termreg/searchandretrieve/glossariesandkeywordlists/search.do?details=&vocabName=FEDEFL). 
 
 See the [Wiki](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki/) for installation, more info on repository
 contents, use examples, and for instructions on how to contribute to the flow list through additions or edits to flows or flow mappings.
