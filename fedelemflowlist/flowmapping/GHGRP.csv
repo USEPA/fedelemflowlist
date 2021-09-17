@@ -1,0 +1,23 @@
+SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+GHGRP,Carbon Dioxide,,air,kg,=,1.0,Carbon dioxide,b6f010fb-a764-3063-af2d-bcb8309a97b7,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-125,,air,kg,=,1.0,HFC-125,44be3f68-dee3-3228-adb4-04b003485c5f,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-134a,,air,kg,=,1.0,HFC-134a,4fd60c2c-8625-3b10-8618-e3eacc121bbb,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-143a,,air,kg,=,1.0,HFC-143a,3c29f66a-2dd8-3f9b-a05c-c8cb3d93f0f1,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-152a,,air,kg,=,1.0,HFC-152a,60f48756-6b86-3fb9-8356-f6401c82bda2,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-227ea,,air,kg,=,1.0,HFC-227ea,dfcb070f-9778-36c4-8dad-fc218874ef26,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-23,,air,kg,=,1.0,HFC-23,b7bab095-d0bf-3d7b-9c8e-c247d71a8f85,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-236fa,,air,kg,=,1.0,HFC-236fa,32057bc6-6839-3dbc-b33d-5b72e542e3fc,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-245fa,,air,kg,=,1.0,HFC-245fa,13e3ee0f-45d2-3061-b7b4-eb2e73ec53d3,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-32,,air,kg,=,1.0,HFC-32,747fa9a4-559b-37a4-ac9b-5ca630274739,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-365mfc,,air,kg,=,1.0,HFC-365mfc,205ca18f-5d37-39bc-ae67-de6a4abd7af8,emission/air,kg,Young,,9/17/2021
+GHGRP,HFC-41,,air,kg,=,1.0,HFC-41,4c651060-7767-30e2-8618-6e58b2df79ce,emission/air,kg,Young,,9/17/2021
+GHGRP,HFE-7100,,air,kg,=,1.0,HFE 7100,be579462-b6df-37f4-8a3d-69f47c5c19e8,emission/air,kg,Young,,9/17/2021
+GHGRP,Methane,,air,kg,=,1.0,Methane,aab83476-ec6c-3742-af85-15d320b7ce80,emission/air,kg,Young,,9/17/2021
+GHGRP,Nitrous Oxide,,air,kg,=,1.0,Nitrous oxide,cfee0524-7ad6-300b-b050-6249135a2492,emission/air,kg,Young,,9/17/2021
+GHGRP,PFC-218 (Perfluoropropane),,air,kg,=,1.0,Perfluoropropane,d7bc2a19-d1a1-3cbb-b19b-758691f823c1,emission/air,kg,Young,,9/17/2021
+GHGRP,PFC-3-1-10 (Perfluorobutane),,air,kg,=,1.0,Perfluorobutane,b79859f9-9979-3708-9390-a3d6c0690561,emission/air,kg,Young,,9/17/2021
+GHGRP,PFC-318 (Perfluorocyclobutane),,air,kg,=,1.0,Perfluorocyclobutane,8dbc9ab8-994d-3120-a843-bdbd98c41047,emission/air,kg,Young,,9/17/2021
+GHGRP,PFC-4-1-12 (Perfluoropentane),,air,kg,=,1.0,Perfluoropentane,8bb3f942-bf27-38c2-b798-aac38c06de09,emission/air,kg,Young,,9/17/2021
+GHGRP,PFC-5-1-14 (Perfluorohexane),,air,kg,=,1.0,Perfluorohexane,abbacdaf-9d6d-3805-bd10-d35905d7dff8,emission/air,kg,Young,,9/17/2021
+GHGRP,"PFC-5-1-14 (Perfluorohexane, FC-72)",,air,kg,=,1.0,Perfluorohexane,abbacdaf-9d6d-3805-bd10-d35905d7dff8,emission/air,kg,Young,,9/17/2021
+GHGRP,Sulfur Hexafluoride,,air,kg,=,1.0,Sulfur hexafluoride,8334c424-1603-3274-bec1-15a7bd5c8e86,emission/air,kg,Young,,9/17/2021
