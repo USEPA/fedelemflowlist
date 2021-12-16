@@ -1,6 +1,6 @@
 Flowable,CAS No,Formula,Synonyms,Unit,External Reference,Flowable Preferred
-"Energy, solar",,,,MJ,,1
-"Energy, wind",,,,MJ,,1
-"Energy, geothermal",,,,MJ,,1
-"Energy, hydro",,,,MJ,,1
+"Energy, solar",,,,MJ,https://www.eia.gov/tools/glossary/index.php?id=S,1
+"Energy, wind",,,,MJ,https://www.eia.gov/tools/glossary/index.php?id=W,1
+"Energy, geothermal",,,,MJ,https://www.eia.gov/tools/glossary/index.php?id=G,1
+"Energy, hydro",,,,MJ,https://www.eia.gov/tools/glossary/index.php?id=H,1
 "Energy, heat",,,,MJ,,1
