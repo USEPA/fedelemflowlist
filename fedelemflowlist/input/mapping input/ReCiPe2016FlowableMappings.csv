@@ -3463,6 +3463,7 @@ Land use,m2*a,=,artificial area,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,annual crops,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,managed forest,m2*a,Hottle,Manual,,,2/25/2020
 Water,kg,=,Water consumption,m3,Young,Manual,Edelen,conversion needed,2/19/2020
+"Water, fresh",kg,=,Water consumption,m3,Young,Manual,,conversion needed,1/13/2022
 Aluminum,kg,=,Aluminium,kg,Hottle,Manual,Edelen,,1/7/2020
 Antimony,kg,=,Antimony,kg,Hottle,Name match,Edelen,,1/7/2020
 Arsenic,kg,=,Arsenic*,kg,Young,Name match,Edelen,,2/29/2020
