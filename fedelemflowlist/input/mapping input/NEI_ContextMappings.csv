@@ -1,2 +1,4 @@
 SourceFlowContext,TargetFlowContext
 air,emission/air
+air/urban,emission/air/troposphere/urban
+air/rural,emission/air/troposphere/rural
