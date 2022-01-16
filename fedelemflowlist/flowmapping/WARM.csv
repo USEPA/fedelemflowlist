@@ -1,0 +1,2 @@
+SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+WARM,Carbon dioxide [kg],,air/unspecified,kg,,,,,,,,,
