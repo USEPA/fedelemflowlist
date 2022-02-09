@@ -1,2 +1,14 @@
 SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
-WARM,Carbon dioxide [kg],,air/unspecified,kg,,,,,,,,,
+WARM,Carbon,9ed04856-b565-46c4-8163-eb0616409abc,Elementary flows/resource/biotic,kg,~,3.667,Carbon dioxide,,resource/air,kg,Young,,2/9/2022
+WARM,Carbon dioxide,7ae371aa-8532-11e0-9d78-0800200c9a66,Elementary flows/air/unspecified,kg,=,1,Carbon dioxide,,emission/air,kg,Young,,2/9/2022
+WARM,Dinitrogen monoxide,20185046-64bb-4c09-a8e7-e8a9e144ca98,Elementary flows/air/unspecified,kg,=,1,Nitrous oxide,,emission/air,kg,Young,,2/9/2022
+WARM,Methane,20408dd1-8534-11e0-9d78-0800200c9a66,Elementary flows/air/unspecified,kg,=,1,Methane,,emission/air,kg,Young,,2/9/2022
+WARM,"Carbon, in organic matter, in soil",8c2fe757-6866-4ed2-9f89-81012ad774a0,Elementary flows/resource/in ground,kg,~,3.667,Carbon dioxide,,resource/air,kg,Young,,2/9/2022
+WARM,Carbon,80bb6903-93b7-4c04-ac53-37775125af8d,Elementary flows/resource/in ground,kg,~,3.667,Carbon dioxide,,resource/air,kg,Young,,2/9/2022
+WARM,"Ethane, hexafluoro-, HFC-116",acc39720-dda7-4b3a-80c7-c6394cad4191,Elementary flows/air/unspecified,kg,=,1,Hexafluoroethane,,emission/air,kg,Young,,2/9/2022
+WARM,"Methane, tetrafluoro-, R-14",33681770-a0e1-4ce8-93c3-941fd607fa5f,Elementary flows/air/unspecified,kg,=,1,Carbon tetrafluoride,,emission/air,kg,Young,,2/9/2022
+WARM,"GHGs, unspecified",403f41d9-5f1c-448c-ab5e-6548d9ffdb64,Elementary flows/air/unspecified,MTCO2E,>,1000000,Carbon dioxide,,emission/air,kg,Young,,2/9/2022
+WARM,"Energy, unspecified",3e756464-b439-4b1e-8e4b-64e2173cc5ce,Elementary flows/resource/unspecified,MJ,=,1,Heat,,resource/air,MJ,Young,,2/9/2022
+WARM,Wages,8c2daef6-fd94-410b-a258-7df1f02c1bce,Economic flows,USD 2002,=,1,Compensation of employees,,,USD,Young,,2/9/2022
+WARM,Taxes,c9f2c667-eeab-448e-9c0c-6da04000fda6,Economic flows,USD 2002,=,1,"Taxes on production and imports, less subsidies",,,USD,Young,,2/9/2022
+WARM,Jobs,f45fbcf0-24f0-4ce1-b1d9-78f2ed0d5a34,Economic flows,Item(s),=,1,Jobs,,,p,Young,,2/9/2022
