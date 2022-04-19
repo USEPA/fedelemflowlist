@@ -3,3 +3,5 @@ air,emission/air
 water,emission/water
 soil,emission/ground
 ground,emission/ground
+air/urban,emission/air/troposphere/urban
+air/rural,emission/air/troposphere/rural
