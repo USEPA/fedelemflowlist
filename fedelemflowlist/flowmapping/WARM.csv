@@ -1,7 +1,7 @@
 SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
 WARM,Carbon,9ed04856-b565-46c4-8163-eb0616409abc,Elementary flows/resource/biotic,kg,~,3.667,Carbon dioxide,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,resource/air,kg,Young,Edelen,2/9/2022
 WARM,Carbon dioxide,7ae371aa-8532-11e0-9d78-0800200c9a66,Elementary flows/air/unspecified,kg,=,1,Carbon dioxide,b6f010fb-a764-3063-af2d-bcb8309a97b7,emission/air,kg,Young,Edelen,2/9/2022
-WARM,Dinitrogen monoxide,20185046-64bb-4c09-a8e7-e8a9e144ca98,Elementary flows/air/unspecified,kg,=,1,Nitrous oxide,cfee0524-7ad6-300b-b050-6249135a2492,emission/air,kg,Young,Ede;em,2/9/2022
+WARM,Dinitrogen monoxide,20185046-64bb-4c09-a8e7-e8a9e144ca98,Elementary flows/air/unspecified,kg,=,1,Nitrous oxide,cfee0524-7ad6-300b-b050-6249135a2492,emission/air,kg,Young,Edelen,2/9/2022
 WARM,Methane,20408dd1-8534-11e0-9d78-0800200c9a66,Elementary flows/air/unspecified,kg,=,1,Methane,aab83476-ec6c-3742-af85-15d320b7ce80,emission/air,kg,Young,Edelen,2/9/2022
 WARM,"Carbon, in organic matter, in soil",8c2fe757-6866-4ed2-9f89-81012ad774a0,Elementary flows/resource/in ground,kg,~,3.667,Carbon dioxide,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,resource/air,kg,Young,Edelen,2/9/2022
 WARM,Carbon,80bb6903-93b7-4c04-ac53-37775125af8d,Elementary flows/resource/in ground,kg,~,3.667,Carbon dioxide,58b5cd90-8ba4-32ea-b4aa-3a3438ba8419,resource/air,kg,Young,Edelen,2/9/2022
