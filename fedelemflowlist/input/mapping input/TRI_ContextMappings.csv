@@ -5,7 +5,7 @@ soil,emission/ground
 ground,emission/ground
 air/urban,emission/air/troposphere/urban
 air/rural,emission/air/troposphere/rural
-water/urban,emission/water/urban
-water/rural,emission/water/rural
-soil/urban,emission/ground/urban
-soil/rural,emission/ground/rural
+water/urban,emission/water
+water/rural,emission/water
+soil/urban,emission/ground
+soil/rural,emission/ground
