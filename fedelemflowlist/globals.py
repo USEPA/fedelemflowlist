@@ -48,7 +48,7 @@ log.basicConfig(level=log.INFO, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
 flow_list_specs = {
-    "list_version": "1.0.8",
+    "list_version": "1.0.9",
     "flow_classes": ["Biological", "Chemicals", "Energy", "Geological", "Groups", "Land", "Other", "Water"],
     "primary_context_classes": ["Directionality", "Environmental Media"],
     "secondary_context_classes": ["Vertical Strata", "Land Use", "Human-Dominated", "Terrestrial", "Aquatic Feature",
@@ -106,7 +106,7 @@ def add_uuid_to_mapping(flow_mapping):
     flow_mapping_uuid.reset_index(drop=True, inplace=True)
     flowmapping_order = [c for c in list(flowmapping_fields.keys()) if c in flow_mapping_uuid.columns.tolist()]
     flow_mapping_uuid = flow_mapping_uuid[flowmapping_order]
-    
+
     return flow_mapping_uuid
 
 def add_conversion_to_mapping(flow_mapping):
@@ -120,12 +120,12 @@ def add_conversion_to_mapping(flow_mapping):
     mapping_w_conversion = pd.merge(flow_mapping, conversions, how='left',
                                   left_on=['TargetFlowName', 'SourceUnit', 'TargetUnit'],
                                   right_on=['Flowable', 'AltUnit', 'Unit'])
-    
+
     # update conversion factor where current conversion is 1 and the updated conversion exists
-    converted1 = mapping_w_conversion['InverseConversionFactor'].notnull() 
+    converted1 = mapping_w_conversion['InverseConversionFactor'].notnull()
     converted2 = mapping_w_conversion['ConversionFactor']==1
     mapping_w_conversion['Convert']=converted1 & converted2
-    mapping_w_conversion.loc[(mapping_w_conversion['Convert']==True), 
+    mapping_w_conversion.loc[(mapping_w_conversion['Convert']==True),
                              'ConversionFactor']=mapping_w_conversion['InverseConversionFactor']
     converted = mapping_w_conversion['Convert'].sum()
     log.info('added conversion factors for ' + str(converted) + ' flows')
