@@ -10097,6 +10097,7 @@ Perfluorolauric acid,Emission,Water
 Ethylene glycol monomethyl ether acrylate,Emission,Air
 "2,3',4,4',5-Pentachlorobiphenyl",Emission,Ground
 "2,3',4,4',5-Pentachlorobiphenyl",Emission,Water
+"2,3',4,4',5-Pentachlorobiphenyl",Emission,Air
 Methylphenanthrene,Emission,Air
 CFC-212ca,Emission,Air
 "Furan, 2-ethyl-",Emission,Air
@@ -10109,6 +10110,7 @@ Silvex isooctyl ester,Emission,Ground
 Silvex isooctyl ester,Emission,Water
 "2,3,3',4,4'-Pentachlorobiphenyl",Emission,Ground
 "2,3,3',4,4'-Pentachlorobiphenyl",Emission,Water
+"2,3,3',4,4'-Pentachlorobiphenyl",Emission,Air
 "3,3',4,4',5,5'-Hexachlorobiphenyl",Emission,Ground
 "3,3',4,4',5,5'-Hexachlorobiphenyl",Emission,Water
 "O,O-Diethyl S-methyl dithiophosphate",Emission,Ground
@@ -10273,6 +10275,7 @@ Chlorophyll b,Emission,Ground
 Chlorophyll b,Emission,Water
 "2,3',4,4',5,5'-Hexachlorobiphenyl",Emission,Ground
 "2,3',4,4',5,5'-Hexachlorobiphenyl",Emission,Water
+"2,3',4,4',5,5'-Hexachlorobiphenyl",Emission,Air
 "1,2,3-Trimethylbenzene",Emission,Air
 "1,2,3,5-Tetramethylbenzene",Emission,Air
 o-Cymene,Emission,Air
@@ -10603,6 +10606,7 @@ Aluminum chloride,Emission,Ground
 Aluminum chloride,Emission,Water
 "2,3,4,4',5-Pentachlorobiphenyl",Emission,Ground
 "2,3,4,4',5-Pentachlorobiphenyl",Emission,Water
+"2,3,4,4',5-Pentachlorobiphenyl",Emission,Air
 Potassium chloride,Emission,Ground
 Potassium chloride,Emission,Water
 Potassium chloride,Resource,Ground

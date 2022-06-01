@@ -4,13 +4,22 @@ import pandas as pd
 import fedelemflowlist
 
 def get_required_flowmapping_fields():
-    """Gets required field names for Flow Mappingt:return:list of required fields."""
+    """Gets required field names for Flow Mapping
+    :return: list of required fields."""
     from fedelemflowlist.globals import flowmapping_fields
     required_fields = []
     for k, v in flowmapping_fields.items():
         if v[1]['required']:
             required_fields.append(k)
     return required_fields
+
+
+def drop_na_flows(df):
+    """For transparency, some flows are included in mapping files
+    despite not being included in the FEDEFL, e.g. 'Jobs'.
+    Drop these flows for testing."""
+    return df[df['TargetFlowUUID']!='n.a.']
+
 
 class TestFlowMappings(unittest.TestCase):
     """Add doctring."""
@@ -27,19 +36,30 @@ class TestFlowMappings(unittest.TestCase):
         flowmappings_w_required.reset_index(drop=True, inplace=True)
         nas_in_required = flowmappings_w_required.dropna()
         # To Identify mappings with missing fields
-        missing = flowmappings_w_required[~flowmappings_w_required.index.isin(nas_in_required.index)]
-        self.assertEqual(len(flowmappings_w_required), len(nas_in_required))
+        missing = (flowmappings_w_required
+                   [~flowmappings_w_required.index
+                    .isin(nas_in_required.index)])
+        self.assertEqual(len(flowmappings_w_required),
+                         len(nas_in_required))
 
     def test_targetflowinfo_matches_flows_in_list(self):
-        """Checks that target flow information in the mapping files matches a flow in the flowlist."""
-        flowmapping_targetinfo = self.flowmappings[['SourceListName', 
-                                                    'TargetFlowName', 'TargetFlowUUID',
+        """Checks that target flow information in the mapping files
+        matches a flow in the flowlist."""
+        flowmapping_targetinfo = self.flowmappings[['SourceListName',
+                                                    'TargetFlowName',
+                                                    'TargetFlowUUID',
                                                     'TargetFlowContext']]
-        flowmapping_targetinfo.columns = ['SourceListName','Flowable', 'Flow UUID', 'Context']
-        flowmappings_w_flowlist = pd.merge(flowmapping_targetinfo,self.flowlist)
+        flowmapping_targetinfo = drop_na_flows(flowmapping_targetinfo)
+        flowmapping_targetinfo.columns = ['SourceListName','Flowable',
+                                          'Flow UUID', 'Context']
+        flowmappings_w_flowlist = pd.merge(flowmapping_targetinfo,
+                                           self.flowlist)
         # To identify flowmapping flows not in list
-        missing_flows = flowmapping_targetinfo[~flowmapping_targetinfo['Flow UUID'].isin(flowmappings_w_flowlist['Flow UUID'])]
-        self.assertEqual(len(flowmapping_targetinfo), len(flowmappings_w_flowlist))
+        missing_flows = (flowmapping_targetinfo
+                         [~flowmapping_targetinfo['Flow UUID']
+                          .isin(flowmappings_w_flowlist['Flow UUID'])])
+        self.assertEqual(len(flowmapping_targetinfo),
+                         len(flowmappings_w_flowlist))
 
 
 if __name__ == '__main__':
