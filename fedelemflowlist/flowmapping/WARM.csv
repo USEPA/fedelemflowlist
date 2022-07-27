@@ -9,6 +9,6 @@ WARM,"Ethane, hexafluoro-, HFC-116",acc39720-dda7-4b3a-80c7-c6394cad4191,Element
 WARM,"Methane, tetrafluoro-, R-14",33681770-a0e1-4ce8-93c3-941fd607fa5f,Elementary flows/air/unspecified,kg,=,1,Carbon tetrafluoride,fbfa508b-f3c9-3977-a47d-1138e96914a3,emission/air,kg,Young,Edelen,2/9/2022
 WARM,"GHGs, unspecified",403f41d9-5f1c-448c-ab5e-6548d9ffdb64,Elementary flows/air/unspecified,MTCO2E,>,1000000,Carbon dioxide,b6f010fb-a764-3063-af2d-bcb8309a97b7,emission/air,kg,Young,Edelen,2/9/2022
 WARM,"Energy, unspecified",3e756464-b439-4b1e-8e4b-64e2173cc5ce,Elementary flows/resource/unspecified,MJ,=,1,"Energy, heat",8c959db8-d359-36e3-8517-588e1c21df4a,resource/air,MJ,Young,Edelen,2/9/2022
-WARM,Wages,8c2daef6-fd94-410b-a258-7df1f02c1bce,Economic flows,USD 2007,=,1.1,Compensation of employees,n.a.,n.a.,USD,Young,Edelen,7/27/2022
-WARM,Taxes,c9f2c667-eeab-448e-9c0c-6da04000fda6,Economic flows,USD 2007,=,1.1,"Taxes on production and imports, less subsidies",n.a.,n.a.,USD,Young,Edelen,7/27/2022
+WARM,Wages,8c2daef6-fd94-410b-a258-7df1f02c1bce,Economic flows,USD 2002,=,1.1,Compensation of employees,n.a.,n.a.,USD,Young,Edelen,7/27/2022
+WARM,Taxes,c9f2c667-eeab-448e-9c0c-6da04000fda6,Economic flows,USD 2002,=,1.1,"Taxes on production and imports, less subsidies",n.a.,n.a.,USD,Young,Edelen,7/27/2022
 WARM,Jobs,f45fbcf0-24f0-4ce1-b1d9-78f2ed0d5a34,Economic flows,Item(s),=,1,Jobs,n.a.,n.a.,p,Young,Edelen,2/9/2022
