@@ -5,6 +5,7 @@ import json
 import logging as log
 import fedelemflowlist
 import pandas as pd
+import datetime
 
 try:
     modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
@@ -102,7 +103,9 @@ def add_uuid_to_mapping(flow_mapping):
         log.warning("UUIDs not available for all flows")
         dropped = flow_mapping.loc[~flow_mapping.index.isin(flow_mapping_uuid.index)]
         dropped = dropped[['TargetFlowName','TargetFlowContext']].drop_duplicates().reset_index(drop=True)
-        log.info(dropped)
+        fname = "LOG_FlowsMappedWNoUUIDsFound_"+datetime.datetime.now().strftime("%Y_%m_%d")+".csv"
+        dropped.to_csv(outputpath+fname,index=False)
+        log.info("Mapped flows without UUIDs written to "+fname)
     flow_mapping_uuid.reset_index(drop=True, inplace=True)
     flowmapping_order = [c for c in list(flowmapping_fields.keys()) if c in flow_mapping_uuid.columns.tolist()]
     flow_mapping_uuid = flow_mapping_uuid[flowmapping_order]
