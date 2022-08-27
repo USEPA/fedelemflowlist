@@ -1,464 +1,452 @@
-﻿Column1,Column2,Column3,Column4,Column5,Column6,Column7,Column8,Column9,Column10,Column11,Column12,Column13,Column14
-TargetFlowName,TargetUnit,MatchCondition,SourceFlowName,SourceUnit,CAS No,Acronym,Formula,Mapper,Map method,Verifier,Note,LastUpdated,
-CFC-11,,=,CFC-11,kg,75-69-4,(no data),CCl3F,Edelen,CAS Number,,,8/23/2022,
-CFC-12,,=,CFC-12,kg,75-71-8,(no data),CCl2F2,Edelen,CAS Number,,,8/23/2022,
-CFC-13,,=,CFC-13,kg,75-72-9,(no data),CClF3,Edelen,CAS Number,,,8/23/2022,
-CFC-113,,=,CFC-113,kg,76-13-1,(no data),CCl2FCClF2,Edelen,CAS Number,,,8/23/2022,
-CFC-114,,=,CFC-114,kg,76-14-2,(no data),CClF2CClF2,Edelen,CAS Number,,,8/23/2022,
-CFC-115,,=,CFC-115,kg,76-15-3,(no data),CClF2CF3,Edelen,CAS Number,,,8/23/2022,
-Halon-1301,,=,Halon-1301,kg,75-63-8,(no data),CBrF3,Edelen,CAS Number,,,8/23/2022,
-Halon-1211,,=,Halon-1211,kg,353-59-3,(no data),CBrClF2,Edelen,CAS Number,,,8/23/2022,
-"""1,2-Dibromo-1,1,2,2-tetrafluoroethane""",,=,Halon-2402,kg,124-73-2,(no data),CBrF2CBrF2,Edelen,CAS Number,,,8/23/2022,
-Carbon tetrachloride,,=,Carbon tetrachloride,kg,56-23-5,(no data),CCl4,Edelen,CAS Number,,,8/23/2022,
-Methyl bromide,,=,Methyl bromide,kg,74-83-9,(no data),CH3Br,Edelen,CAS Number,,,8/23/2022,
-"""1,1,1-Trichloroethane""",,=,Methyl chloroform,kg,71-55-6,(no data),CH3CCl3,Edelen,CAS Number,,,8/23/2022,
-HCFC-22,,=,HCFC-22,kg,75-45-6,(no data),CHClF2,Edelen,CAS Number,,,8/23/2022,
-HCFC-123,,=,HCFC-123,kg,306-83-2,(no data),CHCl2CF3,Edelen,CAS Number,,,8/23/2022,
-HCFC-124,,=,HCFC-124,kg,2837-89-0,(no data),CHClFCF3,Edelen,CAS Number,,,8/23/2022,
-HCFC-141b,,=,HCFC-141b,kg,1717-00-6,(no data),CH3CCl2F,Edelen,CAS Number,,,8/23/2022,
-HCFC-142b,,=,HCFC-142b,kg,75-68-3,(no data),CH3CClF2,Edelen,CAS Number,,,8/23/2022,
-HCFC-225ca,,=,HCFC-225ca,kg,422-56-0,(no data),CHCl2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-HCFC-225cb,,=,HCFC-225cb,kg,507-55-1,(no data),CHClFCF2CClF2,Edelen,CAS Number,,,8/23/2022,
-HFC-23,,=,HFC-23,kg,75-46-7,(no data),CHF3,Edelen,CAS Number,,,8/23/2022,
-HFC-32,,=,HFC-32,kg,75-10-5,(no data),CH2F2,Edelen,CAS Number,,,8/23/2022,
-HFC-125,,=,HFC-125,kg,354-33-6,(no data),CHF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-134a,,=,HFC-134a,kg,811-97-2,(no data),CH2FCF3,Edelen,CAS Number,,,8/23/2022,
-HFC-143a,,=,HFC-143a,kg,420-46-2,(no data),CH3CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-152a,,=,HFC-152a,kg,75-37-6,(no data),CH3CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-227ea,,=,HFC-227ea,kg,431-89-0,(no data),CF3CHFCF3,Edelen,CAS Number,,,8/23/2022,
-HFC-236fa,,=,HFC-236fa,kg,690-39-1,(no data),CF3CH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-245fa,,=,HFC-245fa,kg,460-73-1,(no data),CHF2CH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-365mfc,,=,HFC-365mfc,kg,406-58-6,(no data),CH3CF2CH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-4310mee,,=,HFC-43-10mee,kg,138495-42-8,(no data),CF3CHFCHFCF2CF3,Edelen,CAS Number,,,8/23/2022,
-Sulfur hexafluoride,,=,Sulphur hexafluoride,kg,2551-62-4,(no data),SF6,Edelen,CAS Number,,,8/23/2022,
-Carbon tetrafluoride,,=,PFC-14,kg,75-73-0,(no data),CF4,Edelen,CAS Number,,,8/23/2022,
-Hexafluoroethane,,=,PFC-116,kg,76-16-4,(no data),C2F6,Edelen,CAS Number,,,8/23/2022,
-Perfluoropropane,,=,PFC-218,kg,76-19-7,(no data),C3F8,Edelen,CAS Number,,,8/23/2022,
-Perfluorocyclobutane,,=,PFC-318,kg,115-25-3,(no data),c-C4F8,Edelen,CAS Number,,,8/23/2022,
-Perfluorobutane,,=,PFC-3-1-10,kg,355-25-9,(no data),C4F10,Edelen,CAS Number,,,8/23/2022,
-Perfluoropentane,,=,PFC-4-1-12,kg,678-26-2,(no data),C5F12,Edelen,CAS Number,,,8/23/2022,
-Perfluorohexane,,=,PFC-5-1-14,kg,355-42-0,(no data),C6F14,Edelen,CAS Number,,,8/23/2022,
-Perfluorodecalin,,=,PFC-9-1-18,kg,306-94-5,(no data),C10F18,Edelen,CAS Number,,,8/23/2022,
-Trifluoromethyl sulfur pentafluoride,,=,trifluoromethyl sulphur pentafluoride,kg,373-80-8,(no data),SF5CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-125,,=,HFE-125,kg,354-33-6,(no data),CHF2OCF3,Edelen,CAS Number,,,8/23/2022,
-"""Methane, oxybis[difluoro-""",,=,HFE-134,kg,1691-17-4,(no data),CHF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-"""Methane, trifluoromethoxy-""",,=,HFE-143a,kg,421-14-7,(no data),CH3OCF3,Edelen,CAS Number,,,8/23/2022,
-Isoflurane,,=,HCFE-235da2,kg,26675-46-7,(no data),CHF2OCHClCF3,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 2-(difluoromethoxy)-1,1,1-trifluoro-""",,=,HFE-245fa2,kg,1885-48-9,(no data),CHF2OCH2CF3,Edelen,CAS Number,,,8/23/2022,
-"""1,1,2,2-Tetrafluoro-1-methoxyethane""",,=,HFE-254cb2,kg,425-88-7,(no data),CH3OCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-"""Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-""",,=,HFE-347mcc3,kg,375-03-1,(no data),CH3OCF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-347pcf2,,=,HFE-347pcf2,kg,406-78-0,(no data),CHF2CF2OCH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-356pcc3,,=,HFE-356pcc3,kg,160620-20-2,(no data),CH3OCF2CF2CHF2,Edelen,CAS Number,,,8/23/2022,
-"""Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-""",,=,HFE-449sl (HFE-7100),kg,163702-07-6,(no data),C4F9OCH3,Edelen,CAS Number,,,8/23/2022,
-Ethyl nonafluorobutyl ether,,=,HFE-569sf2 (HFE-7200),kg,163702-05-4,(no data),C4F9OC2H5,Edelen,CAS Number,,,8/23/2022,
-,,,"HFE-43-10pccc124
-(H-Galden 1040x)",kg,(no data),(no data),CHF2OCF2OC2F4OCHF2,,,,,,
-"""Methane, bis(difluoromethoxy)difluoro-""",,=,HFE-236ca12 (HG-10),kg,78522-47-1,(no data),CHF2OCF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-"""Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-""",,=,HFE-338pcc13 (HG-01),kg,163702-07-6,(no data),CHF2OCF2CF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-,,,PFPMIE,kg,1309353-34-1,(no data),CF3OCF(CF3)CF2OCF2OCF3,,,,,,
-Dimethyl ether,,=,Dimethylether,kg,115-10-6,(no data),CH3OCH3,Edelen,CAS Number,,,8/23/2022,
-Methylene chloride,,=,Methylene chloride,kg,75-09-2,(no data),CH2Cl2,Edelen,CAS Number,,,8/23/2022,
-Chloromethane,,=,Methyl chloride,kg,74-87-3,(no data),CH3Cl,Edelen,CAS Number,,,8/23/2022,
-Methane,,=,Fossil methane,kg,74-82-8,(no data),CH4,Edelen,CAS Number,,,8/23/2022,
-Chlorofluorocarbons,,=,Chlorofluorocarbons,kg,(no data),(no data),0,Edelen,CAS Number,,,8/23/2022,
-Hydrochlorofluorocarbons,,=,Hydrochlorofluorocarbons,kg,(no data),(no data),0,Edelen,CAS Number,,,8/23/2022,
-HCFC-21,,=,HCFC-21,kg,75-43-4,(no data),CHCl2F,Edelen,CAS Number,,,8/23/2022,
-HCFC-122,,=,HCFC-122,kg,354-21-2,(no data),CHCl2CF2Cl,Edelen,CAS Number,,,8/23/2022,
-HCFC-122a,,=,HCFC-122a,kg,354-15-4,(no data),CHFClCFCl2,Edelen,CAS Number,,,8/23/2022,
-HCFC-123a,,=,HCFC-123a,kg,354-23-4,(no data),CHClFCF2Cl,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 1,1-dichloro-1,2-difluoro-""",,=,HCFC-132c,kg,1842-05-3,(no data),CH2FCFCl2,Edelen,CAS Number,,,8/23/2022,
-"""1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-""",,=,"(E)-1-Chloro-3,3,3-
-trifluoroprop-1-ene",kg,102687-65-0,(no data),trans-CF3CH=CHCl,Edelen,CAS Number,,,8/23/2022,
-Hydrofluorocarbons,,=,Hydrofluorocarbons,kg,(no data),(no data),0,Edelen,CAS Number,,,8/23/2022,
-HFC-41,,=,HFC-41,kg,593-53-3,(no data),CH3F,Edelen,CAS Number,,,8/23/2022,
-HFC-134,,=,HFC-134,kg,359-35-3,(no data),CHF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-143,,=,HFC-143,kg,430-66-0,(no data),CH2FCHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-152,,=,HFC-152,kg,624-72-6,(no data),CH2FCH2F,Edelen,CAS Number,,,8/23/2022,
-HFC-161,,=,HFC-161,kg,353-36-6,(no data),CH3CH2F,Edelen,CAS Number,,,8/23/2022,
-1H-Heptafluoropropane,,=,HFC-227ca,kg,2252-84-8,(no data),CF3CF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-236cb,,=,HFC-236cb,kg,677-56-5,(no data),CH2FCF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-236ea,,=,HFC-236ea,kg,431-63-0,(no data),CHF2CHFCF3,Edelen,CAS Number,,,8/23/2022,
-HFC-245ca,,=,HFC-245ca,kg,679-86-7,(no data),CH2FCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-245cb,,=,HFC-245cb,kg,1814-88-6,(no data),CF3CF2CH3,Edelen,CAS Number,,,8/23/2022,
-HFC-245ea,,=,HFC-245ea,kg,24270-66-4,(no data),CHF2CHFCHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-245eb,,=,HFC-245eb,kg,431-31-2,(no data),CH2FCHFCF3,Edelen,CAS Number,,,8/23/2022,
-"""Propane, 1,1,1-trifluoro-""",,=,HFC-263fb,kg,421-07-8,(no data),CH3CH2CF3,Edelen,CAS Number,,,8/23/2022,
-Dimethyldifluoromethane,,=,HFC-272ca,kg,420-45-1,(no data),CH3CF2CH3,Edelen,CAS Number,,,8/23/2022,
-HFC-329p,,=,HFC-329p,kg,375-17-7,(no data),CHF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-Vinylidene fluoride,,=,HFC-1132a,kg,75-38-7,(no data),CH2=CF2,Edelen,CAS Number,,,8/23/2022,
-Vinyl fluoride,,=,HFC-1141,kg,75-02-5,(no data),CH2=CHF,Edelen,CAS Number,,,8/23/2022,
-"""1-Propene, 1,2,3,3,3-pentafluoro-, (1Z)-""",,=,(Z)-HFC-1225ye,kg,5528-43-8,(no data),CF3CF=CHF(Z),Edelen,CAS Number,,,8/23/2022,
-(E)-HFC-1225ye,,=,(E)-HFC-1225ye,kg,5595-10-8,(no data),CF3CF=CHF(E),Edelen,CAS Number,,,8/23/2022,*wrong CAS in list
-"""1-Propene, 1,3,3,3-tetrafluoro-, (1Z)-""",,=,(Z)-HFC-1234ze,kg,29118-25-0,(no data),CF3CH=CHF(Z),Edelen,CAS Number,,,8/23/2022,
-"""1-Propene, 2,3,3,3-tetrafluoro-""",,=,HFC-1234yf,kg,754-12-1,(no data),CF3CF=CH2,Edelen,CAS Number,,,8/23/2022,
-HFC-1234ze(E),,=,(E)-HFC-1234ze,kg,1645-83-6,(no data),trans-CF3CH=CHF,Edelen,CAS Number,,,8/23/2022,
-"""(Z)-1,1,1,4,4,4-Hexafluoro-2-butene""",,=,(Z)-HFC-1336,kg,692-49-9,(no data),CF3CH=CHCF3(Z),Edelen,CAS Number,,,8/23/2022,
-"""3,3,3-Trifluoro-1-propene""",,=,HFC-1243zf,kg,677-21-4,(no data),CF3CH=CH2,Edelen,CAS Number,,,8/23/2022,
-HFC-1345zfc,,=,HFC-1345zfc,kg,374-27-6,(no data),C2F5CH=CH2,Edelen,CAS Number,,,8/23/2022,
-,,,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-Hep-
-tadecafluorodec-1-ene",kg,(no data),(no data),C8F17CH=CH2,,,,,,
-,,,Chlorocarbons and Hydrochlorocarbons,kg,(no data),(no data),0,,,,,,
-Chloroform,,=,Chloroform,kg,67-66-3,(no data),CHCl3,Edelen,CAS Number,,,8/23/2022,
-,,,"Bromocarbons, Hydrobromocarbons and Halons",kg,(no data),(no data),0,,,,,,
-Dibromomethane,,=,Methylene bromide,kg,74-95-3,(no data),CH2Br2,Edelen,CAS Number,,,8/23/2022,
-Bromodifluoromethane,,=,Halon-1201,kg,1511-62-2,(no data),CHBrF2,Edelen,CAS Number,,,8/23/2022,
-Dibromodifluoromethane,,=,Halon-1202,kg,75-61-6,(no data),CBr2F2,Edelen,CAS Number,,,8/23/2022,
-"""2-Bromo-1,1,1-trifluoroethane""",,=,Halon-2301,kg,421-06-7,(no data),CH2BrCF3,Edelen,CAS Number,,,8/23/2022,
-Halothane,,=,Halon-2311 / Halothane,kg,151-67-7,(no data),CHBrClCF3,Edelen,CAS Number,,,8/23/2022,
-"""2-Bromo-1,1,1,2-tetrafluoroethane""",,=,Halon-2401,kg,124-72-1,(no data),CHFBrCF3,Edelen,CAS Number,,,8/23/2022,
-,,,Fully Fluorinated Species,kg,(no data),(no data),0,,,,,,
-Trifluoromethyl sulfur pentafluoride,,=,(Trifluoromethyl) sulphur pentafluoride,kg,373-80-8,(no data),SF5CF3,Edelen,CAS Number,,,8/23/2022,
-Sulfuryl fluoride,,=,Sulphuryl fluoride,kg,2699-79-8,(no data),SO2F2,Edelen,CAS Number,,,8/23/2022,
-,,,PFC-c216,kg,(no data),(no data),c-C3F6,,,,,,
-Perfluorobutane,,=,PFC-31-10,kg,355-25-9,(no data),C4F10,Edelen,CAS Number,,,8/23/2022,
-Octafluorocyclopentene,,=,Perfluorocyclopentene,kg,559-40-0,(no data),c-C5F8,Edelen,CAS Number,,,8/23/2022,
-Perfluoropentane,,=,PFC-41-12,kg,678-26-2,(no data),n-C5F12,Edelen,CAS Number,,,8/23/2022,
-Perfluorohexane,,=,PFC-51-14,kg,355-42-0,(no data),n-C6F14,Edelen,CAS Number,,,8/23/2022,
-Perfluoroheptane,,=,PFC-61-16,kg,335-57-9,(no data),n-C7F16,Edelen,CAS Number,,,8/23/2022,
-"""Octane, octadecafluoro-""",,=,PFC-71-18,kg,307-34-6,(no data),C8F18,Edelen,CAS Number,,,8/23/2022,
-Perfluorodecalin,,=,PFC-91-18,kg,306-94-5,(no data),C10F18,Edelen,CAS Number,,,8/23/2022,
-Perfluorodecalin (cis),,=,Perfluorodecalin (cis),kg,60433-11-6,(no data),Z-C10F18,Edelen,CAS Number,,,8/23/2022,
-Perfluorodecalin (trans),,=,Perfluorodecalin (trans),kg,60433-12-7,(no data),E-C10F18,Edelen,CAS Number,,,8/23/2022,
-Tetrafluoroethene,,=,PFC-1114,kg,116-14-3,(no data),CF2=CF2,Edelen,CAS Number,,,8/23/2022,
-Hexafluoropropene,,=,PFC-1216,kg,116-15-4,(no data),CF3CF=CF2,Edelen,CAS Number,,,8/23/2022,
-"""Hexafluoro-1,3-butadiene""",,=,"Perfluorobuta-1,3-diene",kg,685-63-2,(no data),CF2=CFCF=CF2,Edelen,CAS Number,,,8/23/2022,
-Perfluorobut-1-ene,,=,Perfluorobut-1-ene,kg,357-26-6,(no data),CF3CF2CF=CF2,Edelen,CAS Number,,,8/23/2022,
-Perfluorobut-2-ene,,=,Perfluorobut-2-ene,kg,360-89-4,(no data),CF3CF=CFCF3,Edelen,CAS Number,,,8/23/2022,
-,,,Halogenated Alcohols and Ethers,kg,(no data),(no data),0,,,,,,
-"""Methane, oxybis[difluoro-""",,=,HFE-134 (HG-00),kg,1691-17-4,(no data),CHF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-""",,=,HFE-227ea,kg,2356-62-9,(no data),CF3CHFOCF3,Edelen,CAS Number,,,8/23/2022,
-Enflurane,,=,HCFE-235ca2 (enflurane),kg,13838-16-9,(no data),CHF2OCF2CHFCl,Edelen,CAS Number,,,8/23/2022,
-Isoflurane,,=,HCFE-235da2 (isoflurane),kg,26675-46-7,(no data),CHF2OCHClCF3,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 1-(difluoromethoxy)-1,1,2,2-tetrafluoro-""",,=,HFE-236ca,kg,32778-11-3,(no data),CHF2OCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 2-(difluoromethoxy)-1,1,1,2-tetrafluoro-, (+-)-""",,=,HFE-236ea2 (desflurane),kg,57041-67-5,(no data),CHF2OCHFCF3,Edelen,CAS Number,,,8/23/2022,
-"""2,2,2-Trifluoroethyl trifluoromethyl ether""",,=,HFE-236fa,kg,20193-67-3,(no data),CF3CH2OCF3,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 1,1-difluoro-2-(trifluoromethoxy)-""",,=,HFE-245fa1,kg,84011-15-4,(no data),CHF2CH2OCF3,Edelen,CAS Number,,,8/23/2022,
-"""1,1,2,2-Tetrafluoro-1-methoxyethane""",,=,HFE-254cb1,kg,425-88-7,(no data),CH3OCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 1,1,1-trifluoro-2-methoxy-""",,=,HFE-263fb2,kg,460-43-5,(no data),CF3CH2OCH3,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, (trifluoromethoxy)-""",,=,HFE-263m1,kg,690-22-2,(no data),CF3OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-HFE-329mcc2,,=,HFE-329mcc2,kg,134769-21-4,(no data),CHF2CF2OCF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-338mmz1,,=,HFE-338mmz1,kg,26103-08-2,(no data),(CF3)2CHOCHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-338mcf2,,=,HFE-338mcf2,kg,156053-88-2,(no data),CF3CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022,
-Sevoflurane,,=,Sevoflurane (HFE-347mmz1),kg,28523-86-6,(no data),(CF3)2CHOCH2F,Edelen,CAS Number,,,8/23/2022,
-"""Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-""",,=,HFE-347mcc3 (HFE-7000),kg,375-03-1,(no data),CH3OCF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-347mcf2,,=,HFE-347mcf2,kg,171182-95-9,(no data),CHF2CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-347mmy1,,=,HFE-347mmy1,kg,22052-84-2,(no data),(CF3)2CFOCH3,Edelen,CAS Number,,,8/23/2022,
-HFE-356mec3,,=,HFE-356mec3,kg,382-34-3,(no data),CH3OCF2CHFCF3,Edelen,CAS Number,,,8/23/2022,
-HFE-356mff2,,=,HFE-356mff2,kg,333-36-8,(no data),CF3CH2OCH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-356pcf2,,=,HFE-356pcf2,kg,50807-77-7,(no data),CHF2CH2OCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-356pcf3,,=,HFE-356pcf3,kg,35042-99-0,(no data),CHF2OCH2CF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-356mmz1,,=,HFE-356mmz1,kg,13171-18-1,(no data),(CF3)2CHOCH3,Edelen,CAS Number,,,8/23/2022,
-HFE-365mcf3,,=,HFE-365mcf3,kg,378-16-5,(no data),CF3CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022,
-HFE-365mcf2,,=,HFE-365mcf2,kg,22052-81-9,(no data),CF3CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 1-ethoxy-1,1,2,2-tetrafluoro-""",,=,HFE-374pc2,kg,512-51-6,(no data),CHF2CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-,,,"2,2,3,3,4,4,5,5-Octafluorocyclopentanol",kg,(no data),(no data),-(CF2)4CH(OH)-,,,,,,
-HG-30,,=,"HFE-43-10pccc124 (H-Galden 1040x, HG-11)",kg,188690-77-9,(no data),CHF2OCF2OC2F4OCHF2,Edelen,CAS Number,,,8/23/2022,
-"""Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-""",,=,HFE-449s1 (HFE-7100),kg,163702-07-6,(no data),C4F9OCH3,Edelen,CAS Number,,,8/23/2022,
-,,,n-HFE-7100,kg,(no data),(no data),n-C4F9OCH3,,,,,,
-,,,i-HFE-7100,kg,(no data),(no data),i-C4F9OCH3,,,,,,
-,,,n-HFE-7200,kg,(no data),(no data),n-C4F9OC2H5,,,,,,
-,,,i-HFE-7200,kg,(no data),(no data),i-C4F9OC2H5,,,,,,
-HG-02,,=,HG-02,kg,205367-61-9,(no data),"HF2C–(OCF2CF2)2–
-OCF2H",Edelen,CAS Number,,,8/23/2022,
-HG-03,,=,HG-03,kg,173350-37-3,(no data),"HF2C–(OCF2CF2)3–
-OCF2H",Edelen,CAS Number,,,8/23/2022,
-HG-20,,=,HG-20,kg,249932-25-0,(no data),HF2C–(OCF2)2–OCF2H,Edelen,CAS Number,,,8/23/2022,
-HG-21,,=,HG-21,kg,249932-26-1,(no data),"HF2C–OCF2CF2OC-
-F2OCF2O–CF2H",Edelen,CAS Number,,,8/23/2022,
-HG-30,,=,HG-30,kg,188690-77-9,(no data),HF2C–(OCF2)3–OCF2H,Edelen,CAS Number,,,8/23/2022,
-"""1-Ethoxy-1,1,2,2,3,3,3-heptafluoropropane""",,=,"1-Ethoxy-1,1,2,2,3,3,3-heptafluoropropane",kg,22052-86-4,(no data),CF3CF2CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-"""Ethene, (2,2,2-trifluoroethoxy)-""",,=,Fluoroxene,kg,406-90-6,(no data),CF3CH2OCH=CH2,Edelen,CAS Number,,,8/23/2022,
-"""Ethane, 1,1,2,2-tetrafluoro-1-(fluoromethoxy)-""",,=,"1,1,2,2-Tetrafluoro-1-(fluoromethoxy)ethane",kg,37031-31-5,(no data),CH2FOCF2CF2H,Edelen,CAS Number,,,8/23/2022,
-"""2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan""",,=,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-
-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,920979-28-8,(no data),C12H5F19O2,Edelen,CAS Number,,,8/23/2022,
-Fluoro(methoxy)methane,,=,Fluoro(methoxy)methane,kg,460-22-0.,(no data),CH3OCH2F,Edelen,CAS Number,,,8/23/2022,
-Fluoro(methoxy)methane,,=,Fluoro(fluoromethoxy)methane,kg,460-22-0,(no data),CH2FOCH2F,Edelen,CAS Number,,,8/23/2022,
-Fluoro(fluoromethoxy)methane,,=,Difluoro(fluoromethoxy)methane,kg,462-51-1,(no data),CH2FOCHF2,Edelen,CAS Number,,,8/23/2022,
-"""Difluoro(fluoromethoxy)methane""",,=,Trifluoro(fluoromethoxy)methane,kg,461-63-2,(no data),CH2FOCF3,Edelen,CAS Number,,,8/23/2022,
-Trifluoro(fluoromethoxy)methane,,=,HG’-01,kg,2261-01-0,(no data),CH3OCF2CF2OCH3,Edelen,CAS Number,,,8/23/2022,
-HG'-02,,=,HG’-02,kg,485399-46-0,(no data),CH3O(CF2CF2O)2CH3,Edelen,CAS Number,,,8/23/2022,
-HG'-03,,=,HG’-03,kg,485399-48-2,(no data),CH3O(CF2CF2O)3CH3,Edelen,CAS Number,,,8/23/2022,
-HFE-329me3,,=,HFE-329me3,kg,428454-68-6,(no data),CF3CFHCF2OCF3,Edelen,CAS Number,,,8/23/2022,
-"""3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol""",,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-
-adecafluoroundecan-1-ol",kg,87017-97-8,(no data),CF3(CF2)8CH2CH2OH,Edelen,CAS Number,,,8/23/2022,
-,,,PFPMIE (perfluoropolymethylisopropyl ether),kg,(no data),(no data),"CF3OCF(CF3)
-CF2OCF2OCF3",,,,,,
-Trifluoro(trifluoromethoxy)ethylene,,=,HFE-216,kg,1187-93-5,(no data),CF3OCF=CF2,Edelen,CAS Number,,,8/23/2022,
-Trifluoromethyl formate,,=,Trifluoromethyl formate,kg,85358-65-2,(no data),HCOOCF3,Edelen,CAS Number,,,8/23/2022,
-Perfluoropropyl formate,,=,Perfluoropropyl formate,kg,271257-42-2,(no data),HCOOCF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-Perfluorobutyl formate,,=,Perfluorobutyl formate,kg,197218-56-7,(no data),HCOOCF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-"""3,3,3-Trifluoropropyl formate""",,=,"3,3,3-Trifluoropropyl formate",kg,1344118-09-7,(no data),HCOOCH2CH2CF3,Edelen,CAS Number,,,8/23/2022,
-"""1,2,2,2-Tetrafluoroethyl formate""",,=,"1,2,2,2-Tetrafluoroethyl formate",kg,481631-19-0,(no data),HCOOCHFCF3,Edelen,CAS Number,,,8/23/2022,
-"""1,1,1,3,3,3-Hexafluoropropan-2-yl formate""",,=,"1,1,1,3,3,3-Hexafluoropropan-2-yl formate",kg,856766-70-6,(no data),HCOOCH(CF3)2,Edelen,CAS Number,,,8/23/2022,
-Perfluorobutyl acetate,,=,Perfluorobutyl acetate,kg,209597-28-4,(no data),CH3COOCF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-Perfluoropropyl acetate,,=,Perfluoropropyl acetate,kg,1344118-10-0,(no data),CH3COOCF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-Perfluoroethyl acetate,,=,Perfluoroethyl acetate,kg,343269-97-6,(no data),CH3COOCF2CF3,Edelen,CAS Number,,,8/23/2022,
-Trifluoromethyl acetate,,=,Trifluoromethyl acetate,kg,74123-20-9,(no data),CH3COOCF3,Edelen,CAS Number,,,8/23/2022,
-Methyl carbonofluoridate,,=,Methyl carbonofluoridate,kg,1538-06-3,(no data),FCOOCH3,Edelen,CAS Number,,,8/23/2022,
-"""1,1-Difluoroethyl carbonofluoridate""",,=,"1,1-Difluoroethyl carbonofluoridate",kg,1344118-11-1,(no data),FCOOCF2CH3,Edelen,CAS Number,,,8/23/2022,
-"""1,1-Difluoroethyl 2,2,2-trifluoroacetate""",,=,"1,1-Difluoroethyl 2,2,2-trifluoroacetate",kg,1344118-13-3,(no data),CF3COOCF2CH3,Edelen,CAS Number,,,8/23/2022,
-"""2,2,2-Trifluoroethyl 2,2,2-trifluoroacetate""",,=,"2,2,2-Trifluoroethyl 2,2,2-trifluoroacetate",kg,407-38-5,(no data),CF3COOCH2CF3,Edelen,CAS Number,,,8/23/2022,
-"""Methyl 2,2-difluoroacetate""",,=,"Methyl 2,2-difluoroacetate",kg,433-53-4,(no data),HCF2COOCH3,Edelen,CAS Number,,,8/23/2022,
-"""Difluoromethyl 2,2,2-trifluoroacetate""",,=,"Difluoromethyl 2,2,2-trifluoroacetate",kg,2024-86-4,(no data),CF3COOCHF2,Edelen,CAS Number,,,8/23/2022,
-"""1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane""",,=,"1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane",kg,84011-06-3,(no data),CHF2CHFOCF3,Edelen,CAS Number,,,8/23/2022,
-"""Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-""",,=,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-
-tetrafluoroethoxy)-propane",kg,3330-15-2,(no data),CF3CF2CF2OCHFCF3,Edelen,CAS Number,,,8/23/2022,
-"""1-Propanol, 2,2,3,3-tetrafluoro-""",,=,"2,2,3,3-Tetrafluoro-1-propanol",kg,76-37-9,(no data),CHF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"1H,1H,3H-Perfluorobutanol",,=,"2,2,3,4,4,4-Hexafluoro-1-butanol",kg,382-31-0,(no data),CF3CHFCF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"1-Butanol, 2,2,3,3,4,4,4-heptafluoro-",,=,"2,2,3,3,4,4,4-Heptafluoro-1-butanol",kg,375-01-9,(no data),CF3CF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"""1,1,2,2-Tetrafluoro-3-methoxy-propane""",,=,"1,1,2,2-Tetrafluoro-3-methoxy-propane",kg,60598-17-6,(no data),CHF2CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022,
-"3-Pentanone, 1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)-",,=,perfluoro-2-methyl-3-pentanone,kg,756-13-8,(no data),CF3CF2C(O)CF(CF3)2,Edelen,CAS Number,,,8/23/2022,
-"""Propanal, 3,3,3-trifluoro-""",,=,"3,3,3-Trifluoro-propanal",kg,460-40-2,(no data),CF3CH2CHO,Edelen,CAS Number,,,8/23/2022,
-HG-02,,=,"1,1’-Oxybis[2-(difluoromethoxy)-1,1,2,2-tetrafluoroethane",kg,205367-61-9,(no data),HCF2O(CF2CF2O)2CF2H,Edelen,CAS Number,,,8/23/2022,
-HG-03,,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-
-decafluoro-2,5,8,11-Tetraoxadodecane",kg,173350-37-3,(no data),HCF2O(CF2CF2O)3CF2H,Edelen,CAS Number,,,8/23/2022,
-"""1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane""",,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-
-safluoro-2,5,8,11,14-Pentaoxapentadecane",kg,173350-38-4,(no data),HCF2O(CF2CF2O)4CF2H,Edelen,CAS Number,,,8/23/2022,
-Carbon dioxide,kg,=,Carbon dioxide,kg,124-38-9,,CO2,Young,,Edelen,,8/23/2022,
-Methane,kg,=,Methane,kg,74-82-8,,CH4,Young,,Edelen,,8/23/2022,
-Nitrous oxide,,=,Nitrous oxide,kg,10024-97-2,,N2O,Edelen,CAS Number,,,8/23/2022,
-CFC-11,,=,Trichlorofluoromethane,kg,75-69-4,CFC-11,CCl3F,Edelen,CAS Number,,,8/23/2022,
-CFC-12,,=,Dichlorodifluoromethane,kg,75-71-8,CFC-12,CCl2F2,Edelen,CAS Number,,,8/23/2022,
-CFC-13,,=,Chlorotrifluoromethane,kg,75-72-9,CFC-13,CClF3,Edelen,CAS Number,,,8/23/2022,
-CFC-112,,=,"1,1,2,2-tetrachloro-1,2-difluoroethane",kg,76-12-0,CFC-112,CCl2FCCl2F,Edelen,CAS Number,,,8/23/2022,
-,,,"1,1,1,2-tetrachloro-2,2-difluoroethane",kg,76-11-9,CFC-112a,CCl3CClF2,,,,,,
-CFC-113,,=,"1,1,2-trichloro-1,2,2-trifluoroethane",kg,76-13-1,CFC-113,CCl2FCClF2,Edelen,CAS Number,,,8/23/2022,
-CFC-113a,,=,"1,1,1-trichloro-2,2,2-trifluoroethane",kg,354-58-5,CFC-113a,CCl3CF3,Edelen,CAS Number,,,8/23/2022,
-CFC-114,,=,"1,2-dichloro-1,1,2,2-tetrafluoroethane",kg,76-14-2,CFC-114,CClF2CClF2,Edelen,CAS Number,,,8/23/2022,
-CFC-114a,,=,"1,1-dichloro-1,2,2,2-tetrafluoroethane",kg,374-07-2,CFC-114a,CCl2FCF3,Edelen,CAS Number,,,8/23/2022,
-CFC-115,,=,"1-chloro-1,1,2,2,2-pentafluoroethane",kg,76-15-3,CFC-115,CClF2CF3,Edelen,CAS Number,,,8/23/2022,
-,,,"(1s,2s)-1,2-dichloro-1,2,3,3,4,4-hexafluorocyclobutane",kg,3832-15-3,E-R316c,trans cyc (-CClFCF2CF2CClF-),,,,,,
-,,,"(1r,2s)-1,2-dichloro-1,2,3,3,4,4-hexafluorocyclobutane",kg,3934-26-7,Z-R316c,cis cyc (-CClFCF2CF2CClF-),,,,,,
-,,,"(e)-1,2-dichloro-1,2-difluoroethene",kg,598-88-9,CFC 1112,CClF=CClF,,,,,,
-,,,"1,1-dichloro-2,2-difluoroethene",kg,79-35-6,CFC 1112a,CCl2=CF2,,,,,,
-HCFC-21,,=,Dichlorofluoromethane,kg,75-43-4,HCFC-21,CHCl2F,Edelen,CAS Number,,,8/23/2022,
-HCFC-22,,=,Chlorodifluoromethane,kg,75-45-6,HCFC-22,CHClF2,Edelen,CAS Number,,,8/23/2022,
-HCFC-31,,=,Chlorofluoromethane,kg,593-70-4,HCFC-31,CH2ClF,Edelen,CAS Number,,,8/23/2022,
-HCFC-121,,=,"1,1,2,2-tetrachloro-1-fluoroethane",kg,354-14-3,HCFC-121,CHCl2CCl2F,Edelen,CAS Number,,,8/23/2022,
-HCFC-122,,=,"1,2,2-trichloro-1,1-difluoroethane",kg,354-21-2,HCFC-122,CHCl2CClF2,Edelen,CAS Number,,,8/23/2022,
-HCFC-122a,,=,"1,1,2-trichloro-1,2-difluoroethane",kg,354-15-4,HCFC-122a,CHClFCCl2F,Edelen,CAS Number,,,8/23/2022,
-HCFC-123,,=,"2,2-dichloro-1,1,1-trifluoroethane",kg,306-83-2,HCFC-123,CHCl2CF3,Edelen,CAS Number,,,8/23/2022,
-HCFC-123a,,=,"1,2-dichloro-1,1,2-trifluoroethane",kg,354-23-4,HCFC-123a,CHClFCClF2,Edelen,CAS Number,,,8/23/2022,
-HCFC-124,,=,"2-chloro-1,1,1,2-tetrafluoroethane",kg,2837-89-0,HCFC-124,CHClFCF3,Edelen,CAS Number,,,8/23/2022,
-HCFC-124a,,=,"1-chloro-1,1,2,2-tetrafluoroethane",kg,354-25-6,HCFC-124a,CHF2CClF2,Edelen,CAS Number,,,8/23/2022,
-HCFC-132,,=,"1,2-dichloro-1,2-difluoroethane",kg,431-06-1,HCFC-132,CHClFCHClF,Edelen,CAS Number,,,8/23/2022,
-,,,"1,1-dichloro-2,2-difluoroethane",kg,471-43-2,HCFC-132a,CHCl2CHF2,,,,,,
-"Ethane, 1,1-dichloro-1,2-difluoro-",,=,"1,1-dichloro-1,2-difluoroethane",kg,1842-05-3,HCFC-132c,CH2FCCl2F,Edelen,CAS Number,,,8/23/2022,
-HCFC-133a,,=,"2-chloro-1,1,1-trifluoroethane",kg,75-88-7,HCFC-133a,CH2ClCF3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 1,2-dichloro-1-fluoro-",,=,"1,2-dichloro-1-fluoroethane",kg,430-57-9,HCFC-141,CH2ClCHClF,Edelen,CAS Number,,,8/23/2022,
-HCFC-141b,,=,"1,1-dichloro-1-fluoroethane",kg,1717-00-6,HCFC-141b,CH3CCl2F,Edelen,CAS Number,,,8/23/2022,
-HCFC-142b,,=,"1-chloro-1,1-difluoroethane",kg,75-68-3,HCFC-142b,CH3CClF2,Edelen,CAS Number,,,8/23/2022,
-HCFC-225ca,,=,"3,3-dichloro-1,1,1,2,2-pentafluoropropane",kg,422-56-0,HCFC-225ca,CHCl2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-HCFC-225cb,,=,"1,3-dichloro-1,1,2,2,3-pentafluoropropane",kg,507-55-1,HCFC-225cb,CHClFCF2CClF2,Edelen,CAS Number,,,8/23/2022,
-"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",,=,"(e)-1-chloro-3,3,3-trifluoroprop-1-ene",kg,102687-65-0,HCFO-1233zd(E),(E)-CF3CH=CHCl,Edelen,CAS Number,,,8/23/2022,
-,,,"1-chloro-3,3,3-trifluoroprop-1-ene",kg,99728-16-2,HCFO-1233zd(Z),(Z)-CF3CH=CHCl,,,,,,
-,,,(e)-1-chloro-2-fluoroethene,kg,460-16-2,,(E/Z)-CHCl=CHF,,,,,,
-HFC-23,,=,Trifluoromethane,kg,75-46-7,HFC-23,CHF3,Edelen,CAS Number,,,8/23/2022,
-HFC-32,,=,Difluoromethane,kg,75-10-5,HFC-32,CH2F2,Edelen,CAS Number,,,8/23/2022,
-HFC-41,,=,Fluoromethane,kg,593-53-3,HFC-41,CH3F,Edelen,CAS Number,,,8/23/2022,
-HFC-125,,=,"1,1,1,2,2-pentafluoroethane",kg,354-33-6,HFC-125,CHF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-134,,=,"1,1,2,2-tetrafluoroethane",kg,359-35-3,HFC-134,CHF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-134a,,=,"1,1,1,2-tetrafluoroethane",kg,811-97-2,HFC-134a,CH2FCF3,Edelen,CAS Number,,,8/23/2022,
-HFC-143,,=,"1,1,2-trifluoroethane",kg,430-66-0,HFC-143,CH2FCHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-143a,,=,"1,1,1-trifluoroethane",kg,420-46-2,HFC-143a,CH3CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-152,,=,"1,2-difluoroethane",kg,624-72-6,HFC-152,CH2FCH2F,Edelen,CAS Number,,,8/23/2022,
-HFC-152a,,=,"1,1-difluoroethane",kg,75-37-6,HFC-152a,CH3CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-161,,=,Fluoroethane,kg,353-36-6,HFC-161,CH3CH2F,Edelen,CAS Number,,,8/23/2022,
-1H-Heptafluoropropane,,=,"1,1,1,2,2,3,3-heptafluoropropane",kg,2252-84-8,HFC-227ca,CF3CF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-227ea,,=,"1,1,1,2,3,3,3-heptafluoropropane",kg,431-89-0,HFC-227ea,CF3CHFCF3,Edelen,CAS Number,,,8/23/2022,
-HFC-236cb,,=,"1,1,1,2,2,3-hexafluoropropane",kg,677-56-5,HFC-236cb,CH2FCF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-236ea,,=,"1,1,1,2,3,3-hexafluoropropane",kg,431-63-0,HFC-236ea,CHF2CHFCF3,Edelen,CAS Number,,,8/23/2022,
-HFC-236fa,,=,"1,1,1,3,3,3-hexafluoropropane",kg,690-39-1,HFC-236fa,CF3CH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-245ca,,=,"1,1,2,2,3-pentafluoropropane",kg,679-86-7,HFC-245ca,CH2FCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-245cb,,=,"1,1,1,2,2-pentafluoropropane",kg,1814-88-6,HFC-245cb,CF3CF2CH3,Edelen,CAS Number,,,8/23/2022,
-HFC-245ea,,=,"1,1,2,3,3-pentafluoropropane",kg,24270-66-4,HFC-245ea,CHF2CHFCHF2,Edelen,CAS Number,,,8/23/2022,
-HFC-245eb,,=,"1,1,1,2,3-pentafluoropropane",kg,431-31-2,HFC-245eb,CH2FCHFCF3,Edelen,CAS Number,,,8/23/2022,
-HFC-245fa,,=,"1,1,1,3,3-pentafluoropropane",kg,460-73-1,HFC-245fa,CHF2CH2CF3,Edelen,CAS Number,,,8/23/2022,
-"Propane, 1,1,1-trifluoro-",,=,"1,1,1-trifluoropropane",kg,421-07-8,HFC-263fb,CH3CH2CF3,Edelen,CAS Number,,,8/23/2022,
-Dimethyldifluoromethane,,=,"2,2-difluoropropane",kg,420-45-1,HFC-272ca,CH3CF2CH3,Edelen,CAS Number,,,8/23/2022,
-HFC-329p,,=,"1,1,1,2,2,3,3,4,4-nonafluorobutane",kg,375-17-7,HFC-329p,CHF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-365mfc,,=,"1,1,1,3,3-pentafluorobutane",kg,406-58-6,HFC-365mfc,CH3CF2CH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFC-4310mee,,=,"1,1,1,2,2,3,4,5,5,5-decafluoropentane",kg,138495-42-8,HFC-43-10mee,CF3CHFCHFCF2CF3,Edelen,CAS Number,,,8/23/2022,
-,,,Trifluoroethylene,kg,359-11-5,HFO-1123,CHF=CF2,,,,,,
-Vinylidene fluoride,,=,"1,1-difluoroethene",kg,75-38-7,HFO-1132a,CH2=CF2,Edelen,CAS Number,,,8/23/2022,
-Vinyl fluoride,,=,Fluoroethene,kg,75-02-5,HFO-1141,CH2=CHF,Edelen,CAS Number,,,8/23/2022,
-"1-Propene, 1,2,3,3,3-pentafluoro-, (1Z)-",,=,"(z)-1,2,3,3,3-pentafluoroprop-1-ene",kg,5528-43-8,HFO-1225ye(Z),(Z)-CF3CF=CHF,Edelen,CAS Number,,,8/23/2022,
-,,,"(e)-1,2,3,3,3-pentafluoroprop-1-ene",kg,5595-10-8,HFO-1225ye(E),(E)-CF3CF=CHF,,,,,,
-"1-Propene, 1,3,3,3-tetrafluoro-, (1Z)-",,=,"(z)-1,3,3,3-tetrafluoroprop-1-ene",kg,29118-25-0,HFO-1234ze(Z),(Z)-CF3CH=CHF,Edelen,CAS Number,,,8/23/2022,
-,,,"(e)-1,3,3,3-tetrafluoroprop-1-ene",kg,29118-24-9,HFO-1234ze(E),(E)-CF3CH=CHF,,,,,,
-"1-Propene, 2,3,3,3-tetrafluoro-",,=,"2,3,3,3-tetrafluoroprop-1-ene",kg,754-12-1,HFO-1234yf,CF3CF=CH2,Edelen,CAS Number,,,8/23/2022,
-,,,"(e)-1,1,1,4,4,4-hexafluorobut-2-ene",kg,66711-86-2,HFO-1336mzz(E),(E)-CF3CH=CHCF3,,,,,,
-"(Z)-1,1,1,4,4,4-Hexafluoro-2-butene",,=,"(z)-1,1,1,4,4,4-hexafluorobut-2-ene",kg,692-49-9,HFO-1336mzz(Z),(Z)-CF3CH=CHCF3,Edelen,CAS Number,,,8/23/2022,
-"3,3,3-Trifluoro-1-propene",,=,"3,3,3-trifluoroprop-1-ene",kg,677-21-4,HFO-1243zf,CF3CH=CH2,Edelen,CAS Number,,,8/23/2022,
-HFC-1345zfc,,=,"3,3,4,4,4-pentafluorobut-1-ene",kg,374-27-6,HFO-1345zfc,CF3CF2CH=CH2,Edelen,CAS Number,,,8/23/2022,
-"1-Hexene, 3,3,4,4,5,5,6,6,6-nonafluoro-",,=,"3,3,4,4,5,5,6,6,6-nonafluorohex-1-ene",kg,19430-93-4,,n-C4F9CH=CH2,Edelen,CAS Number,,,8/23/2022,
-"1-Octene, 3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluoro-",,=,"3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooct-1-ene",kg,25291-17-2,,n-C6F13CH=CH2,Edelen,CAS Number,,,8/23/2022,
-Perfluorooctyl Ethylene,,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodec-1-ene",kg,21652-58-4,,n-C8F17CH=CH2,Edelen,CAS Number,,,8/23/2022,
-,,,"3,3,3-trifluoro-2-(trifluoromethyl)prop-1-ene",kg,382-10-5,,(CF3)2C=CH2,,,,,,
-,,,"1,1,2,2,3,3-hexafluorocyclopentane",kg,123768-18-3,,cyc (-CF2CF2CF2CH2CH2-),,,,,,
-,,,"1,1,2,2,3,3,4-heptafluorocyclopentane",kg,15290-77-4,,cyc (-CF2CF2CF2CHFCH2-),,,,,,
-,,,"1,3,3,4,4,5,5-heptafluorocyclopentene",kg,1892-03-1,,cyc (-CF2CF2CF2CF=CH-),,,,,,
-,,,"(4s,5s)-1,1,2,2,3,3,4,5-octafluorocyclopentane",kg,158389-18-5,,trans-cyc (-CF2CF2CF2CHFCHF-),,,,,,
-,,,"(e)-1,3,4,4,4-pentafluoro-3-(trifluoromethyl)but-1-ene",kg,14149-41-8,HFO-1438ezy(E),(E)-(CF3)2CFCH=CHF,,,,,,
-,,,"3,3,4,4,5,5,5-heptafluoropent-1-ene",kg,355-08-8,HFO-1447fz,CF3(CF2)2CH=CH2,,,,,,
-,,,"1,3,3,4,4-pentafluorocyclobutene",kg,374-31-2,,cyc (-CH=CFCF2CF2-),,,,,,
-,,,"3,3,4,4-tetrafluorocyclobutene",kg,2714-38-7,,cyc (-CH=CHCF2CF2-),,,,,,
-"1,1,1-Trichloroethane",,=,"1,1,1-trichloroethane",kg,71-55-6,Methyl chloroform,CH3CCl3,Edelen,CAS Number,,,8/23/2022,
-Carbon tetrachloride,,=,Tetrachloromethane,kg,56-23-5,Carbon tetrachloride,CCl4,Edelen,CAS Number,,,8/23/2022,
-Chloromethane,,=,Chloromethane,kg,74-87-3,Methyl chloride,CH3Cl,Edelen,CAS Number,,,8/23/2022,
-Methylene chloride,,=,Dichloromethane,kg,75-09-2,Methylene chloride,CH2Cl2,Edelen,CAS Number,,,8/23/2022,
-Chloroform,,=,Trichloromethane,kg,67-66-3,Chloroform,CHCl3,Edelen,CAS Number,,,8/23/2022,
-Chloroethane,,=,Chloroethane,kg,75-00-3,,CH3CH2Cl,Edelen,CAS Number,,,8/23/2022,
-"1,2-Dichloroethane",,=,"1,2-dichloroethane",kg,107-06-2,,CH2ClCH2Cl,Edelen,CAS Number,,,8/23/2022,
-Trichloroethylene,,=,"1,1,2-trichloroethene",kg,79-01-6,,CHCl=CCl2,Edelen,CAS Number,,,8/23/2022,
-Tetrachloroethylene,,=,"1,1,2,2-tetrachloroethene",kg,127-18-4,,CCl2=CCl2,Edelen,CAS Number,,,8/23/2022,
-2-Chloropropane,,=,2-chloropropane,kg,75-29-6,,CH3CHClCH3,Edelen,CAS Number,,,8/23/2022,
-1-Chlorobutane,,=,1-chlorobutane,kg,109-69-3,,CH3(CH2)2CH2Cl,Edelen,CAS Number,,,8/23/2022,
-Methyl bromide,,=,Bromomethane,kg,74-83-9,Methyl bromide,CH3Br,Edelen,CAS Number,,,8/23/2022,
-Dibromomethane,,=,Dibromomethane,kg,74-95-3,Methylene bromide,CH2Br2,Edelen,CAS Number,,,8/23/2022,
-Bromodifluoromethane,,=,Bromodifluoromethane,kg,1511-62-2,Halon-1201,CHBrF2,Edelen,CAS Number,,,8/23/2022,
-Dibromodifluoromethane,,=,Dibromodifluoromethane,kg,75-61-6,Halon-1202,CBr2F2,Edelen,CAS Number,,,8/23/2022,
-Halon 1211,,=,Bromochlorodifluoromethane,kg,353-59-3,Halon-1211,CBrClF2,Edelen,CAS Number,,,8/23/2022,
-Halon 1301,,=,Bromotrifluoromethane,kg,75-63-8,Halon-1301,CBrF3,Edelen,CAS Number,,,8/23/2022,
-"2-Bromo-1,1,1-trifluoroethane",,=,"2-bromo-1,1,1-trifluoroethane",kg,421-06-7,Halon-2301,CH2BrCF3,Edelen,CAS Number,,,8/23/2022,
-Halothane,,=,"2-bromo-2-chloro-1,1,1-trifluoroethane",kg,151-67-7,Halon-2311,CHBrClCF3,Edelen,CAS Number,,,8/23/2022,
-"2-Bromo-1,1,1,2-tetrafluoroethane",,=,"2-bromo-1,1,1,2-tetrafluoroethane",kg,124-72-1,Halon-2401,CHBrFCF3,Edelen,CAS Number,,,8/23/2022,
-"1,2-Dibromo-1,1,2,2-tetrafluoroethane",,=,"1,2-dibromo-1,1,2,2-tetrafluoroethane",kg,124-73-2,Halon-2402,CBrF2CBrF2,Edelen,CAS Number,,,8/23/2022,
-Tribromomethane,,=,Tribromomethane,kg,75-25-2,,CHBr3,Edelen,CAS Number,,,8/23/2022,
-Halon 1011,,=,Bromochloromethane,kg,74-97-5,Halon-1011,CH2BrCl,Edelen,CAS Number,,,8/23/2022,
-Bromoethane,,=,Bromoethane,kg,74-96-4,,CH3CH2Br,Edelen,CAS Number,,,8/23/2022,
-Ethylene dibromide,,=,"1,2-dibromoethane",kg,106-93-4,EDB,CH2BrCH2Br,Edelen,CAS Number,,,8/23/2022,
-1-Bromopropane,,=,1-bromopropane,kg,106-94-5,,CH3CH2CH2Br,Edelen,CAS Number,,,8/23/2022,
-,,,2-bromopropane,kg,75-26-3,,CH3CHBrCH3,,,,,,
-Nitrogen trifluoride,,=,Nitrogen trifluoride,kg,7783-54-2,,NF3,Edelen,CAS Number,,,8/23/2022,
-,,,Pentadecafluorotriethylamine,kg,359-70-6,,N(C2F5)3,,,,,,
-,,,Perfluorotripropylamine,kg,338-83-0,PTPA,N(CF2CF2CF3)3,,,,,,
-,,,Heptacosafluorotributylamine,kg,311-89-7,PFTBA,N(CF2CF2CF2CF3)3,,,,,,
-,,,Perfluorotripentylamine,kg,338-84-1,,N(CF2CF2CF2CF2CF3)3,,,,,,
-,,,Heptafluoroisobutyronitrile,kg,42532-60-5,,(CF3)2CFCN,,,,,,
-Sulfur hexafluoride,,=,Sulfur hexafluoride,kg,2551-62-4,,SF6,Edelen,CAS Number,,,8/23/2022,
-Trifluoromethyl sulfur pentafluoride,,=,Pentafluoro(trifluoromethyl)-lambda6-sulfane,kg,373-80-8,,SF5CF3,Edelen,CAS Number,,,8/23/2022,
-Sulfuryl fluoride,,=,Sulfuryl fluoride,kg,2699-79-8,,SO2F2,Edelen,CAS Number,,,8/23/2022,
-Carbon tetrafluoride,,=,Tetrafluoromethane,kg,75-73-0,PFC-14,CF4,Edelen,CAS Number,,,8/23/2022,
-Hexafluoroethane,,=,Hexafluoroethane,kg,76-16-4,PFC-116,C2F6,Edelen,CAS Number,,,8/23/2022,
-Perfluoropropane,,=,Octafluoropropane,kg,76-19-7,PFC-218,C3F8,Edelen,CAS Number,,,8/23/2022,
-,,,Hexafluorocyclobutene,kg,697-11-0,,cyc (-CF=CFCF2CF2-),,,,,,
-Perfluorocyclobutane,,=,Octafluorocyclobutane,kg,115-25-3,PFC-C-318,cyc (-CF2CF2CF2CF2-),Edelen,CAS Number,,,8/23/2022,
-Perfluorobutane,,=,Decafluorobutane,kg,355-25-9,PFC-31-10,n-C4F10,Edelen,CAS Number,,,8/23/2022,
-Octafluorocyclopentene,,=,Octafluorocyclopentene,kg,559-40-0,,cyc (-CF2CF2CFCF2CF2-),Edelen,CAS Number,,,8/23/2022,
-Perfluoropentane,,=,Dodecafluoropentane,kg,678-26-2,PFC-41-12,n-C5F12,Edelen,CAS Number,,,8/23/2022,
-Perfluorohexane,,=,Tetradecafluorohexane,kg,355-42-0,PFC-51-14,n-C6F14,Edelen,CAS Number,,,8/23/2022,
-Perfluoroheptane,,=,Hexadecafluoroheptane,kg,335-57-9,PFC-61-16,n-C7F16,Edelen,CAS Number,,,8/23/2022,
-"Octane, octadecafluoro-",,=,Octadecafluorooctane,kg,307-34-6,PFC-71-18,n-C8F18,Edelen,CAS Number,,,8/23/2022,
-Perfluorodecalin,,=,"1,1,2,2,3,3,4,4,4a,5,5,6,6,7,7,8,8,8a-octadecafluoronaphthalene",kg,306-94-5,PFC-91-18,C10F18,Edelen,CAS Number,,,8/23/2022,
-Perfluorodecalin (cis),,=,"1,1,2,2,3,3,4,4,4a,5,5,6,6,7,7,8,8,8a-octadecafluoronaphthalene",kg,60433-11-6,,Z-C10F18,Edelen,CAS Number,,,8/23/2022,
-Perfluorodecalin (trans),,=,"1,1,2,2,3,3,4,4,4a,5,5,6,6,7,7,8,8,8a-octadecafluoronaphthalene",kg,60433-12-7,,E-C10F18,Edelen,CAS Number,,,8/23/2022,
-Tetrafluoroethene,,=,"1,1,2,2-tetrafluoroethene",kg,116-14-3,PFC-1114,CF2=CF2,Edelen,CAS Number,,,8/23/2022,
-Hexafluoropropene,,=,"1,1,2,3,3,3-hexafluoroprop-1-ene",kg,116-15-4,PFC-1216,CF3CF=CF2,Edelen,CAS Number,,,8/23/2022,
-"Hexafluoro-1,3-butadiene",,=,"1,1,2,3,4,4-hexafluorobuta-1,3-diene",kg,685-63-2,,CF2=CFCF=CF2,Edelen,CAS Number,,,8/23/2022,
-Perfluorobut-1-ene,,=,Octafluoro-1-butene,kg,357-26-6,,CF3CF2CF=CF2,Edelen,CAS Number,,,8/23/2022,
-Perfluorobut-2-ene,,=,Octafluoro-2-buene,kg,360-89-4,,CF3CF=CFCF3,Edelen,CAS Number,,,8/23/2022,
-"Methane, (difluoromethoxy)trifluoro-",,=,Difluoromethoxy(trifluoro)methane,kg,3822-68-2,HFE-125,CHF2OCF3,Edelen,CAS Number,,,8/23/2022,
-"Methane, oxybis[difluoro-",,=,Difluoromethoxy(difluoro)methane,kg,1691-17-4,HFE-134,CHF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-"Methane, trifluoromethoxy-",,=,Trifluoro(methoxy)methane,kg,421-14-7,HFE-143a,CH3OCF3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-",,=,"1,1,1,2-tetrafluoro-2-(trifluoromethoxy)ethane",kg,2356-62-9,HFE-227ea,CF3CHFOCF3,Edelen,CAS Number,,,8/23/2022,
-Enflurane,,=,"2-chloro-1-(difluoromethoxy)-1,1,2-trifluoroethane",kg,13838-16-9,HCFE-235ca2,CHF2OCF2CHFCl,Edelen,CAS Number,,,8/23/2022,
-Isoflurane,,=,"2-chloro-2-(difluoromethoxy)-1,1,1-trifluoroethane",kg,26675-46-7,HCFE-235da2,CHF2OCHClCF3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 2-(difluoromethoxy)-1,1,1,2-tetrafluoro-, (+-)-",,=,"2-(difluoromethoxy)-1,1,1,2-tetrafluoroethane",kg,57041-67-5,HFE-236ea2,CHF2OCHFCF3,Edelen,CAS Number,,,8/23/2022,
-"2,2,2-Trifluoroethyl trifluoromethyl ether",,=,"1,1,1-trifluoro-2-(trifluoromethoxy)ethane",kg,20193-67-3,HFE-236fa,CF3CH2OCF3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",,=,"1,1,1,2,2-pentafluoro-2-methoxyethane",kg,22410-44-2,HFE-245cb2,CF3CF2OCH3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",,=,"1,1-difluoro-2-(trifluoromethoxy)ethane",kg,84011-15-4,HFE-245fa1,CHF2CH2OCF3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 2-(difluoromethoxy)-1,1,1-trifluoro-",,=,"2-(difluoromethoxy)-1,1,1-trifluoroethane",kg,1885-48-9,HFE-245fa2,CHF2OCH2CF3,Edelen,CAS Number,,,8/23/2022,
-"1-Propanol, 2,2,3,3,3-pentafluoro-",,=,"2,2,3,3,3-pentafluoropropan-1-ol",kg,422-05-9,,CF3CF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"1,1,2,2-Tetrafluoro-1-methoxyethane",,=,"1,1,2,2-tetrafluoro-1-methoxyethane",kg,425-88-7,HFE-254cb1,CH3OCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 1,1,1-trifluoro-2-methoxy-",,=,"1,1,1-trifluoro-2-methoxyethane",kg,460-43-5,HFE-263mf,CF3CH2OCH3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, (trifluoromethoxy)-",,=,Trifluoromethoxyethane,kg,690-22-2,HFE-263m1,CF3OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-"3,3,3-Trifluoropropan-1-ol",,=,"3,3,3-trifluoropropan-1-ol",kg,2240-88-2,,CF3CH2CH2OH,Edelen,CAS Number,,,8/23/2022,
-HFE-329mcc2,,=,"1,1,1,2,2-pentafluoro-2-(1,1,2,2-tetrafluoroethoxy)ethane",kg,134769-21-4,HFE-329mcc2,CHF2CF2OCF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-338mmz1,,=,"2-(difluoromethoxy)-1,1,1,3,3,3-hexafluoropropane",kg,26103-08-2,HFE-338mmz1,(CF3)2CHOCHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-338mcf2,,=,"1,1,1,2,2-pentafluoro-2-(2,2,2-trifluoroethoxy)ethane",kg,156053-88-2,HFE-338mcf2,CF3CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022,
-Sevoflurane,,=,"1,1,1,3,3,3-hexafluoro-2-(fluoromethoxy)propane",kg,28523-86-6,HFE-347mmz1,(CF3)2CHOCH2F,Edelen,CAS Number,,,8/23/2022,
-"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-",,=,"1,1,1,2,2,3,3-heptafluoro-3-methoxypropane",kg,375-03-1,HFE-347mcc3,CH3OCF2CF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-347mcf2,,=,"1-(2,2-difluoroethoxy)-1,1,2,2,2-pentafluoroethane",kg,171182-95-9,HFE-347mcf2,CHF2CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-347pcf2,,=,"1,1,2,2-tetrafluoro-1-(2,2,2-trifluoroethoxy)ethane",kg,406-78-0,HFE-347pcf2,CHF2CF2OCH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-347mmy1,,=,"1,1,1,2,3,3,3-heptafluoro-2-methoxypropane",kg,22052-84-2,HFE-347mmy1,(CF3)2CFOCH3,Edelen,CAS Number,,,8/23/2022,
-HFE-356mec3,,=,"1,1,1,2,3,3-hexafluoro-3-methoxypropane",kg,382-34-3,HFE-356mec3,CH3OCF2CHFCF3,Edelen,CAS Number,,,8/23/2022,
-HFE-356mff2,,=,"1,1,1-trifluoro-2-(2,2,2-trifluoroethoxy)ethane",kg,333-36-8,HFE-356mff2,CF3CH2OCH2CF3,Edelen,CAS Number,,,8/23/2022,
-HFE-356pcf2,,=,"1-(2,2-difluoroethoxy)-1,1,2,2-tetrafluoroethane",kg,50807-77-7,HFE-356pcf2,CHF2CH2OCF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-356pcf3,,=,"3-(difluoromethoxy)-1,1,2,2-tetrafluoropropane",kg,35042-99-0,HFE-356pcf3,CHF2OCH2CF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-356pcc3,,=,"1,1,2,2,3,3-hexafluoro-1-methoxypropane",kg,160620-20-2,HFE-356pcc3,CH3OCF2CF2CHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-356mmz1,,=,"1,1,1,3,3,3-hexafluoro-2-methoxypropane",kg,13171-18-1,HFE-356mmz1,(CF3)2CHOCH3,Edelen,CAS Number,,,8/23/2022,
-HFE-365mcf3,,=,"1,1,1,2,2-pentafluoro-3-methoxypropane",kg,378-16-5,HFE-365mcf3,CF3CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022,
-"Ethane, 1-ethoxy-1,1,2,2-tetrafluoro-",,=,"1-ethoxy-1,1,2,2-tetrafluoroethane",kg,512-51-6,HFE-374pc2,CHF2CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-"4,4,4-Trifluorobutan-1-ol",,=,"4,4,4-trifluorobutan-1-ol",kg,461-18-7,,CF3(CH2)2CH2OH,Edelen,CAS Number,,,8/23/2022,
-,,,"2,2,3,3,4,4,5,5-octafluorocyclopentan-1-ol",kg,16621-87-7,,cyc (-(CF2)4CH(OH)-),,,,,,
-HG-30,,=,"1-(difluoromethoxy)-2-[difluoromethoxy(difluoro)methoxy]-1,1,2,2-tetrafluoroethane",kg,188690-77-9,HFE-43-10pccc124,CHF2OCF2OCF2CF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-HFE 7100,,=,"1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxybutane",kg,219484-64-7,HFE-449s1,C4F9OCH3,Edelen,CAS Number,,,8/23/2022,
-"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",,=,"1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxybutane",kg,163702-07-6,n-HFE-7100,CF3CF2CF2CF2OCH3,Edelen,CAS Number,,,8/23/2022,
-"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-",,=,"2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoropropane",kg,163702-08-7,i-HFE-7100,(CF3)2CFCF2OCH3,Edelen,CAS Number,,,8/23/2022,
-Ethyl nonafluorobutyl ether,,=,"1-ethoxy-1,1,2,2,3,3,4,4,4-nonafluorobutane",kg,163702-05-4,HFE-569sf2,C4F9OC2H5,Edelen,CAS Number,,,8/23/2022,
-"Propane, 2-(ethoxydifluoromethyl)-1,1,1,2,3,3,3-heptafluoro-",,=,"1-ethoxy-1,1,2,3,3,3-hexafluoro-2-(trifluoromethyl)propane",kg,163702-06-5,i-HFE-7200,(CF3)2CFCF2OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-,,,"1,1,1,2,2,3,4,5,5,5-decafluoro-3-methoxy-4-(trifluoromethyl)pentane",kg,132182-92-4,HFE-7300,(CF3)2CFCFOC2H5CF2CF2CF3,,,,,,
-,,,"4-ethoxy-1,1,1,2,2,3,3,4,5,6,6,6-dodecafluoro-5-(trifluoromethyl)hexane",kg,297730-93-9,HFE-7500,n-C3F7CFOC2H5CF(CF3)2,,,,,,
-"Methane, bis(difluoromethoxy)difluoro-",,=,Bis(difluoromethoxy)-difluoromethane,kg,78522-47-1,HFE-236ca12,CHF2OCF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-HFE-338pcc13 (HG-01),,=,"1,2-bis(difluoromethoxy)-1,1,2,2-tetrafluoroethane",kg,188690-78-0,HFE-338pcc13,CHF2OCF2CF2OCHF2,Edelen,CAS Number,,,8/23/2022,
-"1,1,1,3,3,3-Hexafluoro-2-propanol",,=,"1,1,1,3,3,3-hexafluoropropan-2-ol",kg,920-66-1,HFIP,(CF3)2CHOH,Edelen,CAS Number,,,8/23/2022,
-HG-02,,=,"1-(difluoromethoxy)-2-[2-(difluoromethoxy)-1,1,2,2-tetrafluoroethoxy]-1,1,2,2-tetrafluoroethane",kg,205367-61-9,HG-02,CHF2(OCF2CF2)2OCHF2,Edelen,CAS Number,,,8/23/2022,
-HG-03,,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexadecafluoro-2,5,8,11-tetraoxadodecane",kg,173350-37-3,HG-03,CHF2(OCF2CF2)3OCHF2,Edelen,CAS Number,,,8/23/2022,
-"Ethene, (2,2,2-trifluoroethoxy)-",,=,"2-ethenoxy-1,1,1-trifluoroethane",kg,406-90-6,Fluroxene,CF3CH2OCH=CH2,Edelen,CAS Number,,,8/23/2022,
-"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,=,"2-ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,920979-28-8,,C12H5F19O2,Edelen,CAS Number,,,8/23/2022,
-Difluoro(methoxy)methane,,=,Difluoro(methoxy)methane,kg,359-15-9,,CH3OCHF2,Edelen,CAS Number,,,8/23/2022,
-HG'-01,,=,"1,1,2,2-tetrafluoro-1,2-dimethoxyethane",kg,73287-23-7,HG'-01,CH3OCF2CF2OCH3,Edelen,CAS Number,,,8/23/2022,
-HG'-02,,=,"1,1,2,2-Tetrafluoro-1-methoxyethane",kg,485399-46-0,HG'-02,CH3O(CF2CF2O)2CH3,Edelen,CAS Number,,,8/23/2022,
-HG'-03,,=,"1,1,2,2-tetrafluoro-1-methoxy-2-[1,1,2,2-tetrafluoro-2-(1,1,2,2-tetrafluoro-2-methoxyethoxy)ethoxy]ethane",kg,485399-48-2,HG'-03,CH3O(CF2CF2O)3CH3,Edelen,CAS Number,,,8/23/2022,
-HFE-329me3,,=,"1,1,1,2,3,3-hexafluoro-3-(trifluoromethoxy)propane",kg,428454-68-6,HFE-329me3,CF3CFHCF2OCF3,Edelen,CAS Number,,,8/23/2022,
-"3,3,4,4,5,5,6,6,7,7,7-Undecafluoroheptan-1-ol",,=,"3,3,4,4,5,5,6,6,7,7,7-undecafluoroheptan-1-ol",kg,185689-57-0,,CF3(CF2)4CH2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-Pentadecafluorononan-1-ol",,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-pentadecafluorononan-1-ol",kg,755-02-2,,CF3(CF2)6CH2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-nonadecafluoroundecan-1-ol",kg,87017-97-8,,CF3(CF2)8CH2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"2-Chloro-1,1,2-trifluoro-1-methoxyethane",,=,"2-chloro-1,1,2-trifluoro-1-methoxyethane",kg,425-87-6,,CH3OCF2CHClF,Edelen,CAS Number,,,8/23/2022,
-,,,"1?(difluoro(trifluoromethoxy)methoxy)?1,1,2,3,3,3?hexafluoro?2?(trifluoromethoxy)propane",kg,1309353-34-1,PFPMIE,CF3OCFCF3CF2OCF2OCF3,,,,,,
-Trifluoro(trifluoromethoxy)ethylene,,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethene",kg,1187-93-5,HFE-216,CF3OCF=CF2,Edelen,CAS Number,,,8/23/2022,
-Perfluoroethyl formate,,=,Perfluoroethyl formate,kg,313064-40-3,,CF3CF2OCHO,Edelen,CAS Number,,,8/23/2022,
-"2,2,2-Trifluoroethyl formate",,=,"2,2,2-trifluoroethyl formate",kg,32042-38-9,,CF3CH2OCHO,Edelen,CAS Number,,,8/23/2022,
-"1,1,1,3,3,3-Hexafluoropropan-2-yl formate",,=,"Formic acid;1,1,1,3,3,3-hexafluoropropan-2-ol",kg,856766-70-6,,(CF3)2CHOCHO,Edelen,CAS Number,,,8/23/2022,
-,,,"Ethenyl 2,2,2-trifluoroacetate",kg,433-28-3,,CF3COOCH=CH2,,,,,,
-Ethyl trifluoroacetate,,=,"Ethyl 2,2,2-trifluoroacetate",kg,383-63-1,,CF3COOCH2CH3,Edelen,CAS Number,,,8/23/2022,
-,,,"Prop-2-enyl 2,2,2-trifluoroacetate",kg,383-67-5,,CF3COOCH2CH=CH2,,,,,,
-"Acetic acid, trifluoro-, methyl ester",,=,"Methyl 2,2,2-trifluoroacetate",kg,431-47-0,,CF3COOCH3,Edelen,CAS Number,,,8/23/2022,
-"1-Butanol, 2,2,3,3,4,4,4-heptafluoro-",,=,"2,2,3,3,4,4,4-heptafluorobutan-1-ol",kg,375-01-9,,CF3CF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane",,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethane",kg,84011-06-3,,CHF2CHFOCF3,Edelen,CAS Number,,,8/23/2022,
-"1-Ethoxy-1,1,2,3,3,3-hexafluoropropane",,=,"1-ethoxy-1,1,2,3,3,3-hexafluoropropane",kg,380-34-7,,CF3CHFCF2OCH2CH3,Edelen,CAS Number,,,8/23/2022,
-"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",,=,"1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)propane",kg,3330-15-2,,CF3CF2CF2OCHFCF3,Edelen,CAS Number,,,8/23/2022,
-"1-Propanol, 2,2,3,3-tetrafluoro-",,=,"2,2,3,3-tetrafluoropropan-1-ol",kg,76-37-9,,CHF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"1H,1H,3H-Perfluorobutanol",,=,"2,2,3,4,4,4-hexafluorobutan-1-ol",kg,382-31-0,,CF3CHFCF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"1,1,2,2-Tetrafluoro-3-methoxy-propane",,=,"1,1,2,2-tetrafluoro-3-methoxypropane",kg,60598-17-6,,CHF2CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022,
-"3-Pentanone, 1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)-",,=,"1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)pentan-3-one",kg,756-13-8,,CF3CF2COCF(CF3)2,Edelen,CAS Number,,,8/23/2022,
-"Propanal, 3,3,3-trifluoro-",,=,"3,3,3-trifluoropropanal",kg,460-40-2,,CF3CH2CHO,Edelen,CAS Number,,,8/23/2022,
-2-Fluoroethanol,,=,2-fluoroethanol,kg,371-62-0,,CH2FCH2OH,Edelen,CAS Number,,,8/23/2022,
-"2,2-Difluoroethanol",,=,"2,2-difluoroethanol",kg,359-13-7,,CHF2CH2OH,Edelen,CAS Number,,,8/23/2022,
-"2,2,2-Trifluoroethanol",,=,"2,2,2-trifluoroethanol",kg,75-89-8,,CF3CH2OH,Edelen,CAS Number,,,8/23/2022,
-,,,Methyl-perfluoroheptene-ethers,kg,,,CH3OC7F13,,,,,,
-,,,"1,1,1-trifluoropropan-2-one",kg,421-50-1,,CF3COCH3,,,,,,
-,,,"1,1,1-trifluorobutan-2-one",kg,381-88-4,,CF3COCH2CH3,,,,,,
-2-Chloroethyl vinyl ether,,=,1-chloro-2-ethenoxyethane,kg,110-75-8,2ClEVE,ClCH2CH2OCH=CH2,Edelen,CAS Number,,,8/23/2022,
-Ethane,,=,Ethane,kg,74-84-0,,C2H6,Edelen,CAS Number,,,8/23/2022,
-Propane,,=,Propane,kg,74-98-6,,C3H8,Edelen,CAS Number,,,8/23/2022,
-Butane,,=,Butane,kg,106-97-8,,n-C4H10,Edelen,CAS Number,,,8/23/2022,
-,,,2-methylpentan-3-one,kg,565-69-5,,CH3CH2COCH(CH3)2,,,,,,
-,,,Ethyl methyl ether,kg,540-67-0,,CH3CH2OCH3,,,,,,
-,,,"2,2,3,3,4,4,5,5-octafluorooxolane",kg,773-14-8,Octafluorooxolane,c-C4F8O,,,,,,
-Crotonaldehyde,,=,Crotonaldehyde,kg,4170-30-3,,CH3CH=CHCHO,Edelen,CAS Number,,,8/23/2022,
-Methyl vinyl ketone,,=,Methyl vinyl ketone,kg,78-94-4,MVK,CH3COCH=CH2,Edelen,CAS Number,,,8/23/2022,
-,,,Allyl ether,kg,557-40-4,AE,(CH2=CHCH2)2O,,,,,,
-,,,Allyl ethyl ether,kg,557-31-3,AEE,CH3CH2OCH2CH=CH2,,,,,,
-,,,(z)-hex-2-en-1-ol,kg,928-94-9,,CH3CH2CH2CH=CHCH2OH,,,,,,
-3-Butenenitrile,,=,(e)-hex-2-en-1-ol,kg,928-95-0,,CH3CH2CH2CH=CHCH2OH,Edelen,CAS Number,,,8/23/2022,
-,,,3-butenenitrile,kg,109-75-1,Allyl cyanide,CH2=CHCH2CN,,,,,,
-,,,Hexamethyldisiloxane,kg,107-46-0,,C6H18OSi2,,,,,,
-,,,Octamethyltrisiloxane,kg,107-51-7,,C8H24O2Si3,,,,,,
-,,,Decamethyltetrasiloxane,kg,141-62-8,,C10H30O3Si4,,,,,,
-,,,Dodecamethylpentasiloxane,kg,141-63-9,,C12H36O4Si5,,,,,,
-,,,Hexamethylcyclotrisiloxane,kg,541-05-9,,C6H18O3Si3,,,,,,
-Octamethylcyclotetrasiloxane,,=,Octamethylcyclotetrasiloxane,kg,556-67-2,,C8H24O4Si4,Edelen,CAS Number,,,8/23/2022,
-,,,Decamethylcyclopentasiloxane,kg,541-02-6,,C10H30O5Si5,,,,,,
-,,,Dodecamethylcyclohexasiloxane,kg,540-97-6,,C12H36O6Si6,,,,,,
+﻿TargetFlowName,TargetUnit,MatchCondition,SourceFlowName,SourceUnit,CAS No,Acronym,Formula,Mapper,Map method,Verifier,Note,LastUpdated
+CFC-11,,=,CFC-11,kg,75-69-4,(no data),CCl3F,Edelen,CAS Number,,,8/23/2022
+CFC-12,,=,CFC-12,kg,75-71-8,(no data),CCl2F2,Edelen,CAS Number,,,8/23/2022
+CFC-13,,=,CFC-13,kg,75-72-9,(no data),CClF3,Edelen,CAS Number,,,8/23/2022
+CFC-113,,=,CFC-113,kg,76-13-1,(no data),CCl2FCClF2,Edelen,CAS Number,,,8/23/2022
+CFC-114,,=,CFC-114,kg,76-14-2,(no data),CClF2CClF2,Edelen,CAS Number,,,8/23/2022
+CFC-115,,=,CFC-115,kg,76-15-3,(no data),CClF2CF3,Edelen,CAS Number,,,8/23/2022
+Halon-1301,,=,Halon-1301,kg,75-63-8,(no data),CBrF3,Edelen,CAS Number,,,8/23/2022
+Halon-1211,,=,Halon-1211,kg,353-59-3,(no data),CBrClF2,Edelen,CAS Number,,,8/23/2022
+"1,2-Dibromo-1,1,2,2-tetrafluoroethane",,=,Halon-2402,kg,124-73-2,(no data),CBrF2CBrF2,Edelen,CAS Number,,,8/23/2022
+Carbon tetrachloride,,=,Carbon tetrachloride,kg,56-23-5,(no data),CCl4,Edelen,CAS Number,,,8/23/2022
+Methyl bromide,,=,Methyl bromide,kg,74-83-9,(no data),CH3Br,Edelen,CAS Number,,,8/23/2022
+"1,1,1-Trichloroethane",,=,Methyl chloroform,kg,71-55-6,(no data),CH3CCl3,Edelen,CAS Number,,,8/23/2022
+HCFC-22,,=,HCFC-22,kg,75-45-6,(no data),CHClF2,Edelen,CAS Number,,,8/23/2022
+HCFC-123,,=,HCFC-123,kg,306-83-2,(no data),CHCl2CF3,Edelen,CAS Number,,,8/23/2022
+HCFC-124,,=,HCFC-124,kg,2837-89-0,(no data),CHClFCF3,Edelen,CAS Number,,,8/23/2022
+HCFC-141b,,=,HCFC-141b,kg,1717-00-6,(no data),CH3CCl2F,Edelen,CAS Number,,,8/23/2022
+HCFC-142b,,=,HCFC-142b,kg,75-68-3,(no data),CH3CClF2,Edelen,CAS Number,,,8/23/2022
+HCFC-225ca,,=,HCFC-225ca,kg,422-56-0,(no data),CHCl2CF2CF3,Edelen,CAS Number,,,8/23/2022
+HCFC-225cb,,=,HCFC-225cb,kg,507-55-1,(no data),CHClFCF2CClF2,Edelen,CAS Number,,,8/23/2022
+HFC-23,,=,HFC-23,kg,75-46-7,(no data),CHF3,Edelen,CAS Number,,,8/23/2022
+HFC-32,,=,HFC-32,kg,75-10-5,(no data),CH2F2,Edelen,CAS Number,,,8/23/2022
+HFC-125,,=,HFC-125,kg,354-33-6,(no data),CHF2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-134a,,=,HFC-134a,kg,811-97-2,(no data),CH2FCF3,Edelen,CAS Number,,,8/23/2022
+HFC-143a,,=,HFC-143a,kg,420-46-2,(no data),CH3CF3,Edelen,CAS Number,,,8/23/2022
+HFC-152a,,=,HFC-152a,kg,75-37-6,(no data),CH3CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-227ea,,=,HFC-227ea,kg,431-89-0,(no data),CF3CHFCF3,Edelen,CAS Number,,,8/23/2022
+HFC-236fa,,=,HFC-236fa,kg,690-39-1,(no data),CF3CH2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-245fa,,=,HFC-245fa,kg,460-73-1,(no data),CHF2CH2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-365mfc,,=,HFC-365mfc,kg,406-58-6,(no data),CH3CF2CH2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-4310mee,,=,HFC-43-10mee,kg,138495-42-8,(no data),CF3CHFCHFCF2CF3,Edelen,CAS Number,,,8/23/2022
+Sulfur hexafluoride,,=,Sulphur hexafluoride,kg,2551-62-4,(no data),SF6,Edelen,CAS Number,,,8/23/2022
+Carbon tetrafluoride,,=,PFC-14,kg,75-73-0,(no data),CF4,Edelen,CAS Number,,,8/23/2022
+Hexafluoroethane,,=,PFC-116,kg,76-16-4,(no data),C2F6,Edelen,CAS Number,,,8/23/2022
+Perfluoropropane,,=,PFC-218,kg,76-19-7,(no data),C3F8,Edelen,CAS Number,,,8/23/2022
+Perfluorocyclobutane,,=,PFC-318,kg,115-25-3,(no data),c-C4F8,Edelen,CAS Number,,,8/23/2022
+Perfluorobutane,,=,PFC-3-1-10,kg,355-25-9,(no data),C4F10,Edelen,CAS Number,,,8/23/2022
+Perfluoropentane,,=,PFC-4-1-12,kg,678-26-2,(no data),C5F12,Edelen,CAS Number,,,8/23/2022
+Perfluorohexane,,=,PFC-5-1-14,kg,355-42-0,(no data),C6F14,Edelen,CAS Number,,,8/23/2022
+Perfluorodecalin,,=,PFC-9-1-18,kg,306-94-5,(no data),C10F18,Edelen,CAS Number,,,8/23/2022
+Trifluoromethyl sulfur pentafluoride,,=,trifluoromethyl sulphur pentafluoride,kg,373-80-8,(no data),SF5CF3,Edelen,CAS Number,,,8/23/2022
+HFE-125,,=,HFE-125,kg,354-33-6,(no data),CHF2OCF3,Edelen,CAS Number,,,8/23/2022
+"Methane, oxybis[difluoro-",,=,HFE-134,kg,1691-17-4,(no data),CHF2OCHF2,Edelen,CAS Number,,,8/23/2022
+"Methane, trifluoromethoxy-",,=,HFE-143a,kg,421-14-7,(no data),CH3OCF3,Edelen,CAS Number,,,8/23/2022
+Isoflurane,,=,HCFE-235da2,kg,26675-46-7,(no data),CHF2OCHClCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 2-(difluoromethoxy)-1,1,1-trifluoro-",,=,HFE-245fa2,kg,1885-48-9,(no data),CHF2OCH2CF3,Edelen,CAS Number,,,8/23/2022
+"1,1,2,2-Tetrafluoro-1-methoxyethane",,=,HFE-254cb2,kg,425-88-7,(no data),CH3OCF2CHF2,Edelen,CAS Number,,,8/23/2022
+"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-",,=,HFE-347mcc3,kg,375-03-1,(no data),CH3OCF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-347pcf2,,=,HFE-347pcf2,kg,406-78-0,(no data),CHF2CF2OCH2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-356pcc3,,=,HFE-356pcc3,kg,160620-20-2,(no data),CH3OCF2CF2CHF2,Edelen,CAS Number,,,8/23/2022
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",,=,HFE-449sl (HFE-7100),kg,163702-07-6,(no data),C4F9OCH3,Edelen,CAS Number,,,8/23/2022
+Ethyl nonafluorobutyl ether,,=,HFE-569sf2 (HFE-7200),kg,163702-05-4,(no data),C4F9OC2H5,Edelen,CAS Number,,,8/23/2022
+,,,"HFE-43-10pccc124(H-Galden 1040x)",kg,(no data),(no data),CHF2OCF2OC2F4OCHF2,,,,,
+"Methane, bis(difluoromethoxy)difluoro-",,=,HFE-236ca12 (HG-10),kg,78522-47-1,(no data),CHF2OCF2OCHF2,Edelen,CAS Number,,,8/23/2022
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",,=,HFE-338pcc13 (HG-01),kg,163702-07-6,(no data),CHF2OCF2CF2OCHF2,Edelen,CAS Number,,,8/23/2022
+,,,PFPMIE,kg,1309353-34-1,(no data),CF3OCF(CF3)CF2OCF2OCF3,,,,,
+Dimethyl ether,,=,Dimethylether,kg,115-10-6,(no data),CH3OCH3,Edelen,CAS Number,,,8/23/2022
+Methylene chloride,,=,Methylene chloride,kg,75-09-2,(no data),CH2Cl2,Edelen,CAS Number,,,8/23/2022
+Chloromethane,,=,Methyl chloride,kg,74-87-3,(no data),CH3Cl,Edelen,CAS Number,,,8/23/2022
+Methane,,=,Fossil methane,kg,74-82-8,(no data),CH4,Edelen,CAS Number,,,8/23/2022
+Chlorofluorocarbons,,=,Chlorofluorocarbons,kg,(no data),(no data),0,Edelen,CAS Number,,,8/23/2022
+Hydrochlorofluorocarbons,,=,Hydrochlorofluorocarbons,kg,(no data),(no data),0,Edelen,CAS Number,,,8/23/2022
+HCFC-21,,=,HCFC-21,kg,75-43-4,(no data),CHCl2F,Edelen,CAS Number,,,8/23/2022
+HCFC-122,,=,HCFC-122,kg,354-21-2,(no data),CHCl2CF2Cl,Edelen,CAS Number,,,8/23/2022
+HCFC-122a,,=,HCFC-122a,kg,354-15-4,(no data),CHFClCFCl2,Edelen,CAS Number,,,8/23/2022
+HCFC-123a,,=,HCFC-123a,kg,354-23-4,(no data),CHClFCF2Cl,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1-dichloro-1,2-difluoro-",,=,HCFC-132c,kg,1842-05-3,(no data),CH2FCFCl2,Edelen,CAS Number,,,8/23/2022
+"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",,=,"(E)-1-Chloro-3,3,3-
+trifluoroprop-1-ene",kg,102687-65-0,(no data),trans-CF3CH=CHCl,Edelen,CAS Number,,,8/23/2022
+Hydrofluorocarbons,,=,Hydrofluorocarbons,kg,(no data),(no data),0,Edelen,CAS Number,,,8/23/2022
+HFC-41,,=,HFC-41,kg,593-53-3,(no data),CH3F,Edelen,CAS Number,,,8/23/2022
+HFC-134,,=,HFC-134,kg,359-35-3,(no data),CHF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-143,,=,HFC-143,kg,430-66-0,(no data),CH2FCHF2,Edelen,CAS Number,,,8/23/2022
+HFC-152,,=,HFC-152,kg,624-72-6,(no data),CH2FCH2F,Edelen,CAS Number,,,8/23/2022
+HFC-161,,=,HFC-161,kg,353-36-6,(no data),CH3CH2F,Edelen,CAS Number,,,8/23/2022
+1H-Heptafluoropropane,,=,HFC-227ca,kg,2252-84-8,(no data),CF3CF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-236cb,,=,HFC-236cb,kg,677-56-5,(no data),CH2FCF2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-236ea,,=,HFC-236ea,kg,431-63-0,(no data),CHF2CHFCF3,Edelen,CAS Number,,,8/23/2022
+HFC-245ca,,=,HFC-245ca,kg,679-86-7,(no data),CH2FCF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-245cb,,=,HFC-245cb,kg,1814-88-6,(no data),CF3CF2CH3,Edelen,CAS Number,,,8/23/2022
+HFC-245ea,,=,HFC-245ea,kg,24270-66-4,(no data),CHF2CHFCHF2,Edelen,CAS Number,,,8/23/2022
+HFC-245eb,,=,HFC-245eb,kg,431-31-2,(no data),CH2FCHFCF3,Edelen,CAS Number,,,8/23/2022
+"Propane, 1,1,1-trifluoro-",,=,HFC-263fb,kg,421-07-8,(no data),CH3CH2CF3,Edelen,CAS Number,,,8/23/2022
+Dimethyldifluoromethane,,=,HFC-272ca,kg,420-45-1,(no data),CH3CF2CH3,Edelen,CAS Number,,,8/23/2022
+HFC-329p,,=,HFC-329p,kg,375-17-7,(no data),CHF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+Vinylidene fluoride,,=,HFC-1132a,kg,75-38-7,(no data),CH2=CF2,Edelen,CAS Number,,,8/23/2022
+Vinyl fluoride,,=,HFC-1141,kg,75-02-5,(no data),CH2=CHF,Edelen,CAS Number,,,8/23/2022
+"1-Propene, 1,2,3,3,3-pentafluoro-, (1Z)-",,=,(Z)-HFC-1225ye,kg,5528-43-8,(no data),CF3CF=CHF(Z),Edelen,CAS Number,,,8/23/2022
+(E)-HFC-1225ye,,=,(E)-HFC-1225ye,kg,10/8/5595,(no data),CF3CF=CHF(E),Edelen,CAS Number,,,8/23/2022
+"1-Propene, 1,3,3,3-tetrafluoro-, (1Z)-",,=,(Z)-HFC-1234ze,kg,29118-25-0,(no data),CF3CH=CHF(Z),Edelen,CAS Number,,,8/23/2022
+"1-Propene, 2,3,3,3-tetrafluoro-",,=,HFC-1234yf,kg,754-12-1,(no data),CF3CF=CH2,Edelen,CAS Number,,,8/23/2022
+HFC-1234ze(E),,=,(E)-HFC-1234ze,kg,1645-83-6,(no data),trans-CF3CH=CHF,Edelen,CAS Number,,,8/23/2022
+"(Z)-1,1,1,4,4,4-Hexafluoro-2-butene",,=,(Z)-HFC-1336,kg,692-49-9,(no data),CF3CH=CHCF3(Z),Edelen,CAS Number,,,8/23/2022
+"3,3,3-Trifluoro-1-propene",,=,HFC-1243zf,kg,677-21-4,(no data),CF3CH=CH2,Edelen,CAS Number,,,8/23/2022
+HFC-1345zfc,,=,HFC-1345zfc,kg,374-27-6,(no data),C2F5CH=CH2,Edelen,CAS Number,,,8/23/2022
+,,,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-Hep-tadecafluorodec-1-ene",kg,(no data),(no data),C8F17CH=CH2,,,,,
+,,,Chlorocarbons and Hydrochlorocarbons,kg,(no data),(no data),0,,,,,
+Chloroform,,=,Chloroform,kg,67-66-3,(no data),CHCl3,Edelen,CAS Number,,,8/23/2022
+,,,"Bromocarbons, Hydrobromocarbons and Halons",kg,(no data),(no data),0,,,,,
+Dibromomethane,,=,Methylene bromide,kg,74-95-3,(no data),CH2Br2,Edelen,CAS Number,,,8/23/2022
+Bromodifluoromethane,,=,Halon-1201,kg,1511-62-2,(no data),CHBrF2,Edelen,CAS Number,,,8/23/2022
+Dibromodifluoromethane,,=,Halon-1202,kg,75-61-6,(no data),CBr2F2,Edelen,CAS Number,,,8/23/2022
+"2-Bromo-1,1,1-trifluoroethane",,=,Halon-2301,kg,421-06-7,(no data),CH2BrCF3,Edelen,CAS Number,,,8/23/2022
+Halothane,,=,Halon-2311 / Halothane,kg,151-67-7,(no data),CHBrClCF3,Edelen,CAS Number,,,8/23/2022
+"2-Bromo-1,1,1,2-tetrafluoroethane",,=,Halon-2401,kg,124-72-1,(no data),CHFBrCF3,Edelen,CAS Number,,,8/23/2022
+,,,Fully Fluorinated Species,kg,(no data),(no data),0,,,,,
+Trifluoromethyl sulfur pentafluoride,,=,(Trifluoromethyl) sulphur pentafluoride,kg,373-80-8,(no data),SF5CF3,Edelen,CAS Number,,,8/23/2022
+Sulfuryl fluoride,,=,Sulphuryl fluoride,kg,2699-79-8,(no data),SO2F2,Edelen,CAS Number,,,8/23/2022
+,,,PFC-c216,kg,(no data),(no data),c-C3F6,,,,,
+Perfluorobutane,,=,PFC-31-10,kg,355-25-9,(no data),C4F10,Edelen,CAS Number,,,8/23/2022
+Octafluorocyclopentene,,=,Perfluorocyclopentene,kg,559-40-0,(no data),c-C5F8,Edelen,CAS Number,,,8/23/2022
+Perfluoropentane,,=,PFC-41-12,kg,678-26-2,(no data),n-C5F12,Edelen,CAS Number,,,8/23/2022
+Perfluorohexane,,=,PFC-51-14,kg,355-42-0,(no data),n-C6F14,Edelen,CAS Number,,,8/23/2022
+Perfluoroheptane,,=,PFC-61-16,kg,335-57-9,(no data),n-C7F16,Edelen,CAS Number,,,8/23/2022
+"Octane, octadecafluoro-",,=,PFC-71-18,kg,307-34-6,(no data),C8F18,Edelen,CAS Number,,,8/23/2022
+Perfluorodecalin,,=,PFC-91-18,kg,306-94-5,(no data),C10F18,Edelen,CAS Number,,,8/23/2022
+Perfluorodecalin (cis),,=,Perfluorodecalin (cis),kg,60433-11-6,(no data),Z-C10F18,Edelen,CAS Number,,,8/23/2022
+Perfluorodecalin (trans),,=,Perfluorodecalin (trans),kg,60433-12-7,(no data),E-C10F18,Edelen,CAS Number,,,8/23/2022
+Tetrafluoroethene,,=,PFC-1114,kg,116-14-3,(no data),CF2=CF2,Edelen,CAS Number,,,8/23/2022
+Hexafluoropropene,,=,PFC-1216,kg,116-15-4,(no data),CF3CF=CF2,Edelen,CAS Number,,,8/23/2022
+"Hexafluoro-1,3-butadiene",,=,"Perfluorobuta-1,3-diene",kg,685-63-2,(no data),CF2=CFCF=CF2,Edelen,CAS Number,,,8/23/2022
+Perfluorobut-1-ene,,=,Perfluorobut-1-ene,kg,357-26-6,(no data),CF3CF2CF=CF2,Edelen,CAS Number,,,8/23/2022
+Perfluorobut-2-ene,,=,Perfluorobut-2-ene,kg,360-89-4,(no data),CF3CF=CFCF3,Edelen,CAS Number,,,8/23/2022
+,,,Halogenated Alcohols and Ethers,kg,(no data),(no data),0,,,,,
+"Methane, oxybis[difluoro-",,=,HFE-134 (HG-00),kg,1691-17-4,(no data),CHF2OCHF2,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-",,=,HFE-227ea,kg,2356-62-9,(no data),CF3CHFOCF3,Edelen,CAS Number,,,8/23/2022
+Enflurane,,=,HCFE-235ca2 (enflurane),kg,13838-16-9,(no data),CHF2OCF2CHFCl,Edelen,CAS Number,,,8/23/2022
+Isoflurane,,=,HCFE-235da2 (isoflurane),kg,26675-46-7,(no data),CHF2OCHClCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1-(difluoromethoxy)-1,1,2,2-tetrafluoro-",,=,HFE-236ca,kg,32778-11-3,(no data),CHF2OCF2CHF2,Edelen,CAS Number,,,8/23/2022
+"Ethane, 2-(difluoromethoxy)-1,1,1,2-tetrafluoro-, (+-)-",,=,HFE-236ea2 (desflurane),kg,57041-67-5,(no data),CHF2OCHFCF3,Edelen,CAS Number,,,8/23/2022
+"2,2,2-Trifluoroethyl trifluoromethyl ether",,=,HFE-236fa,kg,20193-67-3,(no data),CF3CH2OCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",,=,HFE-245fa1,kg,84011-15-4,(no data),CHF2CH2OCF3,Edelen,CAS Number,,,8/23/2022
+"1,1,2,2-Tetrafluoro-1-methoxyethane",,=,HFE-254cb1,kg,425-88-7,(no data),CH3OCF2CHF2,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1,1-trifluoro-2-methoxy-",,=,HFE-263fb2,kg,460-43-5,(no data),CF3CH2OCH3,Edelen,CAS Number,,,8/23/2022
+"Ethane, (trifluoromethoxy)-",,=,HFE-263m1,kg,690-22-2,(no data),CF3OCH2CH3,Edelen,CAS Number,,,8/23/2022
+HFE-329mcc2,,=,HFE-329mcc2,kg,134769-21-4,(no data),CHF2CF2OCF2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-338mmz1,,=,HFE-338mmz1,kg,26103-08-2,(no data),(CF3)2CHOCHF2,Edelen,CAS Number,,,8/23/2022
+HFE-338mcf2,,=,HFE-338mcf2,kg,156053-88-2,(no data),CF3CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022
+Sevoflurane,,=,Sevoflurane (HFE-347mmz1),kg,28523-86-6,(no data),(CF3)2CHOCH2F,Edelen,CAS Number,,,8/23/2022
+"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-",,=,HFE-347mcc3 (HFE-7000),kg,375-03-1,(no data),CH3OCF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-347mcf2,,=,HFE-347mcf2,kg,171182-95-9,(no data),CHF2CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-347mmy1,,=,HFE-347mmy1,kg,22052-84-2,(no data),(CF3)2CFOCH3,Edelen,CAS Number,,,8/23/2022
+HFE-356mec3,,=,HFE-356mec3,kg,382-34-3,(no data),CH3OCF2CHFCF3,Edelen,CAS Number,,,8/23/2022
+HFE-356mff2,,=,HFE-356mff2,kg,333-36-8,(no data),CF3CH2OCH2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-356pcf2,,=,HFE-356pcf2,kg,50807-77-7,(no data),CHF2CH2OCF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFE-356pcf3,,=,HFE-356pcf3,kg,35042-99-0,(no data),CHF2OCH2CF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFE-356mmz1,,=,HFE-356mmz1,kg,13171-18-1,(no data),(CF3)2CHOCH3,Edelen,CAS Number,,,8/23/2022
+HFE-365mcf3,,=,HFE-365mcf3,kg,378-16-5,(no data),CF3CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022
+HFE-365mcf2,,=,HFE-365mcf2,kg,22052-81-9,(no data),CF3CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1-ethoxy-1,1,2,2-tetrafluoro-",,=,HFE-374pc2,kg,512-51-6,(no data),CHF2CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022
+,,,"2,2,3,3,4,4,5,5-Octafluorocyclopentanol",kg,(no data),(no data),-(CF2)4CH(OH)-,,,,,
+HG-30,,=,"HFE-43-10pccc124 (H-Galden 1040x, HG-11)",kg,188690-77-9,(no data),CHF2OCF2OC2F4OCHF2,Edelen,CAS Number,,,8/23/2022
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",,=,HFE-449s1 (HFE-7100),kg,163702-07-6,(no data),C4F9OCH3,Edelen,CAS Number,,,8/23/2022
+,,,n-HFE-7100,kg,(no data),(no data),n-C4F9OCH3,,,,,
+,,,i-HFE-7100,kg,(no data),(no data),i-C4F9OCH3,,,,,
+,,,n-HFE-7200,kg,(no data),(no data),n-C4F9OC2H5,,,,,
+,,,i-HFE-7200,kg,(no data),(no data),i-C4F9OC2H5,,,,,
+HG-02,,=,HG-02,kg,205367-61-9,(no data),"HF2C–(OCF2CF2)2–OCF2H",Edelen,CAS Number,,,8/23/2022
+HG-03,,=,HG-03,kg,173350-37-3,(no data),"HF2C–(OCF2CF2)3–OCF2H",Edelen,CAS Number,,,8/23/2022
+HG-20,,=,HG-20,kg,249932-25-0,(no data),HF2C–(OCF2)2–OCF2H,Edelen,CAS Number,,,8/23/2022
+HG-21,,=,HG-21,kg,249932-26-1,(no data),"HF2C–OCF2CF2OC-F2OCF2O–CF2H",Edelen,CAS Number,,,8/23/2022
+HG-30,,=,HG-30,kg,188690-77-9,(no data),HF2C–(OCF2)3–OCF2H,Edelen,CAS Number,,,8/23/2022
+"1-Ethoxy-1,1,2,2,3,3,3-heptafluoropropane",,=,"1-Ethoxy-1,1,2,2,3,3,3-heptafluoropropane",kg,22052-86-4,(no data),CF3CF2CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022
+"Ethene, (2,2,2-trifluoroethoxy)-",,=,Fluoroxene,kg,406-90-6,(no data),CF3CH2OCH=CH2,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1,2,2-tetrafluoro-1-(fluoromethoxy)-",,=,"1,1,2,2-Tetrafluoro-1-(fluoromethoxy)ethane",kg,37031-31-5,(no data),CH2FOCF2CF2H,Edelen,CAS Number,,,8/23/2022
+"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,=,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,920979-28-8,(no data),C12H5F19O2,Edelen,CAS Number,,,8/23/2022
+Fluoro(methoxy)methane,,=,Fluoro(methoxy)methane,kg,460-22-0.,(no data),CH3OCH2F,Edelen,CAS Number,,,8/23/2022
+Fluoro(methoxy)methane,,=,Fluoro(fluoromethoxy)methane,kg,460-22-0,(no data),CH2FOCH2F,Edelen,CAS Number,,,8/23/2022
+Fluoro(fluoromethoxy)methane,,=,Difluoro(fluoromethoxy)methane,kg,462-51-1,(no data),CH2FOCHF2,Edelen,CAS Number,,,8/23/2022
+Difluoro(fluoromethoxy)methane,,=,Trifluoro(fluoromethoxy)methane,kg,461-63-2,(no data),CH2FOCF3,Edelen,CAS Number,,,8/23/2022
+Trifluoro(fluoromethoxy)methane,,=,HG’-01,kg,2261-01-0,(no data),CH3OCF2CF2OCH3,Edelen,CAS Number,,,8/23/2022
+HG'-02,,=,HG’-02,kg,485399-46-0,(no data),CH3O(CF2CF2O)2CH3,Edelen,CAS Number,,,8/23/2022
+HG'-03,,=,HG’-03,kg,485399-48-2,(no data),CH3O(CF2CF2O)3CH3,Edelen,CAS Number,,,8/23/2022
+HFE-329me3,,=,HFE-329me3,kg,428454-68-6,(no data),CF3CFHCF2OCF3,Edelen,CAS Number,,,8/23/2022
+"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",kg,87017-97-8,(no data),CF3(CF2)8CH2CH2OH,Edelen,CAS Number,,,8/23/2022
+,,,PFPMIE (perfluoropolymethylisopropyl ether),kg,(no data),(no data),"CF3OCF(CF3)CF2OCF2OCF3",,,,,
+Trifluoro(trifluoromethoxy)ethylene,,=,HFE-216,kg,1187-93-5,(no data),CF3OCF=CF2,Edelen,CAS Number,,,8/23/2022
+Trifluoromethyl formate,,=,Trifluoromethyl formate,kg,85358-65-2,(no data),HCOOCF3,Edelen,CAS Number,,,8/23/2022
+Perfluoropropyl formate,,=,Perfluoropropyl formate,kg,271257-42-2,(no data),HCOOCF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+Perfluorobutyl formate,,=,Perfluorobutyl formate,kg,197218-56-7,(no data),HCOOCF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+"3,3,3-Trifluoropropyl formate",,=,"3,3,3-Trifluoropropyl formate",kg,1344118-09-7,(no data),HCOOCH2CH2CF3,Edelen,CAS Number,,,8/23/2022
+"1,2,2,2-Tetrafluoroethyl formate",,=,"1,2,2,2-Tetrafluoroethyl formate",kg,481631-19-0,(no data),HCOOCHFCF3,Edelen,CAS Number,,,8/23/2022
+"1,1,1,3,3,3-Hexafluoropropan-2-yl formate",,=,"1,1,1,3,3,3-Hexafluoropropan-2-yl formate",kg,856766-70-6,(no data),HCOOCH(CF3)2,Edelen,CAS Number,,,8/23/2022
+Perfluorobutyl acetate,,=,Perfluorobutyl acetate,kg,209597-28-4,(no data),CH3COOCF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+Perfluoropropyl acetate,,=,Perfluoropropyl acetate,kg,1344118-10-0,(no data),CH3COOCF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+Perfluoroethyl acetate,,=,Perfluoroethyl acetate,kg,343269-97-6,(no data),CH3COOCF2CF3,Edelen,CAS Number,,,8/23/2022
+Trifluoromethyl acetate,,=,Trifluoromethyl acetate,kg,74123-20-9,(no data),CH3COOCF3,Edelen,CAS Number,,,8/23/2022
+Methyl carbonofluoridate,,=,Methyl carbonofluoridate,kg,1538-06-3,(no data),FCOOCH3,Edelen,CAS Number,,,8/23/2022
+"1,1-Difluoroethyl carbonofluoridate",,=,"1,1-Difluoroethyl carbonofluoridate",kg,1344118-11-1,(no data),FCOOCF2CH3,Edelen,CAS Number,,,8/23/2022
+"1,1-Difluoroethyl 2,2,2-trifluoroacetate",,=,"1,1-Difluoroethyl 2,2,2-trifluoroacetate",kg,1344118-13-3,(no data),CF3COOCF2CH3,Edelen,CAS Number,,,8/23/2022
+"2,2,2-Trifluoroethyl 2,2,2-trifluoroacetate",,=,"2,2,2-Trifluoroethyl 2,2,2-trifluoroacetate",kg,407-38-5,(no data),CF3COOCH2CF3,Edelen,CAS Number,,,8/23/2022
+"Methyl 2,2-difluoroacetate",,=,"Methyl 2,2-difluoroacetate",kg,433-53-4,(no data),HCF2COOCH3,Edelen,CAS Number,,,8/23/2022
+"Difluoromethyl 2,2,2-trifluoroacetate",,=,"Difluoromethyl 2,2,2-trifluoroacetate",kg,2024-86-4,(no data),CF3COOCHF2,Edelen,CAS Number,,,8/23/2022
+"1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane",,=,"1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane",kg,84011-06-3,(no data),CHF2CHFOCF3,Edelen,CAS Number,,,8/23/2022
+"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",,=,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",kg,3330-15-2,(no data),CF3CF2CF2OCHFCF3,Edelen,CAS Number,,,8/23/2022
+"1-Propanol, 2,2,3,3-tetrafluoro-",,=,"2,2,3,3-Tetrafluoro-1-propanol",kg,76-37-9,(no data),CHF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"1H,1H,3H-Perfluorobutanol",,=,"2,2,3,4,4,4-Hexafluoro-1-butanol",kg,382-31-0,(no data),CF3CHFCF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"1-Butanol, 2,2,3,3,4,4,4-heptafluoro-",,=,"2,2,3,3,4,4,4-Heptafluoro-1-butanol",kg,375-01-9,(no data),CF3CF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"1,1,2,2-Tetrafluoro-3-methoxy-propane",,=,"1,1,2,2-Tetrafluoro-3-methoxy-propane",kg,60598-17-6,(no data),CHF2CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022
+"3-Pentanone, 1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)-",,=,perfluoro-2-methyl-3-pentanone,kg,756-13-8,(no data),CF3CF2C(O)CF(CF3)2,Edelen,CAS Number,,,8/23/2022
+"Propanal, 3,3,3-trifluoro-",,=,"3,3,3-Trifluoro-propanal",kg,460-40-2,(no data),CF3CH2CHO,Edelen,CAS Number,,,8/23/2022
+HG-02,,=,"1,1’-Oxybis[2-(difluoromethoxy)-1,1,2,2-tetrafluoroethane",kg,205367-61-9,(no data),HCF2O(CF2CF2O)2CF2H,Edelen,CAS Number,,,8/23/2022
+HG-03,,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",kg,173350-37-3,(no data),HCF2O(CF2CF2O)3CF2H,Edelen,CAS Number,,,8/23/2022
+"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",kg,173350-38-4,(no data),HCF2O(CF2CF2O)4CF2H,Edelen,CAS Number,,,8/23/2022
+Carbon dioxide,kg,=,Carbon dioxide,kg,124-38-9,,CO2,Young,,Edelen,,8/23/2022
+Methane,kg,=,Methane,kg,74-82-8,,CH4,Young,,Edelen,,8/23/2022
+Nitrous oxide,,=,Nitrous oxide,kg,10024-97-2,,N2O,Edelen,CAS Number,,,8/23/2022
+CFC-11,,=,Trichlorofluoromethane,kg,75-69-4,CFC-11,CCl3F,Edelen,CAS Number,,,8/23/2022
+CFC-12,,=,Dichlorodifluoromethane,kg,75-71-8,CFC-12,CCl2F2,Edelen,CAS Number,,,8/23/2022
+CFC-13,,=,Chlorotrifluoromethane,kg,75-72-9,CFC-13,CClF3,Edelen,CAS Number,,,8/23/2022
+CFC-112,,=,"1,1,2,2-tetrachloro-1,2-difluoroethane",kg,76-12-0,CFC-112,CCl2FCCl2F,Edelen,CAS Number,,,8/23/2022
+,,,"1,1,1,2-tetrachloro-2,2-difluoroethane",kg,76-11-9,CFC-112a,CCl3CClF2,,,,,
+CFC-113,,=,"1,1,2-trichloro-1,2,2-trifluoroethane",kg,76-13-1,CFC-113,CCl2FCClF2,Edelen,CAS Number,,,8/23/2022
+CFC-113a,,=,"1,1,1-trichloro-2,2,2-trifluoroethane",kg,354-58-5,CFC-113a,CCl3CF3,Edelen,CAS Number,,,8/23/2022
+CFC-114,,=,"1,2-dichloro-1,1,2,2-tetrafluoroethane",kg,76-14-2,CFC-114,CClF2CClF2,Edelen,CAS Number,,,8/23/2022
+CFC-114a,,=,"1,1-dichloro-1,2,2,2-tetrafluoroethane",kg,374-07-2,CFC-114a,CCl2FCF3,Edelen,CAS Number,,,8/23/2022
+CFC-115,,=,"1-chloro-1,1,2,2,2-pentafluoroethane",kg,76-15-3,CFC-115,CClF2CF3,Edelen,CAS Number,,,8/23/2022
+,,,"(1s,2s)-1,2-dichloro-1,2,3,3,4,4-hexafluorocyclobutane",kg,3832-15-3,E-R316c,trans cyc (-CClFCF2CF2CClF-),,,,,
+,,,"(1r,2s)-1,2-dichloro-1,2,3,3,4,4-hexafluorocyclobutane",kg,3934-26-7,Z-R316c,cis cyc (-CClFCF2CF2CClF-),,,,,
+,,,"(e)-1,2-dichloro-1,2-difluoroethene",kg,598-88-9,CFC 1112,CClF=CClF,,,,,
+,,,"1,1-dichloro-2,2-difluoroethene",kg,79-35-6,CFC 1112a,CCl2=CF2,,,,,
+HCFC-21,,=,Dichlorofluoromethane,kg,75-43-4,HCFC-21,CHCl2F,Edelen,CAS Number,,,8/23/2022
+HCFC-22,,=,Chlorodifluoromethane,kg,75-45-6,HCFC-22,CHClF2,Edelen,CAS Number,,,8/23/2022
+HCFC-31,,=,Chlorofluoromethane,kg,593-70-4,HCFC-31,CH2ClF,Edelen,CAS Number,,,8/23/2022
+HCFC-121,,=,"1,1,2,2-tetrachloro-1-fluoroethane",kg,354-14-3,HCFC-121,CHCl2CCl2F,Edelen,CAS Number,,,8/23/2022
+HCFC-122,,=,"1,2,2-trichloro-1,1-difluoroethane",kg,354-21-2,HCFC-122,CHCl2CClF2,Edelen,CAS Number,,,8/23/2022
+HCFC-122a,,=,"1,1,2-trichloro-1,2-difluoroethane",kg,354-15-4,HCFC-122a,CHClFCCl2F,Edelen,CAS Number,,,8/23/2022
+HCFC-123,,=,"2,2-dichloro-1,1,1-trifluoroethane",kg,306-83-2,HCFC-123,CHCl2CF3,Edelen,CAS Number,,,8/23/2022
+HCFC-123a,,=,"1,2-dichloro-1,1,2-trifluoroethane",kg,354-23-4,HCFC-123a,CHClFCClF2,Edelen,CAS Number,,,8/23/2022
+HCFC-124,,=,"2-chloro-1,1,1,2-tetrafluoroethane",kg,2837-89-0,HCFC-124,CHClFCF3,Edelen,CAS Number,,,8/23/2022
+HCFC-124a,,=,"1-chloro-1,1,2,2-tetrafluoroethane",kg,354-25-6,HCFC-124a,CHF2CClF2,Edelen,CAS Number,,,8/23/2022
+HCFC-132,,=,"1,2-dichloro-1,2-difluoroethane",kg,431-06-1,HCFC-132,CHClFCHClF,Edelen,CAS Number,,,8/23/2022
+,,,"1,1-dichloro-2,2-difluoroethane",kg,471-43-2,HCFC-132a,CHCl2CHF2,,,,,
+"Ethane, 1,1-dichloro-1,2-difluoro-",,=,"1,1-dichloro-1,2-difluoroethane",kg,1842-05-3,HCFC-132c,CH2FCCl2F,Edelen,CAS Number,,,8/23/2022
+HCFC-133a,,=,"2-chloro-1,1,1-trifluoroethane",kg,75-88-7,HCFC-133a,CH2ClCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,2-dichloro-1-fluoro-",,=,"1,2-dichloro-1-fluoroethane",kg,430-57-9,HCFC-141,CH2ClCHClF,Edelen,CAS Number,,,8/23/2022
+HCFC-141b,,=,"1,1-dichloro-1-fluoroethane",kg,1717-00-6,HCFC-141b,CH3CCl2F,Edelen,CAS Number,,,8/23/2022
+HCFC-142b,,=,"1-chloro-1,1-difluoroethane",kg,75-68-3,HCFC-142b,CH3CClF2,Edelen,CAS Number,,,8/23/2022
+HCFC-225ca,,=,"3,3-dichloro-1,1,1,2,2-pentafluoropropane",kg,422-56-0,HCFC-225ca,CHCl2CF2CF3,Edelen,CAS Number,,,8/23/2022
+HCFC-225cb,,=,"1,3-dichloro-1,1,2,2,3-pentafluoropropane",kg,507-55-1,HCFC-225cb,CHClFCF2CClF2,Edelen,CAS Number,,,8/23/2022
+"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",,=,"(e)-1-chloro-3,3,3-trifluoroprop-1-ene",kg,102687-65-0,HCFO-1233zd(E),(E)-CF3CH=CHCl,Edelen,CAS Number,,,8/23/2022
+,,,"1-chloro-3,3,3-trifluoroprop-1-ene",kg,99728-16-2,HCFO-1233zd(Z),(Z)-CF3CH=CHCl,,,,,
+,,,(e)-1-chloro-2-fluoroethene,kg,460-16-2,,(E/Z)-CHCl=CHF,,,,,
+HFC-23,,=,Trifluoromethane,kg,75-46-7,HFC-23,CHF3,Edelen,CAS Number,,,8/23/2022
+HFC-32,,=,Difluoromethane,kg,75-10-5,HFC-32,CH2F2,Edelen,CAS Number,,,8/23/2022
+HFC-41,,=,Fluoromethane,kg,593-53-3,HFC-41,CH3F,Edelen,CAS Number,,,8/23/2022
+HFC-125,,=,"1,1,1,2,2-pentafluoroethane",kg,354-33-6,HFC-125,CHF2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-134,,=,"1,1,2,2-tetrafluoroethane",kg,359-35-3,HFC-134,CHF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-134a,,=,"1,1,1,2-tetrafluoroethane",kg,811-97-2,HFC-134a,CH2FCF3,Edelen,CAS Number,,,8/23/2022
+HFC-143,,=,"1,1,2-trifluoroethane",kg,430-66-0,HFC-143,CH2FCHF2,Edelen,CAS Number,,,8/23/2022
+HFC-143a,,=,"1,1,1-trifluoroethane",kg,420-46-2,HFC-143a,CH3CF3,Edelen,CAS Number,,,8/23/2022
+HFC-152,,=,"1,2-difluoroethane",kg,624-72-6,HFC-152,CH2FCH2F,Edelen,CAS Number,,,8/23/2022
+HFC-152a,,=,"1,1-difluoroethane",kg,75-37-6,HFC-152a,CH3CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-161,,=,Fluoroethane,kg,353-36-6,HFC-161,CH3CH2F,Edelen,CAS Number,,,8/23/2022
+1H-Heptafluoropropane,,=,"1,1,1,2,2,3,3-heptafluoropropane",kg,2252-84-8,HFC-227ca,CF3CF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-227ea,,=,"1,1,1,2,3,3,3-heptafluoropropane",kg,431-89-0,HFC-227ea,CF3CHFCF3,Edelen,CAS Number,,,8/23/2022
+HFC-236cb,,=,"1,1,1,2,2,3-hexafluoropropane",kg,677-56-5,HFC-236cb,CH2FCF2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-236ea,,=,"1,1,1,2,3,3-hexafluoropropane",kg,431-63-0,HFC-236ea,CHF2CHFCF3,Edelen,CAS Number,,,8/23/2022
+HFC-236fa,,=,"1,1,1,3,3,3-hexafluoropropane",kg,690-39-1,HFC-236fa,CF3CH2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-245ca,,=,"1,1,2,2,3-pentafluoropropane",kg,679-86-7,HFC-245ca,CH2FCF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFC-245cb,,=,"1,1,1,2,2-pentafluoropropane",kg,1814-88-6,HFC-245cb,CF3CF2CH3,Edelen,CAS Number,,,8/23/2022
+HFC-245ea,,=,"1,1,2,3,3-pentafluoropropane",kg,24270-66-4,HFC-245ea,CHF2CHFCHF2,Edelen,CAS Number,,,8/23/2022
+HFC-245eb,,=,"1,1,1,2,3-pentafluoropropane",kg,431-31-2,HFC-245eb,CH2FCHFCF3,Edelen,CAS Number,,,8/23/2022
+HFC-245fa,,=,"1,1,1,3,3-pentafluoropropane",kg,460-73-1,HFC-245fa,CHF2CH2CF3,Edelen,CAS Number,,,8/23/2022
+"Propane, 1,1,1-trifluoro-",,=,"1,1,1-trifluoropropane",kg,421-07-8,HFC-263fb,CH3CH2CF3,Edelen,CAS Number,,,8/23/2022
+Dimethyldifluoromethane,,=,"2,2-difluoropropane",kg,420-45-1,HFC-272ca,CH3CF2CH3,Edelen,CAS Number,,,8/23/2022
+HFC-329p,,=,"1,1,1,2,2,3,3,4,4-nonafluorobutane",kg,375-17-7,HFC-329p,CHF2CF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-365mfc,,=,"1,1,1,3,3-pentafluorobutane",kg,406-58-6,HFC-365mfc,CH3CF2CH2CF3,Edelen,CAS Number,,,8/23/2022
+HFC-4310mee,,=,"1,1,1,2,2,3,4,5,5,5-decafluoropentane",kg,138495-42-8,HFC-43-10mee,CF3CHFCHFCF2CF3,Edelen,CAS Number,,,8/23/2022
+,,,Trifluoroethylene,kg,359-11-5,HFO-1123,CHF=CF2,,,,,
+Vinylidene fluoride,,=,"1,1-difluoroethene",kg,75-38-7,HFO-1132a,CH2=CF2,Edelen,CAS Number,,,8/23/2022
+Vinyl fluoride,,=,Fluoroethene,kg,75-02-5,HFO-1141,CH2=CHF,Edelen,CAS Number,,,8/23/2022
+"1-Propene, 1,2,3,3,3-pentafluoro-, (1Z)-",,=,"(z)-1,2,3,3,3-pentafluoroprop-1-ene",kg,5528-43-8,HFO-1225ye(Z),(Z)-CF3CF=CHF,Edelen,CAS Number,,,8/23/2022
+,,,"(e)-1,2,3,3,3-pentafluoroprop-1-ene",kg,10/8/5595,HFO-1225ye(E),(E)-CF3CF=CHF,,,,,
+"1-Propene, 1,3,3,3-tetrafluoro-, (1Z)-",,=,"(z)-1,3,3,3-tetrafluoroprop-1-ene",kg,29118-25-0,HFO-1234ze(Z),(Z)-CF3CH=CHF,Edelen,CAS Number,,,8/23/2022
+,,,"(e)-1,3,3,3-tetrafluoroprop-1-ene",kg,29118-24-9,HFO-1234ze(E),(E)-CF3CH=CHF,,,,,
+"1-Propene, 2,3,3,3-tetrafluoro-",,=,"2,3,3,3-tetrafluoroprop-1-ene",kg,754-12-1,HFO-1234yf,CF3CF=CH2,Edelen,CAS Number,,,8/23/2022
+,,,"(e)-1,1,1,4,4,4-hexafluorobut-2-ene",kg,66711-86-2,HFO-1336mzz(E),(E)-CF3CH=CHCF3,,,,,
+"(Z)-1,1,1,4,4,4-Hexafluoro-2-butene",,=,"(z)-1,1,1,4,4,4-hexafluorobut-2-ene",kg,692-49-9,HFO-1336mzz(Z),(Z)-CF3CH=CHCF3,Edelen,CAS Number,,,8/23/2022
+"3,3,3-Trifluoro-1-propene",,=,"3,3,3-trifluoroprop-1-ene",kg,677-21-4,HFO-1243zf,CF3CH=CH2,Edelen,CAS Number,,,8/23/2022
+HFC-1345zfc,,=,"3,3,4,4,4-pentafluorobut-1-ene",kg,374-27-6,HFO-1345zfc,CF3CF2CH=CH2,Edelen,CAS Number,,,8/23/2022
+"1-Hexene, 3,3,4,4,5,5,6,6,6-nonafluoro-",,=,"3,3,4,4,5,5,6,6,6-nonafluorohex-1-ene",kg,19430-93-4,,n-C4F9CH=CH2,Edelen,CAS Number,,,8/23/2022
+"1-Octene, 3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluoro-",,=,"3,3,4,4,5,5,6,6,7,7,8,8,8-tridecafluorooct-1-ene",kg,25291-17-2,,n-C6F13CH=CH2,Edelen,CAS Number,,,8/23/2022
+Perfluorooctyl Ethylene,,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodec-1-ene",kg,21652-58-4,,n-C8F17CH=CH2,Edelen,CAS Number,,,8/23/2022
+,,,"3,3,3-trifluoro-2-(trifluoromethyl)prop-1-ene",kg,382-10-5,,(CF3)2C=CH2,,,,,
+,,,"1,1,2,2,3,3-hexafluorocyclopentane",kg,123768-18-3,,cyc (-CF2CF2CF2CH2CH2-),,,,,
+,,,"1,1,2,2,3,3,4-heptafluorocyclopentane",kg,15290-77-4,,cyc (-CF2CF2CF2CHFCH2-),,,,,
+,,,"1,3,3,4,4,5,5-heptafluorocyclopentene",kg,1892-03-1,,cyc (-CF2CF2CF2CF=CH-),,,,,
+,,,"(4s,5s)-1,1,2,2,3,3,4,5-octafluorocyclopentane",kg,158389-18-5,,trans-cyc (-CF2CF2CF2CHFCHF-),,,,,
+,,,"(e)-1,3,4,4,4-pentafluoro-3-(trifluoromethyl)but-1-ene",kg,14149-41-8,HFO-1438ezy(E),(E)-(CF3)2CFCH=CHF,,,,,
+,,,"3,3,4,4,5,5,5-heptafluoropent-1-ene",kg,355-08-8,HFO-1447fz,CF3(CF2)2CH=CH2,,,,,
+,,,"1,3,3,4,4-pentafluorocyclobutene",kg,374-31-2,,cyc (-CH=CFCF2CF2-),,,,,
+,,,"3,3,4,4-tetrafluorocyclobutene",kg,2714-38-7,,cyc (-CH=CHCF2CF2-),,,,,
+"1,1,1-Trichloroethane",,=,"1,1,1-trichloroethane",kg,71-55-6,Methyl chloroform,CH3CCl3,Edelen,CAS Number,,,8/23/2022
+Carbon tetrachloride,,=,Tetrachloromethane,kg,56-23-5,Carbon tetrachloride,CCl4,Edelen,CAS Number,,,8/23/2022
+Chloromethane,,=,Chloromethane,kg,74-87-3,Methyl chloride,CH3Cl,Edelen,CAS Number,,,8/23/2022
+Methylene chloride,,=,Dichloromethane,kg,75-09-2,Methylene chloride,CH2Cl2,Edelen,CAS Number,,,8/23/2022
+Chloroform,,=,Trichloromethane,kg,67-66-3,Chloroform,CHCl3,Edelen,CAS Number,,,8/23/2022
+Chloroethane,,=,Chloroethane,kg,75-00-3,,CH3CH2Cl,Edelen,CAS Number,,,8/23/2022
+"1,2-Dichloroethane",,=,"1,2-dichloroethane",kg,107-06-2,,CH2ClCH2Cl,Edelen,CAS Number,,,8/23/2022
+Trichloroethylene,,=,"1,1,2-trichloroethene",kg,79-01-6,,CHCl=CCl2,Edelen,CAS Number,,,8/23/2022
+Tetrachloroethylene,,=,"1,1,2,2-tetrachloroethene",kg,127-18-4,,CCl2=CCl2,Edelen,CAS Number,,,8/23/2022
+2-Chloropropane,,=,2-chloropropane,kg,75-29-6,,CH3CHClCH3,Edelen,CAS Number,,,8/23/2022
+1-Chlorobutane,,=,1-chlorobutane,kg,109-69-3,,CH3(CH2)2CH2Cl,Edelen,CAS Number,,,8/23/2022
+Methyl bromide,,=,Bromomethane,kg,74-83-9,Methyl bromide,CH3Br,Edelen,CAS Number,,,8/23/2022
+Dibromomethane,,=,Dibromomethane,kg,74-95-3,Methylene bromide,CH2Br2,Edelen,CAS Number,,,8/23/2022
+Bromodifluoromethane,,=,Bromodifluoromethane,kg,1511-62-2,Halon-1201,CHBrF2,Edelen,CAS Number,,,8/23/2022
+Dibromodifluoromethane,,=,Dibromodifluoromethane,kg,75-61-6,Halon-1202,CBr2F2,Edelen,CAS Number,,,8/23/2022
+Halon 1211,,=,Bromochlorodifluoromethane,kg,353-59-3,Halon-1211,CBrClF2,Edelen,CAS Number,,,8/23/2022
+Halon 1301,,=,Bromotrifluoromethane,kg,75-63-8,Halon-1301,CBrF3,Edelen,CAS Number,,,8/23/2022
+"2-Bromo-1,1,1-trifluoroethane",,=,"2-bromo-1,1,1-trifluoroethane",kg,421-06-7,Halon-2301,CH2BrCF3,Edelen,CAS Number,,,8/23/2022
+Halothane,,=,"2-bromo-2-chloro-1,1,1-trifluoroethane",kg,151-67-7,Halon-2311,CHBrClCF3,Edelen,CAS Number,,,8/23/2022
+"2-Bromo-1,1,1,2-tetrafluoroethane",,=,"2-bromo-1,1,1,2-tetrafluoroethane",kg,124-72-1,Halon-2401,CHBrFCF3,Edelen,CAS Number,,,8/23/2022
+"1,2-Dibromo-1,1,2,2-tetrafluoroethane",,=,"1,2-dibromo-1,1,2,2-tetrafluoroethane",kg,124-73-2,Halon-2402,CBrF2CBrF2,Edelen,CAS Number,,,8/23/2022
+Tribromomethane,,=,Tribromomethane,kg,75-25-2,,CHBr3,Edelen,CAS Number,,,8/23/2022
+Halon 1011,,=,Bromochloromethane,kg,74-97-5,Halon-1011,CH2BrCl,Edelen,CAS Number,,,8/23/2022
+Bromoethane,,=,Bromoethane,kg,74-96-4,,CH3CH2Br,Edelen,CAS Number,,,8/23/2022
+Ethylene dibromide,,=,"1,2-dibromoethane",kg,106-93-4,EDB,CH2BrCH2Br,Edelen,CAS Number,,,8/23/2022
+1-Bromopropane,,=,1-bromopropane,kg,106-94-5,,CH3CH2CH2Br,Edelen,CAS Number,,,8/23/2022
+,,,2-bromopropane,kg,75-26-3,,CH3CHBrCH3,,,,,
+Nitrogen trifluoride,,=,Nitrogen trifluoride,kg,7783-54-2,,NF3,Edelen,CAS Number,,,8/23/2022
+,,,Pentadecafluorotriethylamine,kg,359-70-6,,N(C2F5)3,,,,,
+,,,Perfluorotripropylamine,kg,338-83-0,PTPA,N(CF2CF2CF3)3,,,,,
+,,,Heptacosafluorotributylamine,kg,311-89-7,PFTBA,N(CF2CF2CF2CF3)3,,,,,
+,,,Perfluorotripentylamine,kg,338-84-1,,N(CF2CF2CF2CF2CF3)3,,,,,
+,,,Heptafluoroisobutyronitrile,kg,42532-60-5,,(CF3)2CFCN,,,,,
+Sulfur hexafluoride,,=,Sulfur hexafluoride,kg,2551-62-4,,SF6,Edelen,CAS Number,,,8/23/2022
+Trifluoromethyl sulfur pentafluoride,,=,Pentafluoro(trifluoromethyl)-lambda6-sulfane,kg,373-80-8,,SF5CF3,Edelen,CAS Number,,,8/23/2022
+Sulfuryl fluoride,,=,Sulfuryl fluoride,kg,2699-79-8,,SO2F2,Edelen,CAS Number,,,8/23/2022
+Carbon tetrafluoride,,=,Tetrafluoromethane,kg,75-73-0,PFC-14,CF4,Edelen,CAS Number,,,8/23/2022
+Hexafluoroethane,,=,Hexafluoroethane,kg,76-16-4,PFC-116,C2F6,Edelen,CAS Number,,,8/23/2022
+Perfluoropropane,,=,Octafluoropropane,kg,76-19-7,PFC-218,C3F8,Edelen,CAS Number,,,8/23/2022
+,,,Hexafluorocyclobutene,kg,697-11-0,,cyc (-CF=CFCF2CF2-),,,,,
+Perfluorocyclobutane,,=,Octafluorocyclobutane,kg,115-25-3,PFC-C-318,cyc (-CF2CF2CF2CF2-),Edelen,CAS Number,,,8/23/2022
+Perfluorobutane,,=,Decafluorobutane,kg,355-25-9,PFC-31-10,n-C4F10,Edelen,CAS Number,,,8/23/2022
+Octafluorocyclopentene,,=,Octafluorocyclopentene,kg,559-40-0,,cyc (-CF2CF2CFCF2CF2-),Edelen,CAS Number,,,8/23/2022
+Perfluoropentane,,=,Dodecafluoropentane,kg,678-26-2,PFC-41-12,n-C5F12,Edelen,CAS Number,,,8/23/2022
+Perfluorohexane,,=,Tetradecafluorohexane,kg,355-42-0,PFC-51-14,n-C6F14,Edelen,CAS Number,,,8/23/2022
+Perfluoroheptane,,=,Hexadecafluoroheptane,kg,335-57-9,PFC-61-16,n-C7F16,Edelen,CAS Number,,,8/23/2022
+"Octane, octadecafluoro-",,=,Octadecafluorooctane,kg,307-34-6,PFC-71-18,n-C8F18,Edelen,CAS Number,,,8/23/2022
+Perfluorodecalin,,=,"1,1,2,2,3,3,4,4,4a,5,5,6,6,7,7,8,8,8a-octadecafluoronaphthalene",kg,306-94-5,PFC-91-18,C10F18,Edelen,CAS Number,,,8/23/2022
+Perfluorodecalin (cis),,=,"1,1,2,2,3,3,4,4,4a,5,5,6,6,7,7,8,8,8a-octadecafluoronaphthalene",kg,60433-11-6,,Z-C10F18,Edelen,CAS Number,,,8/23/2022
+Perfluorodecalin (trans),,=,"1,1,2,2,3,3,4,4,4a,5,5,6,6,7,7,8,8,8a-octadecafluoronaphthalene",kg,60433-12-7,,E-C10F18,Edelen,CAS Number,,,8/23/2022
+Tetrafluoroethene,,=,"1,1,2,2-tetrafluoroethene",kg,116-14-3,PFC-1114,CF2=CF2,Edelen,CAS Number,,,8/23/2022
+Hexafluoropropene,,=,"1,1,2,3,3,3-hexafluoroprop-1-ene",kg,116-15-4,PFC-1216,CF3CF=CF2,Edelen,CAS Number,,,8/23/2022
+"Hexafluoro-1,3-butadiene",,=,"1,1,2,3,4,4-hexafluorobuta-1,3-diene",kg,685-63-2,,CF2=CFCF=CF2,Edelen,CAS Number,,,8/23/2022
+Perfluorobut-1-ene,,=,Octafluoro-1-butene,kg,357-26-6,,CF3CF2CF=CF2,Edelen,CAS Number,,,8/23/2022
+Perfluorobut-2-ene,,=,Octafluoro-2-buene,kg,360-89-4,,CF3CF=CFCF3,Edelen,CAS Number,,,8/23/2022
+"Methane, (difluoromethoxy)trifluoro-",,=,Difluoromethoxy(trifluoro)methane,kg,3822-68-2,HFE-125,CHF2OCF3,Edelen,CAS Number,,,8/23/2022
+"Methane, oxybis[difluoro-",,=,Difluoromethoxy(difluoro)methane,kg,1691-17-4,HFE-134,CHF2OCHF2,Edelen,CAS Number,,,8/23/2022
+"Methane, trifluoromethoxy-",,=,Trifluoro(methoxy)methane,kg,421-14-7,HFE-143a,CH3OCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-",,=,"1,1,1,2-tetrafluoro-2-(trifluoromethoxy)ethane",kg,2356-62-9,HFE-227ea,CF3CHFOCF3,Edelen,CAS Number,,,8/23/2022
+Enflurane,,=,"2-chloro-1-(difluoromethoxy)-1,1,2-trifluoroethane",kg,13838-16-9,HCFE-235ca2,CHF2OCF2CHFCl,Edelen,CAS Number,,,8/23/2022
+Isoflurane,,=,"2-chloro-2-(difluoromethoxy)-1,1,1-trifluoroethane",kg,26675-46-7,HCFE-235da2,CHF2OCHClCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 2-(difluoromethoxy)-1,1,1,2-tetrafluoro-, (+-)-",,=,"2-(difluoromethoxy)-1,1,1,2-tetrafluoroethane",kg,57041-67-5,HFE-236ea2,CHF2OCHFCF3,Edelen,CAS Number,,,8/23/2022
+"2,2,2-Trifluoroethyl trifluoromethyl ether",,=,"1,1,1-trifluoro-2-(trifluoromethoxy)ethane",kg,20193-67-3,HFE-236fa,CF3CH2OCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",,=,"1,1,1,2,2-pentafluoro-2-methoxyethane",kg,22410-44-2,HFE-245cb2,CF3CF2OCH3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",,=,"1,1-difluoro-2-(trifluoromethoxy)ethane",kg,84011-15-4,HFE-245fa1,CHF2CH2OCF3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 2-(difluoromethoxy)-1,1,1-trifluoro-",,=,"2-(difluoromethoxy)-1,1,1-trifluoroethane",kg,1885-48-9,HFE-245fa2,CHF2OCH2CF3,Edelen,CAS Number,,,8/23/2022
+"1-Propanol, 2,2,3,3,3-pentafluoro-",,=,"2,2,3,3,3-pentafluoropropan-1-ol",kg,422-05-9,,CF3CF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"1,1,2,2-Tetrafluoro-1-methoxyethane",,=,"1,1,2,2-tetrafluoro-1-methoxyethane",kg,425-88-7,HFE-254cb1,CH3OCF2CHF2,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1,1,1-trifluoro-2-methoxy-",,=,"1,1,1-trifluoro-2-methoxyethane",kg,460-43-5,HFE-263mf,CF3CH2OCH3,Edelen,CAS Number,,,8/23/2022
+"Ethane, (trifluoromethoxy)-",,=,Trifluoromethoxyethane,kg,690-22-2,HFE-263m1,CF3OCH2CH3,Edelen,CAS Number,,,8/23/2022
+"3,3,3-Trifluoropropan-1-ol",,=,"3,3,3-trifluoropropan-1-ol",kg,2240-88-2,,CF3CH2CH2OH,Edelen,CAS Number,,,8/23/2022
+HFE-329mcc2,,=,"1,1,1,2,2-pentafluoro-2-(1,1,2,2-tetrafluoroethoxy)ethane",kg,134769-21-4,HFE-329mcc2,CHF2CF2OCF2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-338mmz1,,=,"2-(difluoromethoxy)-1,1,1,3,3,3-hexafluoropropane",kg,26103-08-2,HFE-338mmz1,(CF3)2CHOCHF2,Edelen,CAS Number,,,8/23/2022
+HFE-338mcf2,,=,"1,1,1,2,2-pentafluoro-2-(2,2,2-trifluoroethoxy)ethane",kg,156053-88-2,HFE-338mcf2,CF3CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022
+Sevoflurane,,=,"1,1,1,3,3,3-hexafluoro-2-(fluoromethoxy)propane",kg,28523-86-6,HFE-347mmz1,(CF3)2CHOCH2F,Edelen,CAS Number,,,8/23/2022
+"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-",,=,"1,1,1,2,2,3,3-heptafluoro-3-methoxypropane",kg,375-03-1,HFE-347mcc3,CH3OCF2CF2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-347mcf2,,=,"1-(2,2-difluoroethoxy)-1,1,2,2,2-pentafluoroethane",kg,171182-95-9,HFE-347mcf2,CHF2CH2OCF2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-347pcf2,,=,"1,1,2,2-tetrafluoro-1-(2,2,2-trifluoroethoxy)ethane",kg,406-78-0,HFE-347pcf2,CHF2CF2OCH2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-347mmy1,,=,"1,1,1,2,3,3,3-heptafluoro-2-methoxypropane",kg,22052-84-2,HFE-347mmy1,(CF3)2CFOCH3,Edelen,CAS Number,,,8/23/2022
+HFE-356mec3,,=,"1,1,1,2,3,3-hexafluoro-3-methoxypropane",kg,382-34-3,HFE-356mec3,CH3OCF2CHFCF3,Edelen,CAS Number,,,8/23/2022
+HFE-356mff2,,=,"1,1,1-trifluoro-2-(2,2,2-trifluoroethoxy)ethane",kg,333-36-8,HFE-356mff2,CF3CH2OCH2CF3,Edelen,CAS Number,,,8/23/2022
+HFE-356pcf2,,=,"1-(2,2-difluoroethoxy)-1,1,2,2-tetrafluoroethane",kg,50807-77-7,HFE-356pcf2,CHF2CH2OCF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFE-356pcf3,,=,"3-(difluoromethoxy)-1,1,2,2-tetrafluoropropane",kg,35042-99-0,HFE-356pcf3,CHF2OCH2CF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFE-356pcc3,,=,"1,1,2,2,3,3-hexafluoro-1-methoxypropane",kg,160620-20-2,HFE-356pcc3,CH3OCF2CF2CHF2,Edelen,CAS Number,,,8/23/2022
+HFE-356mmz1,,=,"1,1,1,3,3,3-hexafluoro-2-methoxypropane",kg,13171-18-1,HFE-356mmz1,(CF3)2CHOCH3,Edelen,CAS Number,,,8/23/2022
+HFE-365mcf3,,=,"1,1,1,2,2-pentafluoro-3-methoxypropane",kg,378-16-5,HFE-365mcf3,CF3CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022
+"Ethane, 1-ethoxy-1,1,2,2-tetrafluoro-",,=,"1-ethoxy-1,1,2,2-tetrafluoroethane",kg,512-51-6,HFE-374pc2,CHF2CF2OCH2CH3,Edelen,CAS Number,,,8/23/2022
+"4,4,4-Trifluorobutan-1-ol",,=,"4,4,4-trifluorobutan-1-ol",kg,461-18-7,,CF3(CH2)2CH2OH,Edelen,CAS Number,,,8/23/2022
+,,,"2,2,3,3,4,4,5,5-octafluorocyclopentan-1-ol",kg,16621-87-7,,cyc (-(CF2)4CH(OH)-),,,,,
+HG-30,,=,"1-(difluoromethoxy)-2-[difluoromethoxy(difluoro)methoxy]-1,1,2,2-tetrafluoroethane",kg,188690-77-9,HFE-43-10pccc124,CHF2OCF2OCF2CF2OCHF2,Edelen,CAS Number,,,8/23/2022
+HFE 7100,,=,"1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxybutane",kg,219484-64-7,HFE-449s1,C4F9OCH3,Edelen,CAS Number,,,8/23/2022
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",,=,"1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxybutane",kg,163702-07-6,n-HFE-7100,CF3CF2CF2CF2OCH3,Edelen,CAS Number,,,8/23/2022
+"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-",,=,"2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoropropane",kg,163702-08-7,i-HFE-7100,(CF3)2CFCF2OCH3,Edelen,CAS Number,,,8/23/2022
+Ethyl nonafluorobutyl ether,,=,"1-ethoxy-1,1,2,2,3,3,4,4,4-nonafluorobutane",kg,163702-05-4,HFE-569sf2,C4F9OC2H5,Edelen,CAS Number,,,8/23/2022
+"Propane, 2-(ethoxydifluoromethyl)-1,1,1,2,3,3,3-heptafluoro-",,=,"1-ethoxy-1,1,2,3,3,3-hexafluoro-2-(trifluoromethyl)propane",kg,163702-06-5,i-HFE-7200,(CF3)2CFCF2OCH2CH3,Edelen,CAS Number,,,8/23/2022
+,,,"1,1,1,2,2,3,4,5,5,5-decafluoro-3-methoxy-4-(trifluoromethyl)pentane",kg,132182-92-4,HFE-7300,(CF3)2CFCFOC2H5CF2CF2CF3,,,,,
+,,,"4-ethoxy-1,1,1,2,2,3,3,4,5,6,6,6-dodecafluoro-5-(trifluoromethyl)hexane",kg,297730-93-9,HFE-7500,n-C3F7CFOC2H5CF(CF3)2,,,,,
+"Methane, bis(difluoromethoxy)difluoro-",,=,Bis(difluoromethoxy)-difluoromethane,kg,78522-47-1,HFE-236ca12,CHF2OCF2OCHF2,Edelen,CAS Number,,,8/23/2022
+HFE-338pcc13 (HG-01),,=,"1,2-bis(difluoromethoxy)-1,1,2,2-tetrafluoroethane",kg,188690-78-0,HFE-338pcc13,CHF2OCF2CF2OCHF2,Edelen,CAS Number,,,8/23/2022
+"1,1,1,3,3,3-Hexafluoro-2-propanol",,=,"1,1,1,3,3,3-hexafluoropropan-2-ol",kg,920-66-1,HFIP,(CF3)2CHOH,Edelen,CAS Number,,,8/23/2022
+HG-02,,=,"1-(difluoromethoxy)-2-[2-(difluoromethoxy)-1,1,2,2-tetrafluoroethoxy]-1,1,2,2-tetrafluoroethane",kg,205367-61-9,HG-02,CHF2(OCF2CF2)2OCHF2,Edelen,CAS Number,,,8/23/2022
+HG-03,,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexadecafluoro-2,5,8,11-tetraoxadodecane",kg,173350-37-3,HG-03,CHF2(OCF2CF2)3OCHF2,Edelen,CAS Number,,,8/23/2022
+"Ethene, (2,2,2-trifluoroethoxy)-",,=,"2-ethenoxy-1,1,1-trifluoroethane",kg,406-90-6,Fluroxene,CF3CH2OCH=CH2,Edelen,CAS Number,,,8/23/2022
+"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,=,"2-ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,920979-28-8,,C12H5F19O2,Edelen,CAS Number,,,8/23/2022
+Difluoro(methoxy)methane,,=,Difluoro(methoxy)methane,kg,359-15-9,,CH3OCHF2,Edelen,CAS Number,,,8/23/2022
+HG'-01,,=,"1,1,2,2-tetrafluoro-1,2-dimethoxyethane",kg,73287-23-7,HG'-01,CH3OCF2CF2OCH3,Edelen,CAS Number,,,8/23/2022
+HG'-02,,=,"1,1,2,2-Tetrafluoro-1-methoxyethane",kg,485399-46-0,HG'-02,CH3O(CF2CF2O)2CH3,Edelen,CAS Number,,,8/23/2022
+HG'-03,,=,"1,1,2,2-tetrafluoro-1-methoxy-2-[1,1,2,2-tetrafluoro-2-(1,1,2,2-tetrafluoro-2-methoxyethoxy)ethoxy]ethane",kg,485399-48-2,HG'-03,CH3O(CF2CF2O)3CH3,Edelen,CAS Number,,,8/23/2022
+HFE-329me3,,=,"1,1,1,2,3,3-hexafluoro-3-(trifluoromethoxy)propane",kg,428454-68-6,HFE-329me3,CF3CFHCF2OCF3,Edelen,CAS Number,,,8/23/2022
+"3,3,4,4,5,5,6,6,7,7,7-Undecafluoroheptan-1-ol",,=,"3,3,4,4,5,5,6,6,7,7,7-undecafluoroheptan-1-ol",kg,185689-57-0,,CF3(CF2)4CH2CH2OH,Edelen,CAS Number,,,8/23/2022
+"3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-Pentadecafluorononan-1-ol",,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,9-pentadecafluorononan-1-ol",kg,755-02-2,,CF3(CF2)6CH2CH2OH,Edelen,CAS Number,,,8/23/2022
+"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",,=,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-nonadecafluoroundecan-1-ol",kg,87017-97-8,,CF3(CF2)8CH2CH2OH,Edelen,CAS Number,,,8/23/2022
+"2-Chloro-1,1,2-trifluoro-1-methoxyethane",,=,"2-chloro-1,1,2-trifluoro-1-methoxyethane",kg,425-87-6,,CH3OCF2CHClF,Edelen,CAS Number,,,8/23/2022
+,,,"1?(difluoro(trifluoromethoxy)methoxy)?1,1,2,3,3,3?hexafluoro?2?(trifluoromethoxy)propane",kg,1309353-34-1,PFPMIE,CF3OCFCF3CF2OCF2OCF3,,,,,
+Trifluoro(trifluoromethoxy)ethylene,,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethene",kg,1187-93-5,HFE-216,CF3OCF=CF2,Edelen,CAS Number,,,8/23/2022
+Perfluoroethyl formate,,=,Perfluoroethyl formate,kg,313064-40-3,,CF3CF2OCHO,Edelen,CAS Number,,,8/23/2022
+"2,2,2-Trifluoroethyl formate",,=,"2,2,2-trifluoroethyl formate",kg,32042-38-9,,CF3CH2OCHO,Edelen,CAS Number,,,8/23/2022
+"1,1,1,3,3,3-Hexafluoropropan-2-yl formate",,=,"Formic acid;1,1,1,3,3,3-hexafluoropropan-2-ol",kg,856766-70-6,,(CF3)2CHOCHO,Edelen,CAS Number,,,8/23/2022
+,,,"Ethenyl 2,2,2-trifluoroacetate",kg,433-28-3,,CF3COOCH=CH2,,,,,
+Ethyl trifluoroacetate,,=,"Ethyl 2,2,2-trifluoroacetate",kg,383-63-1,,CF3COOCH2CH3,Edelen,CAS Number,,,8/23/2022
+,,,"Prop-2-enyl 2,2,2-trifluoroacetate",kg,383-67-5,,CF3COOCH2CH=CH2,,,,,
+"Acetic acid, trifluoro-, methyl ester",,=,"Methyl 2,2,2-trifluoroacetate",kg,431-47-0,,CF3COOCH3,Edelen,CAS Number,,,8/23/2022
+"1-Butanol, 2,2,3,3,4,4,4-heptafluoro-",,=,"2,2,3,3,4,4,4-heptafluorobutan-1-ol",kg,375-01-9,,CF3CF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane",,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethane",kg,84011-06-3,,CHF2CHFOCF3,Edelen,CAS Number,,,8/23/2022
+"1-Ethoxy-1,1,2,3,3,3-hexafluoropropane",,=,"1-ethoxy-1,1,2,3,3,3-hexafluoropropane",kg,380-34-7,,CF3CHFCF2OCH2CH3,Edelen,CAS Number,,,8/23/2022
+"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",,=,"1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)propane",kg,3330-15-2,,CF3CF2CF2OCHFCF3,Edelen,CAS Number,,,8/23/2022
+"1-Propanol, 2,2,3,3-tetrafluoro-",,=,"2,2,3,3-tetrafluoropropan-1-ol",kg,76-37-9,,CHF2CF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"1H,1H,3H-Perfluorobutanol",,=,"2,2,3,4,4,4-hexafluorobutan-1-ol",kg,382-31-0,,CF3CHFCF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"1,1,2,2-Tetrafluoro-3-methoxy-propane",,=,"1,1,2,2-tetrafluoro-3-methoxypropane",kg,60598-17-6,,CHF2CF2CH2OCH3,Edelen,CAS Number,,,8/23/2022
+"3-Pentanone, 1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)-",,=,"1,1,1,2,2,4,5,5,5-nonafluoro-4-(trifluoromethyl)pentan-3-one",kg,756-13-8,,CF3CF2COCF(CF3)2,Edelen,CAS Number,,,8/23/2022
+"Propanal, 3,3,3-trifluoro-",,=,"3,3,3-trifluoropropanal",kg,460-40-2,,CF3CH2CHO,Edelen,CAS Number,,,8/23/2022
+2-Fluoroethanol,,=,2-fluoroethanol,kg,371-62-0,,CH2FCH2OH,Edelen,CAS Number,,,8/23/2022
+"2,2-Difluoroethanol",,=,"2,2-difluoroethanol",kg,359-13-7,,CHF2CH2OH,Edelen,CAS Number,,,8/23/2022
+"2,2,2-Trifluoroethanol",,=,"2,2,2-trifluoroethanol",kg,75-89-8,,CF3CH2OH,Edelen,CAS Number,,,8/23/2022
+,,,Methyl-perfluoroheptene-ethers,kg,,,CH3OC7F13,,,,,
+,,,"1,1,1-trifluoropropan-2-one",kg,421-50-1,,CF3COCH3,,,,,
+,,,"1,1,1-trifluorobutan-2-one",kg,381-88-4,,CF3COCH2CH3,,,,,
+2-Chloroethyl vinyl ether,,=,1-chloro-2-ethenoxyethane,kg,110-75-8,2ClEVE,ClCH2CH2OCH=CH2,Edelen,CAS Number,,,8/23/2022
+Ethane,,=,Ethane,kg,74-84-0,,C2H6,Edelen,CAS Number,,,8/23/2022
+Propane,,=,Propane,kg,74-98-6,,C3H8,Edelen,CAS Number,,,8/23/2022
+Butane,,=,Butane,kg,106-97-8,,n-C4H10,Edelen,CAS Number,,,8/23/2022
+,,,2-methylpentan-3-one,kg,565-69-5,,CH3CH2COCH(CH3)2,,,,,
+,,,Ethyl methyl ether,kg,540-67-0,,CH3CH2OCH3,,,,,
+,,,"2,2,3,3,4,4,5,5-octafluorooxolane",kg,773-14-8,Octafluorooxolane,c-C4F8O,,,,,
+Crotonaldehyde,,=,Crotonaldehyde,kg,4170-30-3,,CH3CH=CHCHO,Edelen,CAS Number,,,8/23/2022
+Methyl vinyl ketone,,=,Methyl vinyl ketone,kg,78-94-4,MVK,CH3COCH=CH2,Edelen,CAS Number,,,8/23/2022
+,,,Allyl ether,kg,557-40-4,AE,(CH2=CHCH2)2O,,,,,
+,,,Allyl ethyl ether,kg,557-31-3,AEE,CH3CH2OCH2CH=CH2,,,,,
+,,,(z)-hex-2-en-1-ol,kg,928-94-9,,CH3CH2CH2CH=CHCH2OH,,,,,
+3-Butenenitrile,,=,(e)-hex-2-en-1-ol,kg,928-95-0,,CH3CH2CH2CH=CHCH2OH,Edelen,CAS Number,,,8/23/2022
+,,,3-butenenitrile,kg,109-75-1,Allyl cyanide,CH2=CHCH2CN,,,,,
+,,,Hexamethyldisiloxane,kg,107-46-0,,C6H18OSi2,,,,,
+,,,Octamethyltrisiloxane,kg,107-51-7,,C8H24O2Si3,,,,,
+,,,Decamethyltetrasiloxane,kg,141-62-8,,C10H30O3Si4,,,,,
+,,,Dodecamethylpentasiloxane,kg,141-63-9,,C12H36O4Si5,,,,,
+,,,Hexamethylcyclotrisiloxane,kg,541-05-9,,C6H18O3Si3,,,,,
+Octamethylcyclotetrasiloxane,,=,Octamethylcyclotetrasiloxane,kg,556-67-2,,C8H24O4Si4,Edelen,CAS Number,,,8/23/2022
+,,,Decamethylcyclopentasiloxane,kg,541-02-6,,C10H30O5Si5,,,,,
+,,,Dodecamethylcyclohexasiloxane,kg,540-97-6,,C12H36O6Si6,,,,,
