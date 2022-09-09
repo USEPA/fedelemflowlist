@@ -213,6 +213,8 @@ Fluoroxene,kg,406-90-6,,CF3CH2OCH=CH2,=,"Ethene, (2,2,2-trifluoroethoxy)-",kg,Ed
 Fossil methane,kg,74-82-8,,CH4,=,Methane,kg,Edelen,CAS Number,,,8/23/2022
 Halon-1201,kg,1511-62-2,,CHBrF2,=,Bromodifluoromethane,kg,Edelen,CAS Number,,,8/23/2022
 Halon-1202,kg,75-61-6,,CBr2F2,=,Dibromodifluoromethane,kg,Edelen,CAS Number,,,8/23/2022
+Halon-1211,kg,353-59-3,,CBrClF2,=,Halon 1211,kg,Young,,,,9/9/2022
+Halon-1301,kg,75-63-8,,CBrF3,=,Halon 1301,kg,Young,,,,9/9/2022
 Halon-2301,kg,421-06-7,,CH2BrCF3,=,"2-Bromo-1,1,1-trifluoroethane",kg,Edelen,CAS Number,,,8/23/2022
 Halon-2311 / Halothane,kg,151-67-7,,CHBrClCF3,=,Halothane,kg,Edelen,CAS Number,,,8/23/2022
 Halon-2401,kg,124-72-1,,CHFBrCF3,=,"2-Bromo-1,1,1,2-tetrafluoroethane",kg,Edelen,CAS Number,,,8/23/2022
@@ -265,6 +267,7 @@ HFC-329p,kg,375-17-7,,CHF2CF2CF2CF3,=,HFC-329p,kg,Edelen,CAS Number,,,8/23/2022
 HFC-365mfc,kg,406-58-6,,CH3CF2CH2CF3,=,HFC-365mfc,kg,Edelen,CAS Number,,,8/23/2022
 HFC-41,kg,593-53-3,,CH3F,=,HFC-41,kg,Edelen,CAS Number,,,8/23/2022
 HFC-43-10mee,kg,138495-42-8,,CF3CHFCHFCF2CF3,=,HFC-4310mee,kg,Edelen,CAS Number,,,8/23/2022
+HFE-125,kg,354-33-6,,CHF2OCF3,,"Methane, (difluoromethoxy)trifluoro-",kg,Young,TRACI match,,,9/9/2022
 HFE-134,kg,1691-17-4,,CHF2OCHF2,=,"Methane, oxybis[difluoro-",kg,Edelen,CAS Number,,,8/23/2022
 HFE-134 (HG-00),kg,1691-17-4,,CHF2OCHF2,=,"Methane, oxybis[difluoro-",kg,Edelen,CAS Number,,,8/23/2022
 HFE-143a,kg,421-14-7,,CH3OCF3,=,"Methane, trifluoromethoxy-",kg,Edelen,CAS Number,,,8/23/2022
@@ -276,6 +279,7 @@ HFE-236ea2 (desflurane),kg,57041-67-5,,CHF2OCHFCF3,=,"Ethane, 2-(difluoromethoxy
 HFE-236fa,kg,20193-67-3,,CF3CH2OCF3,=,"2,2,2-Trifluoroethyl trifluoromethyl ether",kg,Edelen,CAS Number,,,8/23/2022
 HFE-245fa1,kg,84011-15-4,,CHF2CH2OCF3,=,"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",kg,Edelen,CAS Number,,,8/23/2022
 HFE-245fa2,kg,1885-48-9,,CHF2OCH2CF3,=,"Ethane, 2-(difluoromethoxy)-1,1,1-trifluoro-",kg,Edelen,CAS Number,,,8/23/2022
+HFE-245cb2,kg,,,CH3OCF2CHF2,=,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",kg,Young,TRACI match,,,9/9/2022
 HFE-254cb1,kg,425-88-7,,CH3OCF2CHF2,=,"1,1,2,2-Tetrafluoro-1-methoxyethane",kg,Edelen,CAS Number,,,8/23/2022
 HFE-254cb2,kg,425-88-7,,CH3OCF2CHF2,=,"1,1,2,2-Tetrafluoro-1-methoxyethane",kg,Edelen,CAS Number,,,8/23/2022
 HFE-263fb2,kg,460-43-5,,CF3CH2OCH3,=,"Ethane, 1,1,1-trifluoro-2-methoxy-",kg,Edelen,CAS Number,,,8/23/2022
@@ -299,6 +303,7 @@ HFE-356pcf3,kg,35042-99-0,,CHF2OCH2CF2CHF2,=,HFE-356pcf3,kg,Edelen,CAS Number,,,
 HFE-365mcf2,kg,22052-81-9,,CF3CF2OCH2CH3,=,HFE-365mcf2,kg,Edelen,CAS Number,,,8/23/2022
 HFE-365mcf3,kg,378-16-5,,CF3CF2CH2OCH3,=,HFE-365mcf3,kg,Edelen,CAS Number,,,8/23/2022
 HFE-374pc2,kg,512-51-6,,CHF2CF2OCH2CH3,=,"Ethane, 1-ethoxy-1,1,2,2-tetrafluoro-",kg,Edelen,CAS Number,,,8/23/2022
+HFE-43-10pccc124(H-Galden 1040x),kg,,,CHF2OCF2OC2F4OCHF2,,HG-30,kg,Young,TRACI match,,,9/9/2022
 "HFE-43-10pccc124 (H-Galden 1040x, HG-11)",kg,188690-77-9,,CHF2OCF2OC2F4OCHF2,=,HG-30,kg,Edelen,CAS Number,,,8/23/2022
 HFE-449s1 (HFE-7100),kg,163702-07-6,,C4F9OCH3,=,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",kg,Edelen,CAS Number,,,8/23/2022
 HFE-449sl (HFE-7100),kg,163702-07-6,,C4F9OCH3,=,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",kg,Edelen,CAS Number,,,8/23/2022
@@ -426,15 +431,11 @@ Dodecamethylpentasiloxane,kg,141-63-9,,C12H36O4Si5,,,,,,,,
 Ethyl methyl ether,kg,540-67-0,,CH3CH2OCH3,,,,,,,,
 Fully Fluorinated Species,kg,,,,,,,,,,,
 Halogenated Alcohols and Ethers,kg,,,,,,,,,,,
-Halon-1211,kg,353-59-3,,CBrClF2,,,,,,,,8/27/2022
-Halon-1301,kg,75-63-8,,CBrF3,,,,,,,,8/27/2022
 Heptacosafluorotributylamine,kg,311-89-7,PFTBA,N(CF2CF2CF2CF3)3,,,,,,,,
 Heptafluoroisobutyronitrile,kg,42532-60-5,,(CF3)2CFCN,,,,,,,,
 Hexafluorocyclobutene,kg,697-11-0,,cyc (-CF=CFCF2CF2-),,,,,,,,
 Hexamethylcyclotrisiloxane,kg,541-05-9,,C6H18O3Si3,,,,,,,,
 Hexamethyldisiloxane,kg,107-46-0,,C6H18OSi2,,,,,,,,
-HFE-43-10pccc124(H-Galden 1040x),kg,,,CHF2OCF2OC2F4OCHF2,,,,,,,,
-HFE-125,kg,354-33-6,,CHF2OCF3,,,,,,,,8/27/2022
 i-HFE-7100,kg,,,i-C4F9OCH3,,,,,,,,
 i-HFE-7200,kg,,,i-C4F9OC2H5,,,,,,,,
 Methyl-perfluoroheptene-ethers,kg,,,CH3OC7F13,,,,,,,,

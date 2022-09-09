@@ -1,4 +1,21 @@
 SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",cf4c1ec9-c0ca-31fa-b033-4796aa049c05,emission/air,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",9337fd47-0d93-3a3d-a692-6a66ceeeb702,emission/air/troposphere/low,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",e23b7912-67a6-333a-a117-135da3c1e1f9,emission/air/troposphere/high,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",ed48e92a-e9a2-37da-a1d2-c3ce44e0a8f1,emission/air/troposphere/very high,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",532ca876-910f-3ba1-a4d6-bf3649ce987a,emission/air/troposphere/ground-level,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",e4db0996-0492-3c20-ae57-b6915b4de15f,emission/air/troposphere/urban,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",e19ae61b-8ce0-3639-9b74-f5a6ae2f88c1,emission/air/troposphere/rural,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",2e624acd-2c72-3577-8a01-0c90fa650318,emission/air/troposphere/urban/low,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",f68a49a8-6be1-317d-b4cc-82f9a5b8d384,emission/air/troposphere/rural/low,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",de06b7d8-2323-3d83-8dc0-f1a533e529c7,emission/air/troposphere/urban/high,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",f6aa4dc5-91a1-3b09-b2a6-7037c61d71a5,emission/air/troposphere/rural/high,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",ba681427-7d55-358e-96a5-cc62d7f6ff5b,emission/air/troposphere/urban/very high,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",a45480f5-de6c-35b3-aace-f7d767039bb2,emission/air/troposphere/rural/very high,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",824d328e-acf6-391b-a5db-4cd0ba045b89,emission/air/troposphere/urban/ground-level,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",56129634-7111-32cf-bb7b-1c7ad398b2d6,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",c64303f9-e827-3309-96db-59dc111cef89,emission/air/indoor,kg,Edelen,,8/23/2022
+IPCC,"(E)-1-Chloro-3,3,3-trifluoroprop-1-ene",,air,kg,=,1,"1-Propene, 1-chloro-3,3,3-trifluoro-, (1E)-",b1b8da45-61a1-3092-aca3-a70d53a70f9f,emission/air/stratosphere,kg,Edelen,,8/23/2022
 IPCC,(E)-HFC-1225ye,,air,kg,=,1,(E)-HFC-1225ye,844508f0-183d-3a3b-8e01-472ef6f2369b,emission/air,kg,Edelen,,8/23/2022
 IPCC,(E)-HFC-1225ye,,air,kg,=,1,(E)-HFC-1225ye,a2a0b237-e95b-3629-8b88-83ba985f32d2,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,(E)-HFC-1225ye,,air,kg,=,1,(E)-HFC-1225ye,931f05d4-a05b-37fe-a46e-c5e58e62a68c,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -237,6 +254,23 @@ IPCC,"1,1,1,2,2,3,3,4,4-nonafluorobutane",,air,kg,=,1,HFC-329p,3c9957c4-cc26-36c
 IPCC,"1,1,1,2,2,3,3,4,4-nonafluorobutane",,air,kg,=,1,HFC-329p,a4c37ee4-be9c-36dd-b97b-c3afa90f5fc4,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,"1,1,1,2,2,3,3,4,4-nonafluorobutane",,air,kg,=,1,HFC-329p,759d9a2d-a545-3209-b2eb-38a35a5e2edb,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,"1,1,1,2,2,3,3,4,4-nonafluorobutane",,air,kg,=,1,HFC-329p,cf17755a-af6a-39fd-884d-7d8939d56530,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",3ef9700c-27b9-393d-9c9e-2a78d4a20ed8,emission/air,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",5ff78f00-024a-3b65-84b0-5b9291e7c5be,emission/air/troposphere/low,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",0c58ed0c-6e1a-3382-baf9-11b3c5bd02f4,emission/air/troposphere/high,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",b2708cd1-66c9-354c-8075-29e274e4e38b,emission/air/troposphere/very high,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",a566e667-afa5-3b62-b266-9a415b24ad01,emission/air/troposphere/ground-level,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",333d7ee7-19ad-32f5-aa78-ff4457cf9d9f,emission/air/troposphere/urban,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",9965bf36-6780-3583-91f1-bf62eceefcc3,emission/air/troposphere/rural,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",096950d1-689b-3e1c-aaa0-46bfc98a0314,emission/air/troposphere/urban/low,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",9d10532d-8d76-3adc-a517-a3930760b061,emission/air/troposphere/rural/low,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",84ede767-c409-3f85-8ab0-5f54e28b8ce8,emission/air/troposphere/urban/high,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",2c882e23-818b-39ae-b893-c3210b2e8e88,emission/air/troposphere/rural/high,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",e7b8a7ea-ca64-33ae-9209-bf1c05cb3c9f,emission/air/troposphere/urban/very high,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",7f19ba23-ae6a-3322-82ce-fb69cd756470,emission/air/troposphere/rural/very high,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",5a9f2faf-c6ac-3b31-a2b2-921764656b39,emission/air/troposphere/urban/ground-level,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",fe537671-ca70-343f-ad0a-d4d7fc16616d,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",ade09ba3-c1ba-3a84-8021-fc1416ead58a,emission/air/indoor,kg,Edelen,,8/23/2022
+IPCC,"1,1,1,2,2,3,3-Heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",e4205041-1da6-3b79-9326-3ef51cd188de,emission/air/stratosphere,kg,Edelen,,8/23/2022
 IPCC,"1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",3ef9700c-27b9-393d-9c9e-2a78d4a20ed8,emission/air,kg,Edelen,,8/23/2022
 IPCC,"1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",5ff78f00-024a-3b65-84b0-5b9291e7c5be,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,"1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)propane",,air,kg,=,1,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-(1,2,2,2-tetrafluoroethoxy)-",0c58ed0c-6e1a-3382-baf9-11b3c5bd02f4,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -1291,6 +1325,40 @@ IPCC,"1,1,2-trifluoroethane",,air,kg,=,1,HFC-143,0e98fb95-e880-33ff-b5fc-bc41213
 IPCC,"1,1,2-trifluoroethane",,air,kg,=,1,HFC-143,eb94384e-fb68-3270-8d55-bf382bb24e2a,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,"1,1,2-trifluoroethane",,air,kg,=,1,HFC-143,a0aa600e-3d3c-3b85-9212-4c922ac86d6d,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,"1,1,2-trifluoroethane",,air,kg,=,1,HFC-143,28336f49-4cea-3bd6-963d-1864aa6eec40,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",55adf4c3-e472-3eb6-a03a-26a1e0dccf3a,emission/air,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",6c930e45-107e-3644-b9fc-e393a459fcec,emission/air/troposphere/low,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",6ce0f2e6-b95e-3863-924d-6fe587985b48,emission/air/troposphere/high,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",8c517024-2729-3357-8dd0-2a8d4e1f2aab,emission/air/troposphere/very high,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",f2db36c2-a0c3-3ed6-ba45-c586b82af820,emission/air/troposphere/ground-level,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",f6a72afc-8998-343b-ace8-8d8b5958270c,emission/air/troposphere/urban,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",18edd459-5b54-380e-ba9e-8ef799739ead,emission/air/troposphere/rural,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",eb70817a-b0a4-3b96-92a5-c1409e7bda52,emission/air/troposphere/urban/low,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",a46fa025-d343-30ea-ad7d-35b896a1e0fd,emission/air/troposphere/rural/low,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",3e6061fa-ee1c-341e-9a29-f4cd98dd9d6a,emission/air/troposphere/urban/high,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",56bcdf4a-a152-3ebe-81d3-8e91dd9311c1,emission/air/troposphere/rural/high,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",943182b4-045d-3f28-8a1d-10fd127b339f,emission/air/troposphere/urban/very high,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",b6b497c4-ae7c-3f25-90bd-9dec52e6b4bf,emission/air/troposphere/rural/very high,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",7f1ed0e6-e78e-334d-8569-928ddfcf8ae6,emission/air/troposphere/urban/ground-level,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",1d6c5105-58ce-32c9-b06d-83e2722680bd,emission/air/troposphere/rural/ground-level,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",2dc73260-476b-3550-a8bb-9c13b8ae504d,emission/air/indoor,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eico-safluoro-2,5,8,11,14-Pentaoxapentadecane",,air,kg,=,1,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",5085b47b-9910-39a3-a5ed-1f0aed56dda2,emission/air/stratosphere,kg,Young,Edelen,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,028d6151-b01c-3c0f-a527-f27c9a6c12d7,emission/air,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,972654d0-c368-397d-8d03-daf8092ef035,emission/air/troposphere/low,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,d1c1d6b0-fd9a-3251-87e7-61723708fbfd,emission/air/troposphere/high,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,87387b93-bfa3-3389-9d6e-4caf55653ee4,emission/air/troposphere/very high,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,f942f45f-9221-3d1f-a59f-d7118236f201,emission/air/troposphere/ground-level,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,297f83a4-227c-327f-88eb-763af8262440,emission/air/troposphere/urban,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,bfcc7f01-d909-3f9a-8afb-ccddb7eff27c,emission/air/troposphere/rural,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,69089c4e-afaa-3b00-b494-721c2c7d8239,emission/air/troposphere/urban/low,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,2718cd12-fff0-33a2-94cb-2ce48c273535,emission/air/troposphere/rural/low,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,a91d19c8-bd02-336c-b6a1-0f8b7e5ef9e5,emission/air/troposphere/urban/high,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,2fbd281d-9655-33ed-a84d-fb4e2b2157e5,emission/air/troposphere/rural/high,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,9810984c-e7e6-3ee9-86fc-9ed2de5244b6,emission/air/troposphere/urban/very high,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,574c7675-7e4e-3310-9b58-671c604d38fb,emission/air/troposphere/rural/very high,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,a24f66a2-4abc-33fc-ab80-145b52efc2af,emission/air/troposphere/urban/ground-level,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,e386bb76-9d4f-33dc-ab75-e0f57793179b,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,35ba0c30-ca54-3302-8e26-965afc0d70ab,emission/air/indoor,kg,Edelen,,8/23/2022
+IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexa-decafluoro-2,5,8,11-Tetraoxadodecane",,air,kg,=,1,HG-03,2dd2c575-c90c-31b9-a6be-82d334b3af69,emission/air/stratosphere,kg,Edelen,,8/23/2022
 IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexadecafluoro-2,5,8,11-tetraoxadodecane",,air,kg,=,1,HG-03,028d6151-b01c-3c0f-a527-f27c9a6c12d7,emission/air,kg,Edelen,,8/23/2022
 IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexadecafluoro-2,5,8,11-tetraoxadodecane",,air,kg,=,1,HG-03,972654d0-c368-397d-8d03-daf8092ef035,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-hexadecafluoro-2,5,8,11-tetraoxadodecane",,air,kg,=,1,HG-03,d1c1d6b0-fd9a-3251-87e7-61723708fbfd,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -2226,6 +2294,23 @@ IPCC,"2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoropropane",,air,kg,=,1,"P
 IPCC,"2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoropropane",,air,kg,=,1,"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-",361ad04d-a7ae-38a6-994b-ebc0861deae3,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,"2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoropropane",,air,kg,=,1,"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-",211c0604-d6a6-3317-9b3a-db5527a540ef,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,"2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoropropane",,air,kg,=,1,"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-",ef7d0676-ee18-31d6-91a7-9f4c009cf1ae,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",c3335421-8a24-348f-8eb5-47d04aa8b927,emission/air,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",b7dd8794-d9c7-319b-abd9-49328f7d1f04,emission/air/troposphere/low,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",88618221-a8b3-3ba6-9533-54c306551a28,emission/air/troposphere/high,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",ae11c24d-c658-31e2-8a51-94e436ef59b7,emission/air/troposphere/very high,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",f7b40079-1946-3fdb-b881-bdccaedeb104,emission/air/troposphere/ground-level,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",a38b3bae-74b1-3ee2-96e7-51922847010e,emission/air/troposphere/urban,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",8deacd23-da8c-33a0-a70e-95e619063e88,emission/air/troposphere/rural,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",6e3c0143-db0c-38a2-a639-9d7ad421ac65,emission/air/troposphere/urban/low,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",ad004b14-d453-3c35-a577-3af822478f79,emission/air/troposphere/rural/low,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",1a4e7fb2-e496-3e8e-9300-d1d1f266d6ff,emission/air/troposphere/urban/high,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",8d492bf4-def9-3030-977c-a3ecaab3f3e3,emission/air/troposphere/rural/high,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",eef3771c-4673-3f8a-b9f0-9fa3dfb41b2a,emission/air/troposphere/urban/very high,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",7de19bbf-8af7-3fc3-9cef-6d27ac80635d,emission/air/troposphere/rural/very high,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",02c72b72-ef22-3be9-8cd7-f249783d56ba,emission/air/troposphere/urban/ground-level,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",93355a3f-929a-3b84-bb0b-8a68ecc0ab11,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",4ddd9ed7-28d3-3111-b112-28a30a28ad1a,emission/air/indoor,kg,Edelen,,8/23/2022
+IPCC,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",,air,kg,=,1,"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",27dc1da6-cd18-3603-9c20-8586730bb511,emission/air/stratosphere,kg,Edelen,,8/23/2022
 IPCC,"2-bromo-1,1,1,2-tetrafluoroethane",,air,kg,=,1,"2-Bromo-1,1,1,2-tetrafluoroethane",87b95e4d-7e5c-3f9f-9d2c-b9dd381bcfcd,emission/air,kg,Edelen,,8/23/2022
 IPCC,"2-bromo-1,1,1,2-tetrafluoroethane",,air,kg,=,1,"2-Bromo-1,1,1,2-tetrafluoroethane",0b57fbdf-97f6-31d1-b579-53dc2b1d13c9,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,"2-bromo-1,1,1,2-tetrafluoroethane",,air,kg,=,1,"2-Bromo-1,1,1,2-tetrafluoroethane",a71ae3bd-9b73-3e60-a727-3c467ed618a8,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -2600,6 +2685,23 @@ IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodec-1-ene",,air,kg,=,1
 IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodec-1-ene",,air,kg,=,1,Perfluorooctyl Ethylene,c8c62e35-102a-3ad2-a66e-d951f0f967f5,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodec-1-ene",,air,kg,=,1,Perfluorooctyl Ethylene,c39e2828-91b4-3968-9bdd-47fa789711e0,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,10-heptadecafluorodec-1-ene",,air,kg,=,1,Perfluorooctyl Ethylene,bdfd40c7-8ee8-3edd-8c51-1cdfdbefa1c5,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",7f5f7a3e-10ee-37f4-8a27-929694c13a03,emission/air,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",7b542ec0-f974-383c-b59c-12d67aa9e931,emission/air/troposphere/low,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",214fceb4-0a55-3dbf-9d87-cffc3127931e,emission/air/troposphere/high,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",6a37af78-d70c-397c-8724-2eda3206b253,emission/air/troposphere/very high,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",665f39ab-4230-30f2-a8c0-5f84f26d3b77,emission/air/troposphere/ground-level,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",1f90f06d-038e-3ba3-af69-0671328c3548,emission/air/troposphere/urban,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",4ed65513-2e28-39ca-903d-5a5ecf5f4a78,emission/air/troposphere/rural,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",9c39ff6d-0037-3d20-9ad9-ecd6941cab5c,emission/air/troposphere/urban/low,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",635ea05c-d148-3c05-aed9-d64218b7f170,emission/air/troposphere/rural/low,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",6b8942bc-59f3-3771-8c4d-6fbb458fa471,emission/air/troposphere/urban/high,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",03aff1d7-86f2-3af8-a658-f1a7a381c2d6,emission/air/troposphere/rural/high,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",91ec8d3e-251d-3b85-98b9-39fd76580dc1,emission/air/troposphere/urban/very high,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",e35d1e53-82a5-3e61-b8b5-c2b5e0ba8e9f,emission/air/troposphere/rural/very high,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",600093d4-3c3a-306d-a17b-cf2db93e9fb6,emission/air/troposphere/urban/ground-level,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",f9ed86eb-a9d0-386e-b0d4-a0ddbbc0eaca,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",15a2ee20-3134-3718-927c-39c36205f6e2,emission/air/indoor,kg,Edelen,,8/23/2022
+IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Non-adecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",54a1163b-b867-3872-abd3-9343d38ee998,emission/air/stratosphere,kg,Edelen,,8/23/2022
 IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-nonadecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",7f5f7a3e-10ee-37f4-8a27-929694c13a03,emission/air,kg,Edelen,,8/23/2022
 IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-nonadecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",7b542ec0-f974-383c-b59c-12d67aa9e931,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-nonadecafluoroundecan-1-ol",,air,kg,=,1,"3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,11-Nonadecafluoroundecan-1-ol",214fceb4-0a55-3dbf-9d87-cffc3127931e,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -4283,6 +4385,23 @@ IPCC,HFC-43-10mee,,air,kg,=,1,HFC-4310mee,78b793ca-3bcf-33fe-ab3e-ad147628b1ed,e
 IPCC,HFC-43-10mee,,air,kg,=,1,HFC-4310mee,fe5a8470-7096-36ea-a4b8-5c2d3cecac9e,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,HFC-43-10mee,,air,kg,=,1,HFC-4310mee,7f4544e5-7c71-3d3f-97e3-fa9bcc283084,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,HFC-43-10mee,,air,kg,=,1,HFC-4310mee,8c17401e-70ea-3dc3-8636-46567b11c9f4,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",274734de-8a15-3209-98e4-13e5edb19888,emission/air,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",e7cffacc-9eb4-325b-826b-f4a4b60967d0,emission/air/troposphere/low,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",07789613-9918-3e74-bc0b-75d1589d50b9,emission/air/troposphere/high,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",640d8417-dba3-3b4b-8686-e33c7b699083,emission/air/troposphere/very high,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",b2a79a94-f00f-303e-90d9-bd936b7fbd58,emission/air/troposphere/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",7d1ff7d0-63eb-3296-8cfc-029637aacce7,emission/air/troposphere/urban,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",b2583c8b-e082-3e62-8598-ede2fe98679d,emission/air/troposphere/rural,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",34083146-e9f6-34d7-95b3-7e8839725d3d,emission/air/troposphere/urban/low,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",04f62a6e-6125-3b60-9c48-db5dde945b0d,emission/air/troposphere/rural/low,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",cab279b7-846d-3443-84f9-af6f0031398c,emission/air/troposphere/urban/high,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",b443382c-e71b-39df-b400-01a302b61961,emission/air/troposphere/rural/high,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",69259fa0-ff8d-3af0-917a-624a331b12be,emission/air/troposphere/urban/very high,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",ed8f002a-a7c3-366c-96c6-ae3e97ef463f,emission/air/troposphere/rural/very high,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",29ba03a4-d1a1-386a-b818-3a46cbf3e3ff,emission/air/troposphere/urban/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",775e386c-acc9-3939-88d6-a281701a6972,emission/air/troposphere/rural/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",a995b029-af43-3bf9-a0ad-ddf950162d71,emission/air/indoor,kg,Young,,9/9/2022
+IPCC,HFE-125,,air,kg,,1,"Methane, (difluoromethoxy)trifluoro-",502cc99a-9990-3d72-ac18-23cfee79a539,emission/air/stratosphere,kg,Young,,9/9/2022
 IPCC,HFE-134,,air,kg,=,1,"Methane, oxybis[difluoro-",cd632efc-3e79-3a4e-a7f9-439cb7ffeb14,emission/air,kg,Edelen,,8/23/2022
 IPCC,HFE-134,,air,kg,=,1,"Methane, oxybis[difluoro-",9b778ac8-1d31-37d6-83d8-84e33f20f00a,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,HFE-134,,air,kg,=,1,"Methane, oxybis[difluoro-",e4b69b45-5604-3f5b-9c7c-5d9db493f5f7,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -4436,6 +4555,23 @@ IPCC,HFE-236fa,,air,kg,=,1,"2,2,2-Trifluoroethyl trifluoromethyl ether",0d5d3861
 IPCC,HFE-236fa,,air,kg,=,1,"2,2,2-Trifluoroethyl trifluoromethyl ether",52521b35-f761-3cfa-bc21-d1f6915e616e,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,HFE-236fa,,air,kg,=,1,"2,2,2-Trifluoroethyl trifluoromethyl ether",b89c4d71-7b56-3a07-9f22-287c102be19e,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,HFE-236fa,,air,kg,=,1,"2,2,2-Trifluoroethyl trifluoromethyl ether",2e9e153a-fe92-3aab-809e-a7441f48e24d,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",acb666e9-865d-3484-a7fa-9f768004a90b,emission/air,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",3d5eb4bd-912f-36a7-9815-148e56e5f385,emission/air/troposphere/low,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",b7ea2ab1-25bf-35ff-a475-8c2c3423da36,emission/air/troposphere/high,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",a6fcfb83-96ab-3333-9197-402be388db3d,emission/air/troposphere/very high,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",9f687359-d47f-37d3-a65b-0b201216669c,emission/air/troposphere/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",68cebe63-2634-364b-8b20-fde87020bf10,emission/air/troposphere/urban,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",69fcadf7-0645-314e-b094-1b8caee27312,emission/air/troposphere/rural,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",8a94b5fd-88ce-3303-a954-635d47e09655,emission/air/troposphere/urban/low,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",2164f19a-a172-36f4-ac2c-1e67f34d33ac,emission/air/troposphere/rural/low,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",d86d1dfd-38bb-3c0f-902e-3fe38bed9168,emission/air/troposphere/urban/high,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",da8ae419-a9c4-3c39-b2ee-f97a3a82de55,emission/air/troposphere/rural/high,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",21f6a689-f778-3e72-b02d-ca523dcebd1f,emission/air/troposphere/urban/very high,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",32f8ca8d-3ad8-3eea-bfab-0c76c6fb1a33,emission/air/troposphere/rural/very high,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",3590e5c5-c703-368f-abb7-884492f84fb5,emission/air/troposphere/urban/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",7848337e-1991-36c2-85a7-ff2892c00a16,emission/air/troposphere/rural/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",ec8f3654-4291-32b7-90b5-094710a6f1ec,emission/air/indoor,kg,Young,,9/9/2022
+IPCC,HFE-245cb2,,air,kg,=,1,"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",149f3968-aabb-344d-94df-679491dbb8dd,emission/air/stratosphere,kg,Young,,9/9/2022
 IPCC,HFE-245fa1,,air,kg,=,1,"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",2da71397-e303-310a-8414-f6820edf7a6b,emission/air,kg,Edelen,,8/23/2022
 IPCC,HFE-245fa1,,air,kg,=,1,"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",344afe40-d56e-3a52-b65a-a55ef5f023d7,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,HFE-245fa1,,air,kg,=,1,"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",cc1c0708-4d77-3fa1-b385-27e07939f81c,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -4878,6 +5014,23 @@ IPCC,"HFE-43-10pccc124 (H-Galden 1040x, HG-11)",,air,kg,=,1,HG-30,165317c7-00c1-
 IPCC,"HFE-43-10pccc124 (H-Galden 1040x, HG-11)",,air,kg,=,1,HG-30,5dab1aa4-ac2d-3ce8-af20-2261025082f2,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,"HFE-43-10pccc124 (H-Galden 1040x, HG-11)",,air,kg,=,1,HG-30,6bf8121d-c1de-3954-8b88-feb630e9f4a9,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,"HFE-43-10pccc124 (H-Galden 1040x, HG-11)",,air,kg,=,1,HG-30,b62e3aaa-60be-32e8-be4f-33cbc51033d1,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,ab7abf35-02dd-3312-92f4-3f5176007cca,emission/air,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,d5a72e7b-3561-3025-b79a-3d36d5a5b60c,emission/air/troposphere/low,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,1453958b-1fc3-3351-a2b7-e690d73b816b,emission/air/troposphere/high,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,f8e9a21c-ba85-3450-a3aa-4a6bd13e0e39,emission/air/troposphere/very high,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,79540320-b1fc-3694-8bd4-208d91fad045,emission/air/troposphere/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,c093dcc0-59f4-32f3-81e7-923ca2525bf2,emission/air/troposphere/urban,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,7aa6b3b7-5cb9-3e67-9a37-c40e5f21716c,emission/air/troposphere/rural,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,18b34646-0d93-3ee9-988a-9d34fbcbce2a,emission/air/troposphere/urban/low,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,809d6821-7095-3da0-bead-a15906f08a97,emission/air/troposphere/rural/low,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,2c4db874-a7e9-3643-97ce-dcc21661cddd,emission/air/troposphere/urban/high,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,da2968ea-4fa2-3629-bbd5-938663402824,emission/air/troposphere/rural/high,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,57770a50-5c0b-3420-b699-49a69ca0672a,emission/air/troposphere/urban/very high,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,01d63f57-0c65-3c20-923e-892fe5591787,emission/air/troposphere/rural/very high,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,165317c7-00c1-3cfa-ab91-d51320a906c1,emission/air/troposphere/urban/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,5dab1aa4-ac2d-3ce8-af20-2261025082f2,emission/air/troposphere/rural/ground-level,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,6bf8121d-c1de-3954-8b88-feb630e9f4a9,emission/air/indoor,kg,Young,,9/9/2022
+IPCC,HFE-43-10pccc124(H-Galden 1040x),,air,kg,,1,HG-30,b62e3aaa-60be-32e8-be4f-33cbc51033d1,emission/air/stratosphere,kg,Young,,9/9/2022
 IPCC,HFE-449s1 (HFE-7100),,air,kg,=,1,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",79380544-99d0-34cd-9451-7eac6b17e8da,emission/air,kg,Edelen,,8/23/2022
 IPCC,HFE-449s1 (HFE-7100),,air,kg,=,1,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",a68cac06-fb2e-3989-8399-045810b41c9f,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,HFE-449s1 (HFE-7100),,air,kg,=,1,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",3c822a1a-2cc4-39de-918f-010bc74103df,emission/air/troposphere/high,kg,Edelen,,8/23/2022
@@ -5099,6 +5252,40 @@ IPCC,Halon-1202,,air,kg,=,1,Dibromodifluoromethane,71c737c6-c112-36d6-9f25-fff8d
 IPCC,Halon-1202,,air,kg,=,1,Dibromodifluoromethane,a66a5dcf-7ab6-3a8a-bb86-7f8aa3724b92,emission/air/troposphere/rural/ground-level,kg,Edelen,,8/23/2022
 IPCC,Halon-1202,,air,kg,=,1,Dibromodifluoromethane,f5b10bc9-c465-3a99-ad0a-3cc69eed5c18,emission/air/indoor,kg,Edelen,,8/23/2022
 IPCC,Halon-1202,,air,kg,=,1,Dibromodifluoromethane,9806cff3-1de6-3ef4-b0f2-ae3e3a147bf3,emission/air/stratosphere,kg,Edelen,,8/23/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,8b9acc49-219b-3983-bbf2-93fcdf23a838,emission/air,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,4d335c50-7dfb-33f0-97f7-f376006f9241,emission/air/troposphere/low,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,dd06d27f-3a44-329b-83c7-10eb3f9d3cb9,emission/air/troposphere/high,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,0a052ff8-3229-37ec-a196-79b95a5d02fa,emission/air/troposphere/very high,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,5fdf9bfc-726e-3d96-aaf6-52ff96b77185,emission/air/troposphere/ground-level,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,9201cc45-16e8-38d0-a67d-44732f678e48,emission/air/troposphere/urban,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,8b5ec0da-ea33-3b4f-97dd-2c4555887cd0,emission/air/troposphere/rural,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,d301b304-d999-3a88-a7f4-cae0aba66a95,emission/air/troposphere/urban/low,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,3a06face-cb44-3e16-90a5-206590e58f81,emission/air/troposphere/rural/low,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,e313102a-3329-3a44-8719-390a650403e2,emission/air/troposphere/urban/high,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,b60b5a21-ac06-36b2-a110-f7573858abbf,emission/air/troposphere/rural/high,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,ba4535f0-d9b2-321b-895f-ff828899b2a9,emission/air/troposphere/urban/very high,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,d1ae929e-0c6f-359a-984f-0642aef7e57f,emission/air/troposphere/rural/very high,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,3e8acdcf-45dc-3743-b709-62b49c6b8761,emission/air/troposphere/urban/ground-level,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,81ebbabc-4398-31e8-a012-6a52c7318ce2,emission/air/troposphere/rural/ground-level,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,ccd5373a-4535-31a0-90a0-6c7c74b2c3e7,emission/air/indoor,kg,Young,,9/9/2022
+IPCC,Halon-1211,,air,kg,=,1,Halon 1211,27e6f8fe-ec48-3aa9-a849-cb6b4dd10bd3,emission/air/stratosphere,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,9c1c4e0d-e68f-3cbf-9bcf-2c54f9b4cae7,emission/air,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,f2281599-6798-3425-b4ec-79380a0d1f2d,emission/air/troposphere/low,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,a370ecb4-db39-3a56-9972-1266db0b8c9d,emission/air/troposphere/high,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,6430c503-d105-39c2-b4ae-e61e3eb0e27a,emission/air/troposphere/very high,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,1528b9f2-dfe4-379a-a227-c0dcd849b99d,emission/air/troposphere/ground-level,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,9e5ef8a4-5ed4-36b6-9c46-5bef8d54c036,emission/air/troposphere/urban,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,d2473e0b-0d70-3c35-af00-6a6329a4957c,emission/air/troposphere/rural,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,276d1631-1215-30cb-b1f2-20b56710d50b,emission/air/troposphere/urban/low,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,2e404984-7f44-30c5-89f0-5479131a2ab2,emission/air/troposphere/rural/low,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,f4d46598-96bf-3872-a9a4-3095b54fcf02,emission/air/troposphere/urban/high,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,c7ce7fd4-cf2c-38b5-a66f-ec8c97acd803,emission/air/troposphere/rural/high,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,2998f6b9-bb78-347d-88a5-84dfb6582f4c,emission/air/troposphere/urban/very high,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,e85954ed-8296-38b3-9b8f-a60bec089073,emission/air/troposphere/rural/very high,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,d4b6a4cb-0cd4-3626-aeb5-1cde074822a6,emission/air/troposphere/urban/ground-level,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,b5279453-12d9-3508-87f9-090cc614057a,emission/air/troposphere/rural/ground-level,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,3d98213b-ef59-3523-8272-ea1617173953,emission/air/indoor,kg,Young,,9/9/2022
+IPCC,Halon-1301,,air,kg,=,1,Halon 1301,919a316a-4b2d-3eeb-b589-926b0a3986f1,emission/air/stratosphere,kg,Young,,9/9/2022
 IPCC,Halon-2301,,air,kg,=,1,"2-Bromo-1,1,1-trifluoroethane",66264242-340e-3bf1-9080-57b8bbe2b16b,emission/air,kg,Edelen,,8/23/2022
 IPCC,Halon-2301,,air,kg,=,1,"2-Bromo-1,1,1-trifluoroethane",8f334824-f658-3bd7-a818-986f3198cb65,emission/air/troposphere/low,kg,Edelen,,8/23/2022
 IPCC,Halon-2301,,air,kg,=,1,"2-Bromo-1,1,1-trifluoroethane",dd3f397f-872d-39c1-ac39-f994897de419,emission/air/troposphere/high,kg,Edelen,,8/23/2022
