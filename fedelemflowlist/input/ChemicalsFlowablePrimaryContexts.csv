@@ -1,4 +1,4 @@
-﻿Flowable,Directionality,Environmental Media
+Flowable,Directionality,Environmental Media
 "(Z)-1,2-Dimethylcyclohexane",Emission,Air
 "(Z)-1,2-Dimethylcyclohexane",Emission,Ground
 "(Z)-1,2-Dimethylcyclohexane",Emission,Water
@@ -9302,6 +9302,8 @@ tert-Amyl methyl ether,Emission,Water
 "2-Hexene, 3-methyl-,(Z)-",Emission,Air
 "2-Pentene, 2,3-dimethyl-",Emission,Air
 Dimethyl decanedioate,Emission,Air
+Dimethyl decanedioate,Emission,Water
+Dimethyl decanedioate,Emission,Ground
 "Heptane, 4,4-dimethyl-",Emission,Air
 "2,6-Dimethylheptane",Emission,Air
 "Benzene, 1-(1,1-dimethylethyl)-2-methyl-",Emission,Air
@@ -9483,6 +9485,8 @@ Isohentriacontane,Emission,Air
 3-Methylfuran,Emission,Air
 "Cyclopentane, 1-ethyl-2-methyl-, (1R,2R)-rel-",Emission,Air
 2-Methyltetrahydrofuran,Emission,Air
+2-Methyltetrahydrofuran,Emission,Water
+2-Methyltetrahydrofuran,Emission,Ground
 "Octane, trimethyl-",Emission,Air
 Tetrahydrocannabinol,Emission,Ground
 Tetrahydrocannabinol,Emission,Water
@@ -9525,6 +9529,8 @@ Sodium polyacrylate,Emission,Water
 XC Polymer,Emission,Ground
 XC Polymer,Emission,Water
 p-Diisopropylbenzene,Emission,Air
+p-Diisopropylbenzene,Emission,Water
+p-Diisopropylbenzene,Emission,Ground
 Nitrous oxide,Emission,Air
 Nitrous oxide,Emission,Ground
 Chromium(III) chloride,Emission,Air
@@ -9571,6 +9577,8 @@ Diethylene glycol mono-2-methylpentyl ether,Emission,Air
 .alpha.-Hexylcinnamaldehyde,Emission,Air
 3-Butoxy-1-propanol,Emission,Air
 Glyceryl triacetate,Emission,Air
+Glyceryl triacetate,Emission,Water
+Glyceryl triacetate,Emission,Ground
 Boron trichloride,Emission,Air
 Barium chromate,Emission,Air
 .beta.-Nitrostyrene,Emission,Ground
@@ -9586,16 +9594,28 @@ Cinnamaldehyde,Emission,Air
 Cinnamaldehyde,Emission,Water
 Cinnamaldehyde,Emission,Ground
 Dihydro-5-pentyl-2(3H)-furanone,Emission,Air
+Dihydro-5-pentyl-2(3H)-furanone,Emission,Water
+Dihydro-5-pentyl-2(3H)-furanone,Emission,Ground
 5-Heptyldihydro-2(3H)-furanone,Emission,Air
+5-Heptyldihydro-2(3H)-furanone,Emission,Water
+5-Heptyldihydro-2(3H)-furanone,Emission,Ground
 Tridecanal,Emission,Air
 p-Diethylbenzene,Emission,Air
+p-Diethylbenzene,Emission,Water
+p-Diethylbenzene,Emission,Ground
 "2(3H)-Furanone, dihydro-5-propyl-",Emission,Air
 Diethyl acetal,Emission,Air
 "Butanoic acid, propyl ester",Emission,Air
 "1-Octanol, 3,7-dimethyl-",Emission,Air
+"1-Octanol, 3,7-dimethyl-",Emission,Water
+"1-Octanol, 3,7-dimethyl-",Emission,Ground
 "Propanoic acid, propyl ester",Emission,Air
 Dimethyl succinate,Emission,Air
+Dimethyl succinate,Emission,Water
+Dimethyl succinate,Emission,Ground
 Methyl hexanoate,Emission,Air
+Methyl hexanoate,Emission,Water
+Methyl hexanoate,Emission,Ground
 "Pentane, 3,3-diethyl-",Emission,Air
 Methyl heptanoate,Emission,Air
 "Hexane, 2,3,5-trimethyl-",Emission,Air
@@ -9605,22 +9625,34 @@ Methyl heptanoate,Emission,Air
 1-Bromo-2-chloroethane,Emission,Water
 "2,2-Dimethylheptane",Emission,Air
 "1-Pentene, 2,4,4-trimethyl-",Emission,Air
+"1-Pentene, 2,4,4-trimethyl-",Emission,Water
+"1-Pentene, 2,4,4-trimethyl-",Emission,Ground
 "2-Pentene, 2,4,4-trimethyl-",Emission,Air
 1-Methyl-2-propylbenzene,Emission,Air
 1-Methyl-3-propylbenzene,Emission,Air
 p-Propyltoluene,Emission,Air
 "Octanal, 7-hydroxy-3,7-dimethyl-",Emission,Air
+"Octanal, 7-hydroxy-3,7-dimethyl-",Emission,Water
+"Octanal, 7-hydroxy-3,7-dimethyl-",Emission,Ground
 "1,3-Butylene glycol",Emission,Air
+"1,3-Butylene glycol",Emission,Water
+"1,3-Butylene glycol",Emission,Ground
 "2,4-Dimethylpentane",Emission,Air
 1-Methoxy-2-propyl acetate,Emission,Air
+1-Methoxy-2-propyl acetate,Emission,Water
+1-Methoxy-2-propyl acetate,Emission,Ground
 1-Pentene,Emission,Air
 Ethyl formate,Emission,Air
 Chlorophyll c,Emission,Ground
 Chlorophyll c,Emission,Water
 Methyl decanoate,Emission,Air
+Methyl decanoate,Emission,Water
+Methyl decanoate,Emission,Ground
 Dichlorobutene,Emission,Ground
 Dichlorobutene,Emission,Water
 Ethylene glycol dimethyl ether,Emission,Air
+Ethylene glycol dimethyl ether,Emission,Water
+Ethylene glycol dimethyl ether,Emission,Ground
 "Formic acid, propyl ester",Emission,Air
 Piperidine,Emission,Ground
 Piperidine,Emission,Water
@@ -9630,27 +9662,59 @@ Aroclor 1268,Emission,Water
 Potassium zinc chromate hydroxide,Emission,Air
 2-Methoxyethyl oleate,Emission,Air
 Methyl octanoate,Emission,Air
+Methyl octanoate,Emission,Water
+Methyl octanoate,Emission,Ground
 3-Ethoxy-1-propanol,Emission,Air
 Propyl ether,Emission,Air
 1-Octene,Emission,Air
+1-Octene,Emission,Water
+1-Octene,Emission,Ground
 Heptanal,Emission,Air
+Heptanal,Emission,Water
+Heptanal,Emission,Ground
 Methyl laurate,Emission,Air
+Methyl laurate,Emission,Water
+Methyl laurate,Emission,Ground
 Nonane,Emission,Air
+Nonane,Emission,Water
+Nonane,Emission,Ground
 Dimethyl glutarate,Emission,Air
+Dimethyl glutarate,Emission,Water
+Dimethyl glutarate,Emission,Ground
 Diethylene glycol dimethyl ether,Emission,Air
+Diethylene glycol dimethyl ether,Emission,Water
+Diethylene glycol dimethyl ether,Emission,Ground
 Undecane,Emission,Air
+Undecane,Emission,Water
+Undecane,Emission,Ground
 1-Tetradecene,Emission,Air
+1-Tetradecene,Emission,Water
+1-Tetradecene,Emission,Ground
 "Cyclopentene, 3-methyl-",Emission,Air
 "Acetic acid, octyl ester",Emission,Air
 Diethylene glycol monoethyl ether acetate,Emission,Air
+Diethylene glycol monoethyl ether acetate,Emission,Water
+Diethylene glycol monoethyl ether acetate,Emission,Ground
 "1,2-Bis(2-chloroethoxy)ethane",Emission,Ground
 "1,2-Bis(2-chloroethoxy)ethane",Emission,Water
 Methyl palmitate,Emission,Air
+Methyl palmitate,Emission,Water
+Methyl palmitate,Emission,Ground
 1-Dodecene,Emission,Air
+1-Dodecene,Emission,Water
+1-Dodecene,Emission,Ground
 Triethylene glycol dimethyl ether,Emission,Air
+Triethylene glycol dimethyl ether,Emission,Water
+Triethylene glycol dimethyl ether,Emission,Ground
 Triethylene glycol monoethyl ether,Emission,Air
+Triethylene glycol monoethyl ether,Emission,Water
+Triethylene glycol monoethyl ether,Emission,Ground
 Diethylene glycol monohexyl ether,Emission,Air
+Diethylene glycol monohexyl ether,Emission,Water
+Diethylene glycol monohexyl ether,Emission,Ground
 Methyl stearate,Emission,Air
+Methyl stearate,Emission,Water
+Methyl stearate,Emission,Ground
 Methyl oleate,Emission,Air
 Methyl linoleate,Emission,Air
 Methyl linoleate,Emission,Ground
@@ -9692,13 +9756,19 @@ Phenoxyacetic acid,Emission,Ground
 Phenoxyacetic acid,Emission,Water
 "Heptane, 3-(chloromethyl)-",Emission,Air
 "2,6,8-Trimethyl-4-nonanol",Emission,Air
+"2,6,8-Trimethyl-4-nonanol",Emission,Water
+"2,6,8-Trimethyl-4-nonanol",Emission,Ground
 Hydrogen ion,Emission,Ground
 Hydrogen ion,Emission,Water
 Tetrachlorobenzene,Emission,Ground
 Tetrachlorobenzene,Emission,Water
 Methyl myristate,Emission,Air
+Methyl myristate,Emission,Water
+Methyl myristate,Emission,Ground
 1-Nonene,Emission,Air
 Octanal,Emission,Air
+Octanal,Emission,Water
+Octanal,Emission,Ground
 1-(2-Butoxyethoxy)-2-propanol,Emission,Air
 Tetrakis(hydroxymethyl)phosphonium chloride,Emission,Ground
 Tetrakis(hydroxymethyl)phosphonium chloride,Emission,Water
@@ -9718,6 +9788,7 @@ Clam-trol CT 1,Emission,Ground
 Clam-trol CT 1,Emission,Water
 "2,4,7,9-Tetramethyl-5-decyne-4,7-diol",Emission,Ground
 "2,4,7,9-Tetramethyl-5-decyne-4,7-diol",Emission,Water
+"2,4,7,9-Tetramethyl-5-decyne-4,7-diol",Emission,Air
 Nickel carbide,Emission,Air
 Nickelocene,Emission,Air
 Dichloropentafluoropropane,Emission,Air
@@ -9770,6 +9841,7 @@ Lead acetate,Emission,Air
 Manganese naphthenate,Emission,Air
 Methyl ethyl ketone peroxide,Emission,Ground
 Methyl ethyl ketone peroxide,Emission,Water
+Methyl ethyl ketone peroxide,Emission,Air
 Ferricyanide,Emission,Ground
 Ferricyanide,Emission,Water
 Ferrocyanide,Emission,Ground
@@ -9796,6 +9868,8 @@ Beryllium(II) Nitrate,Emission,Air
 Dipropyl isocinchomeronate,Emission,Air
 "Hexanoic acid, 2-ethyl-,cobalt(II) salt",Emission,Air
 2-Methyl-1-butanol,Emission,Air
+2-Methyl-1-butanol,Emission,Water
+2-Methyl-1-butanol,Emission,Ground
 Calcium chromate,Emission,Air
 "Sulfamic acid, nickel(II) salt (2:1)",Emission,Air
 Lead fluoroborate,Emission,Air
@@ -9815,6 +9889,8 @@ Technetium-99,Emission,Water
 Pentafluorobutane,Emission,Ground
 Pentafluorobutane,Emission,Water
 Mesityl oxide,Emission,Air
+Mesityl oxide,Emission,Water
+Mesityl oxide,Emission,Ground
 "Nickelate(2-), tetrakis(cyano-.kappa.C)-, dipotassium, (SP-4-1)-",Emission,Air
 Cyclopentene,Emission,Air
 Sulfite,Emission,Ground
@@ -9834,6 +9910,8 @@ Azide,Emission,Water
 Thiosulfate,Emission,Ground
 Thiosulfate,Emission,Water
 "2,2,4-Trimethyl-1,3-pentanediol",Emission,Air
+"2,2,4-Trimethyl-1,3-pentanediol",Emission,Water
+"2,2,4-Trimethyl-1,3-pentanediol",Emission,Ground
 Trimethyl orthoacetate,Emission,Ground
 Trimethyl orthoacetate,Emission,Water
 Sodium bicarbonate,Emission,Ground
@@ -9857,6 +9935,7 @@ Actinium-227,Emission,Ground
 Actinium-227,Emission,Water
 Trimethoxymethane,Emission,Ground
 Trimethoxymethane,Emission,Water
+Trimethoxymethane,Emission,Air
 Chromium(VI) dioxychloride,Emission,Air
 Chlorite,Emission,Ground
 Chlorite,Emission,Water
@@ -9884,7 +9963,11 @@ Calcium cyanamide,Emission,Air
 Calcium cyanamide,Emission,Ground
 Calcium cyanamide,Emission,Water
 1-Propoxy-2-propanol,Emission,Air
+1-Propoxy-2-propanol,Emission,Water
+1-Propoxy-2-propanol,Emission,Ground
 1-Ethoxy-2-propanol,Emission,Air
+1-Ethoxy-2-propanol,Emission,Water
+1-Ethoxy-2-propanol,Emission,Ground
 "1,3-Pentadiene, (3Z)-",Emission,Air
 "1-Propanol, 2-(2-ethoxypropoxy)-",Emission,Air
 m-Cresol compd. with p-cresol (2:1),Emission,Air
@@ -9954,6 +10037,8 @@ Iodide,Emission,Ground
 Iodide,Emission,Water
 Iodide,Emission,Air
 "3,5-Diethyltoluene",Emission,Air
+"3,5-Diethyltoluene",Emission,Water
+"3,5-Diethyltoluene",Emission,Ground
 2-Propoxyethanol acetate,Emission,Air
 Osmium tetroxide,Emission,Air
 9-Hexadecenoic acid,Emission,Air
@@ -9973,9 +10058,13 @@ Trifluoroiodomethane,Emission,Air
 1-Isobutoxy-2-propanol,Emission,Air
 Ethylene glycol monophenyl ether propionate,Emission,Air
 "2,5,8,11-Tetraoxatridecan-13-ol",Emission,Air
+"2,5,8,11-Tetraoxatridecan-13-ol",Emission,Water
+"2,5,8,11-Tetraoxatridecan-13-ol",Emission,Ground
 1-Methylpyrene,Emission,Air
 12-Methylbenz[a]anthrancene,Emission,Air
 1-Tridecene,Emission,Air
+1-Tridecene,Emission,Water
+1-Tridecene,Emission,Ground
 "9,10-Epoxystearic acid",Emission,Ground
 "9,10-Epoxystearic acid",Emission,Water
 "1-Octanesulfonamide, 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluoro-N-(2-hydroxyethyl)-N-methyl-",Emission,Ground
@@ -9984,6 +10073,8 @@ Ethylene glycol monophenyl ether propionate,Emission,Air
 Chloroethylene bisthiocyanate,Emission,Ground
 Chloroethylene bisthiocyanate,Emission,Water
 Tripropylene glycol,Emission,Air
+Tripropylene glycol,Emission,Water
+Tripropylene glycol,Emission,Ground
 Bromide,Emission,Ground
 Bromide,Emission,Water
 Methacrylic acid homopolymer,Emission,Ground
@@ -9993,6 +10084,8 @@ Chloronitrobenzene,Emission,Water
 Chlorotoluene,Emission,Ground
 Chlorotoluene,Emission,Water
 "1-Butanol, 3-methoxy-",Emission,Air
+"1-Butanol, 3-methoxy-",Emission,Water
+"1-Butanol, 3-methoxy-",Emission,Ground
 Dimethyl chlorothiophosphate,Emission,Air
 Dipropylene glycol,Emission,Ground
 Dipropylene glycol,Emission,Water
@@ -10016,6 +10109,7 @@ Tetramethylbenzene,Emission,Ground
 Tetramethylbenzene,Emission,Water
 Isopropylbiphenyl,Emission,Ground
 Isopropylbiphenyl,Emission,Water
+Isopropylbiphenyl,Emission,Air
 Povidone-iodine,Emission,Ground
 Povidone-iodine,Emission,Water
 Trichloropropane,Emission,Ground
@@ -10063,6 +10157,8 @@ Hexachlorocyclohexane,Emission,Air
 "1,1,2,2-Tetrahydroperfluorodecyl acrylate",Emission,Ground
 "1,1,2,2-Tetrahydroperfluorodecyl acrylate",Emission,Water
 Ethylene glycol monopropyl ether,Emission,Air
+Ethylene glycol monopropyl ether,Emission,Water
+Ethylene glycol monopropyl ether,Emission,Ground
 HCFC-124,Emission,Air
 4-Methyldecane,Emission,Air
 Methylbiphenyl,Emission,Air
@@ -10077,6 +10173,8 @@ Tolyl triazole,Emission,Water
 Dichlorotoluene,Emission,Ground
 Dichlorotoluene,Emission,Water
 1-(2-Butoxy-1-methylethoxy)-2-propanol,Emission,Air
+1-(2-Butoxy-1-methylethoxy)-2-propanol,Emission,Water
+1-(2-Butoxy-1-methylethoxy)-2-propanol,Emission,Ground
 "Glycine, N-ethyl-N-[(heptadecafluorooctyl)sulfonyl]-",Emission,Ground
 "Glycine, N-ethyl-N-[(heptadecafluorooctyl)sulfonyl]-",Emission,Water
 Allylbenzene,Emission,Air
@@ -10095,6 +10193,8 @@ Perfluorohexanoic acid,Emission,Water
 Perfluorolauric acid,Emission,Ground
 Perfluorolauric acid,Emission,Water
 Ethylene glycol monomethyl ether acrylate,Emission,Air
+Ethylene glycol monomethyl ether acrylate,Emission,Water
+Ethylene glycol monomethyl ether acrylate,Emission,Ground
 "2,3',4,4',5-Pentachlorobiphenyl",Emission,Ground
 "2,3',4,4',5-Pentachlorobiphenyl",Emission,Water
 "2,3',4,4',5-Pentachlorobiphenyl",Emission,Air
@@ -10239,6 +10339,8 @@ Linolenic acid,Emission,Ground
 Linolenic acid,Emission,Water
 Propadiene,Emission,Air
 "2,2-Dimethylpropane",Emission,Air
+"2,2-Dimethylpropane",Emission,Water
+"2,2-Dimethylpropane",Emission,Ground
 "2,2,3-Trimethylbutane",Emission,Air
 1-Chloro-3-phenoxy-2-propanol,Emission,Ground
 1-Chloro-3-phenoxy-2-propanol,Emission,Water
@@ -10269,6 +10371,8 @@ Potassium N-hydroxymethyl-N-methyldithiocarbamate,Emission,Water
 "Ethane, 1-ethoxy-1,1,2,2-tetrafluoro-",Emission,Air
 2-Methyl-2-butene,Emission,Air
 "2,3-Butanediol",Emission,Air
+"2,3-Butanediol",Emission,Water
+"2,3-Butanediol",Emission,Ground
 N-Methylbenzenesulfonamide,Emission,Ground
 N-Methylbenzenesulfonamide,Emission,Water
 Chlorophyll b,Emission,Ground
@@ -10277,6 +10381,8 @@ Chlorophyll b,Emission,Water
 "2,3',4,4',5,5'-Hexachlorobiphenyl",Emission,Water
 "2,3',4,4',5,5'-Hexachlorobiphenyl",Emission,Air
 "1,2,3-Trimethylbenzene",Emission,Air
+"1,2,3-Trimethylbenzene",Emission,Water
+"1,2,3-Trimethylbenzene",Emission,Ground
 "1,2,3,5-Tetramethylbenzene",Emission,Air
 o-Cymene,Emission,Air
 "o,p'-DDD",Emission,Ground
@@ -10298,6 +10404,8 @@ Endrin ketone,Emission,Water
 m-Cymene,Emission,Air
 Nonachlorobiphenyl,Emission,Air
 "2,2,4-Trimethylpentane",Emission,Air
+"2,2,4-Trimethylpentane",Emission,Water
+"2,2,4-Trimethylpentane",Emission,Ground
 Ethyl chloroformate,Emission,Air
 3-Chloropropionitrile,Emission,Air
 Cyclopentadiene,Emission,Air
@@ -10322,7 +10430,11 @@ Tripropylene glycol n-butyl ether,Emission,Air
 "Pentane, 3,3-dimethyl-",Emission,Air
 "3,3-Dimethylhexane",Emission,Air
 3-Methyl-1-butene,Emission,Air
+3-Methyl-1-butene,Emission,Water
+3-Methyl-1-butene,Emission,Ground
 2-Methyl-1-butene,Emission,Air
+2-Methyl-1-butene,Emission,Water
+2-Methyl-1-butene,Emission,Ground
 "1,2-Dichloropropene",Emission,Ground
 "1,2-Dichloropropene",Emission,Water
 "1,1-Dichloropropene",Emission,Ground
@@ -10332,6 +10444,8 @@ Tripropylene glycol n-butyl ether,Emission,Air
 "2,2,3-Trimethylpentane",Emission,Air
 "1-Propanone, 1-(4-hydroxy-3,5-dimethoxyphenyl)-",Emission,Air
 "1-Butanol, 3-methoxy-3-methyl-",Emission,Air
+"1-Butanol, 3-methoxy-3-methyl-",Emission,Water
+"1-Butanol, 3-methoxy-3-methyl-",Emission,Ground
 "2,3-Dimethylpentane",Emission,Air
 "2,3,4-Trimethylpentane",Emission,Air
 "3-Pentanone, 2,4-dimethyl-",Emission,Air
@@ -10339,6 +10453,8 @@ Benzofluoranthene,Emission,Air
 Chlorhexidine diacetate,Emission,Ground
 Chlorhexidine diacetate,Emission,Water
 1-tert-Butoxy-2-propanol,Emission,Air
+1-tert-Butoxy-2-propanol,Emission,Water
+1-tert-Butoxy-2-propanol,Emission,Ground
 Monochlorodehydroabietic acid,Emission,Ground
 Monochlorodehydroabietic acid,Emission,Water
 Dichlorodehydroabietic acid,Emission,Ground
@@ -10355,18 +10471,26 @@ Theophylline,Emission,Ground
 Theophylline,Emission,Water
 Theophylline,Emission,Air
 Terpinolene,Emission,Air
+Terpinolene,Emission,Water
+Terpinolene,Emission,Ground
 "2-Propanone, 1-methoxy-",Emission,Air
 "2,4-Dimethylhexane",Emission,Air
 4-Methylheptane,Emission,Air
 3-Methylheptane,Emission,Air
 3-Octanol,Emission,Air
 cis-2-Butene,Emission,Air
+cis-2-Butene,Emission,Water
+cis-2-Butene,Emission,Ground
 "1,2-Butadiene",Emission,Air
+"1,2-Butadiene",Emission,Water
+"1,2-Butadiene",Emission,Ground
 "Pentane, 2,2-dimethyl-",Emission,Air
 "Hexane, 2,2-dimethyl-",Emission,Air
 "Cyclohexene, 4-methyl-",Emission,Air
 "Cyclohexene, 1-methyl-",Emission,Air
 2-Methylhexane,Emission,Air
+2-Methylhexane,Emission,Water
+2-Methylhexane,Emission,Ground
 "2,5-Dimethylhexane",Emission,Air
 2-Methylheptane,Emission,Air
 2-Hexene,Emission,Air
@@ -10390,6 +10514,8 @@ Linoleic acid,Emission,Water
 "2,3-Dichloroaniline",Emission,Ground
 "2,3-Dichloroaniline",Emission,Water
 o-Ethyltoluene,Emission,Air
+o-Ethyltoluene,Emission,Water
+o-Ethyltoluene,Emission,Ground
 2-Chlorobenzyl chloride,Emission,Ground
 2-Chlorobenzyl chloride,Emission,Water
 Amoxicillin trihydrate,Emission,Ground
@@ -10400,6 +10526,8 @@ Benzonaphthothiophene,Emission,Air
 Sodium 2-biphenylate tetrahydrate,Emission,Ground
 Sodium 2-biphenylate tetrahydrate,Emission,Water
 "Carbonic acid, dimethyl ester",Emission,Air
+"Carbonic acid, dimethyl ester",Emission,Water
+"Carbonic acid, dimethyl ester",Emission,Ground
 "Pentane, 3-ethyl-",Emission,Air
 Cobalt naphthenate,Emission,Air
 Lead naphthenate,Emission,Air
@@ -10408,16 +10536,24 @@ Lead naphthenate,Emission,Air
 Trichloroguaiacol,Emission,Ground
 Trichloroguaiacol,Emission,Water
 m-Ethyltoluene,Emission,Air
+m-Ethyltoluene,Emission,Water
+m-Ethyltoluene,Emission,Ground
 Tripropyl orthoformate,Emission,Ground
 Tripropyl orthoformate,Emission,Water
 "Ethanol, 2-(phenylmethoxy)-",Emission,Air
 p-Tolyl isocyanate,Emission,Air
 Methyl butyrate,Emission,Air
 "1,2-Propanediol, diacetate",Emission,Air
+"1,2-Propanediol, diacetate",Emission,Water
+"1,2-Propanediol, diacetate",Emission,Ground
 Methyl valerate,Emission,Air
 "1-Butanol, 2-methyl-, acetate",Emission,Air
 Amyl propionate,Emission,Air
+Amyl propionate,Emission,Water
+Amyl propionate,Emission,Ground
 trans-2-Butene,Emission,Air
+trans-2-Butene,Emission,Water
+trans-2-Butene,Emission,Ground
 HFC-152,Emission,Air
 Methyl isocyanate,Emission,Air
 Ethyl methyl sulfide,Emission,Ground
@@ -10434,16 +10570,24 @@ Isopropyl formate,Emission,Air
 1-Ethoxy-2-methylpropane,Emission,Ground
 1-Ethoxy-2-methylpropane,Emission,Water
 cis-2-Pentene,Emission,Air
+cis-2-Pentene,Emission,Water
+cis-2-Pentene,Emission,Ground
 Sodium fluoroacetate,Emission,Air
 Sodium fluoroacetate,Emission,Ground
 Sodium fluoroacetate,Emission,Water
 Dimethyl adipate,Emission,Air
+Dimethyl adipate,Emission,Water
+Dimethyl adipate,Emission,Ground
 "Propane, 1,1'-oxybis[2-methyl-",Emission,Air
 Ethylene glycol dinitrate,Emission,Ground
 Ethylene glycol dinitrate,Emission,Water
 Ethylene glycol diethyl ether,Emission,Air
 Tridecane,Emission,Air
+Tridecane,Emission,Water
+Tridecane,Emission,Ground
 Pentadecane,Emission,Air
+Pentadecane,Emission,Water
+Pentadecane,Emission,Ground
 Nonadecane,Emission,Air
 Heneicosane,Emission,Air
 Hexacosane,Emission,Ground
@@ -10455,8 +10599,14 @@ Aluminum stearate,Emission,Ground
 Aluminum stearate,Emission,Water
 Propenylbenzene,Emission,Air
 Ethyl tert-butyl ether,Emission,Air
+Ethyl tert-butyl ether,Emission,Water
+Ethyl tert-butyl ether,Emission,Ground
 trans-2-Pentene,Emission,Air
+trans-2-Pentene,Emission,Water
+trans-2-Pentene,Emission,Ground
 Nonadecanoic acid,Emission,Air
+Nonadecanoic acid,Emission,Water
+Nonadecanoic acid,Emission,Ground
 Diethyl sulfate,Emission,Air
 Diethyl sulfate,Emission,Ground
 Diethyl sulfate,Emission,Water
@@ -10478,6 +10628,8 @@ HFC-245ca,Emission,Air
 "2-Bromo-1,1-dichloroethane",Emission,Ground
 "2-Bromo-1,1-dichloroethane",Emission,Water
 "2,2,4-Trimethyl-1,3-pentanediol diisobutyrate",Emission,Air
+"2,2,4-Trimethyl-1,3-pentanediol diisobutyrate",Emission,Water
+"2,2,4-Trimethyl-1,3-pentanediol diisobutyrate",Emission,Ground
 Cocamides diethanolamines,Emission,Ground
 Cocamides diethanolamines,Emission,Water
 "Ethanol, 2-(2-propoxyethoxy)-",Emission,Air
@@ -10487,10 +10639,18 @@ Vinyl acetylene,Emission,Air
 "2-Pentene, 4,4-dimethyl-, (E)-",Emission,Air
 HFC-236fa,Emission,Air
 4-Methyl-1-pentene,Emission,Air
+4-Methyl-1-pentene,Emission,Water
+4-Methyl-1-pentene,Emission,Ground
 Malic acid,Emission,Air
+Malic acid,Emission,Water
+Malic acid,Emission,Ground
 "1,2-Hexanediol",Emission,Air
+"1,2-Hexanediol",Emission,Water
+"1,2-Hexanediol",Emission,Ground
 "Cyclopentene, 1-methyl-",Emission,Air
 Diisopropyl adipate,Emission,Air
+Diisopropyl adipate,Emission,Water
+Diisopropyl adipate,Emission,Ground
 "2(3H)-Furanone, 5-ethyldihydro-",Emission,Air
 "2,3,3',4,4',5'-Hexachlorobiphenyl",Emission,Ground
 "2,3,3',4,4',5'-Hexachlorobiphenyl",Emission,Water
@@ -10611,6 +10771,8 @@ Potassium chloride,Emission,Ground
 Potassium chloride,Emission,Water
 Potassium chloride,Resource,Ground
 Ethane,Emission,Air
+Ethane,Emission,Water
+Ethane,Emission,Ground
 Acetylene,Emission,Air
 Acetylene,Emission,Ground
 Acetylene,Emission,Water
@@ -10622,8 +10784,12 @@ Methyl mercaptan,Emission,Air
 Propyne,Emission,Air
 Cyclopropane,Emission,Air
 Isobutane,Emission,Air
+Isobutane,Emission,Water
+Isobutane,Emission,Ground
 Ethylene glycol diallyl ether,Emission,Air
 Isobornyl methacrylate,Emission,Air
+Isobornyl methacrylate,Emission,Water
+Isobornyl methacrylate,Emission,Ground
 Phosgene,Emission,Air
 Phosgene,Emission,Ground
 Phosgene,Emission,Water
@@ -10649,6 +10815,8 @@ Carbon tetrafluoride,Emission,Air
 Carbon tetrafluoride,Emission,Ground
 Carbon tetrafluoride,Emission,Water
 "2,2-Dimethylbutane",Emission,Air
+"2,2-Dimethylbutane",Emission,Water
+"2,2-Dimethylbutane",Emission,Ground
 5-Hydroxydicamba,Emission,Ground
 5-Hydroxydicamba,Emission,Water
 "1-Pentene, 3-methyl-",Emission,Air
@@ -10670,12 +10838,20 @@ Disodium molybdate,Emission,Water
 2-Chlorosyringaldehyde,Emission,Ground
 2-Chlorosyringaldehyde,Emission,Water
 Ethyl 3-ethoxypropionate,Emission,Air
+Ethyl 3-ethoxypropionate,Emission,Water
+Ethyl 3-ethoxypropionate,Emission,Ground
 Ethylene glycol monovinyl ether,Emission,Air
 Sodium chloride,Emission,Ground
 Sodium chloride,Emission,Water
 "Ethene, 1,1'-[oxybis(2,1-ethanediyloxy)]bis-",Emission,Air
+"Ethene, 1,1'-[oxybis(2,1-ethanediyloxy)]bis-",Emission,Water
+"Ethene, 1,1'-[oxybis(2,1-ethanediyloxy)]bis-",Emission,Ground
 cis-2-Hexene,Emission,Air
+cis-2-Hexene,Emission,Water
+cis-2-Hexene,Emission,Ground
 1-Phenoxy-2-propanol,Emission,Air
+1-Phenoxy-2-propanol,Emission,Water
+1-Phenoxy-2-propanol,Emission,Ground
 Nickel(II) chloride,Emission,Air
 Barium sulfate,Emission,Ground
 Barium sulfate,Emission,Water
@@ -10716,20 +10892,30 @@ Cadmium bromide,Emission,Air
 "1-Pentanol, 2-methyl-, acetate",Emission,Air
 Cadmium iodide,Emission,Air
 Triethyl citrate,Emission,Air
+Triethyl citrate,Emission,Water
+Triethyl citrate,Emission,Ground
 Ethylene glycol mono-sec-butyl ether,Emission,Air
 2-Methylbutane,Emission,Air
+2-Methylbutane,Emission,Water
+2-Methylbutane,Emission,Ground
 Isobutyronitrile,Emission,Air
 Methacrolein,Emission,Air
 Methacrolein,Emission,Ground
 Methacrolein,Emission,Water
 Chloroacetone,Emission,Air
 Methylglyoxal,Emission,Air
+Methylglyoxal,Emission,Water
+Methylglyoxal,Emission,Ground
 Glycolic acid,Emission,Air
+Glycolic acid,Emission,Water
+Glycolic acid,Emission,Ground
 Methyl chlorocarbonate,Emission,Air
 Nitroethane,Emission,Air
 Nitroethane,Emission,Water
 Nitroethane,Emission,Ground
 "2,3-Dimethylbutane",Emission,Air
+"2,3-Dimethylbutane",Emission,Water
+"2,3-Dimethylbutane",Emission,Ground
 Terpineol,Emission,Ground
 Terpineol,Emission,Water
 Benzalkonium chloride,Emission,Ground
@@ -10760,6 +10946,8 @@ Flusilazole,Emission,Water
 "1-Dodecanol, 3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-heneicosafluoro-",Emission,Ground
 "1-Dodecanol, 3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,12-heneicosafluoro-",Emission,Water
 1-Decene,Emission,Air
+1-Decene,Emission,Water
+1-Decene,Emission,Ground
 "1,3-Dimethyl-4-ethylbenzene",Emission,Air
 Hexamethylbenzene,Emission,Ground
 Hexamethylbenzene,Emission,Water
@@ -10768,8 +10956,12 @@ Hexamethylbenzene,Emission,Water
 "Phenol, 4-chloro-2,6-dinitro-",Emission,Ground
 "Phenol, 4-chloro-2,6-dinitro-",Emission,Water
 "Propane, 2-methoxy-1-(2-methoxy-1-methylethoxy)-",Emission,Air
+"Propane, 2-methoxy-1-(2-methoxy-1-methylethoxy)-",Emission,Water
+"Propane, 2-methoxy-1-(2-methoxy-1-methylethoxy)-",Emission,Ground
 "(1R,2S,5R)-Menthol",Emission,Air
 "Butane, 2-ethoxy-2-methyl-",Emission,Air
+"Butane, 2-ethoxy-2-methyl-",Emission,Water
+"Butane, 2-ethoxy-2-methyl-",Emission,Ground
 Phenyltoloxamine,Emission,Ground
 Phenyltoloxamine,Emission,Water
 "2-Pentene, 3-methyl-, (2Z)-",Emission,Air
@@ -10785,6 +10977,8 @@ Guaifenesin,Emission,Ground
 Guaifenesin,Emission,Water
 "1,2-Dimethyl-3-ethylbenzene",Emission,Air
 "1,3-Dimethyl-5-ethylbenzene",Emission,Air
+"1,3-Dimethyl-5-ethylbenzene",Emission,Water
+"1,3-Dimethyl-5-ethylbenzene",Emission,Ground
 "1,2-Dimethyl-4-ethylbenzene",Emission,Air
 Propylparaben,Emission,Air
 Citrus extract,Emission,Air
@@ -10793,6 +10987,8 @@ Chlorzoxazone,Emission,Ground
 Chlorzoxazone,Emission,Water
 "1-Butanol, 2-amino-",Emission,Air
 "2-Propanone, 1,3-dihydroxy-",Emission,Air
+"2-Propanone, 1,3-dihydroxy-",Emission,Water
+"2-Propanone, 1,3-dihydroxy-",Emission,Ground
 Isobutyl isobutyrate,Emission,Air
 5-tert-Butyl-m-xylene,Emission,Air
 m-Benzenedisulfonic acid,Emission,Ground
@@ -10803,6 +10999,8 @@ Benzal chloride,Emission,Air
 Benzal chloride,Emission,Ground
 Benzal chloride,Emission,Water
 m-Diisopropylbenzene,Emission,Air
+m-Diisopropylbenzene,Emission,Water
+m-Diisopropylbenzene,Emission,Ground
 Methylparaben,Emission,Air
 "Cyclohexane, 1-ethyl-2,3-dimethyl-",Emission,Air
 "3-Heptene, (3Z)-",Emission,Air
@@ -11071,6 +11269,8 @@ L-Glutamic acid,Emission,Water
 2-Aminopropanol,Emission,Water
 o-Nitrobenzoic acid,Emission,Air
 "2-Butanol, 3-methyl-",Emission,Air
+"2-Butanol, 3-methyl-",Emission,Water
+"2-Butanol, 3-methyl-",Emission,Ground
 4-Aminobutanoic acid,Emission,Air
 4-Aminobutanoic acid,Emission,Ground
 4-Aminobutanoic acid,Emission,Water
@@ -11102,6 +11302,8 @@ Butoxypolypropylene glycol,Emission,Water
 Chlorate,Emission,Water
 Chlorfenapyr,Emission,Ground
 Chloroacetyl chloride,Emission,Water
+Chloroacetyl chloride,Emission,Air
+Chloroacetyl chloride,Emission,Ground
 Chromate,Emission,Air
 Chromate,Emission,Water
 Clopyralid-olamine,Emission,Ground
@@ -11165,6 +11367,8 @@ Furathiocarb,Emission,Ground
 Glufosinate,Emission,Ground
 Haloxyfop,Emission,Ground
 3-Hexanone,Emission,Air
+3-Hexanone,Emission,Water
+3-Hexanone,Emission,Ground
 Hexaconazole,Emission,Air
 Hexaconazole,Emission,Ground
 Hexaconazole,Emission,Water
@@ -11301,6 +11505,8 @@ Trifluoroacetic acid,Emission,Water
 (Z)-8-Dodecen-1-ol acetate,Emission,Ground
 (Z)-8-Dodecen-1-ol acetate,Emission,Water
 "2-Pinene, (1S,5S)-(-)-",Emission,Air
+"2-Pinene, (1S,5S)-(-)-",Emission,Water
+"2-Pinene, (1S,5S)-(-)-",Emission,Ground
 Sodium hydrosulfide,Emission,Air
 Sodium hydrosulfide,Emission,Water
 Propylene glycol monobutyl ether,Emission,Air
@@ -11480,6 +11686,8 @@ HFE 7100,Emission,Air
 "1-Nonanol, 2,4,6,8-tetramethyl-, acetate",Emission,Air
 "2,5-Dimethyloctane",Emission,Air
 2-Pentene,Emission,Air
+2-Pentene,Emission,Water
+2-Pentene,Emission,Ground
 3-Methylheptyl acetate,Emission,Air
 3-Octene,Emission,Air
 Light aromatic solvent naphtha (petroleum),Emission,Air
@@ -11491,7 +11699,9 @@ Dibromodifluoroethane,Emission,Air
 1-Butene,Emission,Water
 1-Butene,Emission,Ground
 1-Pentene,Emission,Water
+1-Pentene,Emission,Ground
 2-Methyl-2-butene,Emission,Water
+2-Methyl-2-butene,Emission,Ground
 Argon,Emission,Air
 Arsenic(III) trioxide,Emission,Water
 Arsenic(III) trioxide,Emission,Ground
@@ -11510,6 +11720,7 @@ Carbon monoxide,Emission,Water
 CFC-13,Emission,Water
 Chloride,Emission,Air
 Dimethyl ether,Emission,Water
+Dimethyl ether,Emission,Ground
 Dimethylamine dicamba,Emission,Water
 Dimethylamine dicamba,Emission,Ground
 Dipropyl isocinchomeronate,Emission,Ground
@@ -12467,6 +12678,8 @@ Butene,Emission,Air
 1H-Heptafluoropropane,Emission,Air
 Trifluoro(fluoromethoxy)methane,Emission,Air
 "Cyclohexane, (1-methylethyl)-",Emission,Air
+"Cyclohexane, (1-methylethyl)-",Emission,Water
+"Cyclohexane, (1-methylethyl)-",Emission,Ground
 Acetohexamide,Emission,Air
 Acetohexamide,Emission,Water
 Acetohexamide,Emission,Ground
@@ -12601,6 +12814,8 @@ Dichlorotetrafluoropropane,Emission,Air
 "2-Amino-3-methyl-9H-pyrido(2,3-b)indole",Emission,Ground
 "2-Amino-3-methyl-9H-pyrido(2,3-b)indole",Emission,Water
 2-Butene,Emission,Air
+2-Butene,Emission,Water
+2-Butene,Emission,Ground
 2-Chloropropane,Emission,Air
 2-Chloropropane,Emission,Ground
 2-Chloropropane,Emission,Water
@@ -12608,6 +12823,8 @@ Dichlorotetrafluoropropane,Emission,Air
 "2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",Emission,Ground
 "2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",Emission,Water
 "2-Propanol, 1-(1-methyl-2-propoxyethoxy)-",Emission,Air
+"2-Propanol, 1-(1-methyl-2-propoxyethoxy)-",Emission,Water
+"2-Propanol, 1-(1-methyl-2-propoxyethoxy)-",Emission,Ground
 3-Nitro-N4-phenylsulfanilanilide,Emission,Ground
 3-Nitro-N4-phenylsulfanilanilide,Emission,Water
 "3-Octanol, 3,6-dimethyl-, acetate",Emission,Air
@@ -12703,6 +12920,7 @@ Ethoxycarbonylmethyl ethyl phthalate,Emission,Ground
 Ethoxycarbonylmethyl ethyl phthalate,Emission,Water
 Ethylene carbonate,Emission,Air
 Ethylene carbonate,Emission,Water
+Ethylene carbonate,Emission,Ground
 Flamprop-M-isopropyl,Emission,Ground
 Flamprop-M-isopropyl,Emission,Water
 Flocoumafen,Emission,Ground
