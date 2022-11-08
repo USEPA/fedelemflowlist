@@ -50,7 +50,8 @@ class TestInputFiles(unittest.TestCase):
         flowables = pd.DataFrame()
         for c_ in flow_list_specs["flow_classes"]:
             flowables_in_class = read_in_flowclass_file(c_, "Flowables")
-            flowables = flowables.append(flowables_in_class)
+            flowables = pd.concat([flowables, flowables_in_class],
+                                  ignore_index=True)
         flowables_in_flowables = set(flowables['Flowable'])
         duplicates = len(flowables.index) - len(flowables_in_flowables)
         if duplicates > 0:

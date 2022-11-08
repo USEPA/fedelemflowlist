@@ -96,12 +96,16 @@ if __name__ == '__main__':
         # convert to string
         pattern_w_primary = ','.join(pattern_w_primary)
         primary_context_path = as_path(row['Directionality'], row['Environmental Media'])
-        context_patterns_used = context_patterns_used.append({'Class': row['FlowClass'],
-                                                              'Directionality': row['Directionality'],
-                                                              'Environmental Media': row['Environmental Media'],
-                                                              'Primary_Context_Path': primary_context_path,
-                                                              'Pattern': pattern_w_primary,
-                                                              'ContextPreferred':row['ContextPreferred']}, ignore_index=True)
+        context_patterns_used = pd.concat([context_patterns_used,
+                                           pd.DataFrame(
+                                               {'Class': row['FlowClass'],
+                                                'Directionality': row['Directionality'],
+                                                'Environmental Media': row['Environmental Media'],
+                                                'Primary_Context_Path': primary_context_path,
+                                                'Pattern': pattern_w_primary,
+                                                'ContextPreferred':row['ContextPreferred']},
+                                               index=[0])],
+                                           ignore_index=True)
 
     # Cycle through these class context patterns and get context_paths
     log.info('Getting relevant contexts for each class ...')
@@ -172,6 +176,6 @@ if __name__ == '__main__':
     flows = flows[list(flow_list_fields.keys())]
 
     # Write it to parquet
-    flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet',
-                     index=False, compression=None)
-    log.info('Stored flows in ' + 'output/FedElemFlowListMaster.parquet')
+    # flows.to_parquet(outputpath + 'FedElemFlowListMaster.parquet',
+    #                  index=False, compression=None)
+    # log.info('Stored flows in ' + 'output/FedElemFlowListMaster.parquet')
