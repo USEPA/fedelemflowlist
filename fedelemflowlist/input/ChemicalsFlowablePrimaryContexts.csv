@@ -10233,6 +10233,7 @@ HCFC-122,Emission,Air
 CFC-111,Emission,Air
 CFC-113a,Emission,Ground
 CFC-113a,Emission,Water
+CFC-113a,Emission,Air
 Perfluorobutane,Emission,Air
 Perfluorohexane,Emission,Air
 "2-Amino-4,6-dinitrotoluene",Emission,Ground
@@ -10257,6 +10258,7 @@ Bromofluoromethane,Emission,Air
 Trifluoromethyl sulfur pentafluoride,Emission,Air
 CFC-114a,Emission,Ground
 CFC-114a,Emission,Water
+CFC-114a,Emission,Air
 Perfluoroheptanoic acid,Emission,Ground
 Perfluoroheptanoic acid,Emission,Water
 Perfluorononanoic acid,Emission,Ground
@@ -10318,6 +10320,7 @@ HCFC-271fb,Emission,Air
 HFC-143,Emission,Air
 HCFC-132,Emission,Ground
 HCFC-132,Emission,Water
+HCFC-132,Emission,Air
 HFC-236ea,Emission,Air
 HCFC-226da,Emission,Air
 HFC-227ea,Emission,Air

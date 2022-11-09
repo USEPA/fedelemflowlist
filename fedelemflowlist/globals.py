@@ -1,10 +1,10 @@
 """Set common variables for use in package."""
 import sys
 import os
-import json
 import logging as log
 import fedelemflowlist
 import pandas as pd
+import datetime
 
 try:
     modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
@@ -49,11 +49,14 @@ log.basicConfig(level=log.INFO, format='%(levelname)s %(message)s',
 
 flow_list_specs = {
     "list_version": "1.0.9",
-    "flow_classes": ["Biological", "Chemicals", "Energy", "Geological", "Groups", "Land", "Other", "Water"],
+    "flow_classes": ["Biological", "Chemicals", "Energy", "Geological",
+                     "Groups", "Land", "Other", "Water"],
     "primary_context_classes": ["Directionality", "Environmental Media"],
-    "secondary_context_classes": ["Vertical Strata", "Land Use", "Human-Dominated", "Terrestrial", "Aquatic Feature",
-                                  "Indoor", "Population Density", "Release Height"]
-}
+    "secondary_context_classes": ["Vertical Strata", "Land Use",
+                                  "Human-Dominated", "Terrestrial",
+                                  "Aquatic Feature", "Indoor",
+                                  "Population Density", "Release Height"]
+    }
 
 def convert_to_lower(x):
     """Convert string to lower case
@@ -89,8 +92,8 @@ def add_uuid_to_mapping(flow_mapping):
     all_flows = fedelemflowlist.get_flows()
     all_flows = all_flows[['Flowable', 'Context', 'Flow UUID', 'Unit']]
     flow_mapping = pd.merge(flow_mapping, all_flows, how='left',
-                                      left_on=['TargetFlowName', 'TargetFlowContext', 'TargetUnit'],
-                                      right_on=['Flowable', 'Context', 'Unit'])
+                            left_on=['TargetFlowName', 'TargetFlowContext', 'TargetUnit'],
+                            right_on=['Flowable', 'Context', 'Unit'])
     columns_to_drop = ['Flowable','Context', 'Unit']
     if 'TargetFlowUUID' in flow_mapping:
         columns_to_drop.append('TargetFlowUUID')
@@ -101,10 +104,16 @@ def add_uuid_to_mapping(flow_mapping):
     if mapping_length > mapping_merged_len:
         log.warning("UUIDs not available for all flows")
         dropped = flow_mapping.loc[~flow_mapping.index.isin(flow_mapping_uuid.index)]
-        dropped = dropped[['TargetFlowName','TargetFlowContext']].drop_duplicates().reset_index(drop=True)
-        log.info(dropped)
+        dropped = (dropped[['TargetFlowName','TargetFlowContext']]
+                   .drop_duplicates()
+                   .reset_index(drop=True))
+        fname = (f"LOG_FlowsMappedWNoUUIDsFound_"
+                 f"{datetime.datetime.now().strftime('%Y_%m_%d')}.csv")
+        dropped.to_csv(outputpath + fname, index=False)
+        log.info(f"Mapped flows without UUIDs written to {fname}")
     flow_mapping_uuid.reset_index(drop=True, inplace=True)
-    flowmapping_order = [c for c in list(flowmapping_fields.keys()) if c in flow_mapping_uuid.columns.tolist()]
+    flowmapping_order = [c for c in list(flowmapping_fields.keys())
+                         if c in flow_mapping_uuid.columns.tolist()]
     flow_mapping_uuid = flow_mapping_uuid[flowmapping_order]
 
     return flow_mapping_uuid
@@ -118,8 +127,8 @@ def add_conversion_to_mapping(flow_mapping):
     conversions = fedelemflowlist.get_alt_conversion()
     # merge in conversion factors where source unit = alternate unit
     mapping_w_conversion = pd.merge(flow_mapping, conversions, how='left',
-                                  left_on=['TargetFlowName', 'SourceUnit', 'TargetUnit'],
-                                  right_on=['Flowable', 'AltUnit', 'Unit'])
+                                    left_on=['TargetFlowName', 'SourceUnit','TargetUnit'],
+                                    right_on=['Flowable', 'AltUnit', 'Unit'])
 
     # update conversion factor where current conversion is 1 and the updated conversion exists
     converted1 = mapping_w_conversion['InverseConversionFactor'].notnull()
@@ -129,7 +138,10 @@ def add_conversion_to_mapping(flow_mapping):
                              'ConversionFactor']=mapping_w_conversion['InverseConversionFactor']
     converted = mapping_w_conversion['Convert'].sum()
     log.info('added conversion factors for ' + str(converted) + ' flows')
-    mapping_w_conversion = mapping_w_conversion.drop(columns=['Flowable','Unit',
-                                                         'AltUnit','AltUnitConversionFactor',
-                                                         'InverseConversionFactor', 'Convert'])
+    mapping_w_conversion = (mapping_w_conversion
+                            .drop(columns=['Flowable','Unit', 'AltUnit',
+                                           'AltUnitConversionFactor',
+                                           'InverseConversionFactor',
+                                           'Convert'])
+                            )
     return mapping_w_conversion
