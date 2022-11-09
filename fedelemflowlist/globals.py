@@ -14,13 +14,13 @@ try:
 except NameError:
     modulepath = 'fedelemflowlist/'
 
-outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 inputpath_mapping = inputpath + 'mapping input/'
 flowmappingpath = modulepath + 'flowmapping/'
 
 fedefl_path = Paths()
-fedefl_path.local_path = os.path.realpath(fedefl_path.local_path + "/fedefl")
+fedefl_path.local_path = os.path.realpath(fedefl_path.local_path + "/fedefl/")
+outputpath = fedefl_path.local_path
 WRITE_FORMAT = 'parquet'
 GIT_HASH = get_git_hash()
 
