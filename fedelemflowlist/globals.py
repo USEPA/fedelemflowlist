@@ -95,8 +95,12 @@ def load_flowlist(version=None):
     meta = set_metadata(version)
     df = load_preprocessed_output(meta, fedefl_path)
     if df is None:
-        log.error('Flowlist not found')
-        raise FileNotFoundError
+        log.info('Flowlist not found, generating locally...')
+        fedelemflowlist.flowlist.generate_flowlist()
+        df = load_preprocessed_output(meta, fedefl_path)
+        if df is None:
+            log.error('Error retrieving flowlist')
+            raise FileNotFoundError
     return df
 
 

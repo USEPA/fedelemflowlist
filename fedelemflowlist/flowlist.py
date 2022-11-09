@@ -37,8 +37,8 @@ def import_secondary_context_membership():
     SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
     return SecondaryContextMembership
 
-if __name__ == '__main__':
-
+def generate_flowlist():
+    """Generates and saves flowlist to local user directory"""
     flowables = pd.DataFrame()
     flowables_w_primary_contexts = pd.DataFrame()
     primary_contexts = pd.DataFrame()
@@ -177,3 +177,6 @@ if __name__ == '__main__':
 
     # Write it to parquet
     store_flowlist(flows)
+
+if __name__ == '__main__':
+    generate_flowlist()
