@@ -58,16 +58,6 @@ flow_list_specs = {
                                   "Population Density", "Release Height"]
     }
 
-def convert_to_lower(x):
-    """Convert string to lower case
-
-    :param x: string
-    :return: string
-    """
-    x = str(x)
-    x = str.lower(x)
-    return x
-
 
 def as_path(*args: str) -> str:
     """Converts strings to lowercase path-like string
@@ -127,7 +117,7 @@ def add_conversion_to_mapping(flow_mapping):
     conversions = fedelemflowlist.get_alt_conversion()
     # merge in conversion factors where source unit = alternate unit
     mapping_w_conversion = pd.merge(flow_mapping, conversions, how='left',
-                                    left_on=['TargetFlowName', 'SourceUnit','TargetUnit'],
+                                    left_on=['TargetFlowName', 'SourceUnit', 'TargetUnit'],
                                     right_on=['Flowable', 'AltUnit', 'Unit'])
 
     # update conversion factor where current conversion is 1 and the updated conversion exists
