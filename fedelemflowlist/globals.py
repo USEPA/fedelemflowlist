@@ -67,11 +67,15 @@ flow_list_specs = {
     }
 
 
-def set_metadata():
+def set_metadata(version=None):
     meta = FileMeta()
     meta.name_data = 'FedElemFlowListMaster'
     meta.tool = "fedelemflowlist"
-    meta.tool_version = flow_list_specs['list_version']
+    if not version:
+        version = flow_list_specs['list_version']
+    else:
+        meta.name_data = f"{meta.name_data}_v{version}"
+    meta.tool_version = version
     meta.ext = WRITE_FORMAT
     meta.git_hash = GIT_HASH
     meta.date_created = datetime.now().strftime('%d-%b-%Y')
@@ -87,9 +91,12 @@ def store_flowlist(df):
         log.error('Failed to save flowlist')
 
 
-def load_flowlist():
-    meta = set_metadata()
+def load_flowlist(version=None):
+    meta = set_metadata(version)
     df = load_preprocessed_output(meta, fedefl_path)
+    if df is None:
+        log.error('Flowlist not found')
+        raise FileNotFoundError
     return df
 
 
