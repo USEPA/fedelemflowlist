@@ -24,6 +24,7 @@ def get_flows(preferred_only=None, subset=None):
     :return: standard Flow List dataframe
     """
     list_file = outputpath + 'FedElemFlowListMaster.parquet'
+    log.info(f'Reading flow list from {list_file}')
     flows = pd.read_parquet(list_file)
     if preferred_only:
         flows = flows[flows['Preferred'] == 1]
