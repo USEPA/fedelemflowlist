@@ -10,7 +10,7 @@ import pandas as pd
 from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, add_uuid_to_mapping,\
     add_conversion_to_mapping
 
-# Options: 'DMR_, GHGRP_, TRACI2.1', 'ReCiPe2016', 'ImpactWorld+, IPCC, NEI_, TRI_, USDA_CUS_'
+# Options: 'TRACI2.1', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
 lcia_name = 'IPCC'
 
 
