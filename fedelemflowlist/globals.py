@@ -56,7 +56,7 @@ log.basicConfig(level=log.INFO, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
 flow_list_specs = {
-    "list_version": "1.0.9",
+    "list_version": "1.0.10",
     "flow_classes": ["Biological", "Chemicals", "Energy", "Geological",
                      "Groups", "Land", "Other", "Water"],
     "primary_context_classes": ["Directionality", "Environmental Media"],
