@@ -5,7 +5,8 @@ As a pandas dataframe from input files. Write it to the output folder.
 """
 
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs, flow_list_fields
+from fedelemflowlist.globals import log, inputpath, as_path, flow_list_specs,\
+    flow_list_fields, store_flowlist
 from fedelemflowlist.contexts import all_contexts
 from fedelemflowlist.uuid_generators import make_uuid
 
@@ -176,6 +177,4 @@ if __name__ == '__main__':
     flows = flows[list(flow_list_fields.keys())]
 
     # Write it to parquet
-    file = outputpath + 'FedElemFlowListMaster.parquet'
-    flows.to_parquet(file, index=False, compression=None)
-    log.info(f'Stored flows to {file}')
+    store_flowlist(flows)

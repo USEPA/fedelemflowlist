@@ -9,8 +9,8 @@ in standard pandas dataframe formats, defined within format specs
 import os
 import pandas as pd
 from fedelemflowlist.flowlist import read_in_flowclass_file
-from fedelemflowlist.globals import outputpath, flowmappingpath, flow_list_specs,\
-    log
+from fedelemflowlist.globals import flowmappingpath, flow_list_specs,\
+    log, load_flowlist
 import fedelemflowlist.jsonld as jsonld
 from fedelemflowlist.subset_list import subsets
 import fedelemflowlist.subset_list as subset_list
@@ -23,9 +23,7 @@ def get_flows(preferred_only=None, subset=None):
     :param subset: str, a possible subset of flows
     :return: standard Flow List dataframe
     """
-    list_file = outputpath + 'FedElemFlowListMaster.parquet'
-    log.info(f'Reading flow list from {list_file}')
-    flows = pd.read_parquet(list_file)
+    flows = load_flowlist()
     if preferred_only:
         flows = flows[flows['Preferred'] == 1]
     if subset is not None:

@@ -4,7 +4,10 @@ import os
 import logging as log
 import fedelemflowlist
 import pandas as pd
-import datetime
+from datetime import datetime
+from esupy.processed_data_mgmt import Paths, FileMeta, \
+    load_preprocessed_output, write_df_to_file
+from esupy.util import get_git_hash
 
 try:
     modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
@@ -15,6 +18,11 @@ outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 inputpath_mapping = inputpath + 'mapping input/'
 flowmappingpath = modulepath + 'flowmapping/'
+
+fedefl_path = Paths()
+fedefl_path.local_path = os.path.realpath(fedefl_path.local_path + "/fedefl")
+WRITE_FORMAT = 'parquet'
+GIT_HASH = get_git_hash()
 
 flow_list_fields = {'Flowable': [{'dtype': 'str'}, {'required': True}],
                     'CAS No': [{'dtype': 'str'}, {'required': False}],
@@ -59,6 +67,32 @@ flow_list_specs = {
     }
 
 
+def set_metadata():
+    meta = FileMeta()
+    meta.name_data = 'FedElemFlowListMaster'
+    meta.tool = "fedelemflowlist"
+    meta.tool_version = flow_list_specs['list_version']
+    meta.ext = WRITE_FORMAT
+    meta.git_hash = GIT_HASH
+    meta.date_created = datetime.now().strftime('%d-%b-%Y')
+    return meta
+
+
+def store_flowlist(df):
+    meta = set_metadata()
+    try:
+        log.info(f'saving flowlist to {fedefl_path.local_path}')
+        write_df_to_file(df, fedefl_path, meta)
+    except:
+        log.error('Failed to save flowlist')
+
+
+def load_flowlist():
+    meta = set_metadata()
+    df = load_preprocessed_output(meta, fedefl_path)
+    return df
+
+
 def as_path(*args: str) -> str:
     """Converts strings to lowercase path-like string
     Take variable order of string inputs
@@ -98,7 +132,7 @@ def add_uuid_to_mapping(flow_mapping):
                    .drop_duplicates()
                    .reset_index(drop=True))
         fname = (f"LOG_FlowsMappedWNoUUIDsFound_"
-                 f"{datetime.datetime.now().strftime('%Y_%m_%d')}.csv")
+                 f"{datetime.now().strftime('%Y_%m_%d')}.csv")
         dropped.to_csv(outputpath + fname, index=False)
         log.info(f"Mapped flows without UUIDs written to {fname}")
     flow_mapping_uuid.reset_index(drop=True, inplace=True)
