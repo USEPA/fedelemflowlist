@@ -1,7 +1,6 @@
 """
-Generate the elementary flow master list.
+Generate the elementary flow master list and stores to local user directory.
 
-As a pandas dataframe from input files. Write it to the output folder.
 """
 
 import pandas as pd

@@ -6,7 +6,9 @@ setup(
     packages=['fedelemflowlist'],
     package_dir={'fedelemflowlist': 'fedelemflowlist'},
     package_data={'fedelemflowlist': [
-        "input/*.*", "output/*.*", "flowmapping/*.*"]},
+                        "input/*.*",
+                        "flowmapping/*.*"]
+        },
     include_package_data=True,
     install_requires = [
         'pandas>=0.22',
