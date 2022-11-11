@@ -6,7 +6,7 @@ import fedelemflowlist
 import pandas as pd
 from datetime import datetime
 from esupy.processed_data_mgmt import Paths, FileMeta, \
-    load_preprocessed_output, write_df_to_file
+    load_preprocessed_output, write_df_to_file, download_from_remote
 from esupy.util import get_git_hash
 
 try:
@@ -19,7 +19,8 @@ inputpath_mapping = inputpath + 'mapping input/'
 flowmappingpath = modulepath + 'flowmapping/'
 
 fedefl_path = Paths()
-fedefl_path.local_path = os.path.realpath(fedefl_path.local_path + "/fedefl/")
+fedefl_path.local_path = os.path.realpath(
+    fedefl_path.local_path + "/fedelemflowlist/")
 outputpath = fedefl_path.local_path
 WRITE_FORMAT = 'parquet'
 GIT_HASH = get_git_hash()
@@ -91,9 +92,13 @@ def store_flowlist(df):
         log.error('Failed to save flowlist')
 
 
-def load_flowlist(version=None):
+def load_flowlist(version=None, download_if_missing=True):
     meta = set_metadata(version)
     df = load_preprocessed_output(meta, fedefl_path)
+    if df is None and download_if_missing:
+        log.info('Flowlist not found, downloading from remote...')
+        download_from_remote(meta, fedefl_path)
+        df = load_preprocessed_output(meta, fedefl_path)
     if df is None:
         log.info('Flowlist not found, generating locally...')
         fedelemflowlist.flowlist.generate_flowlist()
