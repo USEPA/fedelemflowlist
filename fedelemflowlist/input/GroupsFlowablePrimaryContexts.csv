@@ -664,3 +664,24 @@ Decanoic acid mixed esters with heptanoic acid octanoic acid and trimethylolprop
 "Fatty acids, C16-18, esters with ethylene glycol",Emission,Water
 "Fatty acids, C16-18, esters with ethylene glycol",Emission,Air
 "Fatty acids, C16-18, esters with ethylene glycol",Emission,Ground
+"Fatty acids, C8-10, C12-18-alkyl esters",Emission,Water
+"Fatty acids, C8-10, C12-18-alkyl esters",Emission,Air
+"Fatty acids, C8-10, C12-18-alkyl esters",Emission,Ground
+"Alkenes, c10-13",Emission,Water
+"Alkenes, c10-13",Emission,Air
+"Alkenes, c10-13",Emission,Ground
+"Hydrocarbons, c4",Emission,Water
+"Hydrocarbons, c4",Emission,Air
+"Hydrocarbons, c4",Emission,Ground
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction, hydrogenated",Emission,Water
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction, hydrogenated",Emission,Air
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction, hydrogenated",Emission,Ground
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction",Emission,Water
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction",Emission,Air
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction",Emission,Ground
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., triisobutylene fraction",Emission,Water
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., triisobutylene fraction",Emission,Air
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., triisobutylene fraction",Emission,Ground
+"2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Water
+"2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Air
+"2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Ground
