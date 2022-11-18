@@ -1,7 +1,7 @@
 from setuptools import setup
 
 install_requires = ['pandas>=0.22',
-                    'olca-ipc>=0.0.8, <=0.0.10']
+                    'olca-ipc @ git+https://github.com/GreenDelta/olca-ipc.py#egg=olca-ipc']
 
 import struct
 bit_size = struct.calcsize("P") * 8
