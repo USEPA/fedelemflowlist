@@ -41,7 +41,6 @@ def generate_flowlist():
     """Generates and saves flowlist to local user directory"""
     flowables = pd.DataFrame()
     flowables_w_primary_contexts = pd.DataFrame()
-    primary_contexts = pd.DataFrame()
 
     # Loop through flow class specific files based on those classes specified in flowlistspecs
     for t in flow_list_specs["flow_classes"]:
@@ -112,7 +111,6 @@ def generate_flowlist():
     field_to_keep = ['Class', 'Directionality', 'Environmental Media','ContextPreferred']
     class_contexts_list = []
     for index, row in context_patterns_used.iterrows():
-        class_context_patterns_row = row[field_to_keep]
         # Get the contexts specific to this class by matching the Pattern and Primary_Context_Path
         contexts_df = all_contexts[(all_contexts['Pattern'] == row['Pattern']) & (
             all_contexts['Context'].str.contains(row['Primary_Context_Path']))]
