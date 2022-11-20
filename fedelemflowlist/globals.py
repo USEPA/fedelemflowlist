@@ -115,12 +115,8 @@ def as_path(*args: str) -> str:
     :param args: variable-length of strings
     :return: string
     """
-    strings = []
-    for arg in args:
-        if arg is None:
-            continue
-        strings.append(str(arg).strip().lower())
-    return "/".join(strings)
+    return "/".join([x.strip().lower() for x in map(str, args)])
+
 
 def add_uuid_to_mapping(flow_mapping):
     """
