@@ -109,15 +109,6 @@ def load_flowlist(version=None, download_if_missing=True):
     return df
 
 
-def as_path(*args: str) -> str:
-    """Converts strings to lowercase path-like string
-    Take variable order of string inputs
-    :param args: variable-length of strings
-    :return: string
-    """
-    return "/".join([x.strip().lower() for x in map(str, args)])
-
-
 def add_uuid_to_mapping(flow_mapping):
     """
     Adds UUIDs from FEDEFL to a flow mapping file

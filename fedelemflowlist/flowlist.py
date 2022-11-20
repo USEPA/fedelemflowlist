@@ -4,10 +4,11 @@ Generate the elementary flow master list and stores to local user directory.
 """
 
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, as_path, flow_list_specs,\
+from esupy.util import as_path, make_uuid
+from fedelemflowlist.globals import log, inputpath, flow_list_specs,\
     flow_list_fields, store_flowlist
 from fedelemflowlist.contexts import all_contexts
-from fedelemflowlist.uuid_generators import make_uuid
+
 
 flowable_data_types = {'CAS No': flow_list_fields['CAS No'][0]['dtype'],
                        'Formula': flow_list_fields['Formula'][0]['dtype'],

@@ -6,7 +6,8 @@ flowlist.py.
 """
 
 import pandas as pd
-from fedelemflowlist.globals import inputpath, as_path, log, flow_list_specs
+from esupy.util import as_path
+from fedelemflowlist.globals import inputpath, log, flow_list_specs
 
 contexts = pd.read_csv(inputpath + 'Contexts.csv', na_values='N/A')
 
