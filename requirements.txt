@@ -1,4 +1,4 @@
-git+https://github.com/GreenDelta/olca-ipc.py#egg=olca-ipc
+olca-ipc>=0.0.12
 pandas>=0.22                   # Powerful data structures for data analysis, time series, and statistics.
 pyarrow>=0.14                  # supports Apache parquet reading and writing
 pip>=9                         # The PyPA recommended tool for installing Python packages.
