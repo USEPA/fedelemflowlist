@@ -10,9 +10,9 @@ import olca
 import olca.units as units
 import olca.pack as pack
 import pandas as pd
+from esupy.util import make_uuid
 
 import fedelemflowlist
-from fedelemflowlist.uuid_generators import make_uuid
 from fedelemflowlist.globals import flow_list_specs
 
 
