@@ -23,7 +23,7 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Environment :: IDE",
         "Intended Audience :: Science/Research",
-        "License :: CC0",
+        "License :: MIT",
         "Programming Language :: Python :: 3.x",
         "Topic :: Utilities",
     ],
