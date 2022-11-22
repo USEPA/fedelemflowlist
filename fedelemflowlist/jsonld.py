@@ -199,6 +199,7 @@ class Writer(object):
             flow.cas = row.get("CAS No", None)
             flow.formula = row.get("Formula", None)
             flow.version = flow_list_specs['list_version']
+            flow.synonyms = row.get("Synonyms")
             flow.last_change = datetime.datetime.now().isoformat()
             flow.flow_type = olca.FlowType.ELEMENTARY_FLOW
 

@@ -1,5 +1,5 @@
+olca-ipc>=0.0.12
 pandas>=0.22                   # Powerful data structures for data analysis, time series, and statistics.
-olca-ipc>=0.0.8, <=0.0.10      # openlca tools
 pyarrow>=0.14                  # supports Apache parquet reading and writing
 pip>=9                         # The PyPA recommended tool for installing Python packages.
 setuptools>=41                 # Fully-featured library designed to facilitate packaging Python projects.

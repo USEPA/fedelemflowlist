@@ -1,3 +1,7 @@
+<!-- badges: start -->
+[![Applied Sciences](http://img.shields.io/badge/Applied%20Sciences-10.3390/app12199687-blue.svg)](https://doi.org/10.3390/app12199687)
+<!-- badges: end -->
+
 # fedelemflowlist
 
 `fedelemflowlist` is a Python package that generates and provides a standardized elementary flow list for use in life cycle assessment (LCA) data
