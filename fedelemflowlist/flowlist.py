@@ -1,13 +1,14 @@
 """
-Generate the elementary flow master list.
+Generate the elementary flow master list and stores to local user directory.
 
-As a pandas dataframe from input files. Write it to the output folder.
 """
 
 import pandas as pd
-from fedelemflowlist.globals import log, inputpath, outputpath, as_path, flow_list_specs, flow_list_fields
+from esupy.util import as_path, make_uuid
+from fedelemflowlist.globals import log, inputpath, flow_list_specs,\
+    flow_list_fields, store_flowlist
 from fedelemflowlist.contexts import all_contexts
-from fedelemflowlist.uuid_generators import make_uuid
+
 
 flowable_data_types = {'CAS No': flow_list_fields['CAS No'][0]['dtype'],
                        'Formula': flow_list_fields['Formula'][0]['dtype'],
@@ -37,11 +38,10 @@ def import_secondary_context_membership():
     SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
     return SecondaryContextMembership
 
-if __name__ == '__main__':
-
+def generate_flowlist():
+    """Generates and saves flowlist to local user directory"""
     flowables = pd.DataFrame()
     flowables_w_primary_contexts = pd.DataFrame()
-    primary_contexts = pd.DataFrame()
 
     # Loop through flow class specific files based on those classes specified in flowlistspecs
     for t in flow_list_specs["flow_classes"]:
@@ -112,7 +112,6 @@ if __name__ == '__main__':
     field_to_keep = ['Class', 'Directionality', 'Environmental Media','ContextPreferred']
     class_contexts_list = []
     for index, row in context_patterns_used.iterrows():
-        class_context_patterns_row = row[field_to_keep]
         # Get the contexts specific to this class by matching the Pattern and Primary_Context_Path
         contexts_df = all_contexts[(all_contexts['Pattern'] == row['Pattern']) & (
             all_contexts['Context'].str.contains(row['Primary_Context_Path']))]
@@ -176,6 +175,7 @@ if __name__ == '__main__':
     flows = flows[list(flow_list_fields.keys())]
 
     # Write it to parquet
-    file = outputpath + 'FedElemFlowListMaster.parquet'
-    flows.to_parquet(file, index=False, compression=None)
-    log.info(f'Stored flows to {file}')
+    store_flowlist(flows)
+
+if __name__ == '__main__':
+    generate_flowlist()

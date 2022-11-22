@@ -4,17 +4,26 @@ import os
 import logging as log
 import fedelemflowlist
 import pandas as pd
-import datetime
+from datetime import datetime
+from esupy.processed_data_mgmt import Paths, FileMeta, \
+    load_preprocessed_output, write_df_to_file, download_from_remote
+from esupy.util import get_git_hash
 
 try:
     modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
 except NameError:
     modulepath = 'fedelemflowlist/'
 
-outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 inputpath_mapping = inputpath + 'mapping input/'
 flowmappingpath = modulepath + 'flowmapping/'
+
+fedefl_path = Paths()
+fedefl_path.local_path = os.path.realpath(
+    fedefl_path.local_path + "/fedelemflowlist/")
+outputpath = fedefl_path.local_path
+WRITE_FORMAT = 'parquet'
+GIT_HASH = get_git_hash()
 
 flow_list_fields = {'Flowable': [{'dtype': 'str'}, {'required': True}],
                     'CAS No': [{'dtype': 'str'}, {'required': False}],
@@ -48,7 +57,7 @@ log.basicConfig(level=log.INFO, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
 flow_list_specs = {
-    "list_version": "1.0.9",
+    "list_version": "1.0.10",
     "flow_classes": ["Biological", "Chemicals", "Energy", "Geological",
                      "Groups", "Land", "Other", "Water"],
     "primary_context_classes": ["Directionality", "Environmental Media"],
@@ -59,18 +68,46 @@ flow_list_specs = {
     }
 
 
-def as_path(*args: str) -> str:
-    """Converts strings to lowercase path-like string
-    Take variable order of string inputs
-    :param args: variable-length of strings
-    :return: string
-    """
-    strings = []
-    for arg in args:
-        if arg is None:
-            continue
-        strings.append(str(arg).strip().lower())
-    return "/".join(strings)
+def set_metadata(version=None):
+    meta = FileMeta()
+    meta.name_data = 'FedElemFlowListMaster'
+    meta.tool = "fedelemflowlist"
+    if not version:
+        version = flow_list_specs['list_version']
+    else:
+        meta.name_data = f"{meta.name_data}_v{version}"
+    meta.tool_version = version
+    meta.ext = WRITE_FORMAT
+    meta.git_hash = GIT_HASH
+    meta.date_created = datetime.now().strftime('%d-%b-%Y')
+    return meta
+
+
+def store_flowlist(df):
+    meta = set_metadata()
+    try:
+        log.info(f'saving flowlist to {fedefl_path.local_path}')
+        write_df_to_file(df, fedefl_path, meta)
+    except:
+        log.error('Failed to save flowlist')
+
+
+def load_flowlist(version=None, download_if_missing=True):
+    meta = set_metadata(version)
+    df = load_preprocessed_output(meta, fedefl_path)
+    if df is None and download_if_missing:
+        log.info('Flowlist not found, downloading from remote...')
+        download_from_remote(meta, fedefl_path)
+        df = load_preprocessed_output(meta, fedefl_path)
+    if df is None:
+        log.info('Flowlist not found, generating locally...')
+        fedelemflowlist.flowlist.generate_flowlist()
+        df = load_preprocessed_output(meta, fedefl_path)
+        if df is None:
+            log.error('Error retrieving flowlist')
+            raise FileNotFoundError
+    return df
+
 
 def add_uuid_to_mapping(flow_mapping):
     """
@@ -98,7 +135,7 @@ def add_uuid_to_mapping(flow_mapping):
                    .drop_duplicates()
                    .reset_index(drop=True))
         fname = (f"LOG_FlowsMappedWNoUUIDsFound_"
-                 f"{datetime.datetime.now().strftime('%Y_%m_%d')}.csv")
+                 f"{datetime.now().strftime('%Y_%m_%d')}.csv")
         dropped.to_csv(outputpath + fname, index=False)
         log.info(f"Mapped flows without UUIDs written to {fname}")
     flow_mapping_uuid.reset_index(drop=True, inplace=True)

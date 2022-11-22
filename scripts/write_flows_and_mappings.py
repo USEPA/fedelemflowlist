@@ -21,5 +21,7 @@ if __name__ == '__main__':
     for s in mapping_to_use:
         export_name = export_name + s + '_'
     export_name = export_name+ 'flows_w_mappings.zip'
-    fedelemflowlist.write_jsonld(flows_used_in_mapping,outputpath+export_name,mapping)
+    fedelemflowlist.write_jsonld(flows_used_in_mapping,
+                                 outputpath+'/' + export_name,
+                                 mapping)
 
