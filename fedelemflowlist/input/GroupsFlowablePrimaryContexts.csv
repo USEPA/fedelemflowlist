@@ -13,6 +13,7 @@ Polychlorinated biphenyls,Emission,Ground
 Polychlorinated biphenyls,Emission,Water
 Naphthenic acids,Emission,Ground
 Naphthenic acids,Emission,Water
+Naphthenic acids,Emission,Air
 Chlorinated dibenzo-p-dioxins,Emission,Air
 Chlorinated dibenzo-p-dioxins,Emission,Ground
 Chlorinated dibenzo-p-dioxins,Emission,Water
@@ -450,6 +451,8 @@ Furans,Emission,Water
 Volatile organic compounds,Emission,Air
 C5 alkenes,Emission,Air
 C6 alkenes,Emission,Air
+C6 alkenes,Emission,Water
+C6 alkenes,Emission,Ground
 "2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-,  (1aR,2R,2aR,3R,6S,6aS,7S,7aS)-rel-, and metabolites",Emission,Water
 "Particulate matter, ≤ 10μm",Emission,Air
 "Organic carbon, PM2.5 LC",Emission,Air
@@ -533,8 +536,8 @@ Lecithins,Emission,Water
 Lecithins,Emission,Ground
 "Benzene, hexyl-",Emission,Air
 "Acetic acid, hexyl ester",Emission,Air
-"Polycyclic aromatic hydrocarbons - 15-PAH",Emission,Air
-"Polycyclic aromatic hydrocarbons - 7-PAH",Emission,Air
+Polycyclic aromatic hydrocarbons - 15-PAH,Emission,Air
+Polycyclic aromatic hydrocarbons - 7-PAH,Emission,Air
 "Noble gases, radioactive, unspecified",Emission,Air
 "Noble gases, radioactive, unspecified",Emission,Ground
 "Noble gases, radioactive, unspecified",Emission,Water
@@ -556,3 +559,129 @@ C12-14-Alkyldimethyl(ethylbenzyl) ammonium chlorides,Emission,Ground
 C12-18-Dialkylmethylbenzyl ammonium chlorides,Emission,Ground
 C8-18 and C18-Unsaturated fatty acids ammonium salts,Emission,Ground
 Capsicum oleoresins,Emission,Ground
+"Glycerides, C16-18 mono- and di-",Emission,Water
+"Glycerides, C16-18 mono- and di-",Emission,Air
+"Glycerides, C16-18 mono- and di-",Emission,Ground
+"2-Butenedioic acid (2E)-, di-C18-22-alkyl esters",Emission,Water
+"2-Butenedioic acid (2E)-, di-C18-22-alkyl esters",Emission,Air
+"2-Butenedioic acid (2E)-, di-C18-22-alkyl esters",Emission,Ground
+"Fatty acids, C14-22",Emission,Water
+"Fatty acids, C14-22",Emission,Air
+"Fatty acids, C14-22",Emission,Ground
+"Glycerides, C14-18",Emission,Water
+"Glycerides, C14-18",Emission,Air
+"Glycerides, C14-18",Emission,Ground
+"Hydrocarbons, C3",Emission,Water
+"Hydrocarbons, C3",Emission,Air
+"Hydrocarbons, C3",Emission,Ground
+Decanoic acid mixed esters with heptanoic acid octanoic acid pentaerythritol and valeric acid,Emission,Water
+Decanoic acid mixed esters with heptanoic acid octanoic acid pentaerythritol and valeric acid,Emission,Air
+Decanoic acid mixed esters with heptanoic acid octanoic acid pentaerythritol and valeric acid,Emission,Ground
+Decanoic acid mixed esters with neopentyl glycol and octanoic acid,Emission,Water
+Decanoic acid mixed esters with neopentyl glycol and octanoic acid,Emission,Air
+Decanoic acid mixed esters with neopentyl glycol and octanoic acid,Emission,Ground
+"Hydrocarbons, C4, 1,3-butadiene-free, polymd., pentaisobutylene fraction, hydrogenated",Emission,Water
+"Hydrocarbons, C4, 1,3-butadiene-free, polymd., pentaisobutylene fraction, hydrogenated",Emission,Air
+"Hydrocarbons, C4, 1,3-butadiene-free, polymd., pentaisobutylene fraction, hydrogenated",Emission,Ground
+"Hydrocarbons, C4, ethylene-manuf.-by-product",Emission,Water
+"Hydrocarbons, C4, ethylene-manuf.-by-product",Emission,Air
+"Hydrocarbons, C4, ethylene-manuf.-by-product",Emission,Ground
+Oligomeric D-glucopyranose decyl octyl glycosides,Emission,Water
+Oligomeric D-glucopyranose decyl octyl glycosides,Emission,Air
+Oligomeric D-glucopyranose decyl octyl glycosides,Emission,Ground
+"Hydrocarbons, C4-6, C5-rich",Emission,Water
+"Hydrocarbons, C4-6, C5-rich",Emission,Air
+"Hydrocarbons, C4-6, C5-rich",Emission,Ground
+"Syrups, hydrolyzed starch, hydrogenated",Emission,Water
+"Syrups, hydrolyzed starch, hydrogenated",Emission,Air
+"Syrups, hydrolyzed starch, hydrogenated",Emission,Ground
+C10-rich C9-11 Alkenes,Emission,Water
+C10-rich C9-11 Alkenes,Emission,Air
+C10-rich C9-11 Alkenes,Emission,Ground
+"Benzene, C10-13-alkyl derivs.",Emission,Water
+"Benzene, C10-13-alkyl derivs.",Emission,Air
+"Benzene, C10-13-alkyl derivs.",Emission,Ground
+"Hydrocarbons, C2-4, C3-rich",Emission,Water
+"Hydrocarbons, C2-4, C3-rich",Emission,Air
+"Hydrocarbons, C2-4, C3-rich",Emission,Ground
+C3-4-Hydrocarbons,Emission,Water
+C3-4-Hydrocarbons,Emission,Air
+C3-4-Hydrocarbons,Emission,Ground
+"2-Butenedioic acid (2E)-, di-C12-18-alkyl esters",Emission,Water
+"2-Butenedioic acid (2E)-, di-C12-18-alkyl esters",Emission,Air
+"2-Butenedioic acid (2E)-, di-C12-18-alkyl esters",Emission,Ground
+"Phenol, heptyl derivs.",Emission,Water
+"Phenol, heptyl derivs.",Emission,Air
+"Phenol, heptyl derivs.",Emission,Ground
+"Hydrocarbons, C5-rich",Emission,Water
+"Hydrocarbons, C5-rich",Emission,Air
+"Hydrocarbons, C5-rich",Emission,Ground
+"Alcohols, C16-18 and C18-unsatd., ethoxylated",Emission,Water
+"Alcohols, C16-18 and C18-unsatd., ethoxylated",Emission,Air
+"Alcohols, C16-18 and C18-unsatd., ethoxylated",Emission,Ground
+C18-Unsatd. fatty acids dimers,Emission,Water
+C18-Unsatd. fatty acids dimers,Emission,Air
+C18-Unsatd. fatty acids dimers,Emission,Ground
+"Fatty acids, C16-18",Emission,Water
+"Fatty acids, C16-18",Emission,Air
+"Fatty acids, C16-18",Emission,Ground
+Catalytic cracker distillates C3-11-hydrocarbons,Emission,Water
+Catalytic cracker distillates C3-11-hydrocarbons,Emission,Air
+Catalytic cracker distillates C3-11-hydrocarbons,Emission,Ground
+"Hydrocarbons, C4-10-unsatd.",Emission,Water
+"Hydrocarbons, C4-10-unsatd.",Emission,Air
+"Hydrocarbons, C4-10-unsatd.",Emission,Ground
+"Alkanes, C12-14-iso-",Emission,Water
+"Alkanes, C12-14-iso-",Emission,Air
+"Alkanes, C12-14-iso-",Emission,Ground
+"2,5-Furandione, dihydro-, mono-C15-20-alkenyl derivs.",Emission,Water
+"2,5-Furandione, dihydro-, mono-C15-20-alkenyl derivs.",Emission,Air
+"2,5-Furandione, dihydro-, mono-C15-20-alkenyl derivs.",Emission,Ground
+"Hydrocarbons, ethylene-manuf.-by-product distn. residues",Emission,Water
+"Hydrocarbons, ethylene-manuf.-by-product distn. residues",Emission,Air
+"Hydrocarbons, ethylene-manuf.-by-product distn. residues",Emission,Ground
+"Hydrocarbons, C14-30, olefin-rich",Emission,Water
+"Hydrocarbons, C14-30, olefin-rich",Emission,Air
+"Hydrocarbons, C14-30, olefin-rich",Emission,Ground
+"Octadecanoic acid, branched and linear",Emission,Water
+"Octadecanoic acid, branched and linear",Emission,Air
+"Octadecanoic acid, branched and linear",Emission,Ground
+"Glycerides, C16-22",Emission,Water
+"Glycerides, C16-22",Emission,Air
+"Glycerides, C16-22",Emission,Ground
+"Glycerides, C12-18",Emission,Water
+"Glycerides, C12-18",Emission,Air
+"Glycerides, C12-18",Emission,Ground
+Decanoic acid mixed esters with heptanoic acid octanoic acid and trimethylolpropane,Emission,Water
+Decanoic acid mixed esters with heptanoic acid octanoic acid and trimethylolpropane,Emission,Air
+Decanoic acid mixed esters with heptanoic acid octanoic acid and trimethylolpropane,Emission,Ground
+"Carboxylic acids, C5-9, tetraesters with pentaerythritol",Emission,Water
+"Carboxylic acids, C5-9, tetraesters with pentaerythritol",Emission,Air
+"Carboxylic acids, C5-9, tetraesters with pentaerythritol",Emission,Ground
+"Carboxylic acids, C5-9, hexaesters with dipentaerythritol",Emission,Water
+"Carboxylic acids, C5-9, hexaesters with dipentaerythritol",Emission,Air
+"Carboxylic acids, C5-9, hexaesters with dipentaerythritol",Emission,Ground
+"Fatty acids, C16-18, esters with ethylene glycol",Emission,Water
+"Fatty acids, C16-18, esters with ethylene glycol",Emission,Air
+"Fatty acids, C16-18, esters with ethylene glycol",Emission,Ground
+"Fatty acids, C8-10, C12-18-alkyl esters",Emission,Water
+"Fatty acids, C8-10, C12-18-alkyl esters",Emission,Air
+"Fatty acids, C8-10, C12-18-alkyl esters",Emission,Ground
+"Alkenes, c10-13",Emission,Water
+"Alkenes, c10-13",Emission,Air
+"Alkenes, c10-13",Emission,Ground
+"Hydrocarbons, c4",Emission,Water
+"Hydrocarbons, c4",Emission,Air
+"Hydrocarbons, c4",Emission,Ground
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction, hydrogenated",Emission,Water
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction, hydrogenated",Emission,Air
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction, hydrogenated",Emission,Ground
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction",Emission,Water
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction",Emission,Air
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., dibutylene fraction",Emission,Ground
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., triisobutylene fraction",Emission,Water
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., triisobutylene fraction",Emission,Air
+"Hydrocarbons, c4, 1,3-butadiene-free, polymd., triisobutylene fraction",Emission,Ground
+"2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Water
+"2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Air
+"2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Ground

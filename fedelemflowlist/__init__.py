@@ -9,22 +9,23 @@ in standard pandas dataframe formats, defined within format specs
 import os
 import pandas as pd
 from fedelemflowlist.flowlist import read_in_flowclass_file
-from fedelemflowlist.globals import outputpath, flowmappingpath, flow_list_specs,\
-    log
+from fedelemflowlist.globals import flowmappingpath, flow_list_specs,\
+    log, load_flowlist
 import fedelemflowlist.jsonld as jsonld
 from fedelemflowlist.subset_list import subsets
 import fedelemflowlist.subset_list as subset_list
 
-def get_flows(preferred_only=None, subset=None):
+def get_flows(preferred_only=None, subset=None, download_if_missing=True):
     """Gets a flow list in a standard format
 
     Returns the full master flow list unless preferred flows is lists
     :param preferred_only: Boolean for whether preferred flows are desired or not
     :param subset: str, a possible subset of flows
+    :param download_if_missing: bool, False to force local generation,
+        True to download from remote if not found locally
     :return: standard Flow List dataframe
     """
-    list_file = outputpath + 'FedElemFlowListMaster.parquet'
-    flows = pd.read_parquet(list_file)
+    flows = load_flowlist(download_if_missing=download_if_missing)
     if preferred_only:
         flows = flows[flows['Preferred'] == 1]
     if subset is not None:

@@ -1,20 +1,29 @@
 """Set common variables for use in package."""
 import sys
 import os
-import json
 import logging as log
 import fedelemflowlist
 import pandas as pd
+from datetime import datetime
+from esupy.processed_data_mgmt import Paths, FileMeta, \
+    load_preprocessed_output, write_df_to_file, download_from_remote
+from esupy.util import get_git_hash
 
 try:
     modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
 except NameError:
     modulepath = 'fedelemflowlist/'
 
-outputpath = modulepath + 'output/'
 inputpath = modulepath + 'input/'
 inputpath_mapping = inputpath + 'mapping input/'
 flowmappingpath = modulepath + 'flowmapping/'
+
+fedefl_path = Paths()
+fedefl_path.local_path = os.path.realpath(
+    fedefl_path.local_path + "/fedelemflowlist/")
+outputpath = fedefl_path.local_path
+WRITE_FORMAT = 'parquet'
+GIT_HASH = get_git_hash()
 
 flow_list_fields = {'Flowable': [{'dtype': 'str'}, {'required': True}],
                     'CAS No': [{'dtype': 'str'}, {'required': False}],
@@ -48,36 +57,57 @@ log.basicConfig(level=log.INFO, format='%(levelname)s %(message)s',
                 stream=sys.stdout)
 
 flow_list_specs = {
-    "list_version": "1.0.9",
-    "flow_classes": ["Biological", "Chemicals", "Energy", "Geological", "Groups", "Land", "Other", "Water"],
+    "list_version": "1.1.0",
+    "flow_classes": ["Biological", "Chemicals", "Energy", "Geological",
+                     "Groups", "Land", "Other", "Water"],
     "primary_context_classes": ["Directionality", "Environmental Media"],
-    "secondary_context_classes": ["Vertical Strata", "Land Use", "Human-Dominated", "Terrestrial", "Aquatic Feature",
-                                  "Indoor", "Population Density", "Release Height"]
-}
-
-def convert_to_lower(x):
-    """Convert string to lower case
-
-    :param x: string
-    :return: string
-    """
-    x = str(x)
-    x = str.lower(x)
-    return x
+    "secondary_context_classes": ["Vertical Strata", "Land Use",
+                                  "Human-Dominated", "Terrestrial",
+                                  "Aquatic Feature", "Indoor",
+                                  "Population Density", "Release Height"]
+    }
 
 
-def as_path(*args: str) -> str:
-    """Converts strings to lowercase path-like string
-    Take variable order of string inputs
-    :param args: variable-length of strings
-    :return: string
-    """
-    strings = []
-    for arg in args:
-        if arg is None:
-            continue
-        strings.append(str(arg).strip().lower())
-    return "/".join(strings)
+def set_metadata(version=None):
+    meta = FileMeta()
+    meta.name_data = 'FedElemFlowListMaster'
+    meta.tool = "fedelemflowlist"
+    if not version:
+        version = flow_list_specs['list_version']
+    else:
+        meta.name_data = f"{meta.name_data}_v{version}"
+    meta.tool_version = version
+    meta.ext = WRITE_FORMAT
+    meta.git_hash = GIT_HASH
+    meta.date_created = datetime.now().strftime('%d-%b-%Y')
+    return meta
+
+
+def store_flowlist(df):
+    meta = set_metadata()
+    try:
+        log.info(f'saving flowlist to {fedefl_path.local_path}')
+        write_df_to_file(df, fedefl_path, meta)
+    except:
+        log.error('Failed to save flowlist')
+
+
+def load_flowlist(version=None, download_if_missing=True):
+    meta = set_metadata(version)
+    df = load_preprocessed_output(meta, fedefl_path)
+    if df is None and download_if_missing:
+        log.info('Flowlist not found, downloading from remote...')
+        download_from_remote(meta, fedefl_path)
+        df = load_preprocessed_output(meta, fedefl_path)
+    if df is None:
+        log.info('Flowlist not found, generating locally...')
+        fedelemflowlist.flowlist.generate_flowlist()
+        df = load_preprocessed_output(meta, fedefl_path)
+        if df is None:
+            log.error('Error retrieving flowlist')
+            raise FileNotFoundError
+    return df
+
 
 def add_uuid_to_mapping(flow_mapping):
     """
@@ -89,8 +119,8 @@ def add_uuid_to_mapping(flow_mapping):
     all_flows = fedelemflowlist.get_flows()
     all_flows = all_flows[['Flowable', 'Context', 'Flow UUID', 'Unit']]
     flow_mapping = pd.merge(flow_mapping, all_flows, how='left',
-                                      left_on=['TargetFlowName', 'TargetFlowContext', 'TargetUnit'],
-                                      right_on=['Flowable', 'Context', 'Unit'])
+                            left_on=['TargetFlowName', 'TargetFlowContext', 'TargetUnit'],
+                            right_on=['Flowable', 'Context', 'Unit'])
     columns_to_drop = ['Flowable','Context', 'Unit']
     if 'TargetFlowUUID' in flow_mapping:
         columns_to_drop.append('TargetFlowUUID')
@@ -101,10 +131,16 @@ def add_uuid_to_mapping(flow_mapping):
     if mapping_length > mapping_merged_len:
         log.warning("UUIDs not available for all flows")
         dropped = flow_mapping.loc[~flow_mapping.index.isin(flow_mapping_uuid.index)]
-        dropped = dropped[['TargetFlowName','TargetFlowContext']].drop_duplicates().reset_index(drop=True)
-        log.info(dropped)
+        dropped = (dropped[['TargetFlowName','TargetFlowContext']]
+                   .drop_duplicates()
+                   .reset_index(drop=True))
+        fname = (f"LOG_FlowsMappedWNoUUIDsFound_"
+                 f"{datetime.now().strftime('%Y_%m_%d')}.csv")
+        dropped.to_csv(outputpath + fname, index=False)
+        log.info(f"Mapped flows without UUIDs written to {fname}")
     flow_mapping_uuid.reset_index(drop=True, inplace=True)
-    flowmapping_order = [c for c in list(flowmapping_fields.keys()) if c in flow_mapping_uuid.columns.tolist()]
+    flowmapping_order = [c for c in list(flowmapping_fields.keys())
+                         if c in flow_mapping_uuid.columns.tolist()]
     flow_mapping_uuid = flow_mapping_uuid[flowmapping_order]
 
     return flow_mapping_uuid
@@ -118,8 +154,8 @@ def add_conversion_to_mapping(flow_mapping):
     conversions = fedelemflowlist.get_alt_conversion()
     # merge in conversion factors where source unit = alternate unit
     mapping_w_conversion = pd.merge(flow_mapping, conversions, how='left',
-                                  left_on=['TargetFlowName', 'SourceUnit', 'TargetUnit'],
-                                  right_on=['Flowable', 'AltUnit', 'Unit'])
+                                    left_on=['TargetFlowName', 'SourceUnit', 'TargetUnit'],
+                                    right_on=['Flowable', 'AltUnit', 'Unit'])
 
     # update conversion factor where current conversion is 1 and the updated conversion exists
     converted1 = mapping_w_conversion['InverseConversionFactor'].notnull()
@@ -129,7 +165,10 @@ def add_conversion_to_mapping(flow_mapping):
                              'ConversionFactor']=mapping_w_conversion['InverseConversionFactor']
     converted = mapping_w_conversion['Convert'].sum()
     log.info('added conversion factors for ' + str(converted) + ' flows')
-    mapping_w_conversion = mapping_w_conversion.drop(columns=['Flowable','Unit',
-                                                         'AltUnit','AltUnitConversionFactor',
-                                                         'InverseConversionFactor', 'Convert'])
+    mapping_w_conversion = (mapping_w_conversion
+                            .drop(columns=['Flowable','Unit', 'AltUnit',
+                                           'AltUnitConversionFactor',
+                                           'InverseConversionFactor',
+                                           'Convert'])
+                            )
     return mapping_w_conversion

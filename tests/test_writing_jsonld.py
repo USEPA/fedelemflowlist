@@ -16,7 +16,7 @@ class TestWritingJSONLD(unittest.TestCase):
         #Test first 100
         flowlist = flowlist.iloc[0:100]
         try:
-            flowlist_json_file =  outputpath+'test_FedElemFlowList_first100.zip'
+            flowlist_json_file =  outputpath+'/test_FedElemFlowList_first100.zip'
             #Remove the test file if it already exists
             if os.path.exists(flowlist_json_file):
                 os.remove(flowlist_json_file)
@@ -25,7 +25,7 @@ class TestWritingJSONLD(unittest.TestCase):
             log.error("No permission to write to file " + flowlist_json_file)
         try:
             flowlist_json = zipfile.ZipFile(flowlist_json_file)
-            test_extract_path = outputpath + 'test_FedElemFlowList_first100/'
+            test_extract_path = outputpath + '/test_FedElemFlowList_first100/'
             flowlist_json.extractall(test_extract_path)
             flows_path = test_extract_path + 'flows/'
             categories_path = test_extract_path + 'categories/'
@@ -39,7 +39,6 @@ class TestWritingJSONLD(unittest.TestCase):
                 os.remove(categories_path+f)
             os.removedirs(flows_path)
             os.removedirs(categories_path)
-            os.removedirs(test_extract_path)
         except FileNotFoundError:
             log.error(flowlist_json_file + ' not found')
         self.assertEqual(100,len_extracted_flow_files)

@@ -37,7 +37,7 @@ if __name__ == '__main__':
     flowables_notused = flowables_notused.drop_duplicates()
     flowables_notused = flowables_notused.apply(lambda x: x.astype(str),axis=0)
 
-    flowables_notused.to_csv(outputpath + 'flowables_not_used_in_' + mapping_to_use[0] + '_mapping.csv', index=False)
+    flowables_notused.to_csv(outputpath + '/flowables_not_used_in_' + mapping_to_use[0] + '_mapping.csv', index=False)
 
 
 

@@ -10,9 +10,9 @@ import olca
 import olca.units as units
 import olca.pack as pack
 import pandas as pd
+from esupy.util import make_uuid
 
 import fedelemflowlist
-from fedelemflowlist.uuid_generators import make_uuid
 from fedelemflowlist.globals import flow_list_specs
 
 
@@ -199,6 +199,7 @@ class Writer(object):
             flow.cas = row.get("CAS No", None)
             flow.formula = row.get("Formula", None)
             flow.version = flow_list_specs['list_version']
+            flow.synonyms = row.get("Synonyms")
             flow.last_change = datetime.datetime.now().isoformat()
             flow.flow_type = olca.FlowType.ELEMENTARY_FLOW
 
