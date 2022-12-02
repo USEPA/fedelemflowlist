@@ -15,8 +15,8 @@ from fedelemflowlist.globals import outputpath, flow_list_specs,\
 old_version = '1.0.9'
 
 if __name__ == '__main__':
-    current_list = load_flowlist()
     ver = flow_list_specs['list_version']
+    current_list = load_flowlist(version=ver)
     # get UUIDs
     current_UUIDs = current_list['Flow UUID']
 
