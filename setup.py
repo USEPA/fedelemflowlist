@@ -13,7 +13,7 @@ setup(
     install_requires = [
         'pandas>=0.22',
         'olca-ipc>=0.0.12',
-        'esupy @ git+https://github.com/USEPA/esupy.git@develop#egg=esupy',
+        'esupy @ git+https://github.com/USEPA/esupy.git@refactor_pathlib#egg=esupy',
         ],
     url='https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List',
     license='CC0',
