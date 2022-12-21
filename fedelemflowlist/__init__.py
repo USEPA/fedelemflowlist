@@ -49,7 +49,7 @@ def get_flowmapping(source=None):
     """
     flowmappings = pd.DataFrame()
     if source is not None:
-        if isinstance(source, 'str'):
+        if isinstance(source, str):
             source = [source]
         for f in source:
             mapping_file = flowmappingpath / f'{f}.csv'
