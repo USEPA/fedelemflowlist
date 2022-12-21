@@ -154,7 +154,7 @@ def get_hazardous_air_pollutant_flows(fl):
     :return: df in standard flowlist format
     """
     flows = fl[fl["Context"].str.startswith("emission/air")]
-    haps = pd.read_csv(inputpath+'HAP_flows.csv', usecols=['Flowable'])
+    haps = pd.read_csv(inputpath / 'HAP_flows.csv', usecols=['Flowable'])
     # HAPs sourced from EPA via script write_HAP_flows.py
     # https://www.epa.gov/haps/initial-list-hazardous-air-pollutants-modifications
     flows = flows[flows['Flowable'].isin(haps.Flowable)]

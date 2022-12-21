@@ -1,6 +1,5 @@
 import pandas as pd
-import fedelemflowlist
-from fedelemflowlist.globals import inputpath_mapping, flowmapping_fields, log, flowmappingpath,\
+from fedelemflowlist.globals import inputpath_mapping, log, flowmappingpath,\
     add_uuid_to_mapping, add_conversion_to_mapping
 
 #Input source name here. The .csv mapping file with this name must be in the input directory
@@ -8,7 +7,7 @@ source_name = 'NEI'
 
 if __name__ == '__main__':
     # Pull flowable mapping file. Assume these are in input folder with source_name+FlowableMappings.csv
-    flowables = pd.read_csv(inputpath_mapping + source_name + '_FlowableMappings.csv')
+    flowables = pd.read_csv(inputpath_mapping / f'{source_name}_FlowableMappings.csv')
     flowables.sort_values(by=['SourceFlowName'],inplace=True, ignore_index=True)
     if flowables.duplicated(subset=['SourceFlowName']).any():
         log.warning('Duplicate source flows in flowables list:')
@@ -16,12 +15,16 @@ if __name__ == '__main__':
         log.warning(dup.SourceFlowName.tolist())
     
     # Pull context mapping file. Assume these are in input folder with source_name+ContextMappings.csv
-    context_mappings = pd.read_csv(inputpath_mapping + source_name + '_ContextMappings.csv')
+    context_mappings = pd.read_csv(inputpath_mapping / f'{source_name}_ContextMappings.csv')
     
     # Combined flowables and context files for every combination
     flowables['target'] = 1
     context_mappings['target'] = 1
-    flow_mapping = pd.merge(flowables,context_mappings,on='target').drop('target',axis=1)
+    flow_mapping = (pd.merge(flowables,
+                            context_mappings,
+                            on='target')
+                    .drop('target', axis=1)
+                    )
     
     # Remove extraneous columns
     flow_mapping = flow_mapping.drop(columns=['Map method', 'Note'])
@@ -45,4 +48,4 @@ if __name__ == '__main__':
     flow_mapping = add_uuid_to_mapping(flow_mapping)
     
     # Write them to a csv
-    flow_mapping.to_csv(flowmappingpath + source_name + '.csv', index=False)
+    flow_mapping.to_csv(flowmappingpath / f'{source_name}.csv', index=False)

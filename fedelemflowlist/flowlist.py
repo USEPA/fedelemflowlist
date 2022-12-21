@@ -28,14 +28,15 @@ def read_in_flowclass_file(flowclass, flowclasstype):
         data_types = flowable_data_types
     if flowclasstype == 'FlowableAltUnits':
         data_types = altunits_data_types
-    flowclassfile = pd.read_csv(inputpath + flowclass + flowclasstype + '.csv', header=0, dtype=data_types)
+    flowclassfile = pd.read_csv(inputpath / f'{flowclass}{flowclasstype}.csv',
+                                header=0, dtype=data_types)
     flowclassfile = flowclassfile.dropna(axis=0, how='all')
     return flowclassfile
 
 def import_secondary_context_membership():
     """Add docstring."""
     log.info('Read in secondary context membership')
-    SecondaryContextMembership = pd.read_csv(inputpath + 'SecondaryContextMembership.csv')
+    SecondaryContextMembership = pd.read_csv(inputpath / 'SecondaryContextMembership.csv')
     return SecondaryContextMembership
 
 def generate_flowlist():
@@ -144,7 +145,7 @@ def generate_flowlist():
 
     # Drop excluded flows based on CSV input file
     log.info('Total of ' + str(len(flows)) + ' flows created.')
-    flow_exclusions_to_drop = pd.read_csv(inputpath + 'FlowExclusions.csv')
+    flow_exclusions_to_drop = pd.read_csv(inputpath / 'FlowExclusions.csv')
     log.info('Drop ' + str(len(flow_exclusions_to_drop)) + ' specified flowable/context combinations.')
     flows = pd.merge(flows, flow_exclusions_to_drop, on=['Flowable','Context'], how='outer', indicator=True)
     flows = flows.drop(flows[flows['_merge'] == 'both'].index)

@@ -2,8 +2,8 @@
 import datetime
 import logging as log
 import math
-import os
 import uuid
+from pathlib import Path
 from typing import Optional
 
 import olca
@@ -127,15 +127,15 @@ class Writer(object):
         self.flow_mapping = flow_mapping
         self._context_uids = {}
 
-    def write_to(self, path: str):
+    def write_to(self, path: Path):
         """
         Writes json dictionaries to files
         :param path: string path to file
         :return: None
         """
-        if os.path.exists(path):
-            log.warning("File %s already exists and will be overwritten", path)
-            os.remove(path)
+        if path.exists():
+            log.warning(f'File {path} already exists and will be overwritten')
+            path.unlink()
         pw = pack.Writer(path)
         self._write_categories(pw)
         self._write_flows(pw)
