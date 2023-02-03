@@ -54,7 +54,7 @@ class _MapFlow(object):
         Creates a dictionary for an olca json file
         :return: dictionary
         """
-        flow_ref = olca.FlowRef()
+        flow_ref = olca.Ref()
         flow_ref.name = self.name
         if self.category is not None:
             flow_ref.category_path = self.category.split('/')
