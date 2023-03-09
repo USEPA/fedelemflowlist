@@ -7,11 +7,11 @@ BEWARE this will replace the existing mapping file if it exists in /flowmapping.
 """
 
 import pandas as pd
-from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, add_uuid_to_mapping,\
-    add_conversion_to_mapping
+from fedelemflowlist.globals import inputpath_mapping, flowmappingpath,\
+    add_uuid_to_mapping, add_conversion_to_mapping
 
 # Options: 'TRACI2.1', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
-lcia_name = 'IPCC'
+lcia_name = 'ImpactWorld+'
 
 
 if __name__ == '__main__':
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     lcia_lciafmt = lcia_lciafmt[['Flowable', 'Context']]
     lcia_lciafmt = lcia_lciafmt.drop_duplicates()
 
-    # Add in context matches. Assume these are in inputfolder with lcia_name+standardname.csv
+    # Add in context matches.
     def get_manual_mappings(source, ftype):
         """
         Loads a csv mapping file
@@ -33,7 +33,7 @@ if __name__ == '__main__':
         :param ftype: 'Flowable' or 'Context'
         :return: mapping file
         """
-        mappings = pd.read_csv(inputpath_mapping + source + ftype + 'Mappings.csv')
+        mappings = pd.read_csv(f'{inputpath_mapping}{source}{ftype}Mappings.csv')
         return mappings
 
     context_mappings = get_manual_mappings(lcia_name, 'Context')
@@ -41,9 +41,10 @@ if __name__ == '__main__':
                                           left_on='Context',
                                           right_on='SourceFlowContext')
     # Drop duplicate field
-    lciafmt_w_context_mappings = lciafmt_w_context_mappings.drop(columns=['Context'])
+    lciafmt_w_context_mappings = \
+        lciafmt_w_context_mappings.drop(columns=['Context'])
 
-    # Add in flowable matches. Assume these are in inputfolder with lcia_name+standardname.csv
+    # Add in flowable matches.
     flowable_mappings = get_manual_mappings(lcia_name, 'Flowable')
     
     left_field = 'Flowable'
@@ -52,8 +53,10 @@ if __name__ == '__main__':
     
     if lcia_name == 'ReCiPe2016':
         # Make all flowables lowercase to resolve case sensitivity issues in ReCiPe
-        flowable_mappings['SourceFlowName_low'] = flowable_mappings['SourceFlowName'].str.lower()
-        lciafmt_w_context_mappings['Flowable_low']=lciafmt_w_context_mappings['Flowable'].str.lower()
+        flowable_mappings['SourceFlowName_low'] = \
+            flowable_mappings['SourceFlowName'].str.lower()
+        lciafmt_w_context_mappings['Flowable_low'] = \
+            lciafmt_w_context_mappings['Flowable'].str.lower()
         left_field = 'Flowable_low'
         right_field = 'SourceFlowName_low'
         columns_to_drop.extend([left_field,right_field])
@@ -64,15 +67,21 @@ if __name__ == '__main__':
                                                    right_on = right_field)
 
     # Drop duplicate field
-    lciafmt_w_context_flowable_mappings = lciafmt_w_context_flowable_mappings.drop(columns=columns_to_drop)
+    lciafmt_w_context_flowable_mappings = \
+        lciafmt_w_context_flowable_mappings.drop(columns=columns_to_drop)
 
     # Add LCIA name and missing fields
     lciafmt_w_context_flowable_mappings['SourceListName'] = lcia_name
-    lciafmt_w_context_flowable_mappings['ConversionFactor'] = 1
+    if 'ConversionFactor' in flowable_mappings:
+        lciafmt_w_context_flowable_mappings['ConversionFactor'] = \
+            lciafmt_w_context_flowable_mappings['ConversionFactor'].fillna(1)
+    else:
+        lciafmt_w_context_flowable_mappings['ConversionFactor'] = 1
     lciafmt_w_context_flowable_mappings['SourceFlowUUID'] = None
     
     # Add conversion factors
-    lciafmt_w_context_flowable_mappings = add_conversion_to_mapping(lciafmt_w_context_flowable_mappings)
+    lciafmt_w_context_flowable_mappings = \
+        add_conversion_to_mapping(lciafmt_w_context_flowable_mappings)
     
     # Merge LCIA with Flowlist
     lcia_mappings = add_uuid_to_mapping(lciafmt_w_context_flowable_mappings)
