@@ -72,3 +72,4 @@ GHGI,HFC-32,,air,MT,=,1000,HFC-32,747fa9a4-559b-37a4-ac9b-5ca630274739,emission/
 GHGI,N2O,,air,MT,=,1000,Nitrous oxide,cfee0524-7ad6-300b-b050-6249135a2492,emission/air,kg,Bell,,11/16/2022
 GHGI,NF3,,air,MT,=,1000,Nitrogen trifluoride,80d4ef62-ca97-37d6-87ac-83233956c063,emission/air,kg,Bell,,11/16/2022
 GHGI,SF6,,air,MT,=,1000,Sulfur hexafluoride,8334c424-1603-3274-bec1-15a7bd5c8e86,emission/air,kg,Bell,,11/16/2022
+GHGI,Others,,air,MMT CO2e,=,1000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,2/22/2023

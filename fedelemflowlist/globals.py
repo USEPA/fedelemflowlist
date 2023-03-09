@@ -136,7 +136,7 @@ def add_uuid_to_mapping(flow_mapping):
                    .reset_index(drop=True))
         fname = (f"LOG_FlowsMappedWNoUUIDsFound_"
                  f"{datetime.now().strftime('%Y_%m_%d')}.csv")
-        dropped.to_csv(outputpath + fname, index=False)
+        dropped.to_csv(f'{outputpath}/{fname}', index=False)
         log.info(f"Mapped flows without UUIDs written to {fname}")
     flow_mapping_uuid.reset_index(drop=True, inplace=True)
     flowmapping_order = [c for c in list(flowmapping_fields.keys())
