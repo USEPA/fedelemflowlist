@@ -29,3 +29,4 @@ SIT,HFC-236fa,,air,MTCO2e,=,0.101937,HFC-236fa,32057bc6-6839-3dbc-b33d-5b72e542e
 SIT,HFC-32,,air,MTCO2e,=,1.481481,HFC-32,747fa9a4-559b-37a4-ac9b-5ca630274739,emission/air,kg,Bell,,10/17/2022
 SIT,NF3,,air,MTCO2e,=,0.05814,Nitrogen trifluoride,80d4ef62-ca97-37d6-87ac-83233956c063,emission/air,kg,Bell,,10/17/2022
 SIT,SF6,,air,MTCO2e,=,0.04386,Sulfur hexafluoride,8334c424-1603-3274-bec1-15a7bd5c8e86,emission/air,kg,Bell,,10/17/2022
+SIT,Others,,air,MTCO2e,=,1000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,5/1/2023
