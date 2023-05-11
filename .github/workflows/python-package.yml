@@ -29,14 +29,14 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        py-version: ['3.7', '3.8', '3.9', '3.10']
+        py-version: ['3.8', '3.9', '3.10']
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     # general Python setup
     - name: Set up Python ${{ matrix.py-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.py-version }}
 

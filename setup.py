@@ -10,6 +10,7 @@ setup(
                         "flowmapping/*.*"]
         },
     include_package_data=True,
+    python_requires=">=3.8",
     install_requires = [
         'pandas>=0.22',
         'olca-ipc>=0.0.12',
