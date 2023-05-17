@@ -19,7 +19,8 @@ class TestWritingJSONLD(unittest.TestCase):
         try:
             flowlist_json_file =  outputpath / 'test_FedElemFlowList_first100.zip'
             # Remove the test file if it already exists
-            flowlist_json_file.unlink(missing_ok=True)
+            if flowlist_json_file.exists():
+                flowlist_json_file.unlink()
             fedelemflowlist.write_jsonld(flowlist,flowlist_json_file)
         except PermissionError:
             log.error("No permission to write to file " + flowlist_json_file)
