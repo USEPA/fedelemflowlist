@@ -15003,3 +15003,23 @@ Allyl 2-hydroxyisobutyrate,Emission,Ground
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Water
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Air
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Ground
+"Methane, biogenic",Emission,Air
+"Methane, biogenic",Emission,Ground
+"Methane, biogenic",Emission,Water
+"Methane, biogenic",Resource,Air
+"Carbon dioxide, biogenic",Emission,Air
+"Carbon dioxide, biogenic",Emission,Ground
+"Carbon dioxide, biogenic",Emission,Water
+"Carbon dioxide, biogenic",Resource,Air
+"Carbon monoxide, biogenic",Emission,Air
+"Carbon monoxide, biogenic",Emission,Ground
+"Methane, biomass",Emission,Air
+"Methane, biomass",Emission,Ground
+"Methane, biomass",Emission,Water
+"Methane, biomass",Resource,Air
+"Carbon dioxide, biomass",Emission,Air
+"Carbon dioxide, biomass",Emission,Ground
+"Carbon dioxide, biomass",Emission,Water
+"Carbon dioxide, biomass",Resource,Air
+"Carbon monoxide, biomass",Emission,Air
+"Carbon monoxide, biomass",Emission,Ground
