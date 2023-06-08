@@ -74,4 +74,4 @@ if __name__ == '__main__':
     merged_df.dropna(subset=['Flowable'], inplace=True)
     merged_df = pd.concat([merged_df,name_match],ignore_index=True)
     
-    merged_df.to_csv(inputpath+'HAP_flows.csv', index=False)
+    merged_df.to_csv(inputpath / 'HAP_flows.csv', index=False)

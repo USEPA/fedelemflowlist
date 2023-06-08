@@ -1,6 +1,6 @@
 """Set common variables for use in package."""
 import sys
-import os
+from pathlib import Path
 import logging as log
 import fedelemflowlist
 import pandas as pd
@@ -9,18 +9,14 @@ from esupy.processed_data_mgmt import Paths, FileMeta, \
     load_preprocessed_output, write_df_to_file, download_from_remote
 from esupy.util import get_git_hash
 
-try:
-    modulepath = os.path.dirname(os.path.realpath(__file__)).replace('\\', '/') + '/'
-except NameError:
-    modulepath = 'fedelemflowlist/'
+MODULEPATH = Path(__file__).resolve().parent
 
-inputpath = modulepath + 'input/'
-inputpath_mapping = inputpath + 'mapping input/'
-flowmappingpath = modulepath + 'flowmapping/'
+inputpath = MODULEPATH / 'input'
+inputpath_mapping = inputpath / 'mapping input'
+flowmappingpath = MODULEPATH / 'flowmapping/'
 
 fedefl_path = Paths()
-fedefl_path.local_path = os.path.realpath(
-    fedefl_path.local_path + "/fedelemflowlist/")
+fedefl_path.local_path = fedefl_path.local_path / 'fedelemflowlist'
 outputpath = fedefl_path.local_path
 WRITE_FORMAT = 'parquet'
 GIT_HASH = get_git_hash()

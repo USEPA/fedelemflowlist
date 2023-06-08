@@ -21,4 +21,4 @@ if __name__ == '__main__':
 
     for s in pd.unique(mapping_w_flowinfo['SourceListName']):
         mapping = mapping_w_flowinfo[mapping_w_flowinfo['SourceListName'] == s]
-        mapping.to_csv(flowmappingpath + s + '.csv', index=False)
+        mapping.to_csv(flowmappingpath / f'{s}.csv', index=False)
