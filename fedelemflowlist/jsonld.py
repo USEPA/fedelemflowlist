@@ -5,13 +5,17 @@ import math
 import uuid
 from pathlib import Path
 from typing import Optional
-
-import olca_schema as o
-import olca_schema.units as units
-import olca_schema.zipio as zipio
 import pandas as pd
-from esupy.util import make_uuid
 
+try:
+    import olca_schema as o
+    import olca_schema.units as units
+    import olca_schema.zipio as zipio
+except ImportError:
+    raise ImportError("fedelemflowlist now requires olca-schema to align with "
+                      "openLCA v2.0. Use pip install olca-schema")
+
+from esupy.util import make_uuid
 import fedelemflowlist
 from fedelemflowlist.globals import flow_list_specs
 
