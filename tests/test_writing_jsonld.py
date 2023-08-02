@@ -29,18 +29,15 @@ class TestWritingJSONLD(unittest.TestCase):
             test_extract_path = outputpath / 'test_FedElemFlowList_first100'
             flowlist_json.extractall(test_extract_path)
             flows_path = test_extract_path / 'flows'
-            categories_path = test_extract_path / 'categories'
             len_extracted_flow_files = len(list(Path(flows_path).rglob('*')))
             # Clean up
             for f in Path.iterdir(flows_path):
                 Path.unlink(flows_path / f)
-            for f in Path.iterdir(categories_path):
-                Path.unlink(categories_path / f)
             Path.rmdir(flows_path)
-            Path.rmdir(categories_path)
+            Path.unlink(test_extract_path / 'olca-schema.json')
             Path.rmdir(test_extract_path)
         except FileNotFoundError:
-            log.error(flowlist_json_file + ' not found')
+            log.error(f'{flowlist_json_file} not found')
         self.assertEqual(100, len_extracted_flow_files)
 
 

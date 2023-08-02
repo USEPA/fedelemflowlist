@@ -80,7 +80,7 @@ class TestInputFiles(unittest.TestCase):
 
     def test_units_are_olcaunits(self):
         """Test that units are openlca reference units."""
-        import olca.units as olcaunits
+        import olca_schema.units as olcaunits
         
         for c_ in flow_list_specs["flow_classes"]:
             flowables = read_in_flowclass_file(c_, "Flowables")
