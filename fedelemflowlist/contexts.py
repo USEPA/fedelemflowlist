@@ -7,9 +7,9 @@ flowlist.py.
 
 import pandas as pd
 from esupy.util import as_path
-from fedelemflowlist.globals import inputpath, log, flow_list_specs
+from fedelemflowlist.globals import inputpath, flow_list_specs
 
-contexts = pd.read_csv(inputpath + 'Contexts.csv', na_values='N/A')
+contexts = pd.read_csv(inputpath / 'Contexts.csv', na_values='N/A')
 
 # Get levels for max number of compartment classes
 max_compartment_classes = len(contexts.columns)
