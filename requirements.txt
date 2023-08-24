@@ -1,4 +1,4 @@
-git+https://github.com/USEPA/esupy.git@develop#egg=esupy
+git+https://github.com/USEPA/esupy.git#egg=esupy
 olca-ipc==0.0.12
 pandas>=0.22                   # Powerful data structures for data analysis, time series, and statistics.
 pip>=9                         # The PyPA recommended tool for installing Python packages.
