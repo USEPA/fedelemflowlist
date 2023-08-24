@@ -12,7 +12,7 @@ from fedelemflowlist.globals import outputpath, flow_list_specs,\
 # get the current list
 
 # Enter name of old version here. Must be in output folder
-old_version = '1.0.9'
+old_version = '1.1.1'
 
 if __name__ == '__main__':
     ver = flow_list_specs['list_version']
@@ -26,11 +26,11 @@ if __name__ == '__main__':
 
     new_UUIDS = list(set(current_UUIDs) - set(old_list_UUIDs))
     new_flows = current_list[current_list['Flow UUID'].isin(new_UUIDS)]
-    new_flows.to_csv(f"{outputpath}/new_flows{old_version}to{ver}.csv",
+    new_flows.to_csv(outputpath / f"new_flows{old_version}to{ver}.csv",
                      index=False)
-    fedelemflowlist.write_jsonld(new_flows,
-                                 f"{outputpath}/FedElemFlowList_newflows{old_version}to{ver}.zip")
+    fedelemflowlist.write_jsonld(new_flows, outputpath /
+                                 f"FedElemFlowList_newflows{old_version}to{ver}.zip")
     expired_UUIDs = list(set(old_list_UUIDs) - set(current_UUIDs))
     expired_flows = old_list[old_list['Flow UUID'].isin(expired_UUIDs)]
-    expired_flows.to_csv(f"{outputpath}/expired_flows{old_version}to{ver}.csv",
+    expired_flows.to_csv(outputpath / f"expired_flows{old_version}to{ver}.csv",
                          index=False)
