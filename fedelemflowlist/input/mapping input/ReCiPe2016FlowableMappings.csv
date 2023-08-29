@@ -3545,3 +3545,21 @@ Peat,MJ,=,Peat,kg,Hottle,Name match,Edelen,conversion needed,1/7/2020
 Uranium,kg,=,U-238a,kBq,Young,Name match,Edelen,conversion needed,2/29/2020
 "Noble gases, radioactive, unspecified",kBq,=,"Noble gases, radioactive, unspecified",kBq,Hottle,Manual,,,4/6/2020
 "Actinides, unspecified",kBq,=,"Actinides, unspecified",kBq,Hottle,Manual,,,4/6/2020
+Fenoxaprop-P-ethyl,kg,~,Fenoxaprop-ethyl,kg,Filipe,ecoinvent as proxy,Daniel,,7/12/2023
+Glufosinate,kg,~,GLUFOSINATE-AMMONIUM,kg,Filipe,ecoinvent as proxy,Daniel,,7/12/2023
+Nitrogen oxides,kg,~,nitrogen oxides (as nitrogen dioxide),kg,Filipe,,Daniel,,7/12/2023
+beta-cyfluthrin,kg,~,CYFLUTHRIN,kg,Filipe,,Daniel,,6/20/2023
+Silver,kg,~,Ag(I),kg,Filipe,,Daniel,,6/20/2023
+Arsenic,kg,~,As(V),kg,Filipe,,Daniel,,6/20/2023
+Cadmium,kg,~,Cd(II),kg,Filipe,,Daniel,,6/20/2023
+Cobalt,kg,~,Co(II),kg,Filipe,,Daniel,,6/20/2023
+Chromium,kg,~,Cr(III),kg,Filipe,,Daniel,,6/20/2023
+Copper,kg,~,Cu(II),kg,Filipe,,Daniel,,6/20/2023
+Copper(I),kg,~,Cu(II),kg,Filipe,,Daniel,,6/20/2023
+Mercury,kg,~,Hg(II),kg,Filipe,,Daniel,,6/20/2023
+Molybdenum,kg,~,Mo(VI),kg,Filipe,,Daniel,,6/20/2023
+Nickel,kg,~,Ni(II),kg,Filipe,,Daniel,,6/20/2023
+Lead,kg,~,Pb(II),kg,Filipe,,Daniel,,6/20/2023
+Antimony,kg,~,Sb(V),kg,Filipe,,Daniel,,6/20/2023
+Thallium,kg,~,Tl(I),kg,Filipe,,Daniel,,6/20/2023
+Zinc,kg,~,Zn(II),kg,Filipe,,Daniel,,6/20/2023
