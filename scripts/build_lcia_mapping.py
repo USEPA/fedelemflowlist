@@ -19,8 +19,8 @@ if __name__ == '__main__':
     import lciafmt
     lcia_lciafmt = lciafmt.get_method(lcia_name, endpoint = False)
     lcia_endpoint = lciafmt.get_method(lcia_name, endpoint = True)
-    lcia_lciafmt = lcia_lciafmt.append(lcia_endpoint, ignore_index = True)
-   
+    lcia_lciafmt = pd.concat([lcia_lciafmt, lcia_endpoint], ignore_index = True)
+
     # Keep only flowable and category
     lcia_lciafmt = lcia_lciafmt[['Flowable', 'Context']]
     lcia_lciafmt = lcia_lciafmt.drop_duplicates()
