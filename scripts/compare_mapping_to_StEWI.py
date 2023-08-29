@@ -22,9 +22,9 @@ all_flows = all_flows[['FlowName','Source']].drop_duplicates()
 
 for source_name in all_flows['Source'].unique():
     try:
-        flowables = pd.read_csv(inputpath_mapping + source_name + '_FlowableMappings.csv')
+        flowables = pd.read_csv(inputpath_mapping / f'{source_name}_FlowableMappings.csv')
     except FileNotFoundError:
-        print('FlowableMappings not found for ' + source_name)
+        print(f'FlowableMappings not found for {source_name}')
         continue
     # remove unmapped flows
     #flowables.dropna(subset=['TargetUnit'], inplace=True)
@@ -38,4 +38,4 @@ for source_name in all_flows['Source'].unique():
         print(str(len(missing)) + ' flows missing for ' + source_name + " in FlowableMapping:")
         print(missing)
     else:
-        print('all flows found in FlowableMappings for ' + source_name)
+        print(f'all flows found in FlowableMappings for {source_name}')

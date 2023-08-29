@@ -7,7 +7,7 @@ BEWARE this will replace the existing mapping file if it exists in /flowmapping.
 """
 
 import pandas as pd
-from fedelemflowlist.globals import inputpath_mapping, flowmappingpath,\
+from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, \
     add_uuid_to_mapping, add_conversion_to_mapping
 
 # Options: 'TRACI2.1', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
@@ -33,7 +33,7 @@ if __name__ == '__main__':
         :param ftype: 'Flowable' or 'Context'
         :return: mapping file
         """
-        mappings = pd.read_csv(f'{inputpath_mapping}{source}{ftype}Mappings.csv')
+        mappings = pd.read_csv(inputpath_mapping / f'{source}{ftype}Mappings.csv')
         return mappings
 
     context_mappings = get_manual_mappings(lcia_name, 'Context')
@@ -91,4 +91,4 @@ if __name__ == '__main__':
                               inplace=True, ignore_index=True)
 
     # Write them to a csv
-    lcia_mappings.to_csv(flowmappingpath + lcia_name + '.csv', index=False)
+    lcia_mappings.to_csv(flowmappingpath / f'{lcia_name}.csv', index=False)

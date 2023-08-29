@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='fedelemflowlist',
-    version='1.1.0',
+    version='1.1.2',
     packages=['fedelemflowlist'],
     package_dir={'fedelemflowlist': 'fedelemflowlist'},
     package_data={'fedelemflowlist': [
@@ -10,9 +10,10 @@ setup(
                         "flowmapping/*.*"]
         },
     include_package_data=True,
+    python_requires=">=3.7",
     install_requires = [
         'pandas>=0.22',
-        'olca-ipc>=0.0.12',
+        'olca-ipc==0.0.12',
         'esupy @ git+https://github.com/USEPA/esupy.git@develop#egg=esupy',
         ],
     url='https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List',
