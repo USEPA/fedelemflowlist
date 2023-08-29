@@ -3457,7 +3457,7 @@ Thallium(I),kg,=,Tl(I),kg,Hottle,Manual,Edelen,,1/7/2020
 Vanadium,kg,<,V(V),kg,Hottle,Manual,Edelen,,1/7/2020
 Zinc(II),kg,=,Zn(II),kg,Hottle,Manual,Edelen,,1/7/2020
 Polycyclic aromatic hydrocarbons,kg,=,"PAH, polycyclic aromatic hydrocarbons",kg,Hottle,Manual,Edelen,,1/7/2020
-Land use,m2*a,=,pasture,m2*a,Hottle,Manual,,,2/25/2020
+Land use,m2*a,=,pasture,m2*a,Filipe,ecoinvent as proxy,Daniel,,6/20/2023
 Land use,m2*a,=,permanent crops,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,artificial area,m2*a,Hottle,Manual,,,2/25/2020
 Land use,m2*a,=,annual crops,m2*a,Hottle,Manual,,,2/25/2020
