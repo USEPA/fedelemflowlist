@@ -173,7 +173,7 @@ class Writer(object):
             flow.category = "Elementary flows/" + row['Context'].lower()
 
             fp = o.FlowPropertyFactor()
-            fp.reference_flow_property = True
+            fp.is_ref_flow_property = True
             fp.conversion_factor = 1.0
             fp.flow_property = units.property_ref(row["Unit"])
             if fp.flow_property is None:
@@ -188,7 +188,7 @@ class Writer(object):
                 altunits=altflowlist[altflowlist['Flowable']==row["Flowable"]]
                 for i, alternate in altunits.iterrows():
                     altfp = o.FlowPropertyFactor()
-                    altfp.reference_flow_property = False
+                    altfp.is_ref_flow_property = False
                     altfp.conversion_factor = alternate['AltUnitConversionFactor']
                     altfp.flow_property = units.property_ref(alternate["AltUnit"])
                     if altfp.flow_property is None:
