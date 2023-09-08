@@ -6,7 +6,8 @@
 Allows retrieval of the Federal LCA Commons flow list and mapping files
 in standard pandas dataframe formats, defined within format specs
 """
-import os
+
+from pathlib import Path
 import pandas as pd
 from fedelemflowlist.flowlist import read_in_flowclass_file
 from fedelemflowlist.globals import flowmappingpath, flow_list_specs,\
@@ -32,7 +33,7 @@ def get_flows(preferred_only=None, subset=None, download_if_missing=True):
         try:
             flows = getattr(subset_list,subsets[subset])(flows)
         except KeyError:
-            log.error("Subset " + subset + " not found.")
+            log.error(f'Subset {subset} not found.')
             flows = None
     return flows
 
@@ -48,26 +49,24 @@ def get_flowmapping(source=None):
     """
     flowmappings = pd.DataFrame()
     if source is not None:
-        if type(source).__name__ == 'str':
+        if isinstance(source, str):
             source = [source]
         for f in source:
-            mapping_file = flowmappingpath+f+'.csv'
+            mapping_file = flowmappingpath / f'{f}.csv'
             try:
                 flowmapping = pd.read_csv(mapping_file, header=0)
                 flowmappings = pd.concat([flowmappings, flowmapping])
             except FileNotFoundError:
-                log.warn("No mapping file found for " + str(f))
+                log.warn(f'No mapping file found for {f}')
     else:
-        # load all mappings in directory
-        files = os.listdir(flowmappingpath)
-        for name in files:
-            if name.endswith(".csv"):
-                flowmapping = pd.read_csv(flowmappingpath+name, header=0)
+        for name in flowmappingpath.iterdir():
+            if name.suffix == '.csv':
+                flowmapping = pd.read_csv(flowmappingpath / name, header=0)
                 flowmappings = pd.concat([flowmappings, flowmapping])
     return flowmappings
 
 
-def write_jsonld(flows, path, mappings=None):
+def write_jsonld(flows, path: Path, mappings=None):
     """ Writes a standard openLCA JSON-LD zip archive with elementary flows and optionally
      flowmappings
 
@@ -90,12 +89,14 @@ def get_alt_conversion():
             altflowlist = pd.concat([altflowlist,altunits_for_class],ignore_index=True)
         except FileNotFoundError:
             altunits_for_class = None # Do nothing
-    altflowlist = altflowlist.drop(columns=['External Reference'])
-    altflowlist = altflowlist.rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
-                                                                    'Alternate Unit': 'AltUnit',
-                                                                    'Reference Unit': 'Unit'})
-    #generate InverseConversionFactor for converting from alt unit to primary unit
+    altflowlist = (altflowlist
+                   .drop(columns=['External Reference'])
+                   .rename(columns={'Conversion Factor': 'AltUnitConversionFactor',
+                                    'Alternate Unit': 'AltUnit',
+                                    'Reference Unit': 'Unit'})
+                   )
+    # generate InverseConversionFactor for converting from alt unit to primary unit
     altflowlist['InverseConversionFactor']=1/altflowlist['AltUnitConversionFactor']
-    #round to 6 decimals
+    # round to 6 decimals
     altflowlist = altflowlist.round({'InverseConversionFactor':6})
     return altflowlist
