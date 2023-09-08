@@ -15017,9 +15017,13 @@ Allyl 2-hydroxyisobutyrate,Emission,Ground
 "Methane, biomass",Emission,Ground
 "Methane, biomass",Emission,Water
 "Methane, biomass",Resource,Air
+"Methane, biomass",Resource,Ground
 "Carbon dioxide, biomass",Emission,Air
 "Carbon dioxide, biomass",Emission,Ground
 "Carbon dioxide, biomass",Emission,Water
 "Carbon dioxide, biomass",Resource,Air
+"Carbon dioxide, biomass",Resource,Ground
 "Carbon monoxide, biomass",Emission,Air
 "Carbon monoxide, biomass",Emission,Ground
+"Carbon monoxide, biomass",Resource,Ground
+"Carbon monoxide, biomass",Resource,Air
