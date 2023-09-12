@@ -5,13 +5,17 @@ import math
 import uuid
 from pathlib import Path
 from typing import Optional
-
-import olca
-import olca.units as units
-import olca.pack as pack
 import pandas as pd
-from esupy.util import make_uuid
 
+try:
+    import olca_schema as o
+    import olca_schema.units as units
+    import olca_schema.zipio as zipio
+except ImportError:
+    raise ImportError("fedelemflowlist now requires olca-schema to align with "
+                      "openLCA v2.0. Use pip install olca-schema")
+
+from esupy.util import make_uuid
 import fedelemflowlist
 from fedelemflowlist.globals import flow_list_specs
 
@@ -54,7 +58,7 @@ class _MapFlow(object):
         Creates a dictionary for an olca json file
         :return: dictionary
         """
-        flow_ref = olca.Ref()
+        flow_ref = o.Ref()
         flow_ref.name = self.name
         if self.category is not None:
             flow_ref.category_path = self.category.split('/')
@@ -136,49 +140,13 @@ class Writer(object):
         if path.exists():
             log.warning(f'File {path} already exists and will be overwritten')
             path.unlink()
-        pw = pack.Writer(path)
-        self._write_categories(pw)
-        self._write_flows(pw)
+        zw = zipio.ZipWriter(path)
+        self._write_flows(zw)
         if self.flow_mapping is not None:
-            self._write_mappings(pw)
-        pw.close()
+            self._write_mappings(zw)
+        zw.close()
 
-    def _write_categories(self, pw: pack.Writer):
-
-        root = olca.Category()
-        root.id = "f318fa60-bae9-361f-ad5a-5066a0e2a9d1"
-        root.name = "Elementary flows"
-        root.model_type = olca.ModelType.FLOW
-        self._context_uids[root.name.lower()] = root.id
-        pw.write(root)
-
-        for _, row in self.flow_list.iterrows():
-            path = row['Context']
-            if not isinstance(path, str):
-                continue
-            path = path.strip()
-            if path == '' or path.lower() in self._context_uids:
-                continue
-            parts = path.split("/")
-            parent_id = root.id
-            for i in range(0, len(parts)):
-                lpath = "/".join(parts[0:i+1]).lower()
-                uid = self._context_uids.get(lpath)
-                if uid is not None:
-                    parent_id = uid
-                    continue
-                uid = make_uuid("Flow", lpath)
-                log.info("create category %s", lpath)
-                c = olca.Category()
-                c.id = uid
-                c.name = parts[i]
-                c.category = olca.ref(olca.Category, parent_id)
-                c.model_type = olca.ModelType.FLOW
-                pw.write(c)
-                self._context_uids[lpath] = uid
-                parent_id = uid
-
-    def _write_flows(self, pw: pack.Writer):
+    def _write_flows(self, zw: zipio.ZipWriter):
         altflowlist=fedelemflowlist.get_alt_conversion()
         for _, row in self.flow_list.iterrows():
             description = "From FedElemFlowList_"+flow_list_specs['list_version']+'.'
@@ -192,7 +160,7 @@ class Writer(object):
             else:
                 description += " Not a preferred flow."
 
-            flow = olca.Flow()
+            flow = o.Flow()
             flow.description = description
             flow.id = row["Flow UUID"]
             flow.name = row["Flowable"]
@@ -201,14 +169,11 @@ class Writer(object):
             flow.version = flow_list_specs['list_version']
             flow.synonyms = row.get("Synonyms")
             flow.last_change = datetime.datetime.now().isoformat()
-            flow.flow_type = olca.FlowType.ELEMENTARY_FLOW
+            flow.flow_type = o.FlowType.ELEMENTARY_FLOW
+            flow.category = "Elementary flows/" + row['Context'].lower()
 
-            context_uid = self._context_uids.get(row['Context'].lower())
-            if context_uid is not None:
-                flow.category = olca.ref(olca.Category, context_uid)
-
-            fp = olca.FlowPropertyFactor()
-            fp.reference_flow_property = True
+            fp = o.FlowPropertyFactor()
+            fp.is_ref_flow_property = True
             fp.conversion_factor = 1.0
             fp.flow_property = units.property_ref(row["Unit"])
             if fp.flow_property is None:
@@ -222,8 +187,8 @@ class Writer(object):
                 #create dataframe of all alternate units for this flowable
                 altunits=altflowlist[altflowlist['Flowable']==row["Flowable"]]
                 for i, alternate in altunits.iterrows():
-                    altfp = olca.FlowPropertyFactor()
-                    altfp.reference_flow_property = False
+                    altfp = o.FlowPropertyFactor()
+                    altfp.is_ref_flow_property = False
                     altfp.conversion_factor = alternate['AltUnitConversionFactor']
                     altfp.flow_property = units.property_ref(alternate["AltUnit"])
                     if altfp.flow_property is None:
@@ -231,9 +196,9 @@ class Writer(object):
                                     alternate["AltUnit"], row["Flow UUID"])
                     else:
                         flow.flow_properties.append(altfp)
-            pw.write(flow)
+            zw.write(flow)
 
-    def _write_mappings(self, pw: pack.Writer):
+    def _write_mappings(self, zw: zipio.ZipWriter):
         maps = {}
         for i, row in self.flow_mapping.iterrows():
             me = _MapEntry(row)
@@ -244,8 +209,8 @@ class Writer(object):
             m.append(me)
 
         for source_list, entries in maps.items():
-            list_ref = olca.Ref()
-            list_ref.olca_type = 'FlowMap'
+            list_ref = o.Ref()
+            list_ref.o_type = 'FlowMap'
             list_ref.name = source_list
             mappings = []
             flow_map = {
@@ -256,4 +221,4 @@ class Writer(object):
             }
             for e in entries:
                 mappings.append(e.to_json())
-            pw.write_json(flow_map, 'flow_mappings')
+            zw.write_json(flow_map, 'flow_mappings')
