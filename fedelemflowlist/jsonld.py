@@ -224,4 +224,6 @@ class Writer(object):
             # an ugly hack to write the flow maps directly to the zip-file
             # as there are currenty only methods for writing RootEntity
             # objects in the ZipWriter
-            zw._ZipWriter__zip.writestr("flow_mappings", json.dumps(flow_map))
+            zw._ZipWriter__zip.writestr(
+                "flow_mappings/" + flow_map["@id"] + ".json",
+                json.dumps(flow_map))
