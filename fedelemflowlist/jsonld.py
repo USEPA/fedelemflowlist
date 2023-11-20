@@ -6,6 +6,7 @@ import uuid
 from pathlib import Path
 from typing import Optional
 import pandas as pd
+import json
 
 try:
     import olca_schema as o
@@ -61,23 +62,21 @@ class _MapFlow(object):
         flow_ref = o.Ref()
         flow_ref.name = self.name
         if self.category is not None:
-            flow_ref.category_path = self.category.split('/')
+            flow_ref.category = self.category
 
         # set the UUID or generate it from the attributes
         if self.uid is None:
-            flow_ref.id = make_uuid("Flow",
-                                    self.category, self.name)
+            flow_ref.id = make_uuid("Flow", self.category, self.name)
         else:
             flow_ref.id = self.uid
 
         json = {
-            'flow': flow_ref.to_json()
+            'flow': flow_ref.to_dict()
         }
         if self.unit is not None:
             unit_ref = units.unit_ref(self.unit)
             if unit_ref is not None:
-                json['unit'] = unit_ref.to_json()
-
+                json['unit'] = unit_ref.to_dict()
         return json
 
 
@@ -210,15 +209,21 @@ class Writer(object):
 
         for source_list, entries in maps.items():
             list_ref = o.Ref()
-            list_ref.o_type = 'FlowMap'
+            list_ref.ref_type = o.RefType.FlowMap
             list_ref.name = source_list
             mappings = []
             flow_map = {
                 '@id': str(uuid.uuid4()),
                 'name': '%s -> Fed.LCA Commons' % source_list,
-                'source': list_ref.to_json(),
+                'source': list_ref.to_dict(),
                 'mappings': mappings
             }
             for e in entries:
                 mappings.append(e.to_json())
-            zw.write_json(flow_map, 'flow_mappings')
+
+            # an ugly hack to write the flow maps directly to the zip-file
+            # as there are currenty only methods for writing RootEntity
+            # objects in the ZipWriter
+            zw._ZipWriter__zip.writestr(
+                "flow_mappings/" + flow_map["@id"] + ".json",
+                json.dumps(flow_map))
