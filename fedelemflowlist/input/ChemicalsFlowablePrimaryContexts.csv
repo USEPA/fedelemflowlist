@@ -9515,6 +9515,7 @@ Sulfur trioxide,Emission,Air
 6-Nitrochrysene,Emission,Air
 Cobalt carbonate,Emission,Air
 Phosphorus trichloride,Emission,Air
+Phosphorus trichloride,Emission,Water
 Potassium bromate,Emission,Air
 Sodium chromate(VI),Emission,Air
 Hydrogen selenide,Emission,Air
@@ -11434,6 +11435,7 @@ Tin oxide,Emission,Air
 Triazamate,Emission,Ground
 "1,2,4-Benzotriazine, 7-chloro-3-(1H-imidazol-1-yl)-, 1-oxide",Emission,Ground
 Triphenyltin,Emission,Ground
+Triphenyltin,Emission,Water
 Trichlorosilane,Emission,Air
 Trichlorosilane,Emission,Water
 Triticonazole,Emission,Ground
@@ -15033,3 +15035,17 @@ Thionyl chloride,Emission,Air
 Strontium(II),Emission,Air
 Strontium(II),Emission,Ground
 Strontium(II),Emission,Water
+Pydiflumetofen,Emission,Air
+Pydiflumetofen,Emission,Ground
+Phosphorus pentachloride,Emission,Water
+Penflufen,Emission,Ground
+Penflufen,Emission,Water
+Monobutyltin(III),Emission,Water
+Diphenyltin,Emission,Water
+Dimethyldichlorosilane,Emission,Air
+Dimethyldichlorosilane,Emission,Water
+Diflufenzopyr,Emission,Air
+Diflufenzopyr,Emission,Water
+Dibutyltin,Emission,Water
+Ammonium sulfate,Emission,Water
+Octaethylene glycol monododecyl ether,Emission,Air
