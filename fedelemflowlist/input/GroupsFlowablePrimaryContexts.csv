@@ -304,6 +304,7 @@ Oxygenated compounds,Emission,Air
 "Paraffin, C7",Emission,Air
 "Paraffin, C8",Emission,Air
 "Paraffin, C9",Emission,Air
+Pesticides,Emission,Air
 Pesticides,Emission,Ground
 Pesticides,Emission,Water
 "Pesticides, chlorinated",Emission,Ground

@@ -10048,6 +10048,7 @@ Uranyl(III),Emission,Water
 "Heptane, 2,4-dimethyl-",Emission,Air
 "Heptane, 2,5-dimethyl-",Emission,Air
 "Octane, 3-methyl-",Emission,Air
+Aluminum(III),Emission,Air
 Aluminum(III),Emission,Ground
 Aluminum(III),Emission,Water
 Bendiocarb phenol,Emission,Ground
@@ -11634,13 +11635,18 @@ Protactinium-234,Emission,Water
 Praseodymium-147,Emission,Air
 Praseodymium,Resource,Ground
 Krypton-89,Emission,Air
+Potassium(I),Emission,Air
+Potassium(I),Emission,Ground
 Potassium(I),Emission,Water
 Nickel(III),Emission,Water
 Nickel(II),Emission,Air
 Nickel(II),Emission,Ground
 Nickel(II),Emission,Water
+Sodium(I),Emission,Air
+Sodium(I),Emission,Ground
 Sodium(I),Emission,Water
 Manganese(III),Emission,Water
+Calcium(II),Emission,Air
 Calcium(II),Emission,Ground
 Calcium(II),Emission,Water
 Cadmium(II),Emission,Air
@@ -11649,6 +11655,8 @@ Cadmium(II),Emission,Water
 Lead(II),Emission,Air
 Lead(II),Emission,Ground
 Lead(II),Emission,Water
+Manganese(II),Emission,Air
+Manganese(II),Emission,Ground
 Manganese(II),Emission,Water
 "Glyphosate, ammonium salt",Emission,Air
 "Glyphosate, ammonium salt",Emission,Ground
@@ -11657,6 +11665,8 @@ Iodosulfuron-methyl,Emission,Ground
 Vanadium(III),Emission,Air
 Vanadium(III),Emission,Ground
 Vanadium(III),Emission,Water
+Lithium(I),Emission,Air
+Lithium(I),Emission,Ground
 Lithium(I),Emission,Water
 Copper(I),Emission,Water
 Copper(I),Emission,Ground
@@ -15003,3 +15013,23 @@ Allyl 2-hydroxyisobutyrate,Emission,Ground
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Water
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Air
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Ground
+Palladium(II),Emission,Air
+Palladium(II),Emission,Water
+Palladium(II),Emission,Ground
+Titanium(II),Emission,Air
+Titanium(II),Emission,Water
+Titanium(II),Emission,Ground
+Titanium(IV),Emission,Air
+Titanium(IV),Emission,Water
+Titanium(IV),Emission,Ground
+Rhodium(III),Emission,Air
+Phenyltin,Emission,Water
+Potassium dihydrogen phosphite,Emission,Ground
+Mefentrifluconazole,Emission,Ground
+Sulfur dichloride,Emission,Air
+Sulfur dichloride,Emission,Water
+Sodium methoxide,Emission,Water
+Thionyl chloride,Emission,Air
+Strontium(II),Emission,Air
+Strontium(II),Emission,Ground
+Strontium(II),Emission,Water
