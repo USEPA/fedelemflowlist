@@ -3439,7 +3439,9 @@ Silver(I),kg,=,Ag(I),kg,Hottle,Manual,Edelen,,1/7/2020
 Arsenic(III),kg,=,As(III),kg,Hottle,Manual,Edelen,,1/7/2020
 Arsenic(V),kg,=,As(V),kg,Hottle,Manual,Edelen,,1/7/2020
 Barium,kg,<,Ba(II),kg,Hottle,Manual,Edelen,,1/7/2020
+Barium(II),kg,=,Ba(II),kg,Filipe,Manual,,,1/4/2024
 Beryllium,kg,<,Be(II),kg,Hottle,Manual,Edelen,,1/7/2020
+Beryllium(II),kg,=,Be(II),kg,Filipe,Manual,,,1/4/2024
 Cadmium(II),kg,=,Cd(II),kg,Hottle,Manual,Edelen,,1/7/2020
 Cobalt(II),kg,=,Co(II),kg,Hottle,Manual,Edelen,,1/7/2020
 Chromium(III),kg,=,Cr(III),kg,Hottle,Manual,Edelen,,1/7/2020
@@ -3453,6 +3455,7 @@ Antimony(III),kg,=,Sb(III),kg,Hottle,Manual,Edelen,,1/7/2020
 Antimony(V),kg,=,Sb(V),kg,Hottle,Manual,Edelen,,1/7/2020
 Selenium,kg,<,Se(IV),kg,Hottle,Manual,Edelen,,1/7/2020
 Tin,kg,<,Sn(II),kg,Hottle,Manual,Edelen,,1/7/2020
+Tin(II),kg,=,Sn(II),kg,Filipe,Manual,,,1/4/2024
 Thallium(I),kg,=,Tl(I),kg,Hottle,Manual,Edelen,,1/7/2020
 Vanadium,kg,<,V(V),kg,Hottle,Manual,Edelen,,1/7/2020
 Zinc(II),kg,=,Zn(II),kg,Hottle,Manual,Edelen,,1/7/2020
