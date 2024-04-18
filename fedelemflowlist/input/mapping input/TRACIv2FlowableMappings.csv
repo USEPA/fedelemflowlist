@@ -3576,3 +3576,7 @@ Thallium,kg,~,THALLIUM(I),kg,Hottle,,Edelen,Added mapping so that metals are ass
 Arsenic,kg,~,ARSENIC(III),kg,Hottle,,Edelen,Added mapping so that metals are associated with a CF when TRACI is used,1/17/2020
 Chromium,kg,~,CHROMIUM(III),kg,Hottle,,Edelen,Added mapping so that metals are associated with a CF when TRACI is used,1/17/2020
 Silver,kg,~,SILVER(I),kg,Hottle,,Edelen,Added mapping so that metals are associated with a CF when TRACI is used,1/17/2020
+Phosphorus,kg,~,Flow_P,kg,,,,,
+Nitrogen,kg,~,Flow_N,kg,,,,,
+Ammonium,kg,~,Flow_NH3 as N,kg,,,,,
+Nitrogen dioxide,kg,~,Flow_NOx as N,kg,,,,,

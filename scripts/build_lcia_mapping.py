@@ -10,8 +10,13 @@ import pandas as pd
 from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, \
     add_uuid_to_mapping, add_conversion_to_mapping
 
-# Options: 'TRACI2.1', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
-lcia_name = 'ImpactWorld+'
+# Options: 'TRACI2.1', 'TRACI2.2', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
+lcia_name = 'TRACI2.2'
+if 'TRACI' in lcia_name:
+    # use same source data for all TRACI versions
+    source_name = 'TRACIv2'
+else:
+    source_name = lcia_name
 
 
 if __name__ == '__main__':
@@ -36,7 +41,7 @@ if __name__ == '__main__':
         mappings = pd.read_csv(inputpath_mapping / f'{source}{ftype}Mappings.csv')
         return mappings
 
-    context_mappings = get_manual_mappings(lcia_name, 'Context')
+    context_mappings = get_manual_mappings(source_name, 'Context')
     lciafmt_w_context_mappings = pd.merge(lcia_lciafmt, context_mappings,
                                           left_on='Context',
                                           right_on='SourceFlowContext')
@@ -45,7 +50,7 @@ if __name__ == '__main__':
         lciafmt_w_context_mappings.drop(columns=['Context'])
 
     # Add in flowable matches.
-    flowable_mappings = get_manual_mappings(lcia_name, 'Flowable')
+    flowable_mappings = get_manual_mappings(source_name, 'Flowable')
     
     left_field = 'Flowable'
     right_field = 'SourceFlowName'
