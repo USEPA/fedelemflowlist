@@ -66,7 +66,7 @@ def get_flowmapping(source=None):
     return flowmappings
 
 
-def write_jsonld(flows, path: Path, mappings=None):
+def write_jsonld(flows, path: Path, mappings=None, **kwargs):
     """ Writes a standard openLCA JSON-LD zip archive with elementary flows and optionally
      flowmappings
 
@@ -76,7 +76,7 @@ def write_jsonld(flows, path: Path, mappings=None):
     :return: writes out .zip file
     """
     writer = jsonld.Writer(flow_list=flows, flow_mapping=mappings)
-    writer.write_to(path)
+    writer.write_to(path, zw=kwargs.get('zw'))
 
 def get_alt_conversion():
     """returns a dataframe of all flowables with altunits and alt conversion factors
