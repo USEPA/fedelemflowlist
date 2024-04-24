@@ -33,7 +33,7 @@ context_patterns = []
 context_list_na_removed = list()
 for index, row in contexts.iterrows():
     pattern = [compartment_classes[x] for x in range(0, max_compartment_classes)
-               if str(row[x]) != 'nan']
+               if str(row.iloc[x]) != 'nan']
     pattern = ','.join(pattern)
     context_patterns.append(pattern)
     row_list = row.values
