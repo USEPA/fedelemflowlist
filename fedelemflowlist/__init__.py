@@ -16,7 +16,7 @@ import fedelemflowlist.jsonld as jsonld
 from fedelemflowlist.subset_list import subsets
 import fedelemflowlist.subset_list as subset_list
 
-def get_flows(preferred_only=None, subset=None, download_if_missing=True):
+def get_flows(preferred_only=False, subset=None, download_if_missing=True):
     """Gets a flow list in a standard format
 
     Returns the full master flow list unless preferred flows is lists
