@@ -16,7 +16,7 @@ import fedelemflowlist.jsonld as jsonld
 from fedelemflowlist.subset_list import subsets
 import fedelemflowlist.subset_list as subset_list
 
-def get_flows(preferred_only=None, subset=None, download_if_missing=True):
+def get_flows(preferred_only=False, subset=None, download_if_missing=True):
     """Gets a flow list in a standard format
 
     Returns the full master flow list unless preferred flows is lists
@@ -66,7 +66,7 @@ def get_flowmapping(source=None):
     return flowmappings
 
 
-def write_jsonld(flows, path: Path, mappings=None):
+def write_jsonld(flows, path: Path, mappings=None, **kwargs):
     """ Writes a standard openLCA JSON-LD zip archive with elementary flows and optionally
      flowmappings
 
@@ -76,7 +76,7 @@ def write_jsonld(flows, path: Path, mappings=None):
     :return: writes out .zip file
     """
     writer = jsonld.Writer(flow_list=flows, flow_mapping=mappings)
-    writer.write_to(path)
+    writer.write_to(path, zw=kwargs.get('zw'))
 
 def get_alt_conversion():
     """returns a dataframe of all flowables with altunits and alt conversion factors
