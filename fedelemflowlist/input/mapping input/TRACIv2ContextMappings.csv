@@ -127,3 +127,27 @@ freshwater,emission/water/brackish water body/lake/urban
 freshwater,emission/water/brackish water body/lake/rural
 marine,emission/water/saline water body
 marine,emission/water/saline water body/ocean
+soil,emission/ground
+soil,emission/ground/terrestrial/wetland
+soil,emission/ground/terrestrial/barren land
+soil,emission/ground/terrestrial/snow and ice
+soil,emission/ground/terrestrial/grassland
+soil,emission/ground/terrestrial/shrubland
+soil,emission/ground/terrestrial/forest
+soil,emission/ground/human-dominated
+soil,emission/ground/human-dominated/industrial
+soil,emission/ground/human-dominated/commercial
+soil,emission/ground/human-dominated/residential
+soil,emission/ground/human-dominated/industrial/urban
+soil,emission/ground/human-dominated/industrial/rural
+soil,emission/ground/human-dominated/commercial/urban
+soil,emission/ground/human-dominated/commercial/rural
+soil,emission/ground/human-dominated/residential/urban
+soil,emission/ground/human-dominated/residential/rural
+soil,emission/ground/urban
+soil,emission/ground/rural
+soil,emission/ground/human-dominated/urban
+soil,emission/ground/human-dominated/rural
+soil,emission/ground/human-dominated/agricultural
+soil,emission/ground/human-dominated/agricultural/rural
+soil,emission/ground/human-dominated/agricultural/urban
