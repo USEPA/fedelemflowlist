@@ -23,8 +23,9 @@ if __name__ == '__main__':
     ## Bring in flowables and contexts from the lcia_formatter
     import lciafmt
     lcia_lciafmt = lciafmt.get_method(lcia_name, endpoint = False)
-    lcia_endpoint = lciafmt.get_method(lcia_name, endpoint = True)
-    lcia_lciafmt = pd.concat([lcia_lciafmt, lcia_endpoint], ignore_index = True)
+    if 'recipe' in lcia_name.lower():
+        lcia_endpoint = lciafmt.get_method(lcia_name, endpoint = True)
+        lcia_lciafmt = pd.concat([lcia_lciafmt, lcia_endpoint], ignore_index = True)
 
     # Keep only flowable and category
     lcia_lciafmt = lcia_lciafmt[['Flowable', 'Context']]
@@ -92,8 +93,9 @@ if __name__ == '__main__':
     lcia_mappings = add_uuid_to_mapping(lciafmt_w_context_flowable_mappings)
    
     # Sort to maintain mapping file consistency
-    lcia_mappings.sort_values(by=['SourceFlowName','SourceFlowContext'],
-                              inplace=True, ignore_index=True)
+    lcia_mappings = (lcia_mappings
+                     .sort_values(by=['SourceFlowName','SourceFlowContext'],
+                                  ignore_index=True))
 
     # Write them to a csv
     lcia_mappings.to_csv(flowmappingpath / f'{lcia_name}.csv', index=False)
