@@ -125,15 +125,5 @@ freshwater,emission/water/fresh water body/river/urban
 freshwater,emission/water/fresh water body/river/rural
 freshwater,emission/water/brackish water body/lake/urban
 freshwater,emission/water/brackish water body/lake/rural
-freshwater,emission/water/subterranean
-freshwater,emission/water/subterranean/fresh water body
-freshwater,emission/water/subterranean/brackish water body
-freshwater,emission/water/subterranean/saline water body
-freshwater,emission/water/subterranean/fresh water body/confined aquifer
-freshwater,emission/water/subterranean/brackish water body/confined aquifer
-freshwater,emission/water/subterranean/saline water body/confined aquifer
-freshwater,emission/water/subterranean/fresh water body/unconfined aquifer
-freshwater,emission/water/subterranean/brackish water body/unconfined aquifer
-freshwater,emission/water/subterranean/saline water body/unconfined aquifer
 marine,emission/water/saline water body
 marine,emission/water/saline water body/ocean
