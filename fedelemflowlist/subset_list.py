@@ -16,7 +16,8 @@ subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "USGS_mineral_resources":"get_USGS_mineral_resource_flows",
            "energy":"get_energy_flows",
            "renewable_energy":"get_renewable_energy_flows",
-           "nonrenewable_energy":"get_nonrenewable_energy_flows",  
+           "nonrenewable_energy":"get_nonrenewable_energy_flows",
+           "nonrenewable_energy_mass":"get_nonrenewable_energy_flows",
            "USDA_CUS_pesticides":"get_USDA_CUS_pesticides",
            "HAP":"get_hazardous_air_pollutant_flows"}
 
@@ -27,6 +28,7 @@ inventory_unit = {"freshwater_resources":"kg",
                   "energy":"MJ",
                   "renewable_energy":"MJ",
                   "nonrenewable_energy":"MJ",
+                  "nonrenewable_energy_mass":"kg",
                   "USDA_CUS_pesticides":"kg",
                   "HAP":"kg"}
 
