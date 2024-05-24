@@ -1,0 +1,2 @@
+SourceListName,SourceFlowName,SourceFlowUUID,SourceFlowContext,SourceUnit,MatchCondition,ConversionFactor,TargetFlowName,TargetFlowUUID,TargetFlowContext,TargetUnit,Mapper,Verifier,LastUpdated
+USGS_NMIC,Copper,,resource,MT,=,1000,Copper,fddcce55-84af-3798-81cc-47fedcf811b8,resource/ground,kg,Young,,5/20/2024
