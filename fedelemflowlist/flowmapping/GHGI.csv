@@ -81,3 +81,10 @@ GHGI,Unspecified mix of PFCs,,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecif
 GHGI,Unspecified mix of HFCs and PFCs,,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,4/25/2023
 GHGI,HFC-41,,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,4/25/2023
 GHGI,C4F6,,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,4/25/2023
+GHGI,CO2,,air,MT CO2e (AR5-20),,1000000,Carbon dioxide,b6f010fb-a764-3063-af2d-bcb8309a97b7,emission/air,kg,Young,,6/12/2024
+GHGI,CH4,,air,MT CO2e (AR5-20),,11904.7619,Methane,aab83476-ec6c-3742-af85-15d320b7ce80,emission/air,kg,Young,,6/12/2024
+GHGI,N2O,,air,MT CO2e (AR5-20),,3787.88,Nitrous oxide,cfee0524-7ad6-300b-b050-6249135a2492,emission/air,kg,Young,,6/12/2024
+GHGI,HFCs,,air,MT CO2e (AR5-20),,1000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,6/12/2024
+GHGI,SF6,,air,MT CO2e (AR5-20),,57.143,Sulfur hexafluoride,8334c424-1603-3274-bec1-15a7bd5c8e86,emission/air,kg,Young,,6/12/2024
+GHGI,NF3,,air,MT CO2e (AR5-20),,78.125,Nitrogen trifluoride,80d4ef62-ca97-37d6-87ac-83233956c063,emission/air,kg,Young,,6/12/2024
+GHGI,PFCs,,air,MT CO2e (AR5-20),,1000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,6/12/2024
