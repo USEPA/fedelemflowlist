@@ -1,5 +1,6 @@
 <!-- badges: start -->
 [![Applied Sciences](http://img.shields.io/badge/Applied%20Sciences-10.3390/app12199687-blue.svg)](https://doi.org/10.3390/app12199687)
+[![DOI](https://zenodo.org/badge/120324037.svg)](https://zenodo.org/doi/10.5281/zenodo.6604309)
 <!-- badges: end -->
 
 # fedelemflowlist
@@ -12,9 +13,9 @@
  and a [Flow Mapping](./format%20specs/FlowMapping.md) are defined and provided by `fedelemflowlist`.
   They are implemented as [pandas](https://pandas.pydata.org/) dataframes.
    Standard formats are also described for the input files used in building the flow list, and implemented as .csv files
-   in the [input](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/tree/master/fedelemflowlist/input) directory.  
+   in the [input](https://github.com/USEPA/fedelemflowlist/tree/master/fedelemflowlist/input) directory.  
 
- The version of the package (see [Releases](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/releases/))
+ The version of the package (see [Releases](https://github.com/USEPA/fedelemflowlist/releases/))
  corresponds to the version of the flow list that it provides. The complete or 'master' list contains all valid flows,
   where the 'preferred' flows are the recommended flows for use in LCA data.
   
@@ -25,7 +26,7 @@ The background and methodology behind creation of the flow list, as well as a su
  ['The Federal LCA Commons Elementary Flow List: Background, Approach, Description and Recommendations for Use'](https://cfpub.epa.gov/si/si_public_record_report.cfm?Lab=NRMRL&dirEntryId=347251).
 Definitions for terms used in the flow list can be found in on EPA's Terminology Services in the [Federal LCA Commons Elementary Flow List for Life Cycle Assessment vocabulary](https://sor.epa.gov/sor_internet/registry/termreg/searchandretrieve/glossariesandkeywordlists/search.do?details=&vocabName=FEDEFL). 
 
-See the [Wiki](https://github.com/USEPA/Federal-LCA-Commons-Elementary-Flow-List/wiki/) for installation, more info on repository
+See the [Wiki](https://github.com/USEPA/fedelemflowlist/wiki/) for installation, more info on repository
 contents, use examples, and for instructions on how to contribute to the flow list through additions or edits to flows or flow mappings.
 
 ## Disclaimer

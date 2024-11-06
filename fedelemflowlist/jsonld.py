@@ -130,20 +130,26 @@ class Writer(object):
         self.flow_mapping = flow_mapping
         self._context_uids = {}
 
-    def write_to(self, path: Path):
+    def write_to(self, path: Path, zw: zipio.ZipWriter = None):
         """
         Writes json dictionaries to files
         :param path: string path to file
+        :param zw: optional zipio.ZipWriter
         :return: None
         """
-        if path.exists():
+        if (path and path.exists()):
             log.warning(f'File {path} already exists and will be overwritten')
             path.unlink()
-        zw = zipio.ZipWriter(path)
+        if not zw:
+            passed_zw = False
+            zw = zipio.ZipWriter(path)
+        else:
+            passed_zw = True
         self._write_flows(zw)
         if self.flow_mapping is not None:
             self._write_mappings(zw)
-        zw.close()
+        if not passed_zw:
+            zw.close()
 
     def _write_flows(self, zw: zipio.ZipWriter):
         altflowlist=fedelemflowlist.get_alt_conversion()
