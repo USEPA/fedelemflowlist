@@ -1,0 +1,28 @@
+{
+    "description": "Generates and provides a standardized elementary flow list for use in life cycle assessment (LCA) data as well as mappings to convert data from other sources.", 
+    "license": "MIT",
+    "title": "fedelemflowlist",
+    "upload_type": "software", 
+    "creators": [
+        {
+            "affiliation": "US Environmental Protection Agency", 
+            "name": "Wesley Ingwersen",
+            "orcid": "https://orcid.org/0000-0002-9614-701X"
+        }, 
+        {
+            "affiliation": "Eastern Research Group, Inc.", 
+            "name": "Ben Young",
+            "orcid": "https://orcid.org/0000-0001-6276-8670"
+        }, 
+        {
+            "affiliation": "Eastern Research Group, Inc.", 
+            "name": "Ashley Edelen"
+        },
+        {
+            "affiliation": "Eastern Research Group, Inc.", 
+            "name": "Sarah Cashman",
+            "orcid": "https://orcid.org/0000-0001-9859-9557"
+        }
+    ],
+    "access_right": "open"
+}
