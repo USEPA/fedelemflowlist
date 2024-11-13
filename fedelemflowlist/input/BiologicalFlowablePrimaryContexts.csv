@@ -4,6 +4,7 @@ Biomass,Resource,Water
 Hardwood,Resource,Biotic
 Softwood,Resource,Biotic
 Wood,Resource,Biotic
+"Wood, primary forest",Resource,Biotic
 Bacillus subtilis,Emission,Ground
 Bacillus thuringiensis var. aizawai,Emission,Ground
 Bacillus thuringiensis var. israelensis,Emission,Ground
