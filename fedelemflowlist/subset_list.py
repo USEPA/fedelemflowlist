@@ -17,6 +17,7 @@ subsets = {"freshwater_resources":"get_freshwater_resource_flows",
            "energy":"get_energy_flows",
            "renewable_energy":"get_renewable_energy_flows",
            "nonrenewable_energy":"get_nonrenewable_energy_flows",  
+           "ced":"get_ced_flows",
            "USDA_CUS_pesticides":"get_USDA_CUS_pesticides",
            "HAP":"get_hazardous_air_pollutant_flows"}
 
@@ -27,6 +28,7 @@ inventory_unit = {"freshwater_resources":"kg",
                   "energy":"MJ",
                   "renewable_energy":"MJ",
                   "nonrenewable_energy":"MJ",
+                  "ced":"MJ",
                   "USDA_CUS_pesticides":"kg",
                   "HAP":"kg"}
 
@@ -111,7 +113,8 @@ def get_energy_flows(fl):
     :param fl: df in standard flowlist format
     :return: df in standard flowlist format
     """
-    list_of_flows = ['Uranium','Biomass','Hardwood','Softwood','Wood']
+    list_of_flows = ['Uranium','Biomass','Hardwood','Softwood','Wood',
+                     'Wood, primary forest']
     flows = fl[(fl["Unit"]=="MJ") | (fl['Flowable'].isin(list_of_flows))]
     #Peat is captured in USGS_mineral_resource_flows so exclude here
     flows = flows[flows['Flowable']!='Peat']
@@ -143,6 +146,21 @@ def get_nonrenewable_energy_flows(fl):
     renewables_class = ['Biological','Energy']
     flows = fl[~fl["Class"].isin(renewables_class)]
         
+    return flows
+
+def get_ced_flows(fl):
+    """
+    Subsets the flow list for all energy flows for use in the CED method
+
+    :param fl: df in standard flowlist format
+    :return: df in standard flowlist format
+    """
+    flows = pd.concat([get_energy_flows(fl),
+                       fl[(fl["Context"].str.startswith("resource"))
+                          & (fl['Flowable'].isin(['Methane']))],
+                       fl[fl['Flowable'] == 'Peat']],
+                      ignore_index=True)
+
     return flows
 
 def get_hazardous_air_pollutant_flows(fl):
