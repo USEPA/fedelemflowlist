@@ -157,7 +157,7 @@ class Writer(object):
             description = (
                 f"From Federal Elementary Flow List "
                 f"v{flow_list_specs['list_version']}, written by "
-                f"fedelemflowlist v{flow_list_specs['package_version']}."
+                f"fedelemflowlist v{flow_list_specs['tool_version']}."
                 )
             flow_class = row.get("Class")
             if flow_class is not None:
