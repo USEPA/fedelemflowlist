@@ -156,7 +156,7 @@ def add_conversion_to_mapping(flow_mapping):
 
     # update conversion factor where current conversion is 1 and the updated conversion exists
     converted1 = mapping_w_conversion['InverseConversionFactor'].notnull()
-    converted2 = mapping_w_conversion['ConversionFactor']==1
+    converted2 = mapping_w_conversion['ConversionFactor']==1.0
     mapping_w_conversion['Convert']=converted1 & converted2
     mapping_w_conversion.loc[(mapping_w_conversion['Convert']==True),
                              'ConversionFactor']=mapping_w_conversion['InverseConversionFactor']

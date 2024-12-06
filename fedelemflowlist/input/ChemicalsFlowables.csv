@@ -5798,3 +5798,41 @@ Allyl 2-hydroxyisobutyrate,19444-21-4,,,kg,https://echa.europa.eu/substance-info
 "2-Butene, 1,1,4,4-tetramethoxy-",5370-08-1,,,kg,https://echa.europa.eu/substance-information/-/substanceinfo/100.139.336,0
 "Phenol, 4,5-dimethyl-2-(1-methylethyl)-",35786-94-8,,,kg,https://echa.europa.eu/substance-information/-/substanceinfo/100.214.943,0
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",38233-76-0,,,kg,https://echa.europa.eu/substance-information/-/substanceinfo/100.149.349,0
+Palladium(II),16065-88-6,Pd2+,Palladium ion,kg,https://glossary.ecoinvent.org/ids/ff888538-eda9-4bf7-8612-a75acf1e85ac,0
+Titanium(II),15969-58-1,Ti,Ti2+,kg,https://pubchem.ncbi.nlm.nih.gov/compound/177711,0
+Titanium(IV),16043-45-1,Ti,Ti4+,kg,https://pubchem.ncbi.nlm.nih.gov/compound/114942,0
+Rhodium(III),16065-89-7,Rh,Rhodium ion,kg,,0
+Phenyltin,2406-68-0,,"Stannane, phenyl-",kg,https://pubchem.ncbi.nlm.nih.gov/compound/6335496,0
+Potassium dihydrogen phosphite,13977-65-6,H3O3P.K,"Monopotassium phosphite; Phosphonic acid, potassium salt (1:1); Phosphonic acid, monopotassium salt",kg,https://commonchemistry.cas.org/detail?cas_rn=13977-65-6,0
+Mefentrifluconazole,1417782-03-6,C18H15ClF3N3O2,"2-[4-(4-Chlorophenoxy)-2-(trifluoromethyl)phenyl]-1-(1,2,4-triazol-1-yl)propan-2-ol",kg,https://pubchem.ncbi.nlm.nih.gov/compound/71230671,0
+Sulfur dichloride,10545-99-0,SCL2,,kg,https://pubchem.ncbi.nlm.nih.gov/compound/25353,0
+Sodium methoxide,124-41-4,CH3ONa,Sodium methanolate,kg,https://pubchem.ncbi.nlm.nih.gov/compound/10942334,0
+Thionyl chloride,7719-09-7,SOCL2,,kg,https://pubchem.ncbi.nlm.nih.gov/compound/24386,0
+Strontium(II),22537-39-9,Sr+2,"Strontium cation;Strontium, ion",kg,https://pubchem.ncbi.nlm.nih.gov/compound/Strontium-cation,0
+Pydiflumetofen,1228284-64-7,C16H16Cl3F2N3O2,"3-(Difluoromethyl)-N-methoxy-1-methyl-N-(1-methyl-2-(2,4,6-trichlorophenyl)ethyl)-1H-pyrazole-4-carboxamide",kg,https://pubchem.ncbi.nlm.nih.gov/compound/56933411,0
+Phosphorus pentachloride,10026-13-8,Cl5P,pentachloro-lambda5-phosphane,kg,https://pubchem.ncbi.nlm.nih.gov/compound/24819,0
+Penflufen,494793-67-8,C18H24FN3O,"5-fluoro-1,3-dimethyl-N-[2-(4-methylpentan-2-yl)phenyl]pyrazole-4-carboxamide",kg,https://pubchem.ncbi.nlm.nih.gov/compound/11674113,0
+Monobutyltin(III),78763-54-9,C4H9Sn+3,Butyltin(3+) Monobutyltin,kg,https://pubchem.ncbi.nlm.nih.gov/compound/54267,0
+Diphenyltin,1011-95-6,C12H12Sn,,kg,https://pubchem.ncbi.nlm.nih.gov/compound/70535,0
+Dimethyldichlorosilane,75-78-5,C2H6Cl2Si,Dichloro(dimethyl)silane,kg,https://pubchem.ncbi.nlm.nih.gov/compound/6398,0
+Diflufenzopyr,109293-97-2,C15H12F2N4O3,,kg,https://pubchem.ncbi.nlm.nih.gov/compound/6125184,0
+Dibutyltin,1002-53-5,C8H18Sn,,kg,https://pubchem.ncbi.nlm.nih.gov/compound/6484,0
+Ammonium sulfate,7783-20-2,H8N2O4S,diammonium sulfate diazanium,kg,https://pubchem.ncbi.nlm.nih.gov/compound/6097028,0
+Octaethylene glycol monododecyl ether,3055-98-9,C28H58O9,,kg,https://pubchem.ncbi.nlm.nih.gov/compound/123921,0
+2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetamide,29122-68-7,,atenolol,kg,https://pubchem.ncbi.nlm.nih.gov/compound/2249,0
+"(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",134523-00-5,,atorvastatin,kg,https://pubchem.ncbi.nlm.nih.gov/compound/60823,0
+"1-(6-tert-butyl-1,1-dimethyl-2,3-dihydroinden-4-yl)ethanone",13171-00-1,,celestolide,kg,https://pubchem.ncbi.nlm.nih.gov/compound/61585,0
+2-(4-chlorophenoxy)-2-methylpropanoic acid,882-09-7,,clofibric acid,kg,https://pubchem.ncbi.nlm.nih.gov/compound/2797,0
+"2,2-dichloroacetaldehyde",79-02-7,,dichloroacetaldehyde,kg,https://pubchem.ncbi.nlm.nih.gov/compound/6576,0
+"4,6,6,7,8,8-hexamethyl-1,3,4,7-tetrahydrocyclopenta[g]isochromene",1222-05-5,,galaxolide,kg,https://pubchem.ncbi.nlm.nih.gov/compound/91497,0
+"(4R,4aR,7aR,12bS)-9-methoxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one",50678-79-0,,hydrocodone,kg,https://pubchem.ncbi.nlm.nih.gov/compound/5284569,0
+[2-(carbamoyloxymethyl)-2-methylpentyl] carbamate,57-53-4,,meprobamate,kg,https://pubchem.ncbi.nlm.nih.gov/compound/4064,0
+"1-(4-tert-butyl-2,6-dimethyl-3,5-dinitrophenyl)ethanone",81-14-1,,musk ketone,kg,https://pubchem.ncbi.nlm.nih.gov/compound/6669,0
+(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid,22204-53-1,,naproxen,kg,https://pubchem.ncbi.nlm.nih.gov/compound/156391,0
+"(3R,5R)-7-[2-(4-fluorophenyl)-4-[(2-hydroxyphenyl)carbamoyl]-3-phenyl-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",214217-86-4,,o-hydroxy atorvastatin,kg,https://pubchem.ncbi.nlm.nih.gov/compound/9808225,0
+(2-hydroxy-4-methoxyphenyl)-phenylmethanone,131-57-7,,oxybenzone,kg,https://pubchem.ncbi.nlm.nih.gov/compound/4632,0
+"1-(1,1,2,3,3,6-hexamethyl-2H-inden-5-yl)ethanone",15323-35-0,,phantolide,kg,https://pubchem.ncbi.nlm.nih.gov/compound/47167,0
+"(3R,5R)-7-[2-(4-fluorophenyl)-4-[(4-hydroxyphenyl)carbamoyl]-3-phenyl-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",214217-88-6,,p-hydroxy atorvastatin,kg,https://pubchem.ncbi.nlm.nih.gov/compound/9851106,0
+"(8S,9S,10R,13S,14S,17S)-17-acetyl-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",57-83-0,,progesterone,kg,https://pubchem.ncbi.nlm.nih.gov/compound/5994,0
+"1-(3,5,5,6,8,8-hexamethyl-6,7-dihydronaphthalen-2-yl)ethanone",21145-77-7,,tonalide,kg,https://pubchem.ncbi.nlm.nih.gov/compound/89440,0
+3-[bis(2-carboxyethyl)phosphanyl]propanoic acid,5961-85-3,,tris(2-carboxyethyl)phosphine,kg,https://pubchem.ncbi.nlm.nih.gov/compound/119411,0
