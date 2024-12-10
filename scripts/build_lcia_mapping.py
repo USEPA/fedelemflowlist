@@ -80,9 +80,9 @@ if __name__ == '__main__':
     lciafmt_w_context_flowable_mappings['SourceListName'] = lcia_name
     if 'ConversionFactor' in flowable_mappings:
         lciafmt_w_context_flowable_mappings['ConversionFactor'] = \
-            lciafmt_w_context_flowable_mappings['ConversionFactor'].fillna(1)
+            lciafmt_w_context_flowable_mappings['ConversionFactor'].fillna(1.0)
     else:
-        lciafmt_w_context_flowable_mappings['ConversionFactor'] = 1
+        lciafmt_w_context_flowable_mappings['ConversionFactor'] = 1.0
     lciafmt_w_context_flowable_mappings['SourceFlowUUID'] = None
     
     # Add conversion factors
@@ -93,9 +93,8 @@ if __name__ == '__main__':
     lcia_mappings = add_uuid_to_mapping(lciafmt_w_context_flowable_mappings)
    
     # Sort to maintain mapping file consistency
-    lcia_mappings = (lcia_mappings
-                     .sort_values(by=['SourceFlowName','SourceFlowContext'],
-                                  ignore_index=True))
+    lcia_mappings = lcia_mappings.sort_values(
+        by=['SourceFlowName','SourceFlowContext'], ignore_index=True)
 
     # Write them to a csv
     lcia_mappings.to_csv(flowmappingpath / f'{lcia_name}.csv', index=False)

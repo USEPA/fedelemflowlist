@@ -130,28 +130,38 @@ class Writer(object):
         self.flow_mapping = flow_mapping
         self._context_uids = {}
 
-    def write_to(self, path: Path):
+    def write_to(self, path: Path, zw: zipio.ZipWriter = None):
         """
         Writes json dictionaries to files
         :param path: string path to file
+        :param zw: optional zipio.ZipWriter
         :return: None
         """
-        if path.exists():
+        if (path and path.exists()):
             log.warning(f'File {path} already exists and will be overwritten')
             path.unlink()
-        zw = zipio.ZipWriter(path)
+        if not zw:
+            passed_zw = False
+            zw = zipio.ZipWriter(path)
+        else:
+            passed_zw = True
         self._write_flows(zw)
         if self.flow_mapping is not None:
             self._write_mappings(zw)
-        zw.close()
+        if not passed_zw:
+            zw.close()
 
     def _write_flows(self, zw: zipio.ZipWriter):
         altflowlist=fedelemflowlist.get_alt_conversion()
         for _, row in self.flow_list.iterrows():
-            description = "From FedElemFlowList_"+flow_list_specs['list_version']+'.'
+            description = (
+                f"From Federal Elementary Flow List "
+                f"v{flow_list_specs['list_version']}, written by "
+                f"fedelemflowlist v{flow_list_specs['tool_version']}."
+                )
             flow_class = row.get("Class")
             if flow_class is not None:
-                description += " Flow Class: %s." % flow_class
+                description += f" Flow Class: {flow_class}."
 
             preferred = row.get("Preferred", 0)
             if preferred == 1 or preferred == "1":
@@ -176,8 +186,7 @@ class Writer(object):
             fp.conversion_factor = 1.0
             fp.flow_property = units.property_ref(row["Unit"])
             if fp.flow_property is None:
-                log.warning("unknown unit %s in flow %s",
-                            row["Unit"], row["Flow UUID"])
+                log.warning(f"unknown unit {row['Unit']} in flow {row['Flow UUID']}")
             flow.flow_properties = [fp]
             #Add in alternate unit flow propert(ies), if an alternate unit exists
             #in the flows list, uses short list of altflowlist to assign one or more
@@ -191,8 +200,8 @@ class Writer(object):
                     altfp.conversion_factor = alternate['AltUnitConversionFactor']
                     altfp.flow_property = units.property_ref(alternate["AltUnit"])
                     if altfp.flow_property is None:
-                        log.warning("unknown altunit %s in flow %s",
-                                    alternate["AltUnit"], row["Flow UUID"])
+                        log.warning(f"unknown altunit {alternate['AltUnit']} "
+                                    f"in flow {row['Flow UUID']}")
                     else:
                         flow.flow_properties.append(altfp)
             zw.write(flow)
@@ -225,5 +234,5 @@ class Writer(object):
             # as there are currenty only methods for writing RootEntity
             # objects in the ZipWriter
             zw._ZipWriter__zip.writestr(
-                "flow_mappings/" + flow_map["@id"] + ".json",
+                f"flow_mappings/{flow_map['@id']}.json",
                 json.dumps(flow_map))
