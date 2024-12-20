@@ -9515,6 +9515,7 @@ Sulfur trioxide,Emission,Air
 6-Nitrochrysene,Emission,Air
 Cobalt carbonate,Emission,Air
 Phosphorus trichloride,Emission,Air
+Phosphorus trichloride,Emission,Water
 Potassium bromate,Emission,Air
 Sodium chromate(VI),Emission,Air
 Hydrogen selenide,Emission,Air
@@ -10048,6 +10049,7 @@ Uranyl(III),Emission,Water
 "Heptane, 2,4-dimethyl-",Emission,Air
 "Heptane, 2,5-dimethyl-",Emission,Air
 "Octane, 3-methyl-",Emission,Air
+Aluminum(III),Emission,Air
 Aluminum(III),Emission,Ground
 Aluminum(III),Emission,Water
 Bendiocarb phenol,Emission,Ground
@@ -11433,6 +11435,7 @@ Tin oxide,Emission,Air
 Triazamate,Emission,Ground
 "1,2,4-Benzotriazine, 7-chloro-3-(1H-imidazol-1-yl)-, 1-oxide",Emission,Ground
 Triphenyltin,Emission,Ground
+Triphenyltin,Emission,Water
 Trichlorosilane,Emission,Air
 Trichlorosilane,Emission,Water
 Triticonazole,Emission,Ground
@@ -11634,13 +11637,18 @@ Protactinium-234,Emission,Water
 Praseodymium-147,Emission,Air
 Praseodymium,Resource,Ground
 Krypton-89,Emission,Air
+Potassium(I),Emission,Air
+Potassium(I),Emission,Ground
 Potassium(I),Emission,Water
 Nickel(III),Emission,Water
 Nickel(II),Emission,Air
 Nickel(II),Emission,Ground
 Nickel(II),Emission,Water
+Sodium(I),Emission,Air
+Sodium(I),Emission,Ground
 Sodium(I),Emission,Water
 Manganese(III),Emission,Water
+Calcium(II),Emission,Air
 Calcium(II),Emission,Ground
 Calcium(II),Emission,Water
 Cadmium(II),Emission,Air
@@ -11649,6 +11657,8 @@ Cadmium(II),Emission,Water
 Lead(II),Emission,Air
 Lead(II),Emission,Ground
 Lead(II),Emission,Water
+Manganese(II),Emission,Air
+Manganese(II),Emission,Ground
 Manganese(II),Emission,Water
 "Glyphosate, ammonium salt",Emission,Air
 "Glyphosate, ammonium salt",Emission,Ground
@@ -11657,6 +11667,8 @@ Iodosulfuron-methyl,Emission,Ground
 Vanadium(III),Emission,Air
 Vanadium(III),Emission,Ground
 Vanadium(III),Emission,Water
+Lithium(I),Emission,Air
+Lithium(I),Emission,Ground
 Lithium(I),Emission,Water
 Copper(I),Emission,Water
 Copper(I),Emission,Ground
@@ -15003,3 +15015,70 @@ Allyl 2-hydroxyisobutyrate,Emission,Ground
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Water
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Air
 "8-ethylidene-tetracyclo[4.4.0.1(2,5).1(7,10)]dodeca-3-ene",Emission,Ground
+Palladium(II),Emission,Air
+Palladium(II),Emission,Water
+Palladium(II),Emission,Ground
+Titanium(II),Emission,Air
+Titanium(II),Emission,Water
+Titanium(II),Emission,Ground
+Titanium(IV),Emission,Air
+Titanium(IV),Emission,Water
+Titanium(IV),Emission,Ground
+Rhodium(III),Emission,Air
+Phenyltin,Emission,Water
+Potassium dihydrogen phosphite,Emission,Ground
+Mefentrifluconazole,Emission,Ground
+Sulfur dichloride,Emission,Air
+Sulfur dichloride,Emission,Water
+Sodium methoxide,Emission,Water
+Thionyl chloride,Emission,Air
+Strontium(II),Emission,Air
+Strontium(II),Emission,Ground
+Strontium(II),Emission,Water
+Pydiflumetofen,Emission,Air
+Pydiflumetofen,Emission,Ground
+Phosphorus pentachloride,Emission,Water
+Penflufen,Emission,Ground
+Penflufen,Emission,Water
+Monobutyltin(III),Emission,Water
+Diphenyltin,Emission,Water
+Dimethyldichlorosilane,Emission,Air
+Dimethyldichlorosilane,Emission,Water
+Diflufenzopyr,Emission,Air
+Diflufenzopyr,Emission,Water
+Dibutyltin,Emission,Water
+Ammonium sulfate,Emission,Water
+Octaethylene glycol monododecyl ether,Emission,Air
+2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetamide,Emission,Ground
+2-[4-[2-hydroxy-3-(propan-2-ylamino)propoxy]phenyl]acetamide,Emission,Water
+"(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",Emission,Water
+"(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",Emission,Ground
+"1-(6-tert-butyl-1,1-dimethyl-2,3-dihydroinden-4-yl)ethanone",Emission,Ground
+"1-(6-tert-butyl-1,1-dimethyl-2,3-dihydroinden-4-yl)ethanone",Emission,Water
+2-(4-chlorophenoxy)-2-methylpropanoic acid,Emission,Water
+2-(4-chlorophenoxy)-2-methylpropanoic acid,Emission,Ground
+"2,2-dichloroacetaldehyde",Emission,Water
+"4,6,6,7,8,8-hexamethyl-1,3,4,7-tetrahydrocyclopenta[g]isochromene",Emission,Ground
+"4,6,6,7,8,8-hexamethyl-1,3,4,7-tetrahydrocyclopenta[g]isochromene",Emission,Water
+"(4R,4aR,7aR,12bS)-9-methoxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one",Emission,Ground
+"(4R,4aR,7aR,12bS)-9-methoxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one",Emission,Water
+[2-(carbamoyloxymethyl)-2-methylpentyl] carbamate,Emission,Water
+[2-(carbamoyloxymethyl)-2-methylpentyl] carbamate,Emission,Ground
+"1-(4-tert-butyl-2,6-dimethyl-3,5-dinitrophenyl)ethanone",Emission,Water
+"1-(4-tert-butyl-2,6-dimethyl-3,5-dinitrophenyl)ethanone",Emission,Ground
+(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid,Emission,Ground
+(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid,Emission,Water
+"(3R,5R)-7-[2-(4-fluorophenyl)-4-[(2-hydroxyphenyl)carbamoyl]-3-phenyl-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",Emission,Water
+"(3R,5R)-7-[2-(4-fluorophenyl)-4-[(2-hydroxyphenyl)carbamoyl]-3-phenyl-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",Emission,Ground
+(2-hydroxy-4-methoxyphenyl)-phenylmethanone,Emission,Water
+(2-hydroxy-4-methoxyphenyl)-phenylmethanone,Emission,Ground
+"1-(1,1,2,3,3,6-hexamethyl-2H-inden-5-yl)ethanone",Emission,Ground
+"1-(1,1,2,3,3,6-hexamethyl-2H-inden-5-yl)ethanone",Emission,Water
+"(3R,5R)-7-[2-(4-fluorophenyl)-4-[(4-hydroxyphenyl)carbamoyl]-3-phenyl-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",Emission,Ground
+"(3R,5R)-7-[2-(4-fluorophenyl)-4-[(4-hydroxyphenyl)carbamoyl]-3-phenyl-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid",Emission,Water
+"(8S,9S,10R,13S,14S,17S)-17-acetyl-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",Emission,Ground
+"(8S,9S,10R,13S,14S,17S)-17-acetyl-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one",Emission,Water
+"1-(3,5,5,6,8,8-hexamethyl-6,7-dihydronaphthalen-2-yl)ethanone",Emission,Water
+"1-(3,5,5,6,8,8-hexamethyl-6,7-dihydronaphthalen-2-yl)ethanone",Emission,Ground
+3-[bis(2-carboxyethyl)phosphanyl]propanoic acid,Emission,Ground
+3-[bis(2-carboxyethyl)phosphanyl]propanoic acid,Emission,Water

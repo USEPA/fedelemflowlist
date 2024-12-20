@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='fedelemflowlist',
-    version='1.2.4',
+    version='1.3.0',
     packages=['fedelemflowlist'],
     package_dir={'fedelemflowlist': 'fedelemflowlist'},
     package_data={'fedelemflowlist': [

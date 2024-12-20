@@ -12,7 +12,7 @@ from fedelemflowlist.globals import outputpath, flow_list_specs,\
 # get the current list
 
 # Enter name of old version here. Must be in output folder
-old_version = '1.1.1'
+old_version = '1.2.0'
 
 if __name__ == '__main__':
     ver = flow_list_specs['list_version']

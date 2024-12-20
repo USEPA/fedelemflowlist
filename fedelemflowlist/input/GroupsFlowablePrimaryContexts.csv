@@ -304,6 +304,7 @@ Oxygenated compounds,Emission,Air
 "Paraffin, C7",Emission,Air
 "Paraffin, C8",Emission,Air
 "Paraffin, C9",Emission,Air
+Pesticides,Emission,Air
 Pesticides,Emission,Ground
 Pesticides,Emission,Water
 "Pesticides, chlorinated",Emission,Ground
@@ -350,6 +351,7 @@ Silanes,Emission,Air
 Silver compounds,Emission,Air
 Silver compounds,Emission,Ground
 Silver compounds,Emission,Water
+Surfactants,Emission,Air
 Surfactants,Emission,Ground
 Surfactants,Emission,Water
 "Suspended solids, inorganic",Emission,Ground
@@ -685,3 +687,6 @@ Decanoic acid mixed esters with heptanoic acid octanoic acid and trimethylolprop
 "2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Water
 "2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Air
 "2-Oxetanone, 3-C12-16-alkyl-4-C13-17-alkylidene derivs.",Emission,Ground
+"Aldehydes, unspecified",Emission,Water
+"Aldehydes, unspecified",Emission,Air
+"Aldehydes, unspecified",Emission,Ground
