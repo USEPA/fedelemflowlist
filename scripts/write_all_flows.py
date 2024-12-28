@@ -9,8 +9,8 @@ if __name__ == '__main__':
 
     all_flows = fedelemflowlist.get_flows(preferred_only=False)
     ver = flow_list_specs['list_version']
-    file = outputpath / f"FedElemFlowList_{ver}_all.zip"
-    fedelemflowlist.write_jsonld(all_flows, file)
+    file = outputpath / f"FedElemFlowList_{ver}"
+    fedelemflowlist.write_jsonld(all_flows, f"{file}_all.zip")
     with pd.ExcelWriter(f"{file}_all.xlsx",
                         # engine='xlsxwriter',
                         # engine_kwargs={
