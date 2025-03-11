@@ -1,0 +1,53 @@
+TargetFlowName,TargetUnit,MatchCondition,SourceFlowName,SourceUnit,Mapper,Map method,Verifier,Note,LastUpdated
+Methane,kg,=,methane,kg,Young,match to TRACI 2.1,,,3/11/2025
+Ethane,kg,=,ethane,kg,Young,match to TRACI 2.1,,,3/11/2025
+Propane,kg,=,propane,kg,Young,match to TRACI 2.1,,,3/11/2025
+Butane,kg,=,n-butane,kg,Young,match to TRACI 2.1,,,3/11/2025
+2-Methylbutane,kg,=,isopentane,kg,Young,match to TRACI 2.1,,,3/11/2025
+2-Methylpentane,kg,=,2-methyl pentane,kg,Young,match to TRACI 2.1,,,3/11/2025
+"2,2,4-Trimethylpentane",kg,=,"2,2,4-trimethyl pentane",kg,Young,match to TRACI 2.1,,,3/11/2025
+Ethylene,kg,=,ethene,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,propene,kg,,,,,
+1-Butene,kg,=,1-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
+cis-2-Butene,kg,=,cis-2-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
+trans-2-Butene,kg,=,trans-2-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
+"1,3-Butadiene",kg,=,"1,3-butadiene",kg,Young,match to TRACI 2.1,,,3/11/2025
+2-Methyl-2-butene,kg,=,2-methyl-2-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
+"1,3-Pentadiene, (3E)-",kg,=,"trans-1,3-pentadiene",kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,"isoprene (2-methyl-1,3-butadiene)",kg,,,,,
+(E)-3-Methylpent-2-ene,kg,=,trans-3-methyl-2-pentene,kg,Young,match to TRACI 2.1,,,3/11/2025
+D-Limonene,kg,=,d-limonene,kg,Young,match to TRACI 2.1,,,3/11/2025
+Benzene,kg,=,benzene,kg,Young,match to TRACI 2.1,,,3/11/2025
+Toluene,kg,=,toluene,kg,Young,match to TRACI 2.1,,,3/11/2025
+m-Xylene,kg,=,m-xylene,kg,Young,match to TRACI 2.1,,,3/11/2025
+o-Xylene,kg,=,o-xylene,kg,Young,match to TRACI 2.1,,,3/11/2025
+p-Xylene,kg,=,p-xylene,kg,Young,match to TRACI 2.1,,,3/11/2025
+"1,2,3-Trimethylbenzene",kg,=,"1,2,3-trimethyl benzene",kg,Young,match to TRACI 2.1,,,3/11/2025
+Formaldehyde,kg,=,formaldehyde,kg,Young,match to TRACI 2.1,,,3/11/2025
+Methanol,kg,=,methanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Acetaldehyde,kg,=,acetaldehyde,kg,Young,match to TRACI 2.1,,,3/11/2025
+Ethanol,kg,=,ethanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Ethylene glycol,kg,=,ethylene glycol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Acrolein,kg,=,acrolein,kg,Young,match to TRACI 2.1,,,3/11/2025
+Acetone,kg,=,acetone,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,isopropyl alcohol,kg,,,,,
+Methylglyoxal,kg,=,methyl glyoxal,kg,Young,match to TRACI 2.1,,,3/11/2025
+Propylene glycol,kg,=,propylene glycol,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,butanal,kg,,,,,
+Methacrylic acid,kg,=,methacrylic acid,kg,Young,match to TRACI 2.1,,,3/11/2025
+"2,3-Butanedione",kg,=,biacetyl,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,1-methoxy-2-propanol,kg,,,,,
+Methyl methacrylate,kg,=,methyl methacrylate,kg,Young,match to TRACI 2.1,,,3/11/2025
+Cyclohexanone,kg,=,cyclohexanone,kg,Young,match to TRACI 2.1,,,3/11/2025
+Cyclohexanol,kg,=,cyclohexanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,4-methyl-2-pentanone,kg,,,,,
+1-Hexanol,kg,=,1-hexanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Ethylene glycol monobutyl ether,kg,=,2-butoxy-ethanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Chloroacetaldehyde,kg,=,chloroacetaldehyde,kg,Young,match to TRACI 2.1,,,3/11/2025
+Allyl chloride,kg,=,3-chloropropene,kg,Young,match to TRACI 2.1,,,3/11/2025
+2-Butyne,kg,=,2-butyne,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,n-methyl-2-pyrrolidone,kg,,,,,
+,,,monochlorobenzene,kg,,,,,
+,,,dichlorobenzenes,kg,,,,,
+,,,molinate (S-ethyl hexahydro-1H-azepine-1-carbothioate),kg,,,,,
+,,,pebulate (S-propyl butylethylthiocarbamate),kg,,,,,

@@ -1,0 +1,88 @@
+SourceFlowContext,TargetFlowContext
+air,emission/air
+air,emission/air/troposphere/low
+air,emission/air/troposphere/high
+air,emission/air/troposphere/very high
+air,emission/air/troposphere/ground-level
+air,emission/air/troposphere/urban
+air,emission/air/troposphere/rural
+air,emission/air/troposphere/urban/low
+air,emission/air/troposphere/rural/low
+air,emission/air/troposphere/urban/high
+air,emission/air/troposphere/rural/high
+air,emission/air/troposphere/urban/very high
+air,emission/air/troposphere/rural/very high
+air,emission/air/troposphere/urban/ground-level
+air,emission/air/troposphere/rural/ground-level
+air,emission/air/indoor
+air,emission/air/stratosphere
+water,emission/water
+water,emission/water/urban
+water,emission/water/rural
+water,emission/water/fresh water body
+water,emission/water/brackish water body
+water,emission/water/fresh water body/urban
+water,emission/water/fresh water body/rural
+water,emission/water/brackish water body/urban
+water,emission/water/brackish water body/rural
+water,emission/water/fresh water body/lake
+water,emission/water/fresh water body/river
+water,emission/water/brackish water body/lake
+water,emission/water/fresh water body/lake/urban
+water,emission/water/fresh water body/lake/rural
+water,emission/water/fresh water body/river/urban
+water,emission/water/fresh water body/river/rural
+water,emission/water/brackish water body/lake/urban
+water,emission/water/brackish water body/lake/rural
+water,emission/water/saline water body
+water,emission/water/saline water body/ocean
+water,emission/water/subterranean
+water,emission/water/subterranean/fresh water body
+water,emission/water/subterranean/brackish water body
+water,emission/water/subterranean/saline water body
+water,emission/water/subterranean/fresh water body/confined aquifer
+water,emission/water/subterranean/brackish water body/confined aquifer
+water,emission/water/subterranean/saline water body/confined aquifer
+water,emission/water/subterranean/fresh water body/unconfined aquifer
+water,emission/water/subterranean/brackish water body/unconfined aquifer
+water,emission/water/subterranean/saline water body/unconfined aquifer
+air/rural,emission/air/troposphere/rural
+air/rural,emission/air/troposphere/rural/low
+air/rural,emission/air/troposphere/rural/high
+air/rural,emission/air/troposphere/rural/very high
+air/rural,emission/air/troposphere/rural/ground-level
+air/urban,emission/air/troposphere/urban
+air/urban,emission/air/troposphere/urban/low
+air/urban,emission/air/troposphere/urban/high
+air/urban,emission/air/troposphere/urban/very high
+air/urban,emission/air/troposphere/urban/ground-level
+air/unspecified,emission/air
+air/unspecified,emission/air/troposphere/low
+air/unspecified,emission/air/troposphere/high
+air/unspecified,emission/air/troposphere/very high
+air/unspecified,emission/air/troposphere/ground-level
+air/urban,emission/air/indoor
+air/unspecified,emission/air/stratosphere
+ground,emission/ground
+ground,emission/ground/human-dominated
+ground,emission/ground/urban
+ground,emission/ground/rural
+ground,emission/ground/human-dominated/urban
+ground,emission/ground/human-dominated/rural
+ground/agricultural,emission/ground/human-dominated/agricultural
+ground/agricultural,emission/ground/human-dominated/agricultural/rural
+ground/agricultural,emission/ground/human-dominated/agricultural/urban
+water/freshwater,emission/water/fresh water body
+water/freshwater,emission/water/fresh water body/urban
+water/freshwater,emission/water/fresh water body/rural
+water/freshwater,emission/water/fresh water body/lake
+water/freshwater,emission/water/fresh water body/river
+water/freshwater,emission/water/fresh water body/lake/urban
+water/freshwater,emission/water/fresh water body/lake/rural
+water/freshwater,emission/water/fresh water body/river/urban
+water/freshwater,emission/water/fresh water body/river/rural
+water/marine,emission/water/saline water body
+water/marine,emission/water/saline water body/ocean
+water/freshwater,emission/water
+water/freshwater,emission/water/urban
+water/freshwater,emission/water/rural
