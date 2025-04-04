@@ -12,7 +12,7 @@ from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, \
 
 # Options: 'TRACI2.1', 'TRACI2.2', 'ReCiPe2016', 'ImpactWorld+, 'IPCC', 'NOAA_ODP',
 # 'TRACI_SAPRC', 'USEtox', 'GLAM'
-lcia_name = 'GLAM'
+lcia_name = 'TRACI_SAPRC'
 if 'TRACI2' in lcia_name:
     # use same source data for all TRACI versions
     source_name = 'TRACIv2'
@@ -24,7 +24,7 @@ if __name__ == '__main__':
     ## Bring in flowables and contexts from the lcia_formatter
     import lciafmt
     if lcia_name == 'TRACI_SAPRC':
-        lcia_lciafmt = lciafmt.traci._read_smog()
+        lcia_lciafmt = lciafmt.traci._read_smog(indicator_name='')
     else:
         lcia_lciafmt = lciafmt.get_method(lcia_name, endpoint = False)
     if 'recipe' in lcia_name.lower():
