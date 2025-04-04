@@ -3103,3 +3103,24 @@ Iron(II),kg,=,Fe(II),kg,YS,CAS Match,,,4/3/2025
 Ferric ion,kg,=,Fe(III),kg,YS,CAS Match,,,4/3/2025
 Manganese(II),kg,=,Mn(II),kg,YS,CAS Match,,,4/3/2025
 Strontium(II),kg,=,Sr(II),kg,YS,CAS Match,,,4/3/2025
+Arsenic,kg,~,As(III),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Barium,kg,~,Ba(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Beryllium,kg,~,Be(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Cadmium,kg,~,Cd(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Chromium,kg,~,Cr(III),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Mercury,kg,~,Hg(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Nickel,kg,~,Ni(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Lead,kg,~,Pb(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Antimony,kg,~,Sb(III),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Selenium,kg,~,Se(IV),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Tin,kg,~,Sn(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Zinc,kg,~,Zn(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Silver,kg,~,Ag(I),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Copper,kg,~,Cu(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Molybdenum,kg,~,Mo(VI),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Thallium,kg,~,Tl(I),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Vanadium,kg,~,V(V),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Aluminum,kg,~,Al(III),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Cobalt,kg,~,Co(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Manganese,kg,~,Mn(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
+Strontium,kg,~,Sr(II),kg,Young,,,Added mapping so that metals are associated with a CF,4/4/2025
