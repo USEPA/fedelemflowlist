@@ -3588,6 +3588,7 @@ Nitric oxide,kg,~,Flow_NOx as N,kg,Young,,,,4/26/2024,0.467
 Nitrogen dioxide,kg,~,Flow_NOx as N,kg,Young,,,,4/26/2024,0.304
 Nitrogen oxides,kg,~,Flow_NOx as N,kg,Young,,,average of NO and NO2,4/26/2024,0.386
 Nitric acid,kg,~,Flow_NOx as N,kg,Young,,,,4/26/2024,0.222
+Nitrate,kg,~,Flow_NOx as N,kg,Young,,,,4/7/2025,0.226
 Ammonium,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.778
 Ammonia,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.824
 Nitric acid,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.222
