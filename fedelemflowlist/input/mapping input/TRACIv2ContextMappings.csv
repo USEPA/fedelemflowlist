@@ -125,6 +125,24 @@ freshwater/urban,emission/water/fresh water body/river/urban
 freshwater/rural,emission/water/fresh water body/river/rural
 freshwater/urban,emission/water/brackish water body/lake/urban
 freshwater/rural,emission/water/brackish water body/lake/rural
+freshwater,emission/water
+freshwater,emission/water/urban
+freshwater,emission/water/rural
+freshwater,emission/water/fresh water body
+freshwater,emission/water/brackish water body
+freshwater,emission/water/fresh water body/urban
+freshwater,emission/water/fresh water body/rural
+freshwater,emission/water/brackish water body/urban
+freshwater,emission/water/brackish water body/rural
+freshwater,emission/water/fresh water body/lake
+freshwater,emission/water/fresh water body/river
+freshwater,emission/water/brackish water body/lake
+freshwater,emission/water/fresh water body/lake/urban
+freshwater,emission/water/fresh water body/lake/rural
+freshwater,emission/water/fresh water body/river/urban
+freshwater,emission/water/fresh water body/river/rural
+freshwater,emission/water/brackish water body/lake/urban
+freshwater,emission/water/brackish water body/lake/rural
 marine,emission/water/saline water body
 marine,emission/water/saline water body/ocean
 soil,emission/ground
