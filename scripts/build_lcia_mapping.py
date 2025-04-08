@@ -24,7 +24,7 @@ if __name__ == '__main__':
     ## Bring in flowables and contexts from the lcia_formatter
     import lciafmt
     if lcia_name == 'TRACI_SAPRC':
-        lcia_lciafmt = lciafmt.traci._read_smog(indicator_name='')
+        lcia_lciafmt = lciafmt.traci._read_smog()
     else:
         lcia_lciafmt = lciafmt.get_method(lcia_name, endpoint = False)
     if 'recipe' in lcia_name.lower():

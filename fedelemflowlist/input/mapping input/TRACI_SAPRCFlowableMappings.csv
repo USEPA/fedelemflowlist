@@ -2,47 +2,1011 @@ TargetFlowName,TargetUnit,MatchCondition,SourceFlowName,SourceUnit,Mapper,Map me
 Methane,kg,=,methane,kg,Young,match to TRACI 2.1,,,3/11/2025
 Ethane,kg,=,ethane,kg,Young,match to TRACI 2.1,,,3/11/2025
 Propane,kg,=,propane,kg,Young,match to TRACI 2.1,,,3/11/2025
+Cyclopropane,kg,=,cyclopropane,kg,Young,match to TRACI 2.1,,,4/7/2025
 Butane,kg,=,n-butane,kg,Young,match to TRACI 2.1,,,3/11/2025
+Isobutane,kg,=,isobutane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Cyclobutane,kg,=,cyclobutane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Pentane,kg,=,n-pentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C5 alkanes,kg,,,,,
+"2,2-Dimethylpropane",kg,=,neopentane,kg,Young,match to TRACI 2.1,,,4/7/2025
 2-Methylbutane,kg,=,isopentane,kg,Young,match to TRACI 2.1,,,3/11/2025
+Cyclopentane,kg,=,cyclopentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Hexane,kg,=,n-hexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C6 alkanes,kg,,,,,
+"2,2-Dimethylbutane",kg,=,"2,2-dimethyl butane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Dimethylbutane",kg,=,"2,3-dimethyl butane",kg,Young,match to TRACI 2.1,,,4/7/2025
 2-Methylpentane,kg,=,2-methyl pentane,kg,Young,match to TRACI 2.1,,,3/11/2025
+3-Methylpentane,kg,=,3-methyl pentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C6 cycloalkanes,kg,,,,,
+Cyclohexane,kg,=,cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclopropane, (1-methylethyl)-",kg,=,isopropyl cyclopropane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methylcyclopentane,kg,=,methyl cyclopentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,Unspeciated C6 Alkanes,kg,,,,,
+Heptane,kg,=,n-heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,2,3-Trimethylbutane",kg,=,"2,2,3-trimethyl butane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Pentane, 2,2-dimethyl-",kg,=,"2,2-dimethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Dimethylpentane",kg,=,"2,3-dimethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,4-Dimethylpentane",kg,=,"2,4-dimethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methylhexane,kg,=,2-methyl hexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Pentane, 3,3-dimethyl-",kg,=,"3,3-dimethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methylhexane,kg,=,3-methyl hexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Pentane, 3-ethyl-",kg,=,3-ethyl pentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Acetates, branched alkyl C7-9 C-8-rich",kg,=,branched C7 alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,1-Dimethylcyclopentane",kg,=,"1,1-dimethyl cyclopentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Dimethylcyclopentane",kg,=,"1,2-dimethyl cyclopentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C7 cycloalkanes,kg,,,,,
+"Cyclopentane, 1,3-dimethyl-",kg,=,"1,3-dimethyl cyclopentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Cycloheptane,kg,=,cycloheptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylcyclopentane,kg,=,ethyl cyclopentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methylcyclohexane,kg,=,methyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Paraffin, C7",kg,=,Unspeciated C7 Alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+Octane,kg,=,n-octane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C8 alkanes,kg,,,,,
+"Butane, 2,2,3,3-tetramethyl-",kg,=,"2,2,3,3-tetramethyl butane",kg,Young,match to TRACI 2.1,,,4/7/2025
 "2,2,4-Trimethylpentane",kg,=,"2,2,4-trimethyl pentane",kg,Young,match to TRACI 2.1,,,3/11/2025
+"Hexane, 2,2-dimethyl-",kg,=,"2,2-dimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3,4-Trimethylpentane",kg,=,"2,3,4-trimethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Dimethylhexane",kg,=,"2,3-dimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,4-Dimethylhexane",kg,=,"2,4-dimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,5-Dimethylhexane",kg,=,"2,5-dimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methylheptane,kg,=,2-methyl heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methylheptane,kg,=,3-methyl heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Methylheptane,kg,=,4-methyl heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Pentane, 2,3,3-trimethyl-",kg,=,"2,3,3-trimethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,3-Dimethylhexane",kg,=,"3,3-dimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,2,3-Trimethylpentane",kg,=,"2,2,3-trimethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,4-Dimethylhexane",kg,=,"3,4-dimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Ethyl-2-methylpentane,kg,=,3-ethyl 2-methyl pentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C8 bicycloalkanes,kg,,,,,
+"1,1,2-Trimethylcyclopentane",kg,=,"1,1,2-trimethyl cyclopentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,1,3-Trimethylcyclopentane",kg,=,"1,1,3-trimethyl cyclopentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,1-Dimethylcyclohexane",kg,=,"1,1-dimethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2,3-Trimethylcyclopentane",kg,=,"1,2,3-trimethyl cyclopentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2,4-Trimethylcyclopentane",kg,=,"1,2,4-trimethyl cyclopentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclopentane, 1-ethyl-3-methyl-",kg,=,1-methyl-3-ethyl cyclopentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Dimethylcyclohexane",kg,=,"1,2-dimethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,4-Dimethylcyclohexane",kg,=,"1,4-dimethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cycloparaffins, C8",kg,=,C8 cycloalkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,3-Dimethylcyclohexane",kg,=,"1,3-dimethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Cyclooctane,kg,=,cyclooctane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylcyclohexane,kg,=,ethyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propylcyclopentane,kg,=,propyl cyclopentane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Paraffin, C8",kg,=,Unspeciated C8 Alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+Nonane,kg,=,n-nonane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C9 alkanes,kg,,,,,
+"Hexane, 2,2,5-trimethyl-",kg,=,"2,2,5-trimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Hexane, 2,3,5-trimethyl-",kg,=,"2,3,5-trimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 2,4-dimethyl-",kg,=,"2,4-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Octane, 2-methyl-",kg,=,2-methyl octane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Pentane, 3,3-diethyl-",kg,=,"3,3-diethyl pentane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 3,5-dimethyl-",kg,=,"3,5-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 4-ethyl-",kg,=,4-ethyl heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Methyloctane,kg,=,4-methyl octane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,4,4-Trimethylhexane",kg,=,"2,4,4-trimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 3,3-dimethyl-",kg,=,"3,3-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 4,4-dimethyl-",kg,=,"4,4-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,2-Dimethylheptane",kg,=,"2,2-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,2,4-Trimethylhexane",kg,=,"2,2,4-trimethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,6-Dimethylheptane",kg,=,"2,6-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 2,3-dimethyl-",kg,=,"2,3-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 2,5-dimethyl-",kg,=,"2,5-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Octane, 3-methyl-",kg,=,3-methyl octane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,4-Dimethylheptane",kg,=,"3,4-dimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Ethylheptane,kg,=,3-ethyl heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1H-Indene, octahydro-",kg,=,cis-hydrindane; bicyclo[4.3.0]nonane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C9 bicycloalkanes,kg,,,,,
+"1,2,3-Trimethylcyclohexane",kg,=,"1,2,3-trimethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,3,5-Trimethylcyclohexane",kg,=,"1,3,5-trimethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,1,3-Trimethylcyclohexane",kg,=,"1,1,3-trimethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Ethyl-4-methylcyclohexane,kg,=,1-ethyl-4-methyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propylcyclohexane,kg,=,propyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C9 cycloalkanes,kg,,,,,
+"Paraffin, C9",kg,=,Unspeciated C9 Alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+Decane,kg,=,n-decane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C10 alkanes,kg,,,,,
+"2,4,6-Trimethylheptane",kg,=,"2,4,6-trimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Octane, 2,4-dimethyl-",kg,=,"2,4-dimethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,6-Dimethyloctane",kg,=,"2,6-dimethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methylnonane,kg,=,2-methyl nonane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Hexane, 3,4-diethyl-",kg,=,"3,4-diethyl hexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methylnonane,kg,=,3-methyl nonane,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Methylnonane,kg,=,4-methyl nonane,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Propylheptane,kg,=,4-propyl heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 2,4,4-trimethyl-",kg,=,"2,4,4-trimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 2,5,5-trimethyl-",kg,=,"2,5,5-trimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,3-Dimethyloctane",kg,=,"3,3-dimethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Octane, 4,4-dimethyl-",kg,=,"4,4-dimethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Octane, 2,2-dimethyl-",kg,=,"2,2-dimethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 2,2,4-trimethyl-",kg,=,"2,2,4-trimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Heptane, 2,2,5-trimethyl-",kg,=,"2,2,5-trimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"heptane, 2,3,6-trimethyl-",kg,=,"2,3,6-trimethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3 Dimethyloctane",kg,=,"2,3-dimethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,5-Dimethyloctane",kg,=,"2,5-dimethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Ethyl-2-methylheptane,kg,=,2-methyl-3-ethyl heptane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Octane, 4-ethyl-",kg,=,4-ethyl octane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 bicycloalkanes,kg,,,,,
+Isobutylcyclohexane,kg,=,isobutyl cyclohexane; (2-methylpropyl) cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Sec-Butyl Cyclohexane,kg,=,sec-butyl cyclohexane,kg,Young,Name match,,,4/7/2025
+,,,C10 cycloalkanes,kg,,,,,
+"1,3-diethylcyclohexane",kg,=,"1,3-diethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,4-Diethylcyclohexane",kg,=,"1,4-diethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexane, 1-methyl-3-(1-methylethyl)-",kg,=,1-methyl-3-isopropyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Butylcyclohexane,kg,=,butyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Paraffin, C10",kg,=,unspeciated C10 alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+Undecane,kg,=,n-undecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C11 alkanes,kg,,,,,
+"2,3,4,6-Tetramethylheptane",kg,=,"2,3,4,6-tetramethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Nonane, 2,6-dimethyl-",kg,=,"2,6-dimethyl nonane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,5-Diethylheptane",kg,=,"3,5-diethyl heptane",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methyldecane,kg,=,3-methyl decane,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Methyldecane,kg,=,4-methyl decane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C11 bicycloalkanes,kg,,,,,
+,,,C11 cycloalkanes,kg,,,,,
+"1,3-Diethyl-5-Methylcyclohexane",kg,=,"1,3-diethyl-5-methyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"cyclohexane, 1-ethyl-2-propyl-",kg,=,1-ethyl-2-propyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexane, pentyl-",kg,=,pentyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Paraffin, C11",kg,=,unspeciated C11 alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+Dodecane,kg,=,n-dodecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C12 alkanes,kg,,,,,
+"2,3,5,7-Tetramethyloctane",kg,=,"2,3,5,7-tetramethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,6-Diethyl-octane",kg,=,"2,6-diethyl octane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,6-Dimethyldecane",kg,=,"3,6-dimethyl decane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Undecane, 3-methyl-",kg,=,3-methyl undecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Undecane, 5-methyl-",kg,=,5-methyl undecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C12 tricycloalkanes,kg,,,,,
+,,,C12 bicycloalkanes,kg,,,,,
+,,,C12 cycloalkanes,kg,,,,,
+"1,3,5-triethylcyclohexane",kg,=,"1,3,5-triethyl cyclohexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Methyl-4-pentylcyclohexane,kg,=,1-methyl-4-pentyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexane, hexyl-",kg,=,hexyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Paraffin, C12",kg,=,unspeciated C12 alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+Tridecane,kg,=,n-tridecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C13 alkanes,kg,,,,,
+,,,"2,3,6-trimethyl 4-isopropyl heptane",kg,,,,,
+"2,4,6,8-tetramethylnonane",kg,=,"2,4,6,8-tetramethyl nonane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,6-Dimethylundecane",kg,=,"3,6-dimethyl undecane",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"3,7-diethyl nonane",kg,,,,,
+3-Methyldodecane,kg,=,3-methyl dodecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+5-Methyldodecane,kg,=,5-methyl dodecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C13 tricycloalkanes,kg,,,,,
+,,,C13 bicycloalkanes,kg,,,,,
+,,,C13 cycloalkanes,kg,,,,,
+,,,"1,3-diethyl-5-propyl cyclohexane",kg,,,,,
+1-Methyl-2-hexylcyclohexane,kg,=,1-methyl-2-hexyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexane, heptyl-",kg,=,heptyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Paraffin, C13",kg,=,unspeciated C13 alkanes,kg,Young,match to TRACI 2.1,,,4/7/2025
+Tetradecane,kg,=,n-tetradecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C14 alkanes,kg,,,,,
+,,,"2,4,5,6,8-pentamethyl nonane",kg,,,,,
+,,,"2-methyl 3,5-diisopropyl heptane",kg,,,,,
+"3,7-Dimethyldodecane",kg,=,"3,7-dimethyl dodecane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,8-Diethyldecane",kg,=,"3,8-diethyl decane",kg,Young,match to TRACI 2.1,,,4/7/2025
+"tridecane, 3-methyl-",kg,=,3-methyl tridecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+6-Methyltridecane,kg,=,6-methyl tridecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C14 tricycloalkanes,kg,,,,,
+,,,C14 bicycloalkanes,kg,,,,,
+,,,C14 cycloalkanes,kg,,,,,
+,,,"1,3-dipropyl-5-ethyl cyclohexane",kg,,,,,
+Trans-1-Methyl-4-Heptylcyclohexane,kg,=,trans-1-methyl-4-heptyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexane, octyl-",kg,=,octyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,unspeciated C14 alkanes,kg,,,,,
+Pentadecane,kg,=,n-pentadecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C15 alkanes,kg,,,,,
+,,,"2,6,8-trimethyl 4-isopropyl nonane",kg,,,,,
+,,,"3,7-dimethyl tridecane",kg,,,,,
+"3,9-diethylundecane",kg,=,"3,9-diethyl undecane",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-methyl-tetradecane,kg,=,3-methyl tetradecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+6-methyltetradecane,kg,=,6-methyl tetradecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C15 tricycloalkanes,kg,,,,,
+,,,C15 bicycloalkanes,kg,,,,,
+,,,C15 cycloalkanes,kg,,,,,
+,,,"1,3,5-tripropyl cyclohexane",kg,,,,,
+,,,1-methyl-2-octyl cyclohexane,kg,,,,,
+"Cyclohexane, nonyl-",kg,=,nonyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"1,3-diethyl-5-pentyl cyclohexane",kg,,,,,
+,,,unspeciated C15 alkanes,kg,,,,,
+Hexadecane,kg,=,n-C16,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C16 alkanes,kg,,,,,
+,,,"2,7-dimethyl 3,5-diisopropyl heptane",kg,,,,,
+"pentadecane, 3-methyl-",kg,=,3-methyl pentadecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"4,8-dimethyltetradecane",kg,=,"4,8-dimethyl tetradecane",kg,Young,match to TRACI 2.1,,,4/7/2025
+7-Methylpentadecane,kg,=,7-methyl pentadecane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C16 tricycloalkanes,kg,,,,,
+,,,C16 bicycloalkanes,kg,,,,,
+,,,C16 cycloalkanes,kg,,,,,
+,,,"1,3-propyl-5-butyl cyclohexane",kg,,,,,
+"Cyclohexane, 1-methyl-4-nonyl-",kg,=,1-methyl-4-nonyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexane, decyl-",kg,=,decyl cyclohexane,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,unspeciated C16 alkanes,kg,,,,,
+Heptadecane,kg,=,n-C17,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C17 alkanes,kg,,,,,
+,,,C17 tricycloalkanes,kg,,,,,
+,,,C17 bicycloalkanes,kg,,,,,
+,,,C17 cycloalkanes,kg,,,,,
+,,,unspeciated C17 alkanes,kg,,,,,
+Octadecane,kg,=,n-C18,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C18 alkanes,kg,,,,,
+,,,C18 tricycloalkanes,kg,,,,,
+,,,C18 bicycloalkanes,kg,,,,,
+,,,C18 cycloalkanes,kg,,,,,
+,,,unspeciated C18 alkanes,kg,,,,,
+Nonadecane,kg,=,n-C19,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C19 alkanes,kg,,,,,
+,,,C19 tricycloalkanes,kg,,,,,
+,,,C19 bicycloalkanes,kg,,,,,
+,,,C19 cycloalkanes,kg,,,,,
+Eicosane,kg,=,n-C20,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C20 alkanes,kg,,,,,
+,,,C20 tricycloalkanes,kg,,,,,
+,,,C20 bicycloalkanes,kg,,,,,
+,,,C20 cycloalkanes,kg,,,,,
+Heneicosane,kg,=,n-C21,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C21 alkanes,kg,,,,,
+,,,C21 tricycloalkanes,kg,,,,,
+,,,C21 bicycloalkanes,kg,,,,,
+,,,C21 cycloalkanes,kg,,,,,
+Docosane,kg,=,n-C22,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,branched C22 alkanes,kg,,,,,
+,,,C22 tricycloalkanes,kg,,,,,
+,,,C22 bicycloalkanes,kg,,,,,
+,,,C22 cycloalkanes,kg,,,,,
 Ethylene,kg,=,ethene,kg,Young,match to TRACI 2.1,,,3/11/2025
 Propylene,kg,=,propene,kg,YS,Custom Name match (synonyms),,,4/4/2025
+Propadiene,kg,=,"1,2-propadiene (allene)",kg,Young,match to TRACI 2.1,,,4/7/2025
 1-Butene,kg,=,1-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,C4 terminal alkenes,kg,,,,,
+Isobutene,kg,=,isobutene,kg,Young,match to TRACI 2.1,,,4/7/2025
 cis-2-Butene,kg,=,cis-2-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
 trans-2-Butene,kg,=,trans-2-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,C4 internal alkenes,kg,,,,,
+"1,2-Butadiene",kg,=,"1,2-butadiene",kg,Young,match to TRACI 2.1,,,4/7/2025
 "1,3-Butadiene",kg,=,"1,3-butadiene",kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,C4 alkenes,kg,,,,,
+1-Pentene,kg,=,1-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methyl-1-butene,kg,=,3-methyl-1-butene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C5 terminal alkenes,kg,,,,,
+2-Methyl-1-butene,kg,=,2-methyl-1-butene,kg,Young,match to TRACI 2.1,,,4/7/2025
 2-Methyl-2-butene,kg,=,2-methyl-2-butene,kg,Young,match to TRACI 2.1,,,3/11/2025
+cis-2-Pentene,kg,=,cis-2-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+trans-2-Pentene,kg,=,trans-2-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Pentene,kg,=,2-pentenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C5 internal alkenes,kg,,,,,
+Cyclopentene,kg,=,cyclopentene,kg,Young,match to TRACI 2.1,,,4/7/2025
 "1,3-Pentadiene, (3E)-",kg,=,"trans-1,3-pentadiene",kg,Young,match to TRACI 2.1,,,3/11/2025
+"1,3-Pentadiene, (3Z)-",kg,=,"cis-1,3-pentadiene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,4-Pentadiene",kg,=,"1,4-pentadiene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Pentadiene",kg,=,"1,2-pentadiene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3-Methylbuta-1,2-diene",kg,=,"3-methyl-1,2-butadiene",kg,Young,match to TRACI 2.1,,,4/7/2025
 Isoprene,kg,=,"isoprene (2-methyl-1,3-butadiene)",kg,YS,Custom Name match (synonyms),,,4/4/2025
+Cyclopentadiene,kg,=,cyclopentadiene,kg,Young,match to TRACI 2.1,,,4/7/2025
+C5 alkenes,kg,=,C5 alkenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Hexene,kg,=,1-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Butene, 3,3-dimethyl-",kg,=,"3,3-dimethyl-1-butene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Pentene, 3-methyl-",kg,=,3-methyl-1-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Methyl-1-pentene,kg,=,4-methyl-1-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C6 terminal alkenes,kg,,,,,
+"1-Butene, 2,3-dimethyl-",kg,=,"2,3-dimethyl-1-butene",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methylenepentane,kg,=,2-ethyl-1-butene,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methyl-1-pentene,kg,=,2-methyl-1-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Butene, 2,3-dimethyl-",kg,=,"2,3-dimethyl-2-butene",kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methyl-2-pentene,kg,=,2-methyl-2-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+cis-4-Methyl-2-pentene,kg,=,cis 4-methyl-2-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+cis-2-Hexene,kg,=,cis-2-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(3Z)-3-Hexene,kg,=,cis-3-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Pentene, 3-methyl-, (2Z)-",kg,=,cis-3-methyl-2-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
 (E)-3-Methylpent-2-ene,kg,=,trans-3-methyl-2-pentene,kg,Young,match to TRACI 2.1,,,3/11/2025
+"2-Pentene, 4-methyl-, (E)-",kg,=,trans-4-methyl-2-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+trans-2-Hexene,kg,=,trans-2-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(3E)-3-Hexene,kg,=,trans-3-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Hexene,kg,=,2-hexenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C6 internal alkenes,kg,,,,,
+"Cyclopentene, 3-methyl-",kg,=,3-methyl cyclopentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclopentene, 1-methyl-",kg,=,1-methyl cyclopentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+Cyclohexene,kg,=,cyclohexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"(2E,4E)-2,4-Hexadiene",kg,=,"trans,trans-2,4-hexadiene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"(E)-1,3-Hexadiene",kg,=,"trans-1,3-hexadiene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Trans-1,4-Hexadiene",kg,=,"trans-1,4-hexadiene",kg,Young,Name match,,,4/7/2025
+,,,C6 Cyclic or di-olefins,kg,,,,,
+C6 alkenes,kg,=,C6 alkenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexene, 1-methyl-",kg,=,1-methyl cyclohexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Cyclohexene, 4-methyl-",kg,=,4-methyl cyclohexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C7 cyclic olefins or di-olefins,kg,,,,,
+1-Heptene,kg,=,1-heptene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Pentene, 3,4-dimethyl-",kg,=,"3,4-dimethyl-1-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Hexene, 3-methyl-",kg,=,3-methyl-1-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,4-Dimethylpent-1-ene",kg,=,"2,4-dimethyl-1-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Dimethylpent-1-ene",kg,=,"2,3-dimethyl-1-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Pentene, 3,3-dimethyl-",kg,=,"3,3-dimethyl-1-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methylpent-1-ene,kg,=,2-methyl-1-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3,3-Trimethylbut-1-ene",kg,=,"2,3,3-trimethyl-1-butene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"(Z)-4,4-Dimethylpent-2-ene",kg,=,"4,4-dimethyl-cis-2-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,4-Dimethylpent-2-ene",kg,=,"2,4-dimethyl-2-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Hexene, 2-methyl-",kg,=,2-methyl-2-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Pentene, 3-ethyl-",kg,=,3-ethyl-2-pentene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(E)-3-Methyl-3-hexene,kg,=,3-methyl-trans-3-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(2Z)-Heptene,kg,=,cis-2-heptene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"3-Hexene, 2-methyl-, (E)-",kg,=,2-methyl-trans-3-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"3-hexene, 3-methyl-, (z)-",kg,=,3-methyl-cis-3-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Pentene, 3,4-dimethyl-,(Z)-",kg,=,"3,4-dimethyl-cis-2-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Pentene, 2,3-dimethyl-",kg,=,"2,3-dimethyl-2-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3-Heptene, (3Z)-",kg,=,cis-3-heptene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Pentene, 4,4-dimethyl-, (E)-",kg,=,"trans-4,4-dimethyl-2-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+(2E)-2-Heptene,kg,=,trans-2-heptene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(3E)-3-Heptene,kg,=,trans-3-heptene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Hexene, 3-methyl-,(Z)-",kg,=,cis-3-methyl-2-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Hexene, 4-Methyl-, (E)-",kg,=,trans-4-methyl-2-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-methyl-2-hexene,kg,=,trans-3-methyl-2-hexene,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Heptene,kg,=,2-heptenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C7 terminal alkenes,kg,,,,,
+,,,C7 internal alkenes,kg,,,,,
+,,,C7 alkenes,kg,,,,,
+"Cyclohexene, 1,2-dimethyl-",kg,=,"1,2-dimethyl cyclohexene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C8 cyclic olefins or di-olefins,kg,,,,,
+1-Octene,kg,=,1-octene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Pentene, 2,4,4-trimethyl-",kg,=,"2,4,4-trimethyl-1-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Pentane, 2,4-dimethyl-3-methylene-",kg,=,3-methyl-2-isopropyl-1-butene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(2E)-2-Octene,kg,=,trans-2-octene,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methylhept-2-ene,kg,=,2-methyl-2-heptene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(4Z)-4-Octene,kg,=,cis-4-octene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"(E)-2,2-Dimethyl 3-hexene",kg,=,"trans-2,2-dimethyl 3-hexene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"(E)-2,5-Dimethylhex-3-ene",kg,=,"trans-2,5-dimethyl 3-hexene",kg,Young,match to TRACI 2.1,,,4/7/2025
+(3E)-3-Octene,kg,=,trans-3-octene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(4E)-4-Octene,kg,=,trans-4-octene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Pentene, 2,4,4-trimethyl-",kg,=,"2,4,4-trimethyl-2-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Dimethylhex-2-ene",kg,=,"2,3-dimethyl-2-hexene",kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Octene,kg,=,3-octenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C8 terminal alkenes,kg,,,,,
+,,,C8 internal alkenes,kg,,,,,
+,,,C8 alkenes,kg,,,,,
+1-Nonene,kg,=,1-nonene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C9 terminal alkenes,kg,,,,,
+"1-Pentene, 4,4-dimethyl-",kg,=,"4,4-dimethyl-1-pentene",kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Nonene,kg,=,4-nonene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,3-nonenes,kg,,,,,
+,,,C9 internal alkenes,kg,,,,,
+(4E)-4-Nonene,kg,=,trans-4-nonene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C9 cyclic olefins or di-olefins,kg,,,,,
+,,,C9 alkenes,kg,,,,,
+1-Decene,kg,=,1-decene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 terminal alkenes,kg,,,,,
+"3,4-Diethyl-2-hexene",kg,=,"3,4-diethyl-2-hexene",kg,Young,match to TRACI 2.1,,,4/7/2025
+Cis-5-Decene,kg,=,cis-5-decene,kg,Young,match to TRACI 2.1,,,4/7/2025
+(4E)-4-Decene,kg,=,trans-4-decene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 3-alkenes,kg,,,,,
+"Alkenes, C10 internal-",kg,=,C10 internal alkenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 cyclic olefins or di-olefins,kg,,,,,
+3-Carene,kg,=,3-carene,kg,Young,match to TRACI 2.1,,,4/7/2025
+.alpha.-Pinene,kg,=,alpha-pinene,kg,Young,match to TRACI 2.1,,,4/7/2025
+.beta.-Pinene,kg,=,beta-pinene,kg,Young,match to TRACI 2.1,,,4/7/2025
 D-Limonene,kg,=,d-limonene,kg,Young,match to TRACI 2.1,,,3/11/2025
+"bicyclo[3.1.0]hexane, 4-methylene-1-(1-methylethyl)-",kg,=,sabinene,kg,Young,match to TRACI 2.1,,,4/7/2025
+Terpinolene,kg,=,Terpinolene,kg,Young,match to TRACI 2.1,,,4/7/2025
+Camphene,kg,=,Camphene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,terpene (monoterpenes),kg,,,,,
+,,,C10 alkenes,kg,,,,,
+1-Undecene,kg,=,1-undecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C11 terminal alkenes,kg,,,,,
+(5E)-5-Undecene,kg,=,trans-5-undecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C11 3-alkenes,kg,,,,,
+"Alkenes, C11 internal-",kg,=,C11 internal alkenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C11 cyclic olefins or di-olefins,kg,,,,,
+,,,C11 alkenes,kg,,,,,
+,,,C12 terminal alkenes,kg,,,,,
+1-Dodecene,kg,=,1-dodecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C12 2-alkenes,kg,,,,,
+,,,C12 3-alkenes,kg,,,,,
+"Alkenes, C12 internal-",kg,=,C12 internal alkenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+"5-dodecene, (e)-",kg,=,trans-5-dodecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C12 cyclic olefins or di-olefins,kg,,,,,
+,,,C12 alkenes,kg,,,,,
+1-Tridecene,kg,=,1-tridecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C13 terminal alkenes,kg,,,,,
+"5-Tridecene, (5E)-",kg,=,trans-5-tridecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C13 3-alkenes,kg,,,,,
+,,,C13 internal alkenes,kg,,,,,
+,,,C13 cyclic olefins or di-olefins,kg,,,,,
+,,,C13 alkenes,kg,,,,,
+1-Tetradecene,kg,=,1-tetradecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C14 terminal alkenes,kg,,,,,
+"5-tetradecene, (e)-",kg,=,trans-5-tetradecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C14 3-alkenes,kg,,,,,
+,,,C14 internal alkenes,kg,,,,,
+,,,C14 cyclic olefins or di-olefins,kg,,,,,
+,,,C14 alkenes,kg,,,,,
+1-Pentadecene,kg,=,1-pentadecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C15 terminal alkenes,kg,,,,,
+Trans-5-Pentadecene,kg,=,trans-5-pentadecene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C15 3-alkenes,kg,,,,,
+,,,C15 internal alkenes,kg,,,,,
+,,,C15 cyclic olefins or di-olefins,kg,,,,,
+,,,C15 alkenes,kg,,,,,
 Benzene,kg,=,benzene,kg,Young,match to TRACI 2.1,,,3/11/2025
 Toluene,kg,=,toluene,kg,Young,match to TRACI 2.1,,,3/11/2025
+Ethylbenzene,kg,=,ethyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
 m-Xylene,kg,=,m-xylene,kg,Young,match to TRACI 2.1,,,3/11/2025
 o-Xylene,kg,=,o-xylene,kg,Young,match to TRACI 2.1,,,3/11/2025
 p-Xylene,kg,=,p-xylene,kg,Young,match to TRACI 2.1,,,3/11/2025
+Xylene,kg,=,C8 disubstituted benzenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,isomers of ethylbenzene,kg,,,,,
+Styrene,kg,=,styrene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,Unspeciated C8 Aromatics,kg,,,,,
+,,,C9 monosubstituted benzenes,kg,,,,,
+n-Propylbenzene,kg,=,n-propyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+Cumene,kg,=,isopropyl benzene (cumene),kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C9 disubstituted benzenes,kg,,,,,
+m-Ethyltoluene,kg,=,m-ethyl toluene,kg,Young,match to TRACI 2.1,,,4/7/2025
+o-Ethyltoluene,kg,=,o-ethyl toluene,kg,Young,match to TRACI 2.1,,,4/7/2025
+p-Ethyltoluene,kg,=,p-ethyl toluene,kg,Young,match to TRACI 2.1,,,4/7/2025
+Trimethylbenzene,kg,=,C9 trisubstituted benzenes,kg,Young,match to TRACI 2.1,,,4/7/2025
 "1,2,3-Trimethylbenzene",kg,=,"1,2,3-trimethyl benzene",kg,Young,match to TRACI 2.1,,,3/11/2025
+"1,2,4-Trimethylbenzene",kg,=,"1,2,4-trimethyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,3,5-Trimethylbenzene",kg,=,"1,3,5-trimethyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+Propylbenzene isomers,kg,=,isomers of propyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+Indene,kg,=,indene,kg,Young,match to TRACI 2.1,,,4/7/2025
+Indan,kg,=,indane,kg,Young,match to TRACI 2.1,,,4/7/2025
+Allylbenzene,kg,=,allylbenzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,a-methyl styrene,kg,,,,,
+,,,C9 styrenes,kg,,,,,
+,,,Beta-methyl styrene,kg,,,,,
+"Aromatics, C9",kg,=,Unspeciated C9 Aromatics,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 monosubstituted benzenes,kg,,,,,
+n-Butylbenzene,kg,=,n-butyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+sec-Butylbenzene,kg,=,sec-butyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+tert-Butylbenzene,kg,=,tert-butyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+o-Cymene,kg,=,o-cymene; 1-methyl-2-(1-methylethyl) benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Methyl-2-propylbenzene,kg,=,1-methyl-2-n-propyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+m-Cymene,kg,=,m-cymene; 1-methyl-3-(1-methylethyl) benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Methyl-3-propylbenzene,kg,=,1-methyl-3-n-propyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+p-Propyltoluene,kg,=,1-methyl-4-n-propyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 disubstituted benzenes,kg,,,,,
+,,,m-C10 disubstituted benzenes,kg,,,,,
+,,,o-C10 disubstituted benzenes,kg,,,,,
+,,,p-C10 disubstituted benzenes,kg,,,,,
+m-Diethylbenzene,kg,=,m-diethyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+o-Diethylbenzene,kg,=,o-diethyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+p-Cymene,kg,=,1-methyl-4-isopropyl benzene (p-cymene),kg,Young,match to TRACI 2.1,,,4/7/2025
+p-Diethylbenzene,kg,=,p-diethyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"1,2,3-C10 trisubstituted benzenes",kg,,,,,
+,,,"1,2,4-C10 trisubstituted benzenes",kg,,,,,
+,,,"1,3,5-C10 trisubstituted benzenes",kg,,,,,
+"1,2-Dimethyl-3-ethylbenzene",kg,=,"1,2-dimethyl-3-ethyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"1,2-dimethyl-4-ethyl benzene",kg,,,,,
+,,,"1,3-dimethyl-2-ethyl benzene",kg,,,,,
+"1,3-Dimethyl-4-ethylbenzene",kg,=,"1,3-dimethyl-4-ethyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,3-Dimethyl-5-ethylbenzene",kg,=,"1,3-dimethyl-5-ethyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Ethyl-p-xylene,kg,=,"1,4-dimethyl-2-ethyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 trisubstituted benzenes,kg,,,,,
+,,,C10 tetrasubstituted benzenes,kg,,,,,
+,,,butylbenzenes,kg,,,,,
+,,,methyl indanes,kg,,,,,
+"1,2,3,4-Tetrahydronaphthalene",kg,=,"tetralin (1,2,3,4-tetrahydronaphthalene)",kg,Young,match to TRACI 2.1,,,4/7/2025
+Naphthalene,kg,=,naphthalene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 styrenes,kg,,,,,
+Amylbenzene,kg,=,n-pentyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C11 monosubstituted benzenes,kg,,,,,
+,,,m-C11 disubstituted benzenes,kg,,,,,
+,,,o-C11 disubstituted benzenes,kg,,,,,
+,,,p-C11 disubstituted benzenes,kg,,,,,
+,,,1-butyl-2-methyl benzene,kg,,,,,
+1-ethyl-2-propylbenzene,kg,=,1-ethyl-2-n-propyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Benzene, 1-(1,1-dimethylethyl)-2-methyl-",kg,=,"o-tert-butyl toluene; 1-(1,1-dimethylethyl)-2-methyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Benzene, 1-butyl-3-methyl-",kg,=,1-methyl-3-n-butyl benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Benzene, 1-methyl-4-(2-methylpropyl)-",kg,=,p-isobutyl toluene; 1-methyl-4-(2-methylpropyl) benzene,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Benzene, dialkyl derivs. C11",kg,=,C11 disubstituted benzenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"1,2,3-C11 trisubstituted benzenes",kg,,,,,
+,,,"1,2,4-C11 trisubstituted benzenes",kg,,,,,
+,,,"1,3,5-C11 trisubstituted benzenes",kg,,,,,
+"3,5-Diethyltoluene",kg,=,"1-methyl-3,5-diethyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C11 trisubstituted benzenes,kg,,,,,
+,,,C11 tetrasubstituted benzenes,kg,,,,,
+,,,pentyl benzenes,kg,,,,,
+,,,C11 tetralins or indanes,kg,,,,,
+Methylnaphthalene,kg,=,methyl naphthalenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Methylnaphthalene,kg,=,1-methyl naphthalene,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methylnaphthalene,kg,=,2-methyl naphthalene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C12 monosubstituted benzenes,kg,,,,,
+,,,m-C12 disubstituted benzenes,kg,,,,,
+,,,o-C12 disubstituted benzenes,kg,,,,,
+,,,p-C12 disubstituted benzenes,kg,,,,,
+"Benzene, 1,3-dipropyl-",kg,=,"1,3-di-n-propyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"1,4 di-isopropyl benzene",kg,,,,,
+m-Diisopropylbenzene,kg,=,"3-isopropyl cumene; 1,3-di-isopropyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Benzene, dialkyl derivs. C12",kg,=,C12 disubstituted benzenes,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"1,2,3-C12 trisubstituted benzenes",kg,,,,,
+,,,"1,2,4-C12 trisubstituted benzenes",kg,,,,,
+,,,"1,3,5-C12 trisubstituted benzenes",kg,,,,,
+5-tert-Butyl-m-xylene,kg,=,"1-(1,1-dimethylethyl)-3,5-dimethylbenzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C12 trisubstituted benzenes,kg,,,,,
+,,,C12 tetrasubstituted benzenes,kg,,,,,
+,,,C12 pentasubstituted benzenes,kg,,,,,
+,,,C12 hexasubstituted benzenes,kg,,,,,
+,,,hexyl benzenes,kg,,,,,
+,,,C12 tetralins or indanes,kg,,,,,
+1-Ethylnaphthalene,kg,=,1-ethyl naphthalene,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C12 naphthalenes,kg,,,,,
+,,,C12 monosubstituted naphthalene,kg,,,,,
+,,,C12 disubstituted naphthalenes,kg,,,,,
+"2,3-Dimethylnaphthalene",kg,=,"2,3-dimethyl naphthalene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,dimethyl naphthalenes,kg,,,,,
+"Aromatics, C12",kg,=,Unspeciated C12 Aromatics,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C13 monosubstituted benzenes,kg,,,,,
+,,,m-C13 disubstituted benzenes,kg,,,,,
+,,,o-C13 disubstituted benzenes,kg,,,,,
+,,,p-C13 disubstituted benzenes,kg,,,,,
+,,,C13 disubstituted benzenes,kg,,,,,
+,,,"1,2,3-C13 trisubstituted benzenes",kg,,,,,
+,,,"1,2,4-C13 trisubstituted benzenes",kg,,,,,
+,,,"1,3,5-C13 trisubstituted benzenes",kg,,,,,
+,,,C13 trisubstituted benzenes,kg,,,,,
+,,,C13 tetralins or indanes,kg,,,,,
+,,,C13 naphthalenes,kg,,,,,
+,,,C13 monosubstituted naphthalene,kg,,,,,
+,,,C13 disubstituted naphthalenes,kg,,,,,
+,,,C13 trisubstituted naphthalenes,kg,,,,,
+,,,Unspeciated C13 Aromatics,kg,,,,,
+,,,C14 monosubstituted benzenes,kg,,,,,
+,,,m-C14 disubstituted benzenes,kg,,,,,
+,,,o-C14 disubstituted benzenes,kg,,,,,
+,,,p-C14 disubstituted benzenes,kg,,,,,
+,,,C14 disubstituted benzenes,kg,,,,,
+,,,"1,2,3-C14 trisubstituted benzenes",kg,,,,,
+,,,"1,2,4-C14 trisubstituted benzenes",kg,,,,,
+,,,"1,3,5-C14 trisubstituted benzenes",kg,,,,,
+,,,C14 trisubstituted benzenes,kg,,,,,
+,,,C14 tetralins or indanes,kg,,,,,
+,,,C14 naphthalenes,kg,,,,,
+,,,Unspeciated C14 Aromatics,kg,,,,,
+,,,C15 monosubstituted benzenes,kg,,,,,
+,,,C15 disubstituted benzenes,kg,,,,,
+,,,m-C15 disubstituted benzenes,kg,,,,,
+,,,o-C15 disubstituted benzenes,kg,,,,,
+,,,p-C15 disubstituted benzenes,kg,,,,,
+,,,C15 trisubstituted benzenes,kg,,,,,
+,,,"1,2,3-C15 trisubstituted benzenes",kg,,,,,
+,,,"1,2,4-C15 trisubstituted benzenes",kg,,,,,
+,,,"1,3,5-C15 trisubstituted benzenes",kg,,,,,
+,,,C15 tetralins or indanes,kg,,,,,
+,,,C15 naphthalenes,kg,,,,,
+"Polycyclic aromatic hydrocarbons, PAH15",kg,=,Unspeciated C15 Aromatics,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C16 monosubstituted benzenes,kg,,,,,
+,,,m-C16 disubstituted benzenes,kg,,,,,
+,,,o-C16 disubstituted benzenes,kg,,,,,
+,,,p-C16 disubstituted benzenes,kg,,,,,
+,,,C16 disubstituted benzenes,kg,,,,,
+,,,"1,2,3-C16 trisubstituted benzenes",kg,,,,,
+,,,"1,2,4-C16 trisubstituted benzenes",kg,,,,,
+,,,"1,3,5-C16 trisubstituted benzenes",kg,,,,,
+,,,C16 trisubstituted benzenes,kg,,,,,
+,,,C16 tetralins or indanes,kg,,,,,
+,,,C16 naphthalenes,kg,,,,,
+"Polycyclic aromatic hydrocarbons, PAH16",kg,=,Unspeciated C16 Aromatics,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C17 monosubstituted benzenes,kg,,,,,
+,,,C17 disubstituted benzenes,kg,,,,,
+,,,C17 trisubstituted benzenes,kg,,,,,
+,,,C17 tetralins or indanes,kg,,,,,
+,,,C17 naphthalenes,kg,,,,,
+,,,C18 monosubstituted benzenes,kg,,,,,
+,,,C18 disubstituted benzenes,kg,,,,,
+,,,C18 trisubstituted benzenes,kg,,,,,
+,,,C18 tetralins or indanes,kg,,,,,
+,,,C18 naphthalenes,kg,,,,,
+,,,C19 monosubstituted benzenes,kg,,,,,
+,,,C19 disubstituted benzenes,kg,,,,,
+,,,C19 trisubstituted benzenes,kg,,,,,
+,,,C19 tetralins or indanes,kg,,,,,
+,,,C19 naphthalenes,kg,,,,,
+,,,C20 monosubstituted benzenes,kg,,,,,
+,,,C20 disubstituted benzenes,kg,,,,,
+,,,C20 trisubstituted benzenes,kg,,,,,
+,,,C20 tetralins or indanes,kg,,,,,
+,,,C20 naphthalenes,kg,,,,,
+,,,C21 monosubstituted benzenes,kg,,,,,
+,,,C21 disubstituted benzenes,kg,,,,,
+,,,C21 trisubstituted benzenes,kg,,,,,
+,,,C21 tetralins or indanes,kg,,,,,
+,,,C21 naphthalenes,kg,,,,,
+,,,C22 monosubstituted benzenes,kg,,,,,
+,,,C22 disubstituted benzenes,kg,,,,,
+,,,C22 trisubstituted benzenes,kg,,,,,
+,,,C22 tetralins or indanes,kg,,,,,
+,,,C22 naphthalenes,kg,,,,,
+Carbon monoxide,kg,=,carbon monoxide,kg,Young,match to TRACI 2.1,,,4/7/2025
 Formaldehyde,kg,=,formaldehyde,kg,Young,match to TRACI 2.1,,,3/11/2025
 Methanol,kg,=,methanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Formic acid,kg,=,formic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene oxide,kg,=,ethylene oxide,kg,Young,match to TRACI 2.1,,,4/7/2025
 Acetaldehyde,kg,=,acetaldehyde,kg,Young,match to TRACI 2.1,,,3/11/2025
 Ethanol,kg,=,ethanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Dimethyl ether,kg,=,dimethyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Glyoxal,kg,=,glyoxal,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl formate,kg,=,methyl formate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Acetic acid,kg,=,acetic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Acetaldehyde, hydroxy-",kg,=,glycolaldehyde,kg,Young,match to TRACI 2.1,,,4/7/2025
 Ethylene glycol,kg,=,ethylene glycol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Glycolic acid,kg,=,glycolic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+Peracetic acid,kg,=,peroxyacetic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
 Acrolein,kg,=,acrolein,kg,Young,match to TRACI 2.1,,,3/11/2025
+Oxetane,kg,=,trimethylene oxide,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propylene oxide,kg,=,propylene oxide,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propionaldehyde,kg,=,propionaldehyde,kg,Young,match to TRACI 2.1,,,4/7/2025
 Acetone,kg,=,acetone,kg,Young,match to TRACI 2.1,,,3/11/2025
 Isopropanol,kg,=,isopropyl alcohol,kg,YS,Custom Name match (synonyms),,,4/4/2025
+1-Propanol,kg,=,n-propyl alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Acrylic acid,kg,=,acrylic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
 Methylglyoxal,kg,=,methyl glyoxal,kg,Young,match to TRACI 2.1,,,3/11/2025
+"1,3-Dioxolane",kg,=,"1,3-dioxolane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl formate,kg,=,ethyl formate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl acetate,kg,=,methyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propionic acid,kg,=,propionic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Hydroxyacetone,kg,=,hydroxy acetone,kg,Young,match to TRACI 2.1,,,4/7/2025
 Propylene glycol,kg,=,propylene glycol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Dimethoxymethane,kg,=,dimethoxy methane,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methoxyethanol,kg,=,2-methoxy ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Carbonic acid, dimethyl ester",kg,=,dimethyl carbonate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Propanone, 1,3-dihydroxy-",kg,=,dihydroxy acetone,kg,Young,match to TRACI 2.1,,,4/7/2025
+Glycerine,kg,=,glycerol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Furan,kg,=,furan,kg,Young,match to TRACI 2.1,,,4/7/2025
+Crotonaldehyde,kg,=,crotonaldehyde,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methacrolein,kg,=,methacrolein,kg,Young,match to TRACI 2.1,,,4/7/2025
+Cyclobutanone,kg,=,cyclobutanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl vinyl ketone,kg,=,methylvinyl ketone,kg,Young,match to TRACI 2.1,,,4/7/2025
+Tetrahydrofuran,kg,=,tetrahydrofuran,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Butylene oxide",kg,=,"1,2-epoxy butane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Isobutyraldehyde,kg,=,2-methyl propanal,kg,Young,match to TRACI 2.1,,,4/7/2025
 Butyraldehyde,kg,=,butanal,kg,YS,Custom Name match (synonyms),,,4/4/2025
+,,,C4 aldehydes,kg,,,,,
+Methyl ethyl ketone,kg,=,methyl ethyl ketone,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isobutanol,kg,=,isobutyl alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Butanol,kg,=,n-butyl alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Butanol,kg,=,sec-butyl alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+tert-Butanol,kg,=,tert-butyl alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl ether,kg,=,diethyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+.gamma.-Butyrolactone,kg,=,gamma-butyrolactone,kg,Young,match to TRACI 2.1,,,4/7/2025
 Methacrylic acid,kg,=,methacrylic acid,kg,Young,match to TRACI 2.1,,,3/11/2025
+Methyl acrylate,kg,=,methyl acrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Vinyl acetate,kg,=,vinyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Hydroxymethyl-Propenal,kg,=,hydroxyl-methacrolein,kg,Young,match to TRACI 2.1,,,4/7/2025
 "2,3-Butanedione",kg,=,biacetyl,kg,Young,match to TRACI 2.1,,,3/11/2025
+"1,4-Dioxane",kg,=,"1,4-dioxane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl acetate,kg,=,ethyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl propionate,kg,=,methyl propionate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Formic acid, propyl ester",kg,=,n-propyl formate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isopropyl formate,kg,=,isopropyl formate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isobutyric acid,kg,=,isobutyric acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+Butyric acid,kg,=,butanoic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Propanone, 1-methoxy-",kg,=,methoxy-acetone,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,3-Butylene glycol",kg,=,"1,3-butanediol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Butanediol",kg,=,"1,2-butandiol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,4-Butanediol",kg,=,"1,4-butanediol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Butanediol",kg,=,"2,3-butanediol",kg,Young,match to TRACI 2.1,,,4/7/2025
 Propylene glycol 1-methyl ether,kg,=,1-methoxy-2-propanol,kg,YS,Custom Name match (synonyms),,,4/4/2025
+2-Ethoxyethanol,kg,=,2-ethoxy-ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methoxy-1-propanol,kg,=,2-methoxy-1-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+1(or 2)-Methoxypropanol,kg,=,3-methoxy-1-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propylene carbonate,kg,=,propylene carbonate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl lactate,kg,=,methyl lactate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethylene glycol,kg,=,diethylene glycol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Malic acid,kg,=,malic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methylfuran,kg,=,2-methyl furan,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methylfuran,kg,=,3-methyl furan,kg,Young,match to TRACI 2.1,,,4/7/2025
+Cyclopentanone,kg,=,cyclopentanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C5 cyclic ketones,kg,,,,,
+Cyclopentanol,kg,=,cyclopentanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methyltetrahydrofuran,kg,=,alpha-methyl tetrahydrofuran,kg,Young,match to TRACI 2.1,,,4/7/2025
+Tetrahydropyran,kg,=,tetrahydropyran,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methyl-3-buten-2-ol,kg,=,2-methyl-3-butene-2-ol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propanal, 2,2-dimethyl-",kg,=,"2,2-dimethylpropanal (pivaldehyde)",kg,Young,match to TRACI 2.1,,,4/7/2025
+Isovaleraldehyde,kg,=,3-methylbutanal (isovaleraldehyde),kg,Young,match to TRACI 2.1,,,4/7/2025
+Pentanal,kg,=,pentanal (valeraldehyde),kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C5 aldehydes,kg,,,,,
+2-Pentanone,kg,=,2-pentanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Pentanone,kg,=,3-pentanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C5 ketones,kg,,,,,
+Methyl isopropyl ketone,kg,=,methyl isopropyl ketone,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Pentanol,kg,=,2-pentanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Pentanol,kg,=,3-pentanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Pentanol,kg,=,pentyl alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methyl-1-butanol,kg,=,isoamyl alcohol (3-methyl-1-butanol),kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methyl-1-butanol,kg,=,2-methyl-1-butanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propane, 2-ethoxy-",kg,=,ethyl isopropyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Butane, 1-methoxy-",kg,=,methyl n-butyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl tert-butyl ether,kg,=,methyl t-butyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl acrylate,kg,=,ethyl acrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
 Methyl methacrylate,kg,=,methyl methacrylate,kg,Young,match to TRACI 2.1,,,3/11/2025
+Glutaraldehyde,kg,=,glutaraldehyde,kg,Young,match to TRACI 2.1,,,4/7/2025
+Acetylacetone,kg,=,"2,4-pentanedione",kg,Young,match to TRACI 2.1,,,4/7/2025
+Tetrahydrofurfuryl alcohol,kg,=,tetrahydro-2-furanmethanol (tetrahydrofurfuryl alcohol),kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl propionate,kg,=,ethyl propionate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isopropyl acetate,kg,=,isopropyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl butyrate,kg,=,methyl butyrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propanoic acid, 2-methyl-, methyl ester",kg,=,methyl isobutyrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Formic acid, butyl ester",kg,=,n-butyl formate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propyl acetate,kg,=,propyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isovaleric acid,kg,=,3-methyl butanoic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propane, 2,2-dimethoxy-",kg,=,"2,2-dimethoxy-propane",kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Ethoxy-2-propanol,kg,=,1-ethoxy-2-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol monopropyl ether,kg,=,2-propoxy-ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Ethoxy-1-propanol,kg,=,3-ethoxy-1-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Butanol, 3-methoxy-",kg,=,3-methoxy-1-butanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol monomethyl ether acetate,kg,=,2-methoxyethyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl lactate,kg,=,ethyl lactate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl isopropyl carbonate,kg,=,methyl isopropyl carbonate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethylene glycol monomethyl ether,kg,=,2-(2-methoxyethoxy) ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Pentaerythritol,kg,=,pentaerythritol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Phenol,kg,=,phenol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Furan, 2-ethyl-",kg,=,2-ethyl furan,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,5-Dimethylfuran",kg,=,"2,5-dimethyl furan",kg,Young,match to TRACI 2.1,,,4/7/2025
 Cyclohexanone,kg,=,cyclohexanone,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,C6 cyclic ketones,kg,,,,,
 Cyclohexanol,kg,=,cyclohexanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+Hexaldehyde,kg,=,hexanal,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C6 aldehydes,kg,,,,,
 Methyl isobutyl ketone,kg,=,4-methyl-2-pentanone,kg,YS,Custom Name match (synonyms),,,4/4/2025
+2-Hexanone,kg,=,methyl n-butyl ketone,kg,Young,match to TRACI 2.1,,,4/7/2025
+Pinacolone,kg,=,methyl tert-butyl ketone,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C6 ketones,kg,,,,,
 1-Hexanol,kg,=,1-hexanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+2-Hexanol,kg,=,2-hexanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Methyl-2-pentanol,kg,=,4-methyl-2-pentanol (methyl isobutyl carbinol),kg,Young,match to TRACI 2.1,,,4/7/2025
+Propyl ether,kg,=,di-n-propyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Ethoxybutane,kg,=,ethyl n-butyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl tert-butyl ether,kg,=,ethyl tert-butyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+tert-Amyl methyl ether,kg,=,methyl tert-amyl ether (TAME),kg,Young,match to TRACI 2.1,,,4/7/2025
+Isopropyl ether,kg,=,diisopropyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl methacrylate,kg,=,ethyl methacrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl butyrate,kg,=,ethyl butyrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isobutyl acetate,kg,=,isobutyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl pivalate,kg,=,methyl pivalate,kg,Young,match to TRACI 2.1,,,4/7/2025
+n-Butyl acetate,kg,=,n-butyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propanoic acid, propyl ester",kg,=,n-propyl propionate,kg,Young,match to TRACI 2.1,,,4/7/2025
+sec-Butyl acetate,kg,=,sec-butyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+tert-Butyl acetate,kg,=,tert-butyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Hydroxy-4-methyl-2-pentanone,kg,=,diacetone alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl valerate,kg,=,methyl pentanoate; methyl valerate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Hexanediol",kg,=,"1,2-dihydroxyhexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Hexylene glycol,kg,=,"2-methyl-2,4-pentanediol",kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol diethyl ether,kg,=,"ethylene glycol diethyl ether; 1,2-diethoxyethane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethyl acetal,kg,=,"acetal (1,1-diethoxyethane)",kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Propoxy-2-propanol,kg,=,1-propoxy-2-propanol (propylene glycol n-propyl ether),kg,Young,match to TRACI 2.1,,,4/7/2025
 Ethylene glycol monobutyl ether,kg,=,2-butoxy-ethanol,kg,Young,match to TRACI 2.1,,,3/11/2025
+,,,3 methoxy-3 methyl-1-butanol,kg,,,,,
+Propylene glycol monopropyl ether,kg,=,n-propoxy-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Propenoic acid, 2-hydroxy-1-methylethyl ester",kg,=,hydroxypropyl acrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Methoxy-2-propyl acetate,kg,=,1-methoxy-2-propyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol monoethyl ether acetate,kg,=,2-ethoxyethyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methoxy-1-propyl acetate,kg,=,2-methyoxy-1-propyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propylene glycol monomethyl ether acetate,kg,=,methoxypropanol acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethylene glycol monoethyl ether,kg,=,2-(2-ethoxyethoxy) ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Bis(2-hydroxypropyl) ether,kg,=,dipropylene glycol isomer (1-[2-hydroxypropyl]-2-propanol),kg,Young,match to TRACI 2.1,,,4/7/2025
+Dimethyl succinate,kg,=,dimethyl succinate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol diacetate,kg,=,ethylene glycol diacetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Adipic acid,kg,=,adipic acid (hexanedioic acid),kg,Young,match to TRACI 2.1,,,4/7/2025
+Triethylene glycol,kg,=,triethylene glycol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Benzaldehyde,kg,=,benzaldehyde,kg,Young,match to TRACI 2.1,,,4/7/2025
+Cresol,kg,=,C7 alkyl phenols,kg,Young,match to TRACI 2.1,,,4/7/2025
+m-Cresol,kg,=,m-cresol,kg,Young,match to TRACI 2.1,,,4/7/2025
+p-Cresol,kg,=,p-cresol,kg,Young,match to TRACI 2.1,,,4/7/2025
+o-Cresol,kg,=,o-cresol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Benzyl alcohol,kg,=,benzyl alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Anisole,kg,=,methoxybenzene; anisole,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C7 cyclic ketones,kg,,,,,
+Heptanal,kg,=,heptanal,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C7 aldehydes,kg,,,,,
+2-Methylhexanal,kg,=,2-methyl-hexanal,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Heptanone,kg,=,2-heptanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Methyl-3-hexanone,kg,=,2-methyl-3-hexanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+"3-Pentanone, 2,4-dimethyl-",kg,=,di-isopropyl ketone,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C7 ketones,kg,,,,,
+Methyl isoamyl ketone,kg,=,5-methyl-2-hexanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methylhexan-2-one,kg,=,3-methyl-2-hexanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Heptanol,kg,=,1-heptanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Dimethyl-1-pentanol",kg,=,"dimethylpentanol (2,3-dimethyl-1-pentanol)",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Butane, 2-ethoxy-2-methyl-",kg,=,"4,4-diethyl-3-oxahexane",kg,Young,match to TRACI 2.1,,,4/7/2025
+Butyl acrylate,kg,=,n-butyl acrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isobutyl acrylate,kg,=,isobutyl acrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Butyl propionate,kg,=,butyl propionate,kg,Young,match to TRACI 2.1,,,4/7/2025
+n-Amyl acetate,kg,=,amyl acetate (n-pentyl acetate),kg,Young,match to TRACI 2.1,,,4/7/2025
+"Butanoic acid, propyl ester",kg,=,n-propyl butyrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isoamyl acetate,kg,=,isoamyl acetate (3-methyl-butyl acetate),kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Butanol, 2-methyl-, acetate",kg,=,2-methyl-1-butyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl hexanoate,kg,=,methyl hexanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-tert-Butoxy-2-propanol,kg,=,1-tert-butoxy-2-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-tert-Butoxypropan-1-ol,kg,=,2-tert-butoxy-1-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Butoxy-2-propanol,kg,=,n-butoxy-2-propanol (propylene glycol n-butyl ether),kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethyl 3-ethoxypropionate,kg,=,ethyl 3-ethoxy propionate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Dipropan-2-yl carbonate,kg,=,diisopropyl carbonate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Ethanol, 2-(2-propoxyethoxy)-",kg,=,2-(2-propoxyethoxy) ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,dipropylene glycol methyl ether: 1-methoxy-2-(2-hydroxypropoxy)-propane,kg,,,,,
+2-(2-Methoxypropoxy)propanol,kg,=,dipropylene glycol methyl ether: 2-(2-methoxypropoxy)-1-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Propanediol, diacetate",kg,=,"1,2-propylene glycol diacetate",kg,Young,match to TRACI 2.1,,,4/7/2025
+Dimethyl glutarate,kg,=,dimethyl glutarate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Triethylene glycol monomethyl ether,kg,=,2-[2-(2-methoxyethoxy) ethoxy] ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,tolualdehyde,kg,,,,,
+"Phenol, 4-ethenyl-",kg,=,4-vinyl phenol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,4-Dimethylphenol",kg,=,"2,4-dimethyl phenol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,5-Dimethylphenol",kg,=,"2,5-dimethyl phenol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,4-Dimethylphenol",kg,=,"3,4-dimethyl phenol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3-Dimethylphenol",kg,=,"2,3-dimethyl phenol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,6-Dimethylphenol",kg,=,"2,6-dimethyl phenol",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C8 alkyl phenols,kg,,,,,
+,,,Beta-phenethyl alcohol (2-phenyl ethyl alcohol),kg,,,,,
+,,,C8 cyclic ketones,kg,,,,,
+Sodium diphosphate,kg,=,2-butyl tetrahydrofuran,kg,Young,match to TRACI 2.1,,,4/7/2025
+Octanal,kg,=,octanal,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C8 aldehydes,kg,,,,,
+2-Octanone,kg,=,2-octanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C8 ketones,kg,,,,,
+1-Octanol,kg,=,1-octanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Ethylhexanol,kg,=,2-ethyl-1-hexanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Octanol,kg,=,2-octanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Octanol,kg,=,3-octanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Octan-4-ol,kg,=,4-octanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+5-methyl-1-heptanol,kg,=,5-methyl-1-heptanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propane, 1,1'-oxybis[2-methyl-",kg,=,di-isobutyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Butyl ether,kg,=,di-n-butyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol monophenyl ether,kg,=,2-phenoxyethanol; ethylene glycol phenyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Butyl methacrylate,kg,=,butyl methacrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isobutyl methacrylate,kg,=,isobutyl methacrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,hexyl acetates,kg,,,,,
+"2,3-Dimethylbutyl acetate",kg,=,"2,3-dimethylbutyl acetate",kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Pentanol, 2-methyl-, acetate",kg,=,2-methylpentyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Methylpentyl acetate,kg,=,3-methylpentyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,4-methylpentyl acetate,kg,,,,,
+Isobutyl isobutyrate,kg,=,isobutyl isobutyrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Butyl butyrate,kg,=,n-butyl butyrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Hexyl acetate,kg,=,n-hexyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"4-Methyl-2-pentanol, acetate",kg,=,methyl amyl acetate (4-methyl-2-pentanol acetate),kg,Young,match to TRACI 2.1,,,4/7/2025
+Amyl propionate,kg,=,n-pentyl propionate,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Ethylhexanoic acid,kg,=,2-ethyl hexanoic acid,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl heptanoate,kg,=,methyl heptanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2-Ethyl-1,3-hexanediol",kg,=,"2-ethyl-1,3-hexanediol",kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol monohexyl ether,kg,=,2-n-hexyloxyethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,2,4-Trimethyl-1,3-pentanediol",kg,=,"2,2,4-trimethyl-1,3-pentanediol",kg,Young,match to TRACI 2.1,,,4/7/2025
+Phthalic anhydride,kg,=,phthalic anhydride,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methylparaben,kg,=,"methylparaben (4-Hydroxybenzoic acid, methyl ester)",kg,Young,match to TRACI 2.1,,,4/7/2025
+Ethylene glycol monobutyl ether acetate,kg,=,2-butoxyethyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propane, 2-methoxy-1-(2-methoxy-1-methylethoxy)-",kg,=,2-methoxy-1-(2-methoxy-1-methylethoxy)-propane; dipropylene glycol dimethyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethylene glycol monobutyl ether,kg,=,2-(2-butoxyethoxy)-ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Propanol, 2-(2-ethoxypropoxy)-",kg,=,dipropylene glycol ethyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Dimethyl adipate,kg,=,dimethyl adipate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethylene glycol monoethyl ether acetate,kg,=,2-(2-ethoxyethoxy) ethyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Triethylene glycol monoethyl ether,kg,=,2-[2-(2-ethoxyethoxy) ethoxy] ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Tetraethylene glycol,kg,=,tetraethylene glycol,kg,Young,match to TRACI 2.1,,,4/7/2025
+3-Phenyl-2-propen-1-ol,kg,=,Cinnamic alcohol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3,5-Trimethylphenol",kg,=,"2,3,5-trimethyl phenol",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,3,6-Trimethylphenol",kg,=,"2,3,6-trimethyl phenol",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C9 alkyl phenols,kg,,,,,
+,,,C9 cyclic ketones,kg,,,,,
+"Cyclohexanone, 2-propyl-",kg,=,2-propyl cyclohexanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+4-Propylcyclohexanone,kg,=,4-propyl cyclohexanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+non-1-en-4-one,kg,=,1-nonene-4-one,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2,2-Trimethylcyclohexan-1-ol",kg,=,trimethyl cyclohexanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Nonanone,kg,=,2-nonanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diisobutyl ketone,kg,=,"di-isobutyl ketone (2,6-dimethyl-4-heptanone)",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C9 ketones,kg,,,,,
+"2-Heptanol, 2,6-dimethyl-",kg,=,"dimethyl heptanol (2,6-dimethyl-2-heptanol)",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,6-Dimethyl-4-heptanol",kg,=,"2,6-dimethyl-4-heptanol",kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Phenoxy-2-propanol,kg,=,1-phenoxy-2-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"2,4-dimethylpentyl acetate",kg,,,,,
+,,,2-methylhexyl acetate,kg,,,,,
+,,,3-ethylpentyl acetate,kg,,,,,
+3-Methylhexyl acetate,kg,=,3-methylhexyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,4-methylhexyl acetate,kg,,,,,
+5-Methylhexyl acetate,kg,=,5-methylhexyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isopentyl isobutyrate,kg,=,isoamyl isobutyrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Heptyl acetate,kg,=,n-heptyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl octanoate,kg,=,methyl octanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-(2-Butoxyethoxy)-2-propanol,kg,=,1-(butoxyethoxy)-2-propanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,dipropylene glycol n-propyl ether isomer #1,kg,,,,,
+,,,dipropylene glycol methyl ether acetate isomer #1,kg,,,,,
+,,,dipropylene glycol methyl ether acetate isomer #2,kg,,,,,
+Dipropyleneglycol methyl ether acetate,kg,=,dipropylene glycol methyl ether acetate isomers,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Ethanol, 2-[2-(2-propoxyethoxy)ethoxy]-",kg,=,2-[2-(2-propoxyethoxy) ethoxy] ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Tripropylene glycol,kg,=,tripropylene glycol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,5,8,11-Tetraoxatridecan-13-ol",kg,=,"2,5,8,11-tetraoxatridecan-13-ol",kg,Young,match to TRACI 2.1,,,4/7/2025
+Glyceryl triacetate,kg,=,glyceryl triacetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Anethole,kg,=,anethol (p-propenyl-anisole),kg,Young,match to TRACI 2.1,,,4/7/2025
+"Phenol, alkyl derivs. C10",kg,=,C10 alkyl phenols,kg,Young,match to TRACI 2.1,,,4/7/2025
+Camphor,kg,=,camphor,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,a-terpineol,kg,,,,,
+Citronellol,kg,=,"citronellol (3,7-dimethy-6-octen-1-ol)",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Octanal, 7-hydroxy-3,7-dimethyl-",kg,=,hydroxycitronella,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 cyclic ketones,kg,,,,,
+"(1R,2S,5R)-Menthol",kg,=,menthol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,7-Dimethyl-1,6-octadien-3-ol",kg,=,linalool,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Decanone,kg,=,2-decanone,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C10 ketones,kg,,,,,
+Isodecanol,kg,=,8-methyl-1-nonanol (isodecyl alcohol),kg,Young,match to TRACI 2.1,,,4/7/2025
+1-Decanol,kg,=,1-decanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Octanol, 3,7-dimethyl-",kg,=,"3,7-dimethyl-1-octanol",kg,Young,match to TRACI 2.1,,,4/7/2025
+Pentyl ether,kg,=,di-n-pentyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1,2-Diacetylbenzene",kg,=,"1,2-diacetyl benzene",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"2,4-dimethylhexyl acetate",kg,,,,,
+2-Ethylhexyl acetate,kg,=,2-ethyl-hexyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"3,4-dimethyl-hexyl acetate",kg,,,,,
+,,,"3,5-dimethyl-hexyl acetate",kg,,,,,
+,,,3-ethyl-hexyl acetate,kg,,,,,
+3-Methylheptyl acetate,kg,=,3-methyl-heptyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"4,5-dimethyl-hexyl acetate",kg,,,,,
+,,,4-methyl-heptyl acetate,kg,,,,,
+,,,5-methyl-heptyl acetate,kg,,,,,
+"Acetic acid, octyl ester",kg,=,n-octyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+trans-Geraniol,kg,=,geraniol,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Nonanoic acid, methyl ester",kg,=,methyl nonanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Ethanol, 2-[(2-ethylhexyl)oxy]-",kg,=,2-(2-ethylhexyloxy) ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+Propylparaben,kg,=,propylparaben,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethylene glycol monohexyl ether,kg,=,2-(2-hexyloxyethoxy) ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+1-(2-Butoxy-1-methylethoxy)-2-propanol,kg,=,glycol ether DPnB (dipropylene glycol n-butyl ether) (1-[2-butoxy-1-methylethoxy]-2-propanol),kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethylene glycol monobutyl ether acetate,kg,=,2-(2-butoxyethoxy) ethyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Triethylene glycol monobutyl ether,kg,=,2-[2-(2-butoxyethoxy) ethoxy] ethanol,kg,Young,match to TRACI 2.1,,,4/7/2025
+[2-(2-Methoxymethylethoxy)methylethoxy]propanol,kg,=,tripropylene glycol monomethyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+"Phenol, alkyl derivs. C11",kg,=,C11 alkyl phenols,kg,Young,match to TRACI 2.1,,,4/7/2025
+2-Ethylhexyl acrylate,kg,=,2-ethyl-hexyl acrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"2,3,5-trimethyl-hexyl acetate",kg,,,,,
+,,,"2,3-dimethyl-heptyl acetate",kg,,,,,
+,,,"2,4-dimethyl-heptyl acetate",kg,,,,,
+,,,"2,5-dimethyl-heptyl acetate",kg,,,,,
+,,,2-methyloctyl acetate,kg,,,,,
+,,,"3,5-dimethyl-heptyl acetate",kg,,,,,
+,,,"3,6-dimethyl-heptyl acetate",kg,,,,,
+,,,3-ethyl-heptyl acetate,kg,,,,,
+,,,"4,5-dimethyl-heptyl acetate",kg,,,,,
+,,,"4,6-dimethyl-heptyl acetate",kg,,,,,
+,,,4-methyloctyl acetate,kg,,,,,
+,,,5-methyloctyl acetate,kg,,,,,
+"Acetic acid, nonyl ester",kg,=,n-nonyl acetate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl decanoate,kg,=,methyl decanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,C12 alkyl phenols,kg,,,,,
+"2,6,8-Trimethyl-4-nonanone",kg,=,"2,6,8-trimethyl-4-nonanone (isobutyl heptyl ketone)",kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,6,8-Trimethyl-4-nonanol",kg,=,"trimethylnonanolthreoerythro (2,6,8-trimethyl-4-nonanol)",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"3,6-dimethyl-octyl acetate",kg,,,,,
+,,,3-isopropyl-heptyl acetate,kg,,,,,
+,,,"4,6-dimethyl-octyl acetate",kg,,,,,
+Methyl undecanoate,kg,=,methyl undecanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Hydroxy-2,2,4-trimethylpentan-3-yl 2-methylpropanoate",kg,=,"1-hydroxy-2,2,4-trimethylpentyl-3-isobutyrate",kg,Young,match to TRACI 2.1,,,4/7/2025
+"Propanoic acid, 2-methyl-, 3-hydroxy-2,2,4-trimethylpentyl ester",kg,=,"3-hydroxy-2,2,4-trimethylpentyl-1-isobutyrate",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"2,2,4-trimethyl-1,3-pentanediol monoisobutyrate and isomers (texanol)",kg,,,,,
+,,,substituted C7 ester (C12),kg,,,,,
+,,,substituted C9 ester (C12),kg,,,,,
+"Ethanol, 2-[2-[(2-ethylhexyl)oxy]ethoxy]-",kg,=,diethylene glycol mono(2-ethylhexyl) ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diethyl phthalate,kg,=,diethyl phthalate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Dimethyl decanedioate,kg,=,dimethyl sebacate,kg,Young,match to TRACI 2.1,,,4/7/2025
+Diisopropyl adipate,kg,=,diisopropyl adipate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"3,6,9,12-Tetraoxahexadecan-1-ol",kg,=,"3,6,9,12-tetraoxa-hexadecan-1-ol",kg,Young,match to TRACI 2.1,,,4/7/2025
+Triethyl citrate,kg,=,triethyl citrate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"3,5,7-trimethyl-octyl acetate",kg,,,,,
+,,,3-ethyl-6-methyl-octyl acetate,kg,,,,,
+,,,"4,7-dimethyl-nonyl acetate",kg,,,,,
+Methyl laurate,kg,=,methyl dodecanoate (methyl laurate),kg,Young,match to TRACI 2.1,,,4/7/2025
+Tripropylene glycol n-butyl ether,kg,=,tripropylene glycol n-butyl ether,kg,Young,match to TRACI 2.1,,,4/7/2025
+Isobornyl methacrylate,kg,=,isobornyl methacrylate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"2,3,5,7-tetramethyl-octyl acetate",kg,,,,,
+,,,"3,5,7-trimethyl-nonyl acetate",kg,,,,,
+,,,"3,6,8-trimethyl-nonyl acetate",kg,,,,,
+Methyl tridecanoate,kg,=,methyl tridecanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"2,6-di-tert-butyl-p-cresol",kg,,,,,
+"Benzoic acid, 2-ethylhexyl ester",kg,=,2-ethyl-hexyl benzoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"1-Nonanol, 2,4,6,8-tetramethyl-, acetate",kg,=,"2,4,6,8-tetramethyl-nonyl acetate",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"3-ethyl-6,7-dimethyl-nonyl acetate",kg,,,,,
+,,,"4,7,9-trimethyl-decyl acetate",kg,,,,,
+Methyl myristate,kg,=,methyl myristate (methyl tetradecanoate),kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,methyl cis-9-pentadecenoate,kg,,,,,
+"Pentadecanoic acid, methyl ester",kg,=,methyl pentadecanoate,kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"2,3,5,6,8-pentamethyl-nonyl acetate",kg,,,,,
+,,,"3,5,7,9-tetramethyl-decyl acetate",kg,,,,,
+,,,"5-ethyl-3,6,8-trimethyl-nonyl acetate",kg,,,,,
+Dibutyl phthalate,kg,=,dibutyl phthalate,kg,Young,match to TRACI 2.1,,,4/7/2025
+"2,2,4-Trimethyl-1,3-pentanediol diisobutyrate",kg,=,"2,2,4-trimethyl-1,3-pentanediol diisobutyrate",kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl palmitoleate,kg,=,methyl cis-9-hexadecenoate (methyl palmitoleate),kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl palmitate,kg,=,methyl hexadecanoate (methyl palmitate),kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,Methyl cis-9-heptadecenoate,kg,,,,,
+Methyl heptadecanoate,kg,=,methyl heptadecanoate (methyl margarate),kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl linolenate,kg,=,"methyl linolenate (methyl cis,cis,cis-9,12,15-octadecatrienoate)",kg,Young,match to TRACI 2.1,,,4/7/2025
+,,,"methyl linoleate (methyl cis,cis-9,12-octadecadienoate)",kg,,,,,
+Methyl oleate,kg,=,methyl cis-9-octadecenoate (methyl oleate),kg,Young,match to TRACI 2.1,,,4/7/2025
+Methyl stearate,kg,=,methyl octadecanoate (methyl stearate),kg,Young,match to TRACI 2.1,,,4/7/2025
+Nitrogen oxides,kg,=,Nitrogen oxides,kg,Young,Name match,,,4/7/2025
+Nitrogen dioxide,kg,=,Nitrogen dioxide,kg,Young,Name match,,,4/7/2025
 Chloroacetaldehyde,kg,=,chloroacetaldehyde,kg,Young,match to TRACI 2.1,,,3/11/2025
 Allyl chloride,kg,=,3-chloropropene,kg,Young,match to TRACI 2.1,,,3/11/2025
 2-Butyne,kg,=,2-butyne,kg,Young,match to TRACI 2.1,,,3/11/2025
