@@ -3577,21 +3577,21 @@ Arsenic,kg,~,ARSENIC(III),kg,Hottle,,Edelen,Added mapping so that metals are ass
 Chromium,kg,~,CHROMIUM(III),kg,Hottle,,Edelen,Added mapping so that metals are associated with a CF when TRACI is used,1/17/2020,1
 Silver,kg,~,SILVER(I),kg,Hottle,,Edelen,Added mapping so that metals are associated with a CF when TRACI is used,1/17/2020,1
 Phosphorus,kg,~,Flow_P,kg,Young,,,,4/26/2024,1
-Orthophosphate,kg,~,Flow_P,kg,Young,,,,4/26/2024,0.326
-Phosphoric acid,kg,~,Flow_P,kg,Young,,,,4/26/2024,0.316
-Phosphorus pentoxide,kg,~,Flow_P,kg,Young,,,,4/26/2024,0.437
+Orthophosphate,kg,~,Flow_P,kg,Young,,,,4/18/2025,3.067
+Phosphoric acid,kg,~,Flow_P,kg,Young,,,,4/18/2025,3.165
+Phosphorus pentoxide,kg,~,Flow_P,kg,Young,,,,4/18/2025,2.288
 Nitrogen,kg,~,Flow_N,kg,Young,,,,4/26/2024,1
-Nitrate,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.226
-Ammonium,kg,~,Flow_NH3 as N,kg,Young,,,,4/26/2024,0.778
-Ammonia,kg,~,Flow_NH3 as N,kg,Young,,,,4/26/2024,0.824
-Nitric oxide,kg,~,Flow_NOx as N,kg,Young,,,,4/26/2024,0.467
-Nitrogen dioxide,kg,~,Flow_NOx as N,kg,Young,,,,4/26/2024,0.304
-Nitrogen oxides,kg,~,Flow_NOx as N,kg,Young,,,average of NO and NO2,4/26/2024,0.386
-Nitric acid,kg,~,Flow_NOx as N,kg,Young,,,,4/26/2024,0.222
-Nitrate,kg,~,Flow_NOx as N,kg,Young,,,,4/7/2025,0.226
-Ammonium,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.778
-Ammonia,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.824
-Nitric acid,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.222
-Nitric oxide,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.467
-Nitrogen dioxide,kg,~,Flow_N,kg,Young,,,,4/26/2024,0.304
-Nitrogen oxides,kg,~,Flow_N,kg,Young,,,average of NO and NO2,4/26/2024,0.386
+Nitrate,kg,~,Flow_N,kg,Young,,,,4/18/2025,4.425
+Ammonium,kg,~,Flow_NH3 as N,kg,Young,,,,4/18/2025,1.285
+Ammonia,kg,~,Flow_NH3 as N,kg,Young,,,,4/18/2025,1.214
+Nitric oxide,kg,~,Flow_NOx as N,kg,Young,,,,4/18/2025,2.141
+Nitrogen dioxide,kg,~,Flow_NOx as N,kg,Young,,,,4/18/2025,3.289
+Nitrogen oxides,kg,~,Flow_NOx as N,kg,Young,,,average of NO and NO2,4/18/2025,2.591
+Nitric acid,kg,~,Flow_NOx as N,kg,Young,,,,4/18/2025,4.505
+Nitrate,kg,~,Flow_NOx as N,kg,Young,,,,4/18/2025,4.425
+Ammonium,kg,~,Flow_N,kg,Young,,,,4/18/2025,1.285
+Ammonia,kg,~,Flow_N,kg,Young,,,,4/18/2025,1.214
+Nitric acid,kg,~,Flow_N,kg,Young,,,,4/18/2025,4.505
+Nitric oxide,kg,~,Flow_N,kg,Young,,,,4/18/2025,2.141
+Nitrogen dioxide,kg,~,Flow_N,kg,Young,,,,4/18/2025,3.289
+Nitrogen oxides,kg,~,Flow_N,kg,Young,,,average of NO and NO2,4/18/2025,2.591
