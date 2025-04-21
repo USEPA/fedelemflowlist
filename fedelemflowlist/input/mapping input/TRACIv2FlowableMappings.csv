@@ -3582,9 +3582,9 @@ Phosphoric acid,kg,~,Flow_P,kg,Young,,,,4/18/2025,3.165
 Phosphorus pentoxide,kg,~,Flow_P,kg,Young,,,,4/18/2025,2.288
 Nitrogen,kg,~,Flow_N,kg,Young,,,,4/26/2024,1
 Nitrate,kg,~,Flow_N,kg,Young,,,,4/18/2025,4.425
-Ammonium,kg,~,Flow_NH3 as N,kg,Young,,,,4/18/2025,1.285
-Ammonia,kg,~,Flow_NH3 as N,kg,Young,,,,4/18/2025,1.214
-Nitric oxide,kg,~,Flow_NOx as N,kg,Young,,,,4/18/2025,2.141
+Ammonium,kg,~,Flow_NH3 as N,kg,Young,,,confirmed the basis here is N,4/18/2025,1.285
+Ammonia,kg,~,Flow_NH3 as N,kg,Young,,,confirmed the basis here is N,4/18/2025,1.214
+Nitric oxide,kg,~,Flow_NOx as N,kg,Young,,,confirmed the basis here is N,4/18/2025,2.141
 Nitrogen dioxide,kg,~,Flow_NOx as N,kg,Young,,,,4/18/2025,3.289
 Nitrogen oxides,kg,~,Flow_NOx as N,kg,Young,,,average of NO and NO2,4/18/2025,2.591
 Nitric acid,kg,~,Flow_NOx as N,kg,Young,,,,4/18/2025,4.505
