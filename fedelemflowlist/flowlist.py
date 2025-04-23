@@ -126,8 +126,11 @@ def generate_flowlist():
         class_contexts_list.extend(c_group)
     class_contexts = pd.DataFrame(class_contexts_list)
 
-    # Merge this table now with the flowables and primary contexts with the full contexts per class, creating flows for each compartment relevant for that flow type, using major
-    flows = pd.merge(flowables_w_primary_contexts, class_contexts, on=['Class','Directionality','Environmental Media'])
+    # Merge this table now with the flowables and primary contexts with the
+    # full contexts per class, creating flows for each compartment relevant for
+    # that flow type, using major
+    flows = pd.merge(flowables_w_primary_contexts, class_contexts,
+                     on=['Class', 'Directionality', 'Environmental Media'])
 
     #Drop duplicate flows if they exist
     duplicates = flows[flows.duplicated(keep=False)]
@@ -144,13 +147,13 @@ def generate_flowlist():
     flows = flows.drop(columns=cols_to_drop)
 
     # Drop excluded flows based on CSV input file
-    log.info('Total of ' + str(len(flows)) + ' flows created.')
+    log.info(f'Total of {len(flows)} flows created.')
     flow_exclusions_to_drop = pd.read_csv(inputpath / 'FlowExclusions.csv')
-    log.info('Drop ' + str(len(flow_exclusions_to_drop)) + ' specified flowable/context combinations.')
+    log.info(f'Drop {len(flow_exclusions_to_drop)} specified flowable/context combinations.')
     flows = pd.merge(flows, flow_exclusions_to_drop, on=['Flowable','Context'], how='outer', indicator=True)
     flows = flows.drop(flows[flows['_merge'] == 'both'].index)
     flows = flows.drop(columns=['_merge'])
-    log.info('Total of ' + str(len(flows)) + ' flows remain.')
+    log.info(f'Total of {len(flows)} flows remain.')
 
     # Loop through flows generating UUID for each
     flowids = []
@@ -170,7 +173,7 @@ def generate_flowlist():
     flows.drop(columns='Duplicates')
 
     contexts_in_flows = pd.unique(flows['Context'])
-    log.info('Created ' + str(len(flows)) + ' flows with ' + str(len(contexts_in_flows))  + ' unique contexts')
+    log.info(f'Created {len(flows)} flows with {len(contexts_in_flows)} unique contexts')
 
     #Conform flows to final list structure
     flows = flows[list(flow_list_fields.keys())]
