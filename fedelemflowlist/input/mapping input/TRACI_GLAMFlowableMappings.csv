@@ -1,0 +1,11 @@
+TargetFlowName,TargetUnit,MatchCondition,SourceFlowName,SourceUnit,Mapper,Map method,Verifier,Note,LastUpdated,ConversionFactor
+Ammonium,kg,=,NHx_as_N,kg,Young,,,,5/21/2025,1.285
+Ammonia,kg,=,NHx_as_N,kg,Young,,,,5/21/2025,1.214
+Nitric acid,kg,=,NHx_as_N,kg,Young,,,,5/21/2025,4.505
+Nitric oxide,kg,=,NOx_as_N,kg,Young,,,,5/21/2025,2.141
+Nitrogen dioxide,kg,=,NOx_as_N,kg,Young,,,,5/21/2025,3.289
+Nitrogen oxides,kg,=,NOx_as_N,kg,Young,,,,5/21/2025,2.591
+Sulfur dioxide,kg,=,SOx_as_S,kg,Young,,,,5/21/2025,1.998
+Sulfur oxides,kg,=,SOx_as_S,kg,Young,,,Average of SO2 and SO3,5/21/2025,2.248
+Sulfur trioxide,kg,=,SOx_as_S,kg,Young,,,,5/21/2025,2.497
+Sulfuric acid,kg,=,SOx_as_S,kg,Young,,,,5/21/2025,3.059
