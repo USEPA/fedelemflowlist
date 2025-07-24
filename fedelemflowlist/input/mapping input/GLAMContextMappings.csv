@@ -1,0 +1,18 @@
+SourceFlowContext,TargetFlowContext
+"Emissions to air, unspecified",emission/air
+Emissions to urban air low stack,emission/air/troposphere/low
+Emissions to urban air high stack,emission/air/troposphere/high
+Emissions to urban air very high stack,emission/air/troposphere/very high
+Emissions to urban air close to ground,emission/air/troposphere/ground-level
+Emissions to urban air close to ground,emission/air/troposphere/urban
+Emissions to non-urban air close to ground,emission/air/troposphere/rural
+Emissions to urban air low stack,emission/air/troposphere/urban/low
+Emissions to non-urban air low stack,emission/air/troposphere/rural/low
+Emissions to urban air high stack,emission/air/troposphere/urban/high
+Emissions to non-urban air high stack,emission/air/troposphere/rural/high
+Emissions to urban air very high stack,emission/air/troposphere/urban/very high
+Emissions to non-urban air very high stack,emission/air/troposphere/rural/very high
+Emissions to urban air close to ground,emission/air/troposphere/urban/ground-level
+Emissions to non-urban air close to ground,emission/air/troposphere/rural/ground-level
+,emission/air/indoor
+,emission/air/stratosphere

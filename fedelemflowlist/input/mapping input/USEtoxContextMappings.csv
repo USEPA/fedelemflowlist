@@ -1,0 +1,62 @@
+SourceFlowContext,TargetFlowContext
+air/rural,emission/air/troposphere/rural
+air/rural,emission/air/troposphere/rural/low
+air/rural,emission/air/troposphere/rural/high
+air/rural,emission/air/troposphere/rural/very high
+air/rural,emission/air/troposphere/rural/ground-level
+air/urban,emission/air/troposphere/urban
+air/urban,emission/air/troposphere/urban/low
+air/urban,emission/air/troposphere/urban/high
+air/urban,emission/air/troposphere/urban/very high
+air/urban,emission/air/troposphere/urban/ground-level
+air/unspecified,emission/air
+air/unspecified,emission/air/troposphere/low
+air/unspecified,emission/air/troposphere/high
+air/unspecified,emission/air/troposphere/very high
+air/unspecified,emission/air/troposphere/ground-level
+air/urban,emission/air/indoor
+air/unspecified,emission/air/stratosphere
+soil/unspecified,emission/ground
+soil/unspecified,emission/ground/human-dominated
+soil/unspecified,emission/ground/urban
+soil/unspecified,emission/ground/rural
+soil/unspecified,emission/ground/human-dominated/urban
+soil/unspecified,emission/ground/human-dominated/rural
+soil/natural,emission/ground/human-dominated/industrial
+soil/natural,emission/ground/human-dominated/commercial
+soil/natural,emission/ground/human-dominated/residential
+soil/natural,emission/ground/human-dominated/industrial/urban
+soil/natural,emission/ground/human-dominated/industrial/rural
+soil/natural,emission/ground/human-dominated/commercial/urban
+soil/natural,emission/ground/human-dominated/commercial/rural
+soil/natural,emission/ground/human-dominated/residential/urban
+soil/natural,emission/ground/human-dominated/residential/rural
+soil/natural,emission/ground/terrestrial/wetland
+soil/natural,emission/ground/terrestrial/barren land
+soil/natural,emission/ground/terrestrial/snow and ice
+soil/natural,emission/ground/terrestrial/grassland
+soil/natural,emission/ground/terrestrial/shrubland
+soil/natural,emission/ground/terrestrial/forest
+soil/agricultural,emission/ground/human-dominated/agricultural
+soil/agricultural,emission/ground/human-dominated/agricultural/rural
+soil/agricultural,emission/ground/human-dominated/agricultural/urban
+water/freshwater,emission/water/fresh water body
+water/freshwater,emission/water/fresh water body/urban
+water/freshwater,emission/water/fresh water body/rural
+water/freshwater,emission/water/fresh water body/lake
+water/freshwater,emission/water/fresh water body/river
+water/freshwater,emission/water/fresh water body/lake/urban
+water/freshwater,emission/water/fresh water body/lake/rural
+water/freshwater,emission/water/fresh water body/river/urban
+water/freshwater,emission/water/fresh water body/river/rural
+water/sea water,emission/water/saline water body
+water/sea water,emission/water/saline water body/ocean
+water/freshwater,emission/water
+water/freshwater,emission/water/urban
+water/freshwater,emission/water/rural
+water/unspecified,emission/water/brackish water body
+water/unspecified,emission/water/brackish water body/urban
+water/unspecified,emission/water/brackish water body/rural
+water/unspecified,emission/water/brackish water body/lake
+water/unspecified,emission/water/brackish water body/lake/urban
+water/unspecified,emission/water/brackish water body/lake/rural
