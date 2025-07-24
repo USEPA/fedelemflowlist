@@ -1,11 +1,12 @@
 TargetFlowName,TargetUnit,MatchCondition,SourceFlowName,SourceUnit,Mapper,Map method,Verifier,Note,LastUpdated,ConversionFactor
-Ammonium,kg,=,NHx_as_N,kg,Young,,,,5/21/2025,1.285
-Ammonia,kg,=,NHx_as_N,kg,Young,,,,5/21/2025,1.214
-Nitric acid,kg,=,NHx_as_N,kg,Young,,,,5/21/2025,4.505
-Nitric oxide,kg,=,NOx_as_N,kg,Young,,,,5/21/2025,2.141
-Nitrogen dioxide,kg,=,NOx_as_N,kg,Young,,,,5/21/2025,3.289
-Nitrogen oxides,kg,=,NOx_as_N,kg,Young,,,,5/21/2025,2.591
-Sulfur dioxide,kg,=,SOx_as_S,kg,Young,,,,5/21/2025,1.998
-Sulfur oxides,kg,=,SOx_as_S,kg,Young,,,Average of SO2 and SO3,5/21/2025,2.248
-Sulfur trioxide,kg,=,SOx_as_S,kg,Young,,,,5/21/2025,2.497
-Sulfuric acid,kg,=,SOx_as_S,kg,Young,,,,5/21/2025,3.059
+Ammonium,kg,=,NH3,kg,Young,,,,7/23/2025,1.058
+Ammonia,kg,=,NH3,kg,Young,,,,7/23/2025,1
+Nitric acid,kg,=,NH3,kg,Young,,,,7/23/2025,3.711
+Nitric oxide,kg,=,NO,kg,Young,,,,7/23/2025,1
+Nitrogen dioxide,kg,=,NO2,kg,Young,,,,7/23/2025,1
+Nitrogen oxides,kg,=,NOx,kg,Young,,,,7/23/2025,1
+Sulfur dioxide,kg,=,SO2,kg,Young,,,,7/23/2025,1
+Sulfur oxides,kg,=,SOx,kg,Young,,,,7/23/2025,1
+Sulfur trioxide,kg,=,SO2,kg,Young,,,,7/23/2025,1.25
+Sulfuric acid,kg,=,SOx,kg,Young,,,,7/23/2025,1.361
+Sulfur monoxide,kg,=,SO,kg,Young,,,,7/23/2025,1
