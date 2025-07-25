@@ -28,8 +28,11 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-        py-version: ['3.9', '3.10', '3.11']
+        os: [ubuntu-latest, windows-latest , macos-latest]
+        py-version: ['3.9', '3.10', '3.11', '3.12']
+        exclude:
+        - os: macos-latest # only run mac on latest version
+          py-version: ['3.9', '3.10', '3.11']
 
     steps:
     - uses: actions/checkout@v3
