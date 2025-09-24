@@ -139,3 +139,6 @@ GHGI,"PERFLUORO COMPOUNDS, C5-18",,air,MMT CO2e,=,1000000000,"HFCs and PFCs, uns
 GHGI,PFC-9-1-18,,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,3/3/2025
 GHGI,"[PERFLUORO COMPOUNDS, C5-18]",,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,3/3/2025
 GHGI,"[PERFLUORO COMPOUNDS, C5-18] - CAS 86508-42-1",,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,3/3/2025
+GHGI,HFC-227ea,,air,MT,=,1000,HFC-227ea,dfcb070f-9778-36c4-8dad-fc218874ef26,emission/air,kg,Young,,9/23/2025
+GHGI,PFC,,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,9/23/2025
+GHGI,"HFC, PFC and SF6 F-HTFs",,air,MMT CO2e,=,1000000000,"HFCs and PFCs, unspecified",n.a.,emission/air,kg CO2e,Young,,9/23/2025
