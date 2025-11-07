@@ -11,7 +11,7 @@ from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, \
     add_uuid_to_mapping, add_conversion_to_mapping
 
 # Options: 'TRACI2.1', 'TRACI2.2', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
-lcia_name = 'TRACI2.2'
+lcia_name = 'ImpactWorld+'
 if 'TRACI' in lcia_name:
     # use same source data for all TRACI versions
     source_name = 'TRACIv2'

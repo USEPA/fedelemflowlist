@@ -3517,3 +3517,384 @@ Water,kg,=,"Water, Rain",m3,Young,Manual,Morelli,,3/10/2021,1000
 "Water, fresh",kg,=,"Water, Surface",m3,Young,Manual,Morelli,,3/10/2021,1000
 "Water, fresh",kg,=,"Water, Ground",m3,Young,Manual,Morelli,,3/10/2021,1000
 "Water, fresh",kg,=,"Water, Rain",m3,Young,Manual,Morelli,,3/10/2021,1000
+(E)-HFC-1225ye,kg,=,"(E)-1,2,3,3,3-Pentafluoropropene, (E)-HFC-1225ye",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+"(Z)-1,1,1,4,4,4-Hexafluoro-2-butene",kg,=,"(Z)-1,1,1,4,4,4-Hexafluorobut-2-ene, (Z)-HFC-1336",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"1-Propene, 1,2,3,3,3-pentafluoro-, (1Z)-",kg,=,"(Z)-1,2,3,3,3-Pentafluoropropene, (Z)-HFC-1225ye",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"1-Propene, 1,3,3,3-tetrafluoro-, (1Z)-",kg,=,"(Z)-1,3,3,3-tetrafluoropropene, (Z)-HFC-1234ze",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",kg,=,"1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxybutane - HFE-449s1",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFC-329p,kg,=,"1,1,1,2,2,3,3,4,4-nonafluorobutane, HFC-329p",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+CFC-113a,kg,=,"1,1,1-trichloro-2,2,2-trifluoroethane - CFC-113a",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HCFC-121,kg,=,"1,1,2,2-tetrachloro-1-fluoroethane - HCFC-121",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFC-245ea,kg,=,"1,1,2,3,3-pentafluoropropane, HFC-245ea",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane",kg,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethane",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Trifluoro(trifluoromethoxy)ethylene,kg,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethene, HFE-216",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",kg,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15-eicosafluoro-2,5,8,11,14-pentaoxapentadecane (HG-04)",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HG-03,kg,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-Hexadecafluoro-2,5,8,11-tetraoxadodecane, HG-03",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HG-30,kg,=,"1,1,3,3,5,5,7,7,9,9-Decafluoro-2,4,6,8-tetraoxanonane, HFE-43-10pccc124",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+CFC-114a,kg,=,"1,1-dichlorotetrafluoroethane - CFC-114a",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HCFC-122,kg,=,"1,2,2-Trichloro-1,1-difluoroethane, HCFC-122",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HCFC-123a,kg,=,"1,2-Dichlorotrifluoroethane, HCFC-123a",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HCFC-122a,kg,=,"1,2-Difluorotrichloroethane, HCFC-122a",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HCFC-132,kg,=,"1,2-dichloro-1,2-difluoroethane - HCFC-132",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Ethane, 1,2-dichloro-1-fluoro-",kg,=,"1,2-dichloro-1-fluoroethane - HCFC-141",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HCFC-124a,kg,=,"1-chloro-1,1,2,2-tetrafluoroethane - HCFC-124a",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"1-Propene, 2,3,3,3-tetrafluoro-",kg,=,"2,3,3,3-tetrafluoropropene, HFC-1234yf",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-338mmz1,kg,=,"2-(difluoromethoxy)-1,1,1,3,3,3-hexafluoropropane, HFE-338mmz1",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+2-Chloropropane,kg,=,2-chloropropane,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,=,"2-ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+"3,3,3-Trifluoro-1-propene",kg,=,"3,3,3-Trifluoropropene, HFC-1243zf",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",kg,=,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-, n-HFE-7100",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Carbon dioxide,kg,=,"Carbon dioxide, fossil",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Carbon monoxide,kg,=,"Carbon monoxide, fossil",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Ethane, 2-(difluoromethoxy)-1,1,1,2-tetrafluoro-, (+-)-",kg,=,"Desflurane, HFE-236ea2",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Ethane, (trifluoromethoxy)-",kg,=,"Ethane, (trifluoromethoxy)-, HFE-263m1",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HG-02,kg,=,"Ethane, 1,1'-oxybis[2-(difluoromethoxy)-1,1,2,2-tetrafluoro-, HG-02",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Ethane, 1,1,1-trifluoro-2-methoxy-",kg,=,"Ethane, 1,1,1-trifluoro-2-methoxy-, HFE-263mf",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Ethane, 1,1-dichloro-1,2-difluoro-",kg,=,"Ethane, 1,1-dichloro-1,2-difluoro-, HCFC-132c",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+HFE-338pcc13 (HG-01),kg,=,"Ethane, 1,2-bis(difluoromethoxy)-1,1,2,2-tetrafluoro-, HFE-338pcc13 (HG-01)",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-347mcf2,kg,=,"Ethane, 1-(2,2-difluoroethoxy)-1,1,2,2,2-pentafluoro-, HFE-347mcf2",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-356pcf2,kg,=,"Ethane, 1-(2,2-difluoroethoxy)-1,1,2,2-tetrafluoro-, HFE-356pcf2",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Isoflurane,kg,=,"Ethane, 2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-, HCFE-235da2 (isoflurane)",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",kg,=,"Ethane,1,1,1,2,2-pentafluoro-2-methoxy-, HFE-245cb2",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Ethane, 1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-",kg,=,"Ethane,1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-, HFE-227EA",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-347pcf2,kg,=,"Ethane,1,1,2,2-tetrafluoro-1-(2,2,2-trifluoroethoxy)-, HFE-347pcf2",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",kg,=,"Ethane,1,1-difluoro-2-(trifluoromethoxy)-, HFE-245fa1",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Vinylidene fluoride,kg,=,"Ethene, 1,1-difluoro-, HFC-1132a",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Vinyl fluoride,kg,=,"Ethene, fluoro-, HFC-1141",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Ethyl nonafluorobutyl ether,kg,=,"Ether, nonafluorobutane ethyl-, HFE569sf2 (n-HFE-7200)",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-356mff2,kg,=,"Flurothyl, HFE-356mff2",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+1H-Heptafluoropropane,kg,=,"Heptafluoropropane, HFC-227ca",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-356mmz1,kg,=,"Hexafluoroisopropyl methyl ether, HFE-356mmz1",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Hexafluoropropene,kg,=,"Hexafluoropropene, PFC-1216",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Methane,kg,>,"Methane, biogenic",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Methane, bis(difluoromethoxy)difluoro-",kg,=,"Methane, bis(difluoromethoxy)difluoro- , HFE-236ca12 (HG-10)",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"1,1,2,2-Tetrafluoro-1-methoxyethane",kg,=,"Methyl 1,1,2,2-tetrafluoroethyl ether, HFE-254cb1",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFC-1345zfc,kg,=,"Pentafluorobutene-1, HFC-1345zfc",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-338mcf2,kg,=,"Pentafluoroethyl 2,2,2-trifluoroethyl ether, HFE-338mcf2",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Perfluoroheptane,kg,=,"Perfluoro-n-heptane, PFC-6-1-16",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Perfluorodecalin (trans),kg,=,Perfluorodecalin (trans),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Perfluorodecalin,kg,=,"Perfluorodecalin, PFC-9-1-18",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Tetrafluoroethene,kg,=,"Perfluoroethylene, PFC-1114",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Octane, octadecafluoro-",kg,=,"Perfluorooctane, PFC-7-1-18",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-",kg,=,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-, HFE-347mcc3 (HFE-7000)",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFC-245cb,kg,=,"Propane, 1,1,1,2,2-pentafluoro-, HFC-245cb",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+HFC-245eb,kg,=,"Propane, 1,1,1,2,3-pentafluoro-, HFC-245eb",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+HFC-236fa,kg,=,"Propane, 1,1,1,3,3,3-hexafluoro-, HFC-236fa",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-356pcc3,kg,=,"Propane, 1,1,2,2,3,3-Hexafluoro-1-methoxy-, HFE-356pcc3",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Dimethyldifluoromethane,kg,=,"Propane, 2,2-difluoro-, HFC-272ca",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-",kg,=,"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-, i-HFE-7100",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Propane, 2-(ethoxydifluoromethyl)-1,1,1,2,3,3,3-heptafluoro-",kg,=,"Propane, 2-(ethoxydifluoromethyl)-1,1,1,2,3,3,3-heptafluoro-, i-HFE-7200",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-356pcf3,kg,=,"Propane, 3-(difluoromethoxy)-1,1,2,2-tetrafluoro-, HFE-356pcf3",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Propane, 1,1,1-trifluoro-",kg,=,"Propane, trifluoro-, HFC-263fb",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-347mmy1,kg,=,"Propane,1,1,1,2,3,3,3-heptafluoro-2-methoxy-, HFE-347mmy1",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+CFC-112,kg,=,"Tetrachloro-1,2-difluoroethane - CFC-112",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+HFE-329me3,kg,=,"Trifluoromethyl perfluoropropyl ether, HFE-329me3",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Coal, lignite",MJ,<,"Coal, brown",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,14.005602
+"Coal, anthracite",MJ,=,"Coal, hard",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,32.57329
+Natural gas,MJ,>,"Energy, from gas, natural",MJ,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Crude oil,MJ,>,"Energy, from oil",MJ,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Uranium ore,MJ,>,"Energy, from uranium",MJ,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Energy, heat",MJ,<,"Energy, unspecified",MJ,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Natural gas,MJ,=,"Gas, natural/m3",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,35
+Crude oil,MJ,=,"Oil, crude",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,45.248869
+Wood,kg,=,"Wood, unspecified, standing/m3",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+Ammonia,kg,=,Ammonia,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Nitrogen,kg,>,"Ammonia, as N",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Ammonium carbonate,kg,=,Ammonium carbonate,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Ammonium nitrate,kg,=,Ammonium nitrate,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Ammonium,kg,=,"Ammonium, ion",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Nitrate,kg,=,Nitrate,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Nitric oxide,kg,=,Nitric oxide,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Nitrite,kg,=,Nitrite,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Sulfate,kg,=,Sulfate,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Sulfur trioxide,kg,=,Sulfur trioxide,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+"Toluene-2,5-diamine",kg,=,"1,4-Benzenediamine, 2-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Aluminum,kg,=,Aluminium(III),kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Antimony(III),kg,=,Antimony(III),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Antimony(V),kg,=,Antimony(V),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Arsenic(III),kg,=,Arsenic(III),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Arsenic(V),kg,=,Arsenic(V),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Barium(II),kg,=,Barium(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Beryllium(II),kg,=,Beryllium(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Cadmium(II),kg,=,Cadmium(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Cesium,kg,=,Cesium(I),kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Chromium(III),kg,=,Chromium(III),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Chromium(VI),kg,=,Chromium(VI),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Bentonite,kg,=,"Clay, bentonite",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Cobalt(II),kg,=,Cobalt(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Copper(II),kg,=,Copper(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Iron(II),kg,=,Iron(II),kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Ferric ion,kg,=,Iron(III),kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Lead(II),kg,=,Lead(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Manganese,kg,=,Manganese(II),kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Mercury(II),kg,=,Mercury(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Molybdenum(VI),kg,=,Molybdenum(VI),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Nickel(II),kg,=,Nickel(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Selenium(IV),kg,=,Selenium(IV),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Silver(I),kg,=,Silver(I),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Strontium,kg,=,Strontium(II),kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Thallium(I),kg,=,Thallium(I),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Tin(II),kg,=,Tin(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Vanadium(V),kg,=,Vanadium(V),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Zinc(II),kg,=,Zinc(II),kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+"2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",kg,=,"2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+trans-Crotonaldehyde,kg,=,Crotonaldehyde (trans),kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Sotalol hydrochloride,kg,=,D-Sotalol,kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Americium-241,kBq,=,Americium-241,Bq,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,0.001
+Curium-242,kBq,<,Curium-alpha,Bq,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+Plutonium-238,kBq,<,Plutonium-alpha,Bq,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+Ruthenium-106,kBq,=,Ruthenium-106,Bq,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,0.001
+Strontium-90,kBq,=,Strontium-90,Bq,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,0.001
+Uranium,kg,>,Uranium-238,Bq,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,8.33333E-08
+Land use,m2*a,>,"Occupation, agriculture, mosaic (agroforestry)",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, annual crops",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, artificial areas",m2.yr,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, forest, used",m2.yr,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, forest/grassland, not used",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, pasture/meadow",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, permanent crops",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, secondary vegetation",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
+land use,m2*a,>,"Occupation, unspecified",m2.yr,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Nitric acid,kg,=,Nitric acid,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Nitrogen,kg,=,Nitrogen,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Nitrogen,kg,>,"Nitrogen, organic bound",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Sand,kg,<,Sand and clay,kg,Morelli,Manual match,,Midpoint,10/23/2025,1
+Sulfur,kg,<,Sulfur containing material,kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+Sulfur dioxide,kg,>,"Sulfur dioxide, secondary",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+Sulfur,kg,>,"Sulfur, bonded",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+"1,1,1,2,2,3-hexachloro-3-fluoropropane",kg,=,"1,1,1,2,2,3-Hexachloro-3-fluoropropane, HCFC-221ab",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-231bb,kg,=,"1,1,1,2,3-Pentachloro-2-fluoropropane, HCFC-231bb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-121a,kg,=,"1,1,1,2-Tetrachloro-2-fluoroethane - HCFC-121a",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-222ca,kg,=,"1,1,1,3,3-Pentachloro-2,2-difluoropropane, HCFC-222ca",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-232fb,kg,=,"1,1,1,3-Tetrachloro-3,3-difluoropropane, HCFC-232fb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-233fb,kg,=,"1,1,1-Trichloro-3,3,3-trifluoropropane, HCFC-233fb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-241db,kg,=,"1,1,2,3-Tetrachloro-1-fluoropropane, HCFC-241db",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-251dc,kg,=,"1,1,2-Trichloro-1-fluoropropane, HCFC-251dc",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-131,kg,=,"1,1,2-Trichloro-2-fluoroethane- HCFC-131",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-223ca,kg,=,"1,1,3,3-Tetrachloro-1,2,2-trifluoropropane, HCFC-223ca",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-123b,kg,=,"1,1-Dichloro-1,2,2-trifluoroethane, HCFC-123b",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-132b,kg,=,"1,2-Dichloro-1,1-difluoroethane, HCFC-132b",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-234ba,kg,=,"1,2-Dichloro-1,2,3,3-tetrafluoropropane, HCFC-234ba",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-261ba,kg,=,"1,2-Dichloro-2-fluoropropane, HCFC-261ba",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+CFC-216ba,kg,1,"1,2-Dichlorohexafluoropropane, CFC-216ba",kg,Morelli,Pubchem Name Synonym,,Midpoint,10/27/2025,1
+HCFC-224ca,kg,=,"1,3,3-Trichloro-1,1,2,2-tetrafluoropropane, HCFC-224ca",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-242fa,kg,=,"1,3,3-Trichloro-1,1-difluoropropane, HCFC-242fa",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-252fc,kg,=,"1,3-Dichloro-1,1-difluoropropane, HCFC-252fc",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-226da,kg,=,"1-Chloro-1,1,2,2,3,3-hexafluoropropane, HCFC-226cb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-262,kg,>,"1-Chloro-1,1-difluoropropane, HCFC-262fc",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-271fb,kg,=,"1-Chloro-1-fluoropropane, HCFC-271fb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-233fb,kg,=,"2,2,3-Trichloro-1,1,1-trifluoropropane, HCFC-233ab",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+Dichlorotetrafluoropropane,kg,>,"2,3-Dichloro-1,1,1,2-tetrafluoropropane, HCFC-234bb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-244,kg,>,"2-Chloro-1,1,1,2-tetrafluoropropane, HCFC-244bb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-243fa,kg,=,"3,3-Dichloro-1,1,1-trifluoropropane, HCFC-243fa",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+HCFC-253fb,kg,=,"3-Chloro-1,1,1-trifluoropropane, HCFC-253fb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+Methyl iodide,kg,=,Methyl iodide,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Trifluoroiodomethane,kg,=,Trifluoroiodomethane,kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+"Particulate matter, ? 10?m",kg,=,"Particulates, < 10 um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Particulate matter, ? 2.5?m",kg,=,"Particulates, < 2.5 um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Particulate matter, > 10?m",kg,=,"Particulates, > 10 um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Particulate matter, > 2.5?m and ? 10?m",kg,=,"Particulates, > 2.5 um, and < 10um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"1,2,3,5-Tetramethylbenzene",kg,=,"1,2,3,5-Tetramethylbenzene",kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+1-Methyl-3-propyl-cyclohexane,kg,=,1-Methyl-3-propylcyclohexane,kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+1-methyl-4-propylcyclohexane,kg,=,1-Methyl-4-propylcyclohexane,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+3-Ethyl-2-methylheptane,kg,=,2-Methyl-3-ethylheptane,kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+o-Tolualdehyde,kg,=,2-Methylbenzaldehyde,kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"1,3-Dimethyl-5-ethylbenzene",kg,=,"3,5-Dimethylethylbenzene",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Benzaldehyde, 3-methyl-",kg,=,3-Methylbenzaldehyde,kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Aldehydes, C5",kg,<,"Aldehydes, unspecified",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+m-Cymene,kg,=,"Benzene, 1-methyl-3-(1-methylethyl)-",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+Carboxylic acids,kg,=,Carboxylic acids,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+"1,2,3-Trimethylcyclohexane",kg,=,"Cyclohexane, 1,2,3-trimethyl-",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+Butylcyclohexane,kg,=,"Cyclohexane, butyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Cyclohexane, hexyl-",kg,=,"Cyclohexane, hexyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+"Cyclohexane, pentyl-",kg,=,"Cyclohexane, pentyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Propylcyclohexane,kg,=,"Cyclohexane, propyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+2-Methyldecane,kg,=,"Decane, 2-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+3-Methyldecane,kg,=,"Decane, 3-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+4-Methyldecane,kg,=,"Decane, 4-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+5-Methyldecane,kg,=,"Decane, 5-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+2-Methylheptane,kg,=,"Heptane, 2-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"3,4-Dimethylheptane",kg,=,"Heptane, 3,4-dimethyl-",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+3-Methylheptane,kg,=,"Heptane, 3-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Isobutylcyclohexane,kg,=,Isobutylcyclohexane,kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+Methacrolein,kg,=,Methacrolein,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Methylcyclopentane,kg,=,Methylcyclopentane,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Methylglyoxal,kg,=,Methylglyoxal,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+3-Methylnonane,kg,=,"Nonane, 3-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+4-Methylnonane,kg,=,"Nonane, 4-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"2,5-Dimethyloctane",kg,=,"Octane, 2,5-dimethyl-",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
+"2,6-Dimethyloctane",kg,=,"Octane, 2,6-dimethyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Octane, 2-methyl-",kg,=,"Octane, 2-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+"Octane, 3-methyl-",kg,=,"Octane, 3-methyl-",kg,Morelli,Cas match,,Midpoint,10/23/2025,1
+4-Methyloctane,kg,=,"Octane, 4-methyl-",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Propyne,kg,=,Propyne,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Tetradecane,kg,=,Tetradecane,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Tridecane,kg,=,Tridecane,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
+Propionaldehyde,kg,=,i-Propionaldehyde,kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Water,kg,=,Water,m3,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,0.001
+Water,kg,>,"Water, cooling, unspecified natural origin",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+Water,kg,>,"Water, lake",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+Water,kg,>,"Water, river",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+"Water, saline",kg,>,"Water, salt, ocean",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+"Water, saline",kg,>,"Water, salt, sole",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+Water,kg,=,"Water, unspecified natural origin",m3,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,0.001
+(E)-HFC-1225ye,kg,=,"(E)-1,2,3,3,3-Pentafluoropropene, (E)-HFC-1225ye",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"(Z)-1,1,1,4,4,4-Hexafluoro-2-butene",kg,=,"(Z)-1,1,1,4,4,4-Hexafluorobut-2-ene, (Z)-HFC-1336",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"1-Propene, 1,2,3,3,3-pentafluoro-, (1Z)-",kg,=,"(Z)-1,2,3,3,3-Pentafluoropropene, (Z)-HFC-1225ye",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"1-Propene, 1,3,3,3-tetrafluoro-, (1Z)-",kg,=,"(Z)-1,3,3,3-tetrafluoropropene, (Z)-HFC-1234ze",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",kg,=,"1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxybutane - HFE-449s1",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFC-329p,kg,=,"1,1,1,2,2,3,3,4,4-nonafluorobutane, HFC-329p",kg,Morelli,Cas match,,Damage,10/27/2025,1
+CFC-113a,kg,=,"1,1,1-trichloro-2,2,2-trifluoroethane - CFC-113a",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HCFC-121,kg,=,"1,1,2,2-tetrachloro-1-fluoroethane - HCFC-121",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFC-245ea,kg,=,"1,1,2,3,3-pentafluoropropane, HFC-245ea",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"1,1,2-Trifluoro-2-(trifluoromethoxy)-ethane",kg,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethane",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Trifluoro(trifluoromethoxy)ethylene,kg,=,"1,1,2-trifluoro-2-(trifluoromethoxy)ethene, HFE-216",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15,15-eicosafluoro-2,5,8,11,14-Pentaoxapentadecane",kg,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12,13,13,15-eicosafluoro-2,5,8,11,14-pentaoxapentadecane (HG-04)",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HG-03,kg,=,"1,1,3,3,4,4,6,6,7,7,9,9,10,10,12,12-Hexadecafluoro-2,5,8,11-tetraoxadodecane, HG-03",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HG-30,kg,=,"1,1,3,3,5,5,7,7,9,9-Decafluoro-2,4,6,8-tetraoxanonane, HFE-43-10pccc124",kg,Morelli,Cas match,,Damage,10/27/2025,1
+CFC-114a,kg,=,"1,1-dichlorotetrafluoroethane - CFC-114a",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HCFC-122,kg,=,"1,2,2-Trichloro-1,1-difluoroethane, HCFC-122",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HCFC-123a,kg,=,"1,2-Dichlorotrifluoroethane, HCFC-123a",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HCFC-122a,kg,=,"1,2-Difluorotrichloroethane, HCFC-122a",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HCFC-132,kg,=,"1,2-dichloro-1,2-difluoroethane - HCFC-132",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Ethane, 1,2-dichloro-1-fluoro-",kg,=,"1,2-dichloro-1-fluoroethane - HCFC-141",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HCFC-124a,kg,=,"1-chloro-1,1,2,2-tetrafluoroethane - HCFC-124a",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"1-Propene, 2,3,3,3-tetrafluoro-",kg,=,"2,3,3,3-tetrafluoropropene, HFC-1234yf",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-338mmz1,kg,=,"2-(difluoromethoxy)-1,1,1,3,3,3-hexafluoropropane, HFE-338mmz1",kg,Morelli,Cas match,,Damage,10/27/2025,1
+2-Chloropropane,kg,=,2-chloropropane,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+"2-Ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,=,"2-ethoxy-3,3,4,4,5-pentafluorotetrahydro-2,5-bis[1,2,2,2-tetrafluoro-1-(trifluoromethyl)ethyl]-furan",kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+"3,3,3-Trifluoro-1-propene",kg,=,"3,3,3-Trifluoropropene, HFC-1243zf",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-",kg,=,"Butane, 1,1,1,2,2,3,3,4,4-nonafluoro-4-methoxy-, n-HFE-7100",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Carbon dioxide,kg,>,"Carbon dioxide, fossil",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Carbon monoxide,kg,>,"Carbon monoxide, fossil",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"Ethane, 2-(difluoromethoxy)-1,1,1,2-tetrafluoro-, (+-)-",kg,=,"Desflurane, HFE-236ea2",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Ethane, (trifluoromethoxy)-",kg,=,"Ethane, (trifluoromethoxy)-, HFE-263m1",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HG-02,kg,=,"Ethane, 1,1'-oxybis[2-(difluoromethoxy)-1,1,2,2-tetrafluoro-, HG-02",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Ethane, 1,1,1-trifluoro-2-methoxy-",kg,=,"Ethane, 1,1,1-trifluoro-2-methoxy-, HFE-263mf",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Ethane, 1,1-dichloro-1,2-difluoro-",kg,=,"Ethane, 1,1-dichloro-1,2-difluoro-, HCFC-132c",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+HFE-338pcc13 (HG-01),kg,=,"Ethane, 1,2-bis(difluoromethoxy)-1,1,2,2-tetrafluoro-, HFE-338pcc13 (HG-01)",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-347mcf2,kg,=,"Ethane, 1-(2,2-difluoroethoxy)-1,1,2,2,2-pentafluoro-, HFE-347mcf2",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-356pcf2,kg,=,"Ethane, 1-(2,2-difluoroethoxy)-1,1,2,2-tetrafluoro-, HFE-356pcf2",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Isoflurane,kg,=,"Ethane, 2-chloro-2-(difluoromethoxy)-1,1,1-trifluoro-, HCFE-235da2 (isoflurane)",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Ethane, 1,1,1,2,2-pentafluoro-2-methoxy-",kg,=,"Ethane,1,1,1,2,2-pentafluoro-2-methoxy-, HFE-245cb2",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Ethane, 1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-",kg,=,"Ethane,1,1,1,2-tetrafluoro-2-(trifluoromethoxy)-, HFE-227EA",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-347pcf2,kg,=,"Ethane,1,1,2,2-tetrafluoro-1-(2,2,2-trifluoroethoxy)-, HFE-347pcf2",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Ethane, 1,1-difluoro-2-(trifluoromethoxy)-",kg,=,"Ethane,1,1-difluoro-2-(trifluoromethoxy)-, HFE-245fa1",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Vinylidene fluoride,kg,=,"Ethene, 1,1-difluoro-, HFC-1132a",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Vinyl fluoride,kg,=,"Ethene, fluoro-, HFC-1141",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Ethyl nonafluorobutyl ether,kg,=,"Ether, nonafluorobutane ethyl-, HFE569sf2 (n-HFE-7200)",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-356mff2,kg,=,"Flurothyl, HFE-356mff2",kg,Morelli,Cas match,,Damage,10/27/2025,1
+1H-Heptafluoropropane,kg,=,"Heptafluoropropane, HFC-227ca",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-356mmz1,kg,=,"Hexafluoroisopropyl methyl ether, HFE-356mmz1",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Hexafluoropropene,kg,=,"Hexafluoropropene, PFC-1216",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Methane,kg,>,"Methane, biogenic",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"Methane, bis(difluoromethoxy)difluoro-",kg,=,"Methane, bis(difluoromethoxy)difluoro- , HFE-236ca12 (HG-10)",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"1,1,2,2-Tetrafluoro-1-methoxyethane",kg,=,"Methyl 1,1,2,2-tetrafluoroethyl ether, HFE-254cb1",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFC-1345zfc,kg,=,"Pentafluorobutene-1, HFC-1345zfc",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-338mcf2,kg,=,"Pentafluoroethyl 2,2,2-trifluoroethyl ether, HFE-338mcf2",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Perfluoroheptane,kg,=,"Perfluoro-n-heptane, PFC-6-1-16",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Perfluorodecalin (trans),kg,=,Perfluorodecalin (trans),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Perfluorodecalin,kg,=,"Perfluorodecalin, PFC-9-1-18",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Tetrafluoroethene,kg,=,"Perfluoroethylene, PFC-1114",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Octane, octadecafluoro-",kg,=,"Perfluorooctane, PFC-7-1-18",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-",kg,=,"Propane, 1,1,1,2,2,3,3-heptafluoro-3-methoxy-, HFE-347mcc3 (HFE-7000)",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFC-245cb,kg,=,"Propane, 1,1,1,2,2-pentafluoro-, HFC-245cb",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+HFC-245eb,kg,=,"Propane, 1,1,1,2,3-pentafluoro-, HFC-245eb",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+HFC-236fa,kg,=,"Propane, 1,1,1,3,3,3-hexafluoro-, HFC-236fa",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-356pcc3,kg,=,"Propane, 1,1,2,2,3,3-Hexafluoro-1-methoxy-, HFE-356pcc3",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Dimethyldifluoromethane,kg,=,"Propane, 2,2-difluoro-, HFC-272ca",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-",kg,=,"Propane, 2-(difluoromethoxymethyl)-1,1,1,2,3,3,3-heptafluoro-, i-HFE-7100",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Propane, 2-(ethoxydifluoromethyl)-1,1,1,2,3,3,3-heptafluoro-",kg,=,"Propane, 2-(ethoxydifluoromethyl)-1,1,1,2,3,3,3-heptafluoro-, i-HFE-7200",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-356pcf3,kg,=,"Propane, 3-(difluoromethoxy)-1,1,2,2-tetrafluoro-, HFE-356pcf3",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"Propane, 1,1,1-trifluoro-",kg,=,"Propane, trifluoro-, HFC-263fb",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-347mmy1,kg,=,"Propane,1,1,1,2,3,3,3-heptafluoro-2-methoxy-, HFE-347mmy1",kg,Morelli,Cas match,,Damage,10/27/2025,1
+CFC-112,kg,=,"Tetrachloro-1,2-difluoroethane - CFC-112",kg,Morelli,Cas match,,Damage,10/27/2025,1
+HFE-329me3,kg,=,"Trifluoromethyl perfluoropropyl ether, HFE-329me3",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",kg,=,"2H-1-Benzopyran-6-ol, 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-",kg,Morelli,Cas match,,Damage,10/23/2025,1
+Antimony(III),kg,=,Antimony(III),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Antimony(V),kg,=,Antimony(V),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Arsenic(III),kg,=,Arsenic(III),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Arsenic(V),kg,=,Arsenic(V),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Barium(II),kg,=,Barium(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Beryllium(II),kg,=,Beryllium(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Cadmium(II),kg,=,Cadmium(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Chromium(III),kg,=,Chromium(III),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Chromium(VI),kg,=,Chromium(VI),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+trans-Crotonaldehyde,kg,=,Crotonaldehyde (trans),kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Sotalol hydrochloride,kg,=,D-Sotalol,kg,Morelli,Cas match,,Damage,10/27/2025,1
+Lead(II),kg,=,Lead(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Mercury(II),kg,=,Mercury(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Nickel(II),kg,=,Nickel(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Selenium(IV),kg,=,Selenium(IV),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Tin(II),kg,=,Tin(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Zinc(II),kg,=,Zinc(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Copper(II),kg,=,Copper(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Molybdenum(VI),kg,=,Molybdenum(VI),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Silver(I),kg,=,Silver(I),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Thallium(I),kg,=,Thallium(I),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Vanadium(V),kg,=,Vanadium(V),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Americium-241,kBq,=,Americium-241,Bq,Morelli,Namematch_allmappings,,Damage,10/23/2025,0.001
+Curium-242,kBq,<,Curium-alpha,Bq,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+Plutonium-238,kBq,<,Plutonium-alpha,Bq,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+Ruthenium-106,kBq,=,Ruthenium-106,Bq,Morelli,Namematch_allmappings,,Damage,10/23/2025,0.001
+Strontium-90,kBq,=,Strontium-90,Bq,Morelli,Namematch_allmappings,,Damage,10/23/2025,0.001
+Uranium,kg,>,Uranium-238,Bq,Morelli,Namematch_allmappings,,Damage,10/27/2025,8.33333E-08
+"1,2,3,5-Tetramethylbenzene",kg,=,"1,2,3,5-Tetramethylbenzene",kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+1-Methyl-3-propyl-cyclohexane,kg,=,1-Methyl-3-propylcyclohexane,kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+1-methyl-4-propylcyclohexane,kg,=,1-Methyl-4-propylcyclohexane,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+3-Ethyl-2-methylheptane,kg,=,2-Methyl-3-ethylheptane,kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+o-Tolualdehyde,kg,=,2-Methylbenzaldehyde,kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"1,3-Dimethyl-5-ethylbenzene",kg,=,"3,5-Dimethylethylbenzene",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"Benzaldehyde, 3-methyl-",kg,=,3-Methylbenzaldehyde,kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"Aldehydes, C5",kg,<,"Aldehydes, unspecified",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+m-Cymene,kg,=,"Benzene, 1-methyl-3-(1-methylethyl)-",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Carboxylic acids,kg,=,Carboxylic acids,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+"1,2,3-Trimethylcyclohexane",kg,=,"Cyclohexane, 1,2,3-trimethyl-",kg,Morelli,Cas match,,Damage,10/27/2025,1
+Butylcyclohexane,kg,=,"Cyclohexane, butyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"Cyclohexane, hexyl-",kg,=,"Cyclohexane, hexyl-",kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+"Cyclohexane, pentyl-",kg,=,"Cyclohexane, pentyl-",kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Propylcyclohexane,kg,=,"Cyclohexane, propyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+2-Methyldecane,kg,=,"Decane, 2-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+3-Methyldecane,kg,=,"Decane, 3-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+4-Methyldecane,kg,=,"Decane, 4-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+5-Methyldecane,kg,=,"Decane, 5-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+2-Methylheptane,kg,=,"Heptane, 2-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"3,4-Dimethylheptane",kg,=,"Heptane, 3,4-dimethyl-",kg,Morelli,Cas match,,Damage,10/27/2025,1
+3-Methylheptane,kg,=,"Heptane, 3-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Isobutylcyclohexane,kg,=,Isobutylcyclohexane,kg,Morelli,Cas match,,Damage,10/23/2025,1
+Methacrolein,kg,=,Methacrolein,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Methylcyclopentane,kg,=,Methylcyclopentane,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Methylglyoxal,kg,=,Methylglyoxal,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Nitrate,kg,=,Nitrate,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Nitric oxide,kg,=,Nitric oxide,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+3-Methylnonane,kg,=,"Nonane, 3-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+4-Methylnonane,kg,=,"Nonane, 4-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"2,5-Dimethyloctane",kg,=,"Octane, 2,5-dimethyl-",kg,Morelli,Cas match,,Damage,10/27/2025,1
+"2,6-Dimethyloctane",kg,=,"Octane, 2,6-dimethyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+"Octane, 2-methyl-",kg,=,"Octane, 2-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+"Octane, 3-methyl-",kg,=,"Octane, 3-methyl-",kg,Morelli,Cas match,,Damage,10/23/2025,1
+4-Methyloctane,kg,=,"Octane, 4-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Propyne,kg,=,Propyne,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Tetradecane,kg,=,Tetradecane,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Tridecane,kg,=,Tridecane,kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Propionaldehyde,kg,=,i-Propionaldehyde,kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Water,kg,=,Water,m3,Morelli,Namematch_allmappings,,Damage,10/23/2025,0.001
+Water,kg,>,"Water, cooling, unspecified natural origin",m3,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+Water,kg,>,"Water, lake",m3,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+Water,kg,>,"Water, river",m3,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+"Water, saline",kg,>,"Water, salt, ocean",m3,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+"Water, saline",kg,>,"Water, salt, sole",m3,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+Water,kg,=,"Water, unspecified natural origin",m3,Morelli,Namematch_allmappings,,Damage,10/27/2025,0.001
+"Toluene-2,5-diamine",kg,=,"1,4-Benzenediamine, 2-methyl-",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Aluminum,kg,>,Aluminium(III),kg,Morelli,Cas match,,Damage,10/27/2025,1
+Cesium,kg,>,Cesium(I),kg,Morelli,Cas match,,Damage,10/27/2025,1
+Bentonite,kg,=,"Clay, bentonite",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Cobalt(II),kg,=,Cobalt(II),kg,Morelli,Namematch_allmappings,,Damage,10/23/2025,1
+Iron(II),kg,=,Iron(II),kg,Morelli,Cas match,,Damage,10/23/2025,1
+Ferric ion,kg,=,Iron(III),kg,Morelli,Cas match,,Damage,10/27/2025,1
+Manganese,kg,>,Manganese(II),kg,Morelli,Cas match,,Damage,10/27/2025,1
+Strontium,kg,>,Strontium(II),kg,Morelli,Cas match,,Damage,10/27/2025,1
+Carbon monoxide,kg,>,"Carbon monoxide, biogenic",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Carbon monoxide,kg,>,"Carbon monoxide, biogenic",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
+Carbon dioxide,kg,>,"Carbon dioxide, to soil or biomass stock",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Carbon dioxide,kg,>,"Carbon dioxide, to soil or biomass stock",kg,Morelli,Namematch_allmappings,,Damage,10/27/2025,1
