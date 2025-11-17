@@ -3654,7 +3654,7 @@ Land use,m2*a,>,"Occupation, forest/grassland, not used",m2.yr,Morelli,Manual ma
 Land use,m2*a,>,"Occupation, pasture/meadow",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
 Land use,m2*a,>,"Occupation, permanent crops",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
 Land use,m2*a,>,"Occupation, secondary vegetation",m2.yr,Morelli,Manual match,,Midpoint,10/27/2025,1
-land use,m2*a,>,"Occupation, unspecified",m2.yr,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+Land use,m2*a,>,"Occupation, unspecified",m2.yr,Morelli,Namematch_allmappings,,Midpoint,11/17/2025,1
 Nitric acid,kg,=,Nitric acid,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
 Nitrogen,kg,=,Nitrogen,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
 Nitrogen,kg,>,"Nitrogen, organic bound",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
@@ -3690,10 +3690,10 @@ HCFC-243fa,kg,=,"3,3-Dichloro-1,1,1-trifluoropropane, HCFC-243fa",kg,Morelli,Cas
 HCFC-253fb,kg,=,"3-Chloro-1,1,1-trifluoropropane, HCFC-253fb",kg,Morelli,Cas match,,Midpoint,10/27/2025,1
 Methyl iodide,kg,=,Methyl iodide,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
 Trifluoroiodomethane,kg,=,Trifluoroiodomethane,kg,Morelli,Cas match,,Midpoint,10/23/2025,1
-"Particulate matter, ? 10?m",kg,=,"Particulates, < 10 um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
-"Particulate matter, ? 2.5?m",kg,=,"Particulates, < 2.5 um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
-"Particulate matter, > 10?m",kg,=,"Particulates, > 10 um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
-"Particulate matter, > 2.5?m and ? 10?m",kg,=,"Particulates, > 2.5 um, and < 10um",kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
+"Particulate matter, ≤ 10μm",kg,=,"Particulates, < 10 um",kg,Morelli,Namematch_allmappings,,Midpoint,11/17/2025,1
+"Particulate matter, ≤ 2.5μm",kg,=,"Particulates, < 2.5 um",kg,Morelli,Namematch_allmappings,,Midpoint,11/17/2025,1
+"Particulate matter, > 10μm",kg,=,"Particulates, > 10 um",kg,Morelli,Namematch_allmappings,,Midpoint,11/17/2025,1
+"Particulate matter, > 2.5μm and ≤ 10μm",kg,=,"Particulates, > 2.5 um, and < 10um",kg,Morelli,Namematch_allmappings,,Midpoint,11/17/2025,1
 "1,2,3,5-Tetramethylbenzene",kg,=,"1,2,3,5-Tetramethylbenzene",kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
 1-Methyl-3-propyl-cyclohexane,kg,=,1-Methyl-3-propylcyclohexane,kg,Morelli,Namematch_allmappings,,Midpoint,10/27/2025,1
 1-methyl-4-propylcyclohexane,kg,=,1-Methyl-4-propylcyclohexane,kg,Morelli,Namematch_allmappings,,Midpoint,10/23/2025,1
