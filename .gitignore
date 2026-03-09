@@ -5,3 +5,4 @@
 /*.egg-info/
 */output/*
 !/output/FedElemFlowListMaster.parquet
+.DS_Store
