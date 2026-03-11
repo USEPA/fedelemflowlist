@@ -2300,8 +2300,8 @@ eLCI,"NMVOC, non-methane volatile organic compounds, unspecified origin",,emissi
 eLCI,"VOC, volatile organic compounds, unspecified origin",,emission/air,kg,=,1,Volatile organic compounds,6f861846-1c4c-3fc9-a198-56b2d9abd83b,emission/air,kg,Hottle,Edelen,2/5/2020
 eLCI,"NMVOC, non-methane volatile organic compounds, unspecified ",,emission/air,kg,=,1,Volatile organic compounds,6f861846-1c4c-3fc9-a198-56b2d9abd83b,emission/air,kg,Hottle,Edelen,2/5/2020
 eLCI,"NMVOC, non-methane volatile organic compounds, unspecified",,emission/air,kg,=,1,Volatile organic compounds,6f861846-1c4c-3fc9-a198-56b2d9abd83b,emission/air,kg,Hottle,Edelen,2/10/2020
-eLCI,water,,resource,kg,=,1,Water,8ba7dd57-b502-397b-944a-f63c6615f754,resource/water,kg,Young,Davis,3/9/2026
-eLCI,water,,resource/in water,kg,=,1,Water,8ba7dd57-b502-397b-944a-f63c6615f754,resource/water,kg,Young,Davis,3/9/2026
+eLCI,water,,resource,kg,=,1,"Water, fresh",8ba7dd57-b502-397b-944a-f63c6615f754,resource/water,kg,Young,Davis,3/11/2026
+eLCI,water,,resource/in water,kg,=,1,"Water, fresh",8ba7dd57-b502-397b-944a-f63c6615f754,resource/water,kg,Young,Davis,3/11/2026
 eLCI,"water, fresh",,resource,m3,=,1000,"Water, fresh",8ba7dd57-b502-397b-944a-f63c6615f754,resource/water,kg,Hottle,Edelen,2/5/2020
 eLCI,"water, fresh",,resource/in water,m3,=,1000,"Water, fresh",8ba7dd57-b502-397b-944a-f63c6615f754,resource/water,kg,Young,Davis,3/9/2026
 eLCI,Fresh water,,resource,kg,=,1,"Water, fresh",8ba7dd57-b502-397b-944a-f63c6615f754,resource/water,kg,Hottle,Edelen,2/5/2020
