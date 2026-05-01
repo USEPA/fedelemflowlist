@@ -7,13 +7,13 @@ Energy,Resource,Water,0,0,0,0,0,0,0,0,0,1
 Energy,Emission,Air,0,0,0,0,0,0,0,0,0,1
 Energy,Emission,Air,1,0,0,0,0,0,0,0,0,0
 Energy,Emission,Air,1,0,0,0,0,0,1,0,0,0
-Energy,Emission,Air,0,0,0,0,0,0,0,0,1,0
+Energy,Emission,Air,0,0,0,0,0,0,0,0,0,0
 Energy,Emission,Water,0,1,0,0,0,0,0,0,0,0
 Energy,Emission,Water,0,1,0,0,1,0,0,0,0,0
 Energy,Emission,Water,1,0,0,0,0,0,0,0,0,0
 Energy,Emission,Water,0,0,0,0,0,0,0,0,0,1
 Energy,Emission,Water,1,1,0,0,1,0,0,0,0,1
-Energy,Emission,Water,1,0,0,0,0,0,0,0,1,0
+Energy,Emission,Water,1,0,0,0,0,0,0,0,0,0
 Energy,Emission,Ground,0,0,0,0,0,0,0,0,0,1
 Energy,Emission,Ground,0,1,1,0,0,0,0,0,0,0
 Energy,Emission,Ground,0,1,0,1,0,0,0,0,0,0
@@ -49,7 +49,7 @@ Geological,Emission,Air,0,0,0,0,0,0,0,0,0,0
 Geological,Emission,Air,1,0,0,0,0,0,0,0,0,0
 Geological,Emission,Air,1,0,0,0,0,0,1,0,0,0
 Geological,Emission,Air,1,0,0,0,0,0,1,1,0,1
-Geological,Emission,Air,0,0,0,0,0,0,0,0,1,0
+Geological,Emission,Air,0,0,0,0,0,0,0,0,0,0
 Geological,Emission,Ground,1,0,0,0,0,0,0,0,0,1
 Geological,Emission,Ground,0,1,1,0,0,0,0,0,0,0
 Geological,Emission,Ground,0,1,1,0,0,0,1,0,0,1
@@ -59,7 +59,7 @@ Geological,Emission,Water,1,0,0,0,0,0,0,0,0,1
 Geological,Emission,Water,0,0,0,0,0,0,0,0,0,1
 Geological,Emission,Water,0,1,0,0,1,0,0,0,0,0
 Geological,Emission,Water,0,1,0,0,0,0,0,0,0,0
-Geological,Emission,Water,1,0,0,0,0,0,0,0,1,0
+Geological,Emission,Water,1,0,0,0,0,0,0,0,0,0
 Water,Resource,Air,0,0,0,0,0,0,0,0,0,0
 Water,Resource,Air,1,0,0,0,0,0,0,0,0,1
 Water,Emission,Air,1,0,0,0,0,0,0,0,0,0
@@ -68,7 +68,7 @@ Water,Emission,Air,1,0,0,0,0,0,0,1,0,0
 Water,Emission,Air,1,0,0,0,0,0,1,1,0,1
 Water,Emission,Air,0,0,0,0,0,0,0,0,0,0
 Water,Emission,Air,1,0,0,0,0,1,0,0,0,1
-Water,Emission,Air,0,0,0,0,0,0,0,0,1,0
+Water,Emission,Air,0,0,0,0,0,0,0,0,0,0
 Water,Resource,Water,1,0,0,0,0,0,0,0,0,0
 Water,Resource,Water,1,1,0,0,0,0,0,0,0,0
 Water,Resource,Water,1,1,0,0,1,0,0,0,0,1
@@ -83,7 +83,7 @@ Water,Emission,Water,0,1,0,0,1,0,1,0,0,1
 Water,Emission,Water,0,0,0,0,0,0,0,0,0,0
 Water,Emission,Water,0,1,0,0,1,0,0,0,0,0
 Water,Emission,Water,0,1,0,0,0,0,0,0,0,0
-Water,Emission,Water,1,0,0,0,0,0,0,0,1,0
+Water,Emission,Water,1,0,0,0,0,0,0,0,0,0
 Water,Emission,Ground,1,0,0,0,0,0,0,0,0,1
 Water,Emission,Ground,0,0,0,0,0,0,0,0,0,0
 Water,Emission,Ground,0,1,0,0,0,0,0,0,0,0
@@ -94,7 +94,7 @@ Water,Resource,Ground,0,0,0,0,0,0,0,0,0,0
 Other,Emission,Air,0,0,0,0,0,0,0,0,0,1
 Other,Emission,Air,0,0,0,0,0,0,0,0,1,0
 Other,Emission,Water,0,0,0,0,0,0,0,0,0,1
-Other,Emission,Water,1,0,0,0,0,0,0,0,0,0
+Other,Emission,Water,1,0,0,0,0,0,0,0,1,0
 Other,Emission,Water,1,1,0,0,1,0,0,0,0,0
 Other,Emission,Water,0,1,0,0,1,0,0,0,0,0
 Other,Emission,Water,0,1,0,0,0,0,0,0,0,0

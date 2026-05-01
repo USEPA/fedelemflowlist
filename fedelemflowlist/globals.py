@@ -61,7 +61,7 @@ flow_list_specs = {
     "secondary_context_classes": ["Vertical Strata", "Land Use",
                                   "Human-Dominated", "Terrestrial",
                                   "Aquatic Feature", "Indoor",
-                                  "Population Density", "Release Height"]
+                                  "Population Density","Timing", "Release Height"]
     }
 
 
