@@ -7,6 +7,7 @@ Energy,Resource,Water,0,0,0,0,0,0,0,0,0,1
 Energy,Emission,Air,0,0,0,0,0,0,0,0,0,1
 Energy,Emission,Air,1,0,0,0,0,0,0,0,0,0
 Energy,Emission,Air,1,0,0,0,0,0,1,0,0,0
+Energy,Emission,Air,0,0,0,0,0,0,0,0,0,0
 Energy,Emission,Water,0,1,0,0,0,0,0,0,0,0
 Energy,Emission,Water,0,1,0,0,1,0,0,0,0,0
 Energy,Emission,Water,1,0,0,0,0,0,0,0,0,0
