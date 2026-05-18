@@ -1,4 +1,5 @@
 Directionality,Environmental Media,Vertical Strata,Land Use,Human-Dominated,Terrestrial,Aquatic Feature,Indoor,Population Density,Timing,Release Height
+Emission,Air,,,,,,,,,
 Emission,Air,,,,,,,,Long-term,
 Emission,Air,Troposphere,,,,,,,,Low
 Emission,Air,Troposphere,,,,,,,,High
@@ -62,6 +63,7 @@ Emission,Water,,Brackish Water Body,,,Lake,,Urban,,
 Emission,Water,,Brackish Water Body,,,Lake,,Rural,,
 Emission,Water,,Saline Water Body,,,,,,,
 Emission,Water,,Saline Water Body,,,Ocean,,,,
+Emission,Water,Subterranean,,,,,,,,
 Emission,Water,Subterranean,,,,,,,Long-term,
 Emission,Water,Subterranean,Fresh Water Body,,,,,,,
 Emission,Water,Subterranean,Brackish Water Body,,,,,,,

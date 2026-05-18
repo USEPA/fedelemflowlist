@@ -88,7 +88,7 @@ Water,Emission,Ground,0,1,0,1,0,0,0,0,0,1
 Water,Emission,Ground,0,1,1,0,0,0,1,0,0,1
 Water,Resource,Ground,0,0,0,0,0,0,0,0,0,0
 Other,Emission,Air,0,0,0,0,0,0,0,0,0,1
-Other,Emission,Air,0,0,0,0,0,0,0,0,1,0
+Other,Emission,Air,0,0,0,0,0,0,0,0,1,1
 Other,Emission,Water,0,0,0,0,0,0,0,0,0,1
 Other,Emission,Water,1,0,0,0,0,0,0,0,0,0
 Other,Emission,Water,1,0,0,0,0,0,0,0,1,0
