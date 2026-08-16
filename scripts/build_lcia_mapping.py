@@ -11,7 +11,7 @@ from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, \
     add_uuid_to_mapping, add_conversion_to_mapping
 
 # Options: 'TRACI2.1', 'TRACI2.2', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
-lcia_name = 'TRACI2.2'
+lcia_name = 'TRACI2.1'
 if 'TRACI' in lcia_name:
     # use same source data for all TRACI versions
     source_name = 'TRACIv2'
@@ -79,8 +79,12 @@ if __name__ == '__main__':
     # Add LCIA name and missing fields
     lciafmt_w_context_flowable_mappings['SourceListName'] = lcia_name
     if 'ConversionFactor' in flowable_mappings:
-        lciafmt_w_context_flowable_mappings['ConversionFactor'] = \
-            lciafmt_w_context_flowable_mappings['ConversionFactor'].fillna(1.0)
+        lciafmt_w_context_flowable_mappings['ConversionFactor'] = (
+            pd.to_numeric(lciafmt_w_context_flowable_mappings['ConversionFactor'],
+                          errors='coerce')
+            .fillna(1.0)
+            .astype(float)
+        )
     else:
         lciafmt_w_context_flowable_mappings['ConversionFactor'] = 1.0
     lciafmt_w_context_flowable_mappings['SourceFlowUUID'] = None
