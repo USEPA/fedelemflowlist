@@ -12,11 +12,10 @@ Flowable,Directionality,Environmental Media
 "Methane, land use",Emission,Ground
 "Methane, land use",Emission,Water
 "Carbon dioxide, land use",Emission,Air
-"Carbon dioxide, land use",Emission,Ground
-"Carbon dioxide, land use",Emission,Water
 "Carbon dioxide, biogenic",Emission,Air
-"Carbon dioxide, biogenic",Emission,Ground
-"Carbon dioxide, biogenic",Emission,Water
+"Carbon dioxide, to soil or biomass stock",Emission,Air
+"Carbon dioxide, to soil or biomass stock",Emission,Ground
+"Carbon dioxide, to soil or biomass stock",Emission,Water
 "(Z)-1,2-Dimethylcyclohexane",Emission,Air
 "(Z)-1,2-Dimethylcyclohexane",Emission,Ground
 "(Z)-1,2-Dimethylcyclohexane",Emission,Water

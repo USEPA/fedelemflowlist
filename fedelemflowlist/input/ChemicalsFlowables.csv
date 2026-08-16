@@ -5,6 +5,7 @@
 "Methane, land use",74-82-8,CH4,"Methane, non-fossil",kg,"https://www.epa.gov/ghgemissions/overview-greenhouse-gases#:~:text=Methane%20(CH4):%20Methane,as%20during%20treatment%20of%20wastewater.",1
 "Carbon dioxide, biogenic",124-38-9,CO2,"Carbon dioxide, non-fossil",kg,"https://19january2017snapshot.epa.gov/climatechange/carbon-dioxide-emissions-associated-bioenergy-and-other-biogenic-sources_.html#:~:text=Biogenic%20CO2%20emissions%20are,derived%20and%20agriculture%2Dderived%20feedstocks",1
 "Carbon dioxide, land use",124-38-9,CO2,"Carbon dioxide, from soil or biomass stock",kg,"https://19january2017snapshot.epa.gov/climatechange/carbon-dioxide-emissions-associated-bioenergy-and-other-biogenic-sources_.html#:~:text=Biogenic%20CO2%20emissions%20are,derived%20and%20agriculture%2Dderived%20feedstocks",1
+"Carbon dioxide, to soil or biomass stock",124-38-9,CO2,,kg,,1
 "(Z)-1,2-Dimethylcyclohexane",2207-01-4,C8H16,"Cyclohexane, 1,2-dimethyl-, (1R,2S)-rel-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41735,1
 Cyclohexanemethylamine,3218-02-8,C7H15N,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10185958,1
 "Benzene, 1,1'-ethylidenebis(4-chloro-",3547-04-4,C14H12Cl2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41848,1
@@ -3003,7 +3004,7 @@ Dodecane,112-40-3,C12H26,,kg,https://ofmpub.epa.gov/sor_internet/registry/substr
 Eicosane,112-95-8,C20H42,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47183,1
 Paraldehyde,123-63-7,C6H12O3,"1,3,5-Trioxane, 2,4,6-trimethyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=94701,1
 Diethylene glycol monobutyl ether acetate,124-17-4,C10H20O4,"2-(2-Butoxyethoxy)ethyl acetate; Ethanol, 2-(2-butoxyethoxy)-, 1-acetate",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46802,1
-Carbon dioxide,124-38-9,CO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46795,1
+Carbon dioxide,124-38-9,CO2,"Carbon dioxide, fossil",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46795,1
 Phosphorus pentoxide,1314-56-3,O10P4,Phosphorus oxide (P2O5),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42854,1
 Nickel carbonyl,13463-39-3,C4NiO4,"Nickel carbonyl (Ni(CO)4), (T-4)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60586,1
 sec-Butylbenzene,135-98-8,C10H14,"Benzene, (1-methylpropyl)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46586,1
