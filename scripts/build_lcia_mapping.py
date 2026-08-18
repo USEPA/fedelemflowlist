@@ -9,6 +9,7 @@ BEWARE this will replace the existing mapping file if it exists in /flowmapping.
 import pandas as pd
 from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, \
     add_uuid_to_mapping, add_conversion_to_mapping
+from fedelemflowlist.lcia_mapping import attach_air_co2_to_ground_sequestration
 
 # Options: 'TRACI2.1', 'TRACI2.2', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
 lcia_name = 'TRACI2.1'
@@ -88,7 +89,10 @@ if __name__ == '__main__':
     else:
         lciafmt_w_context_flowable_mappings['ConversionFactor'] = 1.0
     lciafmt_w_context_flowable_mappings['SourceFlowUUID'] = None
-    
+
+    lciafmt_w_context_flowable_mappings = \
+        attach_air_co2_to_ground_sequestration(lciafmt_w_context_flowable_mappings)
+
     # Add conversion factors
     lciafmt_w_context_flowable_mappings = \
         add_conversion_to_mapping(lciafmt_w_context_flowable_mappings)
