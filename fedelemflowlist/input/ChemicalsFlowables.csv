@@ -1,11 +1,11 @@
 ﻿Flowable,CAS No,Formula,Synonyms,Unit,External Reference,Flowable Preferred
 "Carbon monoxide, biogenic",630-08-0,CO,"Carbon monoxide, non-fossil",kg,https://www.epa.gov/system/files/documents/2025-07/co_2024.pdf,1
-"Carbon monoxide, land use",630-08-0,CO,"Carbon monoxide, from soil or biomass stock",kg,https://www.epa.gov/system/files/documents/2025-07/co_2024.pdf,1
+"Carbon monoxide, from soil or biomass stock",630-08-0,CO,"Carbon monoxide, land use",kg,https://www.epa.gov/system/files/documents/2025-07/co_2024.pdf,1
 "Methane, biogenic",74-82-8,CH4,"Methane, non-fossil",kg,"https://www.epa.gov/ghgemissions/overview-greenhouse-gases#:~:text=Methane%20(CH4):%20Methane,as%20during%20treatment%20of%20wastewater.",1
-"Methane, land use",74-82-8,CH4,"Methane, non-fossil",kg,"https://www.epa.gov/ghgemissions/overview-greenhouse-gases#:~:text=Methane%20(CH4):%20Methane,as%20during%20treatment%20of%20wastewater.",1
+"Methane, from soil or biomass stock",74-82-8,CH4,"Methane, land use",kg,"https://www.epa.gov/ghgemissions/overview-greenhouse-gases#:~:text=Methane%20(CH4):%20Methane,as%20during%20treatment%20of%20wastewater.",1
 "Carbon dioxide, biogenic",124-38-9,CO2,"Carbon dioxide, non-fossil",kg,"https://19january2017snapshot.epa.gov/climatechange/carbon-dioxide-emissions-associated-bioenergy-and-other-biogenic-sources_.html#:~:text=Biogenic%20CO2%20emissions%20are,derived%20and%20agriculture%2Dderived%20feedstocks",1
-"Carbon dioxide, land use",124-38-9,CO2,"Carbon dioxide, from soil or biomass stock",kg,"https://19january2017snapshot.epa.gov/climatechange/carbon-dioxide-emissions-associated-bioenergy-and-other-biogenic-sources_.html#:~:text=Biogenic%20CO2%20emissions%20are,derived%20and%20agriculture%2Dderived%20feedstocks",1
-"Carbon dioxide, to soil or biomass stock",124-38-9,CO2,,kg,,1
+"Carbon dioxide, from soil or biomass stock",124-38-9,CO2,"Carbon dioxide, land use; Carbon dioxide, from storage",kg,"https://19january2017snapshot.epa.gov/climatechange/carbon-dioxide-emissions-associated-bioenergy-and-other-biogenic-sources_.html#:~:text=Biogenic%20CO2%20emissions%20are,derived%20and%20agriculture%2Dderived%20feedstocks",1
+"Carbon dioxide, to soil or biomass stock",124-38-9,CO2,"Carbon dioxide, to storage",kg,,1
 "(Z)-1,2-Dimethylcyclohexane",2207-01-4,C8H16,"Cyclohexane, 1,2-dimethyl-, (1R,2S)-rel-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41735,1
 Cyclohexanemethylamine,3218-02-8,C7H15N,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10185958,1
 "Benzene, 1,1'-ethylidenebis(4-chloro-",3547-04-4,C14H12Cl2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41848,1
@@ -3070,7 +3070,7 @@ Titanium,7440-32-6,Ti,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/
 Beryllium,7440-41-7,Be,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36837,1
 Carbon,7440-44-0,C,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36834,1
 Uranium,7440-61-1,U,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5255,1
-Methane,74-82-8,CH4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48548,1
+Methane,74-82-8,CH4,"Methane, fossil",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48548,1
 Methyl iodide,74-88-4,CH3I,"Methane, iodo-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48542,1
 Dibromomethane,74-95-3,CH2Br2,"Methane, dibromo-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48537,1
 Propane,74-98-6,C3H8,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48534,1

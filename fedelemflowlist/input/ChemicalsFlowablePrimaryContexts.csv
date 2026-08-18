@@ -1,10 +1,11 @@
 Flowable,Directionality,Environmental Media
 "Carbon monoxide, biogenic",Emission,Air
-"Carbon monoxide, land use",Emission,Air
+"Carbon monoxide, from soil or biomass stock",Emission,Air
 "Methane, biogenic",Emission,Air
-"Methane, land use",Emission,Air
-"Carbon dioxide, land use",Emission,Air
+"Methane, from soil or biomass stock",Emission,Air
+"Carbon dioxide, from soil or biomass stock",Emission,Air
 "Carbon dioxide, biogenic",Emission,Air
+"Carbon dioxide, biogenic",Resource,Air
 "Carbon dioxide, to soil or biomass stock",Emission,Ground
 "(Z)-1,2-Dimethylcyclohexane",Emission,Air
 "(Z)-1,2-Dimethylcyclohexane",Emission,Ground
@@ -9013,8 +9014,6 @@ Diethylene glycol monobutyl ether acetate,Emission,Air
 Diethylene glycol monobutyl ether acetate,Emission,Ground
 Diethylene glycol monobutyl ether acetate,Emission,Water
 Carbon dioxide,Emission,Air
-Carbon dioxide,Emission,Ground
-Carbon dioxide,Emission,Water
 Carbon dioxide,Resource,Air
 Phosphorus pentoxide,Emission,Air
 Phosphorus pentoxide,Emission,Ground
