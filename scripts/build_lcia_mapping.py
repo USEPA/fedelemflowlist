@@ -9,9 +9,13 @@ BEWARE this will replace the existing mapping file if it exists in /flowmapping.
 import pandas as pd
 from fedelemflowlist.globals import inputpath_mapping, flowmappingpath, \
     add_uuid_to_mapping, add_conversion_to_mapping
+from fedelemflowlist.lcia_mapping import apply_carbon_ghg_policy, \
+    CARBON_GHG_POLICY, CARBON_GHG_POLICY_BIOGENIC_STOCK
 
 # Options: 'TRACI2.1', 'TRACI2.2', 'ReCiPe2016', 'ImpactWorld+, 'IPCC'
 lcia_name = 'TRACI2.2'
+# None uses CARBON_GHG_POLICY_BIOGENIC_STOCK (default)
+carbon_policy = None
 if 'TRACI' in lcia_name:
     # use same source data for all TRACI versions
     source_name = 'TRACIv2'
@@ -79,12 +83,20 @@ if __name__ == '__main__':
     # Add LCIA name and missing fields
     lciafmt_w_context_flowable_mappings['SourceListName'] = lcia_name
     if 'ConversionFactor' in flowable_mappings:
-        lciafmt_w_context_flowable_mappings['ConversionFactor'] = \
-            lciafmt_w_context_flowable_mappings['ConversionFactor'].fillna(1.0)
+        lciafmt_w_context_flowable_mappings['ConversionFactor'] = (
+            pd.to_numeric(lciafmt_w_context_flowable_mappings['ConversionFactor'],
+                          errors='coerce')
+            .fillna(1.0)
+            .astype(float)
+        )
     else:
         lciafmt_w_context_flowable_mappings['ConversionFactor'] = 1.0
     lciafmt_w_context_flowable_mappings['SourceFlowUUID'] = None
-    
+
+    lciafmt_w_context_flowable_mappings = \
+        apply_carbon_ghg_policy(lciafmt_w_context_flowable_mappings, lcia_name,
+                                policy=carbon_policy)
+
     # Add conversion factors
     lciafmt_w_context_flowable_mappings = \
         add_conversion_to_mapping(lciafmt_w_context_flowable_mappings)
