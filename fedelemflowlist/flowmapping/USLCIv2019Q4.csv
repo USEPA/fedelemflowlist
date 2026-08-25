@@ -852,8 +852,8 @@ USLCIv2019Q4,"Carbon, organic bound",18e3c3fa-8cb8-47f9-b04e-cb540a8c5ea1,Elemen
 USLCIv2019Q4,Elemental carbon,2f00b048-45e9-402b-9450-40367d0283d0,Elementary flows/Emission to water/ground water,kg,=,1.0,Carbon,b2eee666-7704-356a-aca9-90dd20e98a4a,emission/water/subterranean,kg,Hottle,Edelen,12/20/2019
 USLCIv2019Q4,"Carbon, organic bound",408e3fb0-d338-3848-9360-f5a4074e631e,water/unspecified,kg,=,1.0,Carbon,68f4dfa4-87c3-33fe-a1c0-bb0610f2fb1b,emission/water,kg,Young,Hottle,1/6/2020
 USLCIv2019Q4,"Carbon, organically bound",375d3445-cf11-3dff-8d4a-2343092761f1,water/unspecified,kg,=,1.0,Carbon,68f4dfa4-87c3-33fe-a1c0-bb0610f2fb1b,emission/water,kg,Young,Hottle,1/6/2020
-USLCIv2019Q4,"Carbon, organic, in soil or biomass stock",65ba3803-1eb5-3ca8-9401-c7c51d8b5656,resource/biotic,kg,=,1.0,Carbon,ef914209-31e3-36f8-8120-9183de84b69a,resource/biotic,kg,Hottle,Edelen,12/20/2019
-USLCIv2019Q4,"Carbon, organic, in soil or biomass stock",20552cf3-8854-3090-b877-f2ae532df045,resource/unspecified,kg,=,1.0,Carbon,8da5dfbc-e842-3f6b-98d1-6018a69e3911,resource/ground,kg,Hottle,Edelen,12/20/2019
+USLCIv2019Q4,"Carbon, organic, in soil or biomass stock",65ba3803-1eb5-3ca8-9401-c7c51d8b5656,resource/biotic,kg,=,1.0,"Carbon, biogenic",5e48cc4a-70cb-3e4f-add5-b12120b01ff1,resource/biotic,kg,Hottle,Edelen,8/25/2026
+USLCIv2019Q4,"Carbon, organic, in soil or biomass stock",20552cf3-8854-3090-b877-f2ae532df045,resource/unspecified,kg,=,1.0,"Carbon, biogenic",c8d76e12-e5ef-3292-9595-6888fae287e9,resource/ground,kg,Hottle,Edelen,8/25/2026
 USLCIv2019Q4,Carbon-14,146157bc-df55-33ca-a667-49dd49d99db0,air/low population density,kBq,=,1.0,Carbon-14,7a94b643-c0f9-39be-9075-17994775e385,emission/air/troposphere/rural,kBq,Edelen,Hottle,10/16/2019
 USLCIv2019Q4,Carbon-14,f896e91c-bc28-3975-af99-69a433249a4f,Emissions to air/low. pop.,kBq,=,1.0,Carbon-14,7a94b643-c0f9-39be-9075-17994775e385,emission/air/troposphere/rural,kBq,Edelen,Hottle,10/16/2019
 USLCIv2019Q4,Carbon-14,ffa70e1c-abbc-397e-8c2a-1d3dd8e6149b,air/unspecified,kBq,=,1.0,Carbon-14,5860024c-105f-3546-a5b9-271267151d8c,emission/air,kBq,Edelen,Hottle,10/16/2019
