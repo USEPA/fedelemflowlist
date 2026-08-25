@@ -1,6 +1,8 @@
 TargetFlowName,TargetUnit,MatchCondition,SourceFlowName,SourceUnit,Mapper,Map method,Verifier,Note,LastUpdated,ConversionFactor
 Carbon dioxide,kg,=,Carbon dioxide,kg,Hottle,Name match,Edelen,,1/7/2020,1
 Methane,kg,=,Fossil methane,kg,Hottle,Manual,Edelen,,1/7/2020,1
+"Methane, biogenic",kg,=,Methane,kg,Young,Manual,,Non-fossil CH4 still has GWP,8/25/2026,1
+"Methane, land use change",kg,=,Methane,kg,Young,Manual,,Non-fossil CH4 still has GWP,8/25/2026,1
 Nitrous oxide,kg,=,Nitrous oxide,kg,Hottle,Name match,Edelen,,1/7/2020,1
 CFC-11,kg,=,CFC-11,kg,Hottle,Name match,Edelen,,1/7/2020,1
 CFC-12,kg,=,CFC-12,kg,Hottle,Name match,Edelen,,1/7/2020,1
