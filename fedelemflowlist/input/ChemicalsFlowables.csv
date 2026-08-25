@@ -1,4 +1,11 @@
-﻿Flowable,CAS No,Formula,Synonyms,Unit,External Reference,Flowable Preferred
+Flowable,CAS No,Formula,Synonyms,Unit,External Reference,Flowable Preferred
+"Carbon dioxide, biogenic",124-38-9,CO2,"Carbon dioxide, non-fossil",kg,https://19january2017snapshot.epa.gov/climatechange/carbon-dioxide-emissions-associated-bioenergy-and-other-biogenic-sources_.html,1
+"Carbon dioxide, land use change",124-38-9,CO2,"Carbon dioxide, from storage; Carbon dioxide, from soil or biomass stock",kg,https://19january2017snapshot.epa.gov/climatechange/carbon-dioxide-emissions-associated-bioenergy-and-other-biogenic-sources_.html,1
+"Carbon, biogenic",7440-44-0,C,"Carbon, non-fossil",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36834,1
+"Carbon monoxide, biogenic",630-08-0,CO,"Carbon monoxide, non-fossil",kg,https://www.epa.gov/system/files/documents/2025-07/co_2024.pdf,1
+"Carbon monoxide, land use change",630-08-0,CO,"Carbon monoxide, from soil or biomass stock",kg,https://www.epa.gov/system/files/documents/2025-07/co_2024.pdf,1
+"Methane, biogenic",74-82-8,CH4,"Methane, non-fossil",kg,https://www.epa.gov/ghgemissions/overview-greenhouse-gases,1
+"Methane, land use change",74-82-8,CH4,"Methane, from soil or biomass stock",kg,https://www.epa.gov/ghgemissions/overview-greenhouse-gases,1
 "(Z)-1,2-Dimethylcyclohexane",2207-01-4,C8H16,"Cyclohexane, 1,2-dimethyl-, (1R,2S)-rel-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41735,1
 Cyclohexanemethylamine,3218-02-8,C7H15N,,kg,https://comptox.epa.gov/dashboard/dsstoxdb/results?utf8=%E2%9C%93&search=DTXSID10185958,1
 "Benzene, 1,1'-ethylidenebis(4-chloro-",3547-04-4,C14H12Cl2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=41848,1
@@ -2997,7 +3004,7 @@ Dodecane,112-40-3,C12H26,,kg,https://ofmpub.epa.gov/sor_internet/registry/substr
 Eicosane,112-95-8,C20H42,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=47183,1
 Paraldehyde,123-63-7,C6H12O3,"1,3,5-Trioxane, 2,4,6-trimethyl-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=94701,1
 Diethylene glycol monobutyl ether acetate,124-17-4,C10H20O4,"2-(2-Butoxyethoxy)ethyl acetate; Ethanol, 2-(2-butoxyethoxy)-, 1-acetate",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46802,1
-Carbon dioxide,124-38-9,CO2,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46795,1
+Carbon dioxide,124-38-9,CO2,"Carbon dioxide, fossil",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46795,1
 Phosphorus pentoxide,1314-56-3,O10P4,Phosphorus oxide (P2O5),kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=42854,1
 Nickel carbonyl,13463-39-3,C4NiO4,"Nickel carbonyl (Ni(CO)4), (T-4)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=60586,1
 sec-Butylbenzene,135-98-8,C10H14,"Benzene, (1-methylpropyl)-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=46586,1
@@ -3063,7 +3070,7 @@ Titanium,7440-32-6,Ti,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/
 Beryllium,7440-41-7,Be,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36837,1
 Carbon,7440-44-0,C,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=36834,1
 Uranium,7440-61-1,U,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=5255,1
-Methane,74-82-8,CH4,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48548,1
+Methane,74-82-8,CH4,"Methane, fossil",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48548,1
 Methyl iodide,74-88-4,CH3I,"Methane, iodo-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48542,1
 Dibromomethane,74-95-3,CH2Br2,"Methane, dibromo-",kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48537,1
 Propane,74-98-6,C3H8,,kg,https://ofmpub.epa.gov/sor_internet/registry/substreg/searchandretrieve/substancesearch/search.do?details=displayDetails&selectedSubstanceId=48534,1

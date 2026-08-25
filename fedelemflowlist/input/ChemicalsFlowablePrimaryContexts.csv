@@ -9009,6 +9009,13 @@ Carbon dioxide,Emission,Air
 Carbon dioxide,Emission,Ground
 Carbon dioxide,Emission,Water
 Carbon dioxide,Resource,Air
+Carbon dioxide,Resource,Ground
+"Carbon dioxide, biogenic",Emission,Air
+"Carbon dioxide, biogenic",Emission,Ground
+"Carbon dioxide, biogenic",Emission,Water
+"Carbon dioxide, biogenic",Resource,Air
+"Carbon dioxide, biogenic",Resource,Ground
+"Carbon dioxide, land use change",Emission,Air
 Phosphorus pentoxide,Emission,Air
 Phosphorus pentoxide,Emission,Ground
 Phosphorus pentoxide,Emission,Water
@@ -9203,6 +9210,9 @@ Beryllium,Emission,Water
 Carbon,Emission,Air
 Carbon,Emission,Ground
 Carbon,Emission,Water
+"Carbon, biogenic",Emission,Air
+"Carbon, biogenic",Emission,Ground
+"Carbon, biogenic",Emission,Water
 Uranium,Emission,Air
 Uranium,Emission,Ground
 Uranium,Emission,Water
@@ -9210,6 +9220,8 @@ Methane,Emission,Air
 Methane,Emission,Ground
 Methane,Emission,Water
 Methane,Resource,Air
+"Methane, biogenic",Emission,Air
+"Methane, land use change",Emission,Air
 Methyl iodide,Emission,Air
 Methyl iodide,Emission,Ground
 Methyl iodide,Emission,Water
@@ -10599,6 +10611,8 @@ Hexacosane,Emission,Ground
 Hexacosane,Emission,Water
 Carbon monoxide,Emission,Air
 Carbon monoxide,Emission,Ground
+"Carbon monoxide, biogenic",Emission,Air
+"Carbon monoxide, land use change",Emission,Air
 "Propanal, 2,2-dimethyl-",Emission,Air
 Aluminum stearate,Emission,Ground
 Aluminum stearate,Emission,Water
@@ -11730,7 +11744,7 @@ Boron,Emission,Air
 Bromate,Emission,Air
 Calcium,Emission,Air
 Calcium chloride,Emission,Air
-Carbon,Resource,Biotic
+"Carbon, biogenic",Resource,Biotic
 Carbon monoxide,Emission,Water
 CFC-13,Emission,Water
 Chloride,Emission,Air
@@ -11789,6 +11803,7 @@ Bismuth,Resource,Ground
 Boron,Resource,Ground
 Calcium,Resource,Ground
 Carbon,Resource,Ground
+"Carbon, biogenic",Resource,Ground
 Chlorine,Resource,Water
 Chlorine,Resource,Ground
 Erbium,Resource,Ground

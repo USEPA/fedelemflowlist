@@ -43,3 +43,17 @@ Flowable,Context
 "Water, saline",resource/water/subterranean/brackish water body
 "Water, saline",resource/water/subterranean/brackish water body/confined aquifer
 "Water, saline",resource/water/subterranean/brackish water body/unconfined aquifer
+Carbon,resource/ground
+Carbon,resource/ground/terrestrial/barren land
+Carbon,resource/ground/terrestrial/forest
+Carbon,resource/ground/terrestrial/grassland
+Carbon,resource/ground/terrestrial/shrubland
+Carbon,resource/ground/terrestrial/snow and ice
+Carbon,resource/ground/terrestrial/wetland
+Carbon dioxide,resource/ground
+Carbon dioxide,resource/ground/terrestrial/barren land
+Carbon dioxide,resource/ground/terrestrial/forest
+Carbon dioxide,resource/ground/terrestrial/grassland
+Carbon dioxide,resource/ground/terrestrial/shrubland
+Carbon dioxide,resource/ground/terrestrial/snow and ice
+Carbon dioxide,resource/ground/terrestrial/wetland
